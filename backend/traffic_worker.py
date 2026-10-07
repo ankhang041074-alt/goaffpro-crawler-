@@ -161,8 +161,16 @@ def fetch_domain_rank(domain: str) -> Tuple[Optional[int], str]:
     if not domain or len(domain) < 3:
         return None, "no_data"
 
-    # Skip generic cloud or free hosting subdomains
-    if any(h in domain for h in ["hostingersite.com", "myshopify.com", "wixsite.com", "wordpress.com"]):
+    # Skip generic cloud, marketplaces, social platforms, and free hosting
+    # These platforms have huge global traffic that does NOT belong to the individual affiliate store!
+    generic_domains = [
+        "hostingersite.com", "myshopify.com", "wixsite.com", "wordpress.com",
+        "amazon.", "etsy.com", "ebay.", "walmart.com", "target.com",
+        "aliexpress.com", "tiktok.com", "instagram.com", "facebook.com",
+        "twitter.com", "x.com", "youtube.com", "pinterest.com",
+        "linktr.ee", "beacons.ai", "campsite.bio"
+    ]
+    if any(h in domain for h in generic_domains):
         return None, "no_data"
 
     # Check given domain

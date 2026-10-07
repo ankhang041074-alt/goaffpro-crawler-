@@ -41,7 +41,7 @@ class OpenBrowserRequest(BaseModel):
 
 class StartCrawlRequest(BaseModel):
     max_pages: Optional[int] = 50
-    start_url: Optional[str] = "https://goaffpro.com/stores"
+    start_url: Optional[str] = "https://goaffpro.com/login"
 
 
 class UpdateNoteRequest(BaseModel):
@@ -65,7 +65,10 @@ def get_system_status():
 @app.post("/api/browser/open")
 def open_browser(req: OpenBrowserRequest):
     """Launch persistent browser context for user login."""
-    res = crawler.open_login_window(url=req.url or "https://goaffpro.com/login")
+    target_url = (req.url or "https://goaffpro.com/login").strip()
+    if "goaffpro.com/stores" in target_url.lower() and "affiliate" not in target_url.lower():
+        target_url = "https://goaffpro.com/login"
+    res = crawler.open_login_window(url=target_url)
     return res
 
 
@@ -73,10 +76,13 @@ def open_browser(req: OpenBrowserRequest):
 def start_crawl(req: StartCrawlRequest):
     """Start background crawl task."""
     job_id = str(uuid.uuid4())[:8]
+    start_url = req.start_url or "https://goaffpro.com/login"
+    if "goaffpro.com/stores" in start_url.lower() and "affiliate" not in start_url.lower():
+        start_url = "https://goaffpro.com/login"
     crawler.start_background_crawl(
         job_id=job_id,
         max_pages=req.max_pages or 50,
-        start_url=req.start_url or "https://goaffpro.com/stores"
+        start_url=start_url
     )
     return {
         "job_id": job_id,
@@ -100,6 +106,7 @@ def get_stores_endpoint(
     search: Optional[str] = Query(None),
     category: Optional[str] = Query(None),
     min_commission: Optional[float] = Query(None),
+    cookie_days: Optional[str] = Query(None),
     favorite_only: bool = Query(False),
     sort_by: str = Query("commission_value"),
     sort_order: str = Query("desc"),
@@ -107,10 +114,19 @@ def get_stores_endpoint(
     offset: int = Query(0)
 ):
     """Query stores with filtering, searching, and pagination."""
+    # Convert cookie_days to int if it's not empty
+    cookie_days_val = None
+    if cookie_days and cookie_days.strip():
+        try:
+            cookie_days_val = int(cookie_days.strip())
+        except ValueError:
+            pass
+
     return db.get_stores(
         search=search,
         category=category,
         min_commission=min_commission,
+        cookie_days=cookie_days_val,
         favorite_only=favorite_only,
         sort_by=sort_by,
         sort_order=sort_order,
@@ -145,18 +161,41 @@ def update_store_note_endpoint(store_id: str, req: UpdateNoteRequest):
     return {"store_id": store_id, "notes": req.note, "status": req.status}
 
 
+@app.delete("/api/stores/{store_id}")
+def delete_store_endpoint(store_id: str):
+    """Delete a single store."""
+    deleted = db.delete_store(store_id)
+    return {"store_id": store_id, "deleted": deleted}
+
+
+@app.delete("/api/stores/currency/{currency}")
+def delete_stores_by_currency_endpoint(currency: str):
+    """Delete all stores with given currency (e.g. INR)."""
+    count = db.delete_stores_by_currency(currency)
+    return {"currency": currency, "deleted_count": count}
+
+
 @app.get("/api/export/csv")
 def export_csv_endpoint(
     search: Optional[str] = Query(None),
     category: Optional[str] = Query(None),
     min_commission: Optional[float] = Query(None),
+    cookie_days: Optional[str] = Query(None),
     favorite_only: bool = Query(False)
 ):
     """Export filtered stores to CSV."""
+    cookie_days_val = None
+    if cookie_days and cookie_days.strip():
+        try:
+            cookie_days_val = int(cookie_days.strip())
+        except ValueError:
+            pass
+
     data = db.get_stores(
         search=search,
         category=category,
         min_commission=min_commission,
+        cookie_days=cookie_days_val,
         favorite_only=favorite_only,
         limit=10000,
         offset=0
@@ -182,13 +221,22 @@ def export_excel_endpoint(
     search: Optional[str] = Query(None),
     category: Optional[str] = Query(None),
     min_commission: Optional[float] = Query(None),
+    cookie_days: Optional[str] = Query(None),
     favorite_only: bool = Query(False)
 ):
     """Export filtered stores to Excel .xlsx format."""
+    cookie_days_val = None
+    if cookie_days and cookie_days.strip():
+        try:
+            cookie_days_val = int(cookie_days.strip())
+        except ValueError:
+            pass
+
     data = db.get_stores(
         search=search,
         category=category,
         min_commission=min_commission,
+        cookie_days=cookie_days_val,
         favorite_only=favorite_only,
         limit=10000,
         offset=0

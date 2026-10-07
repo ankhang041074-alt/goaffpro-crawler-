@@ -21,7 +21,8 @@ import {
   ChevronLeft,
   ChevronRight,
   ShieldCheck,
-  Building
+  Building,
+  Trash2
 } from 'lucide-react';
 
 interface Store {
@@ -31,6 +32,7 @@ interface Store {
   website_url: string;
   portal_url: string;
   logo_url: string;
+  currency: string;
   commission_rate: string;
   commission_value: number;
   cookie_days: number;
@@ -65,6 +67,8 @@ export default function App() {
   const [totalCount, setTotalCount] = useState<number>(0);
   const [stats, setStats] = useState<Stats | null>(null);
   const [categories, setCategories] = useState<string[]>([]);
+  const [cookieFilter, setCookieFilter] = useState<string>('all');
+  const [availableCookies, setAvailableCookies] = useState<number[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
 
   // Filters & Pagination
@@ -81,7 +85,7 @@ export default function App() {
   const [activeJob, setActiveJob] = useState<CrawlJob | null>(null);
   const [showCrawlModal, setShowCrawlModal] = useState<boolean>(false);
   const [crawlMaxPages, setCrawlMaxPages] = useState<number>(30);
-  const [crawlStartUrl, setCrawlStartUrl] = useState<string>('https://goaffpro.com/stores');
+  const [crawlStartUrl, setCrawlStartUrl] = useState<string>('https://goaffpro.com/login');
   const [isOpeningBrowser, setIsOpeningBrowser] = useState<boolean>(false);
 
   // Selected Store Modal
@@ -100,7 +104,7 @@ export default function App() {
   // Fetch stores on filter change
   useEffect(() => {
     fetchStores();
-  }, [search, selectedCategory, minCommission, favoriteOnly, sortBy, sortOrder, page]);
+  }, [search, selectedCategory, minCommission, favoriteOnly, sortBy, sortOrder, page, cookieFilter]);
 
   async function fetchStats() {
     try {
@@ -108,6 +112,7 @@ export default function App() {
       if (res.ok) {
         const json = await res.json();
         setStats(json);
+        if (json.cookie_durations) setAvailableCookies(json.cookie_durations);
       }
     } catch (e) {
       console.error('Error fetching stats:', e);
@@ -132,6 +137,7 @@ export default function App() {
       const params = new URLSearchParams({
         search: search.trim(),
         category: selectedCategory,
+        cookie_days: cookieFilter !== 'all' ? cookieFilter : '',
         min_commission: minCommission.toString(),
         favorite_only: favoriteOnly ? 'true' : 'false',
         sort_by: sortBy,
@@ -174,12 +180,17 @@ export default function App() {
   async function handleStartCrawl() {
     setShowCrawlModal(false);
     try {
+      const rawUrl = (crawlStartUrl || '').trim();
+      const isInvalidStoresUrl = !rawUrl || (rawUrl.toLowerCase().includes('goaffpro.com/stores') && !rawUrl.toLowerCase().includes('affiliate'));
+      const sanitizedUrl = isInvalidStoresUrl
+        ? 'https://goaffpro.com/login'
+        : rawUrl;
       const res = await fetch('/api/crawl/start', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           max_pages: crawlMaxPages,
-          start_url: crawlStartUrl.trim()
+          start_url: sanitizedUrl
         })
       });
       if (res.ok) {
@@ -262,10 +273,51 @@ export default function App() {
     }
   }
 
+  async function handleDeleteStore(storeId: string, storeName?: string) {
+    if (!window.confirm(`Bạn có chắc chắn muốn xóa cửa hàng "${storeName || storeId}" khỏi danh sách?`)) {
+      return;
+    }
+    try {
+      const res = await fetch(`/api/stores/${encodeURIComponent(storeId)}`, {
+        method: 'DELETE'
+      });
+      if (res.ok) {
+        setStores(prev => prev.filter(s => s.store_id !== storeId));
+        setTotalCount(prev => Math.max(0, prev - 1));
+        if (selectedStore?.store_id === storeId) {
+          setSelectedStore(null);
+        }
+        fetchStats();
+      }
+    } catch (err) {
+      alert('Lỗi xóa cửa hàng: ' + err);
+    }
+  }
+
+  async function handleDeleteByCurrency(currency: string) {
+    if (!window.confirm(`Bạn có chắc chắn muốn xóa TẤT CẢ các dự án tiền ${currency} (Ấn Độ)? Thao tác này không thể hoàn tác!`)) {
+      return;
+    }
+    try {
+      const res = await fetch(`/api/stores/currency/${encodeURIComponent(currency)}`, {
+        method: 'DELETE'
+      });
+      if (res.ok) {
+        const json = await res.json();
+        alert(`Đã xóa thành công ${json.deleted_count} cửa hàng tiền ${currency}!`);
+        fetchStores();
+        fetchStats();
+      }
+    } catch (err) {
+      alert('Lỗi xóa dự án theo tiền tệ: ' + err);
+    }
+  }
+
   function handleExport(format: 'excel' | 'csv') {
     const params = new URLSearchParams({
       search: search.trim(),
       category: selectedCategory,
+        cookie_days: cookieFilter !== 'all' ? cookieFilter : '',
       min_commission: minCommission.toString(),
       favorite_only: favoriteOnly ? 'true' : 'false'
     });
@@ -275,22 +327,22 @@ export default function App() {
   const totalPages = Math.ceil(totalCount / pageSize) || 1;
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans">
+    <div className="min-h-screen bg-slate-50 text-slate-100 flex flex-col font-sans">
       {/* HEADER */}
-      <header className="border-b border-slate-800 bg-slate-900/90 backdrop-blur-md sticky top-0 z-40 px-6 py-4">
+      <header className="border-b border-slate-200 bg-slate-50/90 backdrop-blur-md sticky top-0 z-40 px-6 py-4">
         <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500 flex items-center justify-center shadow-lg shadow-indigo-500/20">
-              <Layers className="text-white w-5 h-5" />
+              <Layers className="text-slate-900 w-5 h-5" />
             </div>
             <div>
-              <h1 className="text-lg font-bold tracking-tight text-white flex items-center gap-2">
+              <h1 className="text-lg font-bold tracking-tight text-slate-900 flex items-center gap-2">
                 <span>GoAffPro Store Hunter</span>
                 <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-indigo-950 text-indigo-300 border border-indigo-700">
                   Affiliate CRM
                 </span>
               </h1>
-              <p className="text-xs text-slate-400">
+              <p className="text-xs text-slate-500">
                 Cào danh sách cửa hàng tự động & quản lý chương trình Affiliate Shopify
               </p>
             </div>
@@ -300,7 +352,7 @@ export default function App() {
             <button
               onClick={handleOpenLoginBrowser}
               disabled={isOpeningBrowser}
-              className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 hover:border-slate-600 transition cursor-pointer shadow-sm"
+              className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-semibold bg-slate-200 hover:bg-slate-700 text-slate-700 border border-slate-300 hover:border-slate-600 transition cursor-pointer shadow-sm"
               title="Mở trình duyệt Chromium để đăng nhập tài khoản GoAffPro và lưu cookie vĩnh viễn"
             >
               <Key size={14} className="text-amber-400" />
@@ -309,17 +361,17 @@ export default function App() {
 
             <button
               onClick={() => setShowCrawlModal(true)}
-              className="flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white shadow-lg shadow-indigo-600/25 transition cursor-pointer"
+              className="flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-slate-900 shadow-lg shadow-indigo-600/25 transition cursor-pointer"
             >
               <Play size={14} fill="currentColor" />
               <span>Cào Dữ Liệu Mới</span>
             </button>
 
-            <div className="h-5 w-px bg-slate-800 mx-1 hidden sm:block" />
+            <div className="h-5 w-px bg-slate-200 mx-1 hidden sm:block" />
 
             <button
               onClick={() => handleExport('excel')}
-              className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold bg-emerald-950/80 hover:bg-emerald-900 text-emerald-300 border border-emerald-800 transition cursor-pointer"
+              className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-300 transition cursor-pointer"
               title="Xuất danh sách ra file Excel .xlsx"
             >
               <FileSpreadsheet size={14} />
@@ -327,11 +379,20 @@ export default function App() {
             </button>
 
             <button
+              onClick={() => handleDeleteByCurrency('INR')}
+              className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold bg-rose-50 hover:bg-rose-100 text-rose-600 border border-rose-200 transition cursor-pointer"
+              title="Xóa tất cả các dự án tiền Ấn Độ (INR)"
+            >
+              <Trash2 size={13} />
+              <span>Xóa Tiền INR</span>
+            </button>
+
+            <button
               onClick={() => {
                 fetchStats();
                 fetchStores();
               }}
-              className="p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition cursor-pointer border border-slate-700"
+              className="p-2 rounded-xl bg-slate-200 hover:bg-slate-700 text-slate-500 hover:text-slate-900 transition cursor-pointer border border-slate-300"
               title="Làm mới dữ liệu"
             >
               <RefreshCw size={14} className={loading ? 'animate-spin' : ''} />
@@ -345,9 +406,9 @@ export default function App() {
         <div className="bg-indigo-950/60 border-b border-indigo-800/80 px-6 py-3 animate-in fade-in duration-300">
           <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
             <div className="flex items-center gap-3">
-              <RefreshCw className="animate-spin text-indigo-400 w-5 h-5 flex-shrink-0" />
+              <RefreshCw className="animate-spin text-indigo-600 w-5 h-5 flex-shrink-0" />
               <div>
-                <p className="text-xs font-bold text-white flex items-center gap-2">
+                <p className="text-xs font-bold text-slate-900 flex items-center gap-2">
                   <span>Tiến trình cào GoAffPro đang chạy</span>
                   <span className="text-[11px] px-2 py-0.5 rounded-full bg-indigo-900 text-indigo-300 font-mono">
                     Trang {activeJob.current_page} / {activeJob.total_pages}
@@ -357,10 +418,10 @@ export default function App() {
               </div>
             </div>
             <div className="text-right">
-              <span className="text-sm font-black text-emerald-400 font-mono">
+              <span className="text-sm font-black text-emerald-600 font-mono">
                 +{activeJob.total_stores}
               </span>
-              <span className="text-[11px] text-slate-400 block">stores thu thập</span>
+              <span className="text-[11px] text-slate-500 block">stores thu thập</span>
             </div>
           </div>
         </div>
@@ -370,30 +431,30 @@ export default function App() {
       <main className="max-w-7xl mx-auto w-full px-6 py-6 flex-1 flex flex-col gap-6">
         {/* STATS OVERVIEW */}
         <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <div className="bg-slate-900/80 border border-slate-800/90 rounded-2xl p-4 shadow-sm">
-            <div className="flex items-center justify-between text-slate-400 mb-1">
+          <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-sm">
+            <div className="flex items-center justify-between text-slate-500 mb-1">
               <span className="text-xs font-medium uppercase tracking-wider">Tổng Stores</span>
-              <Building size={16} className="text-indigo-400" />
+              <Building size={16} className="text-indigo-600" />
             </div>
-            <div className="text-2xl font-black text-white font-mono">
+            <div className="text-2xl font-black text-slate-900 font-mono">
               {(stats?.total_stores || 0).toLocaleString()}
             </div>
             <span className="text-[11px] text-slate-500 mt-0.5 block">Đã lưu trong database</span>
           </div>
 
-          <div className="bg-slate-900/80 border border-slate-800/90 rounded-2xl p-4 shadow-sm">
-            <div className="flex items-center justify-between text-slate-400 mb-1">
+          <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-sm">
+            <div className="flex items-center justify-between text-slate-500 mb-1">
               <span className="text-xs font-medium uppercase tracking-wider">Hoa Hồng Cao Nhất</span>
-              <Percent size={16} className="text-emerald-400" />
+              <Percent size={16} className="text-emerald-600" />
             </div>
-            <div className="text-2xl font-black text-emerald-400 font-mono">
+            <div className="text-2xl font-black text-emerald-600 font-mono">
               {stats?.max_commission || 0}%
             </div>
             <span className="text-[11px] text-slate-500 mt-0.5 block">Cơ hội lợi nhuận cao</span>
           </div>
 
-          <div className="bg-slate-900/80 border border-slate-800/90 rounded-2xl p-4 shadow-sm">
-            <div className="flex items-center justify-between text-slate-400 mb-1">
+          <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-sm">
+            <div className="flex items-center justify-between text-slate-500 mb-1">
               <span className="text-xs font-medium uppercase tracking-wider">Hoa Hồng Trung Bình</span>
               <TrendingUp size={16} className="text-sky-400" />
             </div>
@@ -403,8 +464,8 @@ export default function App() {
             <span className="text-[11px] text-slate-500 mt-0.5 block">Mức chiết khấu phổ biến</span>
           </div>
 
-          <div className="bg-slate-900/80 border border-slate-800/90 rounded-2xl p-4 shadow-sm">
-            <div className="flex items-center justify-between text-slate-400 mb-1">
+          <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-sm">
+            <div className="flex items-center justify-between text-slate-500 mb-1">
               <span className="text-xs font-medium uppercase tracking-wider">Stores Yêu Thích</span>
               <Star size={16} className="text-amber-400 fill-amber-400/30" />
             </div>
@@ -416,134 +477,50 @@ export default function App() {
         </section>
 
         {/* SEARCH & FILTERS BAR */}
-        <section className="bg-slate-900/70 border border-slate-800 rounded-2xl p-4 flex flex-col gap-3">
-          <div className="flex flex-wrap items-center gap-3">
-            {/* Search Input */}
-            <div className="relative flex-1 min-w-[240px]">
-              <Search size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400" />
-              <input
-                type="text"
-                placeholder="Tìm theo tên store, website, ngành hàng, mô tả..."
-                value={search}
-                onChange={e => {
-                  setSearch(e.target.value);
-                  setPage(1);
-                }}
-                className="w-full bg-slate-950 border border-slate-700/80 rounded-xl pl-10 pr-4 py-2.5 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition"
-              />
-              {search && (
-                <button
-                  onClick={() => setSearch('')}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white"
-                >
-                  <X size={14} />
-                </button>
-              )}
-            </div>
-
-            {/* Category Dropdown */}
-            <select
-              value={selectedCategory}
+        {/* SEARCH BAR */}
+        <section className="bg-white border border-slate-200 rounded-2xl p-3 shadow-sm flex items-center gap-3">
+          <div className="relative flex-1">
+            <Search size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400" />
+            <input
+              type="text"
+              placeholder="Search store name, website, notes..."
+              value={search}
               onChange={e => {
-                setSelectedCategory(e.target.value);
+                setSearch(e.target.value);
                 setPage(1);
               }}
-              className="bg-slate-950 border border-slate-700/80 rounded-xl px-3.5 py-2.5 text-xs text-slate-200 focus:outline-none focus:border-indigo-500 cursor-pointer"
-            >
-              <option value="all">Tất cả ngành hàng</option>
-              {categories.map(cat => (
-                <option key={cat} value={cat}>
-                  {cat}
-                </option>
-              ))}
-            </select>
-
-            {/* Sort Dropdown */}
-            <select
-              value={`${sortBy}-${sortOrder}`}
-              onChange={e => {
-                const [sb, so] = e.target.value.split('-');
-                setSortBy(sb);
-                setSortOrder(so);
-                setPage(1);
-              }}
-              className="bg-slate-950 border border-slate-700/80 rounded-xl px-3.5 py-2.5 text-xs text-slate-200 focus:outline-none focus:border-indigo-500 cursor-pointer"
-            >
-              <option value="commission_value-desc">Hoa hồng cao nhất</option>
-              <option value="commission_value-asc">Hoa hồng thấp nhất</option>
-              <option value="name-asc">Tên thương hiệu A - Z</option>
-              <option value="cookie_days-desc">Thời hạn Cookie dài nhất</option>
-              <option value="crawled_at-desc">Mới cào gần đây</option>
-            </select>
-
-            {/* Starred Only Toggle */}
-            <button
-              onClick={() => {
-                setFavoriteOnly(!favoriteOnly);
-                setPage(1);
-              }}
-              className={`flex items-center gap-1.5 px-3.5 py-2.5 rounded-xl text-xs font-semibold transition cursor-pointer border ${
-                favoriteOnly
-                  ? 'bg-amber-950/80 text-amber-300 border-amber-700'
-                  : 'bg-slate-950 text-slate-400 border-slate-700 hover:text-slate-200'
-              }`}
-            >
-              <Star size={13} className={favoriteOnly ? 'fill-amber-400' : ''} />
-              <span>Chỉ xem Đã Lưu</span>
-            </button>
-          </div>
-
-          {/* Quick Commission Filter Chips */}
-          <div className="flex items-center gap-2 flex-wrap pt-1 border-t border-slate-800/60 text-xs">
-            <span className="text-slate-400 font-medium flex items-center gap-1">
-              <SlidersHorizontal size={12} /> Hoa hồng:
-            </span>
-            {[
-              { label: 'Tất cả', val: 0 },
-              { label: '≥ 10%', val: 10 },
-              { label: '≥ 15%', val: 15 },
-              { label: '≥ 20%', val: 20 },
-              { label: '≥ 30%', val: 30 }
-            ].map(chip => (
+              className="w-full bg-slate-50 border border-slate-200 rounded-xl pl-10 pr-9 py-2.5 text-xs text-slate-900 placeholder-slate-400 focus:outline-none focus:border-indigo-500 focus:bg-white transition"
+            />
+            {search && (
               <button
-                key={chip.val}
-                onClick={() => {
-                  setMinCommission(chip.val);
-                  setPage(1);
-                }}
-                className={`px-2.5 py-1 rounded-lg font-medium transition cursor-pointer ${
-                  minCommission === chip.val
-                    ? 'bg-indigo-600 text-white font-bold'
-                    : 'bg-slate-800/80 hover:bg-slate-800 text-slate-300'
-                }`}
+                onClick={() => setSearch('')}
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700"
               >
-                {chip.label}
+                <X size={14} />
               </button>
-            ))}
-
-            <span className="ml-auto text-[11px] text-slate-500">
-              Hiển thị {stores.length} / {totalCount} kết quả
-            </span>
+            )}
           </div>
+          <span className="text-xs text-slate-500 font-medium px-2 whitespace-nowrap">
+            Hiển thị {stores.length} / {totalCount} stores
+          </span>
         </section>
 
         {/* STORES TABLE */}
-        <section className="bg-slate-900/80 border border-slate-800 rounded-2xl overflow-hidden shadow-xl flex-1 flex flex-col">
+        <section className="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-xl flex-1 flex flex-col">
           <div className="overflow-x-auto flex-1">
             <table className="w-full text-left border-collapse text-xs">
               <thead>
-                <tr className="border-b border-slate-800 bg-slate-950/80 text-slate-400 font-semibold uppercase tracking-wider text-[11px]">
-                  <th className="py-3.5 px-4 w-12 text-center">⭐</th>
-                  <th className="py-3.5 px-4">Tên Cửa Hàng / Website</th>
-                  <th className="py-3.5 px-4">Hoa Hồng (Commission)</th>
-                  <th className="py-3.5 px-4">Thời Hạn Cookie</th>
-                  <th className="py-3.5 px-4">Ngành Hàng</th>
-                  <th className="py-3.5 px-4">Duyệt</th>
-                  <th className="py-3.5 px-4">Ghi Chú</th>
-                  <th className="py-3.5 px-4 text-right">Thao Tác</th>
+                <tr className="border-b border-slate-200 bg-slate-50/80 text-slate-500 font-semibold uppercase tracking-wider text-[11px]">
+                  <th className="py-3.5 px-3 w-12 text-center">⭐</th>
+                  <th className="py-3.5 px-4 w-[240px]">Store / Website</th>
+                  <th className="py-3.5 px-3 w-28">Currency</th>
+                  <th className="py-3.5 px-3 w-36">Commission</th>
+                  <th className="py-3.5 px-3 w-32">Cookie</th>
+                  <th className="py-3.5 px-4">Notes</th>
+                  <th className="py-3.5 px-4 text-right w-24">Actions</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-slate-800/60">
+              <tbody className="divide-y divide-slate-100">
                 {stores.map(store => {
                   const isHighComm = store.commission_value >= 20;
                   const isMidComm = store.commission_value >= 15;
@@ -556,13 +533,13 @@ export default function App() {
                         setEditingNote(store.notes || '');
                         setEditingStatus(store.status || 'available');
                       }}
-                      className="hover:bg-slate-800/40 transition cursor-pointer group"
+                      className="hover:bg-slate-200/40 transition cursor-pointer group"
                     >
                       {/* Favorite Button */}
                       <td className="py-3 px-4 text-center">
                         <button
                           onClick={e => handleToggleFavorite(store, e)}
-                          className="p-1 rounded-md hover:bg-slate-800 text-slate-500 hover:text-amber-400 transition cursor-pointer"
+                          className="p-1 rounded-md hover:bg-slate-200 text-slate-500 hover:text-amber-400 transition cursor-pointer"
                         >
                           <Star
                             size={16}
@@ -572,25 +549,28 @@ export default function App() {
                       </td>
 
                       {/* Store Name & Link */}
-                      <td className="py-3 px-4">
-                        <div className="flex items-center gap-3">
+                      <td className="py-3 px-4 max-w-[220px]">
+                        <div className="flex items-center gap-2.5">
                           {store.logo_url ? (
                             <img
                               src={store.logo_url}
                               alt={store.name}
-                              className="w-9 h-9 rounded-xl object-contain bg-slate-950 border border-slate-800 p-1 flex-shrink-0"
+                              className="w-8 h-8 rounded-lg object-contain bg-slate-50 border border-slate-200 p-0.5 flex-shrink-0"
                               onError={e => {
                                 (e.target as HTMLElement).style.display = 'none';
                               }}
                             />
                           ) : (
-                            <div className="w-9 h-9 rounded-xl bg-slate-800 border border-slate-700 flex items-center justify-center font-bold text-slate-300 flex-shrink-0">
+                            <div className="w-8 h-8 rounded-lg bg-slate-200 border border-slate-300 flex items-center justify-center font-bold text-xs text-slate-600 flex-shrink-0">
                               {store.name.slice(0, 2).toUpperCase()}
                             </div>
                           )}
 
-                          <div className="min-w-0">
-                            <span className="font-bold text-sm text-white group-hover:text-indigo-400 transition block truncate">
+                          <div className="min-w-0 max-w-[160px]">
+                            <span
+                              className="font-bold text-xs text-slate-900 group-hover:text-indigo-600 transition block truncate"
+                              title={store.name}
+                            >
                               {store.name}
                             </span>
                             {store.website_url && (
@@ -599,26 +579,34 @@ export default function App() {
                                 target="_blank"
                                 rel="noreferrer"
                                 onClick={e => e.stopPropagation()}
-                                className="text-[11px] text-slate-400 hover:text-indigo-300 inline-flex items-center gap-1 truncate max-w-[260px]"
+                                className="text-[11px] text-slate-500 hover:text-indigo-500 inline-flex items-center gap-1 truncate max-w-[150px]"
+                                title={store.website_url}
                               >
-                                <Globe size={11} />
-                                <span>{store.website_url.replace(/^https?:\/\//, '')}</span>
-                                <ExternalLink size={10} />
+                                <Globe size={10} className="flex-shrink-0" />
+                                <span className="truncate">{store.website_url.replace(/^https?:\/\//, '')}</span>
+                                <ExternalLink size={9} className="flex-shrink-0" />
                               </a>
                             )}
                           </div>
                         </div>
                       </td>
 
+                      {/* Currency */}
+                      <td className="py-3 px-3 w-28">
+                        <span className="text-slate-700 font-mono text-xs font-semibold">
+                          {store.currency || 'USD'}
+                        </span>
+                      </td>
+
                       {/* Commission */}
-                      <td className="py-3 px-4">
+                      <td className="py-3 px-3 w-36">
                         <span
                           className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold font-mono border ${
                             isHighComm
-                              ? 'bg-emerald-950/80 text-emerald-300 border-emerald-700'
+                              ? 'bg-emerald-50 text-emerald-600 border-emerald-200'
                               : isMidComm
-                              ? 'bg-sky-950/80 text-sky-300 border-sky-700'
-                              : 'bg-slate-800 text-slate-200 border-slate-700'
+                              ? 'bg-sky-50 text-sky-600 border-sky-200'
+                              : 'bg-slate-200 text-slate-700 border-slate-300'
                           }`}
                         >
                           <Percent size={11} />
@@ -627,41 +615,21 @@ export default function App() {
                       </td>
 
                       {/* Cookie Duration */}
-                      <td className="py-3 px-4">
-                        <span className="text-slate-300 inline-flex items-center gap-1 font-mono">
-                          <Clock size={12} className="text-slate-400" />
-                          {store.cookie_days} ngày
+                      <td className="py-3 px-3 w-32 whitespace-nowrap">
+                        <span className="text-slate-600 inline-flex items-center gap-1 font-mono text-xs">
+                          <Clock size={12} className="text-slate-500" />
+                          {store.cookie_days} days
                         </span>
                       </td>
 
-                      {/* Category */}
+                      {/* Notes */}
                       <td className="py-3 px-4">
-                        <span className="px-2 py-0.5 rounded-full text-[11px] bg-slate-800 text-slate-300 border border-slate-700">
-                          {store.category || 'General'}
-                        </span>
-                      </td>
-
-                      {/* Instant Access */}
-                      <td className="py-3 px-4">
-                        {store.instant_access ? (
-                          <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-emerald-400">
-                            <ShieldCheck size={13} /> Tự động duyệt
-                          </span>
-                        ) : (
-                          <span className="inline-flex items-center gap-1 text-[11px] font-medium text-amber-400">
-                            <AlertCircle size={13} /> Cần xét duyệt
-                          </span>
-                        )}
-                      </td>
-
-                      {/* Notes / Status */}
-                      <td className="py-3 px-4 max-w-[180px] truncate">
                         {store.notes ? (
-                          <span className="text-[11px] text-indigo-300 bg-indigo-950/50 px-2 py-0.5 rounded border border-indigo-800/50 block truncate">
+                          <span className="text-[11px] text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded border border-indigo-200 inline-block max-w-[280px] truncate font-medium">
                             📝 {store.notes}
                           </span>
                         ) : (
-                          <span className="text-[11px] text-slate-600 italic">Chưa có ghi chú</span>
+                          <span className="text-[11px] text-slate-400 italic">No notes</span>
                         )}
                       </td>
 
@@ -673,7 +641,7 @@ export default function App() {
                               href={store.website_url}
                               target="_blank"
                               rel="noreferrer"
-                              className="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition cursor-pointer"
+                              className="p-1.5 rounded-lg bg-slate-200 hover:bg-slate-700 text-slate-600 hover:text-slate-900 transition cursor-pointer"
                               title="Xem website cửa hàng"
                             >
                               <ExternalLink size={14} />
@@ -685,10 +653,20 @@ export default function App() {
                               setEditingNote(store.notes || '');
                               setEditingStatus(store.status || 'available');
                             }}
-                            className="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition cursor-pointer"
+                            className="p-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-600 hover:text-slate-900 border border-slate-200 transition cursor-pointer"
                             title="Ghi chú & Chi tiết"
                           >
                             <Edit3 size={14} />
+                          </button>
+                          <button
+                            onClick={e => {
+                              e.stopPropagation();
+                              handleDeleteStore(store.store_id, store.name);
+                            }}
+                            className="p-1.5 rounded-lg bg-rose-50 hover:bg-rose-100 text-rose-600 border border-rose-200 transition cursor-pointer"
+                            title="Xóa cửa hàng này"
+                          >
+                            <Trash2 size={14} />
                           </button>
                         </div>
                       </td>
@@ -701,7 +679,7 @@ export default function App() {
                     <td colSpan={8} className="py-12 text-center text-slate-500">
                       <div className="flex flex-col items-center gap-2">
                         <Building size={32} className="text-slate-600" />
-                        <p className="text-sm font-semibold text-slate-400">Không tìm thấy store nào</p>
+                        <p className="text-sm font-semibold text-slate-500">Không tìm thấy store nào</p>
                         <p className="text-xs text-slate-500">
                           Hãy bấm &ldquo;Cào Dữ Liệu Mới&rdquo; hoặc xóa bớt bộ lọc để hiển thị kết quả.
                         </p>
@@ -714,23 +692,23 @@ export default function App() {
           </div>
 
           {/* PAGINATION CONTROLS */}
-          <div className="border-t border-slate-800 px-4 py-3 flex items-center justify-between text-xs text-slate-400 bg-slate-950/60">
+          <div className="border-t border-slate-200 px-4 py-3 flex items-center justify-between text-xs text-slate-500 bg-slate-50/60">
             <span>
-              Trang <strong className="text-white">{page}</strong> / {totalPages} (Tổng{' '}
+              Trang <strong className="text-slate-900">{page}</strong> / {totalPages} (Tổng{' '}
               {totalCount.toLocaleString()} stores)
             </span>
             <div className="flex items-center gap-1.5">
               <button
                 onClick={() => setPage(p => Math.max(1, p - 1))}
                 disabled={page <= 1}
-                className="p-1.5 rounded-lg border border-slate-800 bg-slate-900 disabled:opacity-40 hover:bg-slate-800 text-slate-200 transition cursor-pointer"
+                className="p-1.5 rounded-lg border border-slate-200 bg-slate-50 disabled:opacity-40 hover:bg-slate-200 text-slate-700 transition cursor-pointer"
               >
                 <ChevronLeft size={16} />
               </button>
               <button
                 onClick={() => setPage(p => Math.min(totalPages, p + 1))}
                 disabled={page >= totalPages}
-                className="p-1.5 rounded-lg border border-slate-800 bg-slate-900 disabled:opacity-40 hover:bg-slate-800 text-slate-200 transition cursor-pointer"
+                className="p-1.5 rounded-lg border border-slate-200 bg-slate-50 disabled:opacity-40 hover:bg-slate-200 text-slate-700 transition cursor-pointer"
               >
                 <ChevronRight size={16} />
               </button>
@@ -742,54 +720,63 @@ export default function App() {
       {/* CRAWL MODAL */}
       {showCrawlModal && (
         <div className="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 z-50 animate-in fade-in duration-200">
-          <div className="bg-slate-900 border border-slate-700 rounded-3xl max-w-md w-full p-6 shadow-2xl">
-            <div className="flex items-center justify-between pb-3 border-b border-slate-800 mb-4">
+          <div className="bg-slate-50 border border-slate-300 rounded-3xl max-w-md w-full p-6 shadow-2xl">
+            <div className="flex items-center justify-between pb-3 border-b border-slate-200 mb-4">
               <div className="flex items-center gap-2">
-                <div className="p-2 rounded-xl bg-indigo-600 text-white">
+                <div className="p-2 rounded-xl bg-indigo-600 text-slate-900">
                   <Play size={16} />
                 </div>
-                <h3 className="text-base font-bold text-white">Bắt Đầu Cào Stores GoAffPro</h3>
+                <h3 className="text-base font-bold text-slate-900">Bắt Đầu Cào Stores GoAffPro</h3>
               </div>
               <button
                 onClick={() => setShowCrawlModal(false)}
-                className="text-slate-400 hover:text-white text-lg p-1"
+                className="text-slate-500 hover:text-slate-900 text-lg p-1"
               >
                 ✕
               </button>
             </div>
 
-            <p className="text-xs text-slate-300 leading-relaxed mb-4">
-              Playwright sẽ tự động mở trình duyệt với tài khoản bạn đã đăng nhập, vào mục Available
-              Stores và bóc tách dữ liệu từng trang vào hệ thống.
+            <p className="text-xs text-slate-600 leading-relaxed mb-4">
+              Playwright sẽ tự động mở trang đăng nhập GoAffPro, tự động chuyển qua <strong>I am an affiliate</strong>, mở mục <strong>Stores</strong> rồi sang tab <strong>Available Stores</strong> để bóc tách dữ liệu từng trang vào hệ thống.
             </p>
 
             <div className="space-y-3.5 mb-5 text-xs">
               <div>
-                <label className="font-semibold text-slate-300 block mb-1">
+                <label className="font-semibold text-slate-600 block mb-1">
                   Đường dẫn bắt đầu cào (Target URL):
                 </label>
                 <input
                   type="text"
                   value={crawlStartUrl}
                   onChange={e => setCrawlStartUrl(e.target.value)}
-                  className="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2 text-slate-200 font-mono focus:outline-none focus:border-indigo-500"
+                  placeholder="https://goaffpro.com/login"
+                  className="w-full bg-slate-50 border border-slate-300 rounded-xl px-3 py-2 text-slate-700 font-mono focus:outline-none focus:border-indigo-500"
                 />
               </div>
 
               <div>
-                <label className="font-semibold text-slate-300 block mb-1">
+                <label className="font-semibold text-slate-600 block mb-1">
                   Số trang tối đa cần cào:
                 </label>
-                <input
-                  type="number"
-                  min={1}
-                  max={200}
-                  value={crawlMaxPages}
-                  onChange={e => setCrawlMaxPages(Number(e.target.value))}
-                  className="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2 text-slate-200 font-mono focus:outline-none focus:border-indigo-500"
-                />
+                <div className="flex items-center gap-2">
+                  <input
+                    type="number"
+                    min={1}
+                    max={500}
+                    value={crawlMaxPages}
+                    onChange={e => setCrawlMaxPages(Number(e.target.value))}
+                    className="w-full bg-slate-50 border border-slate-300 rounded-xl px-3 py-2 text-slate-700 font-mono focus:outline-none focus:border-indigo-500"
+                  />
+                  <button
+                    type="button"
+                    onClick={() => setCrawlMaxPages(300)}
+                    className="px-3 py-2 rounded-xl text-xs font-semibold bg-slate-200 hover:bg-slate-300 text-slate-700 whitespace-nowrap cursor-pointer"
+                  >
+                    Cào Sạch (300 trang)
+                  </button>
+                </div>
                 <span className="text-[11px] text-slate-500 block mt-1">
-                  Mỗi trang khoảng 15 - 20 stores. Đặt 30 - 50 trang để lấy hàng trăm store tiềm năng.
+                  Mỗi trang gồm 100 stores. Bot sẽ tự động dừng khi đến trang cuối cùng.
                 </span>
               </div>
             </div>
@@ -797,13 +784,13 @@ export default function App() {
             <div className="flex items-center justify-end gap-2">
               <button
                 onClick={() => setShowCrawlModal(false)}
-                className="px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-300 cursor-pointer"
+                className="px-4 py-2 rounded-xl text-xs font-semibold bg-slate-200 hover:bg-slate-700 text-slate-600 cursor-pointer"
               >
                 Hủy
               </button>
               <button
                 onClick={handleStartCrawl}
-                className="px-4 py-2 rounded-xl text-xs font-semibold bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 text-white cursor-pointer shadow-lg shadow-indigo-600/30"
+                className="px-4 py-2 rounded-xl text-xs font-semibold bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 text-slate-900 cursor-pointer shadow-lg shadow-indigo-600/30"
               >
                 Khởi Chạy Ngay
               </button>
@@ -815,40 +802,46 @@ export default function App() {
       {/* STORE DETAIL / NOTE MODAL */}
       {selectedStore && (
         <div className="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 z-50 animate-in fade-in duration-200">
-          <div className="bg-slate-900 border border-slate-700 rounded-3xl max-w-lg w-full p-6 shadow-2xl">
-            <div className="flex items-center justify-between pb-3 border-b border-slate-800 mb-4">
+          <div className="bg-slate-50 border border-slate-300 rounded-3xl max-w-lg w-full p-6 shadow-2xl">
+            <div className="flex items-center justify-between pb-3 border-b border-slate-200 mb-4">
               <div className="flex items-center gap-3">
                 {selectedStore.logo_url && (
                   <img
                     src={selectedStore.logo_url}
                     alt={selectedStore.name}
-                    className="w-10 h-10 rounded-xl object-contain bg-slate-950 border border-slate-800 p-1"
+                    className="w-10 h-10 rounded-xl object-contain bg-slate-50 border border-slate-200 p-1"
                   />
                 )}
                 <div>
-                  <h3 className="text-base font-bold text-white">{selectedStore.name}</h3>
-                  <span className="text-[11px] text-slate-400">{selectedStore.category}</span>
+                  <h3 className="text-base font-bold text-slate-900">{selectedStore.name}</h3>
+                  <span className="text-[11px] text-slate-500">{selectedStore.category}</span>
                 </div>
               </div>
               <button
                 onClick={() => setSelectedStore(null)}
-                className="text-slate-400 hover:text-white text-lg p-1"
+                className="text-slate-500 hover:text-slate-900 text-lg p-1"
               >
                 ✕
               </button>
             </div>
 
             <div className="space-y-4 mb-6 text-xs">
-              <div className="grid grid-cols-2 gap-3 bg-slate-950 p-3 rounded-xl border border-slate-800">
+              <div className="grid grid-cols-3 gap-3 bg-slate-50 p-3 rounded-xl border border-slate-200">
+                <div>
+                  <span className="text-slate-500 block mb-0.5">Tiền tệ:</span>
+                  <span className="text-sm font-bold text-slate-600 font-mono">
+                    {selectedStore.currency || 'USD'}
+                  </span>
+                </div>
                 <div>
                   <span className="text-slate-500 block mb-0.5">Tỷ lệ hoa hồng:</span>
-                  <span className="text-sm font-bold text-emerald-400 font-mono">
+                  <span className="text-sm font-bold text-emerald-600 font-mono">
                     {selectedStore.commission_rate || `${selectedStore.commission_value}%`}
                   </span>
                 </div>
                 <div>
                   <span className="text-slate-500 block mb-0.5">Thời hạn Cookie:</span>
-                  <span className="text-sm font-bold text-white font-mono">
+                  <span className="text-sm font-bold text-slate-900 font-mono">
                     {selectedStore.cookie_days} ngày
                   </span>
                 </div>
@@ -856,21 +849,21 @@ export default function App() {
 
               {selectedStore.description && (
                 <div>
-                  <span className="font-semibold text-slate-300 block mb-1">Mô tả cửa hàng:</span>
-                  <p className="text-slate-400 leading-relaxed bg-slate-950 p-3 rounded-xl border border-slate-800">
+                  <span className="font-semibold text-slate-600 block mb-1">Mô tả cửa hàng:</span>
+                  <p className="text-slate-500 leading-relaxed bg-slate-50 p-3 rounded-xl border border-slate-200">
                     {selectedStore.description}
                   </p>
                 </div>
               )}
 
               <div>
-                <label className="font-semibold text-slate-300 block mb-1">
+                <label className="font-semibold text-slate-600 block mb-1">
                   Trạng thái liên hệ / Hợp tác:
                 </label>
                 <select
                   value={editingStatus}
                   onChange={e => setEditingStatus(e.target.value)}
-                  className="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2 text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full bg-slate-50 border border-slate-300 rounded-xl px-3 py-2 text-slate-700 focus:outline-none focus:border-indigo-500"
                 >
                   <option value="available">Mới tìm thấy (Available)</option>
                   <option value="applied">Đã gửi đơn đăng ký (Applied)</option>
@@ -881,7 +874,7 @@ export default function App() {
               </div>
 
               <div>
-                <label className="font-semibold text-slate-300 block mb-1">
+                <label className="font-semibold text-slate-600 block mb-1">
                   Ghi chú riêng của bạn (Notes):
                 </label>
                 <textarea
@@ -889,35 +882,41 @@ export default function App() {
                   value={editingNote}
                   onChange={e => setEditingNote(e.target.value)}
                   placeholder="Ví dụ: Cần xin mẫu sản phẩm, liên hệ qua email support@... hoặc hoa hồng thương lượng thêm..."
-                  className="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2 text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full bg-slate-50 border border-slate-300 rounded-xl px-3 py-2 text-slate-700 focus:outline-none focus:border-indigo-500"
                 />
               </div>
             </div>
 
-            <div className="flex items-center justify-between">
-              {selectedStore.website_url ? (
-                <a
-                  href={selectedStore.website_url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-xs text-indigo-400 hover:underline inline-flex items-center gap-1"
-                >
-                  <Globe size={13} /> Mở trang chủ thương hiệu <ExternalLink size={11} />
-                </a>
-              ) : (
-                <div />
-              )}
+            <div className="flex items-center justify-between pt-3 border-t border-slate-200">
+              <button
+                onClick={() => handleDeleteStore(selectedStore.store_id, selectedStore.name)}
+                className="px-3.5 py-2 rounded-xl text-xs font-semibold bg-rose-50 hover:bg-rose-100 text-rose-600 border border-rose-200 cursor-pointer inline-flex items-center gap-1.5 transition"
+                title="Xóa cửa hàng này khỏi cơ sở dữ liệu"
+              >
+                <Trash2 size={13} />
+                <span>Xóa Cửa Hàng</span>
+              </button>
 
               <div className="flex items-center gap-2">
+                {selectedStore.website_url && (
+                  <a
+                    href={selectedStore.website_url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-xs text-indigo-600 hover:underline inline-flex items-center gap-1 mr-2"
+                  >
+                    <Globe size={13} /> Trang chủ <ExternalLink size={11} />
+                  </a>
+                )}
                 <button
                   onClick={() => setSelectedStore(null)}
-                  className="px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-300 cursor-pointer"
+                  className="px-4 py-2 rounded-xl text-xs font-semibold bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-200 cursor-pointer"
                 >
                   Đóng
                 </button>
                 <button
                   onClick={handleSaveNote}
-                  className="px-4 py-2 rounded-xl text-xs font-semibold bg-indigo-600 hover:bg-indigo-500 text-white cursor-pointer shadow-lg shadow-indigo-600/30"
+                  className="px-4 py-2 rounded-xl text-xs font-semibold bg-indigo-600 hover:bg-indigo-500 text-white cursor-pointer shadow-sm transition"
                 >
                   Lưu Ghi Chú
                 </button>

@@ -49,6 +49,7 @@ def init_db():
         website_url TEXT DEFAULT '',
         portal_url TEXT DEFAULT '',
         logo_url TEXT DEFAULT '',
+        currency TEXT DEFAULT 'USD',
         commission_rate TEXT DEFAULT '',
         commission_value REAL DEFAULT 0.0,
         cookie_days INTEGER DEFAULT 30,
@@ -102,6 +103,7 @@ def save_store(store: Dict[str, Any]) -> bool:
     portal_url = str(store.get("portal_url") or "").strip()
     logo_url = str(store.get("logo_url") or "").strip()
     commission_rate = str(store.get("commission_rate") or "").strip()
+    currency = str(store.get("currency") or "USD").strip()
     commission_val = float(store.get("commission_value") or parse_commission_numeric(commission_rate))
     cookie_days = int(store.get("cookie_days") or 30)
     category = str(store.get("category") or "General").strip()
@@ -110,11 +112,11 @@ def save_store(store: Dict[str, Any]) -> bool:
 
     cursor.execute("""
     INSERT INTO stores (
-        store_id, name, website_url, portal_url, logo_url,
+        store_id, name, website_url, portal_url, logo_url, currency,
         commission_rate, commission_value, cookie_days, category,
         description, instant_access, updated_at
     ) VALUES (
-        ?, ?, ?, ?, ?,
+        ?, ?, ?, ?, ?, ?,
         ?, ?, ?, ?,
         ?, ?, CURRENT_TIMESTAMP
     )
@@ -123,6 +125,7 @@ def save_store(store: Dict[str, Any]) -> bool:
         website_url=CASE WHEN excluded.website_url != '' THEN excluded.website_url ELSE stores.website_url END,
         portal_url=CASE WHEN excluded.portal_url != '' THEN excluded.portal_url ELSE stores.portal_url END,
         logo_url=CASE WHEN excluded.logo_url != '' THEN excluded.logo_url ELSE stores.logo_url END,
+        currency=excluded.currency,
         commission_rate=CASE WHEN excluded.commission_rate != '' THEN excluded.commission_rate ELSE stores.commission_rate END,
         commission_value=CASE WHEN excluded.commission_value > 0 THEN excluded.commission_value ELSE stores.commission_value END,
         cookie_days=excluded.cookie_days,
@@ -131,7 +134,7 @@ def save_store(store: Dict[str, Any]) -> bool:
         instant_access=excluded.instant_access,
         updated_at=CURRENT_TIMESTAMP
     """, (
-        store_id, name, website_url, portal_url, logo_url,
+        store_id, name, website_url, portal_url, logo_url, currency,
         commission_rate, commission_val, cookie_days, category,
         description, instant_access
     ))
@@ -160,6 +163,7 @@ def save_stores_batch(stores_list: List[Dict[str, Any]]) -> int:
         portal_url = str(store.get("portal_url") or "").strip()
         logo_url = str(store.get("logo_url") or "").strip()
         commission_rate = str(store.get("commission_rate") or "").strip()
+        currency = str(store.get("currency") or "USD").strip()
         commission_val = float(store.get("commission_value") or parse_commission_numeric(commission_rate))
         cookie_days = int(store.get("cookie_days") or 30)
         category = str(store.get("category") or "General").strip()
@@ -168,11 +172,11 @@ def save_stores_batch(stores_list: List[Dict[str, Any]]) -> int:
 
         cursor.execute("""
         INSERT INTO stores (
-            store_id, name, website_url, portal_url, logo_url,
+            store_id, name, website_url, portal_url, logo_url, currency,
             commission_rate, commission_value, cookie_days, category,
             description, instant_access, updated_at
         ) VALUES (
-            ?, ?, ?, ?, ?,
+            ?, ?, ?, ?, ?, ?,
             ?, ?, ?, ?,
             ?, ?, CURRENT_TIMESTAMP
         )
@@ -181,6 +185,7 @@ def save_stores_batch(stores_list: List[Dict[str, Any]]) -> int:
             website_url=CASE WHEN excluded.website_url != '' THEN excluded.website_url ELSE stores.website_url END,
             portal_url=CASE WHEN excluded.portal_url != '' THEN excluded.portal_url ELSE stores.portal_url END,
             logo_url=CASE WHEN excluded.logo_url != '' THEN excluded.logo_url ELSE stores.logo_url END,
+            currency=excluded.currency,
             commission_rate=CASE WHEN excluded.commission_rate != '' THEN excluded.commission_rate ELSE stores.commission_rate END,
             commission_value=CASE WHEN excluded.commission_value > 0 THEN excluded.commission_value ELSE stores.commission_value END,
             cookie_days=excluded.cookie_days,
@@ -189,7 +194,7 @@ def save_stores_batch(stores_list: List[Dict[str, Any]]) -> int:
             instant_access=excluded.instant_access,
             updated_at=CURRENT_TIMESTAMP
         """, (
-            store_id, name, website_url, portal_url, logo_url,
+            store_id, name, website_url, portal_url, logo_url, currency,
             commission_rate, commission_val, cookie_days, category,
             description, instant_access
         ))
@@ -200,10 +205,33 @@ def save_stores_batch(stores_list: List[Dict[str, Any]]) -> int:
     return saved
 
 
+def delete_store(store_id: str) -> bool:
+    """Delete a single store by store_id."""
+    conn = get_db()
+    cursor = conn.cursor()
+    cursor.execute("DELETE FROM stores WHERE store_id = ?", (store_id,))
+    deleted = cursor.rowcount > 0
+    conn.commit()
+    conn.close()
+    return deleted
+
+
+def delete_stores_by_currency(currency: str) -> int:
+    """Delete all stores with given currency (e.g. INR)."""
+    conn = get_db()
+    cursor = conn.cursor()
+    cursor.execute("DELETE FROM stores WHERE UPPER(currency) = UPPER(?)", (currency.strip(),))
+    deleted_count = cursor.rowcount
+    conn.commit()
+    conn.close()
+    return deleted_count
+
+
 def get_stores(
     search: Optional[str] = None,
     category: Optional[str] = None,
     min_commission: Optional[float] = None,
+    cookie_days: Optional[int] = None,
     favorite_only: bool = False,
     sort_by: str = "commission_value",
     sort_order: str = "desc",
@@ -292,13 +320,17 @@ def get_stats() -> Dict[str, Any]:
     cursor.execute("SELECT category, COUNT(*) as cnt FROM stores GROUP BY category ORDER BY cnt DESC LIMIT 5")
     top_categories = [{"category": r["category"], "count": r["cnt"]} for r in cursor.fetchall()]
 
+    cursor.execute("SELECT DISTINCT cookie_days FROM stores ORDER BY cookie_days ASC")
+    cookie_durations = [r["cookie_days"] for r in cursor.fetchall() if r["cookie_days"] is not None]
+
     conn.close()
     return {
         "total_stores": total_stores,
         "avg_commission": avg_comm,
         "max_commission": max_comm,
         "total_favorites": total_fav,
-        "top_categories": top_categories
+        "top_categories": top_categories,
+        "cookie_durations": cookie_durations
     }
 
 

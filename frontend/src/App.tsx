@@ -36,7 +36,8 @@ import {
   Eye,
   Activity,
   Info,
-  BarChart2
+  BarChart2,
+  Tag
 } from 'lucide-react';
 
 interface Store {
@@ -65,6 +66,10 @@ interface Store {
   trend_peak_month?: string;
   trend_status?: 'success' | 'no_data' | 'error' | 'pending';
   traffic_updated_at?: string;
+  categories_json?: string;
+  site_title?: string;
+  site_description?: string;
+  is_adult?: number;
 }
 
 interface TrafficWorkerStatus {
@@ -88,6 +93,8 @@ interface Stats {
   max_commission: number;
   total_favorites: number;
   top_categories: { category: string; count: number }[];
+  categories?: { category: string; count: number }[];
+  adult_count?: number;
   currencies?: { currency: string; count: number }[];
   cookie_durations?: { days: number; count: number }[];
   traffic?: {
@@ -128,6 +135,7 @@ export default function App() {
   const [trendScoreFilter, setTrendScoreFilter] = useState<string>('all');
   const [trendPeakOnly, setTrendPeakOnly] = useState<boolean>(false);
   const [trendGrowthOnly, setTrendGrowthOnly] = useState<boolean>(false);
+  const [adultFilter, setAdultFilter] = useState<string>('hide');
   const [notesFilter, setNotesFilter] = useState<string>('all');
   const [favoriteOnly, setFavoriteOnly] = useState<boolean>(false);
   const [sortBy, setSortBy] = useState<string>('commission_value');
@@ -196,7 +204,7 @@ export default function App() {
   }, [
     search, selectedCategory, currencyFilter, commissionFilter, cookieFilter,
     trafficFilter, trendMonthFilter, trendScoreFilter, trendPeakOnly, trendGrowthOnly,
-    notesFilter, favoriteOnly, sortBy, sortOrder, page
+    adultFilter, notesFilter, favoriteOnly, sortBy, sortOrder, page
   ]);
 
   async function fetchStats() {
@@ -363,6 +371,7 @@ export default function App() {
         trend_min_score: trendMinScoreVal,
         trend_peak_only: trendPeakOnlyVal ? 'true' : 'false',
         trend_growth_only: trendGrowthOnlyVal ? 'true' : 'false',
+        adult_filter: adultFilter,
         notes_filter: notesFilter !== 'all' ? notesFilter : '',
         favorite_only: favoriteOnly ? 'true' : 'false',
         sort_by: sortBy,
@@ -592,6 +601,7 @@ export default function App() {
       trend_min_score: trendMinScoreVal,
       trend_peak_only: trendPeakOnlyVal ? 'true' : 'false',
       trend_growth_only: trendGrowthOnlyVal ? 'true' : 'false',
+      adult_filter: adultFilter,
       notes_filter: notesFilter !== 'all' ? notesFilter : '',
       favorite_only: favoriteOnly ? 'true' : 'false'
     });
@@ -1129,12 +1139,12 @@ export default function App() {
 
         {/* SEARCH & FILTERS BAR */}
         <section className="bg-white border border-slate-200 rounded-2xl p-3 shadow-sm flex flex-col gap-2.5">
-          <div className="flex items-center gap-3">
-            <div className="relative flex-1">
+          <div className="flex items-center gap-2.5 flex-wrap">
+            <div className="relative flex-1 min-w-[260px]">
               <Search size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400" />
               <input
                 type="text"
-                placeholder="Search store name, website, notes..."
+                placeholder="Search store name, website, notes, description..."
                 value={search}
                 onChange={e => {
                   setSearch(e.target.value);
@@ -1151,7 +1161,55 @@ export default function App() {
                 </button>
               )}
             </div>
-            <span className="text-xs text-slate-500 font-medium px-2 whitespace-nowrap">
+
+            {/* Category Dropdown */}
+            <select
+              value={selectedCategory}
+              onChange={e => {
+                setSelectedCategory(e.target.value);
+                setPage(1);
+              }}
+              className={`text-xs font-semibold py-2.5 px-3 rounded-xl border focus:outline-none transition cursor-pointer ${
+                selectedCategory !== 'all'
+                  ? 'bg-purple-50 border-purple-300 text-purple-900'
+                  : 'bg-slate-50 border-slate-200 text-slate-700 hover:border-slate-300'
+              }`}
+              title="Lọc theo ngành hàng"
+            >
+              <option value="all">🏷️ Tất cả ngành hàng</option>
+              {stats?.categories && stats.categories.length > 0 ? (
+                stats.categories.map(c => (
+                  <option key={c.category} value={c.category}>
+                    {c.category} ({c.count.toLocaleString()})
+                  </option>
+                ))
+              ) : (
+                <option value="General">General</option>
+              )}
+            </select>
+
+            {/* 18+ Adult Filter */}
+            <select
+              value={adultFilter}
+              onChange={e => {
+                setAdultFilter(e.target.value);
+                setPage(1);
+              }}
+              className={`text-xs font-semibold py-2.5 px-3 rounded-xl border focus:outline-none transition cursor-pointer ${
+                adultFilter === 'hide'
+                  ? 'bg-emerald-50 border-emerald-300 text-emerald-800'
+                  : adultFilter === 'only_adult'
+                  ? 'bg-rose-50 border-rose-300 text-rose-800'
+                  : 'bg-slate-50 border-slate-200 text-slate-700 hover:border-slate-300'
+              }`}
+              title="Bộ lọc nội dung 18+ / Đồ chơi người lớn"
+            >
+              <option value="hide">🛡️ Ẩn 18+ (Sạch)</option>
+              <option value="show_all">👁️ Hiện tất cả ({stats?.adult_count ? `gồm ${stats.adult_count} web 18+` : 'tất cả'})</option>
+              <option value="only_adult">🔞 Chỉ xem 18+ ({stats?.adult_count || 0})</option>
+            </select>
+
+            <span className="text-xs text-slate-500 font-medium px-1 whitespace-nowrap">
               Hiển thị {stores.length} / {totalCount.toLocaleString()} stores
             </span>
           </div>
@@ -1230,11 +1288,29 @@ export default function App() {
           </div>
 
           {/* Active filters bar if any filter is active */}
-          {(currencyFilter !== 'all' || commissionFilter !== 'all' || cookieFilter !== 'all' || trafficFilter !== 'all' || trendMonthFilter !== 'all' || trendScoreFilter !== 'all' || notesFilter !== 'all' || search.trim() !== '') && (
+          {(selectedCategory !== 'all' || adultFilter !== 'hide' || currencyFilter !== 'all' || commissionFilter !== 'all' || cookieFilter !== 'all' || trafficFilter !== 'all' || trendMonthFilter !== 'all' || trendScoreFilter !== 'all' || notesFilter !== 'all' || search.trim() !== '') && (
             <div className="flex items-center gap-2 pt-1 border-t border-slate-100 flex-wrap text-xs">
               <span className="text-[11px] font-semibold text-indigo-600 flex items-center gap-1">
                 <Filter size={12} /> Đang lọc:
               </span>
+              {selectedCategory !== 'all' && (
+                <span className="inline-flex items-center gap-1 text-[11px] bg-purple-50 text-purple-800 px-2 py-0.5 rounded-md border border-purple-300 font-medium">
+                  Ngành: <strong>{selectedCategory}</strong>
+                  <button onClick={() => { setSelectedCategory('all'); setPage(1); }} className="hover:text-purple-950 ml-0.5">
+                    <X size={11} />
+                  </button>
+                </span>
+              )}
+              {adultFilter !== 'hide' && (
+                <span className={`inline-flex items-center gap-1 text-[11px] px-2 py-0.5 rounded-md border font-medium ${
+                  adultFilter === 'only_adult' ? 'bg-rose-50 text-rose-800 border-rose-300' : 'bg-slate-100 text-slate-800 border-slate-300'
+                }`}>
+                  18+: <strong>{adultFilter === 'only_adult' ? 'Chỉ xem 18+' : 'Hiện cả 18+'}</strong>
+                  <button onClick={() => { setAdultFilter('hide'); setPage(1); }} className="hover:opacity-75 ml-0.5">
+                    <X size={11} />
+                  </button>
+                </span>
+              )}
               {trendMonthFilter !== 'all' && (
                 <span className="inline-flex items-center gap-1 text-[11px] bg-amber-50 text-amber-800 px-2 py-0.5 rounded-md border border-amber-200 font-medium">
                   Google Trends: <strong>Tháng {trendMonthFilter}</strong>
@@ -1603,6 +1679,31 @@ export default function App() {
                                   <ExternalLink size={9} className="flex-shrink-0" />
                                 </a>
                               )}
+                              <div className="flex items-center gap-1 flex-wrap mt-0.5">
+                                {store.is_adult === 1 && (
+                                  <span className="inline-flex items-center px-1.5 py-0.2 rounded text-[9px] font-bold bg-rose-50 text-rose-700 border border-rose-200">
+                                    🔞 18+
+                                  </span>
+                                )}
+                                {(() => {
+                                  let tags: string[] = [];
+                                  if (store.categories_json) {
+                                    try { tags = JSON.parse(store.categories_json); } catch (e) {}
+                                  }
+                                  if (tags.length === 0 && store.category && store.category !== 'General') {
+                                    tags = [store.category];
+                                  }
+                                  return tags.slice(0, 2).map((t, idx) => (
+                                    <span
+                                      key={idx}
+                                      className="inline-flex items-center px-1.5 py-0.2 rounded text-[9px] font-medium bg-slate-100 text-slate-700 border border-slate-200"
+                                      title={t}
+                                    >
+                                      {t.split(' & ')[0]}
+                                    </span>
+                                  ));
+                                })()}
+                              </div>
                             </div>
 
                             <ChevronDown
@@ -1973,6 +2074,58 @@ export default function App() {
 
                                 {renderTrendsChart(store)}
                               </div>
+
+                              {/* Website Overview & Products Section */}
+                              {(store.site_title || store.site_description || store.category) && (
+                                <div className="p-3.5 rounded-xl bg-purple-50/60 border border-purple-200/80 flex flex-col gap-2">
+                                  <div className="flex items-center justify-between flex-wrap gap-2">
+                                    <div className="flex items-center gap-2">
+                                      <Tag size={14} className="text-purple-600" />
+                                      <span className="text-xs font-bold text-purple-950">
+                                        Sản Phẩm & Ngành Hàng Website Cung Cấp
+                                      </span>
+                                    </div>
+                                    <div className="flex items-center gap-1.5 flex-wrap">
+                                      {store.is_adult === 1 && (
+                                        <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-rose-100 text-rose-800 border border-rose-200">
+                                          🔞 Adult 18+
+                                        </span>
+                                      )}
+                                      {(() => {
+                                        let tags: string[] = [];
+                                        if (store.categories_json) {
+                                          try { tags = JSON.parse(store.categories_json); } catch (e) {}
+                                        }
+                                        if (tags.length === 0 && store.category && store.category !== 'General') {
+                                          tags = [store.category];
+                                        }
+                                        return tags.map((t, idx) => (
+                                          <span
+                                            key={idx}
+                                            className="text-[10px] font-semibold px-2.5 py-0.5 rounded-full bg-white text-purple-700 border border-purple-200 shadow-2xs"
+                                          >
+                                            🏷️ {t}
+                                          </span>
+                                        ));
+                                      })()}
+                                    </div>
+                                  </div>
+                                  {store.site_title && (
+                                    <div className="text-xs font-semibold text-slate-800">
+                                      {store.site_title}
+                                    </div>
+                                  )}
+                                  {store.site_description ? (
+                                    <div className="text-xs text-slate-600 leading-relaxed italic bg-white/70 p-2.5 rounded-lg border border-purple-100">
+                                      "{store.site_description}"
+                                    </div>
+                                  ) : (
+                                    <div className="text-[11px] text-slate-400 italic">
+                                      (Tiến trình cào ngầm sẽ tự động tải tóm tắt sản phẩm khi duyệt qua website này)
+                                    </div>
+                                  )}
+                                </div>
+                              )}
 
                               {/* Inline Quick CRM Notes */}
                               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 pt-2 border-t border-slate-100" onClick={e => e.stopPropagation()}>

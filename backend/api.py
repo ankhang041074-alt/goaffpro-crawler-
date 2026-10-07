@@ -115,6 +115,7 @@ def get_stores_endpoint(
     trend_min_score: Optional[str] = Query(None),
     trend_peak_only: bool = Query(False),
     trend_growth_only: bool = Query(False),
+    adult_filter: Optional[str] = Query("hide"),
     notes_filter: Optional[str] = Query(None),
     favorite_only: bool = Query(False),
     sort_by: str = Query("commission_value"),
@@ -165,6 +166,7 @@ def get_stores_endpoint(
         trend_min_score=trend_min_score_val,
         trend_peak_only=trend_peak_only,
         trend_growth_only=trend_growth_only,
+        adult_filter=adult_filter,
         notes_filter=notes_filter,
         favorite_only=favorite_only,
         sort_by=sort_by,
@@ -235,6 +237,7 @@ def export_csv_endpoint(
     trend_min_score: Optional[str] = Query(None),
     trend_peak_only: bool = Query(False),
     trend_growth_only: bool = Query(False),
+    adult_filter: Optional[str] = Query("hide"),
     notes_filter: Optional[str] = Query(None),
     favorite_only: bool = Query(False)
 ):
@@ -278,6 +281,7 @@ def export_csv_endpoint(
         trend_min_score=trend_min_score_val,
         trend_peak_only=trend_peak_only,
         trend_growth_only=trend_growth_only,
+        adult_filter=adult_filter,
         notes_filter=notes_filter,
         favorite_only=favorite_only,
         limit=100000,
@@ -285,13 +289,13 @@ def export_csv_endpoint(
     )
     df = pd.DataFrame(data["stores"])
     if df.empty:
-        df = pd.DataFrame(columns=["name", "website_url", "currency", "commission_rate", "cookie_days", "category", "description", "traffic_visits", "trend_peak_month"])
+        df = pd.DataFrame(columns=["name", "website_url", "currency", "commission_rate", "cookie_days", "category", "site_title", "site_description", "traffic_visits", "trend_peak_month"])
 
     # Select and order user-friendly columns
     export_cols = [c for c in [
         "name", "website_url", "portal_url", "currency", "commission_rate",
-        "commission_value", "cookie_days", "category", "traffic_visits",
-        "traffic_status", "trend_peak_month", "instant_access", "notes", "crawled_at"
+        "commission_value", "cookie_days", "category", "site_title", "site_description",
+        "traffic_visits", "traffic_status", "trend_peak_month", "instant_access", "notes", "crawled_at"
     ] if c in df.columns]
     df = df[export_cols]
 
@@ -316,6 +320,7 @@ def export_excel_endpoint(
     trend_min_score: Optional[str] = Query(None),
     trend_peak_only: bool = Query(False),
     trend_growth_only: bool = Query(False),
+    adult_filter: Optional[str] = Query("hide"),
     notes_filter: Optional[str] = Query(None),
     favorite_only: bool = Query(False)
 ):
@@ -359,6 +364,7 @@ def export_excel_endpoint(
         trend_min_score=trend_min_score_val,
         trend_peak_only=trend_peak_only,
         trend_growth_only=trend_growth_only,
+        adult_filter=adult_filter,
         notes_filter=notes_filter,
         favorite_only=favorite_only,
         limit=100000,
@@ -366,12 +372,12 @@ def export_excel_endpoint(
     )
     df = pd.DataFrame(data["stores"])
     if df.empty:
-        df = pd.DataFrame(columns=["name", "website_url", "currency", "commission_rate", "cookie_days", "category", "description", "traffic_visits", "trend_peak_month"])
+        df = pd.DataFrame(columns=["name", "website_url", "currency", "commission_rate", "cookie_days", "category", "site_title", "site_description", "traffic_visits", "trend_peak_month"])
 
     export_cols = [c for c in [
         "name", "website_url", "portal_url", "currency", "commission_rate",
-        "commission_value", "cookie_days", "category", "traffic_visits",
-        "traffic_status", "trend_peak_month", "instant_access", "notes", "crawled_at"
+        "commission_value", "cookie_days", "category", "site_title", "site_description",
+        "traffic_visits", "traffic_status", "trend_peak_month", "instant_access", "notes", "crawled_at"
     ] if c in df.columns]
     df = df[export_cols]
 

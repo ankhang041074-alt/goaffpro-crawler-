@@ -9,11 +9,13 @@ import threading
 import time
 from typing import Optional, Dict, Any, List, Tuple
 from urllib.parse import urlparse
+import urllib.request
 
 import requests
 from pytrends.request import TrendReq
 
 from . import db
+from .categorizer import extract_meta_tags, classify_store
 
 logger = logging.getLogger("TrafficWorker")
 logging.basicConfig(level=logging.INFO)
@@ -426,6 +428,26 @@ def fetch_google_trends(brand_name: str) -> Dict[str, Any]:
         return {"status": "error", "error": str(e), "timeline": [], "peak_month": ""}
 
 
+def fetch_website_metadata(website_url: str) -> Tuple[str, str, str]:
+    """Fetch website HTML header (up to 40KB) and extract title, description, and keywords."""
+    if not website_url or not website_url.startswith("http"):
+        return "", "", ""
+    try:
+        req = urllib.request.Request(
+            website_url,
+            headers={
+                "User-Agent": random.choice(USER_AGENTS),
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.9",
+            }
+        )
+        with urllib.request.urlopen(req, timeout=3.5) as resp:
+            chunk = resp.read(40000).decode("utf-8", errors="ignore")
+            return extract_meta_tags(chunk)
+    except Exception:
+        return "", "", ""
+
+
 def enrich_store_data(store: Dict[str, Any]) -> Dict[str, Any]:
     """
     Perform real traffic & Google Trends enrichment for a single store record.
@@ -500,6 +522,22 @@ def enrich_store_data(store: Dict[str, Any]) -> Dict[str, Any]:
     }
 
     db.update_store_traffic_and_trends(store_id, result)
+
+    # 3. Intelligent Website Categorization (Multi-Niche & 18+ Handling)
+    existing_cat = str(store.get("category") or "General")
+    existing_site_desc = str(store.get("site_description") or "")
+    if existing_cat == "General" or not existing_site_desc:
+        t, d, k = fetch_website_metadata(website_url)
+        cat_result = classify_store(title=t, description=d, keywords=k, name=name, url=website_url)
+        db.update_store_categorization(
+            store_id=store_id,
+            primary_category=cat_result["primary_category"],
+            categories_json=json.dumps(cat_result["categories"]),
+            site_title=cat_result["site_title"],
+            site_description=cat_result["site_description"],
+            is_adult=cat_result["is_adult"]
+        )
+
     return result
 
 

@@ -99,6 +99,10 @@ def init_db():
         ("trend_peak_month", "TEXT DEFAULT ''"),
         ("trend_status", "TEXT DEFAULT 'pending'"),
         ("traffic_updated_at", "DATETIME DEFAULT NULL"),
+        ("categories_json", "TEXT DEFAULT '[]'"),
+        ("site_title", "TEXT DEFAULT ''"),
+        ("site_description", "TEXT DEFAULT ''"),
+        ("is_adult", "INTEGER DEFAULT 0"),
     ]
     for col_name, col_type in traffic_cols:
         if col_name not in existing_cols:
@@ -107,6 +111,7 @@ def init_db():
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_traffic ON stores(traffic_raw_value)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_traffic_status ON stores(traffic_status)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_trend_status ON stores(trend_status)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_is_adult ON stores(is_adult)")
 
     conn.commit()
     conn.close()
@@ -287,6 +292,7 @@ def get_stores(
     trend_min_score: Optional[Union[int, str]] = None,
     trend_peak_only: bool = False,
     trend_growth_only: bool = False,
+    adult_filter: Optional[str] = "hide",
     notes_filter: Optional[str] = None,
     favorite_only: bool = False,
     sort_by: str = "commission_value",
@@ -303,12 +309,18 @@ def get_stores(
 
     if isinstance(search, str) and search.strip():
         term = f"%{search.strip().lower()}%"
-        conditions.append("(LOWER(name) LIKE ? OR LOWER(description) LIKE ? OR LOWER(category) LIKE ? OR LOWER(website_url) LIKE ? OR LOWER(notes) LIKE ?)")
-        params.extend([term, term, term, term, term])
+        conditions.append("(LOWER(name) LIKE ? OR LOWER(description) LIKE ? OR LOWER(category) LIKE ? OR LOWER(website_url) LIKE ? OR LOWER(notes) LIKE ? OR LOWER(site_title) LIKE ? OR LOWER(site_description) LIKE ?)")
+        params.extend([term, term, term, term, term, term, term])
 
     if isinstance(category, str) and category.strip() and category.strip() != "all":
-        conditions.append("category = ?")
-        params.append(category.strip())
+        cat_term = category.strip()
+        conditions.append("(category = ? OR category LIKE ? OR categories_json LIKE ?)")
+        params.extend([cat_term, f"%{cat_term}%", f"%\"{cat_term}\"%"])
+
+    if adult_filter == "hide":
+        conditions.append("is_adult = 0")
+    elif adult_filter == "only_adult":
+        conditions.append("is_adult = 1")
 
     if isinstance(currency, str) and currency.strip() and currency.strip() != "all":
         conditions.append("UPPER(currency) = UPPER(?)")
@@ -520,6 +532,40 @@ def get_traffic_stats() -> Dict[str, Any]:
     }
 
 
+def update_store_categorization(
+    store_id: str,
+    primary_category: str,
+    categories_json: str,
+    site_title: str,
+    site_description: str,
+    is_adult: int
+) -> bool:
+    """Update store category and scraped website metadata."""
+    conn = get_db()
+    cursor = conn.cursor()
+    cursor.execute("""
+    UPDATE stores SET
+        category = ?,
+        categories_json = ?,
+        site_title = ?,
+        site_description = ?,
+        is_adult = ?,
+        updated_at = CURRENT_TIMESTAMP
+    WHERE store_id = ?
+    """, (
+        str(primary_category or "General"),
+        str(categories_json or "[]"),
+        str(site_title or ""),
+        str(site_description or ""),
+        int(is_adult or 0),
+        store_id
+    ))
+    affected = cursor.rowcount > 0
+    conn.commit()
+    conn.close()
+    return affected
+
+
 def update_store_traffic_and_trends(store_id: str, data: Dict[str, Any]) -> bool:
     """Update store traffic and Google Trends data."""
     conn = get_db()
@@ -596,8 +642,12 @@ def get_stats() -> Dict[str, Any]:
     cursor.execute("SELECT COUNT(*) as total_fav FROM stores WHERE is_favorite = 1")
     total_fav = cursor.fetchone()["total_fav"] or 0
 
-    cursor.execute("SELECT category, COUNT(*) as cnt FROM stores GROUP BY category ORDER BY cnt DESC LIMIT 5")
-    top_categories = [{"category": r["category"], "count": r["cnt"]} for r in cursor.fetchall()]
+    cursor.execute("SELECT category, COUNT(*) as cnt FROM stores WHERE category != '' GROUP BY category ORDER BY cnt DESC")
+    all_categories = [{"category": r["category"], "count": r["cnt"]} for r in cursor.fetchall()]
+    top_categories = all_categories[:5]
+
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE is_adult = 1")
+    adult_count = cursor.fetchone()["cnt"] or 0
 
     # Currencies with store counts
     cursor.execute("SELECT currency, COUNT(*) as cnt FROM stores WHERE currency != '' GROUP BY currency ORDER BY cnt DESC")
@@ -617,6 +667,8 @@ def get_stats() -> Dict[str, Any]:
         "max_commission": max_comm,
         "total_favorites": total_fav,
         "top_categories": top_categories,
+        "categories": all_categories,
+        "adult_count": adult_count,
         "currencies": currencies,
         "cookie_durations": cookie_durations,
         "traffic": traffic_stats

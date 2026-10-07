@@ -81,6 +81,8 @@ def init_db():
     # Indices for high-performance searching and sorting
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_name ON stores(name)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_category ON stores(category)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_currency ON stores(currency)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_cookie ON stores(cookie_days)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_commission ON stores(commission_value)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_favorite ON stores(is_favorite)")
 
@@ -230,8 +232,10 @@ def delete_stores_by_currency(currency: str) -> int:
 def get_stores(
     search: Optional[str] = None,
     category: Optional[str] = None,
+    currency: Optional[str] = None,
     min_commission: Optional[float] = None,
     cookie_days: Optional[int] = None,
+    notes_filter: Optional[str] = None,
     favorite_only: bool = False,
     sort_by: str = "commission_value",
     sort_order: str = "desc",
@@ -247,16 +251,29 @@ def get_stores(
 
     if search and search.strip():
         term = f"%{search.strip().lower()}%"
-        conditions.append("(LOWER(name) LIKE ? OR LOWER(description) LIKE ? OR LOWER(category) LIKE ? OR LOWER(website_url) LIKE ?)")
-        params.extend([term, term, term, term])
+        conditions.append("(LOWER(name) LIKE ? OR LOWER(description) LIKE ? OR LOWER(category) LIKE ? OR LOWER(website_url) LIKE ? OR LOWER(notes) LIKE ?)")
+        params.extend([term, term, term, term, term])
 
     if category and category.strip() and category.strip() != "all":
         conditions.append("category = ?")
         params.append(category.strip())
 
-    if min_commission is not None and min_commission > 0:
+    if currency and currency.strip() and currency.strip() != "all":
+        conditions.append("UPPER(currency) = UPPER(?)")
+        params.append(currency.strip())
+
+    if min_commission is not None and float(min_commission) > 0:
         conditions.append("commission_value >= ?")
         params.append(float(min_commission))
+
+    if cookie_days is not None:
+        conditions.append("cookie_days = ?")
+        params.append(int(cookie_days))
+
+    if notes_filter == "has_notes":
+        conditions.append("(notes IS NOT NULL AND TRIM(notes) != '')")
+    elif notes_filter == "no_notes":
+        conditions.append("(notes IS NULL OR TRIM(notes) = '')")
 
     if favorite_only:
         conditions.append("is_favorite = 1")
@@ -270,7 +287,7 @@ def get_stores(
 
     # Allowed sorting fields
     safe_sort_col = "commission_value"
-    if sort_by in ["name", "commission_value", "cookie_days", "crawled_at", "updated_at"]:
+    if sort_by in ["name", "commission_value", "cookie_days", "currency", "notes", "crawled_at", "updated_at"]:
         safe_sort_col = sort_by
 
     safe_order = "DESC" if sort_order.lower() == "desc" else "ASC"
@@ -320,8 +337,13 @@ def get_stats() -> Dict[str, Any]:
     cursor.execute("SELECT category, COUNT(*) as cnt FROM stores GROUP BY category ORDER BY cnt DESC LIMIT 5")
     top_categories = [{"category": r["category"], "count": r["cnt"]} for r in cursor.fetchall()]
 
-    cursor.execute("SELECT DISTINCT cookie_days FROM stores ORDER BY cookie_days ASC")
-    cookie_durations = [r["cookie_days"] for r in cursor.fetchall() if r["cookie_days"] is not None]
+    # Currencies with store counts
+    cursor.execute("SELECT currency, COUNT(*) as cnt FROM stores WHERE currency != '' GROUP BY currency ORDER BY cnt DESC")
+    currencies = [{"currency": r["currency"], "count": r["cnt"]} for r in cursor.fetchall()]
+
+    # Cookie days with store counts
+    cursor.execute("SELECT cookie_days, COUNT(*) as cnt FROM stores WHERE cookie_days IS NOT NULL GROUP BY cookie_days ORDER BY cookie_days ASC")
+    cookie_durations = [{"days": r["cookie_days"], "count": r["cnt"]} for r in cursor.fetchall()]
 
     conn.close()
     return {
@@ -330,6 +352,7 @@ def get_stats() -> Dict[str, Any]:
         "max_commission": max_comm,
         "total_favorites": total_fav,
         "top_categories": top_categories,
+        "currencies": currencies,
         "cookie_durations": cookie_durations
     }
 

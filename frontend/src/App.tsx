@@ -24,7 +24,11 @@ import {
   Building,
   Trash2,
   Megaphone,
-  DollarSign
+  DollarSign,
+  ArrowUpDown,
+  ArrowUp,
+  ArrowDown,
+  Filter
 } from 'lucide-react';
 
 interface Store {
@@ -53,6 +57,8 @@ interface Stats {
   max_commission: number;
   total_favorites: number;
   top_categories: { category: string; count: number }[];
+  currencies?: { currency: string; count: number }[];
+  cookie_durations?: { days: number; count: number }[];
 }
 
 interface CrawlJob {
@@ -69,14 +75,15 @@ export default function App() {
   const [totalCount, setTotalCount] = useState<number>(0);
   const [stats, setStats] = useState<Stats | null>(null);
   const [categories, setCategories] = useState<string[]>([]);
-  const [cookieFilter, setCookieFilter] = useState<string>('all');
-  const [availableCookies, setAvailableCookies] = useState<number[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
 
   // Filters & Pagination
   const [search, setSearch] = useState<string>('');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
-  const [minCommission, setMinCommission] = useState<number>(0);
+  const [currencyFilter, setCurrencyFilter] = useState<string>('all');
+  const [commissionFilter, setCommissionFilter] = useState<string>('all');
+  const [cookieFilter, setCookieFilter] = useState<string>('all');
+  const [notesFilter, setNotesFilter] = useState<string>('all');
   const [favoriteOnly, setFavoriteOnly] = useState<boolean>(false);
   const [sortBy, setSortBy] = useState<string>('commission_value');
   const [sortOrder, setSortOrder] = useState<string>('desc');
@@ -109,6 +116,16 @@ export default function App() {
     localStorage.setItem('monthly_revenue', val);
   }
 
+  function handleSort(col: string) {
+    if (sortBy === col) {
+      setSortOrder(prev => (prev === 'asc' ? 'desc' : 'asc'));
+    } else {
+      setSortBy(col);
+      setSortOrder(col === 'name' || col === 'currency' ? 'asc' : 'desc');
+    }
+    setPage(1);
+  }
+
   const pollingRef = useRef<any>(null);
 
   // Initial load
@@ -120,7 +137,7 @@ export default function App() {
   // Fetch stores on filter change
   useEffect(() => {
     fetchStores();
-  }, [search, selectedCategory, minCommission, favoriteOnly, sortBy, sortOrder, page, cookieFilter]);
+  }, [search, selectedCategory, currencyFilter, commissionFilter, cookieFilter, notesFilter, favoriteOnly, sortBy, sortOrder, page]);
 
   async function fetchStats() {
     try {
@@ -128,7 +145,6 @@ export default function App() {
       if (res.ok) {
         const json = await res.json();
         setStats(json);
-        if (json.cookie_durations) setAvailableCookies(json.cookie_durations);
       }
     } catch (e) {
       console.error('Error fetching stats:', e);
@@ -153,8 +169,10 @@ export default function App() {
       const params = new URLSearchParams({
         search: search.trim(),
         category: selectedCategory,
+        currency: currencyFilter !== 'all' ? currencyFilter : '',
         cookie_days: cookieFilter !== 'all' ? cookieFilter : '',
-        min_commission: minCommission.toString(),
+        min_commission: commissionFilter !== 'all' ? commissionFilter : '0',
+        notes_filter: notesFilter !== 'all' ? notesFilter : '',
         favorite_only: favoriteOnly ? 'true' : 'false',
         sort_by: sortBy,
         sort_order: sortOrder,
@@ -333,8 +351,10 @@ export default function App() {
     const params = new URLSearchParams({
       search: search.trim(),
       category: selectedCategory,
-        cookie_days: cookieFilter !== 'all' ? cookieFilter : '',
-      min_commission: minCommission.toString(),
+      currency: currencyFilter !== 'all' ? currencyFilter : '',
+      cookie_days: cookieFilter !== 'all' ? cookieFilter : '',
+      min_commission: commissionFilter !== 'all' ? commissionFilter : '0',
+      notes_filter: notesFilter !== 'all' ? notesFilter : '',
       favorite_only: favoriteOnly ? 'true' : 'false'
     });
     window.open(`/api/export/${format}?${params.toString()}`, '_blank');
@@ -511,32 +531,87 @@ export default function App() {
         </section>
 
         {/* SEARCH & FILTERS BAR */}
-        {/* SEARCH BAR */}
-        <section className="bg-white border border-slate-200 rounded-2xl p-3 shadow-sm flex items-center gap-3">
-          <div className="relative flex-1">
-            <Search size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400" />
-            <input
-              type="text"
-              placeholder="Search store name, website, notes..."
-              value={search}
-              onChange={e => {
-                setSearch(e.target.value);
-                setPage(1);
-              }}
-              className="w-full bg-slate-50 border border-slate-200 rounded-xl pl-10 pr-9 py-2.5 text-xs text-slate-900 placeholder-slate-400 focus:outline-none focus:border-indigo-500 focus:bg-white transition"
-            />
-            {search && (
-              <button
-                onClick={() => setSearch('')}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700"
-              >
-                <X size={14} />
-              </button>
-            )}
+        <section className="bg-white border border-slate-200 rounded-2xl p-3 shadow-sm flex flex-col gap-2.5">
+          <div className="flex items-center gap-3">
+            <div className="relative flex-1">
+              <Search size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400" />
+              <input
+                type="text"
+                placeholder="Search store name, website, notes..."
+                value={search}
+                onChange={e => {
+                  setSearch(e.target.value);
+                  setPage(1);
+                }}
+                className="w-full bg-slate-50 border border-slate-200 rounded-xl pl-10 pr-9 py-2.5 text-xs text-slate-900 placeholder-slate-400 focus:outline-none focus:border-indigo-500 focus:bg-white transition"
+              />
+              {search && (
+                <button
+                  onClick={() => setSearch('')}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700"
+                >
+                  <X size={14} />
+                </button>
+              )}
+            </div>
+            <span className="text-xs text-slate-500 font-medium px-2 whitespace-nowrap">
+              Hiển thị {stores.length} / {totalCount.toLocaleString()} stores
+            </span>
           </div>
-          <span className="text-xs text-slate-500 font-medium px-2 whitespace-nowrap">
-            Hiển thị {stores.length} / {totalCount} stores
-          </span>
+
+          {/* Active filters bar if any filter is active */}
+          {(currencyFilter !== 'all' || commissionFilter !== 'all' || cookieFilter !== 'all' || notesFilter !== 'all' || search.trim() !== '') && (
+            <div className="flex items-center gap-2 pt-1 border-t border-slate-100 flex-wrap text-xs">
+              <span className="text-[11px] font-semibold text-indigo-600 flex items-center gap-1">
+                <Filter size={12} /> Đang lọc:
+              </span>
+              {currencyFilter !== 'all' && (
+                <span className="inline-flex items-center gap-1 text-[11px] bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded-md border border-indigo-200 font-medium">
+                  Tiền: <strong>{currencyFilter}</strong>
+                  <button onClick={() => { setCurrencyFilter('all'); setPage(1); }} className="hover:text-indigo-900 ml-0.5">
+                    <X size={11} />
+                  </button>
+                </span>
+              )}
+              {commissionFilter !== 'all' && (
+                <span className="inline-flex items-center gap-1 text-[11px] bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded-md border border-indigo-200 font-medium">
+                  Hoa hồng ≥ <strong>{commissionFilter}%</strong>
+                  <button onClick={() => { setCommissionFilter('all'); setPage(1); }} className="hover:text-indigo-900 ml-0.5">
+                    <X size={11} />
+                  </button>
+                </span>
+              )}
+              {cookieFilter !== 'all' && (
+                <span className="inline-flex items-center gap-1 text-[11px] bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded-md border border-indigo-200 font-medium">
+                  Cookie: <strong>{cookieFilter} days</strong>
+                  <button onClick={() => { setCookieFilter('all'); setPage(1); }} className="hover:text-indigo-900 ml-0.5">
+                    <X size={11} />
+                  </button>
+                </span>
+              )}
+              {notesFilter !== 'all' && (
+                <span className="inline-flex items-center gap-1 text-[11px] bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded-md border border-indigo-200 font-medium">
+                  {notesFilter === 'has_notes' ? 'Đã có ghi chú' : 'Chưa có ghi chú'}
+                  <button onClick={() => { setNotesFilter('all'); setPage(1); }} className="hover:text-indigo-900 ml-0.5">
+                    <X size={11} />
+                  </button>
+                </span>
+              )}
+              <button
+                onClick={() => {
+                  setSearch('');
+                  setCurrencyFilter('all');
+                  setCommissionFilter('all');
+                  setCookieFilter('all');
+                  setNotesFilter('all');
+                  setPage(1);
+                }}
+                className="text-[11px] text-rose-500 hover:text-rose-700 hover:underline font-semibold ml-auto cursor-pointer"
+              >
+                Xóa tất cả bộ lọc
+              </button>
+            </div>
+          )}
         </section>
 
         {/* STORES TABLE */}
@@ -544,14 +619,180 @@ export default function App() {
           <div className="overflow-x-auto flex-1">
             <table className="w-full text-left border-collapse text-xs">
               <thead>
-                <tr className="border-b border-slate-200 bg-slate-50/80 text-slate-500 font-semibold uppercase tracking-wider text-[11px]">
-                  <th className="py-3.5 px-3 w-12 text-center">⭐</th>
-                  <th className="py-3.5 px-4 w-[240px]">Store / Website</th>
-                  <th className="py-3.5 px-3 w-28">Currency</th>
-                  <th className="py-3.5 px-3 w-36">Commission</th>
-                  <th className="py-3.5 px-3 w-32">Cookie</th>
-                  <th className="py-3.5 px-4">Notes</th>
-                  <th className="py-3.5 px-4 text-right w-24">Actions</th>
+                <tr className="border-b border-slate-200 bg-slate-50/90 text-slate-500 font-semibold uppercase tracking-wider text-[11px]">
+                  <th className="py-3 px-3 w-12 text-center">⭐</th>
+                  <th className="py-3 px-4 w-[240px]">
+                    <button
+                      onClick={() => handleSort('name')}
+                      className="flex items-center gap-1.5 hover:text-indigo-600 transition cursor-pointer"
+                    >
+                      <span>Store / Website</span>
+                      {sortBy === 'name' ? (
+                        sortOrder === 'asc' ? <ArrowUp size={12} className="text-indigo-600" /> : <ArrowDown size={12} className="text-indigo-600" />
+                      ) : (
+                        <ArrowUpDown size={11} className="text-slate-400" />
+                      )}
+                    </button>
+                  </th>
+
+                  {/* CURRENCY COLUMN */}
+                  <th className="py-2.5 px-3 w-32">
+                    <div className="flex flex-col gap-1">
+                      <button
+                        onClick={() => handleSort('currency')}
+                        className="flex items-center justify-between hover:text-indigo-600 transition cursor-pointer w-full"
+                        title="Bấm để sắp xếp A-Z hoặc Z-A"
+                      >
+                        <span>Currency</span>
+                        {sortBy === 'currency' ? (
+                          sortOrder === 'asc' ? <ArrowUp size={12} className="text-indigo-600" /> : <ArrowDown size={12} className="text-indigo-600" />
+                        ) : (
+                          <ArrowUpDown size={11} className="text-slate-400" />
+                        )}
+                      </button>
+                      <select
+                        value={currencyFilter}
+                        onChange={e => {
+                          setCurrencyFilter(e.target.value);
+                          setPage(1);
+                        }}
+                        className={`text-[11px] font-normal py-1 px-1.5 rounded-lg border focus:outline-none transition cursor-pointer ${
+                          currencyFilter !== 'all'
+                            ? 'bg-indigo-50 border-indigo-300 text-indigo-700 font-semibold'
+                            : 'bg-white border-slate-200 text-slate-700 hover:border-slate-300'
+                        }`}
+                      >
+                        <option value="all">Tất cả tiền tệ</option>
+                        {stats?.currencies?.map(c => (
+                          <option key={c.currency} value={c.currency}>
+                            {c.currency} ({c.count.toLocaleString()})
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+                  </th>
+
+                  {/* COMMISSION COLUMN */}
+                  <th className="py-2.5 px-3 w-36">
+                    <div className="flex flex-col gap-1">
+                      <button
+                        onClick={() => handleSort('commission_value')}
+                        className="flex items-center justify-between hover:text-indigo-600 transition cursor-pointer w-full"
+                        title="Bấm để sắp xếp hoa hồng Cao nhất / Thấp nhất"
+                      >
+                        <span>Commission</span>
+                        {sortBy === 'commission_value' ? (
+                          sortOrder === 'asc' ? <ArrowUp size={12} className="text-indigo-600" /> : <ArrowDown size={12} className="text-indigo-600" />
+                        ) : (
+                          <ArrowUpDown size={11} className="text-slate-400" />
+                        )}
+                      </button>
+                      <select
+                        value={commissionFilter}
+                        onChange={e => {
+                          setCommissionFilter(e.target.value);
+                          setPage(1);
+                        }}
+                        className={`text-[11px] font-normal py-1 px-1.5 rounded-lg border focus:outline-none transition cursor-pointer ${
+                          commissionFilter !== 'all'
+                            ? 'bg-indigo-50 border-indigo-300 text-indigo-700 font-semibold'
+                            : 'bg-white border-slate-200 text-slate-700 hover:border-slate-300'
+                        }`}
+                      >
+                        <option value="all">Tất cả %</option>
+                        <option value="10">≥ 10%</option>
+                        <option value="15">≥ 15% (Chuẩn)</option>
+                        <option value="20">≥ 20% (Cao)</option>
+                        <option value="30">≥ 30% (Rất cao)</option>
+                        <option value="50">≥ 50% (Khủng)</option>
+                      </select>
+                    </div>
+                  </th>
+
+                  {/* COOKIE COLUMN */}
+                  <th className="py-2.5 px-3 w-36">
+                    <div className="flex flex-col gap-1">
+                      <button
+                        onClick={() => handleSort('cookie_days')}
+                        className="flex items-center justify-between hover:text-indigo-600 transition cursor-pointer w-full"
+                        title="Bấm để sắp xếp ngày cookie Dài nhất / Ngắn nhất"
+                      >
+                        <span>Cookie</span>
+                        {sortBy === 'cookie_days' ? (
+                          sortOrder === 'asc' ? <ArrowUp size={12} className="text-indigo-600" /> : <ArrowDown size={12} className="text-indigo-600" />
+                        ) : (
+                          <ArrowUpDown size={11} className="text-slate-400" />
+                        )}
+                      </button>
+                      <select
+                        value={cookieFilter}
+                        onChange={e => {
+                          setCookieFilter(e.target.value);
+                          setPage(1);
+                        }}
+                        className={`text-[11px] font-normal py-1 px-1.5 rounded-lg border focus:outline-none transition cursor-pointer ${
+                          cookieFilter !== 'all'
+                            ? 'bg-indigo-50 border-indigo-300 text-indigo-700 font-semibold'
+                            : 'bg-white border-slate-200 text-slate-700 hover:border-slate-300'
+                        }`}
+                      >
+                        <option value="all">Tất cả ngày</option>
+                        {stats?.cookie_durations && stats.cookie_durations.length > 0 ? (
+                          stats.cookie_durations.map(c => (
+                            <option key={c.days} value={c.days.toString()}>
+                              {c.days} days ({c.count.toLocaleString()})
+                            </option>
+                          ))
+                        ) : (
+                          <>
+                            <option value="7">7 days</option>
+                            <option value="14">14 days</option>
+                            <option value="30">30 days</option>
+                            <option value="60">60 days</option>
+                            <option value="90">90 days</option>
+                            <option value="180">180 days</option>
+                            <option value="365">365 days</option>
+                          </>
+                        )}
+                      </select>
+                    </div>
+                  </th>
+
+                  {/* NOTES COLUMN */}
+                  <th className="py-2.5 px-4 w-44">
+                    <div className="flex flex-col gap-1">
+                      <button
+                        onClick={() => handleSort('notes')}
+                        className="flex items-center justify-between hover:text-indigo-600 transition cursor-pointer w-full"
+                        title="Bấm để sắp xếp theo ghi chú"
+                      >
+                        <span>Notes</span>
+                        {sortBy === 'notes' ? (
+                          sortOrder === 'asc' ? <ArrowUp size={12} className="text-indigo-600" /> : <ArrowDown size={12} className="text-indigo-600" />
+                        ) : (
+                          <ArrowUpDown size={11} className="text-slate-400" />
+                        )}
+                      </button>
+                      <select
+                        value={notesFilter}
+                        onChange={e => {
+                          setNotesFilter(e.target.value);
+                          setPage(1);
+                        }}
+                        className={`text-[11px] font-normal py-1 px-1.5 rounded-lg border focus:outline-none transition cursor-pointer ${
+                          notesFilter !== 'all'
+                            ? 'bg-indigo-50 border-indigo-300 text-indigo-700 font-semibold'
+                            : 'bg-white border-slate-200 text-slate-700 hover:border-slate-300'
+                        }`}
+                      >
+                        <option value="all">Tất cả notes</option>
+                        <option value="has_notes">Đã có ghi chú 📝</option>
+                        <option value="no_notes">Chưa có ghi chú</option>
+                      </select>
+                    </div>
+                  </th>
+
+                  <th className="py-3 px-4 text-right w-24">Actions</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100">

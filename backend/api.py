@@ -105,8 +105,10 @@ def get_crawl_progress(job_id: str):
 def get_stores_endpoint(
     search: Optional[str] = Query(None),
     category: Optional[str] = Query(None),
+    currency: Optional[str] = Query(None),
     min_commission: Optional[float] = Query(None),
     cookie_days: Optional[str] = Query(None),
+    notes_filter: Optional[str] = Query(None),
     favorite_only: bool = Query(False),
     sort_by: str = Query("commission_value"),
     sort_order: str = Query("desc"),
@@ -116,7 +118,7 @@ def get_stores_endpoint(
     """Query stores with filtering, searching, and pagination."""
     # Convert cookie_days to int if it's not empty
     cookie_days_val = None
-    if cookie_days and cookie_days.strip():
+    if cookie_days and cookie_days.strip() and cookie_days.strip() != "all":
         try:
             cookie_days_val = int(cookie_days.strip())
         except ValueError:
@@ -125,8 +127,10 @@ def get_stores_endpoint(
     return db.get_stores(
         search=search,
         category=category,
+        currency=currency,
         min_commission=min_commission,
         cookie_days=cookie_days_val,
+        notes_filter=notes_filter,
         favorite_only=favorite_only,
         sort_by=sort_by,
         sort_order=sort_order,
@@ -179,13 +183,15 @@ def delete_stores_by_currency_endpoint(currency: str):
 def export_csv_endpoint(
     search: Optional[str] = Query(None),
     category: Optional[str] = Query(None),
+    currency: Optional[str] = Query(None),
     min_commission: Optional[float] = Query(None),
     cookie_days: Optional[str] = Query(None),
+    notes_filter: Optional[str] = Query(None),
     favorite_only: bool = Query(False)
 ):
     """Export filtered stores to CSV."""
     cookie_days_val = None
-    if cookie_days and cookie_days.strip():
+    if cookie_days and cookie_days.strip() and cookie_days.strip() != "all":
         try:
             cookie_days_val = int(cookie_days.strip())
         except ValueError:
@@ -194,18 +200,20 @@ def export_csv_endpoint(
     data = db.get_stores(
         search=search,
         category=category,
+        currency=currency,
         min_commission=min_commission,
         cookie_days=cookie_days_val,
+        notes_filter=notes_filter,
         favorite_only=favorite_only,
-        limit=10000,
+        limit=100000,
         offset=0
     )
     df = pd.DataFrame(data["stores"])
     if df.empty:
-        df = pd.DataFrame(columns=["name", "website_url", "commission_rate", "cookie_days", "category", "description"])
+        df = pd.DataFrame(columns=["name", "website_url", "currency", "commission_rate", "cookie_days", "category", "description"])
     
     # Select and order user-friendly columns
-    export_cols = [c for c in ["name", "website_url", "portal_url", "commission_rate", "commission_value", "cookie_days", "category", "instant_access", "notes", "crawled_at"] if c in df.columns]
+    export_cols = [c for c in ["name", "website_url", "portal_url", "currency", "commission_rate", "commission_value", "cookie_days", "category", "instant_access", "notes", "crawled_at"] if c in df.columns]
     df = df[export_cols]
 
     csv_data = df.to_csv(index=False)
@@ -220,13 +228,15 @@ def export_csv_endpoint(
 def export_excel_endpoint(
     search: Optional[str] = Query(None),
     category: Optional[str] = Query(None),
+    currency: Optional[str] = Query(None),
     min_commission: Optional[float] = Query(None),
     cookie_days: Optional[str] = Query(None),
+    notes_filter: Optional[str] = Query(None),
     favorite_only: bool = Query(False)
 ):
     """Export filtered stores to Excel .xlsx format."""
     cookie_days_val = None
-    if cookie_days and cookie_days.strip():
+    if cookie_days and cookie_days.strip() and cookie_days.strip() != "all":
         try:
             cookie_days_val = int(cookie_days.strip())
         except ValueError:
@@ -235,17 +245,19 @@ def export_excel_endpoint(
     data = db.get_stores(
         search=search,
         category=category,
+        currency=currency,
         min_commission=min_commission,
         cookie_days=cookie_days_val,
+        notes_filter=notes_filter,
         favorite_only=favorite_only,
-        limit=10000,
+        limit=100000,
         offset=0
     )
     df = pd.DataFrame(data["stores"])
     if df.empty:
-        df = pd.DataFrame(columns=["name", "website_url", "commission_rate", "cookie_days", "category", "description"])
+        df = pd.DataFrame(columns=["name", "website_url", "currency", "commission_rate", "cookie_days", "category", "description"])
 
-    export_cols = [c for c in ["name", "website_url", "portal_url", "commission_rate", "commission_value", "cookie_days", "category", "instant_access", "notes", "crawled_at"] if c in df.columns]
+    export_cols = [c for c in ["name", "website_url", "portal_url", "currency", "commission_rate", "commission_value", "cookie_days", "category", "instant_access", "notes", "crawled_at"] if c in df.columns]
     df = df[export_cols]
 
     output = io.BytesIO()

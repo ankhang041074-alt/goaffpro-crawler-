@@ -1,8 +1,10 @@
 import html
 import json
 import logging
+import os
 import random
 import re
+import subprocess
 import threading
 import time
 from typing import Optional, Dict, Any, List, Tuple
@@ -59,6 +61,48 @@ _domain_rank_cache: Dict[str, Tuple[Optional[int], str]] = {}
 # Google Trends cooldown timestamp to avoid spamming 429
 _gt_cooldown_until: float = 0.0
 
+# ExpressVPN CLI Binary path on macOS
+EXPRESSVPN_BIN = "/Applications/ExpressVPN.app/Contents/MacOS/expressvpnctl"
+_vpn_region_index = 0
+VPN_REGIONS = [
+    "singapore-jurong",
+    "singapore-cbd",
+    "japan-tokyo",
+    "japan-osaka",
+    "taiwan-3",
+    "hong-kong-1",
+    "hong-kong-2",
+    "usa-los-angeles-1",
+    "usa-san-francisco",
+    "usa-seattle",
+    "uk-london",
+    "germany-frankfurt-1",
+    "australia-sydney",
+]
+
+
+def rotate_vpn_region() -> bool:
+    """Automatically switch ExpressVPN location when rate-limited by Google Trends."""
+    global _vpn_region_index, _gt_cooldown_until
+    if not os.path.exists(EXPRESSVPN_BIN):
+        return False
+    try:
+        region = VPN_REGIONS[_vpn_region_index % len(VPN_REGIONS)]
+        _vpn_region_index += 1
+        logger.info(f"🔄 Auto-rotating ExpressVPN to region: {region} to bypass Google Trends rate limit...")
+        res = subprocess.run([EXPRESSVPN_BIN, "connect", region], capture_output=True, text=True, timeout=12)
+        if res.returncode == 0:
+            time.sleep(3.5)
+            _gt_cooldown_until = 0.0  # Reset cooldown since we have a fresh IP!
+            logger.info(f"✅ ExpressVPN connected to {region} successfully. Fresh IP obtained!")
+            return True
+        else:
+            logger.warning(f"ExpressVPN connect returned error: {res.stderr}")
+            return False
+    except Exception as e:
+        logger.warning(f"Error rotating ExpressVPN: {e}")
+        return False
+
 
 def clean_brand_name(name: str, website_url: str = "") -> str:
     """Clean store name to create an effective query for Google Trends."""
@@ -96,6 +140,15 @@ def clean_brand_name(name: str, website_url: str = "") -> str:
         if domain_stem.lower().startswith(brand.lower()) and len(domain_stem) > len(brand) + 2:
             remainder = domain_stem[len(brand):]
             brand = f"{brand} {remainder.capitalize()}"
+            words = brand.split()
+
+    # Rule: If brand ends with geographic or generic suffix (e.g., "Pognae Australia", "OutdoorMaster DE", "SJCAM Official Website")
+    # and domain stem matches the prefix, strip the suffix!
+    suffixes = {"australia", "usa", "us", "uk", "canada", "france", "fr", "germany", "de", "official", "store", "shop", "online", "club", "co", "website"}
+    if len(words) >= 2 and words[-1].lower() in suffixes and domain_stem:
+        if domain_stem.lower().startswith(words[0].lower()):
+            brand = " ".join(words[:-1])
+            words = brand.split()
 
     # If brand name is too generic or short, fallback to domain root
     if len(brand) < 2 and domain_stem:
@@ -318,7 +371,47 @@ def fetch_google_trends(brand_name: str) -> Dict[str, Any]:
     except Exception as e:
         err_msg = str(e).lower()
         if "429" in err_msg or "quota" in err_msg or "toomanyrequests" in err_msg:
-            # Set 3-minute cooldown so we don't bombard Google
+            # If ExpressVPN is available, auto-rotate IP and retry once!
+            if os.path.exists(EXPRESSVPN_BIN) and rotate_vpn_region():
+                try:
+                    time.sleep(1.0)
+                    pytrend = TrendReq(
+                        hl="en-US",
+                        tz=360,
+                        timeout=(10, 25),
+                        retries=0,
+                        requests_args={"headers": headers},
+                    )
+                    pytrend.build_payload(kw_list=[brand_name], timeframe="today 5-y")
+                    df = pytrend.interest_over_time()
+                    if not df.empty and brand_name in df.columns:
+                        non_zero_weeks = int((df[brand_name] > 0).sum())
+                        total_score = int(df[brand_name].sum())
+                        if non_zero_weeks >= 6 and total_score >= 40:
+                            df["month"] = df.index.strftime("%Y-%m")
+                            monthly = df.groupby("month")[brand_name].max().reset_index()
+                            active_months = int((monthly[brand_name] > 0).sum())
+                            if active_months >= 3:
+                                peak_idx = monthly[brand_name].idxmax()
+                                peak_row = monthly.iloc[peak_idx]
+                                peak_score = int(peak_row[brand_name])
+                                if peak_score >= 5:
+                                    peak_month = f"{peak_row['month']} ({peak_score} pts)"
+                                    timeline = [
+                                        {"month": r["month"], "value": int(r[brand_name])}
+                                        for _, r in monthly.iterrows()
+                                    ]
+                                    logger.info(f"🎉 Successfully retrieved Google Trends for '{brand_name}' after ExpressVPN auto-rotation!")
+                                    return {
+                                        "status": "success",
+                                        "timeline": timeline,
+                                        "peak_month": peak_month,
+                                    }
+                        return {"status": "no_data", "timeline": [], "peak_month": ""}
+                except Exception as retry_e:
+                    logger.warning(f"Retry after ExpressVPN rotation failed: {retry_e}")
+
+            # If rotation not available or retry failed:
             _gt_cooldown_until = time.time() + 180.0
             logger.warning(f"Google Trends rate limited for '{brand_name}' -> cooling down 180s")
             return {"status": "error", "error": "rate_limited", "timeline": [], "peak_month": ""}

@@ -684,6 +684,23 @@ export default function App() {
             </g>
           ))}
 
+          {/* Secondary notable spikes (e.g. value >= 50 and not the primary peak) */}
+          {points.filter(p => p.value >= 50 && p !== peakPoint).map((sp, sIdx) => (
+            <g key={`spike-${sIdx}`}>
+              <circle cx={sp.x} cy={sp.y} r={3.5} fill="#6366f1" stroke="#ffffff" strokeWidth="1.2" />
+              <text
+                x={sp.x}
+                y={Math.max(12, sp.y - 6)}
+                textAnchor="middle"
+                fontSize="8"
+                fontWeight="bold"
+                fill="#4f46e5"
+              >
+                {sp.month} ({sp.value})
+              </text>
+            </g>
+          ))}
+
           {/* Peak point indicator */}
           {peakPoint && (
             <g>

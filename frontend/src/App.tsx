@@ -28,7 +28,15 @@ import {
   ArrowUpDown,
   ArrowUp,
   ArrowDown,
-  Filter
+  Filter,
+  ChevronDown,
+  ChevronUp,
+  Pause,
+  Flame,
+  Eye,
+  Activity,
+  Info,
+  BarChart2
 } from 'lucide-react';
 
 interface Store {
@@ -49,6 +57,28 @@ interface Store {
   is_favorite: boolean | number;
   notes: string;
   crawled_at: string;
+  traffic_visits?: string;
+  traffic_raw_value?: number;
+  traffic_status?: 'success' | 'no_data' | 'error' | 'pending';
+  traffic_top_country?: string;
+  trend_timeline_json?: string;
+  trend_peak_month?: string;
+  trend_status?: 'success' | 'no_data' | 'error' | 'pending';
+  traffic_updated_at?: string;
+}
+
+interface TrafficWorkerStatus {
+  is_running: boolean;
+  is_paused: boolean;
+  current_store: string;
+  scanned: number;
+  with_data: number;
+  no_data: number;
+  errors: number;
+  remaining: number;
+  total_cookie_14_plus: number;
+  checked_cookie_14_plus: number;
+  above_10k: number;
 }
 
 interface Stats {
@@ -59,6 +89,15 @@ interface Stats {
   top_categories: { category: string; count: number }[];
   currencies?: { currency: string; count: number }[];
   cookie_durations?: { days: number; count: number }[];
+  traffic?: {
+    total_cookie_14_plus: number;
+    checked_cookie_14_plus: number;
+    remaining_cookie_14_plus: number;
+    with_data: number;
+    no_data: number;
+    errors: number;
+    above_10k: number;
+  };
 }
 
 interface CrawlJob {
@@ -83,12 +122,19 @@ export default function App() {
   const [currencyFilter, setCurrencyFilter] = useState<string>('all');
   const [commissionFilter, setCommissionFilter] = useState<string>('all');
   const [cookieFilter, setCookieFilter] = useState<string>('all');
+  const [trafficFilter, setTrafficFilter] = useState<string>('all');
   const [notesFilter, setNotesFilter] = useState<string>('all');
   const [favoriteOnly, setFavoriteOnly] = useState<boolean>(false);
   const [sortBy, setSortBy] = useState<string>('commission_value');
   const [sortOrder, setSortOrder] = useState<string>('desc');
   const [page, setPage] = useState<number>(1);
   const pageSize = 50;
+
+  // Traffic Worker & Accordion States
+  const [expandedStoreId, setExpandedStoreId] = useState<string | null>(null);
+  const [trafficWorkerStatus, setTrafficWorkerStatus] = useState<TrafficWorkerStatus | null>(null);
+  const [refreshingStoreId, setRefreshingStoreId] = useState<string | null>(null);
+  const [quickNoteEdit, setQuickNoteEdit] = useState<{ [id: string]: string }>({});
 
   // Crawl State
   const [activeJob, setActiveJob] = useState<CrawlJob | null>(null);
@@ -127,17 +173,22 @@ export default function App() {
   }
 
   const pollingRef = useRef<any>(null);
+  const trafficPollingRef = useRef<any>(null);
 
   // Initial load
   useEffect(() => {
     fetchStats();
     fetchCategories();
+    fetchTrafficStatus();
+    return () => {
+      if (trafficPollingRef.current) clearInterval(trafficPollingRef.current);
+    };
   }, []);
 
   // Fetch stores on filter change
   useEffect(() => {
     fetchStores();
-  }, [search, selectedCategory, currencyFilter, commissionFilter, cookieFilter, notesFilter, favoriteOnly, sortBy, sortOrder, page]);
+  }, [search, selectedCategory, currencyFilter, commissionFilter, cookieFilter, trafficFilter, notesFilter, favoriteOnly, sortBy, sortOrder, page]);
 
   async function fetchStats() {
     try {
@@ -163,15 +214,130 @@ export default function App() {
     }
   }
 
+  async function fetchTrafficStatus() {
+    try {
+      const res = await fetch('/api/traffic/status');
+      if (res.ok) {
+        const json: TrafficWorkerStatus = await res.json();
+        setTrafficWorkerStatus(json);
+        if (json.is_running && !trafficPollingRef.current) {
+          trafficPollingRef.current = setInterval(fetchTrafficStatus, 3000);
+        } else if (!json.is_running && trafficPollingRef.current) {
+          clearInterval(trafficPollingRef.current);
+          trafficPollingRef.current = null;
+        }
+      }
+    } catch (e) {
+      console.error('Error fetching traffic status:', e);
+    }
+  }
+
+  async function handleStartTrafficWorker() {
+    try {
+      const res = await fetch('/api/traffic/start', { method: 'POST' });
+      if (res.ok) {
+        fetchTrafficStatus();
+        if (!trafficPollingRef.current) {
+          trafficPollingRef.current = setInterval(fetchTrafficStatus, 2500);
+        }
+      }
+    } catch (e) {
+      alert('Lỗi kích hoạt traffic worker: ' + e);
+    }
+  }
+
+  async function handlePauseTrafficWorker() {
+    try {
+      await fetch('/api/traffic/pause', { method: 'POST' });
+      fetchTrafficStatus();
+    } catch (e) {
+      console.error(e);
+    }
+  }
+
+  async function handleResumeTrafficWorker() {
+    try {
+      await fetch('/api/traffic/resume', { method: 'POST' });
+      fetchTrafficStatus();
+    } catch (e) {
+      console.error(e);
+    }
+  }
+
+  async function handleStopTrafficWorker() {
+    try {
+      await fetch('/api/traffic/stop', { method: 'POST' });
+      fetchTrafficStatus();
+      if (trafficPollingRef.current) {
+        clearInterval(trafficPollingRef.current);
+        trafficPollingRef.current = null;
+      }
+    } catch (e) {
+      console.error(e);
+    }
+  }
+
+  async function handleRefreshSingleStore(storeId: string, e?: React.MouseEvent) {
+    if (e) e.stopPropagation();
+    setRefreshingStoreId(storeId);
+    try {
+      const res = await fetch(`/api/stores/${encodeURIComponent(storeId)}/refresh-traffic`, {
+        method: 'POST'
+      });
+      if (res.ok) {
+        const updated: Store = await res.json();
+        setStores(prev => prev.map(s => s.store_id === storeId ? { ...s, ...updated } : s));
+        if (selectedStore && selectedStore.store_id === storeId) {
+          setSelectedStore(prev => prev ? { ...prev, ...updated } : null);
+        }
+        fetchStats();
+        fetchTrafficStatus();
+      }
+    } catch (err) {
+      alert('Lỗi làm mới traffic: ' + err);
+    } finally {
+      setRefreshingStoreId(null);
+    }
+  }
+
+  async function handleSaveQuickNote(storeId: string) {
+    const noteText = quickNoteEdit[storeId] ?? '';
+    try {
+      const res = await fetch(`/api/stores/${encodeURIComponent(storeId)}/note`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ note: noteText })
+      });
+      if (res.ok) {
+        setStores(prev => prev.map(s => s.store_id === storeId ? { ...s, notes: noteText } : s));
+        alert('Đã lưu ghi chú thành công!');
+      }
+    } catch (err) {
+      alert('Lỗi lưu ghi chú: ' + err);
+    }
+  }
+
   async function fetchStores() {
     setLoading(true);
     try {
+      let minTrafficVal = '';
+      let trafficStatusVal = '';
+      if (['10000', '20000', '50000', '100000'].includes(trafficFilter)) {
+        minTrafficVal = trafficFilter;
+      } else if (trafficFilter === 'has_data') {
+        trafficStatusVal = 'has_data';
+      } else if (trafficFilter === 'no_data') {
+        trafficStatusVal = 'no_data';
+      }
+
       const params = new URLSearchParams({
         search: search.trim(),
         category: selectedCategory,
         currency: currencyFilter !== 'all' ? currencyFilter : '',
         cookie_days: cookieFilter !== 'all' ? cookieFilter : '',
         min_commission: commissionFilter !== 'all' ? commissionFilter : '0',
+        min_traffic: minTrafficVal,
+        traffic_status: trafficStatusVal,
         notes_filter: notesFilter !== 'all' ? notesFilter : '',
         favorite_only: favoriteOnly ? 'true' : 'false',
         sort_by: sortBy,
@@ -348,16 +514,202 @@ export default function App() {
   }
 
   function handleExport(format: 'excel' | 'csv') {
+    let minTrafficVal = '';
+    let trafficStatusVal = '';
+    if (['10000', '20000', '50000', '100000'].includes(trafficFilter)) {
+      minTrafficVal = trafficFilter;
+    } else if (trafficFilter === 'has_data') {
+      trafficStatusVal = 'has_data';
+    } else if (trafficFilter === 'no_data') {
+      trafficStatusVal = 'no_data';
+    }
+
     const params = new URLSearchParams({
       search: search.trim(),
       category: selectedCategory,
       currency: currencyFilter !== 'all' ? currencyFilter : '',
       cookie_days: cookieFilter !== 'all' ? cookieFilter : '',
       min_commission: commissionFilter !== 'all' ? commissionFilter : '0',
+      min_traffic: minTrafficVal,
+      traffic_status: trafficStatusVal,
       notes_filter: notesFilter !== 'all' ? notesFilter : '',
       favorite_only: favoriteOnly ? 'true' : 'false'
     });
     window.open(`/api/export/${format}?${params.toString()}`, '_blank');
+  }
+
+  function renderTrendsChart(store: Store) {
+    let timeline: { month: string; value: number }[] = [];
+    try {
+      if (store.trend_timeline_json) {
+        timeline = JSON.parse(store.trend_timeline_json);
+      }
+    } catch (e) {
+      timeline = [];
+    }
+
+    if (store.trend_status === 'no_data' || (timeline.length === 0 && store.trend_status !== 'pending' && store.trend_status !== 'error')) {
+      return (
+        <div className="py-6 px-4 rounded-xl bg-slate-100/70 border border-slate-200 text-center flex flex-col items-center justify-center gap-1.5 text-slate-500">
+          <Info size={18} className="text-slate-400" />
+          <p className="text-xs font-semibold text-slate-600">Chưa đủ dữ liệu (Store nhỏ hoặc mới lập)</p>
+          <p className="text-[11px] text-slate-400 max-w-md">
+            Hệ thống tuân thủ nguyên tắc không bịa đặt số liệu. Cửa hàng này có lượng tìm kiếm dưới ngưỡng ghi nhận của Google Trends.
+          </p>
+        </div>
+      );
+    }
+
+    if (store.trend_status === 'error') {
+      return (
+        <div className="py-6 px-4 rounded-xl bg-amber-50/70 border border-amber-200 text-center flex flex-col items-center justify-center gap-1.5 text-amber-700">
+          <AlertCircle size={18} className="text-amber-500" />
+          <p className="text-xs font-semibold">Tạm thời chưa kết nối được Google Trends (Rate Limit / Quá tải)</p>
+          <p className="text-[11px] text-amber-600/80">Google Trends hạn chế tần suất yêu cầu. Vui lòng bấm &ldquo;Làm Mới Traffic&rdquo; sau ít phút để thử lại.</p>
+        </div>
+      );
+    }
+
+    if (timeline.length === 0) {
+      return (
+        <div className="py-6 px-4 rounded-xl bg-slate-100/70 border border-slate-200 text-center flex flex-col items-center justify-center gap-1.5 text-slate-500">
+          <Clock size={18} className="text-slate-400" />
+          <p className="text-xs font-semibold text-slate-600">Chưa có dữ liệu xu hướng tìm kiếm</p>
+          <p className="text-[11px] text-slate-400">Bấm nút &ldquo;Làm Mới Traffic&rdquo; để hệ thống quét dữ liệu ngay.</p>
+        </div>
+      );
+    }
+
+    // Responsive SVG Timeline Chart
+    const height = 125;
+    const width = 760;
+    const paddingLeft = 32;
+    const paddingRight = 16;
+    const paddingTop = 18;
+    const paddingBottom = 22;
+
+    const chartWidth = width - paddingLeft - paddingRight;
+    const chartHeight = height - paddingTop - paddingBottom;
+    const maxVal = 100;
+
+    const points = timeline.map((item, idx) => {
+      const x = paddingLeft + (idx / Math.max(1, timeline.length - 1)) * chartWidth;
+      const y = paddingTop + chartHeight - (Math.max(0, Math.min(100, item.value)) / maxVal) * chartHeight;
+      return { ...item, x, y };
+    });
+
+    const pathD = points.reduce((acc, p, idx) => {
+      return idx === 0 ? `M ${p.x} ${p.y}` : `${acc} L ${p.x} ${p.y}`;
+    }, '');
+
+    const areaD = `${pathD} L ${points[points.length - 1].x} ${paddingTop + chartHeight} L ${points[0].x} ${paddingTop + chartHeight} Z`;
+
+    const peakVal = Math.max(...timeline.map(t => t.value));
+    const peakPoint = points.find(p => p.value === peakVal && peakVal > 0);
+
+    // Year ticks
+    const yearMarkers: { label: string; x: number }[] = [];
+    timeline.forEach((item, idx) => {
+      if (item.month.endsWith('-01') || idx === 0 || idx === timeline.length - 1) {
+        const year = item.month.slice(0, 4);
+        if (!yearMarkers.some(m => m.label === year)) {
+          yearMarkers.push({
+            label: year,
+            x: paddingLeft + (idx / Math.max(1, timeline.length - 1)) * chartWidth
+          });
+        }
+      }
+    });
+
+    return (
+      <div className="w-full overflow-x-auto bg-white p-2 rounded-xl border border-slate-200">
+        <svg viewBox={`0 0 ${width} ${height}`} className="w-full h-auto min-w-[520px] select-none">
+          <defs>
+            <linearGradient id={`grad-${store.store_id}`} x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stopColor="#6366f1" stopOpacity="0.25" />
+              <stop offset="100%" stopColor="#6366f1" stopOpacity="0.0" />
+            </linearGradient>
+          </defs>
+
+          {/* Grid lines */}
+          {[0, 25, 50, 75, 100].map(v => {
+            const y = paddingTop + chartHeight - (v / 100) * chartHeight;
+            return (
+              <g key={v}>
+                <line x1={paddingLeft} y1={y} x2={width - paddingRight} y2={y} stroke="#f1f5f9" strokeDasharray="3 3" />
+                <text x={paddingLeft - 6} y={y + 3} textAnchor="end" fontSize="8.5" fill="#94a3b8" fontFamily="monospace">
+                  {v}
+                </text>
+              </g>
+            );
+          })}
+
+          {/* Monthly vertical volume bars */}
+          {points.map((p, idx) => {
+            const barW = Math.max(2, Math.min(8, (chartWidth / points.length) * 0.65));
+            const barH = paddingTop + chartHeight - p.y;
+            return (
+              <rect
+                key={`bar-${idx}`}
+                x={p.x - barW / 2}
+                y={p.y}
+                width={barW}
+                height={Math.max(1, barH)}
+                rx={1}
+                fill={p.value === peakVal && peakVal > 0 ? '#f59e0b' : '#6366f1'}
+                opacity={p.value === peakVal && peakVal > 0 ? 0.35 : 0.12}
+              >
+                <title>{`${p.month}: ${p.value} pts`}</title>
+              </rect>
+            );
+          })}
+
+          {/* Area fill */}
+          <path d={areaD} fill={`url(#grad-${store.store_id})`} />
+
+          {/* Line stroke */}
+          <path d={pathD} fill="none" stroke="#6366f1" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+
+          {/* Monthly points & hover tooltips */}
+          {points.map((p, idx) => (
+            <g key={idx} className="group cursor-pointer">
+              <circle
+                cx={p.x}
+                cy={p.y}
+                r={p.value === peakVal && peakVal > 0 ? 3.5 : 2}
+                fill={p.value === peakVal && peakVal > 0 ? '#f59e0b' : '#6366f1'}
+              />
+              <title>{`${p.month}: ${p.value} pts`}</title>
+            </g>
+          ))}
+
+          {/* Peak point indicator */}
+          {peakPoint && (
+            <g>
+              <circle cx={peakPoint.x} cy={peakPoint.y} r={7} fill="none" stroke="#f59e0b" strokeWidth="1.5" opacity="0.7" />
+              <circle cx={peakPoint.x} cy={peakPoint.y} r={4} fill="#f59e0b" stroke="#ffffff" strokeWidth="1.5" />
+              <text
+                x={peakPoint.x}
+                y={Math.max(12, peakPoint.y - 7)}
+                textAnchor={peakPoint.x > width - 70 ? 'end' : peakPoint.x < paddingLeft + 70 ? 'start' : 'middle'}
+                fontSize="9"
+                fontWeight="bold"
+                fill="#d97706"
+              >
+                🔥 {peakPoint.month} ({peakPoint.value})
+              </text>
+            </g>
+          )}
+
+          {/* X-axis year ticks */}
+          {yearMarkers.map((m, idx) => (
+            <text key={idx} x={m.x} y={height - 4} textAnchor="middle" fontSize="9.5" fontWeight="600" fill="#64748b">
+              {m.label}
+            </text>
+          ))}
+        </svg>
+      </div>
+    );
   }
 
   const totalPages = Math.ceil(totalCount / pageSize) || 1;
@@ -530,6 +882,126 @@ export default function App() {
           </div>
         </section>
 
+        {/* BACKGROUND TRAFFIC WORKER WIDGET */}
+        <section className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 border border-indigo-800/50 rounded-2xl p-4 shadow-lg text-white">
+          <div className="flex flex-wrap items-center justify-between gap-4">
+            <div className="flex items-center gap-3">
+              <div className={`p-2.5 rounded-xl border ${trafficWorkerStatus?.is_running ? 'bg-indigo-600/30 border-indigo-500/50 text-indigo-400' : 'bg-slate-800 border-slate-700 text-slate-400'}`}>
+                <BarChart2 size={20} className={trafficWorkerStatus?.is_running && !trafficWorkerStatus.is_paused ? 'animate-pulse' : ''} />
+              </div>
+              <div>
+                <div className="flex items-center gap-2 flex-wrap">
+                  <h3 className="text-sm font-bold text-white">Quét Traffic & Google Trends Tự Động</h3>
+                  {trafficWorkerStatus?.is_running ? (
+                    trafficWorkerStatus.is_paused ? (
+                      <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30">
+                        ⏸️ Tạm dừng
+                      </span>
+                    ) : (
+                      <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 flex items-center gap-1">
+                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
+                        Đang quét: {trafficWorkerStatus.current_store || '...'}
+                      </span>
+                    )
+                  ) : (
+                    <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700">
+                      ⚪ Sẵn sàng
+                    </span>
+                  )}
+                  <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-indigo-900/60 text-indigo-300 border border-indigo-700/50">
+                    🎯 Ưu tiên Cookie ≥ 14 ngày
+                  </span>
+                  <span className="text-[10px] font-medium text-slate-400">
+                    (Chỉ lưu dữ liệu thật, không bịa số)
+                  </span>
+                </div>
+                <p className="text-[11px] text-slate-400 mt-0.5">
+                  Tự động tra cứu Domain Rank (Tranco Top 1M) và Google Trends 5 năm cho các store chất lượng cao
+                </p>
+              </div>
+            </div>
+
+            {/* Control Buttons */}
+            <div className="flex items-center gap-2">
+              {trafficWorkerStatus?.is_running ? (
+                <>
+                  {trafficWorkerStatus.is_paused ? (
+                    <button
+                      onClick={handleResumeTrafficWorker}
+                      className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-emerald-600 hover:bg-emerald-500 text-white transition cursor-pointer shadow-sm"
+                    >
+                      <Play size={13} fill="currentColor" />
+                      <span>Tiếp tục</span>
+                    </button>
+                  ) : (
+                    <button
+                      onClick={handlePauseTrafficWorker}
+                      className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-amber-600 hover:bg-amber-500 text-white transition cursor-pointer shadow-sm"
+                    >
+                      <Pause size={13} />
+                      <span>Tạm dừng</span>
+                    </button>
+                  )}
+                  <button
+                    onClick={handleStopTrafficWorker}
+                    className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-rose-600/80 hover:bg-rose-600 text-white transition cursor-pointer shadow-sm"
+                  >
+                    <X size={13} />
+                    <span>Dừng hẳn</span>
+                  </button>
+                </>
+              ) : (
+                <button
+                  onClick={handleStartTrafficWorker}
+                  className="flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold bg-gradient-to-r from-indigo-500 to-violet-600 hover:from-indigo-400 hover:to-violet-500 text-white shadow-lg shadow-indigo-500/25 transition cursor-pointer"
+                >
+                  <Play size={13} fill="currentColor" />
+                  <span>Chạy Quét Traffic (Cookie ≥ 14d)</span>
+                </button>
+              )}
+            </div>
+          </div>
+
+          {/* Progress Bar & Real-time Stats */}
+          <div className="mt-3 pt-3 border-t border-indigo-900/60 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+            <div className="w-full sm:w-1/2">
+              <div className="flex items-center justify-between text-[11px] text-slate-400 mb-1">
+                <span>Tiến độ các store Cookie ≥ 14 ngày:</span>
+                <span className="font-mono text-indigo-300 font-semibold">
+                  {trafficWorkerStatus ? `${trafficWorkerStatus.checked_cookie_14_plus} / ${trafficWorkerStatus.total_cookie_14_plus} (${trafficWorkerStatus.total_cookie_14_plus > 0 ? ((trafficWorkerStatus.checked_cookie_14_plus / trafficWorkerStatus.total_cookie_14_plus) * 100).toFixed(1) : 0}%)` : '0 / 0'}
+                </span>
+              </div>
+              <div className="w-full h-2 rounded-full bg-slate-800 overflow-hidden">
+                <div
+                  className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400 transition-all duration-500 rounded-full"
+                  style={{
+                    width: trafficWorkerStatus && trafficWorkerStatus.total_cookie_14_plus > 0
+                      ? `${Math.min(100, (trafficWorkerStatus.checked_cookie_14_plus / trafficWorkerStatus.total_cookie_14_plus) * 100)}%`
+                      : '0%'
+                  }}
+                />
+              </div>
+            </div>
+
+            <div className="flex items-center gap-3 text-[11px] flex-wrap">
+              <span className="inline-flex items-center gap-1 text-emerald-400 font-medium bg-emerald-950/50 px-2 py-0.5 rounded border border-emerald-800/40">
+                <CheckCircle2 size={11} /> Có Data: {trafficWorkerStatus?.with_data ?? stats?.traffic?.with_data ?? 0}
+              </span>
+              <span className="inline-flex items-center gap-1 text-slate-400 font-medium bg-slate-800/60 px-2 py-0.5 rounded border border-slate-700">
+                ⚪ Chưa có data: {trafficWorkerStatus?.no_data ?? stats?.traffic?.no_data ?? 0}
+              </span>
+              <span className="inline-flex items-center gap-1 text-amber-400 font-medium bg-amber-950/50 px-2 py-0.5 rounded border border-amber-800/40">
+                🔥 ≥ 10K visits: {trafficWorkerStatus?.above_10k ?? stats?.traffic?.above_10k ?? 0}
+              </span>
+              {(trafficWorkerStatus?.errors || 0) > 0 && (
+                <span className="inline-flex items-center gap-1 text-rose-400 font-medium bg-rose-950/50 px-2 py-0.5 rounded border border-rose-800/40">
+                  <AlertCircle size={11} /> Lỗi: {trafficWorkerStatus?.errors}
+                </span>
+              )}
+            </div>
+          </div>
+        </section>
+
         {/* SEARCH & FILTERS BAR */}
         <section className="bg-white border border-slate-200 rounded-2xl p-3 shadow-sm flex flex-col gap-2.5">
           <div className="flex items-center gap-3">
@@ -560,11 +1032,19 @@ export default function App() {
           </div>
 
           {/* Active filters bar if any filter is active */}
-          {(currencyFilter !== 'all' || commissionFilter !== 'all' || cookieFilter !== 'all' || notesFilter !== 'all' || search.trim() !== '') && (
+          {(currencyFilter !== 'all' || commissionFilter !== 'all' || cookieFilter !== 'all' || trafficFilter !== 'all' || notesFilter !== 'all' || search.trim() !== '') && (
             <div className="flex items-center gap-2 pt-1 border-t border-slate-100 flex-wrap text-xs">
               <span className="text-[11px] font-semibold text-indigo-600 flex items-center gap-1">
                 <Filter size={12} /> Đang lọc:
               </span>
+              {trafficFilter !== 'all' && (
+                <span className="inline-flex items-center gap-1 text-[11px] bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded-md border border-indigo-200 font-medium">
+                  Traffic: <strong>{trafficFilter === 'has_data' ? 'Đã có data' : trafficFilter === 'no_data' ? 'Chưa có data' : `≥ ${Number(trafficFilter) / 1000}K`}</strong>
+                  <button onClick={() => { setTrafficFilter('all'); setPage(1); }} className="hover:text-indigo-900 ml-0.5">
+                    <X size={11} />
+                  </button>
+                </span>
+              )}
               {currencyFilter !== 'all' && (
                 <span className="inline-flex items-center gap-1 text-[11px] bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded-md border border-indigo-200 font-medium">
                   Tiền: <strong>{currencyFilter}</strong>
@@ -603,6 +1083,7 @@ export default function App() {
                   setCurrencyFilter('all');
                   setCommissionFilter('all');
                   setCookieFilter('all');
+                  setTrafficFilter('all');
                   setNotesFilter('all');
                   setPage(1);
                 }}
@@ -633,6 +1114,44 @@ export default function App() {
                         <ArrowUpDown size={11} className="text-slate-400" />
                       )}
                     </button>
+                  </th>
+
+                  {/* TRAFFIC & TRENDS COLUMN */}
+                  <th className="py-2.5 px-3 w-36">
+                    <div className="flex flex-col gap-1">
+                      <button
+                        onClick={() => handleSort('traffic_raw_value')}
+                        className="flex items-center justify-between hover:text-indigo-600 transition cursor-pointer w-full"
+                        title="Bấm để sắp xếp traffic Cao nhất / Thấp nhất"
+                      >
+                        <span>Traffic</span>
+                        {sortBy === 'traffic_raw_value' ? (
+                          sortOrder === 'asc' ? <ArrowUp size={12} className="text-indigo-600" /> : <ArrowDown size={12} className="text-indigo-600" />
+                        ) : (
+                          <ArrowUpDown size={11} className="text-slate-400" />
+                        )}
+                      </button>
+                      <select
+                        value={trafficFilter}
+                        onChange={e => {
+                          setTrafficFilter(e.target.value);
+                          setPage(1);
+                        }}
+                        className={`text-[11px] font-normal py-1 px-1.5 rounded-lg border focus:outline-none transition cursor-pointer ${
+                          trafficFilter !== 'all'
+                            ? 'bg-indigo-50 border-indigo-300 text-indigo-700 font-semibold'
+                            : 'bg-white border-slate-200 text-slate-700 hover:border-slate-300'
+                        }`}
+                      >
+                        <option value="all">Tất cả Traffic</option>
+                        <option value="10000">≥ 10K / tháng</option>
+                        <option value="20000">≥ 20K / tháng</option>
+                        <option value="50000">≥ 50K / tháng</option>
+                        <option value="100000">≥ 100K / tháng</option>
+                        <option value="has_data">Đã có data (Real)</option>
+                        <option value="no_data">Chưa có data (Store nhỏ/mới)</option>
+                      </select>
+                    </div>
                   </th>
 
                   {/* CURRENCY COLUMN */}
@@ -801,167 +1320,406 @@ export default function App() {
                   const isMidComm = store.commission_value >= 15;
 
                   return (
-                    <tr
-                      key={store.store_id}
-                      onClick={() => {
-                        setSelectedStore(store);
-                        setEditingNote(store.notes || '');
-                        setEditingStatus(store.status || 'available');
-                      }}
-                      className="hover:bg-slate-200/40 transition cursor-pointer group"
-                    >
-                      {/* Favorite Button */}
-                      <td className="py-3 px-4 text-center">
-                        <button
-                          onClick={e => handleToggleFavorite(store, e)}
-                          className="p-1 rounded-md hover:bg-slate-200 text-slate-500 hover:text-amber-400 transition cursor-pointer"
-                        >
-                          <Star
-                            size={16}
-                            className={store.is_favorite ? 'text-amber-400 fill-amber-400' : ''}
-                          />
-                        </button>
-                      </td>
-
-                      {/* Store Name & Link */}
-                      <td className="py-3 px-4 max-w-[220px]">
-                        <div className="flex items-center gap-2.5">
-                          {store.logo_url ? (
-                            <img
-                              src={store.logo_url}
-                              alt={store.name}
-                              className="w-8 h-8 rounded-lg object-contain bg-slate-50 border border-slate-200 p-0.5 flex-shrink-0"
-                              onError={e => {
-                                (e.target as HTMLElement).style.display = 'none';
-                              }}
+                    <React.Fragment key={store.store_id}>
+                      <tr
+                        onClick={() => setExpandedStoreId(prev => prev === store.store_id ? null : store.store_id)}
+                        className={`transition cursor-pointer group ${
+                          expandedStoreId === store.store_id ? 'bg-indigo-50/70 border-b border-indigo-200' : 'hover:bg-slate-200/40'
+                        }`}
+                      >
+                        {/* Favorite Button */}
+                        <td className="py-3 px-3 text-center">
+                          <button
+                            onClick={e => handleToggleFavorite(store, e)}
+                            className="p-1 rounded-md hover:bg-slate-200 text-slate-500 hover:text-amber-400 transition cursor-pointer"
+                          >
+                            <Star
+                              size={16}
+                              className={store.is_favorite ? 'text-amber-400 fill-amber-400' : ''}
                             />
-                          ) : (
-                            <div className="w-8 h-8 rounded-lg bg-slate-200 border border-slate-300 flex items-center justify-center font-bold text-xs text-slate-600 flex-shrink-0">
-                              {store.name.slice(0, 2).toUpperCase()}
-                            </div>
-                          )}
+                          </button>
+                        </td>
 
-                          <div className="min-w-0 max-w-[160px]">
-                            <span
-                              className="font-bold text-xs text-slate-900 group-hover:text-indigo-600 transition block truncate"
-                              title={store.name}
-                            >
-                              {store.name}
+                        {/* Store Name & Link */}
+                        <td className="py-3 px-4 max-w-[220px]">
+                          <div className="flex items-center gap-2.5">
+                            {store.logo_url ? (
+                              <img
+                                src={store.logo_url}
+                                alt={store.name}
+                                className="w-8 h-8 rounded-lg object-contain bg-slate-50 border border-slate-200 p-0.5 flex-shrink-0"
+                                onError={e => {
+                                  (e.target as HTMLElement).style.display = 'none';
+                                }}
+                              />
+                            ) : (
+                              <div className="w-8 h-8 rounded-lg bg-slate-200 border border-slate-300 flex items-center justify-center font-bold text-xs text-slate-600 flex-shrink-0">
+                                {store.name.slice(0, 2).toUpperCase()}
+                              </div>
+                            )}
+
+                            <div className="min-w-0 max-w-[150px]">
+                              <span
+                                className="font-bold text-xs text-slate-900 group-hover:text-indigo-600 transition block truncate"
+                                title={store.name}
+                              >
+                                {store.name}
+                              </span>
+                              {store.website_url && (
+                                <a
+                                  href={store.website_url}
+                                  target="_blank"
+                                  rel="noreferrer"
+                                  onClick={e => e.stopPropagation()}
+                                  className="text-[11px] text-slate-500 hover:text-indigo-500 inline-flex items-center gap-1 truncate max-w-[140px]"
+                                  title={store.website_url}
+                                >
+                                  <Globe size={10} className="flex-shrink-0" />
+                                  <span className="truncate">{store.website_url.replace(/^https?:\/\//, '')}</span>
+                                  <ExternalLink size={9} className="flex-shrink-0" />
+                                </a>
+                              )}
+                            </div>
+
+                            <ChevronDown
+                              size={14}
+                              className={`ml-auto text-slate-400 transition-transform duration-200 flex-shrink-0 ${
+                                expandedStoreId === store.store_id ? 'rotate-180 text-indigo-600' : 'group-hover:text-slate-600'
+                              }`}
+                            />
+                          </div>
+                        </td>
+
+                        {/* Traffic & Trends */}
+                        <td className="py-3 px-3 w-36">
+                          {store.traffic_status === 'success' && store.traffic_raw_value && store.traffic_raw_value > 0 ? (
+                            <div className="flex flex-col gap-0.5">
+                              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-xs font-bold font-mono bg-emerald-50 text-emerald-700 border border-emerald-200 w-fit">
+                                <Eye size={11} className="text-emerald-600" />
+                                {store.traffic_visits || `${(store.traffic_raw_value / 1000).toFixed(0)}K`}
+                              </span>
+                              {store.trend_peak_month && (
+                                <span className="text-[10px] text-amber-600 font-semibold truncate max-w-[120px]">
+                                  🔥 {store.trend_peak_month.split(' ')[0]}
+                                </span>
+                              )}
+                            </div>
+                          ) : store.trend_status === 'success' && store.trend_peak_month ? (
+                            <div className="flex flex-col gap-0.5">
+                              <span className="inline-flex items-center gap-1 text-[11px] text-amber-600 font-semibold truncate max-w-[120px]">
+                                🔥 {store.trend_peak_month.split(' ')[0]}
+                              </span>
+                              <span className="text-[10px] text-slate-400 italic">Traffic &lt;10K</span>
+                            </div>
+                          ) : store.traffic_status === 'no_data' || (store.traffic_status !== 'pending' && store.trend_status === 'no_data') ? (
+                            <span className="text-[11px] text-slate-400 italic" title="Chưa có dữ liệu (Store nhỏ/mới)">
+                              Store nhỏ/mới
                             </span>
+                          ) : store.traffic_status === 'error' || store.trend_status === 'error' ? (
+                            <span className="text-[11px] text-amber-600 font-medium" title="Lỗi kết nối khi tra cứu">
+                              Lỗi tải
+                            </span>
+                          ) : (
+                            <button
+                              onClick={(e) => handleRefreshSingleStore(store.store_id, e)}
+                              className="text-[10px] text-indigo-600 hover:text-indigo-800 hover:underline font-medium cursor-pointer"
+                            >
+                              Kiểm tra ngay
+                            </button>
+                          )}
+                        </td>
+
+                        {/* Currency */}
+                        <td className="py-3 px-3 w-24">
+                          <span className="text-slate-700 font-mono text-xs font-semibold">
+                            {store.currency || 'USD'}
+                          </span>
+                        </td>
+
+                        {/* Commission */}
+                        <td className="py-3 px-3 w-32">
+                          {(() => {
+                            const rawComm = (store.commission_rate || `${store.commission_value}%`).trim();
+                            const isFlatCash = rawComm.includes('$') || rawComm.includes('€') || rawComm.includes('£') || rawComm.includes('₹') || (!rawComm.includes('%') && store.commission_value >= 100);
+
+                            return (
+                              <span
+                                className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-xs font-bold font-mono border ${
+                                  isHighComm
+                                    ? 'bg-emerald-50 text-emerald-600 border-emerald-200'
+                                    : isMidComm
+                                    ? 'bg-sky-50 text-sky-600 border-sky-200'
+                                    : 'bg-slate-200 text-slate-700 border-slate-300'
+                                }`}
+                              >
+                                {isFlatCash ? (
+                                  <>
+                                    <DollarSign size={11} className="text-emerald-600 flex-shrink-0" />
+                                    <span>{rawComm.replace(/^[\$]/, '')}</span>
+                                  </>
+                                ) : (
+                                  <>
+                                    <Percent size={11} className="flex-shrink-0" />
+                                    <span>{rawComm.endsWith('%') ? rawComm : `${rawComm}%`}</span>
+                                  </>
+                                )}
+                              </span>
+                            );
+                          })()}
+                        </td>
+
+                        {/* Cookie Duration */}
+                        <td className="py-3 px-3 w-28 whitespace-nowrap">
+                          <span className="text-slate-600 inline-flex items-center gap-1 font-mono text-xs">
+                            <Clock size={12} className="text-slate-500" />
+                            {store.cookie_days} days
+                          </span>
+                        </td>
+
+                        {/* Notes */}
+                        <td className="py-3 px-4">
+                          {store.notes ? (
+                            <span className="text-[11px] text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded border border-indigo-200 inline-block max-w-[240px] truncate font-medium">
+                              📝 {store.notes}
+                            </span>
+                          ) : (
+                            <span className="text-[11px] text-slate-400 italic">No notes</span>
+                          )}
+                        </td>
+
+                        {/* Actions */}
+                        <td className="py-3 px-4 text-right">
+                          <div className="flex items-center justify-end gap-1.5" onClick={e => e.stopPropagation()}>
                             {store.website_url && (
                               <a
                                 href={store.website_url}
                                 target="_blank"
                                 rel="noreferrer"
-                                onClick={e => e.stopPropagation()}
-                                className="text-[11px] text-slate-500 hover:text-indigo-500 inline-flex items-center gap-1 truncate max-w-[150px]"
-                                title={store.website_url}
+                                className="p-1.5 rounded-lg bg-slate-200 hover:bg-slate-700 text-slate-600 hover:text-slate-900 transition cursor-pointer"
+                                title="Xem website cửa hàng"
                               >
-                                <Globe size={10} className="flex-shrink-0" />
-                                <span className="truncate">{store.website_url.replace(/^https?:\/\//, '')}</span>
-                                <ExternalLink size={9} className="flex-shrink-0" />
+                                <ExternalLink size={14} />
                               </a>
                             )}
+                            <button
+                              onClick={e => {
+                                e.stopPropagation();
+                                setSelectedStore(store);
+                                setEditingNote(store.notes || '');
+                                setEditingStatus(store.status || 'available');
+                              }}
+                              className="p-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-600 hover:text-slate-900 border border-slate-200 transition cursor-pointer"
+                              title="Ghi chú & Chi tiết"
+                            >
+                              <Edit3 size={14} />
+                            </button>
+                            <button
+                              onClick={e => {
+                                e.stopPropagation();
+                                handleDeleteStore(store.store_id, store.name);
+                              }}
+                              className="p-1.5 rounded-lg bg-rose-50 hover:bg-rose-100 text-rose-600 border border-rose-200 transition cursor-pointer"
+                              title="Xóa cửa hàng này"
+                            >
+                              <Trash2 size={14} />
+                            </button>
                           </div>
-                        </div>
-                      </td>
+                        </td>
+                      </tr>
 
-                      {/* Currency */}
-                      <td className="py-3 px-3 w-28">
-                        <span className="text-slate-700 font-mono text-xs font-semibold">
-                          {store.currency || 'USD'}
-                        </span>
-                      </td>
+                      {/* EXPANDABLE ACCORDION ROW */}
+                      {expandedStoreId === store.store_id && (
+                        <tr className="bg-gradient-to-b from-indigo-50/50 via-slate-50 to-indigo-50/30 border-b border-indigo-200 animate-in fade-in duration-200">
+                          <td colSpan={8} className="p-4 sm:p-5">
+                            <div className="bg-white rounded-2xl border border-indigo-100 shadow-sm p-4 sm:p-5 space-y-4">
+                              {/* Accordion Header */}
+                              <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-slate-100">
+                                <div className="flex items-center gap-3">
+                                  <div className="p-2 rounded-xl bg-indigo-50 text-indigo-600 border border-indigo-100">
+                                    <BarChart2 size={18} />
+                                  </div>
+                                  <div>
+                                    <h4 className="font-bold text-sm text-slate-900 flex items-center gap-2 flex-wrap">
+                                      <span>{store.name} — Phân Tích Lưu Lượng & Google Trends</span>
+                                      {store.traffic_status === 'success' && (
+                                        <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">
+                                          Dữ liệu thực tế
+                                        </span>
+                                      )}
+                                    </h4>
+                                    <span className="text-[11px] text-slate-500">
+                                      Chi tiết lượng truy cập ước tính từ Domain Rank và xu hướng tìm kiếm Google 2-5 năm
+                                    </span>
+                                  </div>
+                                </div>
 
-                      {/* Commission */}
-                      <td className="py-3 px-3 w-36">
-                        {(() => {
-                          const rawComm = (store.commission_rate || `${store.commission_value}%`).trim();
-                          const isFlatCash = rawComm.includes('$') || rawComm.includes('€') || rawComm.includes('£') || rawComm.includes('₹') || (!rawComm.includes('%') && store.commission_value >= 100);
-                          
-                          return (
-                            <span
-                              className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold font-mono border ${
-                                isHighComm
-                                  ? 'bg-emerald-50 text-emerald-600 border-emerald-200'
-                                  : isMidComm
-                                  ? 'bg-sky-50 text-sky-600 border-sky-200'
-                                  : 'bg-slate-200 text-slate-700 border-slate-300'
-                              }`}
-                            >
-                              {isFlatCash ? (
-                                <>
-                                  <DollarSign size={11} className="text-emerald-600 flex-shrink-0" />
-                                  <span>{rawComm.replace(/^[\$]/, '')}</span>
-                                </>
-                              ) : (
-                                <>
-                                  <Percent size={11} className="flex-shrink-0" />
-                                  <span>{rawComm.endsWith('%') ? rawComm : `${rawComm}%`}</span>
-                                </>
-                              )}
-                            </span>
-                          );
-                        })()}
-                      </td>
+                                <div className="flex items-center gap-2">
+                                  <button
+                                    onClick={(e) => handleRefreshSingleStore(store.store_id, e)}
+                                    disabled={refreshingStoreId === store.store_id}
+                                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold bg-indigo-50 hover:bg-indigo-100 text-indigo-700 border border-indigo-200 transition cursor-pointer"
+                                    title="Làm mới traffic và Google Trends cho cửa hàng này"
+                                  >
+                                    <RefreshCw size={12} className={refreshingStoreId === store.store_id ? 'animate-spin' : ''} />
+                                    <span>{refreshingStoreId === store.store_id ? 'Đang phân tích...' : 'Làm Mới Traffic'}</span>
+                                  </button>
 
-                      {/* Cookie Duration */}
-                      <td className="py-3 px-3 w-32 whitespace-nowrap">
-                        <span className="text-slate-600 inline-flex items-center gap-1 font-mono text-xs">
-                          <Clock size={12} className="text-slate-500" />
-                          {store.cookie_days} days
-                        </span>
-                      </td>
+                                  <button
+                                    onClick={() => setExpandedStoreId(null)}
+                                    className="p-1.5 rounded-xl hover:bg-slate-100 text-slate-400 hover:text-slate-600 transition cursor-pointer"
+                                    title="Thu gọn dòng"
+                                  >
+                                    <X size={15} />
+                                  </button>
+                                </div>
+                              </div>
 
-                      {/* Notes */}
-                      <td className="py-3 px-4">
-                        {store.notes ? (
-                          <span className="text-[11px] text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded border border-indigo-200 inline-block max-w-[280px] truncate font-medium">
-                            📝 {store.notes}
-                          </span>
-                        ) : (
-                          <span className="text-[11px] text-slate-400 italic">No notes</span>
-                        )}
-                      </td>
+                              {/* 3 Summary Cards */}
+                              <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                                {/* Card 1: Traffic Visits */}
+                                <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200/80 flex flex-col justify-between">
+                                  <div className="flex items-center justify-between text-slate-500 text-[11px] font-medium mb-1">
+                                    <span className="flex items-center gap-1">
+                                      <Eye size={12} className="text-slate-400" />
+                                      Lượng truy cập ước tính (Monthly Visits)
+                                    </span>
+                                    <span className="text-[10px] uppercase font-bold text-slate-400">{store.traffic_top_country || 'Global'}</span>
+                                  </div>
+                                  <div className="text-lg font-bold text-slate-900 font-mono">
+                                    {store.traffic_status === 'success' && store.traffic_visits ? (
+                                      <span className="text-emerald-600">{store.traffic_visits} <span className="text-xs font-normal text-slate-500">lượt/tháng</span></span>
+                                    ) : store.traffic_status === 'no_data' ? (
+                                      <span className="text-xs font-medium text-slate-400">Chưa có dữ liệu (Store nhỏ/mới)</span>
+                                    ) : store.traffic_status === 'error' ? (
+                                      <span className="text-xs font-medium text-rose-500">Lỗi kết nối</span>
+                                    ) : (
+                                      <span className="text-xs font-medium text-slate-400">Chưa kiểm tra</span>
+                                    )}
+                                  </div>
+                                  <div className="text-[10px] text-slate-400 mt-1">
+                                    {store.traffic_status === 'success' ? 'Xác thực từ bảng xếp hạng tên miền toàn cầu Tranco' : 'Cửa hàng chưa có tên miền xếp hạng trong top 1M'}
+                                  </div>
+                                </div>
 
-                      {/* Actions */}
-                      <td className="py-3 px-4 text-right">
-                        <div className="flex items-center justify-end gap-1.5" onClick={e => e.stopPropagation()}>
-                          {store.website_url && (
-                            <a
-                              href={store.website_url}
-                              target="_blank"
-                              rel="noreferrer"
-                              className="p-1.5 rounded-lg bg-slate-200 hover:bg-slate-700 text-slate-600 hover:text-slate-900 transition cursor-pointer"
-                              title="Xem website cửa hàng"
-                            >
-                              <ExternalLink size={14} />
-                            </a>
-                          )}
-                          <button
-                            onClick={() => {
-                              setSelectedStore(store);
-                              setEditingNote(store.notes || '');
-                              setEditingStatus(store.status || 'available');
-                            }}
-                            className="p-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-600 hover:text-slate-900 border border-slate-200 transition cursor-pointer"
-                            title="Ghi chú & Chi tiết"
-                          >
-                            <Edit3 size={14} />
-                          </button>
-                          <button
-                            onClick={e => {
-                              e.stopPropagation();
-                              handleDeleteStore(store.store_id, store.name);
-                            }}
-                            className="p-1.5 rounded-lg bg-rose-50 hover:bg-rose-100 text-rose-600 border border-rose-200 transition cursor-pointer"
-                            title="Xóa cửa hàng này"
-                          >
-                            <Trash2 size={14} />
-                          </button>
-                        </div>
-                      </td>
-                    </tr>
+                                {/* Card 2: Peak Season */}
+                                <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200/80 flex flex-col justify-between">
+                                  <div className="flex items-center justify-between text-slate-500 text-[11px] font-medium mb-1">
+                                    <span className="flex items-center gap-1">
+                                      <Flame size={12} className="text-amber-500" />
+                                      Mùa tìm kiếm đỉnh cao (Peak Month)
+                                    </span>
+                                    <span className="text-[10px] font-semibold text-indigo-600">Google Trends</span>
+                                  </div>
+                                  <div className="text-lg font-bold text-slate-900">
+                                    {store.trend_peak_month ? (
+                                      <span className="text-amber-600 inline-flex items-center gap-1">
+                                        🔥 {store.trend_peak_month}
+                                      </span>
+                                    ) : store.trend_status === 'no_data' ? (
+                                      <span className="text-xs font-medium text-slate-400">Chưa đủ dữ liệu</span>
+                                    ) : (
+                                      <span className="text-xs font-medium text-slate-400">Chưa có số liệu</span>
+                                    )}
+                                  </div>
+                                  <div className="text-[10px] text-slate-400 mt-1">
+                                    {store.trend_peak_month ? 'Tháng có lượng quan tâm mua sắm và tìm kiếm cao nhất 2-5 năm' : 'Thương hiệu chưa đủ lượng tìm kiếm tối thiểu của Google Trends'}
+                                  </div>
+                                </div>
+
+                                {/* Card 3: External Research Links */}
+                                <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200/80 flex flex-col justify-between">
+                                  <span className="text-slate-500 text-[11px] font-medium mb-1">Tra cứu mở rộng</span>
+                                  <div className="flex flex-wrap gap-1.5 mt-1">
+                                    {(() => {
+                                      const brand = store.name.split(' - ')[0].replace(/^https?:\/\//, '').replace(/^www\./, '').split('.')[0];
+                                      const domain = store.website_url.replace(/^https?:\/\//, '').replace(/^www\./, '').split('/')[0];
+                                      return (
+                                        <>
+                                          <a
+                                            href={`https://trends.google.com/trends/explore?q=${encodeURIComponent(brand)}`}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            onClick={e => e.stopPropagation()}
+                                            className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-[11px] font-medium bg-white hover:bg-indigo-50 text-indigo-700 border border-slate-200 hover:border-indigo-200 transition"
+                                          >
+                                            <span>Google Trends</span>
+                                            <ExternalLink size={10} />
+                                          </a>
+                                          {domain && (
+                                            <a
+                                              href={`https://www.similarweb.com/website/${domain}`}
+                                              target="_blank"
+                                              rel="noreferrer"
+                                              onClick={e => e.stopPropagation()}
+                                              className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-[11px] font-medium bg-white hover:bg-indigo-50 text-indigo-700 border border-slate-200 hover:border-indigo-200 transition"
+                                            >
+                                              <span>Similarweb</span>
+                                              <ExternalLink size={10} />
+                                            </a>
+                                          )}
+                                          {store.portal_url && (
+                                            <a
+                                              href={store.portal_url}
+                                              target="_blank"
+                                              rel="noreferrer"
+                                              onClick={e => e.stopPropagation()}
+                                              className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-[11px] font-medium bg-white hover:bg-indigo-50 text-indigo-700 border border-slate-200 hover:border-indigo-200 transition"
+                                            >
+                                              <span>Portal</span>
+                                              <ExternalLink size={10} />
+                                            </a>
+                                          )}
+                                        </>
+                                      );
+                                    })()}
+                                  </div>
+                                  <div className="text-[10px] text-slate-400 mt-2">
+                                    Mở trực tiếp trang phân tích chuyên sâu của Google & Similarweb
+                                  </div>
+                                </div>
+                              </div>
+
+                              {/* 2-5 Year Google Trends Timeline Chart */}
+                              <div className="p-4 rounded-xl bg-slate-50/80 border border-slate-200/80">
+                                <div className="flex items-center justify-between mb-3">
+                                  <div className="flex items-center gap-2">
+                                    <TrendingUp size={15} className="text-indigo-600" />
+                                    <h5 className="text-xs font-bold text-slate-800">
+                                      Biểu đồ xu hướng tìm kiếm Google 2-5 năm (Search Interest 0 - 100)
+                                    </h5>
+                                  </div>
+                                  {store.trend_peak_month && (
+                                    <span className="text-[11px] font-bold text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full border border-amber-200">
+                                      🔥 Tháng cao điểm: {store.trend_peak_month}
+                                    </span>
+                                  )}
+                                </div>
+
+                                {renderTrendsChart(store)}
+                              </div>
+
+                              {/* Inline Quick CRM Notes */}
+                              <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 pt-2 border-t border-slate-100" onClick={e => e.stopPropagation()}>
+                                <span className="text-xs font-semibold text-slate-600 whitespace-nowrap">Ghi chú nhanh:</span>
+                                <input
+                                  type="text"
+                                  value={quickNoteEdit[store.store_id] ?? (store.notes || '')}
+                                  onChange={(e) => setQuickNoteEdit(prev => ({ ...prev, [store.store_id]: e.target.value }))}
+                                  placeholder="Ví dụ: Hoa hồng 30%, đã liên hệ xin coupon riêng..."
+                                  className="flex-1 bg-white border border-slate-300 rounded-xl px-3 py-1.5 text-xs text-slate-700 focus:outline-none focus:border-indigo-500"
+                                />
+                                <button
+                                  onClick={() => handleSaveQuickNote(store.store_id)}
+                                  className="px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-indigo-600 hover:bg-indigo-500 text-white transition cursor-pointer shadow-sm"
+                                >
+                                  Lưu
+                                </button>
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                      )}
+                    </React.Fragment>
                   );
                 })}
 

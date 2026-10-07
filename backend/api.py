@@ -11,6 +11,7 @@ import pandas as pd
 
 from . import db
 from . import crawler
+from . import traffic_worker
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -108,6 +109,8 @@ def get_stores_endpoint(
     currency: Optional[str] = Query(None),
     min_commission: Optional[float] = Query(None),
     cookie_days: Optional[str] = Query(None),
+    min_traffic: Optional[str] = Query(None),
+    traffic_status: Optional[str] = Query(None),
     notes_filter: Optional[str] = Query(None),
     favorite_only: bool = Query(False),
     sort_by: str = Query("commission_value"),
@@ -118,9 +121,21 @@ def get_stores_endpoint(
     """Query stores with filtering, searching, and pagination."""
     # Convert cookie_days to int if it's not empty
     cookie_days_val = None
-    if cookie_days and cookie_days.strip() and cookie_days.strip() != "all":
+    if isinstance(cookie_days, int):
+        cookie_days_val = cookie_days
+    elif isinstance(cookie_days, str) and cookie_days.strip() and cookie_days.strip() != "all":
         try:
             cookie_days_val = int(cookie_days.strip())
+        except ValueError:
+            pass
+
+    # Convert min_traffic to int if it's not empty
+    min_traffic_val = None
+    if isinstance(min_traffic, int):
+        min_traffic_val = min_traffic
+    elif isinstance(min_traffic, str) and min_traffic.strip() and min_traffic.strip() != "all":
+        try:
+            min_traffic_val = int(min_traffic.strip())
         except ValueError:
             pass
 
@@ -130,6 +145,8 @@ def get_stores_endpoint(
         currency=currency,
         min_commission=min_commission,
         cookie_days=cookie_days_val,
+        min_traffic=min_traffic_val,
+        traffic_status=traffic_status,
         notes_filter=notes_filter,
         favorite_only=favorite_only,
         sort_by=sort_by,
@@ -186,14 +203,27 @@ def export_csv_endpoint(
     currency: Optional[str] = Query(None),
     min_commission: Optional[float] = Query(None),
     cookie_days: Optional[str] = Query(None),
+    min_traffic: Optional[str] = Query(None),
+    traffic_status: Optional[str] = Query(None),
     notes_filter: Optional[str] = Query(None),
     favorite_only: bool = Query(False)
 ):
     """Export filtered stores to CSV."""
     cookie_days_val = None
-    if cookie_days and cookie_days.strip() and cookie_days.strip() != "all":
+    if isinstance(cookie_days, int):
+        cookie_days_val = cookie_days
+    elif isinstance(cookie_days, str) and cookie_days.strip() and cookie_days.strip() != "all":
         try:
             cookie_days_val = int(cookie_days.strip())
+        except ValueError:
+            pass
+
+    min_traffic_val = None
+    if isinstance(min_traffic, int):
+        min_traffic_val = min_traffic
+    elif isinstance(min_traffic, str) and min_traffic.strip() and min_traffic.strip() != "all":
+        try:
+            min_traffic_val = int(min_traffic.strip())
         except ValueError:
             pass
 
@@ -203,6 +233,8 @@ def export_csv_endpoint(
         currency=currency,
         min_commission=min_commission,
         cookie_days=cookie_days_val,
+        min_traffic=min_traffic_val,
+        traffic_status=traffic_status,
         notes_filter=notes_filter,
         favorite_only=favorite_only,
         limit=100000,
@@ -210,10 +242,14 @@ def export_csv_endpoint(
     )
     df = pd.DataFrame(data["stores"])
     if df.empty:
-        df = pd.DataFrame(columns=["name", "website_url", "currency", "commission_rate", "cookie_days", "category", "description"])
-    
+        df = pd.DataFrame(columns=["name", "website_url", "currency", "commission_rate", "cookie_days", "category", "description", "traffic_visits", "trend_peak_month"])
+
     # Select and order user-friendly columns
-    export_cols = [c for c in ["name", "website_url", "portal_url", "currency", "commission_rate", "commission_value", "cookie_days", "category", "instant_access", "notes", "crawled_at"] if c in df.columns]
+    export_cols = [c for c in [
+        "name", "website_url", "portal_url", "currency", "commission_rate",
+        "commission_value", "cookie_days", "category", "traffic_visits",
+        "traffic_status", "trend_peak_month", "instant_access", "notes", "crawled_at"
+    ] if c in df.columns]
     df = df[export_cols]
 
     csv_data = df.to_csv(index=False)
@@ -231,14 +267,27 @@ def export_excel_endpoint(
     currency: Optional[str] = Query(None),
     min_commission: Optional[float] = Query(None),
     cookie_days: Optional[str] = Query(None),
+    min_traffic: Optional[str] = Query(None),
+    traffic_status: Optional[str] = Query(None),
     notes_filter: Optional[str] = Query(None),
     favorite_only: bool = Query(False)
 ):
     """Export filtered stores to Excel .xlsx format."""
     cookie_days_val = None
-    if cookie_days and cookie_days.strip() and cookie_days.strip() != "all":
+    if isinstance(cookie_days, int):
+        cookie_days_val = cookie_days
+    elif isinstance(cookie_days, str) and cookie_days.strip() and cookie_days.strip() != "all":
         try:
             cookie_days_val = int(cookie_days.strip())
+        except ValueError:
+            pass
+
+    min_traffic_val = None
+    if isinstance(min_traffic, int):
+        min_traffic_val = min_traffic
+    elif isinstance(min_traffic, str) and min_traffic.strip() and min_traffic.strip() != "all":
+        try:
+            min_traffic_val = int(min_traffic.strip())
         except ValueError:
             pass
 
@@ -248,6 +297,8 @@ def export_excel_endpoint(
         currency=currency,
         min_commission=min_commission,
         cookie_days=cookie_days_val,
+        min_traffic=min_traffic_val,
+        traffic_status=traffic_status,
         notes_filter=notes_filter,
         favorite_only=favorite_only,
         limit=100000,
@@ -255,9 +306,13 @@ def export_excel_endpoint(
     )
     df = pd.DataFrame(data["stores"])
     if df.empty:
-        df = pd.DataFrame(columns=["name", "website_url", "currency", "commission_rate", "cookie_days", "category", "description"])
+        df = pd.DataFrame(columns=["name", "website_url", "currency", "commission_rate", "cookie_days", "category", "description", "traffic_visits", "trend_peak_month"])
 
-    export_cols = [c for c in ["name", "website_url", "portal_url", "currency", "commission_rate", "commission_value", "cookie_days", "category", "instant_access", "notes", "crawled_at"] if c in df.columns]
+    export_cols = [c for c in [
+        "name", "website_url", "portal_url", "currency", "commission_rate",
+        "commission_value", "cookie_days", "category", "traffic_visits",
+        "traffic_status", "trend_peak_month", "instant_access", "notes", "crawled_at"
+    ] if c in df.columns]
     df = df[export_cols]
 
     output = io.BytesIO()
@@ -270,3 +325,42 @@ def export_excel_endpoint(
         media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         headers={"Content-Disposition": "attachment; filename=goaffpro_stores.xlsx"}
     )
+
+
+@app.post("/api/traffic/start")
+def start_traffic_worker_endpoint():
+    """Start or resume background traffic & Google Trends enrichment."""
+    return traffic_worker.worker.start()
+
+
+@app.post("/api/traffic/pause")
+def pause_traffic_worker_endpoint():
+    """Pause background traffic enrichment."""
+    return traffic_worker.worker.pause()
+
+
+@app.post("/api/traffic/resume")
+def resume_traffic_worker_endpoint():
+    """Resume background traffic enrichment."""
+    return traffic_worker.worker.resume()
+
+
+@app.post("/api/traffic/stop")
+def stop_traffic_worker_endpoint():
+    """Stop background traffic enrichment."""
+    return traffic_worker.worker.stop()
+
+
+@app.get("/api/traffic/status")
+def get_traffic_status_endpoint():
+    """Get current status and progress of the traffic worker."""
+    return traffic_worker.worker.get_status()
+
+
+@app.post("/api/stores/{store_id}/refresh-traffic")
+def refresh_store_traffic_endpoint(store_id: str):
+    """Enrich or refresh traffic and Google Trends for a specific store."""
+    res = traffic_worker.worker.refresh_single_store(store_id)
+    if not res:
+        raise HTTPException(status_code=404, detail="Store not found")
+    return res

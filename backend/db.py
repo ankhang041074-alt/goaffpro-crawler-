@@ -86,6 +86,28 @@ def init_db():
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_commission ON stores(commission_value)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_favorite ON stores(is_favorite)")
 
+    # Ensure traffic and Google Trends columns exist
+    cursor.execute("PRAGMA table_info(stores)")
+    existing_cols = {row["name"] for row in cursor.fetchall()}
+
+    traffic_cols = [
+        ("traffic_visits", "TEXT DEFAULT ''"),
+        ("traffic_raw_value", "INTEGER DEFAULT 0"),
+        ("traffic_status", "TEXT DEFAULT 'pending'"),
+        ("traffic_top_country", "TEXT DEFAULT ''"),
+        ("trend_timeline_json", "TEXT DEFAULT ''"),
+        ("trend_peak_month", "TEXT DEFAULT ''"),
+        ("trend_status", "TEXT DEFAULT 'pending'"),
+        ("traffic_updated_at", "DATETIME DEFAULT NULL"),
+    ]
+    for col_name, col_type in traffic_cols:
+        if col_name not in existing_cols:
+            cursor.execute(f"ALTER TABLE stores ADD COLUMN {col_name} {col_type}")
+
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_traffic ON stores(traffic_raw_value)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_traffic_status ON stores(traffic_status)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_trend_status ON stores(trend_status)")
+
     conn.commit()
     conn.close()
 
@@ -235,6 +257,8 @@ def get_stores(
     currency: Optional[str] = None,
     min_commission: Optional[float] = None,
     cookie_days: Optional[int] = None,
+    min_traffic: Optional[int] = None,
+    traffic_status: Optional[str] = None,
     notes_filter: Optional[str] = None,
     favorite_only: bool = False,
     sort_by: str = "commission_value",
@@ -249,33 +273,72 @@ def get_stores(
     conditions = []
     params = []
 
-    if search and search.strip():
+    if isinstance(search, str) and search.strip():
         term = f"%{search.strip().lower()}%"
         conditions.append("(LOWER(name) LIKE ? OR LOWER(description) LIKE ? OR LOWER(category) LIKE ? OR LOWER(website_url) LIKE ? OR LOWER(notes) LIKE ?)")
         params.extend([term, term, term, term, term])
 
-    if category and category.strip() and category.strip() != "all":
+    if isinstance(category, str) and category.strip() and category.strip() != "all":
         conditions.append("category = ?")
         params.append(category.strip())
 
-    if currency and currency.strip() and currency.strip() != "all":
+    if isinstance(currency, str) and currency.strip() and currency.strip() != "all":
         conditions.append("UPPER(currency) = UPPER(?)")
         params.append(currency.strip())
 
-    if min_commission is not None and float(min_commission) > 0:
+    if min_commission is not None and isinstance(min_commission, (int, float)) and float(min_commission) > 0:
         conditions.append("commission_value >= ?")
         params.append(float(min_commission))
+    elif isinstance(min_commission, str) and min_commission.strip():
+        try:
+            val = float(min_commission.strip())
+            if val > 0:
+                conditions.append("commission_value >= ?")
+                params.append(val)
+        except ValueError:
+            pass
 
-    if cookie_days is not None:
+    if cookie_days is not None and isinstance(cookie_days, (int, float)):
         conditions.append("cookie_days = ?")
         params.append(int(cookie_days))
+    elif isinstance(cookie_days, str) and cookie_days.strip() and cookie_days.strip() != "all":
+        try:
+            conditions.append("cookie_days = ?")
+            params.append(int(cookie_days.strip()))
+        except ValueError:
+            pass
 
-    if notes_filter == "has_notes":
-        conditions.append("(notes IS NOT NULL AND TRIM(notes) != '')")
-    elif notes_filter == "no_notes":
-        conditions.append("(notes IS NULL OR TRIM(notes) = '')")
+    if min_traffic is not None and isinstance(min_traffic, (int, float)) and int(min_traffic) > 0:
+        conditions.append("traffic_raw_value >= ?")
+        params.append(int(min_traffic))
+    elif isinstance(min_traffic, str) and min_traffic.strip():
+        try:
+            val = int(min_traffic.strip())
+            if val > 0:
+                conditions.append("traffic_raw_value >= ?")
+                params.append(val)
+        except ValueError:
+            pass
 
-    if favorite_only:
+    if isinstance(traffic_status, str) and traffic_status.strip() and traffic_status.strip() != "all":
+        ts = traffic_status.strip().lower()
+        if ts == "has_data":
+            conditions.append("(traffic_status = 'success' OR traffic_raw_value > 0 OR trend_status = 'success')")
+        elif ts == "no_data":
+            conditions.append("((traffic_status = 'no_data' OR trend_status = 'no_data') AND (traffic_status != 'success' AND trend_status != 'success' AND (traffic_raw_value IS NULL OR traffic_raw_value = 0)))")
+        elif ts == "pending":
+            conditions.append("(traffic_status = 'pending' OR traffic_status IS NULL OR traffic_status = '' OR trend_status = 'pending')")
+        elif ts in ["success", "error"]:
+            conditions.append("(traffic_status = ? OR trend_status = ?)")
+            params.extend([ts, ts])
+
+    if isinstance(notes_filter, str):
+        if notes_filter == "has_notes":
+            conditions.append("(notes IS NOT NULL AND TRIM(notes) != '')")
+        elif notes_filter == "no_notes":
+            conditions.append("(notes IS NULL OR TRIM(notes) = '')")
+
+    if favorite_only is True or (isinstance(favorite_only, str) and favorite_only.strip().lower() in ("true", "1")):
         conditions.append("is_favorite = 1")
 
     where_clause = f"WHERE {' AND '.join(conditions)}" if conditions else ""
@@ -287,10 +350,15 @@ def get_stores(
 
     # Allowed sorting fields
     safe_sort_col = "commission_value"
-    if sort_by in ["name", "commission_value", "cookie_days", "currency", "notes", "crawled_at", "updated_at"]:
+    if isinstance(sort_by, str) and sort_by in ["name", "commission_value", "cookie_days", "currency", "notes", "crawled_at", "updated_at", "traffic_raw_value"]:
         safe_sort_col = sort_by
 
-    safe_order = "DESC" if sort_order.lower() == "desc" else "ASC"
+    safe_order = "DESC"
+    if isinstance(sort_order, str) and sort_order.lower() == "asc":
+        safe_order = "ASC"
+
+    safe_limit = limit if isinstance(limit, int) else 100
+    safe_offset = offset if isinstance(offset, int) else 0
 
     query_sql = f"""
     SELECT * FROM stores
@@ -298,7 +366,7 @@ def get_stores(
     ORDER BY {safe_sort_col} {safe_order}, name ASC
     LIMIT ? OFFSET ?
     """
-    cursor.execute(query_sql, params + [limit, offset])
+    cursor.execute(query_sql, params + [safe_limit, safe_offset])
     stores = [dict(r) for r in cursor.fetchall()]
     conn.close()
 
@@ -318,6 +386,87 @@ def get_categories() -> List[str]:
     cats = [r["category"] for r in cursor.fetchall()]
     conn.close()
     return cats
+
+
+def get_traffic_stats() -> Dict[str, Any]:
+    """Summary statistics for store traffic and Google Trends enrichment."""
+    conn = get_db()
+    cursor = conn.cursor()
+
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE cookie_days >= 14")
+    total_cookie_14 = cursor.fetchone()["cnt"] or 0
+
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE cookie_days >= 14 AND traffic_status IN ('success', 'no_data', 'error')")
+    checked_cookie_14 = cursor.fetchone()["cnt"] or 0
+
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE traffic_status = 'success' OR trend_status = 'success'")
+    with_data = cursor.fetchone()["cnt"] or 0
+
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE traffic_status = 'no_data' AND (trend_status = 'no_data' OR trend_status IS NULL OR trend_status = '')")
+    no_data = cursor.fetchone()["cnt"] or 0
+
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE traffic_status = 'error' OR trend_status = 'error'")
+    errors = cursor.fetchone()["cnt"] or 0
+
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE traffic_raw_value >= 10000")
+    above_10k = cursor.fetchone()["cnt"] or 0
+
+    conn.close()
+    return {
+        "total_cookie_14_plus": total_cookie_14,
+        "checked_cookie_14_plus": checked_cookie_14,
+        "remaining_cookie_14_plus": max(0, total_cookie_14 - checked_cookie_14),
+        "with_data": with_data,
+        "no_data": no_data,
+        "errors": errors,
+        "above_10k": above_10k
+    }
+
+
+def update_store_traffic_and_trends(store_id: str, data: Dict[str, Any]) -> bool:
+    """Update store traffic and Google Trends data."""
+    conn = get_db()
+    cursor = conn.cursor()
+    cursor.execute("""
+    UPDATE stores SET
+        traffic_visits = ?,
+        traffic_raw_value = ?,
+        traffic_status = ?,
+        traffic_top_country = ?,
+        trend_timeline_json = ?,
+        trend_peak_month = ?,
+        trend_status = ?,
+        traffic_updated_at = CURRENT_TIMESTAMP
+    WHERE store_id = ?
+    """, (
+        str(data.get("traffic_visits", "")),
+        int(data.get("traffic_raw_value", 0)),
+        str(data.get("traffic_status", "pending")),
+        str(data.get("traffic_top_country", "")),
+        str(data.get("trend_timeline_json", "")),
+        str(data.get("trend_peak_month", "")),
+        str(data.get("trend_status", "pending")),
+        store_id
+    ))
+    conn.commit()
+    conn.close()
+    return True
+
+
+def get_stores_for_traffic_enrichment(limit: int = 50, cookie_min_days: int = 14) -> List[Dict[str, Any]]:
+    """Get stores with cookie_days >= cookie_min_days that haven't been checked for traffic yet."""
+    conn = get_db()
+    cursor = conn.cursor()
+    cursor.execute("""
+    SELECT store_id, name, website_url, cookie_days, commission_value, category, currency, status
+    FROM stores
+    WHERE cookie_days >= ? AND (traffic_status IS NULL OR traffic_status = 'pending' OR traffic_status = '')
+    ORDER BY cookie_days DESC, commission_value DESC
+    LIMIT ?
+    """, (cookie_min_days, limit))
+    rows = [dict(r) for r in cursor.fetchall()]
+    conn.close()
+    return rows
 
 
 def get_stats() -> Dict[str, Any]:
@@ -346,6 +495,9 @@ def get_stats() -> Dict[str, Any]:
     cookie_durations = [{"days": r["cookie_days"], "count": r["cnt"]} for r in cursor.fetchall()]
 
     conn.close()
+
+    traffic_stats = get_traffic_stats()
+
     return {
         "total_stores": total_stores,
         "avg_commission": avg_comm,
@@ -353,7 +505,8 @@ def get_stats() -> Dict[str, Any]:
         "total_favorites": total_fav,
         "top_categories": top_categories,
         "currencies": currencies,
-        "cookie_durations": cookie_durations
+        "cookie_durations": cookie_durations,
+        "traffic": traffic_stats
     }
 
 

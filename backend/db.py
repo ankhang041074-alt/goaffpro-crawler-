@@ -402,7 +402,7 @@ def get_traffic_stats() -> Dict[str, Any]:
     cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE traffic_status = 'success' OR trend_status = 'success'")
     with_data = cursor.fetchone()["cnt"] or 0
 
-    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE traffic_status = 'no_data' AND (trend_status = 'no_data' OR trend_status IS NULL OR trend_status = '')")
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE traffic_status = 'no_data' AND (trend_status = 'no_data' OR trend_status IS NULL OR trend_status = '' OR trend_status = 'pending')")
     no_data = cursor.fetchone()["cnt"] or 0
 
     cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE traffic_status = 'error' OR trend_status = 'error'")
@@ -458,9 +458,25 @@ def get_stores_for_traffic_enrichment(limit: int = 50, cookie_min_days: int = 14
     conn = get_db()
     cursor = conn.cursor()
     cursor.execute("""
-    SELECT store_id, name, website_url, cookie_days, commission_value, category, currency, status
+    SELECT store_id, name, website_url, cookie_days, commission_value, category, currency, status, traffic_status, trend_status, trend_timeline_json, trend_peak_month
     FROM stores
     WHERE cookie_days >= ? AND (traffic_status IS NULL OR traffic_status = 'pending' OR traffic_status = '')
+    ORDER BY cookie_days DESC, commission_value DESC
+    LIMIT ?
+    """, (cookie_min_days, limit))
+    rows = [dict(r) for r in cursor.fetchall()]
+    conn.close()
+    return rows
+
+
+def get_stores_for_trend_enrichment(limit: int = 50, cookie_min_days: int = 14) -> List[Dict[str, Any]]:
+    """Get stores with cookie_days >= cookie_min_days that have traffic checked but Google Trends is still pending."""
+    conn = get_db()
+    cursor = conn.cursor()
+    cursor.execute("""
+    SELECT store_id, name, website_url, cookie_days, commission_value, category, currency, status, traffic_status, trend_status, trend_timeline_json, trend_peak_month
+    FROM stores
+    WHERE cookie_days >= ? AND (trend_status IS NULL OR trend_status = 'pending' OR trend_status = '')
     ORDER BY cookie_days DESC, commission_value DESC
     LIMIT ?
     """, (cookie_min_days, limit))

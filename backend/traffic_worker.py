@@ -60,37 +60,6 @@ _domain_rank_cache: Dict[str, Tuple[Optional[int], str]] = {}
 _gt_cooldown_until: float = 0.0
 
 
-def extract_domain(url: str) -> str:
-    """Extract clean domain name from URL."""
-    if not url:
-        return ""
-    u = url.strip()
-    if not u.startswith("http://") and not u.startswith("https://"):
-        u = "https://" + u
-    try:
-        parsed = urlparse(u)
-        host = (parsed.netloc or parsed.path).split("/")[0].split(":")[0].strip().lower()
-        if host.startswith("www."):
-            host = host[4:]
-        return host
-    except Exception:
-        return ""
-
-
-def get_apex_domain(domain: str) -> str:
-    """Extract apex/root domain if domain has common commerce subdomains."""
-    parts = domain.lower().split(".")
-    if len(parts) <= 2:
-        return domain
-    subdomain_prefixes = {
-        "shop", "store", "app", "my", "us", "uk", "eu", "ca", "au",
-        "fr", "de", "en", "m", "www", "checkout", "buy", "order", "portal"
-    }
-    if parts[0] in subdomain_prefixes:
-        return ".".join(parts[1:])
-    return domain
-
-
 def clean_brand_name(name: str, website_url: str = "") -> str:
     """Clean store name to create an effective query for Google Trends."""
     brand = html.unescape(name or "").strip()
@@ -272,7 +241,8 @@ def fetch_google_trends(brand_name: str) -> Dict[str, Any]:
     if now < _gt_cooldown_until:
         rem = int(_gt_cooldown_until - now)
         return {
-            "status": "error",
+            "status": "pending",
+            "cooldown": True,
             "error": f"rate_limited_cooldown ({rem}s)",
             "timeline": [],
             "peak_month": "",
@@ -353,6 +323,7 @@ def enrich_store_data(store: Dict[str, Any]) -> Dict[str, Any]:
     Perform real traffic & Google Trends enrichment for a single store record.
     Never invents numbers; returns real verified data or marks as 'no_data'.
     """
+    global _gt_cooldown_until
     store_id = str(store.get("store_id") or "")
     name = str(store.get("name") or "")
     website_url = str(store.get("website_url") or "")
@@ -379,17 +350,43 @@ def enrich_store_data(store: Dict[str, Any]) -> Dict[str, Any]:
         traffic_status = "no_data"
 
     # 2. Google Trends lookup
-    trend_res = fetch_google_trends(brand)
-    trend_status = trend_res.get("status", "no_data")
-    trend_timeline = trend_res.get("timeline", [])
-    trend_peak = trend_res.get("peak_month", "")
+    now = time.time()
+    existing_trend_status = store.get("trend_status") or "pending"
+    existing_timeline_json = store.get("trend_timeline_json") or "[]"
+    existing_peak = store.get("trend_peak_month") or ""
+
+    if now < _gt_cooldown_until:
+        # Currently in cooldown: keep pending status and do not query or mark as error
+        trend_status = "pending" if existing_trend_status in ["", "error", "pending"] else existing_trend_status
+        trend_timeline_json = existing_timeline_json
+        trend_peak = existing_peak
+    else:
+        trend_res = fetch_google_trends(brand)
+        t_status = trend_res.get("status", "no_data")
+        if t_status == "success":
+            trend_status = "success"
+            trend_timeline = trend_res.get("timeline", [])
+            trend_timeline_json = json.dumps(trend_timeline) if trend_timeline else "[]"
+            trend_peak = trend_res.get("peak_month", "")
+        elif t_status == "no_data":
+            trend_status = "no_data"
+            trend_timeline_json = "[]"
+            trend_peak = ""
+        elif t_status in ["pending", "cooldown"]:
+            trend_status = "pending"
+            trend_timeline_json = existing_timeline_json
+            trend_peak = existing_peak
+        else:
+            trend_status = "error"
+            trend_timeline_json = "[]"
+            trend_peak = ""
 
     result = {
         "traffic_visits": traffic_str,
         "traffic_raw_value": traffic_raw,
         "traffic_status": traffic_status,
         "traffic_top_country": "Global",
-        "trend_timeline_json": json.dumps(trend_timeline) if trend_timeline else "[]",
+        "trend_timeline_json": trend_timeline_json,
         "trend_peak_month": trend_peak,
         "trend_status": trend_status,
     }
@@ -473,9 +470,9 @@ class TrafficWorker:
             "is_paused": self._is_paused,
             "current_store": self.current_store,
             "scanned": self.scanned,
-            "with_data": self.with_data,
-            "no_data": self.no_data,
-            "errors": self.errors,
+            "with_data": db_stats.get("with_data", 0),
+            "no_data": db_stats.get("no_data", 0),
+            "errors": db_stats.get("errors", 0),
             "gt_cooldown_seconds": gt_cd,
             "remaining": db_stats.get("remaining_cookie_14_plus", 0),
             "total_cookie_14_plus": db_stats.get("total_cookie_14_plus", 0),
@@ -493,11 +490,15 @@ class TrafficWorker:
                 # Fetch stores prioritizing cookie_days >= 14
                 stores = db.get_stores_for_traffic_enrichment(limit=25, cookie_min_days=14)
                 if not stores:
-                    # If all cookie >= 14 stores checked, check other stores
+                    # If all cookie >= 14 stores checked for traffic, check other stores
                     stores = db.get_stores_for_traffic_enrichment(limit=25, cookie_min_days=0)
                     if not stores:
-                        logger.info("All stores have been enriched with traffic data. Worker idle.")
-                        break
+                        # If all stores have traffic checked, check if Google Trends can be enriched for pending cookie >= 14 stores
+                        if time.time() >= _gt_cooldown_until:
+                            stores = db.get_stores_for_trend_enrichment(limit=25, cookie_min_days=14)
+                        if not stores:
+                            logger.info("All stores have been enriched with traffic data. Worker idle.")
+                            break
 
                 for store in stores:
                     if self._stop_event.is_set():
@@ -522,11 +523,12 @@ class TrafficWorker:
                         self._stop_event.wait(3.0)
                     elif res.get("trend_status") == "error":
                         self.errors += 1
+                        self._stop_event.wait(3.0)
                     else:
                         self.no_data += 1
 
-                    # Delay 3.0 to 4.5 seconds between stores to respect rate limits
-                    delay = random.uniform(3.0, 4.5)
+                    # Delay 2.5 to 4.0 seconds between stores to respect rate limits
+                    delay = random.uniform(2.5, 4.0)
                     self._stop_event.wait(delay)
 
         except Exception as e:

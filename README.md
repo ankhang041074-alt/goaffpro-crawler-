@@ -1,114 +1,173 @@
-# 🎯 GoAffPro Store Hunter & Affiliate CRM
+# 🎯 GoAffPro Store Hunter & Affiliate Analytics CRM
 
-Ứng dụng nội bộ (Local Web App) chuyên dụng để tự động cào sạch toàn bộ cửa hàng (stores) trên nền tảng **GoAffPro Marketplace** (đã kiểm chứng cào thành công trọn vẹn **220 trang ~ 22.000 stores**), bóc tách chuẩn xác tỷ lệ hoa hồng, thời hạn cookie, tiền tệ, và hỗ trợ xuất file Excel để tìm kiếm đối tác tiếp thị liên kết (Shopify Affiliate) tiềm năng.
-
----
-
-## 🚀 Tính Năng Chính
-
-1. **🔑 Đăng Nhập & Giữ Phiên Tự Động (Persistent Browser Session)**:
-   - Bấm `Mở Trình Duyệt Login` để mở Chrome. Bạn đăng nhập tài khoản GoAffPro và giải Turnstile/Captcha một lần.
-   - Phiên đăng nhập được lưu vĩnh viễn trong `data/browser_profile`. Lần sau mở app là tự động cào mà không cần đăng nhập lại.
-2. **🤖 Luồng Tự Động 5 Bước Không Lỗi 404**:
-   - Tự động đi qua luồng: `Login / Main` ➔ `I am an affiliate` ➔ `Stores` ➔ Chuyển tab `Available Stores` ➔ Đặt 100 kết quả/trang ➔ Cào dữ liệu.
-   - Cơ chế chặn khôi phục tab cũ của Chromium, loại bỏ hoàn toàn lỗi tab 404.
-3. **⚡ Bắt Gói API Ngầm Tốc Độ Cao (API Interception & DOM Scraper)**:
-   - Bắt trực tiếp gói tin `/v1/public/sites` từ GoAffPro, tốc độ cào ~1.000 store / phút.
-   - Thu thập trọn vẹn: Tên thương hiệu, Website, Tiền tệ (`USD`, `EUR`, `GBP`, `CAD`, `AUD`...), Hoa hồng, Thời hạn Cookie (quy đổi chuẩn sang số ngày).
-4. **🔄 Cơ Chế Lọc Trùng Tuyệt Đối (UPSERT)**:
-   - Sử dụng SQLite WAL Mode với khóa `store_id UNIQUE`. Cào lại từ đầu không sợ trùng lặp dữ liệu, không lo đè mất ghi chú của bạn.
-5. **🗑️ Quản Lý Xóa Linh Hoạt**:
-   - Xóa từng store trực tiếp trên bảng hoặc trong popup chi tiết.
-   - Nút **"Xóa Tiền INR"** hỗ trợ dọn sạch 1-click toàn bộ các dự án tiền Ấn Độ khi không có nhu cầu làm.
-6. **📥 Xuất File Excel (.xlsx) & CSV 1-Chạm**:
-   - Xuất dữ liệu lọc ra Excel tức thì để gửi cho team hoặc lưu trữ.
+Ứng dụng nội bộ (Local Web App) chuyên dụng để tự động cào sạch toàn bộ cửa hàng (stores) trên nền tảng **GoAffPro Marketplace** (đã kiểm chứng cào thành công **20.800+ stores**), ước tính **Lưu lượng truy cập (Traffic)**, phân tích **Google Trends 5 năm**, nhận diện **Xu hướng đón sóng tăng trưởng theo tháng (T1 - T12)**, và **Phân loại ngành hàng thông minh (Multi-Category)**.
 
 ---
 
-## 💻 Hướng Dẫn Cài Đặt & Chạy Ứng Dụng
+## 🏗️ Kiến Trúc Hệ Thống & Luồng Làm Việc (Architecture & Workflow)
+
+```mermaid
+flowchart TD
+    subgraph DataCollection ["1. Thu Thập Dữ Liệu GoAffPro"]
+        A["Playwright Chromium (Persistent Session)"] --> B["Bắt API ngầm /v1/public/sites"]
+        B --> C["Bóc tách: Tên, Link, Tiền tệ, % Hoa hồng, Cookie"]
+    end
+
+    subgraph Storage ["2. Cơ Sở Dữ Liệu SQLite (WAL Mode)"]
+        C --> D[("data/goaffpro.db (20.800+ Stores)")]
+    end
+
+    subgraph Enrichment ["3. Tiến Trình Làm Giàu Dữ Liệu Ngầm"]
+        D --> E["Tranco Global Top 1M + Zipf's Law -> Lượng Traffic"]
+        D --> F["Google Trends 5 Năm -> Chu kỳ mùa vụ & Tháng đỉnh cao"]
+        D --> G["Website Scraper -> Title & Meta Description"]
+        G --> H["Categorizer NLP Engine -> Phân loại Ngành hàng & Check 18+"]
+        E & F & H --> D
+    end
+
+    subgraph Dashboard ["4. Giao Diện Người Dùng (React + Vite)"]
+        D --> I["Bảng tương tác & Bộ lọc đa năng"]
+        I --> J["Biểu đồ Google Trends SVG tương tác"]
+        I --> K["Bộ lọc Tháng & Đón sóng tăng trưởng"]
+        I --> L["Bộ lọc Ngành hàng & SafeFilter 18+"]
+        I --> M["Xuất Excel (.xlsx) / CSV 1-click"]
+    end
+```
+
+---
+
+## 🌟 5 Tính Năng Nòng Cốt & Logic Hoạt Động Chi Tiết
+
+### 1. ⚡ Cào Danh Sách Tự Động (GoAffPro Scraper)
+- **Giữ phiên vĩnh viễn (Persistent Profile):** Bạn chỉ cần đăng nhập tài khoản GoAffPro một lần duy nhất qua nút `Mở Trình Duyệt Login`. Cookie và phiên làm việc được lưu trong `data/browser_profile`, không bao giờ bắt đăng nhập lại.
+- **Luồng điều hướng 5 bước chống 404:** Tự động đi theo luồng: `Login` ➔ `I am an affiliate` ➔ `Stores` ➔ Chuyển tab `Available Stores` ➔ Đặt 100 kết quả/trang ➔ Bắt gói API ngầm `v1/public/sites` với tốc độ hơn 1.000 store/phút.
+- **Chống trùng lặp tuyệt đối (UPSERT):** Sử dụng SQLite khóa `store_id UNIQUE`. Cào lại từ đầu thoải mái mà không lo bị trùng lặp dữ liệu hay mất ghi chú riêng của bạn.
+
+---
+
+### 2. 📊 Ước Tính Lượng Truy Cập Thực Tế (Traffic Estimation)
+- **Không bao giờ bịa số liệu:** Dựa trên tập dữ liệu nghiên cứu xếp hạng tên miền toàn cầu **Tranco Top 1M** kết hợp **Mô hình phân phối Zipf's Law** chuẩn khoa học máy tính.
+- Phân loại rõ ràng:
+  - Store trong bảng xếp hạng $\rightarrow$ Hiển thị lượt truy cập ước tính (ví dụ `45K`, `120K`).
+  - Store mới / nhỏ $\rightarrow$ Đánh dấu rõ ràng `Store nhỏ/mới`, tuyệt đối không fake số.
+
+---
+
+### 3. 📈 Google Trends 5 Năm & Bộ Lọc Đón Sóng Theo Tháng (Momentum Growth)
+- **Biểu đồ thời gian thực (Interactive SVG Timeline):** Thể hiện sự biến thiên độ quan tâm tìm kiếm từ 0 - 100 điểm suốt 2-5 năm, gắn cờ tháng bùng nổ nhất (`🔥 Peak Month`).
+- **Bộ lọc theo Tháng (Tháng 1 -> Tháng 12) với 4 tiêu chí thực tế:**
+  1. `🌊 Tất cả`: Lọc các store có lượng tìm kiếm trong tháng được chọn.
+  2. `↗️ Đón sóng tăng trưởng`: Store đang vào mùa bán chạy (điểm tìm kiếm tháng này tăng so với tháng trước, hiển thị `↗️ T{tháng}: {điểm}đ (+XX%)`).
+  3. `🏔️ Bùng nổ đạt đỉnh`: Tháng được chọn chính là mùa bán chạy nhất trong năm của store đó (`🏔️ Đỉnh T{tháng}`).
+  4. `🔥 Lượng tìm kiếm cao`: Các thương hiệu lớn có độ hot vượt trội ($\ge 50$ điểm).
+- **Tự động xoay IP ExpressVPN (Auto-Rotate VPN):** Khi gửi nhiều truy vấn lên Google Trends và bị giới hạn tạm thời (429 Rate Limit), worker tự động kết nối ExpressVPN xoay sang IP quốc gia khác để tiếp tục quét liên tục mà không bị gián đoạn.
+
+---
+
+### 4. 🏷️ Phân Loại Ngành Hàng Đa Tầng (Multi-Category & Hybrid Niche)
+- **Giải quyết bài toán cửa hàng đa ngành:** Với các store kinh doanh hỗn hợp (ví dụ vừa bán *Serum trị mụn* vừa bán *Thực phẩm chức năng*):
+  - Hệ thống tự động gán **Mảng thẻ đa năng**: `categories_json = ["Beauty & Skincare", "Health & Supplements"]`.
+  - Nhãn hiển thị chính: `Beauty & Health`.
+  - **Bộ lọc thông minh:** Bạn lọc ngách `Beauty & Skincare` store này sẽ ra, lọc `Health & Supplements` store này **cũng ra**, không bao giờ bị bỏ sót đối tác tiềm năng.
+- **Tóm tắt sản phẩm do web tự mô tả:** Hệ thống tự động đọc thẻ `<title>` và `<meta name="description">` của website để hiển thị nguyên văn đoạn giới thiệu sản phẩm trong dòng mở rộng (Accordion).
+
+---
+
+### 5. 🛡️ Phân Định 18+ Tinh Tế & Dọn Dẹp Ấn Độ / Nam Á
+- **Phân biệt rạch ròi 18+ vs Sức khỏe & Chăm sóc cá nhân:**
+  - **Sản phẩm y tế / sinh lý lành mạnh (Sexual Wellness):** Bao cao su, gel bôi trơn y tế, sinh lý, dung dịch vệ sinh $\rightarrow$ Tự động xếp vào nhóm **`Health & Personal Care`** (`is_adult = 0`). Đây là các sản phẩm thương mại sạch với hoa hồng cao, được bảo vệ nguyên vẹn.
+  - **18+ Thô tục / Hardcore NSFW:** Búp bê tình dục (Sex dolls), đồ chơi bạo dâm (BDSM/Fetish), truyện/phim người lớn $\rightarrow$ Gán nhãn `Adult 18+` (`is_adult = 1`).
+  - **Bộ lọc SafeFilter:** Cho phép bạn chọn `🛡️ Ẩn 18+ (Mặc định)` để giữ bảng sạch đẹp, hoặc chọn `👁️ Hiện tất cả` / `🔞 Chỉ xem 18+`.
+- **Nút "Xóa Store Ấn Độ":** 1-click quét sạch mọi dự án sử dụng tiền tệ Nam Á (`INR`, `PKR`, `BDT`, `LKR`, `NPR`) hoặc các website đặt máy chủ / tên miền nội địa Ấn Độ (`.in`, `.co.in`, `.pk`, `.bd`).
+
+---
+
+## 💻 Hướng Dẫn Cài Đặt & Chạy Trên Mọi Máy Tính
+
+Khi bạn tải mã nguồn này về máy tính khác (máy ở nhà, laptop mới...):
 
 ### 📋 Yêu cầu tiên quyết (Prerequisites)
 - **Python**: Phiên bản 3.10 trở lên ([Tải Python](https://www.python.org/downloads/))
 - **Node.js**: Phiên bản 18 trở lên ([Tải Node.js](https://nodejs.org/))
-- **Git** (nếu cài đặt qua clone kho lưu trữ)
+- **Git**
 
 ---
 
 ### 🍏 Dành Cho macOS & Linux
 
-1. **Mở Terminal** và di chuyển vào thư mục dự án:
-   ```bash
-   cd goaffpro-crawler
-   ```
+Chỉ cần mở Terminal tại thư mục dự án và chạy duy nhất **1 lệnh**:
 
-2. **Cấp quyền thực thi và chạy file khởi động:**
-   ```bash
-   chmod +x start_app.sh
-   ./start_app.sh
-   ```
+```bash
+bash start_app.sh
+```
 
-> **Hệ thống sẽ tự động:**
-> - Khởi tạo môi trường ảo Python (`.venv`) và cài đặt thư viện cần thiết.
-> - Cài đặt trình duyệt Playwright Chromium.
-> - Cài đặt gói npm frontend và khởi động đồng thời Backend (Port 8001) & Frontend (Port 5174).
-> - Tự động bật trình duyệt web vào trang: `http://localhost:5174`.
+> **Script sẽ tự động hoàn toàn:**
+> 1. Kiểm tra và tự động khởi tạo môi trường Python `.venv`.
+> 2. Tự động cài đặt đầy đủ các thư viện trong `requirements.txt`.
+> 3. Tự động cài đặt Chromium cho Playwright.
+> 4. Tự động tải `npm install` và biên dịch Frontend.
+> 5. Khởi động Backend FastAPI tại `http://localhost:8001`.
+> 6. Khởi động Frontend Dashboard tại `http://localhost:5174`.
+> 7. Tự động mở trình duyệt web lên để bạn làm việc ngay lập tức!
 
 ---
 
 ### 🪟 Dành Cho Windows
 
-1. **Tải mã nguồn về máy** (Download ZIP hoặc Git Clone) và giải nén.
-2. **Nhấp đúp chuột (Double-click)** vào file:
-   ```cmd
-   start_app.bat
-   ```
+Chỉ cần nhấp đúp chuột (Double-click) vào file:
 
-> **Hệ thống trên Windows sẽ tự động:**
-> - Tạo virtualenv `.venv` và tải các gói thư viện Python.
-> - Cài đặt Chromium cho Playwright.
-> - Tải `node_modules` và chạy server dev.
-> - Tự động mở trình duyệt mặc định vào giao diện Dashboard `http://localhost:5174`.
+```cmd
+start_app.bat
+```
+
+Hệ thống trên Windows sẽ tự động cài đặt môi trường và mở Dashboard `http://localhost:5174`.
 
 ---
 
-## 🛠️ Hướng Dẫn Sử Dụng Chi Tiết
-
-1. **Đăng nhập GoAffPro lần đầu:**
-   - Trên thanh công cụ, nhấn nút **"Mở Trình Duyệt Login"**.
-   - Cửa sổ trình duyệt Chromium sẽ hiện ra, bạn điền Email/Mật khẩu đăng nhập GoAffPro và tích ô xác minh Cloudflare (nếu có).
-   - Đăng nhập thành công xong, bạn có thể đóng cửa sổ trình duyệt đó lại. Phiên làm việc đã được lưu vĩnh viễn trên máy của bạn.
-2. **Cào dữ liệu mới:**
-   - Nhấn **"Cào Dữ Liệu Mới"**.
-   - Nhập số trang bạn muốn cào (mỗi trang có 100 store, ví dụ: 10 trang = 1.000 store; hoặc nhấn nút **"Cào Sạch (300 trang)"** để bot tự động lướt đến trang cuối cùng).
-   - Nhấn **"Khởi Chạy Ngay"**. Tiến trình cào sẽ hiển thị trực tiếp theo thời gian thực trên thanh thông báo.
-3. **Tìm kiếm & Ghi chú (CRM):**
-   - Sử dụng ô tìm kiếm để tìm nhanh bất kỳ cửa hàng hoặc tên miền nào.
-   - Nhấn vào một dòng cửa hàng để mở popup xem mô tả chi tiết, chỉnh sửa trạng thái hợp tác (`Available`, `Applied`, `Joined`...) và lưu ghi chú cá nhân.
-4. **Xóa & Dọn dẹp:**
-   - Nhấn biểu tượng thùng rác `🗑️` ở cột Actions để xóa store không mong muốn.
-   - Nhấn nút **"Xóa Tiền INR"** ở thanh trên cùng để xóa hàng loạt tất cả các store sử dụng đồng Rupee Ấn Độ.
-5. **Xuất Excel:**
-   - Nhấn nút **"Xuất Excel"** để tải file `.xlsx` về máy tính.
-
----
-
-## 📁 Cấu Trúc Dự Án
+## 📁 Cấu Trúc Thư Mục Dự Án (File Structure)
 
 ```
 goaffpro-crawler/
 ├── backend/
-│   ├── api.py           # FastAPI RESTful API server
-│   ├── crawler.py       # Playwright crawler tự động 5 bước
-│   └── db.py            # SQLite database manager & deduplication logic
+│   ├── api.py           # FastAPI RESTful API server (Các route lọc, xuất Excel, quản lý)
+│   ├── categorizer.py   # Module NLP phân loại ngành hàng đa tầng & nhận diện 18+
+│   ├── crawler.py       # Playwright crawler tự động 5 bước cào danh sách GoAffPro
+│   ├── db.py            # SQLite manager, index tối ưu, UPSERT & truy vấn đa tiêu chí
+│   └── traffic_worker.py# Worker cào ngầm Traffic, Google Trends & Website Metadata
 ├── data/
-│   ├── goaffpro.db      # Cơ sở dữ liệu SQLite (chứa 22.000 stores)
+│   ├── goaffpro.db      # Cơ sở dữ liệu SQLite đã làm giàu (20.800+ stores sạch)
 │   └── browser_profile/ # Thư mục lưu phiên đăng nhập & cookie Playwright
 ├── frontend/
-│   ├── src/             # Giao diện React + TypeScript + Tailwind CSS
-│   ├── package.json     # Cấu hình thư viện frontend
+│   ├── src/
+│   │   ├── App.tsx      # Giao diện chính: Bảng lọc đa năng, Biểu đồ SVG, CRM notes
+│   │   ├── main.tsx     # Điểm khởi chạy React 18
+│   │   └── index.css    # Tailwind CSS styling
+│   ├── package.json     # Cấu hình dependencies Frontend
 │   └── vite.config.ts   # Cấu hình Vite bundler
-├── start_app.sh         # Script khởi chạy 1-click cho Mac/Linux
-├── start_app.bat        # Script khởi chạy 1-click cho Windows
 ├── requirements.txt     # Danh sách thư viện Python
-└── README.md            # Tài liệu hướng dẫn sử dụng
+├── start_app.sh         # Script tự động hóa 1-click cho Mac/Linux
+├── start_app.bat        # Script tự động hóa 1-click cho Windows
+└── README.md            # Tài liệu kiến trúc & hướng dẫn vận hành chi tiết
 ```
+
+---
+
+## 🔄 Quy Trình Đồng Bộ & Về Nhà Làm Tiếp
+
+Mỗi khi bạn làm việc xong trên máy cơ quan hoặc muốn chuyển máy:
+```bash
+# 1. Lưu lại toàn bộ dữ liệu mới nhất lên GitHub
+git add .
+git commit -m "chore: save daily progress and enriched database"
+git push origin main
+```
+
+Khi mở máy ở nhà hoặc máy khác:
+```bash
+# 2. Kéo toàn bộ code & database mới nhất về
+git pull origin main
+
+# 3. Chạy ứng dụng
+bash start_app.sh
+```
+Mọi trạng thái ghi chú CRM, danh sách store, dữ liệu traffic và cài đặt bộ lọc sẽ sẵn sàng ngay lập tức!

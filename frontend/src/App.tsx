@@ -845,7 +845,7 @@ export default function App() {
   const totalPages = Math.ceil(totalCount / pageSize) || 1;
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-100 flex flex-col font-sans">
+    <div className="min-h-screen bg-slate-50 text-slate-800 flex flex-col font-sans">
       {/* HEADER */}
       <header className="border-b border-slate-200 bg-slate-50/90 backdrop-blur-md sticky top-0 z-40 px-6 py-4">
         <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-4">
@@ -1005,7 +1005,7 @@ export default function App() {
               <span className="text-xs font-medium uppercase tracking-wider">Stores Yêu Thích</span>
               <Star size={16} className="text-amber-400 fill-amber-400/30" />
             </div>
-            <div className="text-2xl font-black text-amber-300 font-mono">
+            <div className="text-2xl font-black text-amber-500 font-mono">
               {stats?.total_favorites || 0}
             </div>
             <span className="text-[11px] text-slate-500 mt-0.5 block">Đã gắn sao theo dõi</span>
@@ -1376,6 +1376,8 @@ export default function App() {
               <button
                 onClick={() => {
                   setSearch('');
+                  setSelectedCategory('all');
+                  setAdultFilter('hide');
                   setCurrencyFilter('all');
                   setCommissionFilter('all');
                   setCookieFilter('all');
@@ -1807,21 +1809,21 @@ export default function App() {
                         </td>
 
                         {/* Currency */}
-                        <td className="py-3 px-3 w-24">
+                        <td className="py-3 px-3 w-24 text-center">
                           <span className="text-slate-700 font-mono text-xs font-semibold">
                             {store.currency || 'USD'}
                           </span>
                         </td>
 
                         {/* Commission */}
-                        <td className="py-3 px-3 w-32">
+                        <td className="py-3 px-3 w-32 text-center">
                           {(() => {
                             const rawComm = (store.commission_rate || `${store.commission_value}%`).trim();
                             const isFlatCash = rawComm.includes('$') || rawComm.includes('€') || rawComm.includes('£') || rawComm.includes('₹') || (!rawComm.includes('%') && store.commission_value >= 100);
 
                             return (
                               <span
-                                className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-xs font-bold font-mono border ${
+                                className={`inline-flex items-center justify-center gap-1 px-2 py-0.5 rounded-lg text-xs font-bold font-mono border ${
                                   isHighComm
                                     ? 'bg-emerald-50 text-emerald-600 border-emerald-200'
                                     : isMidComm
@@ -1846,8 +1848,8 @@ export default function App() {
                         </td>
 
                         {/* Cookie Duration */}
-                        <td className="py-3 px-3 w-28 whitespace-nowrap">
-                          <span className="text-slate-600 inline-flex items-center gap-1 font-mono text-xs">
+                        <td className="py-3 px-3 w-28 text-center whitespace-nowrap">
+                          <span className="text-slate-600 inline-flex items-center justify-center gap-1 font-mono text-xs">
                             <Clock size={12} className="text-slate-500" />
                             {store.cookie_days} days
                           </span>

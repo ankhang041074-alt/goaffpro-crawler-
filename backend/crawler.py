@@ -70,9 +70,9 @@ login_window_closed_event.set()
 def _force_kill_browser_processes():
     import subprocess
     try:
-        # Fallback: kill remaining browser processes using this profile
-        subprocess.run(["pkill", "-f", "browser_profile"], check=False)
-        time.sleep(1)
+        if os.name != 'nt':
+            subprocess.run(["pkill", "-f", "browser_profile"], check=False)
+        time.sleep(0.5)
     except Exception as e:
         print(f"Error killing existing browser: {e}")
 
@@ -227,7 +227,7 @@ def parse_dom_stores(page) -> List[Dict[str, Any]]:
     """Extract stores rendered directly in the GoAffPro DOM."""
     discovered = []
     try:
-        cards_data = page.evaluate("""
+        cards_data = page.evaluate(r"""
             () => {
                 const results = [];
                 const allDivs = Array.from(document.querySelectorAll('div'));

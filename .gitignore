@@ -5,5 +5,8 @@ node_modules/
 dist/
 .DS_Store
 data/browser_profile/
-data/goaffpro.db*
+data/goaffpro.db-wal
+data/goaffpro.db-shm
+data/goaffpro.db-journal
+!data/goaffpro.db
 exports/

@@ -8,6 +8,19 @@ echo "=========================================================="
 echo "🚀 Khởi động GoAffPro Store Hunter & CRM Local App"
 echo "=========================================================="
 
+# Check prerequisites
+if ! command -v python3 &> /dev/null; then
+    echo "❌ Lỗi: Không tìm thấy Python 3 trên máy của bạn!"
+    echo "👉 Vui lòng tải và cài đặt Python từ: https://www.python.org/downloads/"
+    exit 1
+fi
+
+if ! command -v node &> /dev/null; then
+    echo "❌ Lỗi: Không tìm thấy Node.js trên máy của bạn!"
+    echo "👉 Vui lòng tải và cài đặt Node.js từ: https://nodejs.org/"
+    exit 1
+fi
+
 # Check and setup Python Virtual Environment
 if [ ! -d ".venv" ]; then
     echo "📦 Đang tạo môi trường ảo Python (.venv)..."

@@ -7,6 +7,28 @@ echo ==========================================================
 REM Navigate to project root directory
 cd /d "%~dp0"
 
+REM Check prerequisites
+python --version >nul 2>&1
+if %errorlevel% neq 0 (
+    echo ❌ Loi: Khong tim thay Python tren may!
+    echo 👉 Vui long tai va cai dat Python tu: https://www.python.org/downloads/
+    echo ⚠️ Nho tich vao o "Add Python to PATH" khi cai dat!
+    pause
+    exit /b 1
+)
+
+node --version >nul 2>&1
+if %errorlevel% neq 0 (
+    echo ❌ Loi: Khong tim thay Node.js tren may!
+    echo 👉 Vui long tai va cai dat Node.js tu: https://nodejs.org/
+    pause
+    exit /b 1
+)
+
+REM Cleanup old processes on port 8001 and 5174 if any
+for /f "tokens=5" %%a in ('netstat -aon ^| findstr :8001 ^| findstr LISTENING') do taskkill /f /pid %%a >nul 2>&1
+for /f "tokens=5" %%a in ('netstat -aon ^| findstr :5174 ^| findstr LISTENING') do taskkill /f /pid %%a >nul 2>&1
+
 REM Check and setup Python Virtual Environment
 if not exist ".venv" (
     echo 📦 Đang tạo môi trường ảo Python (.venv)...

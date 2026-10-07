@@ -60,7 +60,9 @@ flowchart TD
   2. `↗️ Đón sóng tăng trưởng`: Store đang vào mùa bán chạy (điểm tìm kiếm tháng này tăng so với tháng trước, hiển thị `↗️ T{tháng}: {điểm}đ (+XX%)`).
   3. `🏔️ Bùng nổ đạt đỉnh`: Tháng được chọn chính là mùa bán chạy nhất trong năm của store đó (`🏔️ Đỉnh T{tháng}`).
   4. `🔥 Lượng tìm kiếm cao`: Các thương hiệu lớn có độ hot vượt trội ($\ge 50$ điểm).
-- **Tự động xoay IP ExpressVPN (Auto-Rotate VPN):** Khi gửi nhiều truy vấn lên Google Trends và bị giới hạn tạm thời (429 Rate Limit), worker tự động kết nối ExpressVPN xoay sang IP quốc gia khác để tiếp tục quét liên tục mà không bị gián đoạn.
+- **Cơ chế Xử Lý Rate Limit Google Trends Thông Minh (ExpressVPN Tùy Chọn - 100% Hoạt động tốt khi không có VPN):**
+  - **Khi không có ExpressVPN (Mặc định cho mọi máy tính):** Tool **hoạt động bình thường 100%**. Khi gửi nhiều truy vấn lên Google và gặp mã giới hạn 429, hệ thống tự kích hoạt chế độ giãn cách thông minh (Smart Cooldown 120s) riêng cho Google Trends. Trong thời gian này, luồng đo Traffic (Tranco) và Cào phân loại ngành hàng Website **vẫn chạy hết công suất không hề dừng lại**. Khi hết thời gian giãn cách, Google Trends sẽ tự động tiếp tục truy vấn.
+  - **Khi có ExpressVPN CLI (Tùy chọn tăng tốc nếu có):** Hệ thống tự động nhận diện ExpressVPN trên Mac/Windows/Linux để xoay IP sang vị trí khác (Singapore, Tokyo, US...) giúp vượt ngưỡng 429 ngay lập tức mà không phải chờ cooldown.
 
 ---
 

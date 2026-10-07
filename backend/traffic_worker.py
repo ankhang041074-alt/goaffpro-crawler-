@@ -4,6 +4,7 @@ import logging
 import os
 import random
 import re
+import shutil
 import subprocess
 import threading
 import time
@@ -63,8 +64,56 @@ _domain_rank_cache: Dict[str, Tuple[Optional[int], str]] = {}
 # Google Trends cooldown timestamp to avoid spamming 429
 _gt_cooldown_until: float = 0.0
 
-# ExpressVPN CLI Binary path on macOS
-EXPRESSVPN_BIN = "/Applications/ExpressVPN.app/Contents/MacOS/expressvpnctl"
+
+def find_expressvpn_bin() -> Optional[str]:
+    """
+    Find ExpressVPN CLI binary across macOS, Linux, and Windows.
+    Returns None if ExpressVPN is not installed (the tool works 100% fine without it).
+    """
+    # 1. System PATH lookup
+    for cmd in ["expressvpnctl", "expressvpn"]:
+        p = shutil.which(cmd)
+        if p and os.path.exists(p):
+            return p
+
+    # 2. Standard macOS locations
+    mac_paths = [
+        "/Applications/ExpressVPN.app/Contents/MacOS/expressvpnctl",
+        "/usr/local/bin/expressvpn",
+        "/opt/homebrew/bin/expressvpn",
+    ]
+    for p in mac_paths:
+        if os.path.exists(p):
+            return p
+
+    # 3. Standard Windows locations
+    win_paths = [
+        r"C:\Program Files (x86)\ExpressVPN\expressvpn-ui\ExpressVPN.exe",
+        r"C:\Program Files\ExpressVPN\expressvpn-ui\ExpressVPN.exe",
+        r"C:\Program Files\ExpressVPN\services\ExpressVPN.CLI.exe",
+    ]
+    for p in win_paths:
+        if os.path.exists(p):
+            return p
+
+    # 4. Standard Linux locations
+    linux_paths = [
+        "/usr/bin/expressvpn",
+        "/usr/local/bin/expressvpn",
+    ]
+    for p in linux_paths:
+        if os.path.exists(p):
+            return p
+
+    return None
+
+
+_detected_vpn_bin = find_expressvpn_bin()
+if _detected_vpn_bin:
+    logger.info(f"✅ ExpressVPN CLI detected at: {_detected_vpn_bin} (Auto-rotation enabled)")
+else:
+    logger.info("ℹ️ ExpressVPN not detected. Tool running in Standard Mode (ExpressVPN is completely optional, automatic 120s cooldown will be used on rate limits).")
+
 _vpn_region_index = 0
 VPN_REGIONS = [
     "singapore-jurong",
@@ -84,15 +133,16 @@ VPN_REGIONS = [
 
 
 def rotate_vpn_region() -> bool:
-    """Automatically switch ExpressVPN location when rate-limited by Google Trends."""
+    """Automatically switch ExpressVPN location when rate-limited by Google Trends (optional feature)."""
     global _vpn_region_index, _gt_cooldown_until
-    if not os.path.exists(EXPRESSVPN_BIN):
+    vpn_bin = find_expressvpn_bin()
+    if not vpn_bin:
         return False
     try:
         region = VPN_REGIONS[_vpn_region_index % len(VPN_REGIONS)]
         _vpn_region_index += 1
         logger.info(f"🔄 Auto-rotating ExpressVPN to region: {region} to bypass Google Trends rate limit...")
-        res = subprocess.run([EXPRESSVPN_BIN, "connect", region], capture_output=True, text=True, timeout=12)
+        res = subprocess.run([vpn_bin, "connect", region], capture_output=True, text=True, timeout=12)
         if res.returncode == 0:
             # Wait for VPN tunnel to stabilize and verify internet connectivity
             time.sleep(2.0)
@@ -106,10 +156,10 @@ def rotate_vpn_region() -> bool:
             logger.info(f"✅ ExpressVPN connected to {region} successfully. Fresh IP obtained and network verified!")
             return True
         else:
-            logger.warning(f"ExpressVPN connect returned error: {res.stderr}")
+            logger.warning(f"ExpressVPN connect returned notice: {res.stderr.strip() if res.stderr else res.stdout.strip()}")
             return False
     except Exception as e:
-        logger.warning(f"Error rotating ExpressVPN: {e}")
+        logger.warning(f"Notice: ExpressVPN rotation skipped ({e}). Proceeding with standard cooldown.")
         return False
 
 
@@ -381,7 +431,7 @@ def fetch_google_trends(brand_name: str) -> Dict[str, Any]:
         err_msg = str(e).lower()
         if "429" in err_msg or "quota" in err_msg or "toomanyrequests" in err_msg:
             # If ExpressVPN is available, auto-rotate IP and retry once!
-            if os.path.exists(EXPRESSVPN_BIN) and rotate_vpn_region():
+            if rotate_vpn_region():
                 try:
                     time.sleep(1.0)
                     pytrend = TrendReq(
@@ -418,12 +468,22 @@ def fetch_google_trends(brand_name: str) -> Dict[str, Any]:
                                     }
                         return {"status": "no_data", "timeline": [], "peak_month": ""}
                 except Exception as retry_e:
-                    logger.warning(f"Retry after ExpressVPN rotation failed: {retry_e}")
+                    logger.warning(f"Retry after ExpressVPN rotation notice: {retry_e}")
 
-            # If rotation not available or retry failed:
-            _gt_cooldown_until = time.time() + 180.0
-            logger.warning(f"Google Trends rate limited for '{brand_name}' -> cooling down 180s")
-            return {"status": "error", "error": "rate_limited", "timeline": [], "peak_month": ""}
+            # If ExpressVPN is not installed or rotation was skipped, apply smart cooldown
+            # (Traffic ranking and Website Categorization continue 100% unaffected!)
+            _gt_cooldown_until = time.time() + 120.0
+            logger.info(
+                f"⏳ Google Trends rate limit (429) hit for '{brand_name}'. Entering 120s cooldown for Trends. "
+                f"Traffic ranking and Website Categorization continue running normally without interruption."
+            )
+            return {
+                "status": "pending",
+                "cooldown": True,
+                "error": "rate_limited_cooldown",
+                "timeline": [],
+                "peak_month": ""
+            }
         logger.warning(f"Google Trends query failed for '{brand_name}': {e}")
         return {"status": "error", "error": str(e), "timeline": [], "peak_month": ""}
 
@@ -624,6 +684,7 @@ class TrafficWorker:
             "total_cookie_14_plus": db_stats.get("total_cookie_14_plus", 0),
             "checked_cookie_14_plus": db_stats.get("checked_cookie_14_plus", 0),
             "above_10k": db_stats.get("above_10k", 0),
+            "vpn_available": bool(find_expressvpn_bin()),
         }
 
     def _run_loop(self):
@@ -639,11 +700,17 @@ class TrafficWorker:
                     # If all cookie >= 14 stores checked for traffic, check other stores
                     stores = db.get_stores_for_traffic_enrichment(limit=25, cookie_min_days=0)
                     if not stores:
-                        # If all stores have traffic checked, check if Google Trends can be enriched for pending cookie >= 14 stores
-                        if time.time() >= _gt_cooldown_until:
-                            stores = db.get_stores_for_trend_enrichment(limit=25, cookie_min_days=14)
+                        # If all stores have traffic checked, check if Google Trends can be enriched for pending stores
+                        if time.time() < _gt_cooldown_until:
+                            wait_sec = min(5.0, max(1.0, _gt_cooldown_until - time.time()))
+                            self._stop_event.wait(wait_sec)
+                            continue
+
+                        stores = db.get_stores_for_trend_enrichment(limit=25, cookie_min_days=14)
                         if not stores:
-                            logger.info("All stores have been enriched with traffic data. Worker idle.")
+                            stores = db.get_stores_for_trend_enrichment(limit=25, cookie_min_days=0)
+                        if not stores:
+                            logger.info("All stores have been enriched with traffic and trends data. Worker idle.")
                             break
 
                 for store in stores:

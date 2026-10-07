@@ -92,9 +92,16 @@ def rotate_vpn_region() -> bool:
         logger.info(f"🔄 Auto-rotating ExpressVPN to region: {region} to bypass Google Trends rate limit...")
         res = subprocess.run([EXPRESSVPN_BIN, "connect", region], capture_output=True, text=True, timeout=12)
         if res.returncode == 0:
-            time.sleep(3.5)
+            # Wait for VPN tunnel to stabilize and verify internet connectivity
+            time.sleep(2.0)
+            for _ in range(5):
+                try:
+                    requests.get("https://1.1.1.1", timeout=2.0)
+                    break
+                except Exception:
+                    time.sleep(1.0)
             _gt_cooldown_until = 0.0  # Reset cooldown since we have a fresh IP!
-            logger.info(f"✅ ExpressVPN connected to {region} successfully. Fresh IP obtained!")
+            logger.info(f"✅ ExpressVPN connected to {region} successfully. Fresh IP obtained and network verified!")
             return True
         else:
             logger.warning(f"ExpressVPN connect returned error: {res.stderr}")

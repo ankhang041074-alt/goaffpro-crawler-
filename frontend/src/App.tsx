@@ -875,18 +875,34 @@ export default function App() {
 
                       {/* Commission */}
                       <td className="py-3 px-3 w-36">
-                        <span
-                          className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold font-mono border ${
-                            isHighComm
-                              ? 'bg-emerald-50 text-emerald-600 border-emerald-200'
-                              : isMidComm
-                              ? 'bg-sky-50 text-sky-600 border-sky-200'
-                              : 'bg-slate-200 text-slate-700 border-slate-300'
-                          }`}
-                        >
-                          <Percent size={11} />
-                          {store.commission_rate || `${store.commission_value}%`}
-                        </span>
+                        {(() => {
+                          const rawComm = (store.commission_rate || `${store.commission_value}%`).trim();
+                          const isFlatCash = rawComm.includes('$') || rawComm.includes('€') || rawComm.includes('£') || rawComm.includes('₹') || (!rawComm.includes('%') && store.commission_value >= 100);
+                          
+                          return (
+                            <span
+                              className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold font-mono border ${
+                                isHighComm
+                                  ? 'bg-emerald-50 text-emerald-600 border-emerald-200'
+                                  : isMidComm
+                                  ? 'bg-sky-50 text-sky-600 border-sky-200'
+                                  : 'bg-slate-200 text-slate-700 border-slate-300'
+                              }`}
+                            >
+                              {isFlatCash ? (
+                                <>
+                                  <DollarSign size={11} className="text-emerald-600 flex-shrink-0" />
+                                  <span>{rawComm.replace(/^[\$]/, '')}</span>
+                                </>
+                              ) : (
+                                <>
+                                  <Percent size={11} className="flex-shrink-0" />
+                                  <span>{rawComm.endsWith('%') ? rawComm : `${rawComm}%`}</span>
+                                </>
+                              )}
+                            </span>
+                          );
+                        })()}
                       </td>
 
                       {/* Cookie Duration */}

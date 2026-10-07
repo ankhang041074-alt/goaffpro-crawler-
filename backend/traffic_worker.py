@@ -53,22 +53,54 @@ def get_apex_domain(domain: str) -> str:
         return ".".join(parts[1:])
     return domain
 
+# In-memory cache for domain rankings to reduce API calls
+_domain_rank_cache: Dict[str, Tuple[Optional[int], str]] = {}
+
+# Google Trends cooldown timestamp to avoid spamming 429
+_gt_cooldown_until: float = 0.0
+
+
+def extract_domain(url: str) -> str:
+    """Extract clean domain name from URL."""
+    if not url:
+        return ""
+    u = url.strip()
+    if not u.startswith("http://") and not u.startswith("https://"):
+        u = "https://" + u
+    try:
+        parsed = urlparse(u)
+        host = (parsed.netloc or parsed.path).split("/")[0].split(":")[0].strip().lower()
+        if host.startswith("www."):
+            host = host[4:]
+        return host
+    except Exception:
+        return ""
+
+
+def get_apex_domain(domain: str) -> str:
+    """Extract apex/root domain if domain has common commerce subdomains."""
+    parts = domain.lower().split(".")
+    if len(parts) <= 2:
+        return domain
+    subdomain_prefixes = {
+        "shop", "store", "app", "my", "us", "uk", "eu", "ca", "au",
+        "fr", "de", "en", "m", "www", "checkout", "buy", "order", "portal"
+    }
+    if parts[0] in subdomain_prefixes:
+        return ".".join(parts[1:])
+    return domain
+
 
 def clean_brand_name(name: str, website_url: str = "") -> str:
     """Clean store name to create an effective query for Google Trends."""
     brand = html.unescape(name or "").strip()
-    if not brand:
-        return ""
+    domain = extract_domain(website_url) if website_url else ""
+    apex = get_apex_domain(domain) if domain else ""
+    domain_stem = apex.split(".")[0] if apex else ""
 
-    # If the name is an absolute URL
-    if brand.startswith("http://") or brand.startswith("https://"):
-        try:
-            brand = urlparse(brand).netloc
-        except Exception:
-            pass
-
-    # Remove www.
-    brand = re.sub(r"^www\.", "", brand, flags=re.IGNORECASE)
+    # If the name is an absolute URL or starts with http
+    if brand.startswith("http://") or brand.startswith("https://") or "www." in brand:
+        brand = domain_stem
 
     # Split on taglines/separators like ' - ', ' | ', ' : '
     for sep in [" - ", " | ", " : ", " – ", " — "]:
@@ -76,56 +108,79 @@ def clean_brand_name(name: str, website_url: str = "") -> str:
             brand = brand.split(sep)[0].strip()
             break
 
-    # If brand looks like a domain name (contains . and no space)
-    if "." in brand and " " not in brand:
-        brand = re.sub(r"\.[a-z0-9\-]+(?:\.[a-z0-9\-]+)?$", "", brand, flags=re.IGNORECASE)
-
-    # Strip common trailing TLDs
+    # Strip common trailing TLDs if present
     brand = re.sub(r"\.[a-z]{2,}(?:\.[a-z]{2,})?$", "", brand, flags=re.IGNORECASE)
 
     # Remove emojis and decorative icons (keep letters, digits, spaces, hyphens, apostrophes, &)
     brand = re.sub(r"[^\w\s\-\'’&]", " ", brand)
     brand = re.sub(r"\s+", " ", brand).strip()
 
+    # Rule: If brand is too long (> 4 words) or looks like a slogan (e.g., "100% Plant Based..."),
+    # fall back to domain_stem if domain is not a generic host (like myshopify.com)
+    words = brand.split()
+    generic_hosts = ["myshopify", "shopify", "wixsite", "wordpress", "hostingersite"]
+    if len(words) > 4 and domain_stem and not any(h in domain for h in generic_hosts):
+        brand = domain_stem
+
+    # Rule: If brand is 1 word and domain has a compound brand (e.g. "Louis" + "louisskincare.com" -> "Louis Skincare")
+    if len(words) == 1 and domain_stem and not any(h in domain for h in generic_hosts):
+        if domain_stem.lower().startswith(brand.lower()) and len(domain_stem) > len(brand) + 2:
+            remainder = domain_stem[len(brand):]
+            brand = f"{brand} {remainder.capitalize()}"
+
     # If brand name is too generic or short, fallback to domain root
-    if len(brand) < 2 and website_url:
-        domain = extract_domain(website_url)
-        if domain:
-            brand = domain.split(".")[0]
+    if len(brand) < 2 and domain_stem:
+        brand = domain_stem
 
     return brand.strip()
 
 
 def _query_tranco(domain_to_check: str) -> Tuple[Optional[int], str]:
-    """Single domain lookup on Tranco API."""
+    """Single domain lookup on Tranco API with caching and retry on 429."""
+    if domain_to_check in _domain_rank_cache:
+        return _domain_rank_cache[domain_to_check]
+
     url = f"https://tranco-list.eu/api/ranks/domain/{domain_to_check}"
     ua = random.choice(USER_AGENTS)
-    try:
-        resp = requests.get(
-            url,
-            timeout=8,
-            headers={
-                "User-Agent": ua,
-                "Accept": "application/json",
-            },
-        )
-        if resp.status_code == 200:
-            data = resp.json()
-            ranks = data.get("ranks", [])
-            if ranks and len(ranks) > 0:
-                return int(ranks[0].get("rank")), "success"
-            return None, "no_data"
-        elif resp.status_code == 429:
-            logger.warning(f"Tranco rate limit 429 for {domain_to_check}")
+
+    for attempt in range(2):
+        try:
+            resp = requests.get(
+                url,
+                timeout=8,
+                headers={
+                    "User-Agent": ua,
+                    "Accept": "application/json",
+                },
+            )
+            if resp.status_code == 200:
+                data = resp.json()
+                ranks = data.get("ranks", [])
+                if ranks and len(ranks) > 0:
+                    res = (int(ranks[0].get("rank")), "success")
+                    _domain_rank_cache[domain_to_check] = res
+                    return res
+                res = (None, "no_data")
+                _domain_rank_cache[domain_to_check] = res
+                return res
+            elif resp.status_code == 429:
+                if attempt == 0:
+                    time.sleep(2.0)
+                    continue
+                logger.warning(f"Tranco rate limit 429 for {domain_to_check}")
+                return None, "error"
+            elif resp.status_code == 404:
+                res = (None, "no_data")
+                _domain_rank_cache[domain_to_check] = res
+                return res
+            else:
+                logger.warning(f"Tranco returned status {resp.status_code} for {domain_to_check}")
+                return None, "error"
+        except Exception as e:
+            logger.warning(f"Domain rank lookup error for {domain_to_check}: {e}")
             return None, "error"
-        elif resp.status_code == 404:
-            return None, "no_data"
-        else:
-            logger.warning(f"Tranco returned status {resp.status_code} for {domain_to_check}")
-            return None, "error"
-    except Exception as e:
-        logger.warning(f"Domain rank lookup error for {domain_to_check}: {e}")
-        return None, "error"
+
+    return None, "error"
 
 
 def fetch_domain_rank(domain: str) -> Tuple[Optional[int], str]:
@@ -151,7 +206,7 @@ def fetch_domain_rank(domain: str) -> Tuple[Optional[int], str]:
     # If no data and domain has subdomain (e.g. shop.brand.com), check apex domain (brand.com)
     apex = get_apex_domain(domain)
     if apex != domain:
-        time.sleep(1.0)
+        time.sleep(1.2)
         rank_apex, status_apex = _query_tranco(apex)
         if status_apex == "success":
             return rank_apex, "success"
@@ -207,8 +262,21 @@ def fetch_google_trends(brand_name: str) -> Dict[str, Any]:
     STRICT REQUIREMENT: NEVER FAKE OR INVENT NUMBERS.
     Returns status: 'success', 'no_data', or 'error'.
     """
+    global _gt_cooldown_until
+
     if not brand_name or len(brand_name) < 2:
         return {"status": "no_data", "timeline": [], "peak_month": ""}
+
+    # Check if Google Trends is currently in cooldown period due to 429
+    now = time.time()
+    if now < _gt_cooldown_until:
+        rem = int(_gt_cooldown_until - now)
+        return {
+            "status": "error",
+            "error": f"rate_limited_cooldown ({rem}s)",
+            "timeline": [],
+            "peak_month": "",
+        }
 
     ua = random.choice(USER_AGENTS)
     headers = {
@@ -231,21 +299,30 @@ def fetch_google_trends(brand_name: str) -> Dict[str, Any]:
         if df.empty or brand_name not in df.columns:
             return {"status": "no_data", "timeline": [], "peak_month": ""}
 
-        # If total sum is 0 or completely flat noise:
-        total_score = df[brand_name].sum()
-        if total_score == 0:
+        # Count active non-zero weeks and total score
+        non_zero_weeks = int((df[brand_name] > 0).sum())
+        total_score = int(df[brand_name].sum())
+
+        # STRICT RULE: A genuine search trend must have sustained interest over time.
+        # If fewer than 6 active weeks across 5 years (262 weeks) or total score < 40,
+        # it is isolated search noise. Mark as no_data to avoid misleading peak badges!
+        if non_zero_weeks < 6 or total_score < 40:
             return {"status": "no_data", "timeline": [], "peak_month": ""}
 
         # Resample / group by month YYYY-MM
         df["month"] = df.index.strftime("%Y-%m")
         monthly = df.groupby("month")[brand_name].max().reset_index()
 
+        # Count active calendar months with activity
+        active_months = int((monthly[brand_name] > 0).sum())
+        if active_months < 3:
+            return {"status": "no_data", "timeline": [], "peak_month": ""}
+
         peak_idx = monthly[brand_name].idxmax()
         peak_row = monthly.iloc[peak_idx]
         peak_score = int(peak_row[brand_name])
 
-        # If peak is under 3 pts (isolated 1-point query noise), mark as no_data
-        if peak_score < 3:
+        if peak_score < 5:
             return {"status": "no_data", "timeline": [], "peak_month": ""}
 
         peak_month = f"{peak_row['month']} ({peak_score} pts)"
@@ -263,7 +340,9 @@ def fetch_google_trends(brand_name: str) -> Dict[str, Any]:
     except Exception as e:
         err_msg = str(e).lower()
         if "429" in err_msg or "quota" in err_msg or "toomanyrequests" in err_msg:
-            logger.warning(f"Google Trends rate limited for '{brand_name}'")
+            # Set 3-minute cooldown so we don't bombard Google
+            _gt_cooldown_until = time.time() + 180.0
+            logger.warning(f"Google Trends rate limited for '{brand_name}' -> cooling down 180s")
             return {"status": "error", "error": "rate_limited", "timeline": [], "peak_month": ""}
         logger.warning(f"Google Trends query failed for '{brand_name}': {e}")
         return {"status": "error", "error": str(e), "timeline": [], "peak_month": ""}
@@ -386,7 +465,9 @@ class TrafficWorker:
             return {"status": "stopped", "message": "Traffic background worker stopped"}
 
     def get_status(self) -> Dict[str, Any]:
+        global _gt_cooldown_until
         db_stats = db.get_traffic_stats()
+        gt_cd = max(0, int(_gt_cooldown_until - time.time()))
         return {
             "is_running": self._is_running,
             "is_paused": self._is_paused,
@@ -395,6 +476,7 @@ class TrafficWorker:
             "with_data": self.with_data,
             "no_data": self.no_data,
             "errors": self.errors,
+            "gt_cooldown_seconds": gt_cd,
             "remaining": db_stats.get("remaining_cookie_14_plus", 0),
             "total_cookie_14_plus": db_stats.get("total_cookie_14_plus", 0),
             "checked_cookie_14_plus": db_stats.get("checked_cookie_14_plus", 0),
@@ -435,16 +517,16 @@ class TrafficWorker:
 
                     if res.get("traffic_status") == "success" or res.get("trend_status") == "success":
                         self.with_data += 1
-                    elif res.get("traffic_status") == "error" or res.get("trend_status") == "error":
+                    elif res.get("traffic_status") == "error":
                         self.errors += 1
-                        # If rate limited or error, backoff for 8 seconds
-                        if res.get("trend_status") == "error" or res.get("traffic_status") == "error":
-                            self._stop_event.wait(8.0)
+                        self._stop_event.wait(3.0)
+                    elif res.get("trend_status") == "error":
+                        self.errors += 1
                     else:
                         self.no_data += 1
 
-                    # Delay 3.0 to 5.0 seconds between stores to respect rate limits
-                    delay = random.uniform(3.0, 5.0)
+                    # Delay 3.0 to 4.5 seconds between stores to respect rate limits
+                    delay = random.uniform(3.0, 4.5)
                     self._stop_event.wait(delay)
 
         except Exception as e:

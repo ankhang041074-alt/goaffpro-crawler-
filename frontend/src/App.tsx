@@ -75,6 +75,7 @@ interface TrafficWorkerStatus {
   with_data: number;
   no_data: number;
   errors: number;
+  gt_cooldown_seconds?: number;
   remaining: number;
   total_cookie_14_plus: number;
   checked_cookie_14_plus: number;
@@ -911,6 +912,11 @@ export default function App() {
                   <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-indigo-900/60 text-indigo-300 border border-indigo-700/50">
                     🎯 Ưu tiên Cookie ≥ 14 ngày
                   </span>
+                  {trafficWorkerStatus?.gt_cooldown_seconds && trafficWorkerStatus.gt_cooldown_seconds > 0 ? (
+                    <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 animate-pulse">
+                      ⏳ Google Trends tạm nghỉ {trafficWorkerStatus.gt_cooldown_seconds}s (Tránh ban IP)
+                    </span>
+                  ) : null}
                   <span className="text-[10px] font-medium text-slate-400">
                     (Chỉ lưu dữ liệu thật, không bịa số)
                   </span>

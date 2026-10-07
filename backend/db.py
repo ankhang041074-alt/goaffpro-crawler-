@@ -127,7 +127,7 @@ def save_store(store: Dict[str, Any]) -> bool:
     portal_url = str(store.get("portal_url") or "").strip()
     logo_url = str(store.get("logo_url") or "").strip()
     commission_rate = str(store.get("commission_rate") or "").strip()
-    currency = str(store.get("currency") or "USD").strip()
+    currency = str(store.get("currency") or "USD").strip().upper()
     commission_val = float(store.get("commission_value") or parse_commission_numeric(commission_rate))
     cookie_days = int(store.get("cookie_days") or 30)
     category = str(store.get("category") or "General").strip()
@@ -187,7 +187,7 @@ def save_stores_batch(stores_list: List[Dict[str, Any]]) -> int:
         portal_url = str(store.get("portal_url") or "").strip()
         logo_url = str(store.get("logo_url") or "").strip()
         commission_rate = str(store.get("commission_rate") or "").strip()
-        currency = str(store.get("currency") or "USD").strip()
+        currency = str(store.get("currency") or "USD").strip().upper()
         commission_val = float(store.get("commission_value") or parse_commission_numeric(commission_rate))
         cookie_days = int(store.get("cookie_days") or 30)
         category = str(store.get("category") or "General").strip()
@@ -251,6 +251,30 @@ def delete_stores_by_currency(currency: str) -> int:
     return deleted_count
 
 
+def delete_indian_and_subcontinent_stores() -> int:
+    """Delete all stores with Indian or South Asian subcontinent currencies/domains."""
+    conn = get_db()
+    cursor = conn.cursor()
+    cursor.execute("""
+        DELETE FROM stores 
+        WHERE UPPER(currency) IN ('INR', 'PKR', 'BDT', 'LKR', 'NPR')
+           OR website_url LIKE '%.in' 
+           OR website_url LIKE '%.in/%' 
+           OR website_url LIKE '%.co.in%'
+           OR website_url LIKE '%.pk'
+           OR website_url LIKE '%.pk/%'
+           OR website_url LIKE '%.com.pk%'
+           OR website_url LIKE '%.bd'
+           OR website_url LIKE '%.com.bd%'
+           OR website_url LIKE '%bodygoldindia.com%'
+    """)
+    deleted_count = cursor.rowcount
+    conn.commit()
+    conn.close()
+    return deleted_count
+
+
+
 def get_stores(
     search: Optional[str] = None,
     category: Optional[str] = None,
@@ -259,6 +283,10 @@ def get_stores(
     cookie_days: Optional[int] = None,
     min_traffic: Optional[int] = None,
     traffic_status: Optional[str] = None,
+    trend_month: Optional[Union[int, str]] = None,
+    trend_min_score: Optional[Union[int, str]] = None,
+    trend_peak_only: bool = False,
+    trend_growth_only: bool = False,
     notes_filter: Optional[str] = None,
     favorite_only: bool = False,
     sort_by: str = "commission_value",
@@ -331,6 +359,75 @@ def get_stores(
         elif ts in ["success", "error"]:
             conditions.append("(traffic_status = ? OR trend_status = ?)")
             params.extend([ts, ts])
+
+    # Trend Month & Seasonality filtering
+    month_val = None
+    if trend_month is not None and str(trend_month).strip() and str(trend_month).strip() != "all":
+        try:
+            m = int(str(trend_month).strip())
+            if 1 <= m <= 12:
+                month_val = m
+        except ValueError:
+            pass
+
+    score_val = None
+    if trend_min_score is not None and str(trend_min_score).strip() and str(trend_min_score).strip() != "all":
+        try:
+            s = int(str(trend_min_score).strip())
+            if s > 0:
+                score_val = s
+        except ValueError:
+            pass
+
+    peak_only = trend_peak_only is True or (isinstance(trend_peak_only, str) and trend_peak_only.strip().lower() in ("true", "1"))
+    growth_only = trend_growth_only is True or (isinstance(trend_growth_only, str) and trend_growth_only.strip().lower() in ("true", "1"))
+
+    if month_val is not None:
+        month_suffix = f"-{month_val:02d}"
+        prev_month = 12 if month_val == 1 else month_val - 1
+        prev_month_suffix = f"-{prev_month:02d}"
+
+        if peak_only:
+            conditions.append("(trend_status = 'success' AND trend_peak_month LIKE ?)")
+            params.append(f"%{month_suffix}%")
+        elif score_val is not None:
+            conditions.append("""
+                (trend_status = 'success' AND EXISTS (
+                    SELECT 1 FROM json_each(stores.trend_timeline_json)
+                    WHERE json_extract(value, '$.month') LIKE ?
+                      AND CAST(json_extract(value, '$.value') AS INTEGER) >= ?
+                ))
+            """)
+            params.extend([f"%{month_suffix}", score_val])
+        else:
+            # Default when month is selected: store has peak in this month OR score in this month >= 30
+            conditions.append("""
+                (trend_status = 'success' AND (
+                    trend_peak_month LIKE ?
+                    OR EXISTS (
+                        SELECT 1 FROM json_each(stores.trend_timeline_json)
+                        WHERE json_extract(value, '$.month') LIKE ?
+                          AND CAST(json_extract(value, '$.value') AS INTEGER) >= 30
+                    )
+                ))
+            """)
+            params.extend([f"%{month_suffix}%", f"%{month_suffix}"])
+
+        if growth_only:
+            conditions.append(f"""
+                (trend_status = 'success' AND (
+                    COALESCE((SELECT CAST(json_extract(value, '$.value') AS INTEGER) FROM json_each(stores.trend_timeline_json) WHERE json_extract(value, '$.month') LIKE '%{month_suffix}' ORDER BY json_extract(value, '$.month') DESC LIMIT 1), 0) >
+                    COALESCE((SELECT CAST(json_extract(value, '$.value') AS INTEGER) FROM json_each(stores.trend_timeline_json) WHERE json_extract(value, '$.month') LIKE '%{prev_month_suffix}' ORDER BY json_extract(value, '$.month') DESC LIMIT 1), 0)
+                ))
+            """)
+    elif score_val is not None:
+        conditions.append("""
+            (trend_status = 'success' AND EXISTS (
+                SELECT 1 FROM json_each(stores.trend_timeline_json)
+                WHERE CAST(json_extract(value, '$.value') AS INTEGER) >= ?
+            ))
+        """)
+        params.append(score_val)
 
     if isinstance(notes_filter, str):
         if notes_filter == "has_notes":

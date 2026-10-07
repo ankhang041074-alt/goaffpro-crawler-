@@ -111,6 +111,10 @@ def get_stores_endpoint(
     cookie_days: Optional[str] = Query(None),
     min_traffic: Optional[str] = Query(None),
     traffic_status: Optional[str] = Query(None),
+    trend_month: Optional[str] = Query(None),
+    trend_min_score: Optional[str] = Query(None),
+    trend_peak_only: bool = Query(False),
+    trend_growth_only: bool = Query(False),
     notes_filter: Optional[str] = Query(None),
     favorite_only: bool = Query(False),
     sort_by: str = Query("commission_value"),
@@ -139,6 +143,16 @@ def get_stores_endpoint(
         except ValueError:
             pass
 
+    # Convert trend_min_score to int if present
+    trend_min_score_val = None
+    if isinstance(trend_min_score, int):
+        trend_min_score_val = trend_min_score
+    elif isinstance(trend_min_score, str) and trend_min_score.strip() and trend_min_score.strip() != "all":
+        try:
+            trend_min_score_val = int(trend_min_score.strip())
+        except ValueError:
+            pass
+
     return db.get_stores(
         search=search,
         category=category,
@@ -147,6 +161,10 @@ def get_stores_endpoint(
         cookie_days=cookie_days_val,
         min_traffic=min_traffic_val,
         traffic_status=traffic_status,
+        trend_month=trend_month,
+        trend_min_score=trend_min_score_val,
+        trend_peak_only=trend_peak_only,
+        trend_growth_only=trend_growth_only,
         notes_filter=notes_filter,
         favorite_only=favorite_only,
         sort_by=sort_by,
@@ -196,6 +214,14 @@ def delete_stores_by_currency_endpoint(currency: str):
     return {"currency": currency, "deleted_count": count}
 
 
+@app.delete("/api/stores/purge-indian")
+def purge_indian_stores_endpoint():
+    """Purge all stores with Indian/subcontinent currencies or .in domains."""
+    count = db.delete_indian_and_subcontinent_stores()
+    return {"status": "success", "deleted_count": count}
+
+
+
 @app.get("/api/export/csv")
 def export_csv_endpoint(
     search: Optional[str] = Query(None),
@@ -205,6 +231,10 @@ def export_csv_endpoint(
     cookie_days: Optional[str] = Query(None),
     min_traffic: Optional[str] = Query(None),
     traffic_status: Optional[str] = Query(None),
+    trend_month: Optional[str] = Query(None),
+    trend_min_score: Optional[str] = Query(None),
+    trend_peak_only: bool = Query(False),
+    trend_growth_only: bool = Query(False),
     notes_filter: Optional[str] = Query(None),
     favorite_only: bool = Query(False)
 ):
@@ -227,6 +257,15 @@ def export_csv_endpoint(
         except ValueError:
             pass
 
+    trend_min_score_val = None
+    if isinstance(trend_min_score, int):
+        trend_min_score_val = trend_min_score
+    elif isinstance(trend_min_score, str) and trend_min_score.strip() and trend_min_score.strip() != "all":
+        try:
+            trend_min_score_val = int(trend_min_score.strip())
+        except ValueError:
+            pass
+
     data = db.get_stores(
         search=search,
         category=category,
@@ -235,6 +274,10 @@ def export_csv_endpoint(
         cookie_days=cookie_days_val,
         min_traffic=min_traffic_val,
         traffic_status=traffic_status,
+        trend_month=trend_month,
+        trend_min_score=trend_min_score_val,
+        trend_peak_only=trend_peak_only,
+        trend_growth_only=trend_growth_only,
         notes_filter=notes_filter,
         favorite_only=favorite_only,
         limit=100000,
@@ -269,6 +312,10 @@ def export_excel_endpoint(
     cookie_days: Optional[str] = Query(None),
     min_traffic: Optional[str] = Query(None),
     traffic_status: Optional[str] = Query(None),
+    trend_month: Optional[str] = Query(None),
+    trend_min_score: Optional[str] = Query(None),
+    trend_peak_only: bool = Query(False),
+    trend_growth_only: bool = Query(False),
     notes_filter: Optional[str] = Query(None),
     favorite_only: bool = Query(False)
 ):
@@ -291,6 +338,15 @@ def export_excel_endpoint(
         except ValueError:
             pass
 
+    trend_min_score_val = None
+    if isinstance(trend_min_score, int):
+        trend_min_score_val = trend_min_score
+    elif isinstance(trend_min_score, str) and trend_min_score.strip() and trend_min_score.strip() != "all":
+        try:
+            trend_min_score_val = int(trend_min_score.strip())
+        except ValueError:
+            pass
+
     data = db.get_stores(
         search=search,
         category=category,
@@ -299,6 +355,10 @@ def export_excel_endpoint(
         cookie_days=cookie_days_val,
         min_traffic=min_traffic_val,
         traffic_status=traffic_status,
+        trend_month=trend_month,
+        trend_min_score=trend_min_score_val,
+        trend_peak_only=trend_peak_only,
+        trend_growth_only=trend_growth_only,
         notes_filter=notes_filter,
         favorite_only=favorite_only,
         limit=100000,

@@ -124,6 +124,10 @@ export default function App() {
   const [commissionFilter, setCommissionFilter] = useState<string>('all');
   const [cookieFilter, setCookieFilter] = useState<string>('all');
   const [trafficFilter, setTrafficFilter] = useState<string>('all');
+  const [trendMonthFilter, setTrendMonthFilter] = useState<string>('all');
+  const [trendScoreFilter, setTrendScoreFilter] = useState<string>('all');
+  const [trendPeakOnly, setTrendPeakOnly] = useState<boolean>(false);
+  const [trendGrowthOnly, setTrendGrowthOnly] = useState<boolean>(false);
   const [notesFilter, setNotesFilter] = useState<string>('all');
   const [favoriteOnly, setFavoriteOnly] = useState<boolean>(false);
   const [sortBy, setSortBy] = useState<string>('commission_value');
@@ -189,7 +193,11 @@ export default function App() {
   // Fetch stores on filter change
   useEffect(() => {
     fetchStores();
-  }, [search, selectedCategory, currencyFilter, commissionFilter, cookieFilter, trafficFilter, notesFilter, favoriteOnly, sortBy, sortOrder, page]);
+  }, [
+    search, selectedCategory, currencyFilter, commissionFilter, cookieFilter,
+    trafficFilter, trendMonthFilter, trendScoreFilter, trendPeakOnly, trendGrowthOnly,
+    notesFilter, favoriteOnly, sortBy, sortOrder, page
+  ]);
 
   async function fetchStats() {
     try {
@@ -331,6 +339,18 @@ export default function App() {
         trafficStatusVal = 'no_data';
       }
 
+      let trendMinScoreVal = '';
+      let trendPeakOnlyVal = false;
+      let trendGrowthOnlyVal = false;
+
+      if (trendScoreFilter === 'growth') {
+        trendGrowthOnlyVal = true;
+      } else if (trendScoreFilter === 'peak') {
+        trendPeakOnlyVal = true;
+      } else if (trendScoreFilter === 'high') {
+        trendMinScoreVal = '50';
+      }
+
       const params = new URLSearchParams({
         search: search.trim(),
         category: selectedCategory,
@@ -339,6 +359,10 @@ export default function App() {
         min_commission: commissionFilter !== 'all' ? commissionFilter : '0',
         min_traffic: minTrafficVal,
         traffic_status: trafficStatusVal,
+        trend_month: trendMonthFilter !== 'all' ? trendMonthFilter : '',
+        trend_min_score: trendMinScoreVal,
+        trend_peak_only: trendPeakOnlyVal ? 'true' : 'false',
+        trend_growth_only: trendGrowthOnlyVal ? 'true' : 'false',
         notes_filter: notesFilter !== 'all' ? notesFilter : '',
         favorite_only: favoriteOnly ? 'true' : 'false',
         sort_by: sortBy,
@@ -496,7 +520,7 @@ export default function App() {
   }
 
   async function handleDeleteByCurrency(currency: string) {
-    if (!window.confirm(`Bạn có chắc chắn muốn xóa TẤT CẢ các dự án tiền ${currency} (Ấn Độ)? Thao tác này không thể hoàn tác!`)) {
+    if (!window.confirm(`Bạn có chắc chắn muốn xóa TẤT CẢ các dự án tiền ${currency}? Thao tác này không thể hoàn tác!`)) {
       return;
     }
     try {
@@ -514,6 +538,25 @@ export default function App() {
     }
   }
 
+  async function handlePurgeIndianStores() {
+    if (!window.confirm('Bạn có chắc chắn muốn quét và xóa TOÀN BỘ các store Ấn Độ / Nam Á (INR, PKR, BDT, LKR, NPR và tên miền .in)? Thao tác này không thể hoàn tác!')) {
+      return;
+    }
+    try {
+      const res = await fetch('/api/stores/purge-indian', {
+        method: 'DELETE'
+      });
+      if (res.ok) {
+        const json = await res.json();
+        alert(`Đã quét và xóa thành công ${json.deleted_count} cửa hàng Ấn Độ / Nam Á!`);
+        fetchStores();
+        fetchStats();
+      }
+    } catch (err) {
+      alert('Lỗi xóa store Ấn Độ: ' + err);
+    }
+  }
+
   function handleExport(format: 'excel' | 'csv') {
     let minTrafficVal = '';
     let trafficStatusVal = '';
@@ -525,6 +568,18 @@ export default function App() {
       trafficStatusVal = 'no_data';
     }
 
+    let trendMinScoreVal = '';
+    let trendPeakOnlyVal = false;
+    let trendGrowthOnlyVal = false;
+
+    if (trendScoreFilter === 'growth') {
+      trendGrowthOnlyVal = true;
+    } else if (trendScoreFilter === 'peak') {
+      trendPeakOnlyVal = true;
+    } else if (trendScoreFilter === 'high') {
+      trendMinScoreVal = '50';
+    }
+
     const params = new URLSearchParams({
       search: search.trim(),
       category: selectedCategory,
@@ -533,6 +588,10 @@ export default function App() {
       min_commission: commissionFilter !== 'all' ? commissionFilter : '0',
       min_traffic: minTrafficVal,
       traffic_status: trafficStatusVal,
+      trend_month: trendMonthFilter !== 'all' ? trendMonthFilter : '',
+      trend_min_score: trendMinScoreVal,
+      trend_peak_only: trendPeakOnlyVal ? 'true' : 'false',
+      trend_growth_only: trendGrowthOnlyVal ? 'true' : 'false',
       notes_filter: notesFilter !== 'all' ? notesFilter : '',
       favorite_only: favoriteOnly ? 'true' : 'false'
     });
@@ -645,10 +704,36 @@ export default function App() {
             );
           })}
 
+          {/* Target filtered month highlight columns (Seasonality Highlights) */}
+          {trendMonthFilter !== 'all' && points.filter(p => p.month.endsWith(`-${trendMonthFilter.padStart(2, '0')}`)).map((p, idx) => (
+            <g key={`season-hl-${idx}`}>
+              <rect
+                x={p.x - 7}
+                y={paddingTop}
+                width={14}
+                height={chartHeight}
+                fill="#f59e0b"
+                opacity={0.18}
+                rx={3}
+              />
+              <line
+                x1={p.x}
+                y1={paddingTop}
+                x2={p.x}
+                y2={paddingTop + chartHeight}
+                stroke="#f59e0b"
+                strokeWidth={1}
+                strokeDasharray="2 2"
+                opacity={0.6}
+              />
+            </g>
+          ))}
+
           {/* Monthly vertical volume bars */}
           {points.map((p, idx) => {
             const barW = Math.max(2, Math.min(8, (chartWidth / points.length) * 0.65));
             const barH = paddingTop + chartHeight - p.y;
+            const isSeasonMonth = trendMonthFilter !== 'all' && p.month.endsWith(`-${trendMonthFilter.padStart(2, '0')}`);
             return (
               <rect
                 key={`bar-${idx}`}
@@ -657,8 +742,8 @@ export default function App() {
                 width={barW}
                 height={Math.max(1, barH)}
                 rx={1}
-                fill={p.value === peakVal && peakVal > 0 ? '#f59e0b' : '#6366f1'}
-                opacity={p.value === peakVal && peakVal > 0 ? 0.35 : 0.12}
+                fill={p.value === peakVal && peakVal > 0 ? '#f59e0b' : isSeasonMonth ? '#d97706' : '#6366f1'}
+                opacity={p.value === peakVal && peakVal > 0 ? 0.4 : isSeasonMonth ? 0.35 : 0.12}
               >
                 <title>{`${p.month}: ${p.value} pts`}</title>
               </rect>
@@ -684,8 +769,25 @@ export default function App() {
             </g>
           ))}
 
-          {/* Secondary notable spikes (e.g. value >= 50 and not the primary peak) */}
-          {points.filter(p => p.value >= 50 && p !== peakPoint).map((sp, sIdx) => (
+          {/* Target filtered month special point indicators */}
+          {trendMonthFilter !== 'all' && points.filter(p => p.month.endsWith(`-${trendMonthFilter.padStart(2, '0')}`) && p !== peakPoint).map((p, idx) => (
+            <g key={`season-pt-${idx}`}>
+              <circle cx={p.x} cy={p.y} r={4.5} fill="#f59e0b" stroke="#ffffff" strokeWidth="1.8" />
+              <text
+                x={p.x}
+                y={Math.max(12, p.y - 8)}
+                textAnchor="middle"
+                fontSize="8.5"
+                fontWeight="bold"
+                fill="#b45309"
+              >
+                🌟 {p.month.slice(2)} ({p.value})
+              </text>
+            </g>
+          ))}
+
+          {/* Secondary notable spikes (e.g. value >= 50 and not the primary peak and not already shown as season point) */}
+          {points.filter(p => p.value >= 50 && p !== peakPoint && !(trendMonthFilter !== 'all' && p.month.endsWith(`-${trendMonthFilter.padStart(2, '0')}`))).map((sp, sIdx) => (
             <g key={`spike-${sIdx}`}>
               <circle cx={sp.x} cy={sp.y} r={3.5} fill="#6366f1" stroke="#ffffff" strokeWidth="1.2" />
               <text
@@ -785,12 +887,12 @@ export default function App() {
             </button>
 
             <button
-              onClick={() => handleDeleteByCurrency('INR')}
+              onClick={handlePurgeIndianStores}
               className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold bg-rose-50 hover:bg-rose-100 text-rose-600 border border-rose-200 transition cursor-pointer"
-              title="Xóa tất cả các dự án tiền Ấn Độ (INR)"
+              title="Quét & Xóa tất cả các dự án Ấn Độ / Nam Á (INR, PKR, BDT, LKR, NPR, .in)"
             >
               <Trash2 size={13} />
-              <span>Xóa Tiền INR</span>
+              <span>Xóa Store Ấn Độ</span>
             </button>
 
             <button
@@ -1054,12 +1156,107 @@ export default function App() {
             </span>
           </div>
 
+          {/* GOOGLE TRENDS & MONTHLY FILTER */}
+          <div className="pt-2 border-t border-slate-100 flex flex-wrap items-center justify-between gap-2.5">
+            <div className="flex items-center gap-2 flex-wrap text-xs">
+              <span className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-700 bg-amber-50 border border-amber-200/80 px-2.5 py-1.5 rounded-lg">
+                <Flame size={13} className="text-amber-500 fill-amber-500" />
+                <span>Google Trends Theo Tháng:</span>
+              </span>
+
+              {/* Month Selector: Tháng 1 -> Tháng 12 */}
+              <select
+                value={trendMonthFilter}
+                onChange={e => {
+                  setTrendMonthFilter(e.target.value);
+                  setPage(1);
+                }}
+                className={`text-xs font-medium py-1.5 px-3 rounded-lg border focus:outline-none transition cursor-pointer ${
+                  trendMonthFilter !== 'all'
+                    ? 'bg-amber-50 border-amber-300 text-amber-900 font-bold'
+                    : 'bg-white border-slate-200 text-slate-700 hover:border-slate-300'
+                }`}
+              >
+                <option value="all">🗓️ Tất cả các tháng (T1 - T12)</option>
+                <option value="1">Tháng 1</option>
+                <option value="2">Tháng 2</option>
+                <option value="3">Tháng 3</option>
+                <option value="4">Tháng 4</option>
+                <option value="5">Tháng 5</option>
+                <option value="6">Tháng 6</option>
+                <option value="7">Tháng 7</option>
+                <option value="8">Tháng 8</option>
+                <option value="9">Tháng 9</option>
+                <option value="10">Tháng 10</option>
+                <option value="11">Tháng 11</option>
+                <option value="12">Tháng 12</option>
+              </select>
+
+              {/* Tiêu Chí Xu Hướng (Đón sóng, Đỉnh cao, Thương hiệu lớn) */}
+              <select
+                value={trendScoreFilter}
+                onChange={e => {
+                  setTrendScoreFilter(e.target.value);
+                  setPage(1);
+                }}
+                className={`text-xs font-medium py-1.5 px-3 rounded-lg border focus:outline-none transition cursor-pointer ${
+                  trendScoreFilter === 'growth'
+                    ? 'bg-emerald-50 border-emerald-400 text-emerald-900 font-bold'
+                    : trendScoreFilter !== 'all'
+                    ? 'bg-amber-50 border-amber-300 text-amber-900 font-bold'
+                    : 'bg-white border-slate-200 text-slate-700 hover:border-slate-300'
+                }`}
+              >
+                <option value="all">🌊 Tất cả (Có tìm kiếm trong tháng)</option>
+                <option value="growth">↗️ Đón sóng tăng trưởng (Đang vào mùa - Tăng so với tháng trước)</option>
+                <option value="peak">🏔️ Bùng nổ đạt đỉnh (Mùa bán chạy nhất của store)</option>
+                <option value="high">🔥 Lượng tìm kiếm cao (Thương hiệu lớn)</option>
+              </select>
+            </div>
+
+            {trendMonthFilter !== 'all' && (
+              <span className="text-[11px] text-amber-800 font-medium bg-amber-50/80 border border-amber-200 px-2.5 py-1 rounded-md">
+                Đang dò store hot vào <strong>Tháng {trendMonthFilter}</strong> {
+                  trendScoreFilter === 'growth'
+                    ? '(↗️ Đón sóng tăng trưởng)'
+                    : trendScoreFilter === 'peak'
+                    ? '(🏔️ Đạt đỉnh cao nhất)'
+                    : trendScoreFilter === 'high'
+                    ? '(🔥 Lượng tìm kiếm lớn)'
+                    : ''
+                }
+              </span>
+            )}
+          </div>
+
           {/* Active filters bar if any filter is active */}
-          {(currencyFilter !== 'all' || commissionFilter !== 'all' || cookieFilter !== 'all' || trafficFilter !== 'all' || notesFilter !== 'all' || search.trim() !== '') && (
+          {(currencyFilter !== 'all' || commissionFilter !== 'all' || cookieFilter !== 'all' || trafficFilter !== 'all' || trendMonthFilter !== 'all' || trendScoreFilter !== 'all' || notesFilter !== 'all' || search.trim() !== '') && (
             <div className="flex items-center gap-2 pt-1 border-t border-slate-100 flex-wrap text-xs">
               <span className="text-[11px] font-semibold text-indigo-600 flex items-center gap-1">
                 <Filter size={12} /> Đang lọc:
               </span>
+              {trendMonthFilter !== 'all' && (
+                <span className="inline-flex items-center gap-1 text-[11px] bg-amber-50 text-amber-800 px-2 py-0.5 rounded-md border border-amber-200 font-medium">
+                  Google Trends: <strong>Tháng {trendMonthFilter}</strong>
+                  <button onClick={() => { setTrendMonthFilter('all'); setPage(1); }} className="hover:text-amber-950 ml-0.5">
+                    <X size={11} />
+                  </button>
+                </span>
+              )}
+              {trendScoreFilter !== 'all' && (
+                <span className="inline-flex items-center gap-1 text-[11px] bg-emerald-50 text-emerald-800 px-2 py-0.5 rounded-md border border-emerald-300 font-medium">
+                  Xu hướng: <strong>{
+                    trendScoreFilter === 'growth'
+                      ? '↗️ Đón sóng tăng trưởng'
+                      : trendScoreFilter === 'peak'
+                      ? '🏔️ Bùng nổ đạt đỉnh'
+                      : '🔥 Lượng tìm kiếm lớn'
+                  }</strong>
+                  <button onClick={() => { setTrendScoreFilter('all'); setPage(1); }} className="hover:text-emerald-950 ml-0.5">
+                    <X size={11} />
+                  </button>
+                </span>
+              )}
               {trafficFilter !== 'all' && (
                 <span className="inline-flex items-center gap-1 text-[11px] bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded-md border border-indigo-200 font-medium">
                   Traffic: <strong>{trafficFilter === 'has_data' ? 'Đã có data' : trafficFilter === 'no_data' ? 'Chưa có data' : `≥ ${Number(trafficFilter) / 1000}K`}</strong>
@@ -1107,6 +1304,10 @@ export default function App() {
                   setCommissionFilter('all');
                   setCookieFilter('all');
                   setTrafficFilter('all');
+                  setTrendMonthFilter('all');
+                  setTrendScoreFilter('all');
+                  setTrendPeakOnly(false);
+                  setTrendGrowthOnly(false);
                   setNotesFilter('all');
                   setPage(1);
                 }}
@@ -1415,41 +1616,93 @@ export default function App() {
 
                         {/* Traffic & Trends */}
                         <td className="py-3 px-3 w-36">
-                          {store.traffic_status === 'success' && store.traffic_raw_value && store.traffic_raw_value > 0 ? (
-                            <div className="flex flex-col gap-0.5">
-                              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-xs font-bold font-mono bg-emerald-50 text-emerald-700 border border-emerald-200 w-fit">
-                                <Eye size={11} className="text-emerald-600" />
-                                {store.traffic_visits || `${(store.traffic_raw_value / 1000).toFixed(0)}K`}
-                              </span>
-                              {store.trend_peak_month && (
-                                <span className="text-[10px] text-amber-600 font-semibold truncate max-w-[120px]">
-                                  🔥 {store.trend_peak_month.split(' ')[0]}
-                                </span>
-                              )}
-                            </div>
-                          ) : store.trend_status === 'success' && store.trend_peak_month ? (
-                            <div className="flex flex-col gap-0.5">
-                              <span className="inline-flex items-center gap-1 text-[11px] text-amber-600 font-semibold truncate max-w-[120px]">
-                                🔥 {store.trend_peak_month.split(' ')[0]}
-                              </span>
-                              <span className="text-[10px] text-slate-400 italic">Traffic &lt;10K</span>
-                            </div>
-                          ) : store.traffic_status === 'no_data' || (store.traffic_status !== 'pending' && store.trend_status === 'no_data') ? (
-                            <span className="text-[11px] text-slate-400 italic" title="Chưa có dữ liệu (Store nhỏ/mới)">
-                              Store nhỏ/mới
-                            </span>
-                          ) : store.traffic_status === 'error' || store.trend_status === 'error' ? (
-                            <span className="text-[11px] text-amber-600 font-medium" title="Lỗi kết nối khi tra cứu">
-                              Lỗi tải
-                            </span>
-                          ) : (
-                            <button
-                              onClick={(e) => handleRefreshSingleStore(store.store_id, e)}
-                              className="text-[10px] text-indigo-600 hover:text-indigo-800 hover:underline font-medium cursor-pointer"
-                            >
-                              Kiểm tra ngay
-                            </button>
-                          )}
+                          {(() => {
+                            let seasonalScore: number | null = null;
+                            let prevScore: number | null = null;
+                            let isSeasonalPeak = false;
+
+                            if (trendMonthFilter !== 'all') {
+                              const m = parseInt(trendMonthFilter);
+                              const targetSuffix = `-${m.toString().padStart(2, '0')}`;
+                              const prevM = m === 1 ? 12 : m - 1;
+                              const prevSuffix = `-${prevM.toString().padStart(2, '0')}`;
+
+                              if (store.trend_peak_month && store.trend_peak_month.includes(targetSuffix)) {
+                                isSeasonalPeak = true;
+                              }
+                              if (store.trend_timeline_json) {
+                                try {
+                                  const tl = JSON.parse(store.trend_timeline_json);
+                                  const match = tl.filter((t: any) => t.month && t.month.endsWith(targetSuffix));
+                                  if (match.length > 0) {
+                                    seasonalScore = match[match.length - 1].value;
+                                  }
+                                  const matchPrev = tl.filter((t: any) => t.month && t.month.endsWith(prevSuffix));
+                                  if (matchPrev.length > 0) {
+                                    prevScore = matchPrev[matchPrev.length - 1].value;
+                                  }
+                                } catch (e) {}
+                              }
+                            }
+
+                            const isGrowing = seasonalScore !== null && prevScore !== null && seasonalScore > prevScore;
+                            const growthPct = isGrowing ? (prevScore! > 0 ? Math.round(((seasonalScore! - prevScore!) / prevScore!) * 100) : null) : null;
+
+                            return (
+                              <div className="flex flex-col gap-0.5">
+                                {store.traffic_status === 'success' && store.traffic_raw_value && store.traffic_raw_value > 0 ? (
+                                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-xs font-bold font-mono bg-emerald-50 text-emerald-700 border border-emerald-200 w-fit">
+                                    <Eye size={11} className="text-emerald-600" />
+                                    {store.traffic_visits || `${(store.traffic_raw_value / 1000).toFixed(0)}K`}
+                                  </span>
+                                ) : store.traffic_status === 'no_data' || (store.traffic_status !== 'pending' && store.trend_status === 'no_data') ? (
+                                  <span className="text-[11px] text-slate-400 italic" title="Chưa có dữ liệu (Store nhỏ/mới)">
+                                    Store nhỏ/mới
+                                  </span>
+                                ) : store.traffic_status === 'error' || store.trend_status === 'error' ? (
+                                  <span className="text-[11px] text-amber-600 font-medium" title="Lỗi kết nối khi tra cứu">
+                                    Lỗi tải
+                                  </span>
+                                ) : (
+                                  <button
+                                    onClick={(e) => handleRefreshSingleStore(store.store_id, e)}
+                                    className="text-[10px] text-indigo-600 hover:text-indigo-800 hover:underline font-medium cursor-pointer"
+                                  >
+                                    Kiểm tra ngay
+                                  </button>
+                                )}
+
+                                {/* Seasonal month score or peak badge */}
+                                {trendMonthFilter !== 'all' ? (
+                                  isSeasonalPeak ? (
+                                    <span className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-[10px] font-bold bg-amber-100 text-amber-900 border border-amber-300 w-fit">
+                                      🏔️ Đỉnh T{trendMonthFilter}
+                                    </span>
+                                  ) : isGrowing ? (
+                                    <span className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-[10px] font-bold bg-emerald-50 text-emerald-800 border border-emerald-300 w-fit">
+                                      ↗️ T{trendMonthFilter}: {seasonalScore}đ {growthPct !== null ? `(+${growthPct}%)` : '(Bùng nổ)'}
+                                    </span>
+                                  ) : seasonalScore !== null ? (
+                                    <span className={`inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-[10px] font-bold w-fit ${
+                                      seasonalScore >= 70
+                                        ? 'bg-rose-50 text-rose-700 border border-rose-200'
+                                        : seasonalScore >= 50
+                                        ? 'bg-amber-50 text-amber-700 border border-amber-200'
+                                        : 'bg-slate-100 text-slate-600 border border-slate-200'
+                                    }`}>
+                                      🔥 T{trendMonthFilter}: {seasonalScore}đ
+                                    </span>
+                                  ) : (
+                                    <span className="text-[10px] text-slate-400">T{trendMonthFilter}: 0đ</span>
+                                  )
+                                ) : store.trend_peak_month ? (
+                                  <span className="text-[10px] text-amber-600 font-semibold truncate max-w-[120px]">
+                                    🔥 {store.trend_peak_month.split(' ')[0]}
+                                  </span>
+                                ) : null}
+                              </div>
+                            );
+                          })()}
                         </td>
 
                         {/* Currency */}

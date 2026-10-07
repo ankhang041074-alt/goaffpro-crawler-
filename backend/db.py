@@ -1,7 +1,7 @@
 import sqlite3
 import re
 from pathlib import Path
-from typing import Optional, List, Dict, Any
+from typing import Optional, List, Dict, Any, Union
 from datetime import datetime
 
 BASE_DIR = Path(__file__).resolve().parent.parent

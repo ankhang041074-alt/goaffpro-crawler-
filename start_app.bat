@@ -1,7 +1,7 @@
 @echo off
 chcp 65001 > nul
 echo ==========================================================
-echo 🚀 Khởi động GoAffPro Store Hunter & CRM Local App (Windows)
+echo 🚀 Khởi động GoAffPro Store Hunter ^& CRM Local App (Windows)
 echo ==========================================================
 
 REM Navigate to project root directory
@@ -31,12 +31,12 @@ for /f "tokens=5" %%a in ('netstat -aon ^| findstr :5174 ^| findstr LISTENING') 
 
 REM Check and setup Python Virtual Environment
 if not exist ".venv" (
-    echo 📦 Đang tạo môi trường ảo Python (.venv)...
+    echo 📦 Đang tạo môi trường ảo Python .venv...
     python -m venv .venv
 )
 
 call .venv\Scripts\activate.bat
-echo ✅ Đã kích hoạt môi trường Python (.venv)
+echo ✅ Đã kích hoạt môi trường Python .venv
 
 echo 📦 Đang kiểm tra thư viện Python...
 pip install -r requirements.txt -q
@@ -44,7 +44,7 @@ python -m playwright install chromium
 
 REM Check and install frontend dependencies
 if not exist "frontend\node_modules" (
-    echo 📦 Đang cài đặt thư viện frontend (npm install)...
+    echo 📦 Đang cài đặt thư viện frontend npm install...
     cd frontend && npm install && cd ..
 )
 

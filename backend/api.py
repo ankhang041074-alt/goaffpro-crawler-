@@ -202,11 +202,11 @@ def update_store_note_endpoint(store_id: str, req: UpdateNoteRequest):
     return {"store_id": store_id, "notes": req.note, "status": req.status}
 
 
-@app.delete("/api/stores/{store_id}")
-def delete_store_endpoint(store_id: str):
-    """Delete a single store."""
-    deleted = db.delete_store(store_id)
-    return {"store_id": store_id, "deleted": deleted}
+@app.delete("/api/stores/purge-indian")
+def purge_indian_stores_endpoint():
+    """Purge all stores with Indian/subcontinent currencies or .in domains."""
+    count = db.delete_indian_and_subcontinent_stores()
+    return {"status": "success", "deleted_count": count}
 
 
 @app.delete("/api/stores/currency/{currency}")
@@ -216,11 +216,11 @@ def delete_stores_by_currency_endpoint(currency: str):
     return {"currency": currency, "deleted_count": count}
 
 
-@app.delete("/api/stores/purge-indian")
-def purge_indian_stores_endpoint():
-    """Purge all stores with Indian/subcontinent currencies or .in domains."""
-    count = db.delete_indian_and_subcontinent_stores()
-    return {"status": "success", "deleted_count": count}
+@app.delete("/api/stores/{store_id}")
+def delete_store_endpoint(store_id: str):
+    """Delete a single store."""
+    deleted = db.delete_store(store_id)
+    return {"store_id": store_id, "deleted": deleted}
 
 
 

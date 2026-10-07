@@ -22,7 +22,9 @@ import {
   ChevronRight,
   ShieldCheck,
   Building,
-  Trash2
+  Trash2,
+  Megaphone,
+  DollarSign
 } from 'lucide-react';
 
 interface Store {
@@ -92,6 +94,20 @@ export default function App() {
   const [selectedStore, setSelectedStore] = useState<Store | null>(null);
   const [editingNote, setEditingNote] = useState<string>('');
   const [editingStatus, setEditingStatus] = useState<string>('available');
+
+  // User Customizable Tracking (Ads & Revenue)
+  const [runningAds, setRunningAds] = useState<string>(() => localStorage.getItem('running_ads') || '0');
+  const [monthlyRevenue, setMonthlyRevenue] = useState<string>(() => localStorage.getItem('monthly_revenue') || '$0');
+
+  function updateRunningAds(val: string) {
+    setRunningAds(val);
+    localStorage.setItem('running_ads', val);
+  }
+
+  function updateMonthlyRevenue(val: string) {
+    setMonthlyRevenue(val);
+    localStorage.setItem('monthly_revenue', val);
+  }
 
   const pollingRef = useRef<any>(null);
 
@@ -442,26 +458,44 @@ export default function App() {
             <span className="text-[11px] text-slate-500 mt-0.5 block">Đã lưu trong database</span>
           </div>
 
-          <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-sm">
+          <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-sm hover:border-indigo-300 transition group">
             <div className="flex items-center justify-between text-slate-500 mb-1">
-              <span className="text-xs font-medium uppercase tracking-wider">Hoa Hồng Cao Nhất</span>
-              <Percent size={16} className="text-emerald-600" />
+              <span className="text-xs font-medium uppercase tracking-wider">Số Ads Đang Chạy</span>
+              <Megaphone size={16} className="text-indigo-600 group-hover:scale-110 transition" />
             </div>
-            <div className="text-2xl font-black text-emerald-600 font-mono">
-              {stats?.max_commission || 0}%
+            <div className="flex items-center gap-1">
+              <input
+                type="text"
+                value={runningAds}
+                onChange={e => updateRunningAds(e.target.value)}
+                placeholder="0"
+                className="text-2xl font-black text-indigo-600 font-mono bg-transparent border-b border-dashed border-indigo-200 focus:border-indigo-500 focus:outline-none w-full py-0.5"
+                title="Nhấp vào để tự điền số ads đang chạy"
+              />
             </div>
-            <span className="text-[11px] text-slate-500 mt-0.5 block">Cơ hội lợi nhuận cao</span>
+            <span className="text-[11px] text-slate-400 mt-0.5 block flex items-center gap-1">
+              <Edit3 size={10} /> Nhấp số để tự điền
+            </span>
           </div>
 
-          <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-sm">
+          <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-sm hover:border-emerald-300 transition group">
             <div className="flex items-center justify-between text-slate-500 mb-1">
-              <span className="text-xs font-medium uppercase tracking-wider">Hoa Hồng Trung Bình</span>
-              <TrendingUp size={16} className="text-sky-400" />
+              <span className="text-xs font-medium uppercase tracking-wider">Doanh Thu Tháng Này</span>
+              <DollarSign size={16} className="text-emerald-600 group-hover:scale-110 transition" />
             </div>
-            <div className="text-2xl font-black text-sky-400 font-mono">
-              {stats?.avg_commission || 0}%
+            <div className="flex items-center gap-1">
+              <input
+                type="text"
+                value={monthlyRevenue}
+                onChange={e => updateMonthlyRevenue(e.target.value)}
+                placeholder="$0"
+                className="text-2xl font-black text-emerald-600 font-mono bg-transparent border-b border-dashed border-emerald-200 focus:border-emerald-500 focus:outline-none w-full py-0.5"
+                title="Nhấp vào để tự điền doanh thu tháng này"
+              />
             </div>
-            <span className="text-[11px] text-slate-500 mt-0.5 block">Mức chiết khấu phổ biến</span>
+            <span className="text-[11px] text-slate-400 mt-0.5 block flex items-center gap-1">
+              <Edit3 size={10} /> Nhấp số để tự điền
+            </span>
           </div>
 
           <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-sm">

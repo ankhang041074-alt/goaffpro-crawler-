@@ -127,6 +127,11 @@ def clean_brand_name(name: str, website_url: str = "") -> str:
     # Strip common trailing TLDs if present
     brand = re.sub(r"\.[a-z]{2,}(?:\.[a-z]{2,})?$", "", brand, flags=re.IGNORECASE)
 
+    # Strip country code and platform suffixes with hyphen/underscore like -UK, -US, -DE, -EU, -CA, -FR, -ES, -IT, -AU, -NL, -store, -shop
+    brand = re.sub(r"[-_](?:uk|us|de|eu|ca|fr|es|it|au|nl|jp|kr|br|vn|store|shop|online|official)$", "", brand, flags=re.IGNORECASE)
+    # Strip affiliate words like "Affiliate", "Affiliates"
+    brand = re.sub(r"\baffiliates?\b", "", brand, flags=re.IGNORECASE).strip()
+
     # Remove emojis and decorative icons (keep letters, digits, spaces, hyphens, apostrophes, &)
     brand = re.sub(r"[^\w\s\-\'’&]", " ", brand)
     brand = re.sub(r"\s+", " ", brand).strip()
@@ -139,11 +144,14 @@ def clean_brand_name(name: str, website_url: str = "") -> str:
         brand = domain_stem
 
     # Rule: If brand is 1 word and domain has a compound brand (e.g. "Louis" + "louisskincare.com" -> "Louis Skincare")
+    # But DO NOT append common generic additions like cases, kits, store, shop, etc.
+    compound_stops = {"cases", "kits", "store", "shop", "online", "gear", "direct", "apparel", "wear", "supply", "supplies"}
     if len(words) == 1 and domain_stem and not any(h in domain for h in generic_hosts):
         if domain_stem.lower().startswith(brand.lower()) and len(domain_stem) > len(brand) + 2:
-            remainder = domain_stem[len(brand):]
-            brand = f"{brand} {remainder.capitalize()}"
-            words = brand.split()
+            remainder = domain_stem[len(brand):].lower()
+            if remainder not in compound_stops:
+                brand = f"{brand} {remainder.capitalize()}"
+                words = brand.split()
 
     suffixes = {
         "australia", "usa", "us", "uk", "canada", "ca", "france", "fr", "germany", "de",
@@ -1042,29 +1050,37 @@ class TrafficWorker:
                 is_low_traffic_trend_phase = False
 
                 # PRIORITY 1: High-traffic stores (Traffic >= 10k) waiting for Google Trends!
-                # If not currently in Trends cooldown, query Trends for these top stores first.
                 if time.time() >= _gt_cooldown_until:
                     stores = db.get_stores_for_trend_enrichment(limit=25, cookie_min_days=0, min_traffic=10000)
 
-                # PRIORITY 2: Stores that haven't had their Traffic & Category checked yet (prioritize cookie_days >= 14)
+                # PRIORITY 2: Stores with cookie_days >= 14 that haven't had their Traffic checked yet
                 if not stores:
                     stores = db.get_stores_for_traffic_enrichment(limit=25, cookie_min_days=14)
-                    if not stores:
-                        stores = db.get_stores_for_traffic_enrichment(limit=25, cookie_min_days=0)
-                        if not stores:
-                            # PRIORITY 3: If all traffic checked and all >= 10k trends checked, enrich trends for remaining stores
-                            if time.time() < _gt_cooldown_until:
-                                wait_sec = min(5.0, max(1.0, _gt_cooldown_until - time.time()))
-                                self._stop_event.wait(wait_sec)
-                                continue
 
-                            stores = db.get_stores_for_trend_enrichment(limit=25, cookie_min_days=14, min_traffic=0)
-                            if not stores:
-                                stores = db.get_stores_for_trend_enrichment(limit=25, cookie_min_days=0, min_traffic=0)
-                            if not stores:
-                                logger.info("All stores have been enriched with traffic and trends data. Worker idle.")
-                                break
-                            is_low_traffic_trend_phase = True
+                # PRIORITY 3: Stores with cookie_days >= 14 waiting for Google Trends!
+                # (User's primary target - progress bar tracks trend_checked_cookie_14)
+                if not stores and time.time() >= _gt_cooldown_until:
+                    stores = db.get_stores_for_trend_enrichment(limit=25, cookie_min_days=14, min_traffic=0)
+                    if stores:
+                        is_low_traffic_trend_phase = True
+
+                # PRIORITY 4: Remaining stores in database (cookie_days < 14) for Traffic & Category
+                if not stores:
+                    stores = db.get_stores_for_traffic_enrichment(limit=25, cookie_min_days=0)
+
+                # PRIORITY 5: Remaining stores (cookie_days < 14) for Google Trends
+                if not stores and time.time() >= _gt_cooldown_until:
+                    stores = db.get_stores_for_trend_enrichment(limit=25, cookie_min_days=0, min_traffic=0)
+                    if stores:
+                        is_low_traffic_trend_phase = True
+
+                if not stores:
+                    if time.time() < _gt_cooldown_until:
+                        wait_sec = min(5.0, max(1.0, _gt_cooldown_until - time.time()))
+                        self._stop_event.wait(wait_sec)
+                        continue
+                    logger.info("All stores have been enriched with traffic and trends data. Worker idle.")
+                    break
 
                 for store in stores:
                     if self._stop_event.is_set():

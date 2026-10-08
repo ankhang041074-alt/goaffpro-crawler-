@@ -52,14 +52,14 @@ echo ⚡ Đang khởi động Backend FastAPI (Port 8001)...
 start "GoAffPro Backend" cmd /k "call .venv\Scripts\activate.bat && python -m uvicorn backend.api:app --host 127.0.0.1 --port 8001"
 
 echo 🌐 Đang khởi động Frontend Dashboard (Port 5174)...
-start "GoAffPro Frontend" cmd /k "cd frontend && npm run dev -- --host 127.0.0.1 --port 5174"
+start "GoAffPro Frontend" cmd /k "cd frontend && npm run dev -- --host 0.0.0.0 --port 5174"
 
 timeout /t 3 /nobreak > nul
 echo ==========================================================
 echo ✨ Ứng dụng đã sẵn sàng! Đang mở trình duyệt...
-echo 👉 Dashboard: http://localhost:5174
-echo 👉 Backend API Docs: http://localhost:8001/docs
+echo 👉 Dashboard: http://127.0.0.1:5174 hoặc http://localhost:5174
+echo 👉 Direct API & Dashboard: http://127.0.0.1:8001
 echo ==========================================================
 
-start http://localhost:5174
+start http://127.0.0.1:5174
 pause

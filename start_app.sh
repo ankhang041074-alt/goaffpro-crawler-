@@ -54,7 +54,7 @@ BACKEND_PID=$!
 # Start Frontend Vite Server
 echo "🌐 Đang khởi động Frontend Dashboard (Port 5174)..."
 cd frontend
-npm run dev -- --host 127.0.0.1 --port 5174 &
+npm run dev -- --host 0.0.0.0 --port 5174 &
 FRONTEND_PID=$!
 cd ..
 
@@ -63,14 +63,14 @@ sleep 3
 echo ""
 echo "=========================================================="
 echo "✨ Ứng dụng đã sẵn sàng hoạt động tại:"
-echo "👉 Dashboard: http://localhost:5174"
-echo "👉 Backend API Docs: http://localhost:8001/docs"
+echo "👉 Dashboard: http://127.0.0.1:5174 hoặc http://localhost:5174"
+echo "👉 Direct API & Dashboard: http://127.0.0.1:8001"
 echo "=========================================================="
 echo "💡 Nhấn Ctrl + C để dừng toàn bộ ứng dụng."
 
 # Auto-open browser
 if which open > /dev/null; then
-    open "http://localhost:5174"
+    open "http://127.0.0.1:5174"
 fi
 
 # Trap Ctrl+C to kill both servers cleanly

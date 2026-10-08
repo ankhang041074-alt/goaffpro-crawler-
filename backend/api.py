@@ -430,3 +430,19 @@ def refresh_store_traffic_endpoint(store_id: str):
     if not res:
         raise HTTPException(status_code=404, detail="Store not found")
     return res
+
+
+# Mount built frontend for instant zero-dependency dashboard access
+from fastapi.staticfiles import StaticFiles
+
+DIST_DIR = BASE_DIR / "frontend" / "dist"
+if DIST_DIR.exists():
+    app.mount("/assets", StaticFiles(directory=str(DIST_DIR / "assets")), name="assets")
+
+    @app.get("/{full_path:path}")
+    def serve_frontend_spa(full_path: str):
+        target = DIST_DIR / full_path
+        if full_path and target.is_file():
+            return FileResponse(target)
+        return FileResponse(DIST_DIR / "index.html")
+

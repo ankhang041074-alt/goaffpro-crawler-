@@ -659,7 +659,7 @@ def get_traffic_stats() -> Dict[str, Any]:
     cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE cookie_days >= 14 AND trend_status IN ('success', 'no_data')")
     trend_checked_cookie_14 = cursor.fetchone()["cnt"] or 0
 
-    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE traffic_raw_value >= 10000 AND trend_status = 'success'")
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE traffic_raw_value >= 10000 AND trend_status IN ('success', 'no_data')")
     trend_10k_done = cursor.fetchone()["cnt"] or 0
 
     cursor.execute("SELECT COUNT(*) as cnt FROM stores")
@@ -795,7 +795,7 @@ def get_stores_for_trend_enrichment(
            traffic_visits, traffic_raw_value, traffic_status, trend_status, trend_timeline_json, trend_peak_month, trend_is_steady, site_description
     FROM stores
     WHERE cookie_days >= ? 
-      AND (trend_status IS NULL OR trend_status = 'pending' OR trend_status = '')
+      AND (trend_status IS NULL OR trend_status IN ('pending', '', 'error'))
       AND COALESCE(traffic_raw_value, 0) >= ?
     ORDER BY COALESCE(traffic_raw_value, 0) DESC, cookie_days DESC, commission_value DESC
     LIMIT ?

@@ -9,11 +9,19 @@ import shutil
 import subprocess
 import threading
 import time
+from collections import defaultdict
+from datetime import datetime, timezone
 from typing import Optional, Dict, Any, List, Tuple
-from urllib.parse import urlparse
+from urllib.parse import quote, urlparse
 import urllib.request
 
 import requests
+try:
+    from curl_cffi import requests as cffi_requests
+    HAS_CURL_CFFI = True
+except ImportError:
+    HAS_CURL_CFFI = False
+
 from pytrends.request import TrendReq
 
 from . import db
@@ -287,18 +295,26 @@ def format_visits(num: int) -> str:
 class GoogleTrendsSessionManager:
     """
     Manages resilient HTTP session for Google Trends API requests.
-    - Persistent disk-based cookie caching (trends_cookies.json) to mimic returning visitors
-    - Automated consent pre-seeding (SOCS, CONSENT cookies)
-    - Session warm-up via root trends.google.com to acquire live server-issued NID cookies
-    - Persistent connection pooling and clean session recycling upon rate limit (429)
+    Supports curl_cffi with HTTP/2 and Chrome 124 TLS/JA3 impersonation as primary engine,
+    with persistent disk-based cookie caching (trends_cookies.json) and automatic session recycling.
     """
 
     def __init__(self):
         self._lock = threading.RLock()
+        self._cffi_session: Optional[Any] = None
         self._session: Optional[requests.Session] = None
         self._user_agent: str = random.choice(EXPANDED_USER_AGENTS)
         self._request_count: int = 0
         self._last_warmup_time: float = 0.0
+
+    def get_cffi_session(self) -> Optional[Any]:
+        if not HAS_CURL_CFFI:
+            return None
+        with self._lock:
+            if self._cffi_session is None:
+                self._init_cffi_session_locked()
+            self._request_count += 1
+            return self._cffi_session
 
     def get_session(self) -> requests.Session:
         with self._lock:
@@ -309,36 +325,87 @@ class GoogleTrendsSessionManager:
 
     def recycle_session(self):
         with self._lock:
-            self._init_session_locked(force_new=True)
+            self._init_cffi_session_locked(force_new=False)
+            if self._session is not None:
+                try:
+                    self._session.close()
+                except Exception:
+                    pass
+                self._session = None
 
     def save_cookies(self):
         with self._lock:
             self._save_cookies_locked()
 
     def _save_cookies_locked(self):
-        if self._session is not None:
-            try:
+        try:
+            c_dict = {}
+            if self._cffi_session is not None:
+                for k, v in self._cffi_session.cookies.items():
+                    c_dict[k] = v
+            elif self._session is not None:
                 c_dict = self._session.cookies.get_dict()
-                if c_dict:
-                    TRENDS_COOKIE_FILE.parent.mkdir(parents=True, exist_ok=True)
-                    with open(TRENDS_COOKIE_FILE, "w", encoding="utf-8") as f:
-                        json.dump({"updated_at": time.time(), "cookies": c_dict}, f)
-            except Exception as e:
-                logger.debug(f"Could not persist trends cookies: {e}")
+            if c_dict:
+                TRENDS_COOKIE_FILE.parent.mkdir(parents=True, exist_ok=True)
+                with open(TRENDS_COOKIE_FILE, "w", encoding="utf-8") as f:
+                    json.dump({"updated_at": time.time(), "cookies": c_dict}, f)
+        except Exception as e:
+            logger.debug(f"Could not persist trends cookies: {e}")
 
-    def _load_cached_cookies_locked(self) -> bool:
+    def _load_cached_cookies_dict(self) -> Dict[str, str]:
         try:
             if TRENDS_COOKIE_FILE.exists():
                 with open(TRENDS_COOKIE_FILE, "r", encoding="utf-8") as f:
                     data = json.load(f)
-                # Valid if less than 48 hours old
-                if time.time() - data.get("updated_at", 0) < 48 * 3600:
-                    cookies = data.get("cookies", {})
-                    if cookies:
-                        for k, v in cookies.items():
-                            self._session.cookies.set(k, v, domain=".google.com")
-                        logger.info(f"Loaded {len(cookies)} cached Google Trends cookies from disk.")
-                        return True
+                # Valid if less than 180 days old (Google NID cookies are valid for 6 months)
+                if time.time() - data.get("updated_at", 0) < 180 * 86400:
+                    c = data.get("cookies", {})
+                    if c and "NID" in c:
+                        return c
+        except Exception as e:
+            logger.debug(f"Could not load cached trends cookies: {e}")
+        return {}
+
+    def _init_cffi_session_locked(self, force_new: bool = False):
+        if not HAS_CURL_CFFI:
+            return
+        if self._cffi_session is not None:
+            try:
+                self._cffi_session.close()
+            except Exception:
+                pass
+
+        self._user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        self._cffi_session = cffi_requests.Session(impersonate="chrome124")
+        self._cffi_session.headers.update({
+            "User-Agent": self._user_agent,
+            "Accept": "application/json, text/plain, */*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Sec-Ch-Ua": '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
+            "Sec-Ch-Ua-Mobile": "?0",
+            "Sec-Ch-Ua-Platform": '"macOS"',
+            "Referer": "https://trends.google.com/trends/explore",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "same-origin",
+        })
+        self._cffi_session.cookies.set("SOCS", "CAESHAgCEhJnd3NfMjAyNDA1MjgtMF9SQzEaAmVuIAEaBgiA_L20Bg", domain=".google.com")
+        self._cffi_session.cookies.set("CONSENT", "PENDING+999", domain=".google.com")
+
+        cached = self._load_cached_cookies_dict()
+        if cached and not force_new:
+            for k, v in cached.items():
+                self._cffi_session.cookies.set(k, v, domain=".google.com")
+            logger.info(f"Loaded {len(cached)} cached Google Trends cookies into curl_cffi session.")
+
+    def _load_cached_cookies_locked(self) -> bool:
+        try:
+            cached = self._load_cached_cookies_dict()
+            if cached and self._session is not None:
+                for k, v in cached.items():
+                    self._session.cookies.set(k, v, domain=".google.com")
+                logger.info(f"Loaded {len(cached)} cached Google Trends cookies from disk.")
+                return True
         except Exception as e:
             logger.debug(f"Could not load cached trends cookies: {e}")
         return False
@@ -437,10 +504,204 @@ class OptimizedTrendReq(TrendReq):
             raise ResponseError.from_response(response)
 
 
+def _handle_gt_429_cooldown(brand_name: str) -> Dict[str, Any]:
+    """Helper to register 429 cooldown with exponential backoff and randomized jitter."""
+    global _gt_consecutive_429, _gt_cooldown_until
+    _gt_consecutive_429 += 1
+    # Smooth adaptive backoff: 1st ~18-24s, 2nd ~30-36s, 3rd ~50-60s, max 120s
+    base_cooldown = min(120.0, 18.0 * (1.6 ** min(_gt_consecutive_429 - 1, 3)))
+    cooldown_time = base_cooldown + random.uniform(2.0, 5.0)
+    _gt_cooldown_until = time.time() + cooldown_time
+    trends_session_mgr.recycle_session()
+    logger.info(
+        f"⏳ Google Trends chạm ngưỡng 429 cho '{brand_name}' (lần {_gt_consecutive_429}). Tự động giãn cách {int(cooldown_time)}s riêng cho Trends. "
+        f"Traffic Tranco và bóc tách Website tiếp tục chạy 100% bằng mạng bình thường."
+    )
+    return {
+        "status": "pending",
+        "cooldown": True,
+        "error": "rate_limited_cooldown",
+        "timeline": [],
+        "peak_month": ""
+    }
+
+
+def fetch_google_trends_direct(brand_name: str) -> Optional[Dict[str, Any]]:
+    """
+    Direct Google Trends API query using curl_cffi with HTTP/2 and Chrome 124 TLS/JA3 impersonation.
+    STRICT ZERO-FAKE-DATA POLICY: 100% genuine data or marked as no_data.
+    Returns Dict result if handled, or None if fallback to pytrends is desired.
+    """
+    global _gt_consecutive_429
+
+    s = trends_session_mgr.get_cffi_session()
+    if s is None:
+        return None
+
+    referer = f"https://trends.google.com/trends/explore?geo=&q={quote(brand_name)}"
+    req_headers = {
+        "Accept": "application/json, text/plain, */*",
+        "Content-Type": None,
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin",
+        "Referer": referer,
+    }
+
+    # Step 1: Explore API with encoded comparisonItem (POST method required by Google)
+    req_param = json.dumps({
+        "comparisonItem": [{"keyword": brand_name, "time": "today 5-y", "geo": ""}],
+        "category": 0,
+        "property": ""
+    })
+    explore_url = "https://trends.google.com/trends/api/explore"
+    explore_params = {"hl": "en-US", "tz": 360, "req": req_param}
+
+    r1 = None
+    for attempt in range(2):
+        try:
+            r1 = s.post(explore_url, params=explore_params, headers=req_headers, timeout=12)
+            if r1.status_code == 429 and attempt == 0:
+                time.sleep(1.5)
+                continue
+            break
+        except Exception as e:
+            if attempt == 0:
+                time.sleep(1.0)
+                continue
+            logger.warning(f"curl_cffi explore request failed for '{brand_name}': {e}")
+            return None
+
+    if r1 is None or r1.status_code == 429:
+        logger.info(f"curl_cffi explore returned 429 for '{brand_name}', falling back to pytrends")
+        return None
+
+    if r1.status_code != 200:
+        logger.warning(f"Google Trends explore returned status {r1.status_code} for '{brand_name}'")
+        return None
+
+    text = r1.text
+    if text.startswith(")]}',\n") or text.startswith(")]}'"):
+        text = text[text.find("{"):]
+    try:
+        data = json.loads(text)
+    except Exception as e:
+        logger.warning(f"Failed to parse explore JSON for '{brand_name}': {e}")
+        return None
+
+    token = None
+    w_req = None
+    for w in data.get("widgets", []):
+        if w.get("id") == "TIMESERIES":
+            token = w.get("token")
+            w_req = json.dumps(w.get("request"))
+            break
+
+    if not token or not w_req:
+        return {"status": "no_data", "timeline": [], "peak_month": ""}
+
+    # Step 2: Widget Multiline API
+    multi_url = "https://trends.google.com/trends/api/widgetdata/multiline"
+    multi_params = {"hl": "en-US", "tz": 360, "req": w_req, "token": token}
+
+    r2 = None
+    for attempt in range(2):
+        try:
+            r2 = s.get(multi_url, params=multi_params, headers=req_headers, timeout=12)
+            if r2.status_code == 429 and attempt == 0:
+                time.sleep(1.5)
+                continue
+            break
+        except Exception as e:
+            if attempt == 0:
+                time.sleep(1.0)
+                continue
+            logger.warning(f"curl_cffi multiline request failed for '{brand_name}': {e}")
+            return None
+
+    if r2 is None or r2.status_code == 429:
+        logger.info(f"curl_cffi multiline returned 429 for '{brand_name}', falling back to pytrends")
+        return None
+
+    if r2.status_code != 200:
+        logger.warning(f"Google Trends multiline returned status {r2.status_code} for '{brand_name}'")
+        return None
+
+    m_text = r2.text
+    if m_text.startswith(")]}',\n") or m_text.startswith(")]}'"):
+        m_text = m_text[m_text.find("{"):]
+    try:
+        m_data = json.loads(m_text)
+    except Exception as e:
+        logger.warning(f"Failed to parse multiline JSON for '{brand_name}': {e}")
+        return None
+
+    points = m_data.get("default", {}).get("timelineData", [])
+    if not points:
+        return {"status": "no_data", "timeline": [], "peak_month": ""}
+
+    # Successful response! Save session cookies to disk and reset 429 counter
+    trends_session_mgr.save_cookies()
+    _gt_consecutive_429 = 0
+
+    # Step 3: Validate and aggregate genuine 5-year trend
+    non_zero_weeks = 0
+    total_score = 0
+    monthly_max = defaultdict(int)
+
+    for p in points:
+        vals = p.get("value", [])
+        raw_val = vals[0] if vals else 0
+        if isinstance(raw_val, str) and "<" in raw_val:
+            val = 0
+        else:
+            try:
+                val = int(raw_val)
+            except (ValueError, TypeError):
+                val = 0
+
+        if val > 0:
+            non_zero_weeks += 1
+            total_score += val
+        t = int(p.get("time", 0))
+        m = datetime.fromtimestamp(t, timezone.utc).strftime("%Y-%m")
+        if val > monthly_max[m]:
+            monthly_max[m] = val
+
+    # STRICT RULE: A genuine search trend must have sustained interest over time.
+    # If fewer than 6 active weeks across 5 years (262 weeks) or total score < 40,
+    # it is isolated search noise. Mark as no_data to avoid misleading peak badges!
+    if non_zero_weeks < 6 or total_score < 40:
+        return {"status": "no_data", "timeline": [], "peak_month": ""}
+
+    active_months = sum(1 for v in monthly_max.values() if v > 0)
+    if active_months < 3:
+        return {"status": "no_data", "timeline": [], "peak_month": ""}
+
+    timeline = [{"month": m, "value": monthly_max[m]} for m in sorted(monthly_max.keys())]
+    peak_item = max(timeline, key=lambda x: x["value"])
+    peak_score = peak_item["value"]
+
+    if peak_score < 5:
+        return {"status": "no_data", "timeline": [], "peak_month": ""}
+
+    peak_month = f"{peak_item['month']} ({peak_score} pts)"
+    is_steady = db.calculate_is_steady_trend(timeline)
+
+    return {
+        "status": "success",
+        "timeline": timeline,
+        "peak_month": peak_month,
+        "is_steady": is_steady,
+    }
+
+
 def fetch_google_trends(brand_name: str) -> Dict[str, Any]:
     """
     Fetch 5-year Google Trends search interest timeline for a brand.
     STRICT REQUIREMENT: NEVER FAKE OR INVENT NUMBERS.
+    Uses ultra-fast curl_cffi HTTP/2 Chrome TLS impersonation direct to Google Explore & Multiline APIs,
+    with automatic fallback to pytrends.
     Returns status: 'success', 'no_data', or 'error'.
     """
     global _gt_cooldown_until, _gt_consecutive_429
@@ -460,6 +721,19 @@ def fetch_google_trends(brand_name: str) -> Dict[str, Any]:
             "peak_month": "",
         }
 
+    # 1. Primary Engine: Ultra-fast curl_cffi with HTTP/2 and Chrome 124 TLS/JA3 impersonation
+    if HAS_CURL_CFFI:
+        try:
+            direct_res = fetch_google_trends_direct(brand_name)
+            if direct_res is not None:
+                return direct_res
+        except Exception as e:
+            err_msg = str(e).lower()
+            if "429" in err_msg or "quota" in err_msg or "toomanyrequests" in err_msg:
+                return _handle_gt_429_cooldown(brand_name)
+            logger.warning(f"curl_cffi direct failed for '{brand_name}', falling back to pytrends: {e}")
+
+    # 2. Resilient Fallback: Optimized pytrends TrendReq
     try:
         pytrend = OptimizedTrendReq(
             session_mgr=trends_session_mgr,
@@ -480,9 +754,6 @@ def fetch_google_trends(brand_name: str) -> Dict[str, Any]:
         non_zero_weeks = int((df[brand_name] > 0).sum())
         total_score = int(df[brand_name].sum())
 
-        # STRICT RULE: A genuine search trend must have sustained interest over time.
-        # If fewer than 6 active weeks across 5 years (262 weeks) or total score < 40,
-        # it is isolated search noise. Mark as no_data to avoid misleading peak badges!
         if non_zero_weeks < 6 or total_score < 40:
             return {"status": "no_data", "timeline": [], "peak_month": ""}
 
@@ -490,7 +761,6 @@ def fetch_google_trends(brand_name: str) -> Dict[str, Any]:
         df["month"] = df.index.strftime("%Y-%m")
         monthly = df.groupby("month")[brand_name].max().reset_index()
 
-        # Count active calendar months with activity
         active_months = int((monthly[brand_name] > 0).sum())
         if active_months < 3:
             return {"status": "no_data", "timeline": [], "peak_month": ""}
@@ -519,24 +789,7 @@ def fetch_google_trends(brand_name: str) -> Dict[str, Any]:
     except Exception as e:
         err_msg = str(e).lower()
         if "429" in err_msg or "quota" in err_msg or "toomanyrequests" in err_msg:
-            _gt_consecutive_429 += 1
-            # Intelligent exponential backoff with randomized jitter
-            # e.g., 1st: ~80-90s, 2nd: ~120-130s, 3rd: ~170-190s, up to 600s max
-            base_cooldown = min(600.0, 75.0 * (1.5 ** min(_gt_consecutive_429 - 1, 4)))
-            cooldown_time = base_cooldown + random.uniform(5.0, 15.0)
-            _gt_cooldown_until = time.time() + cooldown_time
-            trends_session_mgr.recycle_session()
-            logger.info(
-                f"⏳ Google Trends chạm ngưỡng 429 cho '{brand_name}' (lần {_gt_consecutive_429}). Tự động giãn cách {int(cooldown_time)}s riêng cho Trends. "
-                f"Traffic Tranco và bóc tách Website tiếp tục chạy 100% bằng mạng bình thường."
-            )
-            return {
-                "status": "pending",
-                "cooldown": True,
-                "error": "rate_limited_cooldown",
-                "timeline": [],
-                "peak_month": ""
-            }
+            return _handle_gt_429_cooldown(brand_name)
         logger.warning(f"Google Trends query failed for '{brand_name}': {e}")
         return {"status": "error", "error": str(e), "timeline": [], "peak_month": ""}
 
@@ -613,7 +866,11 @@ def enrich_store_data(store: Dict[str, Any], require_min_traffic_for_trends: int
     if require_min_traffic_for_trends > 0 and traffic_raw < require_min_traffic_for_trends:
         should_query_trends = False
 
-    if not should_query_trends:
+    trends_queried = False
+    now = time.time()
+    if not brand:
+        trend_status = "no_data"
+    elif not should_query_trends:
         # Keep existing trend data if already succeeded, otherwise leave pending to save rate-limit quota
         trend_status = existing_trend_status if existing_trend_status == "success" else "pending"
         trend_timeline_json = existing_timeline_json
@@ -626,6 +883,7 @@ def enrich_store_data(store: Dict[str, Any], require_min_traffic_for_trends: int
         trend_peak = existing_peak
         trend_is_steady = existing_is_steady
     else:
+        trends_queried = True
         trend_res = fetch_google_trends(brand)
         t_status = trend_res.get("status", "no_data")
         if t_status == "success":
@@ -659,6 +917,7 @@ def enrich_store_data(store: Dict[str, Any], require_min_traffic_for_trends: int
         "trend_peak_month": trend_peak,
         "trend_status": trend_status,
         "trend_is_steady": trend_is_steady,
+        "trends_queried": trends_queried,
     }
 
     db.update_store_traffic_and_trends(store_id, result)
@@ -826,19 +1085,30 @@ class TrafficWorker:
                     res = enrich_store_data(store, require_min_traffic_for_trends=min_traffic_req)
                     self.scanned += 1
 
-                    if res.get("traffic_status") == "success" or res.get("trend_status") == "success":
+                    t_status = res.get("trend_status", "")
+                    tr_status = res.get("traffic_status", "")
+
+                    if tr_status == "success" or t_status == "success":
                         self.with_data += 1
-                    elif res.get("traffic_status") == "error":
+                    elif tr_status == "error" or t_status == "error":
                         self.errors += 1
-                        self._stop_event.wait(3.0)
-                    elif res.get("trend_status") == "error":
-                        self.errors += 1
-                        self._stop_event.wait(3.0)
                     else:
                         self.no_data += 1
 
-                    # Delay 2.5 to 4.0 seconds between stores to respect rate limits
-                    delay = random.uniform(2.5, 4.0)
+                    # High-speed adaptive delay powered by curl_cffi HTTP/2:
+                    # - If trends query was executed: safe 1.2s - 1.8s delay to respect Google's quota
+                    # - If in cooldown/pending: snappy 0.5s - 0.9s delay
+                    # - If error: 1.2s - 1.8s delay
+                    # - If only Tranco domain traffic was checked: ultra-fast 0.3s - 0.6s delay
+                    if res.get("trends_queried"):
+                        delay = random.uniform(1.2, 1.8)
+                    elif t_status == "pending":
+                        delay = random.uniform(0.5, 0.9)
+                    elif t_status == "error" or tr_status == "error":
+                        delay = random.uniform(1.2, 1.8)
+                    else:
+                        delay = random.uniform(0.3, 0.6)
+
                     self._stop_event.wait(delay)
 
         except Exception as e:

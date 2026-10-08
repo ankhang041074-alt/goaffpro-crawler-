@@ -247,6 +247,8 @@ def save_store(store: Dict[str, Any]) -> bool:
     commission_val = float(store.get("commission_value") or parse_commission_numeric(commission_rate))
     cookie_days = int(store.get("cookie_days") or 30)
     category = str(store.get("category") or "General").strip()
+    if category == "Home & Kitchen":
+        category = "Home, Living & Decor"
     description = str(store.get("description") or "").strip()
     instant_access = 1 if store.get("instant_access", True) else 0
 
@@ -307,6 +309,8 @@ def save_stores_batch(stores_list: List[Dict[str, Any]]) -> int:
         commission_val = float(store.get("commission_value") or parse_commission_numeric(commission_rate))
         cookie_days = int(store.get("cookie_days") or 30)
         category = str(store.get("category") or "General").strip()
+        if category == "Home & Kitchen":
+            category = "Home, Living & Decor"
         description = str(store.get("description") or "").strip()
         instant_access = 1 if store.get("instant_access", True) else 0
 
@@ -420,14 +424,22 @@ def get_stores(
     params = []
 
     if isinstance(search, str) and search.strip():
-        term = f"%{search.strip().lower()}%"
-        conditions.append("(LOWER(name) LIKE ? OR LOWER(description) LIKE ? OR LOWER(category) LIKE ? OR LOWER(website_url) LIKE ? OR LOWER(notes) LIKE ? OR LOWER(site_title) LIKE ? OR LOWER(site_description) LIKE ?)")
-        params.extend([term, term, term, term, term, term, term])
+        search_clean = search.strip().lower()
+        term = f"%{search_clean}%"
+        if "home & kitchen" in search_clean:
+            conditions.append("(LOWER(name) LIKE ? OR LOWER(description) LIKE ? OR LOWER(category) LIKE ? OR LOWER(category) LIKE '%home, living & decor%' OR LOWER(website_url) LIKE ? OR LOWER(notes) LIKE ? OR LOWER(site_title) LIKE ? OR LOWER(site_description) LIKE ?)")
+            params.extend([term, term, term, term, term, term, term])
+        else:
+            conditions.append("(LOWER(name) LIKE ? OR LOWER(description) LIKE ? OR LOWER(category) LIKE ? OR LOWER(website_url) LIKE ? OR LOWER(notes) LIKE ? OR LOWER(site_title) LIKE ? OR LOWER(site_description) LIKE ?)")
+            params.extend([term, term, term, term, term, term, term])
 
     if isinstance(category, str) and category.strip() and category.strip() != "all":
         cat_term = category.strip()
-        conditions.append("(category = ? OR category LIKE ? OR categories_json LIKE ?)")
-        params.extend([cat_term, f"%{cat_term}%", f"%\"{cat_term}\"%"])
+        if cat_term in ["Home & Kitchen", "Home, Living & Decor"]:
+            conditions.append("(category IN ('Home, Living & Decor', 'Home & Kitchen') OR categories_json LIKE '%Home, Living & Decor%' OR categories_json LIKE '%Home & Kitchen%')")
+        else:
+            conditions.append("(category = ? OR category LIKE ? OR categories_json LIKE ?)")
+            params.extend([cat_term, f"%{cat_term}%", f"%\"{cat_term}\"%"])
 
     if adult_filter == "hide":
         conditions.append("is_adult = 0")
@@ -695,6 +707,9 @@ def update_store_categorization(
     """Update store category and scraped website metadata."""
     conn = get_db()
     cursor = conn.cursor()
+    cat_to_save = str(primary_category or "General").strip()
+    if cat_to_save == "Home & Kitchen":
+        cat_to_save = "Home, Living & Decor"
     cursor.execute("""
     UPDATE stores SET
         category = ?,
@@ -705,7 +720,7 @@ def update_store_categorization(
         updated_at = CURRENT_TIMESTAMP
     WHERE store_id = ?
     """, (
-        str(primary_category or "General"),
+        cat_to_save,
         str(categories_json or "[]"),
         str(site_title or ""),
         str(site_description or ""),
@@ -899,3 +914,62 @@ def get_crawl_job(job_id: str) -> Optional[Dict[str, Any]]:
     row = cursor.fetchone()
     conn.close()
     return dict(row) if row else None
+
+
+def reclassify_all_stores() -> Dict[str, Any]:
+    """
+    Re-classify all stores in the database using the latest categorizer rules
+    without network calls. Blazing fast in-memory NLP and batched SQLite transaction.
+    """
+    from .categorizer import classify_store
+
+    conn = get_db()
+    cursor = conn.cursor()
+    cursor.execute(
+        "SELECT store_id, name, site_title, site_description, website_url, category, categories_json, is_adult FROM stores"
+    )
+    rows = cursor.fetchall()
+
+    updates = []
+    category_counts: Dict[str, int] = {}
+    decor_matched_count = 0
+
+    for r in rows:
+        sid = r["store_id"]
+        name = r["name"] or ""
+        title = r["site_title"] or ""
+        desc = r["site_description"] or ""
+        url = r["website_url"] or ""
+        old_cat = r["category"] or ""
+        old_cats_json = r["categories_json"] or "[]"
+        old_adult = int(r["is_adult"] or 0)
+
+        res = classify_store(title=title, description=desc, keywords="", name=name, url=url)
+        new_cat = res["primary_category"]
+        new_cats_json = json.dumps(res["categories"])
+        new_adult = int(res["is_adult"])
+
+        category_counts[new_cat] = category_counts.get(new_cat, 0) + 1
+        if new_cat == "Home, Living & Decor":
+            decor_matched_count += 1
+
+        if new_cat != old_cat or new_cats_json != old_cats_json or new_adult != old_adult:
+            updates.append((new_cat, new_cats_json, new_adult, sid))
+
+    if updates:
+        cursor.executemany(
+            "UPDATE stores SET category = ?, categories_json = ?, is_adult = ?, updated_at = CURRENT_TIMESTAMP WHERE store_id = ?",
+            updates
+        )
+        conn.commit()
+
+    conn.close()
+
+    return {
+        "status": "success",
+        "total_stores": len(rows),
+        "updated_stores": len(updates),
+        "decor_stores_total": decor_matched_count,
+        "category_counts": category_counts,
+    }
+

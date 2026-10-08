@@ -2,6 +2,7 @@ import html
 import json
 import logging
 import os
+from pathlib import Path
 import random
 import re
 import shutil
@@ -21,11 +22,24 @@ from .categorizer import extract_meta_tags, classify_store
 logger = logging.getLogger("TrafficWorker")
 logging.basicConfig(level=logging.INFO)
 
-USER_AGENTS = [
+EXPANDED_USER_AGENTS = [
+    # macOS Chrome
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+    # Windows Chrome
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+    # macOS Safari
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15",
+    # Windows Edge
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.2478.80",
+    # iOS Safari (iPad / iPhone)
+    "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "Mozilla/5.0 (iPad; CPU OS 17_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    # Linux Chrome
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
 ]
+USER_AGENTS = EXPANDED_USER_AGENTS
 
 
 def extract_domain(url: str) -> str:
@@ -61,8 +75,10 @@ def get_apex_domain(domain: str) -> str:
 # In-memory cache for domain rankings to reduce API calls
 _domain_rank_cache: Dict[str, Tuple[Optional[int], str]] = {}
 
-# Google Trends cooldown timestamp to avoid spamming 429
+# Google Trends cooldown timestamp and backoff counter
 _gt_cooldown_until: float = 0.0
+_gt_consecutive_429: int = 0
+TRENDS_COOKIE_FILE: Path = Path(__file__).resolve().parent.parent / "data" / "trends_cookies.json"
 
 
 # VPN is completely disabled per user preference for network stability and zero interruption
@@ -121,9 +137,12 @@ def clean_brand_name(name: str, website_url: str = "") -> str:
             brand = f"{brand} {remainder.capitalize()}"
             words = brand.split()
 
-    # Rule: If brand ends with geographic or generic suffix (e.g., "Pognae Australia", "OutdoorMaster DE", "SJCAM Official Website")
-    # and domain stem matches the prefix, strip the suffix!
-    suffixes = {"australia", "usa", "us", "uk", "canada", "france", "fr", "germany", "de", "official", "store", "shop", "online", "club", "co", "website"}
+    suffixes = {
+        "australia", "usa", "us", "uk", "canada", "ca", "france", "fr", "germany", "de",
+        "eu", "es", "it", "nl", "jp", "kr", "in", "official", "store", "shop", "online",
+        "club", "co", "website", "global", "international", "inc", "llc", "ltd", "corp",
+        "app", "io", "com"
+    }
     if len(words) >= 2 and words[-1].lower() in suffixes and domain_stem:
         if domain_stem.lower().startswith(words[0].lower()):
             brand = " ".join(words[:-1])
@@ -265,13 +284,166 @@ def format_visits(num: int) -> str:
     return ""
 
 
+class GoogleTrendsSessionManager:
+    """
+    Manages resilient HTTP session for Google Trends API requests.
+    - Persistent disk-based cookie caching (trends_cookies.json) to mimic returning visitors
+    - Automated consent pre-seeding (SOCS, CONSENT cookies)
+    - Session warm-up via root trends.google.com to acquire live server-issued NID cookies
+    - Persistent connection pooling and clean session recycling upon rate limit (429)
+    """
+
+    def __init__(self):
+        self._lock = threading.RLock()
+        self._session: Optional[requests.Session] = None
+        self._user_agent: str = random.choice(EXPANDED_USER_AGENTS)
+        self._request_count: int = 0
+        self._last_warmup_time: float = 0.0
+
+    def get_session(self) -> requests.Session:
+        with self._lock:
+            if self._session is None:
+                self._init_session_locked()
+            self._request_count += 1
+            return self._session
+
+    def recycle_session(self):
+        with self._lock:
+            self._init_session_locked(force_new=True)
+
+    def save_cookies(self):
+        with self._lock:
+            self._save_cookies_locked()
+
+    def _save_cookies_locked(self):
+        if self._session is not None:
+            try:
+                c_dict = self._session.cookies.get_dict()
+                if c_dict:
+                    TRENDS_COOKIE_FILE.parent.mkdir(parents=True, exist_ok=True)
+                    with open(TRENDS_COOKIE_FILE, "w", encoding="utf-8") as f:
+                        json.dump({"updated_at": time.time(), "cookies": c_dict}, f)
+            except Exception as e:
+                logger.debug(f"Could not persist trends cookies: {e}")
+
+    def _load_cached_cookies_locked(self) -> bool:
+        try:
+            if TRENDS_COOKIE_FILE.exists():
+                with open(TRENDS_COOKIE_FILE, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                # Valid if less than 48 hours old
+                if time.time() - data.get("updated_at", 0) < 48 * 3600:
+                    cookies = data.get("cookies", {})
+                    if cookies:
+                        for k, v in cookies.items():
+                            self._session.cookies.set(k, v, domain=".google.com")
+                        logger.info(f"Loaded {len(cookies)} cached Google Trends cookies from disk.")
+                        return True
+        except Exception as e:
+            logger.debug(f"Could not load cached trends cookies: {e}")
+        return False
+
+    def _init_session_locked(self, force_new: bool = False):
+        if self._session is not None:
+            try:
+                self._session.close()
+            except Exception:
+                pass
+
+        self._session = requests.Session()
+        self._request_count = 0
+        self._user_agent = random.choice(EXPANDED_USER_AGENTS)
+
+        # Standard modern browser headers
+        self._session.headers.update({
+            "User-Agent": self._user_agent,
+            "Accept": "application/json, text/plain, */*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Referer": "https://trends.google.com/trends/explore",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "same-origin",
+        })
+
+        # Pre-seed consent cookies across Google domain
+        self._session.cookies.set("SOCS", "CAESHAgCEhJnd3NfMjAyNDA1MjgtMF9SQzEaAmVuIAEaBgiA_L20Bg", domain=".google.com")
+        self._session.cookies.set("CONSENT", "PENDING+999", domain=".google.com")
+
+        # Attempt to load persistent cookies if not forcing a clean reset
+        if not force_new:
+            self._load_cached_cookies_locked()
+
+        # Warm up session by visiting Google Trends landing page to acquire or refresh live cookies
+        try:
+            resp = self._session.get(
+                "https://trends.google.com/",
+                headers={"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},
+                timeout=(3.0, 5.0),
+            )
+            if resp.status_code == 200:
+                self._last_warmup_time = time.time()
+                self._save_cookies_locked()
+                logger.info("Google Trends session warmed up successfully with live cookies.")
+            elif resp.status_code == 429:
+                logger.warning("Google Trends landing page returned 429 during session warmup.")
+        except Exception as e:
+            logger.warning(f"Google Trends session warmup notice: {e}")
+
+
+trends_session_mgr = GoogleTrendsSessionManager()
+
+
+class OptimizedTrendReq(TrendReq):
+    """
+    Subclass of pytrends TrendReq that leverages our persistent, recycled Google session
+    with live NID/SOCS cookies and browser headers, avoiding recreating unauthenticated sessions.
+    """
+
+    def __init__(self, session_mgr: GoogleTrendsSessionManager, hl="en-US", tz=360, timeout=(10, 25)):
+        self.session_mgr = session_mgr
+        self.managed_session = self.session_mgr.get_session()
+        super().__init__(
+            hl=hl,
+            tz=tz,
+            timeout=timeout,
+            retries=0,
+            requests_args={"headers": {"User-Agent": self.managed_session.headers.get("User-Agent", "")}},
+        )
+
+    def GetGoogleCookie(self) -> Dict[str, str]:
+        # Return cookies from our managed pre-warmed session
+        return dict(self.managed_session.cookies)
+
+    def _get_data(self, url, method=TrendReq.GET_METHOD, trim_chars=0, **kwargs):
+        s = self.managed_session
+        # Do not override session's live cookie jar with static snapshot
+        if method == TrendReq.POST_METHOD:
+            response = s.post(url, timeout=self.timeout, **kwargs, **self.requests_args)
+        else:
+            response = s.get(url, timeout=self.timeout, **kwargs, **self.requests_args)
+
+        if response.status_code == 200 and any(
+            t in response.headers.get("Content-Type", "")
+            for t in ["application/json", "application/javascript", "text/javascript"]
+        ):
+            content = response.text[trim_chars:].strip()
+            self.session_mgr.save_cookies()
+            return json.loads(content)
+        elif response.status_code == 429:
+            from pytrends.exceptions import TooManyRequestsError
+            raise TooManyRequestsError.from_response(response)
+        else:
+            from pytrends.exceptions import ResponseError
+            raise ResponseError.from_response(response)
+
+
 def fetch_google_trends(brand_name: str) -> Dict[str, Any]:
     """
     Fetch 5-year Google Trends search interest timeline for a brand.
     STRICT REQUIREMENT: NEVER FAKE OR INVENT NUMBERS.
     Returns status: 'success', 'no_data', or 'error'.
     """
-    global _gt_cooldown_until
+    global _gt_cooldown_until, _gt_consecutive_429
 
     if not brand_name or len(brand_name) < 2:
         return {"status": "no_data", "timeline": [], "peak_month": ""}
@@ -288,23 +460,18 @@ def fetch_google_trends(brand_name: str) -> Dict[str, Any]:
             "peak_month": "",
         }
 
-    ua = random.choice(USER_AGENTS)
-    headers = {
-        "User-Agent": ua,
-        "Accept-Language": "en-US,en;q=0.9",
-    }
-
     try:
-        # Note: retries must be 0 because urllib3 v2 removed method_whitelist which old pytrends uses
-        pytrend = TrendReq(
+        pytrend = OptimizedTrendReq(
+            session_mgr=trends_session_mgr,
             hl="en-US",
             tz=360,
             timeout=(10, 25),
-            retries=0,
-            requests_args={"headers": headers},
         )
         pytrend.build_payload(kw_list=[brand_name], timeframe="today 5-y")
         df = pytrend.interest_over_time()
+
+        # Success! Reset consecutive 429 counter
+        _gt_consecutive_429 = 0
 
         if df.empty or brand_name not in df.columns:
             return {"status": "no_data", "timeline": [], "peak_month": ""}
@@ -352,10 +519,15 @@ def fetch_google_trends(brand_name: str) -> Dict[str, Any]:
     except Exception as e:
         err_msg = str(e).lower()
         if "429" in err_msg or "quota" in err_msg or "toomanyrequests" in err_msg:
-            # VPN disabled. Use smooth 75s rate limit cooldown without network interruption!
-            _gt_cooldown_until = time.time() + 75.0
+            _gt_consecutive_429 += 1
+            # Intelligent exponential backoff with randomized jitter
+            # e.g., 1st: ~80-90s, 2nd: ~120-130s, 3rd: ~170-190s, up to 600s max
+            base_cooldown = min(600.0, 75.0 * (1.5 ** min(_gt_consecutive_429 - 1, 4)))
+            cooldown_time = base_cooldown + random.uniform(5.0, 15.0)
+            _gt_cooldown_until = time.time() + cooldown_time
+            trends_session_mgr.recycle_session()
             logger.info(
-                f"⏳ Google Trends chạm ngưỡng 429 cho '{brand_name}'. Tự động giãn cách 75s riêng cho Trends. "
+                f"⏳ Google Trends chạm ngưỡng 429 cho '{brand_name}' (lần {_gt_consecutive_429}). Tự động giãn cách {int(cooldown_time)}s riêng cho Trends. "
                 f"Traffic Tranco và bóc tách Website tiếp tục chạy 100% bằng mạng bình thường."
             )
             return {

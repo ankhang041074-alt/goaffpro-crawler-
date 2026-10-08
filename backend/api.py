@@ -184,6 +184,13 @@ def get_categories_endpoint():
     return {"categories": db.get_categories()}
 
 
+@app.post("/api/categories/reclassify")
+def reclassify_categories_endpoint():
+    """Re-classify all stores in the database using the latest categorizer rules."""
+    return db.reclassify_all_stores()
+
+
+
 @app.get("/api/stats")
 def get_stats_endpoint():
     """Retrieve aggregate summary stats."""

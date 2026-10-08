@@ -7,7 +7,7 @@ dist/
 data/browser_profile/
 data/goaffpro.db-wal
 data/goaffpro.db-shm
-data/goaffpro.db-journal
 !data/goaffpro.db
+data/trends_cookies.json
 exports/
 *.log

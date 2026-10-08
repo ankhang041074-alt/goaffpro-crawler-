@@ -5,7 +5,21 @@ Zero heavy dependencies, blazing fast (<1ms per store), rule-based NLP.
 
 import re
 import html
+import unicodedata
 from typing import Dict, List, Tuple, Any
+
+
+def normalize_text(text: str) -> str:
+    """Normalize text by unescaping HTML entities, stripping accents (e.g. décor -> decor), and lowercasing."""
+    if not text:
+        return ""
+    if not isinstance(text, str):
+        text = str(text)
+    raw = html.unescape(text)
+    nfkd = unicodedata.normalize("NFKD", raw)
+    clean = "".join([c for c in nfkd if not unicodedata.combining(c)])
+    return clean.lower()
+
 
 # ==============================================================================
 # CATEGORY VOCABULARY & WEIGHTS
@@ -99,14 +113,18 @@ CATEGORY_RULES = {
             "dog", "cat", "pet", "pets", "canine", "feline", "aquarium"
         ]
     },
-    "Home & Kitchen": {
+    "Home, Living & Decor": {
         "strong": [
-            "cookware", "kitchenware", "furniture", "bedding", "mattress", 
-            "home decor", "candle", "lighting", "coffee maker", "sofa", "blender"
+            "decor", "decors", "decoration", "decorations", "decorating", "decorative", "decoratives",
+            "decorativo", "decorativos", "home decor", "wall decor", "room decor", "interior decor", 
+            "table decor", "party decor", "car decor", "homeware", "home accessories",
+            "homedecor", "walldecor", "roomdecor", "interiordecor", "tabledecor", "partydecor", "cardecor",
+            "cookware", "kitchenware", "furniture", "bedding", "mattress", "candle", "lighting", 
+            "coffee maker", "sofa", "blender", "tableware"
         ],
         "medium": [
-            "kitchen", "home", "dining", "bedroom", "bathroom", "decor", 
-            "interior", "living room", "patio", "garden"
+            "kitchen", "home", "dining", "bedroom", "bathroom",
+            "interior", "living room", "patio", "garden", "rug", "curtain", "cushion", "vases"
         ]
     },
     "Tech & Gadgets": {
@@ -123,10 +141,11 @@ CATEGORY_RULES = {
     "Food & Beverage": {
         "strong": [
             "coffee beans", "espresso", "matcha", "loose leaf tea", "gourmet snacks", 
-            "organic honey", "hot sauce", "artisan chocolate", "spices"
+            "organic honey", "hot sauce", "artisan chocolate", "spices",
+            "bakery", "baking", "pastry", "confectionery"
         ],
         "medium": [
-            "coffee", "tea", "food", "snacks", "drinks", "beverage", "sweets"
+            "coffee", "tea", "food", "snacks", "drinks", "beverage", "sweets", "cake", "cookies"
         ]
     },
     "Education & Digital": {
@@ -192,11 +211,11 @@ def classify_store(
     Handles hybrid stores (e.g. Acne Serum + Supplements -> Beauty & Skincare + Health & Supplements).
     Carefully distinguishes Sexual Wellness from Hardcore Adult 18+.
     """
-    text_title = (title or "").lower()
-    text_desc = (description or "").lower()
-    text_kw = (keywords or "").lower()
-    text_name = (name or "").lower()
-    text_url = (url or "").lower()
+    text_title = normalize_text(title)
+    text_desc = normalize_text(description)
+    text_kw = normalize_text(keywords)
+    text_name = normalize_text(name)
+    text_url = normalize_text(url)
 
     # Scores per category
     scores: Dict[str, int] = {cat: 0 for cat in CATEGORY_RULES}
@@ -208,12 +227,12 @@ def classify_store(
             # Title has highest weight (30 pts per match)
             if re.search(pattern, text_title):
                 scores[cat] += 30
-            # Name has high weight (25 pts)
-            if re.search(pattern, text_name) or re.search(pattern, text_url):
+            # Name has high weight (25 pts), check pattern or decor substring in name/url
+            if re.search(pattern, text_name) or re.search(pattern, text_url) or (cat == "Home, Living & Decor" and word == "decor" and ("decor" in text_name or "decor" in text_url)):
                 scores[cat] += 25
-            # Description has medium weight (20 pts)
+            # Description has weight (25 pts for strong keyword)
             if re.search(pattern, text_desc):
-                scores[cat] += 20
+                scores[cat] += 25
             # Keywords have weight (15 pts)
             if re.search(pattern, text_kw):
                 scores[cat] += 15

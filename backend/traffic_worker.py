@@ -107,16 +107,33 @@ def rotate_vpn_region() -> bool:
 
 
 
-def clean_brand_name(name: str, website_url: str = "") -> str:
+def clean_brand_name(name: str, website_url: str = "", site_title: str = "") -> str:
     """Clean store name to create an effective query for Google Trends."""
     brand = html.unescape(name or "").strip()
     domain = extract_domain(website_url) if website_url else ""
     apex = get_apex_domain(domain) if domain else ""
     domain_stem = apex.split(".")[0] if apex else ""
 
-    # If the name is an absolute URL or starts with http
-    if brand.startswith("http://") or brand.startswith("https://") or "www." in brand:
-        brand = domain_stem
+    # If the name is an absolute URL or starts with http or is raw domain stem
+    if brand.startswith("http://") or brand.startswith("https://") or "www." in brand or (domain_stem and brand.lower().replace(" ", "") == domain_stem.lower()):
+        # Try extracting human brand name from site_title if available
+        extracted_from_title = ""
+        if site_title:
+            for sep in [" – ", " - ", " | ", " — "]:
+                if sep in site_title:
+                    parts = [p.strip() for p in site_title.split(sep) if p.strip()]
+                    for p in [parts[-1], parts[0]]:
+                        clean_p = p.replace(" ", "").lower()
+                        if domain_stem and (domain_stem in clean_p or clean_p in domain_stem) and len(p.split()) <= 4:
+                            extracted_from_title = p
+                            break
+                if extracted_from_title:
+                    break
+        brand = extracted_from_title if extracted_from_title else domain_stem
+
+    # If brand contains the apex domain (e.g. HALOorodje.si ...), strip TLD or reduce to domain stem
+    if apex and apex.lower() in brand.lower():
+        brand = re.sub(re.escape(apex), domain_stem, brand, flags=re.IGNORECASE)
 
     # Split on taglines/separators like ' - ', ' | ', ' : '
     for sep in [" - ", " | ", " : ", " – ", " — "]:
@@ -126,6 +143,14 @@ def clean_brand_name(name: str, website_url: str = "") -> str:
 
     # Strip common trailing TLDs if present
     brand = re.sub(r"\.[a-z]{2,}(?:\.[a-z]{2,})?$", "", brand, flags=re.IGNORECASE)
+
+    # Strip common international store descriptors (e.g. 'spletna trgovina', 'online store', 'webshop')
+    intnl_store_stops = [
+        r"\bspletna\s+trgovina\b", r"\bonline\s+store\b", r"\bofficial\s+store\b",
+        r"\bweb\s*shop\b", r"\be-?shop\b", r"\btrgovina\b", r"\bboutique\b"
+    ]
+    for stop_pattern in intnl_store_stops:
+        brand = re.sub(stop_pattern, "", brand, flags=re.IGNORECASE).strip()
 
     # Strip country code and platform suffixes with hyphen/underscore like -UK, -US, -DE, -EU, -CA, -FR, -ES, -IT, -AU, -NL, -store, -shop
     brand = re.sub(r"[-_](?:uk|us|de|eu|ca|fr|es|it|au|nl|jp|kr|br|vn|store|shop|online|official)$", "", brand, flags=re.IGNORECASE)
@@ -235,7 +260,9 @@ def fetch_domain_rank(domain: str) -> Tuple[Optional[int], str]:
         "amazon.", "etsy.com", "ebay.", "walmart.com", "target.com",
         "aliexpress.com", "tiktok.com", "instagram.com", "facebook.com",
         "twitter.com", "x.com", "youtube.com", "pinterest.com",
-        "linktr.ee", "beacons.ai", "campsite.bio"
+        "linktr.ee", "beacons.ai", "campsite.bio", "bit.ly", "tinyurl.com",
+        "payhip.com", "digistore24.com", "gumroad.com", "wed2c.com",
+        "clickbank.net", "stan.store", "stan.me"
     ]
     if any(h in domain for h in generic_domains):
         return None, "no_data"
@@ -262,19 +289,20 @@ def fetch_domain_rank(domain: str) -> Tuple[Optional[int], str]:
 
 def rank_to_visits(rank: int) -> int:
     """
-    Zipf's Law web traffic estimation based on global domain rank.
-    Rank 1: ~5B visits/mo
-    Rank 10,000: ~790,000 visits/mo
-    Rank 24,000 (Gymshark): ~340,000 visits/mo
-    Rank 100,000: ~89,000 visits/mo
-    Rank 500,000: ~19,000 visits/mo
-    Rank 1,000,000: ~10,000 visits/mo
+    Zipf's Law web traffic estimation based on global domain rank,
+    calibrated to Similarweb / Traffic.cv visits scale.
+    Rank 10,000: ~2.5M visits/mo
+    Rank 24,000 (Gymshark): ~1.1M visits/mo
+    Rank 100,000: ~285,000 visits/mo
+    Rank 142,511 (Makeblock): ~204,000 visits/mo (Traffic.cv: 204.37K)
+    Rank 500,000: ~62,000 visits/mo
+    Rank 1,000,000: ~32,000 visits/mo
     """
     if not rank or rank <= 0:
         return 0
 
     try:
-        visits = int(5.0e9 / (rank**0.95))
+        visits = int(1.6e10 / (rank**0.95))
         if visits >= 1_000_000:
             return round(visits, -5)
         elif visits >= 100_000:
@@ -822,11 +850,17 @@ def fetch_website_metadata(website_url: str) -> Tuple[str, str, str]:
         return "", "", ""
 
 
-def enrich_store_data(store: Dict[str, Any], require_min_traffic_for_trends: int = 10000) -> Dict[str, Any]:
+def enrich_store_data(
+    store: Dict[str, Any],
+    require_min_traffic_for_trends: int = 10000,
+    force_refresh_traffic: bool = False,
+    use_traffic_cv: bool = False
+) -> Dict[str, Any]:
     """
     Perform real traffic & Google Trends enrichment for a single store record.
     Never invents numbers; returns real verified data or marks as 'no_data'.
     Prioritizes Google Trends queries for stores with traffic >= require_min_traffic_for_trends.
+    Supports high-precision Similarweb extraction via traffic.cv with Tranco Zipf fallback.
     """
     global _gt_cooldown_until
     store_id = str(store.get("store_id") or "")
@@ -834,32 +868,56 @@ def enrich_store_data(store: Dict[str, Any], require_min_traffic_for_trends: int
     website_url = str(store.get("website_url") or "")
 
     domain = extract_domain(website_url)
-    brand = clean_brand_name(name, website_url)
+    brand = clean_brand_name(name, website_url, str(store.get("site_title") or ""))
 
     # 1. Domain Traffic lookup
     existing_traffic_status = store.get("traffic_status")
     existing_traffic_raw = store.get("traffic_raw_value")
 
-    if existing_traffic_status in ["success", "no_data"] and existing_traffic_raw is not None:
-        traffic_raw = int(existing_traffic_raw or 0)
-        traffic_str = str(store.get("traffic_visits") or format_visits(traffic_raw))
-        traffic_status = str(existing_traffic_status)
-    elif domain:
-        rank, domain_status = fetch_domain_rank(domain)
-        if domain_status == "success" and rank and rank > 0:
-            traffic_raw = rank_to_visits(rank)
-            traffic_str = format_visits(traffic_raw)
-            traffic_status = "success"
-        elif domain_status == "error":
-            traffic_status = "error"
-            traffic_raw = 0
-            traffic_str = ""
+    traffic_raw = 0
+    traffic_str = ""
+    traffic_status = "no_data"
+
+    # If requested, attempt Similarweb direct extraction from traffic.cv first
+    if use_traffic_cv and domain:
+        try:
+            from . import traffic_cv_scraper
+            cv_res = traffic_cv_scraper.scrape_traffic_cv(domain)
+            if cv_res.get("status") == "success":
+                traffic_raw = cv_res.get("traffic_raw_value", 0)
+                traffic_str = cv_res.get("traffic_visits", "")
+                traffic_status = "success"
+            elif cv_res.get("status") == "no_data":
+                traffic_raw = 0
+                traffic_str = ""
+                traffic_status = "no_data"
+        except Exception as e:
+            logger.warning(f"traffic_cv lookup error for {domain}: {e}")
+
+    # Fallback to Tranco if traffic_status is not success
+    if traffic_status != "success":
+        if not force_refresh_traffic and existing_traffic_status in ["success", "no_data"] and existing_traffic_raw is not None:
+            traffic_raw = int(existing_traffic_raw or 0)
+            traffic_str = str(store.get("traffic_visits") or format_visits(traffic_raw))
+            traffic_status = str(existing_traffic_status)
+        elif domain:
+            rank, domain_status = fetch_domain_rank(domain)
+            if domain_status == "success" and rank and rank > 0:
+                traffic_raw = rank_to_visits(rank)
+                traffic_str = format_visits(traffic_raw)
+                traffic_status = "success"
+            elif domain_status == "error":
+                traffic_status = "error"
+                traffic_raw = 0
+                traffic_str = ""
+            else:
+                traffic_status = "no_data"
+                traffic_raw = 0
+                traffic_str = ""
         else:
             traffic_status = "no_data"
             traffic_raw = 0
             traffic_str = ""
-    else:
-        traffic_status = "no_data"
         traffic_raw = 0
         traffic_str = ""
 
@@ -1147,8 +1205,8 @@ class TrafficWorker:
             self.current_store = ""
             logger.info("Traffic worker has stopped.")
 
-    def refresh_single_store(self, store_id: str) -> Optional[Dict[str, Any]]:
-        """Enrich or refresh a single store on demand."""
+    def refresh_single_store(self, store_id: str, use_traffic_cv: bool = True) -> Optional[Dict[str, Any]]:
+        """Enrich or refresh a single store on demand with high-precision Similarweb data."""
         conn = db.get_db()
         cursor = conn.cursor()
         cursor.execute("SELECT * FROM stores WHERE store_id = ?", (store_id,))
@@ -1159,7 +1217,12 @@ class TrafficWorker:
             return None
 
         store = dict(row)
-        res = enrich_store_data(store, require_min_traffic_for_trends=0)
+        res = enrich_store_data(
+            store,
+            require_min_traffic_for_trends=0,
+            force_refresh_traffic=True,
+            use_traffic_cv=use_traffic_cv
+        )
         # Fetch updated store record
         conn = db.get_db()
         cursor = conn.cursor()

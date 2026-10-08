@@ -195,6 +195,12 @@ def init_db():
         ("site_title", "TEXT DEFAULT ''"),
         ("site_description", "TEXT DEFAULT ''"),
         ("is_adult", "INTEGER DEFAULT 0"),
+        ("traffic_source", "TEXT DEFAULT ''"),
+        ("traffic_bounce_rate", "TEXT DEFAULT ''"),
+        ("traffic_avg_duration", "TEXT DEFAULT ''"),
+        ("traffic_global_rank", "INTEGER DEFAULT 0"),
+        ("traffic_country_rank", "INTEGER DEFAULT 0"),
+        ("traffic_pages_per_visit", "TEXT DEFAULT ''"),
     ]
     for col_name, col_type in traffic_cols:
         if col_name not in existing_cols:
@@ -202,6 +208,8 @@ def init_db():
 
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_traffic ON stores(traffic_raw_value)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_traffic_status ON stores(traffic_status)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_traffic_source ON stores(traffic_source)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_traffic_global_rank ON stores(traffic_global_rank)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_trend_status ON stores(trend_status)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_trend_steady ON stores(trend_is_steady)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_is_adult ON stores(is_adult)")
@@ -462,15 +470,31 @@ def get_stores(
         except ValueError:
             pass
 
-    if cookie_days is not None and isinstance(cookie_days, (int, float)):
-        conditions.append("cookie_days = ?")
-        params.append(int(cookie_days))
-    elif isinstance(cookie_days, str) and cookie_days.strip() and cookie_days.strip() != "all":
-        try:
+    if cookie_days is not None:
+        if isinstance(cookie_days, (int, float)):
             conditions.append("cookie_days = ?")
-            params.append(int(cookie_days.strip()))
-        except ValueError:
-            pass
+            params.append(int(cookie_days))
+        elif isinstance(cookie_days, str):
+            c_str = cookie_days.strip().lower()
+            if c_str.isdigit():
+                conditions.append("cookie_days = ?")
+                params.append(int(c_str))
+            elif c_str in ["lt_14", "<14", "< 14"]:
+                # Dưới 14 ngày (1d, 7d, etc.)
+                conditions.append("cookie_days < 14")
+            elif c_str in ["14_30", "14-30", "14_to_30", "14_to_30_days"]:
+                # Từ 14 đến 30 ngày (14, 15, 20, 30 ngày)
+                conditions.append("(cookie_days >= 14 AND cookie_days <= 30)")
+            elif c_str in ["gte_30", "30+", ">=30", ">= 30"]:
+                # Từ 30 ngày trở lên (30, 45, 60, 90, 180, 365 ngày)
+                conditions.append("cookie_days >= 30")
+            elif c_str in ["gte_14", "14+", ">=14", ">= 14"]:
+                # Từ 14 ngày trở lên (toàn bộ nhóm cookie chuẩn)
+                conditions.append("cookie_days >= 14")
+            elif c_str in ["eq_14", "=14"]:
+                conditions.append("cookie_days = 14")
+            elif c_str in ["eq_30", "=30"]:
+                conditions.append("cookie_days = 30")
 
     if min_traffic is not None and isinstance(min_traffic, (int, float)) and int(min_traffic) > 0:
         conditions.append("traffic_raw_value >= ?")
@@ -607,7 +631,7 @@ def get_stores(
 
     # Allowed sorting fields
     safe_sort_col = "commission_value"
-    if isinstance(sort_by, str) and sort_by in ["name", "commission_value", "cookie_days", "currency", "notes", "crawled_at", "updated_at", "traffic_raw_value", "trend_is_steady"]:
+    if isinstance(sort_by, str) and sort_by in ["name", "commission_value", "cookie_days", "currency", "notes", "crawled_at", "updated_at", "traffic_raw_value", "trend_is_steady", "traffic_global_rank", "traffic_source"]:
         safe_sort_col = sort_by
 
     safe_order = "DESC"
@@ -805,6 +829,156 @@ def get_stores_for_trend_enrichment(
     return rows
 
 
+def get_traffic_cv_stats() -> Dict[str, Any]:
+    """Summary statistics for Traffic.cv Similarweb enrichment."""
+    conn = get_db()
+    cursor = conn.cursor()
+
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE cookie_days >= 14")
+    total_cookie_14 = cursor.fetchone()["cnt"] or 0
+
+    # Total processed stores in cookie >= 14 (either Traffic.cv or Tranco fallback)
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE cookie_days >= 14 AND traffic_source != '' AND traffic_source IS NOT NULL")
+    enriched_cookie_14 = cursor.fetchone()["cnt"] or 0
+
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE cookie_days >= 14 AND traffic_source = 'traffic_cv'")
+    similarweb_cookie_14 = cursor.fetchone()["cnt"] or 0
+
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE cookie_days >= 14 AND traffic_source = 'tranco'")
+    tranco_cookie_14 = cursor.fetchone()["cnt"] or 0
+
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores")
+    total_stores = cursor.fetchone()["cnt"] or 0
+
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE traffic_source != '' AND traffic_source IS NOT NULL")
+    total_processed = cursor.fetchone()["cnt"] or 0
+
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE traffic_source = 'traffic_cv'")
+    total_enriched = cursor.fetchone()["cnt"] or 0
+
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE traffic_source = 'tranco'")
+    total_tranco = cursor.fetchone()["cnt"] or 0
+
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE traffic_source = 'traffic_cv' AND traffic_raw_value > 0")
+    with_data = cursor.fetchone()["cnt"] or 0
+
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE traffic_source = 'traffic_cv' AND traffic_status = 'no_data'")
+    no_data = cursor.fetchone()["cnt"] or 0
+
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE traffic_source IN ('traffic_cv', 'traffic_cv_error') AND traffic_status = 'error'")
+    errors = cursor.fetchone()["cnt"] or 0
+
+    conn.close()
+    return {
+        "total_cookie_14": total_cookie_14,
+        "enriched_cookie_14": enriched_cookie_14,
+        "similarweb_cookie_14": similarweb_cookie_14,
+        "tranco_cookie_14": tranco_cookie_14,
+        "remaining_cookie_14": max(0, total_cookie_14 - enriched_cookie_14),
+        "percent_cookie_14": round((enriched_cookie_14 / total_cookie_14 * 100), 1) if total_cookie_14 > 0 else 0.0,
+        "total_stores": total_stores,
+        "total_processed": total_processed,
+        "total_enriched": total_enriched,
+        "total_tranco": total_tranco,
+        "with_data": with_data,
+        "no_data": no_data,
+        "errors": errors,
+    }
+
+
+def get_stores_for_traffic_cv_enrichment(
+    limit: int = 50,
+    cookie_min_days: int = 14,
+    exclude_store_ids: Optional[List[str]] = None
+) -> List[Dict[str, Any]]:
+    """
+    Fetch stores that have not yet been enriched by Traffic.cv or fallback (traffic_source IS NULL OR traffic_source = '').
+    Prioritizes stores with cookie_days >= cookie_min_days (descending cookie_days, commission_value).
+    If all stores with cookie_days >= cookie_min_days are enriched, falls back to remaining stores.
+    Supports exclude_store_ids to prevent re-querying in-flight records.
+    """
+    conn = get_db()
+    cursor = conn.cursor()
+
+    exclude_clause = ""
+    params: List[Any] = [cookie_min_days]
+    if exclude_store_ids:
+        placeholders = ",".join(["?"] * len(exclude_store_ids))
+        exclude_clause = f"AND store_id NOT IN ({placeholders})"
+        params.extend(exclude_store_ids)
+
+    query_priority = f"""
+    SELECT store_id, name, website_url, portal_url, cookie_days, commission_value, category, currency, status, 
+           traffic_visits, traffic_raw_value, traffic_status, traffic_source, traffic_global_rank
+    FROM stores
+    WHERE cookie_days >= ? AND (traffic_source IS NULL OR traffic_source = '')
+    {exclude_clause}
+    ORDER BY cookie_days DESC, commission_value DESC
+    LIMIT ?
+    """
+    cursor.execute(query_priority, params + [limit])
+    rows = [dict(r) for r in cursor.fetchall()]
+
+    if not rows and cookie_min_days > 0:
+        params_all: List[Any] = []
+        if exclude_store_ids:
+            placeholders = ",".join(["?"] * len(exclude_store_ids))
+            exclude_clause_all = f"AND store_id NOT IN ({placeholders})"
+            params_all.extend(exclude_store_ids)
+        else:
+            exclude_clause_all = ""
+
+        query_all = f"""
+        SELECT store_id, name, website_url, portal_url, cookie_days, commission_value, category, currency, status, 
+               traffic_visits, traffic_raw_value, traffic_status, traffic_source, traffic_global_rank
+        FROM stores
+        WHERE (traffic_source IS NULL OR traffic_source = '')
+        {exclude_clause_all}
+        ORDER BY cookie_days DESC, commission_value DESC
+        LIMIT ?
+        """
+        cursor.execute(query_all, params_all + [limit])
+        rows = [dict(r) for r in cursor.fetchall()]
+
+    conn.close()
+    return rows
+
+
+def update_store_traffic_cv(store_id: str, data: Dict[str, Any]) -> bool:
+    """Update store with Similarweb data extracted from Traffic.cv or fallback."""
+    conn = get_db()
+    cursor = conn.cursor()
+    cursor.execute("""
+    UPDATE stores SET
+        traffic_visits = ?,
+        traffic_raw_value = ?,
+        traffic_status = ?,
+        traffic_source = ?,
+        traffic_bounce_rate = ?,
+        traffic_avg_duration = ?,
+        traffic_global_rank = ?,
+        traffic_country_rank = ?,
+        traffic_pages_per_visit = ?,
+        traffic_updated_at = CURRENT_TIMESTAMP
+    WHERE store_id = ?
+    """, (
+        str(data.get("traffic_visits", "")),
+        int(data.get("traffic_raw_value", 0)),
+        str(data.get("traffic_status", "pending")),
+        str(data.get("traffic_source", "traffic_cv")),
+        str(data.get("traffic_bounce_rate", "")),
+        str(data.get("traffic_avg_duration", "")),
+        int(data.get("traffic_global_rank", 0)),
+        int(data.get("traffic_country_rank", 0)),
+        str(data.get("traffic_pages_per_visit", "")),
+        store_id
+    ))
+    affected = cursor.rowcount > 0
+    conn.commit()
+    conn.close()
+    return affected
+
+
 def get_stats() -> Dict[str, Any]:
     """Compute dashboard statistics."""
     conn = get_db()
@@ -834,9 +1008,20 @@ def get_stats() -> Dict[str, Any]:
     cursor.execute("SELECT cookie_days, COUNT(*) as cnt FROM stores WHERE cookie_days IS NOT NULL GROUP BY cookie_days ORDER BY cookie_days ASC")
     cookie_durations = [{"days": r["cookie_days"], "count": r["cnt"]} for r in cursor.fetchall()]
 
+    # Concise Cookie groups
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE cookie_days < 14")
+    c_lt_14 = cursor.fetchone()["cnt"] or 0
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE cookie_days >= 14 AND cookie_days <= 30")
+    c_14_30 = cursor.fetchone()["cnt"] or 0
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE cookie_days >= 30")
+    c_gte_30 = cursor.fetchone()["cnt"] or 0
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE cookie_days >= 14")
+    c_gte_14 = cursor.fetchone()["cnt"] or 0
+
     conn.close()
 
     traffic_stats = get_traffic_stats()
+    traffic_cv_stats = get_traffic_cv_stats()
 
     return {
         "total_stores": total_stores,
@@ -848,7 +1033,14 @@ def get_stats() -> Dict[str, Any]:
         "adult_count": adult_count,
         "currencies": currencies,
         "cookie_durations": cookie_durations,
-        "traffic": traffic_stats
+        "cookie_groups": {
+            "lt_14": c_lt_14,
+            "14_30": c_14_30,
+            "gte_30": c_gte_30,
+            "gte_14": c_gte_14
+        },
+        "traffic": traffic_stats,
+        "traffic_cv": traffic_cv_stats
     }
 
 

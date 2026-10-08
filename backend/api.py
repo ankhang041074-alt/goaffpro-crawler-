@@ -12,6 +12,8 @@ import pandas as pd
 from . import db
 from . import crawler
 from . import traffic_worker
+from . import traffic_cv_scraper
+from . import traffic_cv_worker
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -125,15 +127,13 @@ def get_stores_endpoint(
     offset: int = Query(0)
 ):
     """Query stores with filtering, searching, and pagination."""
-    # Convert cookie_days to int if it's not empty
+    # Support int or string ranges (lt_14, 14_30, gte_30, gte_14)
     cookie_days_val = None
     if isinstance(cookie_days, int):
         cookie_days_val = cookie_days
     elif isinstance(cookie_days, str) and cookie_days.strip() and cookie_days.strip() != "all":
-        try:
-            cookie_days_val = int(cookie_days.strip())
-        except ValueError:
-            pass
+        c_clean = cookie_days.strip()
+        cookie_days_val = int(c_clean) if c_clean.isdigit() else c_clean
 
     # Convert min_traffic to int if it's not empty
     min_traffic_val = None
@@ -256,10 +256,8 @@ def export_csv_endpoint(
     if isinstance(cookie_days, int):
         cookie_days_val = cookie_days
     elif isinstance(cookie_days, str) and cookie_days.strip() and cookie_days.strip() != "all":
-        try:
-            cookie_days_val = int(cookie_days.strip())
-        except ValueError:
-            pass
+        c_clean = cookie_days.strip()
+        cookie_days_val = int(c_clean) if c_clean.isdigit() else c_clean
 
     min_traffic_val = None
     if isinstance(min_traffic, int):
@@ -341,10 +339,8 @@ def export_excel_endpoint(
     if isinstance(cookie_days, int):
         cookie_days_val = cookie_days
     elif isinstance(cookie_days, str) and cookie_days.strip() and cookie_days.strip() != "all":
-        try:
-            cookie_days_val = int(cookie_days.strip())
-        except ValueError:
-            pass
+        c_clean = cookie_days.strip()
+        cookie_days_val = int(c_clean) if c_clean.isdigit() else c_clean
 
     min_traffic_val = None
     if isinstance(min_traffic, int):
@@ -390,7 +386,9 @@ def export_excel_endpoint(
     export_cols = [c for c in [
         "name", "website_url", "portal_url", "currency", "commission_rate",
         "commission_value", "cookie_days", "category", "site_title", "site_description",
-        "traffic_visits", "traffic_status", "trend_peak_month", "trend_is_steady", "instant_access", "notes", "crawled_at"
+        "traffic_visits", "traffic_source", "traffic_bounce_rate", "traffic_avg_duration",
+        "traffic_global_rank", "traffic_status", "trend_peak_month", "trend_is_steady",
+        "instant_access", "notes", "crawled_at"
     ] if c in df.columns]
     df = df[export_cols]
 
@@ -439,10 +437,92 @@ def get_traffic_status_endpoint():
 @app.post("/api/stores/{store_id}/refresh-traffic")
 def refresh_store_traffic_endpoint(store_id: str):
     """Enrich or refresh traffic and Google Trends for a specific store."""
-    res = traffic_worker.worker.refresh_single_store(store_id)
+    # If dedicated CV worker is running, enqueue priority and avoid browser profile lock collision
+    is_cv_running = traffic_cv_worker.cv_worker.is_running()
+    if is_cv_running:
+        traffic_cv_worker.cv_worker.enqueue_priority_store(store_id)
+        time.sleep(0.8)
+
+    res = traffic_worker.worker.refresh_single_store(store_id, use_traffic_cv=not is_cv_running)
     if not res:
         raise HTTPException(status_code=404, detail="Store not found")
     return res
+
+
+# -------------------------------------------------------------------------
+# Traffic.cv (Similarweb) Dedicated Worker API Routes
+# -------------------------------------------------------------------------
+
+@app.post("/api/traffic-cv/worker/start")
+def start_traffic_cv_worker_endpoint():
+    """Start or resume background Traffic.cv (Similarweb) enrichment."""
+    return traffic_cv_worker.cv_worker.start()
+
+
+@app.post("/api/traffic-cv/worker/pause")
+def pause_traffic_cv_worker_endpoint():
+    """Pause background Traffic.cv worker."""
+    return traffic_cv_worker.cv_worker.pause()
+
+
+@app.post("/api/traffic-cv/worker/resume")
+def resume_traffic_cv_worker_endpoint():
+    """Resume background Traffic.cv worker."""
+    return traffic_cv_worker.cv_worker.resume()
+
+
+@app.post("/api/traffic-cv/worker/stop")
+def stop_traffic_cv_worker_endpoint():
+    """Stop background Traffic.cv worker."""
+    return traffic_cv_worker.cv_worker.stop()
+
+
+@app.get("/api/traffic-cv/worker/status")
+def get_traffic_cv_worker_status_endpoint():
+    """Get real-time status and progress of the Traffic.cv worker."""
+    return traffic_cv_worker.cv_worker.get_status()
+
+
+@app.post("/api/traffic-cv/worker/bring-front")
+def bring_front_traffic_cv_browser_endpoint():
+    """Move Traffic.cv browser window on-screen to (100, 100) for inspection."""
+    if traffic_cv_worker.cv_worker.is_running():
+        return traffic_cv_worker.cv_worker.bring_to_front()
+    else:
+        return traffic_cv_scraper.open_traffic_cv_verification_window()
+
+
+@app.post("/api/traffic-cv/worker/send-back")
+def send_back_traffic_cv_browser_endpoint():
+    """Move Traffic.cv browser window off-screen to (-2500, -2500) for invisible crawling."""
+    if traffic_cv_worker.cv_worker.is_running():
+        return traffic_cv_worker.cv_worker.send_to_back()
+    return {"status": "not_running", "message": "Worker is not running"}
+
+
+@app.post("/api/traffic-cv/verify-browser")
+def open_traffic_cv_browser_endpoint(url: Optional[str] = "https://traffic.cv/www.makeblock.com"):
+    """Open or bring front Google Chrome window for user to pass Cloudflare Turnstile if needed."""
+    if traffic_cv_worker.cv_worker.is_running():
+        return traffic_cv_worker.cv_worker.bring_to_front()
+    return traffic_cv_scraper.open_traffic_cv_verification_window(target_url=url or "https://traffic.cv/www.makeblock.com")
+
+
+@app.get("/api/traffic-cv/check-session")
+def check_traffic_cv_session_endpoint():
+    """Quickly check if traffic.cv session is valid or blocked by Cloudflare."""
+    res = traffic_cv_scraper.scrape_traffic_cv("makeblock.com", timeout_sec=8)
+    return {
+        "status": res.get("status"),
+        "is_ready": res.get("status") == "success",
+        "sample_data": res
+    }
+
+
+@app.post("/api/traffic-cv/scrape/{domain}")
+def scrape_traffic_cv_endpoint(domain: str):
+    """Scrape traffic.cv data for a specific domain."""
+    return traffic_cv_scraper.scrape_traffic_cv(domain)
 
 
 # Mount built frontend for instant zero-dependency dashboard access

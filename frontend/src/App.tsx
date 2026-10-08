@@ -37,7 +37,8 @@ import {
   Activity,
   Info,
   BarChart2,
-  Tag
+  Tag,
+  Monitor
 } from 'lucide-react';
 
 interface Store {
@@ -61,6 +62,12 @@ interface Store {
   traffic_visits?: string;
   traffic_raw_value?: number;
   traffic_status?: 'success' | 'no_data' | 'error' | 'pending';
+  traffic_source?: string;
+  traffic_bounce_rate?: string;
+  traffic_avg_duration?: string;
+  traffic_global_rank?: number;
+  traffic_country_rank?: number;
+  traffic_pages_per_visit?: string;
   traffic_top_country?: string;
   trend_timeline_json?: string;
   trend_peak_month?: string;
@@ -92,6 +99,35 @@ interface TrafficWorkerStatus {
   above_10k: number;
 }
 
+interface TrafficCVWorkerStatus {
+  is_running: boolean;
+  is_paused: boolean;
+  current_store: string;
+  current_domain: string;
+  status_message: string;
+  waiting_turnstile: boolean;
+  turnstile_remaining_sec: number;
+  window_is_on_screen: boolean;
+  scanned: number;
+  with_data: number;
+  no_data: number;
+  tranco_fallbacks: number;
+  errors: number;
+  cookie_14_stats?: {
+    total: number;
+    enriched: number;
+    remaining: number;
+    percent: number;
+  };
+  all_stats?: {
+    total: number;
+    enriched: number;
+    tranco: number;
+    with_data: number;
+    no_data: number;
+  };
+}
+
 interface Stats {
   total_stores: number;
   avg_commission: number;
@@ -102,6 +138,12 @@ interface Stats {
   adult_count?: number;
   currencies?: { currency: string; count: number }[];
   cookie_durations?: { days: number; count: number }[];
+  cookie_groups?: {
+    lt_14: number;
+    '14_30': number;
+    gte_30: number;
+    gte_14: number;
+  };
   traffic?: {
     total_cookie_14_plus: number;
     checked_cookie_14_plus: number;
@@ -110,6 +152,18 @@ interface Stats {
     no_data: number;
     errors: number;
     above_10k: number;
+  };
+  traffic_cv?: {
+    total_cookie_14: number;
+    enriched_cookie_14: number;
+    remaining_cookie_14: number;
+    percent_cookie_14: number;
+    total_stores: number;
+    total_enriched: number;
+    total_tranco: number;
+    with_data: number;
+    no_data: number;
+    errors: number;
   };
 }
 
@@ -151,6 +205,7 @@ export default function App() {
   // Traffic Worker & Accordion States
   const [expandedStoreId, setExpandedStoreId] = useState<string | null>(null);
   const [trafficWorkerStatus, setTrafficWorkerStatus] = useState<TrafficWorkerStatus | null>(null);
+  const [trafficCVStatus, setTrafficCVStatus] = useState<TrafficCVWorkerStatus | null>(null);
   const [refreshingStoreId, setRefreshingStoreId] = useState<string | null>(null);
   const [quickNoteEdit, setQuickNoteEdit] = useState<{ [id: string]: string }>({});
 
@@ -192,14 +247,17 @@ export default function App() {
 
   const pollingRef = useRef<any>(null);
   const trafficPollingRef = useRef<any>(null);
+  const trafficCVPollingRef = useRef<any>(null);
 
   // Initial load
   useEffect(() => {
     fetchStats();
     fetchCategories();
     fetchTrafficStatus();
+    fetchTrafficCVStatus();
     return () => {
       if (trafficPollingRef.current) clearInterval(trafficPollingRef.current);
+      if (trafficCVPollingRef.current) clearInterval(trafficCVPollingRef.current);
     };
   }, []);
 
@@ -299,6 +357,82 @@ export default function App() {
     }
   }
 
+  async function fetchTrafficCVStatus() {
+    try {
+      const res = await fetch('/api/traffic-cv/worker/status');
+      if (res.ok) {
+        const json: TrafficCVWorkerStatus = await res.json();
+        setTrafficCVStatus(json);
+        if (json.is_running && !trafficCVPollingRef.current) {
+          trafficCVPollingRef.current = setInterval(fetchTrafficCVStatus, 2500);
+        } else if (!json.is_running && trafficCVPollingRef.current) {
+          clearInterval(trafficCVPollingRef.current);
+          trafficCVPollingRef.current = null;
+        }
+      }
+    } catch (e) {
+      console.error('Error fetching traffic cv status:', e);
+    }
+  }
+
+  async function handleStartTrafficCVWorker() {
+    try {
+      const res = await fetch('/api/traffic-cv/worker/start', { method: 'POST' });
+      if (res.ok) {
+        fetchTrafficCVStatus();
+        if (!trafficCVPollingRef.current) {
+          trafficCVPollingRef.current = setInterval(fetchTrafficCVStatus, 2000);
+        }
+      }
+    } catch (e) {
+      alert('Lỗi kích hoạt Traffic.cv worker: ' + e);
+    }
+  }
+
+  async function handlePauseTrafficCVWorker() {
+    try {
+      await fetch('/api/traffic-cv/worker/pause', { method: 'POST' });
+      fetchTrafficCVStatus();
+    } catch (e) {
+      console.error(e);
+    }
+  }
+
+  async function handleResumeTrafficCVWorker() {
+    try {
+      await fetch('/api/traffic-cv/worker/resume', { method: 'POST' });
+      fetchTrafficCVStatus();
+    } catch (e) {
+      console.error(e);
+    }
+  }
+
+  async function handleStopTrafficCVWorker() {
+    try {
+      await fetch('/api/traffic-cv/worker/stop', { method: 'POST' });
+      fetchTrafficCVStatus();
+      if (trafficCVPollingRef.current) {
+        clearInterval(trafficCVPollingRef.current);
+        trafficCVPollingRef.current = null;
+      }
+    } catch (e) {
+      console.error(e);
+    }
+  }
+
+  async function handleToggleCVBrowser() {
+    try {
+      if (trafficCVStatus?.window_is_on_screen) {
+        await fetch('/api/traffic-cv/worker/send-back', { method: 'POST' });
+      } else {
+        await fetch('/api/traffic-cv/worker/bring-front', { method: 'POST' });
+      }
+      fetchTrafficCVStatus();
+    } catch (e) {
+      console.error(e);
+    }
+  }
+
   async function handleRefreshSingleStore(storeId: string, e?: React.MouseEvent) {
     if (e) e.stopPropagation();
     setRefreshingStoreId(storeId);
@@ -314,6 +448,7 @@ export default function App() {
         }
         fetchStats();
         fetchTrafficStatus();
+        fetchTrafficCVStatus();
       }
     } catch (err) {
       alert('Lỗi làm mới traffic: ' + err);
@@ -1170,6 +1305,157 @@ export default function App() {
           </div>
         </section>
 
+        {/* DEDICATED TRAFFIC.CV (SIMILARWEB) WORKER WIDGET */}
+        <section className="bg-gradient-to-r from-slate-900 via-sky-950 to-slate-900 border border-sky-800/60 rounded-2xl p-4 shadow-lg text-white">
+          <div className="flex flex-wrap items-center justify-between gap-4">
+            <div className="flex items-center gap-3">
+              <div className={`p-2.5 rounded-xl border ${trafficCVStatus?.is_running ? 'bg-sky-500/20 border-sky-400/50 text-sky-300' : 'bg-slate-800 border-slate-700 text-slate-400'}`}>
+                <Globe size={20} className={trafficCVStatus?.is_running && !trafficCVStatus.is_paused ? 'animate-pulse text-sky-400' : ''} />
+              </div>
+              <div>
+                <div className="flex items-center gap-2 flex-wrap">
+                  <h3 className="text-sm font-bold text-white flex items-center gap-1.5">
+                    <span>Traffic.cv Similarweb Enrichment</span>
+                    <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-sky-900/80 text-sky-200 border border-sky-700/60">
+                      Tier 1-3 Defense
+                    </span>
+                  </h3>
+                  {trafficCVStatus?.waiting_turnstile ? (
+                    <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-rose-500/20 text-rose-300 border border-rose-500/40 animate-bounce flex items-center gap-1">
+                      <AlertCircle size={11} /> Cần giải Turnstile ({trafficCVStatus.turnstile_remaining_sec}s)
+                    </span>
+                  ) : trafficCVStatus?.is_running ? (
+                    trafficCVStatus.is_paused ? (
+                      <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30">
+                        ⏸️ Tạm dừng
+                      </span>
+                    ) : (
+                      <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 flex items-center gap-1">
+                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
+                        Đang quét: {trafficCVStatus.current_domain || trafficCVStatus.current_store || '...'}
+                      </span>
+                    )
+                  ) : (
+                    <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700">
+                      ⚪ Sẵn sàng
+                    </span>
+                  )}
+                  <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-sky-900/60 text-sky-300 border border-sky-700/50">
+                    🎯 Ưu tiên Cookie ≥ 14 ngày (~5,243 stores)
+                  </span>
+                  <span className="text-[10px] font-medium text-slate-400">
+                    (Total Visits, Global Rank, Bounce Rate, Avg Duration)
+                  </span>
+                </div>
+                <p className="text-[11px] text-slate-300 mt-0.5">
+                  {trafficCVStatus?.status_message || 'Bóc tách trực tiếp chỉ số thật từ Similarweb (traffic.cv) với cơ chế chạy ngầm off-screen và chống Cloudflare 3 lớp.'}
+                </p>
+              </div>
+            </div>
+
+            {/* Control Buttons */}
+            <div className="flex items-center gap-2">
+              <button
+                onClick={handleToggleCVBrowser}
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-sky-300 border border-sky-800/60 transition cursor-pointer shadow-sm"
+                title={trafficCVStatus?.window_is_on_screen ? "Ẩn trình duyệt về lại ngoài màn hình" : "Mở cửa sổ trình duyệt ra màn hình để xem / giải Turnstile"}
+              >
+                <Monitor size={13} />
+                <span>{trafficCVStatus?.window_is_on_screen ? "Ẩn Trình Duyệt" : "Xem Trình Duyệt"}</span>
+              </button>
+
+              {trafficCVStatus?.is_running ? (
+                <>
+                  {trafficCVStatus.is_paused ? (
+                    <button
+                      onClick={handleResumeTrafficCVWorker}
+                      className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-emerald-600 hover:bg-emerald-500 text-white transition cursor-pointer shadow-sm"
+                    >
+                      <Play size={13} fill="currentColor" />
+                      <span>Tiếp tục</span>
+                    </button>
+                  ) : (
+                    <button
+                      onClick={handlePauseTrafficCVWorker}
+                      className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-amber-600 hover:bg-amber-500 text-white transition cursor-pointer shadow-sm"
+                    >
+                      <Pause size={13} />
+                      <span>Tạm dừng</span>
+                    </button>
+                  )}
+                  <button
+                    onClick={handleStopTrafficCVWorker}
+                    className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-rose-600/80 hover:bg-rose-600 text-white transition cursor-pointer shadow-sm"
+                  >
+                    <X size={13} />
+                    <span>Dừng hẳn</span>
+                  </button>
+                </>
+              ) : (
+                <button
+                  onClick={handleStartTrafficCVWorker}
+                  className="flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white shadow-lg shadow-sky-500/25 transition cursor-pointer"
+                >
+                  <Play size={13} fill="currentColor" />
+                  <span>Chạy Quét Similarweb (Cookie ≥ 14d)</span>
+                </button>
+              )}
+            </div>
+          </div>
+
+          {/* Progress Bar & Real-time Stats */}
+          <div className="mt-3 pt-3 border-t border-sky-900/60 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+            <div className="w-full sm:w-1/2">
+              <div className="flex items-center justify-between text-[11px] text-slate-300 mb-1">
+                <span>Tiến độ Similarweb (Cookie ≥ 14 ngày):</span>
+                <span className="font-mono text-sky-300 font-semibold">
+                  {trafficCVStatus?.cookie_14_stats ? (
+                    `${trafficCVStatus.cookie_14_stats.enriched} / ${trafficCVStatus.cookie_14_stats.total} (${trafficCVStatus.cookie_14_stats.percent}%)`
+                  ) : (
+                    `0 / 5,243 (0%)`
+                  )}
+                </span>
+              </div>
+              <div className="w-full h-2 rounded-full bg-slate-800 overflow-hidden">
+                <div
+                  className="h-full bg-gradient-to-r from-sky-400 to-blue-500 transition-all duration-500 rounded-full"
+                  style={{
+                    width: `${trafficCVStatus?.cookie_14_stats?.percent || 0}%`
+                  }}
+                />
+              </div>
+              {trafficCVStatus?.current_domain && (
+                <div className="text-[10px] text-slate-400 mt-1 truncate">
+                  ⚡ Đang xử lý: <span className="text-sky-300 font-mono font-medium">{trafficCVStatus.current_domain}</span>
+                  {trafficCVStatus.current_store && <span className="text-slate-400"> ({trafficCVStatus.current_store})</span>}
+                </div>
+              )}
+            </div>
+
+            <div className="flex items-center gap-2.5 text-[11px] flex-wrap">
+              <span className="inline-flex items-center gap-1 text-sky-300 font-medium bg-sky-950/60 px-2 py-0.5 rounded border border-sky-800/40" title="Số store Cookie >= 14d đã bóc tách Similarweb">
+                ✅ Cookie ≥14d: {trafficCVStatus?.cookie_14_stats?.enriched || 0}/{trafficCVStatus?.cookie_14_stats?.total || 5243}
+              </span>
+              <span className="inline-flex items-center gap-1 text-emerald-300 font-medium bg-emerald-950/50 px-2 py-0.5 rounded border border-emerald-800/40" title="Store có traffic thật Similarweb">
+                🔥 Có Data: {trafficCVStatus?.with_data || 0}
+              </span>
+              <span className="inline-flex items-center gap-1 text-slate-400 font-medium bg-slate-800/60 px-2 py-0.5 rounded border border-slate-700/50" title="Website nhỏ/mới chưa đủ ngưỡng Similarweb">
+                📉 Store nhỏ: {trafficCVStatus?.no_data || 0}
+              </span>
+              {(trafficCVStatus?.tranco_fallbacks || 0) > 0 && (
+                <span className="inline-flex items-center gap-1 text-amber-300 font-medium bg-amber-950/50 px-2 py-0.5 rounded border border-amber-800/40" title="Số lần tự động fallback sang Tranco Rank khi Turnstile quá 90s">
+                  🔄 Tranco Fallback: {trafficCVStatus?.tranco_fallbacks}
+                </span>
+              )}
+              {(trafficCVStatus?.errors || 0) > 0 && (
+                <span className="inline-flex items-center gap-1 text-rose-400 font-medium bg-rose-950/50 px-2 py-0.5 rounded border border-rose-800/40">
+                  <AlertCircle size={11} /> Lỗi: {trafficCVStatus?.errors}
+                </span>
+              )}
+            </div>
+          </div>
+        </section>
+
         {/* SEARCH & FILTERS BAR */}
         <section className="bg-white border border-slate-200 rounded-2xl p-3 shadow-sm flex flex-col gap-2.5">
           <div className="flex items-center gap-2.5 flex-wrap">
@@ -1399,7 +1685,17 @@ export default function App() {
               )}
               {cookieFilter !== 'all' && (
                 <span className="inline-flex items-center gap-1 text-[11px] bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded-md border border-indigo-200 font-medium">
-                  Cookie: <strong>{cookieFilter} days</strong>
+                  Cookie: <strong>{
+                    cookieFilter === 'lt_14'
+                      ? 'Dưới 14 ngày'
+                      : cookieFilter === '14_30'
+                      ? '14 – 30 ngày'
+                      : cookieFilter === 'gte_30'
+                      ? '≥ 30 ngày'
+                      : cookieFilter === 'gte_14'
+                      ? '≥ 14 ngày'
+                      : `${cookieFilter} days`
+                  }</strong>
                   <button onClick={() => { setCookieFilter('all'); setPage(1); }} className="hover:text-indigo-900 ml-0.5">
                     <X size={11} />
                   </button>
@@ -1598,23 +1894,10 @@ export default function App() {
                         }`}
                       >
                         <option value="all">Tất cả ngày</option>
-                        {stats?.cookie_durations && stats.cookie_durations.length > 0 ? (
-                          stats.cookie_durations.map(c => (
-                            <option key={c.days} value={c.days.toString()}>
-                              {c.days} days ({c.count.toLocaleString()})
-                            </option>
-                          ))
-                        ) : (
-                          <>
-                            <option value="7">7 days</option>
-                            <option value="14">14 days</option>
-                            <option value="30">30 days</option>
-                            <option value="60">60 days</option>
-                            <option value="90">90 days</option>
-                            <option value="180">180 days</option>
-                            <option value="365">365 days</option>
-                          </>
-                        )}
+                        <option value="lt_14">Dưới 14 ngày ({stats?.cookie_groups?.lt_14?.toLocaleString() || '15,633'})</option>
+                        <option value="14_30">14 – 30 ngày ({stats?.cookie_groups?.['14_30']?.toLocaleString() || '3,701'})</option>
+                        <option value="gte_30">30 ngày trở lên ({stats?.cookie_groups?.gte_30?.toLocaleString() || '4,396'})</option>
+                        <option value="gte_14">≥ 14 ngày ({stats?.cookie_groups?.gte_14?.toLocaleString() || '5,243'})</option>
                       </select>
                     </div>
                   </th>
@@ -1794,10 +2077,17 @@ export default function App() {
                             return (
                               <div className="flex flex-col gap-0.5">
                                 {store.traffic_status === 'success' && store.traffic_raw_value && store.traffic_raw_value > 0 ? (
-                                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-xs font-bold font-mono bg-emerald-50 text-emerald-700 border border-emerald-200 w-fit">
-                                    <Eye size={11} className="text-emerald-600" />
-                                    {store.traffic_visits || `${(store.traffic_raw_value / 1000).toFixed(0)}K`}
-                                  </span>
+                                  <div className="flex items-center gap-1 flex-wrap">
+                                    <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-xs font-bold font-mono bg-emerald-50 text-emerald-700 border border-emerald-200 w-fit">
+                                      <Eye size={11} className="text-emerald-600" />
+                                      {store.traffic_visits || `${(store.traffic_raw_value / 1000).toFixed(0)}K`}
+                                    </span>
+                                    {store.traffic_source === 'traffic_cv' && (
+                                      <span className="px-1 py-0.2 rounded text-[9px] font-bold bg-sky-100 text-sky-700 border border-sky-200" title="Similarweb data via Traffic.cv">
+                                        Similarweb
+                                      </span>
+                                    )}
+                                  </div>
                                 ) : store.traffic_status === 'no_data' || (store.traffic_status !== 'pending' && store.trend_status === 'no_data') ? (
                                   <span className="text-[11px] text-slate-400 italic" title="Chưa có dữ liệu (Store nhỏ/mới)">
                                     Store nhỏ/mới
@@ -1814,6 +2104,22 @@ export default function App() {
                                     Kiểm tra ngay
                                   </button>
                                 )}
+
+                                {/* Bounce Rate & Duration Badges */}
+                                {(store.traffic_bounce_rate || store.traffic_avg_duration) ? (
+                                  <div className="flex items-center gap-1 text-[10px] text-slate-500 font-mono">
+                                    {store.traffic_bounce_rate ? (
+                                      <span className="px-1 rounded bg-slate-100 border border-slate-200" title={`Tỷ lệ thoát: ${store.traffic_bounce_rate}`}>
+                                        BR: {store.traffic_bounce_rate}
+                                      </span>
+                                    ) : null}
+                                    {store.traffic_avg_duration ? (
+                                      <span className="px-1 rounded bg-slate-100 border border-slate-200" title={`Thời lượng: ${store.traffic_avg_duration}`}>
+                                        ⏱️ {store.traffic_avg_duration}
+                                      </span>
+                                    ) : null}
+                                  </div>
+                                ) : null}
 
                                 {/* Evergreen Steady Badge */}
                                 {(store.trend_is_steady === 1 || store.trend_is_steady === true) && (
@@ -2016,9 +2322,11 @@ export default function App() {
                                   <div className="flex items-center justify-between text-slate-500 text-[11px] font-medium mb-1">
                                     <span className="flex items-center gap-1">
                                       <Eye size={12} className="text-slate-400" />
-                                      Lượng truy cập ước tính (Monthly Visits)
+                                      Lượng truy cập (Monthly Visits)
                                     </span>
-                                    <span className="text-[10px] uppercase font-bold text-slate-400">{store.traffic_top_country || 'Global'}</span>
+                                    <span className="text-[10px] uppercase font-bold text-sky-600 bg-sky-50 px-1.5 py-0.5 rounded border border-sky-200">
+                                      {store.traffic_source === 'traffic_cv' ? 'Similarweb' : store.traffic_source === 'tranco' ? 'Tranco 1M' : (store.traffic_top_country || 'Global')}
+                                    </span>
                                   </div>
                                   <div className="text-lg font-bold text-slate-900 font-mono">
                                     {store.traffic_status === 'success' && store.traffic_visits ? (
@@ -2031,8 +2339,24 @@ export default function App() {
                                       <span className="text-xs font-medium text-slate-400">Chưa kiểm tra</span>
                                     )}
                                   </div>
-                                  <div className="text-[10px] text-slate-400 mt-1">
-                                    {store.traffic_status === 'success' ? 'Xác thực từ bảng xếp hạng tên miền toàn cầu Tranco' : 'Cửa hàng chưa có tên miền xếp hạng trong top 1M'}
+                                  <div className="text-[10px] text-slate-500 mt-1 flex flex-col gap-0.5">
+                                    {store.traffic_global_rank && store.traffic_global_rank > 0 ? (
+                                      <div className="flex items-center gap-2">
+                                        <span>Global: <strong className="font-mono text-slate-700">#{store.traffic_global_rank.toLocaleString()}</strong></span>
+                                        {store.traffic_country_rank && store.traffic_country_rank > 0 ? (
+                                          <span>Country: <strong className="font-mono text-slate-700">#{store.traffic_country_rank.toLocaleString()}</strong></span>
+                                        ) : null}
+                                      </div>
+                                    ) : null}
+                                    {(store.traffic_bounce_rate || store.traffic_avg_duration) ? (
+                                      <div className="flex items-center gap-2 text-slate-600 flex-wrap">
+                                        {store.traffic_bounce_rate && <span>Bounce: <strong className="font-mono">{store.traffic_bounce_rate}</strong></span>}
+                                        {store.traffic_avg_duration && <span>Thời lượng: <strong className="font-mono">{store.traffic_avg_duration}</strong></span>}
+                                        {store.traffic_pages_per_visit && <span>Trang/lượt: <strong className="font-mono">{store.traffic_pages_per_visit}</strong></span>}
+                                      </div>
+                                    ) : (
+                                      <span>{store.traffic_status === 'success' ? (store.traffic_source === 'traffic_cv' ? 'Dữ liệu đo lường trực tiếp từ Similarweb' : 'Xác thực từ bảng xếp hạng tên miền toàn cầu Tranco') : 'Cửa hàng chưa có tên miền xếp hạng trong top 1M'}</span>
+                                    )}
                                   </div>
                                 </div>
 

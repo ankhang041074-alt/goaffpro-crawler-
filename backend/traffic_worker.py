@@ -65,100 +65,22 @@ _domain_rank_cache: Dict[str, Tuple[Optional[int], str]] = {}
 _gt_cooldown_until: float = 0.0
 
 
+# VPN is completely disabled per user preference for network stability and zero interruption
+ENABLE_VPN = False
+
+
 def find_expressvpn_bin() -> Optional[str]:
-    """
-    Find ExpressVPN CLI binary across macOS, Linux, and Windows.
-    Returns None if ExpressVPN is not installed (the tool works 100% fine without it).
-    """
-    # 1. System PATH lookup
-    for cmd in ["expressvpnctl", "expressvpn"]:
-        p = shutil.which(cmd)
-        if p and os.path.exists(p):
-            return p
-
-    # 2. Standard macOS locations
-    mac_paths = [
-        "/Applications/ExpressVPN.app/Contents/MacOS/expressvpnctl",
-        "/usr/local/bin/expressvpn",
-        "/opt/homebrew/bin/expressvpn",
-    ]
-    for p in mac_paths:
-        if os.path.exists(p):
-            return p
-
-    # 3. Standard Windows locations
-    win_paths = [
-        r"C:\Program Files (x86)\ExpressVPN\expressvpn-ui\ExpressVPN.exe",
-        r"C:\Program Files\ExpressVPN\expressvpn-ui\ExpressVPN.exe",
-        r"C:\Program Files\ExpressVPN\services\ExpressVPN.CLI.exe",
-    ]
-    for p in win_paths:
-        if os.path.exists(p):
-            return p
-
-    # 4. Standard Linux locations
-    linux_paths = [
-        "/usr/bin/expressvpn",
-        "/usr/local/bin/expressvpn",
-    ]
-    for p in linux_paths:
-        if os.path.exists(p):
-            return p
-
+    """VPN disabled: always returns None."""
     return None
 
 
-_detected_vpn_bin = find_expressvpn_bin()
-if _detected_vpn_bin:
-    logger.info(f"✅ ExpressVPN CLI detected at: {_detected_vpn_bin} (Auto-rotation enabled)")
-else:
-    logger.info("ℹ️ ExpressVPN not detected. Tool running in Standard Mode (ExpressVPN is completely optional, automatic 120s cooldown will be used on rate limits).")
-
-_vpn_region_index = 0
-VPN_REGIONS = [
-    "usa-los-angeles-1",
-    "japan-tokyo",
-    "germany-frankfurt-1",
-    "usa-san-francisco",
-    "uk-london",
-    "japan-osaka",
-    "usa-seattle",
-    "singapore-jurong",
-    "australia-sydney",
-    "taiwan-3",
-    "singapore-cbd",
-]
+logger.info("⚡ Chế độ trực tiếp: Đã TẮT hoàn toàn VPN. Tool chạy trực tiếp bằng mạng máy tính mượt mà, không lo bị đơ hay gián đoạn mạng.")
 
 
 def rotate_vpn_region() -> bool:
-    """Automatically switch ExpressVPN location when rate-limited by Google Trends (optional feature)."""
-    global _vpn_region_index, _gt_cooldown_until
-    vpn_bin = find_expressvpn_bin()
-    if not vpn_bin:
-        return False
-    try:
-        region = VPN_REGIONS[_vpn_region_index % len(VPN_REGIONS)]
-        _vpn_region_index += 1
-        logger.info(f"🔄 Auto-rotating ExpressVPN to region: {region} to bypass Google Trends rate limit...")
-        res = subprocess.run([vpn_bin, "connect", region], capture_output=True, text=True, timeout=12)
-        if res.returncode == 0:
-            # Wait for VPN tunnel to stabilize and verify internet connectivity
-            time.sleep(2.0)
-            for _ in range(5):
-                try:
-                    requests.get("https://1.1.1.1", timeout=2.0)
-                    break
-                except Exception:
-                    time.sleep(1.0)
-            _gt_cooldown_until = 0.0  # Reset cooldown since we have a fresh IP!
-            logger.info(f"✅ ExpressVPN connected to {region} successfully. Fresh IP obtained and network verified!")
-            return True
-        else:
-            logger.warning(f"ExpressVPN connect returned notice: {res.stderr.strip() if res.stderr else res.stdout.strip()}")
-            return False
-    except Exception as e:
-        logger.warning(f"Notice: ExpressVPN rotation skipped ({e}). Proceeding with standard cooldown.")
-        return False
+    """VPN rotation is completely disabled."""
+    return False
+
 
 
 def clean_brand_name(name: str, website_url: str = "") -> str:
@@ -428,52 +350,11 @@ def fetch_google_trends(brand_name: str) -> Dict[str, Any]:
     except Exception as e:
         err_msg = str(e).lower()
         if "429" in err_msg or "quota" in err_msg or "toomanyrequests" in err_msg:
-            # If ExpressVPN is available, auto-rotate IP and retry once!
-            if rotate_vpn_region():
-                try:
-                    time.sleep(1.0)
-                    pytrend = TrendReq(
-                        hl="en-US",
-                        tz=360,
-                        timeout=(10, 25),
-                        retries=0,
-                        requests_args={"headers": headers},
-                    )
-                    pytrend.build_payload(kw_list=[brand_name], timeframe="today 5-y")
-                    df = pytrend.interest_over_time()
-                    if not df.empty and brand_name in df.columns:
-                        non_zero_weeks = int((df[brand_name] > 0).sum())
-                        total_score = int(df[brand_name].sum())
-                        if non_zero_weeks >= 6 and total_score >= 40:
-                            df["month"] = df.index.strftime("%Y-%m")
-                            monthly = df.groupby("month")[brand_name].max().reset_index()
-                            active_months = int((monthly[brand_name] > 0).sum())
-                            if active_months >= 3:
-                                peak_idx = monthly[brand_name].idxmax()
-                                peak_row = monthly.iloc[peak_idx]
-                                peak_score = int(peak_row[brand_name])
-                                if peak_score >= 5:
-                                    peak_month = f"{peak_row['month']} ({peak_score} pts)"
-                                    timeline = [
-                                        {"month": r["month"], "value": int(r[brand_name])}
-                                        for _, r in monthly.iterrows()
-                                    ]
-                                    logger.info(f"🎉 Successfully retrieved Google Trends for '{brand_name}' after ExpressVPN auto-rotation!")
-                                    return {
-                                        "status": "success",
-                                        "timeline": timeline,
-                                        "peak_month": peak_month,
-                                    }
-                        return {"status": "no_data", "timeline": [], "peak_month": ""}
-                except Exception as retry_e:
-                    logger.warning(f"Retry after ExpressVPN rotation notice: {retry_e}")
-
-            # If ExpressVPN is not installed or rotation was skipped, apply smart cooldown
-            # (Traffic ranking and Website Categorization continue 100% unaffected!)
-            _gt_cooldown_until = time.time() + 120.0
+            # VPN disabled. Use smooth 75s rate limit cooldown without network interruption!
+            _gt_cooldown_until = time.time() + 75.0
             logger.info(
-                f"⏳ Google Trends rate limit (429) hit for '{brand_name}'. Entering 120s cooldown for Trends. "
-                f"Traffic ranking and Website Categorization continue running normally without interruption."
+                f"⏳ Google Trends chạm ngưỡng 429 cho '{brand_name}'. Tự động giãn cách 75s riêng cho Trends. "
+                f"Traffic Tranco và bóc tách Website tiếp tục chạy 100% bằng mạng bình thường."
             )
             return {
                 "status": "pending",
@@ -701,7 +582,8 @@ class TrafficWorker:
             "total_cookie_14_plus": db_stats.get("total_cookie_14_plus", 0),
             "checked_cookie_14_plus": db_stats.get("checked_cookie_14_plus", 0),
             "above_10k": db_stats.get("above_10k", 0),
-            "vpn_available": bool(find_expressvpn_bin()),
+            "vpn_available": False,
+            "vpn_enabled": False,
         }
 
     def _run_loop(self):

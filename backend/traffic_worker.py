@@ -870,14 +870,22 @@ def enrich_store_data(store: Dict[str, Any], require_min_traffic_for_trends: int
     existing_peak = store.get("trend_peak_month") or ""
     existing_is_steady = int(store.get("trend_is_steady") or 0)
 
+    # Always initialize trend variables with safe defaults so no branch raises UnboundLocalError
+    trend_status = existing_trend_status
+    trend_timeline_json = existing_timeline_json
+    trend_peak = existing_peak
+    trend_is_steady = existing_is_steady
+    trends_queried = False
+
     should_query_trends = True
     if require_min_traffic_for_trends > 0 and traffic_raw < require_min_traffic_for_trends:
         should_query_trends = False
 
-    trends_queried = False
-    now = time.time()
     if not brand:
         trend_status = "no_data"
+        trend_timeline_json = "[]"
+        trend_peak = ""
+        trend_is_steady = 0
     elif not should_query_trends:
         # Keep existing trend data if already succeeded, otherwise leave pending to save rate-limit quota
         trend_status = existing_trend_status if existing_trend_status == "success" else "pending"
@@ -1095,37 +1103,42 @@ class TrafficWorker:
                     store_name = store.get("name", "Unknown")
                     self.current_store = store_name
 
-                    # Only check Trends for stores with traffic >= 10k during normal run,
-                    # unless in Phase 3 where all >= 10k stores are completed.
-                    min_traffic_req = 0 if is_low_traffic_trend_phase else 10000
-                    res = enrich_store_data(store, require_min_traffic_for_trends=min_traffic_req)
-                    self.scanned += 1
+                    try:
+                        # Only check Trends for stores with traffic >= 10k during normal run,
+                        # unless in Phase 3 where all >= 10k stores are completed.
+                        min_traffic_req = 0 if is_low_traffic_trend_phase else 10000
+                        res = enrich_store_data(store, require_min_traffic_for_trends=min_traffic_req)
+                        self.scanned += 1
 
-                    t_status = res.get("trend_status", "")
-                    tr_status = res.get("traffic_status", "")
+                        t_status = res.get("trend_status", "")
+                        tr_status = res.get("traffic_status", "")
 
-                    if tr_status == "success" or t_status == "success":
-                        self.with_data += 1
-                    elif tr_status == "error" or t_status == "error":
+                        if tr_status == "success" or t_status == "success":
+                            self.with_data += 1
+                        elif tr_status == "error" or t_status == "error":
+                            self.errors += 1
+                        else:
+                            self.no_data += 1
+
+                        # High-speed adaptive delay powered by curl_cffi HTTP/2:
+                        # - If trends query was executed: safe 1.2s - 1.8s delay to respect Google's quota
+                        # - If in cooldown/pending: snappy 0.5s - 0.9s delay
+                        # - If error: 1.2s - 1.8s delay
+                        # - If only Tranco domain traffic was checked: ultra-fast 0.3s - 0.6s delay
+                        if res.get("trends_queried"):
+                            delay = random.uniform(1.2, 1.8)
+                        elif t_status == "pending":
+                            delay = random.uniform(0.5, 0.9)
+                        elif t_status == "error" or tr_status == "error":
+                            delay = random.uniform(1.2, 1.8)
+                        else:
+                            delay = random.uniform(0.3, 0.6)
+
+                        self._stop_event.wait(delay)
+                    except Exception as store_err:
+                        logger.error(f"Error enriching store '{store_name}': {store_err}", exc_info=True)
                         self.errors += 1
-                    else:
-                        self.no_data += 1
-
-                    # High-speed adaptive delay powered by curl_cffi HTTP/2:
-                    # - If trends query was executed: safe 1.2s - 1.8s delay to respect Google's quota
-                    # - If in cooldown/pending: snappy 0.5s - 0.9s delay
-                    # - If error: 1.2s - 1.8s delay
-                    # - If only Tranco domain traffic was checked: ultra-fast 0.3s - 0.6s delay
-                    if res.get("trends_queried"):
-                        delay = random.uniform(1.2, 1.8)
-                    elif t_status == "pending":
-                        delay = random.uniform(0.5, 0.9)
-                    elif t_status == "error" or tr_status == "error":
-                        delay = random.uniform(1.2, 1.8)
-                    else:
-                        delay = random.uniform(0.3, 0.6)
-
-                    self._stop_event.wait(delay)
+                        self._stop_event.wait(1.0)
 
         except Exception as e:
             logger.error(f"Error in traffic worker loop: {e}", exc_info=True)

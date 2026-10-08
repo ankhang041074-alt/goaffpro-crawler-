@@ -644,6 +644,18 @@ def get_traffic_stats() -> Dict[str, Any]:
     cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE cookie_days >= 14 AND traffic_status IN ('success', 'no_data', 'error')")
     checked_cookie_14 = cursor.fetchone()["cnt"] or 0
 
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE cookie_days >= 14 AND trend_status IN ('success', 'no_data')")
+    trend_checked_cookie_14 = cursor.fetchone()["cnt"] or 0
+
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE traffic_raw_value >= 10000 AND trend_status = 'success'")
+    trend_10k_done = cursor.fetchone()["cnt"] or 0
+
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores")
+    total_stores = cursor.fetchone()["cnt"] or 0
+
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE traffic_status IN ('success', 'no_data', 'error')")
+    total_traffic_checked = cursor.fetchone()["cnt"] or 0
+
     cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE traffic_status = 'success' OR trend_status = 'success'")
     with_data = cursor.fetchone()["cnt"] or 0
 
@@ -661,6 +673,10 @@ def get_traffic_stats() -> Dict[str, Any]:
         "total_cookie_14_plus": total_cookie_14,
         "checked_cookie_14_plus": checked_cookie_14,
         "remaining_cookie_14_plus": max(0, total_cookie_14 - checked_cookie_14),
+        "trend_checked_cookie_14": trend_checked_cookie_14,
+        "trend_10k_done": trend_10k_done,
+        "total_stores": total_stores,
+        "total_traffic_checked": total_traffic_checked,
         "with_data": with_data,
         "no_data": no_data,
         "errors": errors,

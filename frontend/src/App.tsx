@@ -85,6 +85,10 @@ interface TrafficWorkerStatus {
   remaining: number;
   total_cookie_14_plus: number;
   checked_cookie_14_plus: number;
+  trend_checked_cookie_14?: number;
+  trend_10k_done?: number;
+  total_stores?: number;
+  total_traffic_checked?: number;
   above_10k: number;
 }
 
@@ -1110,9 +1114,22 @@ export default function App() {
           <div className="mt-3 pt-3 border-t border-indigo-900/60 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
             <div className="w-full sm:w-1/2">
               <div className="flex items-center justify-between text-[11px] text-slate-400 mb-1">
-                <span>Tiến độ các store Cookie ≥ 14 ngày:</span>
-                <span className="font-mono text-indigo-300 font-semibold">
-                  {trafficWorkerStatus ? `${trafficWorkerStatus.checked_cookie_14_plus} / ${trafficWorkerStatus.total_cookie_14_plus} (${trafficWorkerStatus.total_cookie_14_plus > 0 ? ((trafficWorkerStatus.checked_cookie_14_plus / trafficWorkerStatus.total_cookie_14_plus) * 100).toFixed(1) : 0}%)` : '0 / 0'}
+                {trafficWorkerStatus && trafficWorkerStatus.checked_cookie_14_plus >= trafficWorkerStatus.total_cookie_14_plus ? (
+                  <span className="flex items-center gap-1.5 font-medium text-slate-300">
+                    <span className="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                    <span>Đang cào Google Trends (Cookie ≥ 14 ngày):</span>
+                  </span>
+                ) : (
+                  <span>Tiến độ Traffic (Cookie ≥ 14 ngày):</span>
+                )}
+                <span className="font-mono text-emerald-300 font-semibold">
+                  {trafficWorkerStatus ? (
+                    trafficWorkerStatus.checked_cookie_14_plus >= trafficWorkerStatus.total_cookie_14_plus ? (
+                      `${trafficWorkerStatus.trend_checked_cookie_14 || 0} / ${trafficWorkerStatus.total_cookie_14_plus} (${trafficWorkerStatus.total_cookie_14_plus > 0 ? (((trafficWorkerStatus.trend_checked_cookie_14 || 0) / trafficWorkerStatus.total_cookie_14_plus) * 100).toFixed(1) : 0}%)`
+                    ) : (
+                      `${trafficWorkerStatus.checked_cookie_14_plus} / ${trafficWorkerStatus.total_cookie_14_plus} (${trafficWorkerStatus.total_cookie_14_plus > 0 ? ((trafficWorkerStatus.checked_cookie_14_plus / trafficWorkerStatus.total_cookie_14_plus) * 100).toFixed(1) : 0}%)`
+                    )
+                  ) : '0 / 0'}
                 </span>
               </div>
               <div className="w-full h-2 rounded-full bg-slate-800 overflow-hidden">
@@ -1120,22 +1137,29 @@ export default function App() {
                   className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400 transition-all duration-500 rounded-full"
                   style={{
                     width: trafficWorkerStatus && trafficWorkerStatus.total_cookie_14_plus > 0
-                      ? `${Math.min(100, (trafficWorkerStatus.checked_cookie_14_plus / trafficWorkerStatus.total_cookie_14_plus) * 100)}%`
+                      ? trafficWorkerStatus.checked_cookie_14_plus >= trafficWorkerStatus.total_cookie_14_plus
+                        ? `${Math.min(100, (((trafficWorkerStatus.trend_checked_cookie_14 || 0) / trafficWorkerStatus.total_cookie_14_plus) * 100))}%`
+                        : `${Math.min(100, (trafficWorkerStatus.checked_cookie_14_plus / trafficWorkerStatus.total_cookie_14_plus) * 100)}%`
                       : '0%'
                   }}
                 />
               </div>
+              {trafficWorkerStatus?.current_store && (
+                <div className="text-[10px] text-slate-400 mt-1 truncate">
+                  ⚡ Đang xử lý: <span className="text-slate-200 font-medium">{trafficWorkerStatus.current_store}</span>
+                </div>
+              )}
             </div>
 
-            <div className="flex items-center gap-3 text-[11px] flex-wrap">
-              <span className="inline-flex items-center gap-1 text-emerald-400 font-medium bg-emerald-950/50 px-2 py-0.5 rounded border border-emerald-800/40">
-                <CheckCircle2 size={11} /> Có Data: {trafficWorkerStatus?.with_data ?? stats?.traffic?.with_data ?? 0}
+            <div className="flex items-center gap-2.5 text-[11px] flex-wrap">
+              <span className="inline-flex items-center gap-1 text-indigo-300 font-medium bg-indigo-950/50 px-2 py-0.5 rounded border border-indigo-800/40" title="Traffic nhóm Cookie ≥ 14d đã hoàn tất 100%">
+                ✅ Traffic Cookie ≥14d: {trafficWorkerStatus?.checked_cookie_14_plus || 0}/{trafficWorkerStatus?.total_cookie_14_plus || 0}
               </span>
-              <span className="inline-flex items-center gap-1 text-slate-400 font-medium bg-slate-800/60 px-2 py-0.5 rounded border border-slate-700">
-                ⚪ Chưa có data: {trafficWorkerStatus?.no_data ?? stats?.traffic?.no_data ?? 0}
+              <span className="inline-flex items-center gap-1 text-emerald-400 font-medium bg-emerald-950/50 px-2 py-0.5 rounded border border-emerald-800/40" title="Đã có Google Trends hoàn tất cho nhóm Traffic ≥ 10K">
+                🔥 Trends ≥10K: {trafficWorkerStatus?.trend_10k_done || 0}/{trafficWorkerStatus?.above_10k || 0}
               </span>
-              <span className="inline-flex items-center gap-1 text-amber-400 font-medium bg-amber-950/50 px-2 py-0.5 rounded border border-amber-800/40">
-                🔥 ≥ 10K visits: {trafficWorkerStatus?.above_10k ?? stats?.traffic?.above_10k ?? 0}
+              <span className="inline-flex items-center gap-1 text-emerald-300 font-medium bg-emerald-950/50 px-2 py-0.5 rounded border border-emerald-800/40" title="Tổng store có Traffic hoặc Trends thành công">
+                📊 Có Data: {trafficWorkerStatus?.with_data ?? stats?.traffic?.with_data ?? 0}
               </span>
               {(trafficWorkerStatus?.errors || 0) > 0 && (
                 <span className="inline-flex items-center gap-1 text-rose-400 font-medium bg-rose-950/50 px-2 py-0.5 rounded border border-rose-800/40">

@@ -508,10 +508,11 @@ def fetch_website_metadata(website_url: str) -> Tuple[str, str, str]:
         return "", "", ""
 
 
-def enrich_store_data(store: Dict[str, Any]) -> Dict[str, Any]:
+def enrich_store_data(store: Dict[str, Any], require_min_traffic_for_trends: int = 10000) -> Dict[str, Any]:
     """
     Perform real traffic & Google Trends enrichment for a single store record.
     Never invents numbers; returns real verified data or marks as 'no_data'.
+    Prioritizes Google Trends queries for stores with traffic >= require_min_traffic_for_trends.
     """
     global _gt_cooldown_until
     store_id = str(store.get("store_id") or "")
@@ -522,11 +523,14 @@ def enrich_store_data(store: Dict[str, Any]) -> Dict[str, Any]:
     brand = clean_brand_name(name, website_url)
 
     # 1. Domain Traffic lookup
-    traffic_raw = 0
-    traffic_str = ""
-    traffic_status = "no_data"
+    existing_traffic_status = store.get("traffic_status")
+    existing_traffic_raw = store.get("traffic_raw_value")
 
-    if domain:
+    if existing_traffic_status in ["success", "no_data"] and existing_traffic_raw is not None:
+        traffic_raw = int(existing_traffic_raw or 0)
+        traffic_str = str(store.get("traffic_visits") or format_visits(traffic_raw))
+        traffic_status = str(existing_traffic_status)
+    elif domain:
         rank, domain_status = fetch_domain_rank(domain)
         if domain_status == "success" and rank and rank > 0:
             traffic_raw = rank_to_visits(rank)
@@ -534,18 +538,33 @@ def enrich_store_data(store: Dict[str, Any]) -> Dict[str, Any]:
             traffic_status = "success"
         elif domain_status == "error":
             traffic_status = "error"
+            traffic_raw = 0
+            traffic_str = ""
         else:
             traffic_status = "no_data"
+            traffic_raw = 0
+            traffic_str = ""
     else:
         traffic_status = "no_data"
+        traffic_raw = 0
+        traffic_str = ""
 
-    # 2. Google Trends lookup
+    # 2. Google Trends lookup (Prioritizes stores with traffic >= require_min_traffic_for_trends)
     now = time.time()
     existing_trend_status = store.get("trend_status") or "pending"
     existing_timeline_json = store.get("trend_timeline_json") or "[]"
     existing_peak = store.get("trend_peak_month") or ""
 
-    if now < _gt_cooldown_until:
+    should_query_trends = True
+    if require_min_traffic_for_trends > 0 and traffic_raw < require_min_traffic_for_trends:
+        should_query_trends = False
+
+    if not should_query_trends:
+        # Keep existing trend data if already succeeded, otherwise leave pending to save rate-limit quota
+        trend_status = existing_trend_status if existing_trend_status == "success" else "pending"
+        trend_timeline_json = existing_timeline_json
+        trend_peak = existing_peak
+    elif now < _gt_cooldown_until:
         # Currently in cooldown: keep pending status and do not query or mark as error
         trend_status = "pending" if existing_trend_status in ["", "error", "pending"] else existing_trend_status
         trend_timeline_json = existing_timeline_json
@@ -694,24 +713,33 @@ class TrafficWorker:
                     self._stop_event.wait(0.5)
                     continue
 
-                # Fetch stores prioritizing cookie_days >= 14
-                stores = db.get_stores_for_traffic_enrichment(limit=25, cookie_min_days=14)
-                if not stores:
-                    # If all cookie >= 14 stores checked for traffic, check other stores
-                    stores = db.get_stores_for_traffic_enrichment(limit=25, cookie_min_days=0)
-                    if not stores:
-                        # If all stores have traffic checked, check if Google Trends can be enriched for pending stores
-                        if time.time() < _gt_cooldown_until:
-                            wait_sec = min(5.0, max(1.0, _gt_cooldown_until - time.time()))
-                            self._stop_event.wait(wait_sec)
-                            continue
+                stores = []
+                is_low_traffic_trend_phase = False
 
-                        stores = db.get_stores_for_trend_enrichment(limit=25, cookie_min_days=14)
+                # PRIORITY 1: High-traffic stores (Traffic >= 10k) waiting for Google Trends!
+                # If not currently in Trends cooldown, query Trends for these top stores first.
+                if time.time() >= _gt_cooldown_until:
+                    stores = db.get_stores_for_trend_enrichment(limit=25, cookie_min_days=0, min_traffic=10000)
+
+                # PRIORITY 2: Stores that haven't had their Traffic & Category checked yet (prioritize cookie_days >= 14)
+                if not stores:
+                    stores = db.get_stores_for_traffic_enrichment(limit=25, cookie_min_days=14)
+                    if not stores:
+                        stores = db.get_stores_for_traffic_enrichment(limit=25, cookie_min_days=0)
                         if not stores:
-                            stores = db.get_stores_for_trend_enrichment(limit=25, cookie_min_days=0)
-                        if not stores:
-                            logger.info("All stores have been enriched with traffic and trends data. Worker idle.")
-                            break
+                            # PRIORITY 3: If all traffic checked and all >= 10k trends checked, enrich trends for remaining stores
+                            if time.time() < _gt_cooldown_until:
+                                wait_sec = min(5.0, max(1.0, _gt_cooldown_until - time.time()))
+                                self._stop_event.wait(wait_sec)
+                                continue
+
+                            stores = db.get_stores_for_trend_enrichment(limit=25, cookie_min_days=14, min_traffic=0)
+                            if not stores:
+                                stores = db.get_stores_for_trend_enrichment(limit=25, cookie_min_days=0, min_traffic=0)
+                            if not stores:
+                                logger.info("All stores have been enriched with traffic and trends data. Worker idle.")
+                                break
+                            is_low_traffic_trend_phase = True
 
                 for store in stores:
                     if self._stop_event.is_set():
@@ -726,7 +754,10 @@ class TrafficWorker:
                     store_name = store.get("name", "Unknown")
                     self.current_store = store_name
 
-                    res = enrich_store_data(store)
+                    # Only check Trends for stores with traffic >= 10k during normal run,
+                    # unless in Phase 3 where all >= 10k stores are completed.
+                    min_traffic_req = 0 if is_low_traffic_trend_phase else 10000
+                    res = enrich_store_data(store, require_min_traffic_for_trends=min_traffic_req)
                     self.scanned += 1
 
                     if res.get("traffic_status") == "success" or res.get("trend_status") == "success":
@@ -763,7 +794,7 @@ class TrafficWorker:
             return None
 
         store = dict(row)
-        res = enrich_store_data(store)
+        res = enrich_store_data(store, require_min_traffic_for_trends=0)
         # Fetch updated store record
         conn = db.get_db()
         cursor = conn.cursor()

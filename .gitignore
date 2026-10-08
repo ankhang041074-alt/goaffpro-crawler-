@@ -10,3 +10,4 @@ data/goaffpro.db-shm
 data/goaffpro.db-journal
 !data/goaffpro.db
 exports/
+*.log

@@ -612,17 +612,24 @@ def get_stores_for_traffic_enrichment(limit: int = 50, cookie_min_days: int = 14
     return rows
 
 
-def get_stores_for_trend_enrichment(limit: int = 50, cookie_min_days: int = 14) -> List[Dict[str, Any]]:
+def get_stores_for_trend_enrichment(
+    limit: int = 50,
+    cookie_min_days: int = 14,
+    min_traffic: int = 0
+) -> List[Dict[str, Any]]:
     """Get stores with cookie_days >= cookie_min_days that have traffic checked but Google Trends is still pending."""
     conn = get_db()
     cursor = conn.cursor()
     cursor.execute("""
-    SELECT store_id, name, website_url, cookie_days, commission_value, category, currency, status, traffic_status, trend_status, trend_timeline_json, trend_peak_month
+    SELECT store_id, name, website_url, cookie_days, commission_value, category, currency, status, 
+           traffic_visits, traffic_raw_value, traffic_status, trend_status, trend_timeline_json, trend_peak_month
     FROM stores
-    WHERE cookie_days >= ? AND (trend_status IS NULL OR trend_status = 'pending' OR trend_status = '')
-    ORDER BY cookie_days DESC, commission_value DESC
+    WHERE cookie_days >= ? 
+      AND (trend_status IS NULL OR trend_status = 'pending' OR trend_status = '')
+      AND COALESCE(traffic_raw_value, 0) >= ?
+    ORDER BY COALESCE(traffic_raw_value, 0) DESC, cookie_days DESC, commission_value DESC
     LIMIT ?
-    """, (cookie_min_days, limit))
+    """, (cookie_min_days, min_traffic, limit))
     rows = [dict(r) for r in cursor.fetchall()]
     conn.close()
     return rows

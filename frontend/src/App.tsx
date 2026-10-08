@@ -65,6 +65,7 @@ interface Store {
   trend_timeline_json?: string;
   trend_peak_month?: string;
   trend_status?: 'success' | 'no_data' | 'error' | 'pending';
+  trend_is_steady?: number | boolean;
   traffic_updated_at?: string;
   categories_json?: string;
   site_title?: string;
@@ -350,8 +351,11 @@ export default function App() {
       let trendMinScoreVal = '';
       let trendPeakOnlyVal = false;
       let trendGrowthOnlyVal = false;
+      let trendSteadyOnlyVal = false;
 
-      if (trendScoreFilter === 'growth') {
+      if (trendScoreFilter === 'steady') {
+        trendSteadyOnlyVal = true;
+      } else if (trendScoreFilter === 'growth') {
         trendGrowthOnlyVal = true;
       } else if (trendScoreFilter === 'peak') {
         trendPeakOnlyVal = true;
@@ -371,6 +375,7 @@ export default function App() {
         trend_min_score: trendMinScoreVal,
         trend_peak_only: trendPeakOnlyVal ? 'true' : 'false',
         trend_growth_only: trendGrowthOnlyVal ? 'true' : 'false',
+        trend_steady_only: trendSteadyOnlyVal ? 'true' : 'false',
         adult_filter: adultFilter,
         notes_filter: notesFilter !== 'all' ? notesFilter : '',
         favorite_only: favoriteOnly ? 'true' : 'false',
@@ -580,8 +585,11 @@ export default function App() {
     let trendMinScoreVal = '';
     let trendPeakOnlyVal = false;
     let trendGrowthOnlyVal = false;
+    let trendSteadyOnlyVal = false;
 
-    if (trendScoreFilter === 'growth') {
+    if (trendScoreFilter === 'steady') {
+      trendSteadyOnlyVal = true;
+    } else if (trendScoreFilter === 'growth') {
       trendGrowthOnlyVal = true;
     } else if (trendScoreFilter === 'peak') {
       trendPeakOnlyVal = true;
@@ -601,6 +609,7 @@ export default function App() {
       trend_min_score: trendMinScoreVal,
       trend_peak_only: trendPeakOnlyVal ? 'true' : 'false',
       trend_growth_only: trendGrowthOnlyVal ? 'true' : 'false',
+      trend_steady_only: trendSteadyOnlyVal ? 'true' : 'false',
       adult_filter: adultFilter,
       notes_filter: notesFilter !== 'all' ? notesFilter : '',
       favorite_only: favoriteOnly ? 'true' : 'false'
@@ -1250,7 +1259,7 @@ export default function App() {
                 <option value="12">Tháng 12</option>
               </select>
 
-              {/* Tiêu Chí Xu Hướng (Đón sóng, Đỉnh cao, Thương hiệu lớn) */}
+              {/* Tiêu Chí Xu Hướng (Đều quanh năm, Đón sóng, Đỉnh cao, Thương hiệu lớn) */}
               <select
                 value={trendScoreFilter}
                 onChange={e => {
@@ -1258,14 +1267,17 @@ export default function App() {
                   setPage(1);
                 }}
                 className={`text-xs font-medium py-1.5 px-3 rounded-lg border focus:outline-none transition cursor-pointer ${
-                  trendScoreFilter === 'growth'
+                  trendScoreFilter === 'steady'
+                    ? 'bg-emerald-50 border-emerald-400 text-emerald-900 font-bold'
+                    : trendScoreFilter === 'growth'
                     ? 'bg-emerald-50 border-emerald-400 text-emerald-900 font-bold'
                     : trendScoreFilter !== 'all'
                     ? 'bg-amber-50 border-amber-300 text-amber-900 font-bold'
                     : 'bg-white border-slate-200 text-slate-700 hover:border-slate-300'
                 }`}
               >
-                <option value="all">🌊 Tất cả (Có tìm kiếm trong tháng)</option>
+                <option value="all">🌊 Tất cả xu hướng (Toàn bộ)</option>
+                <option value="steady">🟢 Đều đặn quanh năm (Evergreen / Nhấp đều)</option>
                 <option value="growth">↗️ Đón sóng tăng trưởng (Đang vào mùa - Tăng so với tháng trước)</option>
                 <option value="peak">🏔️ Bùng nổ đạt đỉnh (Mùa bán chạy nhất của store)</option>
                 <option value="high">🔥 Lượng tìm kiếm cao (Thương hiệu lớn)</option>
@@ -1275,7 +1287,9 @@ export default function App() {
             {trendMonthFilter !== 'all' && (
               <span className="text-[11px] text-amber-800 font-medium bg-amber-50/80 border border-amber-200 px-2.5 py-1 rounded-md">
                 Đang dò store hot vào <strong>Tháng {trendMonthFilter}</strong> {
-                  trendScoreFilter === 'growth'
+                  trendScoreFilter === 'steady'
+                    ? '(🟢 Đều đặn quanh năm)'
+                    : trendScoreFilter === 'growth'
                     ? '(↗️ Đón sóng tăng trưởng)'
                     : trendScoreFilter === 'peak'
                     ? '(🏔️ Đạt đỉnh cao nhất)'
@@ -1322,7 +1336,9 @@ export default function App() {
               {trendScoreFilter !== 'all' && (
                 <span className="inline-flex items-center gap-1 text-[11px] bg-emerald-50 text-emerald-800 px-2 py-0.5 rounded-md border border-emerald-300 font-medium">
                   Xu hướng: <strong>{
-                    trendScoreFilter === 'growth'
+                    trendScoreFilter === 'steady'
+                      ? '🟢 Đều đặn quanh năm (Evergreen)'
+                      : trendScoreFilter === 'growth'
                       ? '↗️ Đón sóng tăng trưởng'
                       : trendScoreFilter === 'peak'
                       ? '🏔️ Bùng nổ đạt đỉnh'
@@ -1775,6 +1791,16 @@ export default function App() {
                                   </button>
                                 )}
 
+                                {/* Evergreen Steady Badge */}
+                                {(store.trend_is_steady === 1 || store.trend_is_steady === true) && (
+                                  <span
+                                    className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-[10px] font-bold bg-emerald-50 text-emerald-800 border border-emerald-300 w-fit"
+                                    title="Lưu lượng tìm kiếm đều đặn quanh năm, traffic nhấp đều (Evergreen Steady)"
+                                  >
+                                    🟢 Đều quanh năm
+                                  </span>
+                                )}
+
                                 {/* Seasonal month score or peak badge */}
                                 {trendMonthFilter !== 'all' ? (
                                   isSeasonalPeak ? (
@@ -1793,15 +1819,21 @@ export default function App() {
                                         ? 'bg-amber-50 text-amber-700 border border-amber-200'
                                         : 'bg-slate-100 text-slate-600 border border-slate-200'
                                     }`}>
-                                      🔥 T{trendMonthFilter}: {seasonalScore}đ
+                                      {(store.trend_is_steady === 1 || store.trend_is_steady === true) ? '🟢' : '🔥'} T{trendMonthFilter}: {seasonalScore}đ
                                     </span>
                                   ) : (
                                     <span className="text-[10px] text-slate-400">T{trendMonthFilter}: 0đ</span>
                                   )
                                 ) : store.trend_peak_month ? (
-                                  <span className="text-[10px] text-amber-600 font-semibold truncate max-w-[120px]">
-                                    🔥 {store.trend_peak_month.split(' ')[0]}
-                                  </span>
+                                  (store.trend_is_steady === 1 || store.trend_is_steady === true) ? (
+                                    <span className="text-[10px] text-slate-500 font-medium truncate max-w-[120px]" title={`Đỉnh: ${store.trend_peak_month}`}>
+                                      Đỉnh: {store.trend_peak_month.split(' ')[0]}
+                                    </span>
+                                  ) : (
+                                    <span className="text-[10px] text-amber-600 font-semibold truncate max-w-[120px]">
+                                      🔥 {store.trend_peak_month.split(' ')[0]}
+                                    </span>
+                                  )
                                 ) : null}
                               </div>
                             );
@@ -1980,28 +2012,39 @@ export default function App() {
                                   </div>
                                 </div>
 
-                                {/* Card 2: Peak Season */}
+                                {/* Card 2: Peak Season & Steady Indicator */}
                                 <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200/80 flex flex-col justify-between">
                                   <div className="flex items-center justify-between text-slate-500 text-[11px] font-medium mb-1">
                                     <span className="flex items-center gap-1">
                                       <Flame size={12} className="text-amber-500" />
-                                      Mùa tìm kiếm đỉnh cao (Peak Month)
+                                      Mùa tìm kiếm & Độ ổn định
                                     </span>
                                     <span className="text-[10px] font-semibold text-indigo-600">Google Trends</span>
                                   </div>
-                                  <div className="text-lg font-bold text-slate-900">
-                                    {store.trend_peak_month ? (
-                                      <span className="text-amber-600 inline-flex items-center gap-1">
-                                        🔥 {store.trend_peak_month}
+                                  <div className="flex flex-col gap-1">
+                                    {(store.trend_is_steady === 1 || store.trend_is_steady === true) && (
+                                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-xs font-bold bg-emerald-50 text-emerald-800 border border-emerald-300 w-fit">
+                                        🟢 Đều đặn quanh năm (Evergreen Steady)
                                       </span>
-                                    ) : store.trend_status === 'no_data' ? (
-                                      <span className="text-xs font-medium text-slate-400">Chưa đủ dữ liệu</span>
-                                    ) : (
-                                      <span className="text-xs font-medium text-slate-400">Chưa có số liệu</span>
                                     )}
+                                    <div className="text-lg font-bold text-slate-900">
+                                      {store.trend_peak_month ? (
+                                        <span className="text-amber-600 inline-flex items-center gap-1">
+                                          🔥 {store.trend_peak_month}
+                                        </span>
+                                      ) : store.trend_status === 'no_data' ? (
+                                        <span className="text-xs font-medium text-slate-400">Chưa đủ dữ liệu</span>
+                                      ) : (
+                                        <span className="text-xs font-medium text-slate-400">Chưa có số liệu</span>
+                                      )}
+                                    </div>
                                   </div>
                                   <div className="text-[10px] text-slate-400 mt-1">
-                                    {store.trend_peak_month ? 'Tháng có lượng quan tâm mua sắm và tìm kiếm cao nhất 2-5 năm' : 'Thương hiệu chưa đủ lượng tìm kiếm tối thiểu của Google Trends'}
+                                    {(store.trend_is_steady === 1 || store.trend_is_steady === true)
+                                      ? 'Lưu lượng tìm kiếm duy trì đều đặn ổn định qua các tháng và các năm, không bị đứt đoạn hay đóng băng traffic.'
+                                      : store.trend_peak_month
+                                      ? 'Tháng có lượng quan tâm mua sắm và tìm kiếm cao nhất 2-5 năm'
+                                      : 'Thương hiệu chưa đủ lượng tìm kiếm tối thiểu của Google Trends'}
                                   </div>
                                 </div>
 
@@ -2066,6 +2109,11 @@ export default function App() {
                                     <h5 className="text-xs font-bold text-slate-800">
                                       Biểu đồ xu hướng tìm kiếm Google 2-5 năm (Search Interest 0 - 100)
                                     </h5>
+                                    {(store.trend_is_steady === 1 || store.trend_is_steady === true) && (
+                                      <span className="text-[10px] font-bold text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-300">
+                                        🟢 Evergreen Steady
+                                      </span>
+                                    )}
                                   </div>
                                   {store.trend_peak_month && (
                                     <span className="text-[11px] font-bold text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full border border-amber-200">

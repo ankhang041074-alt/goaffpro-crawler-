@@ -340,11 +340,13 @@ def fetch_google_trends(brand_name: str) -> Dict[str, Any]:
             {"month": r["month"], "value": int(r[brand_name])}
             for _, r in monthly.iterrows()
         ]
+        is_steady = db.calculate_is_steady_trend(timeline)
 
         return {
             "status": "success",
             "timeline": timeline,
             "peak_month": peak_month,
+            "is_steady": is_steady,
         }
 
     except Exception as e:
@@ -433,6 +435,7 @@ def enrich_store_data(store: Dict[str, Any], require_min_traffic_for_trends: int
     existing_trend_status = store.get("trend_status") or "pending"
     existing_timeline_json = store.get("trend_timeline_json") or "[]"
     existing_peak = store.get("trend_peak_month") or ""
+    existing_is_steady = int(store.get("trend_is_steady") or 0)
 
     should_query_trends = True
     if require_min_traffic_for_trends > 0 and traffic_raw < require_min_traffic_for_trends:
@@ -443,11 +446,13 @@ def enrich_store_data(store: Dict[str, Any], require_min_traffic_for_trends: int
         trend_status = existing_trend_status if existing_trend_status == "success" else "pending"
         trend_timeline_json = existing_timeline_json
         trend_peak = existing_peak
+        trend_is_steady = existing_is_steady
     elif now < _gt_cooldown_until:
         # Currently in cooldown: keep pending status and do not query or mark as error
         trend_status = "pending" if existing_trend_status in ["", "error", "pending"] else existing_trend_status
         trend_timeline_json = existing_timeline_json
         trend_peak = existing_peak
+        trend_is_steady = existing_is_steady
     else:
         trend_res = fetch_google_trends(brand)
         t_status = trend_res.get("status", "no_data")
@@ -456,18 +461,22 @@ def enrich_store_data(store: Dict[str, Any], require_min_traffic_for_trends: int
             trend_timeline = trend_res.get("timeline", [])
             trend_timeline_json = json.dumps(trend_timeline) if trend_timeline else "[]"
             trend_peak = trend_res.get("peak_month", "")
+            trend_is_steady = 1 if trend_res.get("is_steady", False) else 0
         elif t_status == "no_data":
             trend_status = "no_data"
             trend_timeline_json = "[]"
             trend_peak = ""
+            trend_is_steady = 0
         elif t_status in ["pending", "cooldown"]:
             trend_status = "pending"
             trend_timeline_json = existing_timeline_json
             trend_peak = existing_peak
+            trend_is_steady = existing_is_steady
         else:
             trend_status = "error"
             trend_timeline_json = "[]"
             trend_peak = ""
+            trend_is_steady = 0
 
     result = {
         "traffic_visits": traffic_str,
@@ -477,6 +486,7 @@ def enrich_store_data(store: Dict[str, Any], require_min_traffic_for_trends: int
         "trend_timeline_json": trend_timeline_json,
         "trend_peak_month": trend_peak,
         "trend_status": trend_status,
+        "trend_is_steady": trend_is_steady,
     }
 
     db.update_store_traffic_and_trends(store_id, result)

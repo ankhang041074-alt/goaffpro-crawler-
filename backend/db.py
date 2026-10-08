@@ -1,4 +1,5 @@
 import sqlite3
+import json
 import re
 from pathlib import Path
 from typing import Optional, List, Dict, Any, Union
@@ -35,6 +36,96 @@ def parse_commission_numeric(rate_str: str) -> float:
     except Exception:
         pass
     return 0.0
+
+
+def calculate_is_steady_trend(timeline: List[Dict[str, Any]]) -> bool:
+    """
+    Evaluate if a store's Google Trends search interest is steady / evergreen
+    rather than an isolated seasonal spike or noise.
+    
+    Criteria:
+    - Timeline has sustained non-zero activity (active in >= 18 months or >= 65% for <= 24 mo; >= 60% for > 24 mo, min 12 active months)
+    - No long dormant dead gaps (max consecutive zeroes <= 6 months)
+    - Average monthly search interest >= 5.0 points
+    - Multi-year activity across recorded timeline with regular non-zero interest in each recorded year (>= 3 active months in full years)
+    - No single extreme outlier spike dominating the entire history (> 40% of the sum)
+    """
+    if not timeline or len(timeline) < 6:
+        return False
+    try:
+        vals = []
+        months = []
+        for p in timeline:
+            if not isinstance(p, dict):
+                continue
+            m = str(p.get("month") or "").strip()
+            raw_v = p.get("value")
+            try:
+                v = int(float(raw_v)) if raw_v is not None else 0
+            except (ValueError, TypeError):
+                v = 0
+            vals.append(max(0, v))
+            months.append(m)
+
+        total_months = len(vals)
+        if total_months < 6:
+            return False
+
+        active_months = sum(1 for v in vals if v > 0)
+        if active_months < 12:
+            return False
+
+        active_ratio = active_months / total_months
+        avg_score = sum(vals) / total_months
+        if avg_score < 5.0:
+            return False
+
+        # For shorter timelines (<= 24 months), require >= 18 active months or >= 65%
+        # For full multi-year timelines (> 24 months, e.g. 5-year 61 months), require sustained active ratio >= 60%
+        if total_months <= 24:
+            if not (active_months >= 18 or active_ratio >= 0.65):
+                return False
+        else:
+            if active_ratio < 0.60:
+                return False
+
+        # Prevent dormant dead streaks: steady traffic should not be dead for > 6 consecutive months
+        max_zeros = 0
+        cur_zeros = 0
+        for v in vals:
+            if v == 0:
+                cur_zeros += 1
+                if cur_zeros > max_zeros:
+                    max_zeros = cur_zeros
+            else:
+                cur_zeros = 0
+        if max_zeros > 6:
+            return False
+
+        years: Dict[str, List[int]] = {}
+        for m, v in zip(months, vals):
+            yr = m.split("-")[0] if "-" in m else "unknown"
+            years.setdefault(yr, []).append(v)
+
+        active_years = sum(1 for yr_vals in years.values() if any(v > 0 for v in yr_vals))
+        if len(years) >= 2 and active_years < 2:
+            return False
+
+        # For full calendar years recorded (>= 10 months in that year), require regular activity (>= 3 active months)
+        for yr, yr_vals in years.items():
+            if len(yr_vals) >= 10:
+                yr_act = sum(1 for v in yr_vals if v > 0)
+                if yr_act < 3:
+                    return False
+
+        total_sum = sum(vals)
+        if total_sum > 0 and (max(vals) / total_sum) > 0.40:
+            return False
+
+        return True
+    except Exception:
+        return False
+
 
 
 def init_db():
@@ -98,6 +189,7 @@ def init_db():
         ("trend_timeline_json", "TEXT DEFAULT ''"),
         ("trend_peak_month", "TEXT DEFAULT ''"),
         ("trend_status", "TEXT DEFAULT 'pending'"),
+        ("trend_is_steady", "INTEGER DEFAULT 0"),
         ("traffic_updated_at", "DATETIME DEFAULT NULL"),
         ("categories_json", "TEXT DEFAULT '[]'"),
         ("site_title", "TEXT DEFAULT ''"),
@@ -111,7 +203,26 @@ def init_db():
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_traffic ON stores(traffic_raw_value)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_traffic_status ON stores(traffic_status)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_trend_status ON stores(trend_status)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_trend_steady ON stores(trend_is_steady)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_is_adult ON stores(is_adult)")
+
+    # Backfill trend_is_steady for existing records with trend data
+    cursor.execute("SELECT store_id, trend_timeline_json, trend_is_steady FROM stores WHERE trend_status = 'success' AND trend_timeline_json != ''")
+    rows = cursor.fetchall()
+    updates = []
+    for r in rows:
+        try:
+            tl = json.loads(r["trend_timeline_json"])
+            steady_val = 1 if calculate_is_steady_trend(tl) else 0
+            if r["trend_is_steady"] != steady_val:
+                updates.append((steady_val, r["store_id"]))
+        except Exception:
+            pass
+    if updates:
+        cursor.executemany("UPDATE stores SET trend_is_steady = ? WHERE store_id = ?", updates)
+
+    # Ensure stores without successful trends never have trend_is_steady flag
+    cursor.execute("UPDATE stores SET trend_is_steady = 0 WHERE (trend_status != 'success' OR trend_status IS NULL) AND trend_is_steady != 0")
 
     conn.commit()
     conn.close()
@@ -292,6 +403,7 @@ def get_stores(
     trend_min_score: Optional[Union[int, str]] = None,
     trend_peak_only: bool = False,
     trend_growth_only: bool = False,
+    trend_steady_only: bool = False,
     adult_filter: Optional[str] = "hide",
     notes_filter: Optional[str] = None,
     favorite_only: bool = False,
@@ -393,6 +505,10 @@ def get_stores(
 
     peak_only = trend_peak_only is True or (isinstance(trend_peak_only, str) and trend_peak_only.strip().lower() in ("true", "1"))
     growth_only = trend_growth_only is True or (isinstance(trend_growth_only, str) and trend_growth_only.strip().lower() in ("true", "1"))
+    steady_only = trend_steady_only is True or (isinstance(trend_steady_only, str) and trend_steady_only.strip().lower() in ("true", "1"))
+
+    if steady_only:
+        conditions.append("(trend_status = 'success' AND trend_is_steady = 1)")
 
     if month_val is not None:
         month_suffix = f"-{month_val:02d}"
@@ -411,6 +527,16 @@ def get_stores(
                 ))
             """)
             params.extend([f"%{month_suffix}", score_val])
+        elif steady_only:
+            # Steady only with specific month: ensure store has active search interest in that month (non-zero)
+            conditions.append("""
+                (trend_status = 'success' AND EXISTS (
+                    SELECT 1 FROM json_each(stores.trend_timeline_json)
+                    WHERE json_extract(value, '$.month') LIKE ?
+                      AND CAST(json_extract(value, '$.value') AS INTEGER) > 0
+                ))
+            """)
+            params.append(f"%{month_suffix}")
         else:
             # Default when month is selected: store has peak in this month OR score in this month >= 30
             conditions.append("""
@@ -432,14 +558,24 @@ def get_stores(
                     COALESCE((SELECT CAST(json_extract(value, '$.value') AS INTEGER) FROM json_each(stores.trend_timeline_json) WHERE json_extract(value, '$.month') LIKE '%{prev_month_suffix}' ORDER BY json_extract(value, '$.month') DESC LIMIT 1), 0)
                 ))
             """)
-    elif score_val is not None:
-        conditions.append("""
-            (trend_status = 'success' AND EXISTS (
-                SELECT 1 FROM json_each(stores.trend_timeline_json)
-                WHERE CAST(json_extract(value, '$.value') AS INTEGER) >= ?
-            ))
-        """)
-        params.append(score_val)
+    else:
+        if peak_only:
+            conditions.append("(trend_status = 'success' AND trend_peak_month != '')")
+        if score_val is not None:
+            conditions.append("""
+                (trend_status = 'success' AND EXISTS (
+                    SELECT 1 FROM json_each(stores.trend_timeline_json)
+                    WHERE CAST(json_extract(value, '$.value') AS INTEGER) >= ?
+                ))
+            """)
+            params.append(score_val)
+        if growth_only:
+            conditions.append("""
+                (trend_status = 'success' AND (
+                    COALESCE((SELECT CAST(json_extract(value, '$.value') AS INTEGER) FROM json_each(stores.trend_timeline_json) ORDER BY json_extract(value, '$.month') DESC LIMIT 1), 0) >
+                    COALESCE((SELECT CAST(json_extract(value, '$.value') AS INTEGER) FROM json_each(stores.trend_timeline_json) ORDER BY json_extract(value, '$.month') DESC LIMIT 1 OFFSET 1), 0)
+                ))
+            """)
 
     if isinstance(notes_filter, str):
         if notes_filter == "has_notes":
@@ -459,7 +595,7 @@ def get_stores(
 
     # Allowed sorting fields
     safe_sort_col = "commission_value"
-    if isinstance(sort_by, str) and sort_by in ["name", "commission_value", "cookie_days", "currency", "notes", "crawled_at", "updated_at", "traffic_raw_value"]:
+    if isinstance(sort_by, str) and sort_by in ["name", "commission_value", "cookie_days", "currency", "notes", "crawled_at", "updated_at", "traffic_raw_value", "trend_is_steady"]:
         safe_sort_col = sort_by
 
     safe_order = "DESC"
@@ -579,6 +715,7 @@ def update_store_traffic_and_trends(store_id: str, data: Dict[str, Any]) -> bool
         trend_timeline_json = ?,
         trend_peak_month = ?,
         trend_status = ?,
+        trend_is_steady = ?,
         traffic_updated_at = CURRENT_TIMESTAMP
     WHERE store_id = ?
     """, (
@@ -589,6 +726,7 @@ def update_store_traffic_and_trends(store_id: str, data: Dict[str, Any]) -> bool
         str(data.get("trend_timeline_json", "")),
         str(data.get("trend_peak_month", "")),
         str(data.get("trend_status", "pending")),
+        int(data.get("trend_is_steady", 0)),
         store_id
     ))
     conn.commit()
@@ -602,7 +740,7 @@ def get_stores_for_traffic_enrichment(limit: int = 50, cookie_min_days: int = 14
     cursor = conn.cursor()
     cursor.execute("""
     SELECT store_id, name, website_url, cookie_days, commission_value, category, currency, status, 
-           traffic_status, trend_status, trend_timeline_json, trend_peak_month, site_description
+           traffic_status, trend_status, trend_timeline_json, trend_peak_month, trend_is_steady, site_description
     FROM stores
     WHERE cookie_days >= ? AND (traffic_status IS NULL OR traffic_status = 'pending' OR traffic_status = '')
     ORDER BY cookie_days DESC, commission_value DESC
@@ -623,7 +761,7 @@ def get_stores_for_trend_enrichment(
     cursor = conn.cursor()
     cursor.execute("""
     SELECT store_id, name, website_url, cookie_days, commission_value, category, currency, status, 
-           traffic_visits, traffic_raw_value, traffic_status, trend_status, trend_timeline_json, trend_peak_month, site_description
+           traffic_visits, traffic_raw_value, traffic_status, trend_status, trend_timeline_json, trend_peak_month, trend_is_steady, site_description
     FROM stores
     WHERE cookie_days >= ? 
       AND (trend_status IS NULL OR trend_status = 'pending' OR trend_status = '')

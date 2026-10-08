@@ -116,19 +116,17 @@ else:
 
 _vpn_region_index = 0
 VPN_REGIONS = [
-    "singapore-jurong",
-    "singapore-cbd",
-    "japan-tokyo",
-    "japan-osaka",
-    "taiwan-3",
-    "hong-kong-1",
-    "hong-kong-2",
     "usa-los-angeles-1",
-    "usa-san-francisco",
-    "usa-seattle",
-    "uk-london",
+    "japan-tokyo",
     "germany-frankfurt-1",
+    "usa-san-francisco",
+    "uk-london",
+    "japan-osaka",
+    "usa-seattle",
+    "singapore-jurong",
     "australia-sydney",
+    "taiwan-3",
+    "singapore-cbd",
 ]
 
 

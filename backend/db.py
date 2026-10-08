@@ -601,7 +601,8 @@ def get_stores_for_traffic_enrichment(limit: int = 50, cookie_min_days: int = 14
     conn = get_db()
     cursor = conn.cursor()
     cursor.execute("""
-    SELECT store_id, name, website_url, cookie_days, commission_value, category, currency, status, traffic_status, trend_status, trend_timeline_json, trend_peak_month
+    SELECT store_id, name, website_url, cookie_days, commission_value, category, currency, status, 
+           traffic_status, trend_status, trend_timeline_json, trend_peak_month, site_description
     FROM stores
     WHERE cookie_days >= ? AND (traffic_status IS NULL OR traffic_status = 'pending' OR traffic_status = '')
     ORDER BY cookie_days DESC, commission_value DESC
@@ -622,7 +623,7 @@ def get_stores_for_trend_enrichment(
     cursor = conn.cursor()
     cursor.execute("""
     SELECT store_id, name, website_url, cookie_days, commission_value, category, currency, status, 
-           traffic_visits, traffic_raw_value, traffic_status, trend_status, trend_timeline_json, trend_peak_month
+           traffic_visits, traffic_raw_value, traffic_status, trend_status, trend_timeline_json, trend_peak_month, site_description
     FROM stores
     WHERE cookie_days >= ? 
       AND (trend_status IS NULL OR trend_status = 'pending' OR trend_status = '')

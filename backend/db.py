@@ -758,7 +758,7 @@ def update_store_categorization(
 
 
 def update_store_traffic_and_trends(store_id: str, data: Dict[str, Any]) -> bool:
-    """Update store traffic and Google Trends data."""
+    """Update store traffic, Similarweb metrics, and Google Trends data."""
     conn = get_db()
     cursor = conn.cursor()
     cursor.execute("""
@@ -771,6 +771,12 @@ def update_store_traffic_and_trends(store_id: str, data: Dict[str, Any]) -> bool
         trend_peak_month = ?,
         trend_status = ?,
         trend_is_steady = ?,
+        traffic_source = COALESCE(NULLIF(?, ''), traffic_source),
+        traffic_bounce_rate = COALESCE(NULLIF(?, ''), traffic_bounce_rate),
+        traffic_avg_duration = COALESCE(NULLIF(?, ''), traffic_avg_duration),
+        traffic_global_rank = CASE WHEN ? > 0 THEN ? ELSE traffic_global_rank END,
+        traffic_country_rank = CASE WHEN ? > 0 THEN ? ELSE traffic_country_rank END,
+        traffic_pages_per_visit = COALESCE(NULLIF(?, ''), traffic_pages_per_visit),
         traffic_updated_at = CURRENT_TIMESTAMP
     WHERE store_id = ?
     """, (
@@ -782,6 +788,14 @@ def update_store_traffic_and_trends(store_id: str, data: Dict[str, Any]) -> bool
         str(data.get("trend_peak_month", "")),
         str(data.get("trend_status", "pending")),
         int(data.get("trend_is_steady", 0)),
+        str(data.get("traffic_source", "")),
+        str(data.get("traffic_bounce_rate", "")),
+        str(data.get("traffic_avg_duration", "")),
+        int(data.get("traffic_global_rank", 0)),
+        int(data.get("traffic_global_rank", 0)),
+        int(data.get("traffic_country_rank", 0)),
+        int(data.get("traffic_country_rank", 0)),
+        str(data.get("traffic_pages_per_visit", "")),
         store_id
     ))
     conn.commit()

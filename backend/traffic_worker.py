@@ -361,7 +361,7 @@ class GoogleTrendsSessionManager:
 
     def recycle_session(self):
         with self._lock:
-            self._init_cffi_session_locked(force_new=False)
+            self._init_cffi_session_locked(force_new=True)
             if self._session is not None:
                 try:
                     self._session.close()
@@ -433,6 +433,15 @@ class GoogleTrendsSessionManager:
             for k, v in cached.items():
                 self._cffi_session.cookies.set(k, v, domain=".google.com")
             logger.info(f"Loaded {len(cached)} cached Google Trends cookies into curl_cffi session.")
+        
+        # Warm up with landing page to guarantee live NID cookies
+        try:
+            r_warm = self._cffi_session.get("https://trends.google.com/", timeout=6)
+            if r_warm.status_code == 200:
+                self._save_cookies_locked()
+                logger.info("curl_cffi session warmed up successfully with live Google cookies.")
+        except Exception as e:
+            logger.debug(f"curl_cffi warmup notice: {e}")
 
     def _load_cached_cookies_locked(self) -> bool:
         try:
@@ -596,9 +605,11 @@ def fetch_google_trends_direct(brand_name: str) -> Optional[Dict[str, Any]]:
     r1 = None
     for attempt in range(2):
         try:
-            r1 = s.post(explore_url, params=explore_params, headers=req_headers, timeout=12)
+            r1 = s.get(explore_url, params=explore_params, headers=req_headers, timeout=12)
             if r1.status_code == 429 and attempt == 0:
-                time.sleep(1.5)
+                trends_session_mgr.recycle_session()
+                s = trends_session_mgr.get_cffi_session()
+                time.sleep(1.0)
                 continue
             break
         except Exception as e:
@@ -732,7 +743,7 @@ def fetch_google_trends_direct(brand_name: str) -> Optional[Dict[str, Any]]:
     }
 
 
-def fetch_google_trends(brand_name: str) -> Dict[str, Any]:
+def fetch_google_trends(brand_name: str, bypass_cooldown: bool = False) -> Dict[str, Any]:
     """
     Fetch 5-year Google Trends search interest timeline for a brand.
     STRICT REQUIREMENT: NEVER FAKE OR INVENT NUMBERS.
@@ -747,7 +758,7 @@ def fetch_google_trends(brand_name: str) -> Dict[str, Any]:
 
     # Check if Google Trends is currently in cooldown period due to 429
     now = time.time()
-    if now < _gt_cooldown_until:
+    if now < _gt_cooldown_until and not bypass_cooldown:
         rem = int(_gt_cooldown_until - now)
         return {
             "status": "pending",
@@ -868,6 +879,8 @@ def enrich_store_data(
     website_url = str(store.get("website_url") or "")
 
     domain = extract_domain(website_url)
+    if not domain:
+        domain = extract_domain(str(store.get("portal_url") or ""))
     brand = clean_brand_name(name, website_url, str(store.get("site_title") or ""))
 
     # 1. Domain Traffic lookup
@@ -877,6 +890,12 @@ def enrich_store_data(
     traffic_raw = 0
     traffic_str = ""
     traffic_status = "no_data"
+    traffic_source = str(store.get("traffic_source") or "")
+    traffic_bounce_rate = str(store.get("traffic_bounce_rate") or "")
+    traffic_avg_duration = str(store.get("traffic_avg_duration") or "")
+    traffic_global_rank = int(store.get("traffic_global_rank") or 0)
+    traffic_country_rank = int(store.get("traffic_country_rank") or 0)
+    traffic_pages_per_visit = str(store.get("traffic_pages_per_visit") or "")
 
     # If requested, attempt Similarweb direct extraction from traffic.cv first
     if use_traffic_cv and domain:
@@ -887,15 +906,27 @@ def enrich_store_data(
                 traffic_raw = cv_res.get("traffic_raw_value", 0)
                 traffic_str = cv_res.get("traffic_visits", "")
                 traffic_status = "success"
+                traffic_source = "traffic_cv"
+                traffic_bounce_rate = cv_res.get("bounce_rate", "")
+                traffic_avg_duration = cv_res.get("avg_duration", "")
+                traffic_global_rank = cv_res.get("global_rank", 0)
+                traffic_country_rank = cv_res.get("country_rank", 0)
+                traffic_pages_per_visit = cv_res.get("pages_per_visit", "")
             elif cv_res.get("status") == "no_data":
                 traffic_raw = 0
                 traffic_str = ""
                 traffic_status = "no_data"
+                traffic_source = "traffic_cv"
+                traffic_bounce_rate = ""
+                traffic_avg_duration = ""
+                traffic_global_rank = 0
+                traffic_country_rank = 0
+                traffic_pages_per_visit = ""
         except Exception as e:
             logger.warning(f"traffic_cv lookup error for {domain}: {e}")
 
-    # Fallback to Tranco if traffic_status is not success
-    if traffic_status != "success":
+    # Fallback to Tranco if traffic_status is not success and not traffic_cv
+    if traffic_status != "success" and traffic_source != "traffic_cv":
         if not force_refresh_traffic and existing_traffic_status in ["success", "no_data"] and existing_traffic_raw is not None:
             traffic_raw = int(existing_traffic_raw or 0)
             traffic_str = str(store.get("traffic_visits") or format_visits(traffic_raw))
@@ -906,6 +937,7 @@ def enrich_store_data(
                 traffic_raw = rank_to_visits(rank)
                 traffic_str = format_visits(traffic_raw)
                 traffic_status = "success"
+                traffic_source = "tranco"
             elif domain_status == "error":
                 traffic_status = "error"
                 traffic_raw = 0
@@ -918,10 +950,8 @@ def enrich_store_data(
             traffic_status = "no_data"
             traffic_raw = 0
             traffic_str = ""
-        traffic_raw = 0
-        traffic_str = ""
 
-    # 2. Google Trends lookup (Prioritizes stores with traffic >= require_min_traffic_for_trends)
+    # 2. Google Trends lookup (Always active when force_refresh_traffic is True)
     now = time.time()
     existing_trend_status = store.get("trend_status") or "pending"
     existing_timeline_json = store.get("trend_timeline_json") or "[]"
@@ -936,8 +966,9 @@ def enrich_store_data(
     trends_queried = False
 
     should_query_trends = True
-    if require_min_traffic_for_trends > 0 and traffic_raw < require_min_traffic_for_trends:
-        should_query_trends = False
+    if not force_refresh_traffic:
+        if require_min_traffic_for_trends > 0 and traffic_raw < require_min_traffic_for_trends:
+            should_query_trends = False
 
     if not brand:
         trend_status = "no_data"
@@ -950,15 +981,15 @@ def enrich_store_data(
         trend_timeline_json = existing_timeline_json
         trend_peak = existing_peak
         trend_is_steady = existing_is_steady
-    elif now < _gt_cooldown_until:
-        # Currently in cooldown: keep pending status and do not query or mark as error
+    elif now < _gt_cooldown_until and not force_refresh_traffic:
+        # Currently in cooldown: keep pending status during background crawl
         trend_status = "pending" if existing_trend_status in ["", "error", "pending"] else existing_trend_status
         trend_timeline_json = existing_timeline_json
         trend_peak = existing_peak
         trend_is_steady = existing_is_steady
     else:
         trends_queried = True
-        trend_res = fetch_google_trends(brand)
+        trend_res = fetch_google_trends(brand, bypass_cooldown=force_refresh_traffic)
         t_status = trend_res.get("status", "no_data")
         if t_status == "success":
             trend_status = "success"
@@ -987,6 +1018,12 @@ def enrich_store_data(
         "traffic_raw_value": traffic_raw,
         "traffic_status": traffic_status,
         "traffic_top_country": "Global",
+        "traffic_source": traffic_source,
+        "traffic_bounce_rate": traffic_bounce_rate,
+        "traffic_avg_duration": traffic_avg_duration,
+        "traffic_global_rank": traffic_global_rank,
+        "traffic_country_rank": traffic_country_rank,
+        "traffic_pages_per_visit": traffic_pages_per_visit,
         "trend_timeline_json": trend_timeline_json,
         "trend_peak_month": trend_peak,
         "trend_status": trend_status,

@@ -2299,10 +2299,10 @@ export default function App() {
                                     onClick={(e) => handleRefreshSingleStore(store.store_id, e)}
                                     disabled={refreshingStoreId === store.store_id}
                                     className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold bg-indigo-50 hover:bg-indigo-100 text-indigo-700 border border-indigo-200 transition cursor-pointer"
-                                    title="Làm mới traffic và Google Trends cho cửa hàng này"
+                                    title="Làm mới dữ liệu Similarweb (traffic.cv) và biểu đồ Google Trends cho cửa hàng này"
                                   >
                                     <RefreshCw size={12} className={refreshingStoreId === store.store_id ? 'animate-spin' : ''} />
-                                    <span>{refreshingStoreId === store.store_id ? 'Đang phân tích...' : 'Làm Mới Traffic'}</span>
+                                    <span>{refreshingStoreId === store.store_id ? 'Đang cào Traffic.cv & Trends...' : 'Làm Mới Traffic & Trends'}</span>
                                   </button>
 
                                   <button

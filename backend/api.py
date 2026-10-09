@@ -436,14 +436,18 @@ def get_traffic_status_endpoint():
 
 @app.post("/api/stores/{store_id}/refresh-traffic")
 def refresh_store_traffic_endpoint(store_id: str):
-    """Enrich or refresh traffic and Google Trends for a specific store."""
-    # If dedicated CV worker is running, enqueue priority and avoid browser profile lock collision
+    """Enrich or refresh traffic (Traffic.cv Similarweb) and Google Trends for a specific store on demand."""
     is_cv_running = traffic_cv_worker.cv_worker.is_running()
     if is_cv_running:
-        traffic_cv_worker.cv_worker.enqueue_priority_store(store_id)
-        time.sleep(0.8)
+        event = traffic_cv_worker.cv_worker.enqueue_priority_store(store_id)
+        # Wait up to 18s for worker's active browser to process Similarweb
+        event.wait(timeout=18.0)
+        # Then enrich Google Trends & update store
+        res = traffic_worker.worker.refresh_single_store(store_id, use_traffic_cv=False)
+    else:
+        # Worker not running: scrape Traffic.cv directly and enrich Google Trends
+        res = traffic_worker.worker.refresh_single_store(store_id, use_traffic_cv=True)
 
-    res = traffic_worker.worker.refresh_single_store(store_id, use_traffic_cv=not is_cv_running)
     if not res:
         raise HTTPException(status_code=404, detail="Store not found")
     return res

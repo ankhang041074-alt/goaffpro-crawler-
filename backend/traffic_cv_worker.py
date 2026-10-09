@@ -71,12 +71,17 @@ class TrafficCVWorker:
     def is_paused(self) -> bool:
         return self._is_paused
 
-    def enqueue_priority_store(self, store_id: str):
+    def enqueue_priority_store(self, store_id: str) -> threading.Event:
         """Enqueue a store ID for immediate on-demand enrichment using active browser session."""
         with self._lock:
+            if not hasattr(self, "_priority_events"):
+                self._priority_events = {}
+            event = threading.Event()
+            self._priority_events[store_id] = event
             if store_id not in self._priority_store_ids:
                 self._priority_store_ids.insert(0, store_id)
             self._wake_event.set()
+            return event
 
     def start(self) -> Dict[str, Any]:
         with self._lock:
@@ -553,6 +558,7 @@ class TrafficCVWorker:
 
                 # Check if there is an on-demand priority store
                 priority_store = None
+                sid = None
                 with self._lock:
                     if self._priority_store_ids:
                         sid = self._priority_store_ids.pop(0)
@@ -570,6 +576,10 @@ class TrafficCVWorker:
                     except Exception as e:
                         logger.error(f"Error on priority store {priority_store.get('name')}: {e}")
                         self.errors += 1
+                    finally:
+                        with self._lock:
+                            if hasattr(self, "_priority_events") and sid and sid in self._priority_events:
+                                self._priority_events[sid].set()
                     continue
 
                 # Fetch stores prioritizing cookie_days >= 14, un-enriched by Traffic.cv or fallback

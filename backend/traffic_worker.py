@@ -884,12 +884,12 @@ def enrich_store_data(
     brand = clean_brand_name(name, website_url, str(store.get("site_title") or ""))
 
     # 1. Domain Traffic lookup
-    existing_traffic_status = store.get("traffic_status")
-    existing_traffic_raw = store.get("traffic_raw_value")
+    existing_traffic_status = str(store.get("traffic_status") or "no_data")
+    existing_traffic_raw = int(store.get("traffic_raw_value") or 0)
 
-    traffic_raw = 0
-    traffic_str = ""
-    traffic_status = "no_data"
+    traffic_raw = existing_traffic_raw
+    traffic_str = str(store.get("traffic_visits") or "")
+    traffic_status = existing_traffic_status
     traffic_source = str(store.get("traffic_source") or "")
     traffic_bounce_rate = str(store.get("traffic_bounce_rate") or "")
     traffic_avg_duration = str(store.get("traffic_avg_duration") or "")
@@ -927,8 +927,8 @@ def enrich_store_data(
 
     # Fallback to Tranco if traffic_status is not success and not traffic_cv
     if traffic_status != "success" and traffic_source != "traffic_cv":
-        if not force_refresh_traffic and existing_traffic_status in ["success", "no_data"] and existing_traffic_raw is not None:
-            traffic_raw = int(existing_traffic_raw or 0)
+        if not force_refresh_traffic and existing_traffic_status in ["success", "no_data"] and existing_traffic_raw > 0:
+            traffic_raw = existing_traffic_raw
             traffic_str = str(store.get("traffic_visits") or format_visits(traffic_raw))
             traffic_status = str(existing_traffic_status)
         elif domain:

@@ -763,10 +763,10 @@ def update_store_traffic_and_trends(store_id: str, data: Dict[str, Any]) -> bool
     cursor = conn.cursor()
     cursor.execute("""
     UPDATE stores SET
-        traffic_visits = ?,
-        traffic_raw_value = ?,
-        traffic_status = ?,
-        traffic_top_country = ?,
+        traffic_visits = CASE WHEN ? != '' THEN ? ELSE traffic_visits END,
+        traffic_raw_value = CASE WHEN ? > 0 THEN ? ELSE traffic_raw_value END,
+        traffic_status = CASE WHEN ? NOT IN ('pending', '') THEN ? ELSE traffic_status END,
+        traffic_top_country = COALESCE(NULLIF(?, ''), traffic_top_country),
         trend_timeline_json = ?,
         trend_peak_month = ?,
         trend_status = ?,
@@ -861,6 +861,13 @@ def get_traffic_cv_stats() -> Dict[str, Any]:
     cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE cookie_days >= 14 AND traffic_source = 'tranco'")
     tranco_cookie_14 = cursor.fetchone()["cnt"] or 0
 
+    # Cookie >= 7 days stats
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE cookie_days >= 7")
+    total_cookie_7 = cursor.fetchone()["cnt"] or 0
+
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE cookie_days >= 7 AND traffic_source != '' AND traffic_source IS NOT NULL")
+    enriched_cookie_7 = cursor.fetchone()["cnt"] or 0
+
     cursor.execute("SELECT COUNT(*) as cnt FROM stores")
     total_stores = cursor.fetchone()["cnt"] or 0
 
@@ -890,6 +897,12 @@ def get_traffic_cv_stats() -> Dict[str, Any]:
         "tranco_cookie_14": tranco_cookie_14,
         "remaining_cookie_14": max(0, total_cookie_14 - enriched_cookie_14),
         "percent_cookie_14": round((enriched_cookie_14 / total_cookie_14 * 100), 1) if total_cookie_14 > 0 else 0.0,
+        "cookie_7_stats": {
+            "total": total_cookie_7,
+            "enriched": enriched_cookie_7,
+            "remaining": max(0, total_cookie_7 - enriched_cookie_7),
+            "percent": round((enriched_cookie_7 / total_cookie_7 * 100), 1) if total_cookie_7 > 0 else 0.0,
+        },
         "total_stores": total_stores,
         "total_processed": total_processed,
         "total_enriched": total_enriched,

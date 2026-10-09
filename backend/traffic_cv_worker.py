@@ -168,6 +168,12 @@ class TrafficCVWorker:
                 "remaining": stats.get("remaining_cookie_14", 0),
                 "percent": stats.get("percent_cookie_14", 0.0),
             },
+            "cookie_7_stats": stats.get("cookie_7_stats", {
+                "total": 0,
+                "enriched": 0,
+                "remaining": 0,
+                "percent": 0.0,
+            }),
             "all_stats": {
                 "total": stats.get("total_stores", 0),
                 "enriched": stats.get("total_enriched", 0),
@@ -582,10 +588,10 @@ class TrafficCVWorker:
                                 self._priority_events[sid].set()
                     continue
 
-                # Fetch stores prioritizing cookie_days >= 14, un-enriched by Traffic.cv or fallback
+                # Fetch stores prioritizing cookie_days >= 7, un-enriched by Traffic.cv or fallback
                 stores = db.get_stores_for_traffic_cv_enrichment(
                     limit=30,
-                    cookie_min_days=14,
+                    cookie_min_days=7,
                     exclude_store_ids=list(self._scanned_store_ids)[-200:] if self._scanned_store_ids else None
                 )
 

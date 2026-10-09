@@ -119,6 +119,12 @@ interface TrafficCVWorkerStatus {
     remaining: number;
     percent: number;
   };
+  cookie_7_stats?: {
+    total: number;
+    enriched: number;
+    remaining: number;
+    percent: number;
+  };
   all_stats?: {
     total: number;
     enriched: number;
@@ -1407,9 +1413,15 @@ export default function App() {
           <div className="mt-3 pt-3 border-t border-sky-900/60 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
             <div className="w-full sm:w-1/2">
               <div className="flex items-center justify-between text-[11px] text-slate-300 mb-1">
-                <span>Tiến độ Similarweb (Cookie ≥ 14 ngày):</span>
+                <span>
+                  {trafficCVStatus?.cookie_14_stats && trafficCVStatus.cookie_14_stats.percent >= 100
+                    ? 'Tiến độ Similarweb (Đang cào Cookie ≥ 7 ngày):'
+                    : 'Tiến độ Similarweb (Cookie ≥ 14 ngày):'}
+                </span>
                 <span className="font-mono text-sky-300 font-semibold">
-                  {trafficCVStatus?.cookie_14_stats ? (
+                  {trafficCVStatus?.cookie_14_stats && trafficCVStatus.cookie_14_stats.percent >= 100 && trafficCVStatus.cookie_7_stats ? (
+                    `${trafficCVStatus.cookie_7_stats.enriched} / ${trafficCVStatus.cookie_7_stats.total} (${trafficCVStatus.cookie_7_stats.percent}%)`
+                  ) : trafficCVStatus?.cookie_14_stats ? (
                     `${trafficCVStatus.cookie_14_stats.enriched} / ${trafficCVStatus.cookie_14_stats.total} (${trafficCVStatus.cookie_14_stats.percent}%)`
                   ) : (
                     `0 / 5,243 (0%)`
@@ -1420,7 +1432,11 @@ export default function App() {
                 <div
                   className="h-full bg-gradient-to-r from-sky-400 to-blue-500 transition-all duration-500 rounded-full"
                   style={{
-                    width: `${trafficCVStatus?.cookie_14_stats?.percent || 0}%`
+                    width: `${
+                      trafficCVStatus?.cookie_14_stats && trafficCVStatus.cookie_14_stats.percent >= 100 && trafficCVStatus.cookie_7_stats
+                        ? trafficCVStatus.cookie_7_stats.percent
+                        : trafficCVStatus?.cookie_14_stats?.percent || 0
+                    }%`
                   }}
                 />
               </div>
@@ -1433,9 +1449,14 @@ export default function App() {
             </div>
 
             <div className="flex items-center gap-2.5 text-[11px] flex-wrap">
-              <span className="inline-flex items-center gap-1 text-sky-300 font-medium bg-sky-950/60 px-2 py-0.5 rounded border border-sky-800/40" title="Số store Cookie >= 14d đã bóc tách Similarweb">
-                ✅ Cookie ≥14d: {trafficCVStatus?.cookie_14_stats?.enriched || 0}/{trafficCVStatus?.cookie_14_stats?.total || 5243}
+              <span className="inline-flex items-center gap-1 text-sky-300 font-medium bg-sky-950/60 px-2 py-0.5 rounded border border-sky-800/40" title="Số store Cookie >= 14d đã hoàn thành 100%">
+                ✅ Cookie ≥14d: {trafficCVStatus?.cookie_14_stats?.percent || 0}% ({trafficCVStatus?.cookie_14_stats?.enriched || 0}/{trafficCVStatus?.cookie_14_stats?.total || 5243})
               </span>
+              {trafficCVStatus?.cookie_7_stats && (
+                <span className="inline-flex items-center gap-1 text-blue-300 font-medium bg-blue-950/60 px-2 py-0.5 rounded border border-blue-800/40" title="Tiến độ Cookie >= 7 ngày">
+                  🎯 Cookie ≥7d: {trafficCVStatus.cookie_7_stats.enriched}/{trafficCVStatus.cookie_7_stats.total} ({trafficCVStatus.cookie_7_stats.percent}%)
+                </span>
+              )}
               <span className="inline-flex items-center gap-1 text-emerald-300 font-medium bg-emerald-950/50 px-2 py-0.5 rounded border border-emerald-800/40" title="Store có traffic thật Similarweb">
                 🔥 Có Data: {trafficCVStatus?.with_data || 0}
               </span>

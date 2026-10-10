@@ -17,3 +17,8 @@ data/scraped_advertisers_*.json
 data/stores.db
 exports/
 *.log
+.env
+.env.local
+*.tsbuildinfo
+.idea/
+.vscode/

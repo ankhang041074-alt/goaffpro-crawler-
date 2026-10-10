@@ -1,0 +1,425 @@
+{
+  "domain": "northedgewatches.com",
+  "updated_at": "2026-10-10T15:02:35.820631",
+  "total_advertisers": 13,
+  "total_ads": 28,
+  "super_scale_count": 0,
+  "win_ads_count": 13,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR07431965229510033409",
+      "name": "Hither ABĐã xác minh",
+      "legal_name": "Hither ABĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07431965229510033409/creative/CR10462374384109617153?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: northedgewatches.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho northedgewatches.com",
+          "landing_page": "https://www.northedgewatches.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5005144505626872627"
+        }
+      ]
+    },
+    {
+      "id": "AR07021903132435152897",
+      "name": "Phạm Văn Như KếĐã xác minh",
+      "legal_name": "Phạm Văn Như KếĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07021903132435152897/creative/CR08427959529748037633?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: northedgewatches.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho northedgewatches.com",
+          "landing_page": "https://www.northedgewatches.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15747130670667822219"
+        }
+      ]
+    },
+    {
+      "id": "AR03801896993060552705",
+      "name": "AFFINITY TECH TRADING FZEĐã xác minh",
+      "legal_name": "AFFINITY TECH TRADING FZEĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03801896993060552705/creative/CR17834983440466837505?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: northedgewatches.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho northedgewatches.com",
+          "landing_page": "https://www.northedgewatches.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/522249395320267412"
+        }
+      ]
+    },
+    {
+      "id": "AR05028874754736521217",
+      "name": "HỒ THỊ THÚY PHƯƠNGĐã xác minh",
+      "legal_name": "HỒ THỊ THÚY PHƯƠNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05028874754736521217/creative/CR06633089810531614721?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: northedgewatches.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho northedgewatches.com",
+          "landing_page": "https://www.northedgewatches.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15773317726480259249"
+        }
+      ]
+    },
+    {
+      "id": "AR05795912070775963649",
+      "name": "PHẠM ĐÌNH HƯNGĐã xác minh",
+      "legal_name": "PHẠM ĐÌNH HƯNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05795912070775963649/creative/CR14375075984309223425?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: northedgewatches.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho northedgewatches.com",
+          "landing_page": "https://www.northedgewatches.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13577850562025155816"
+        }
+      ]
+    },
+    {
+      "id": "AR05935809463528194049",
+      "name": "Lê Văn KiênĐã xác minh",
+      "legal_name": "Lê Văn KiênĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05935809463528194049/creative/CR13575682652404449281?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: northedgewatches.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho northedgewatches.com",
+          "landing_page": "https://www.northedgewatches.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4198073978370662264"
+        }
+      ]
+    },
+    {
+      "id": "AR09706102111539822593",
+      "name": "SAMANTHA PATTERSONĐã xác minh",
+      "legal_name": "SAMANTHA PATTERSONĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09706102111539822593/creative/CR13464648470673489921?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: northedgewatches.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho northedgewatches.com",
+          "landing_page": "https://www.northedgewatches.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1357584066042668680"
+        }
+      ]
+    },
+    {
+      "id": "AR04973954836123877377",
+      "name": "Lê Văn Kiên",
+      "legal_name": "Lê Văn Kiên",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04973954836123877377/creative/CR06655265207717199873?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: northedgewatches.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho northedgewatches.com",
+          "landing_page": "https://www.northedgewatches.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR14582536141795229697",
+      "name": "SUNEEL KUMARĐã xác minh",
+      "legal_name": "SUNEEL KUMARĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14582536141795229697/creative/CR16405652684096405505?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: northedgewatches.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho northedgewatches.com",
+          "landing_page": "https://www.northedgewatches.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/166245785959221268"
+        }
+      ]
+    },
+    {
+      "id": "AR01401763397111906305",
+      "name": "ĐINH VĂN HẢIĐã xác minh",
+      "legal_name": "ĐINH VĂN HẢIĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01401763397111906305/creative/CR15258329480381333505?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: northedgewatches.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho northedgewatches.com",
+          "landing_page": "https://www.northedgewatches.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR10234174113019068417",
+      "name": "PHẠM ĐÌNH HƯNGĐã xác minh",
+      "legal_name": "PHẠM ĐÌNH HƯNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10234174113019068417/creative/CR05681279256206770177?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: northedgewatches.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho northedgewatches.com",
+          "landing_page": "https://www.northedgewatches.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1996973327824020655"
+        }
+      ]
+    },
+    {
+      "id": "AR17931520355227140097",
+      "name": "A.G.M Landscaping, LLCĐã xác minh",
+      "legal_name": "A.G.M Landscaping, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17931520355227140097/creative/CR07479832201937289217?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: northedgewatches.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho northedgewatches.com",
+          "landing_page": "https://www.northedgewatches.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13851438298350604065"
+        }
+      ]
+    },
+    {
+      "id": "AR02079315310057357313",
+      "name": "14777 BEAR VALLEY YIFA LLCĐã xác minh",
+      "legal_name": "14777 BEAR VALLEY YIFA LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02079315310057357313/creative/CR09365638679596367873?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: northedgewatches.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho northedgewatches.com",
+          "landing_page": "https://www.northedgewatches.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3577952169334760753"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "sibionicscgm.com",
+  "updated_at": "2026-10-10T16:24:07.751979",
+  "total_advertisers": 1,
+  "total_ads": 82,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR07314060285516447745",
+      "name": "SIBIO TECHNOLOGY LIMITEDĐã xác minh",
+      "legal_name": "SIBIO TECHNOLOGY LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07314060285516447745/creative/CR07991667852648120321?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 82,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 82,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sibionicscgm.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sibionicscgm.com",
+          "landing_page": "https://www.sibionicscgm.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 82,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3174784023154047883"
+        }
+      ]
+    }
+  ]
+}

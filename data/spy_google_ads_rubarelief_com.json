@@ -1,0 +1,43 @@
+{
+  "domain": "rubarelief.com",
+  "updated_at": "2026-10-10T17:03:34.656532",
+  "total_advertisers": 1,
+  "total_ads": 1,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR10511084166559301633",
+      "name": "EveNu LLCĐã xác minh",
+      "legal_name": "EveNu LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10511084166559301633/creative/CR06987766938524975105?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rubarelief.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rubarelief.com",
+          "landing_page": "https://www.rubarelief.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16448593253782600230"
+        }
+      ]
+    }
+  ]
+}

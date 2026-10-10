@@ -1,0 +1,43 @@
+{
+  "domain": "vybloojug.com",
+  "updated_at": "2026-10-10T15:20:41.098759",
+  "total_advertisers": 1,
+  "total_ads": 54,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR08068285834371006465",
+      "name": "HONGKONG ADFLY LIMITEDĐã xác minh",
+      "legal_name": "HONGKONG ADFLY LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08068285834371006465/creative/CR11701254195947503617?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 54,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 54,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: vybloojug.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho vybloojug.com",
+          "landing_page": "https://www.vybloojug.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 54,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11886659150106439325"
+        }
+      ]
+    }
+  ]
+}

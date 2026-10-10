@@ -1,0 +1,198 @@
+{
+  "domain": "dyubikes.com",
+  "updated_at": "2026-10-10T15:12:31.253459",
+  "total_advertisers": 6,
+  "total_ads": 38,
+  "super_scale_count": 1,
+  "win_ads_count": 5,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR03308822721571323905",
+      "name": "Ønskeskyen ApSĐã xác minh",
+      "legal_name": "Ønskeskyen ApSĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03308822721571323905/creative/CR10661804284191965185?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: dyubikes.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho dyubikes.com",
+          "landing_page": "https://www.dyubikes.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR02784575362699362305",
+      "name": "Delupe Global Portal LLCĐã xác minh",
+      "legal_name": "Delupe Global Portal LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02784575362699362305/creative/CR07366771345398431745?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: dyubikes.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho dyubikes.com",
+          "landing_page": "https://www.dyubikes.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR15511961721710313473",
+      "name": "ShopForward B.V.Đã xác minh",
+      "legal_name": "ShopForward B.V.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15511961721710313473/creative/CR07086322462144593921?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: dyubikes.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho dyubikes.com",
+          "landing_page": "https://www.dyubikes.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR03672412069912641537",
+      "name": "LOOMERA ADVISORY LTDĐã xác minh",
+      "legal_name": "LOOMERA ADVISORY LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03672412069912641537/creative/CR06491209929595027457?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: dyubikes.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho dyubikes.com",
+          "landing_page": "https://www.dyubikes.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR12935226603922784257",
+      "name": "郑州大鱼智行科技有限公司Đã xác minh",
+      "legal_name": "郑州大鱼智行科技有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12935226603922784257/creative/CR06232397846037921793?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 28,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 28,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: dyubikes.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho dyubikes.com",
+          "landing_page": "https://www.dyubikes.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 28,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6468477011621731762"
+        }
+      ]
+    },
+    {
+      "id": "AR12716845298085789697",
+      "name": "30M LimitedĐã xác minh",
+      "legal_name": "30M LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12716845298085789697/creative/CR10209801994680401921?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: dyubikes.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho dyubikes.com",
+          "landing_page": "https://www.dyubikes.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,586 @@
+{
+  "domain": "amorylondon.com",
+  "updated_at": "2026-10-10T15:23:30.614208",
+  "total_advertisers": 18,
+  "total_ads": 111,
+  "super_scale_count": 1,
+  "win_ads_count": 14,
+  "test_ads_count": 3,
+  "advertisers": [
+    {
+      "id": "AR14451554001637867521",
+      "name": "CÔNG TY TNHH ADSDIGIĐã xác minh",
+      "legal_name": "CÔNG TY TNHH ADSDIGIĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14451554001637867521/creative/CR04260474559674712065?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amorylondon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amorylondon.com",
+          "landing_page": "https://www.amorylondon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18177058260110886653"
+        }
+      ]
+    },
+    {
+      "id": "AR11831016591162605569",
+      "name": "AMORY LONDON LTDĐã xác minh",
+      "legal_name": "AMORY LONDON LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11831016591162605569/creative/CR12908530882507177985?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 80,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 80,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amorylondon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amorylondon.com",
+          "landing_page": "https://www.amorylondon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 80,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10475613587128954531"
+        }
+      ]
+    },
+    {
+      "id": "AR05028874754736521217",
+      "name": "HỒ THỊ THÚY PHƯƠNGĐã xác minh",
+      "legal_name": "HỒ THỊ THÚY PHƯƠNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05028874754736521217/creative/CR09231368278117449729?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amorylondon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amorylondon.com",
+          "landing_page": "https://www.amorylondon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16101882115420138680"
+        }
+      ]
+    },
+    {
+      "id": "AR17241802071242440705",
+      "name": "TRẦN VĂN LINHĐã xác minh",
+      "legal_name": "TRẦN VĂN LINHĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17241802071242440705/creative/CR01441161647514189825?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amorylondon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amorylondon.com",
+          "landing_page": "https://www.amorylondon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15350154365728597073"
+        }
+      ]
+    },
+    {
+      "id": "AR07431965229510033409",
+      "name": "Hither ABĐã xác minh",
+      "legal_name": "Hither ABĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07431965229510033409/creative/CR10410227777419608065?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amorylondon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amorylondon.com",
+          "landing_page": "https://www.amorylondon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4669940348118365320"
+        }
+      ]
+    },
+    {
+      "id": "AR07663902379846139905",
+      "name": "DEBORAH CARVER KNIGHTĐã xác minh",
+      "legal_name": "DEBORAH CARVER KNIGHTĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07663902379846139905/creative/CR13457702787001352193?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amorylondon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amorylondon.com",
+          "landing_page": "https://www.amorylondon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4018133834871956748"
+        }
+      ]
+    },
+    {
+      "id": "AR06433490551298850817",
+      "name": "CHAHRAZAD ZAARAOUIĐã xác minh",
+      "legal_name": "CHAHRAZAD ZAARAOUIĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06433490551298850817/creative/CR18227576161792163841?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amorylondon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amorylondon.com",
+          "landing_page": "https://www.amorylondon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5378085855067546379"
+        }
+      ]
+    },
+    {
+      "id": "AR07569484524640272385",
+      "name": "Hong Kong Ruixin Zhike Group Co., LimitedĐã xác minh",
+      "legal_name": "Hong Kong Ruixin Zhike Group Co., LimitedĐã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07569484524640272385/creative/CR11228623625189851137?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amorylondon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amorylondon.com",
+          "landing_page": "https://www.amorylondon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9345708516365555377"
+        }
+      ]
+    },
+    {
+      "id": "AR03858991427845357569",
+      "name": "OCEAN SUNRISE LIMITEDĐã xác minh",
+      "legal_name": "OCEAN SUNRISE LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03858991427845357569/creative/CR14469288290970238977?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amorylondon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amorylondon.com",
+          "landing_page": "https://www.amorylondon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16764899928427797876"
+        }
+      ]
+    },
+    {
+      "id": "AR09186634269584261121",
+      "name": "Vũ Quang LợiĐã xác minh",
+      "legal_name": "Vũ Quang LợiĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09186634269584261121/creative/CR13311551921866145793?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amorylondon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amorylondon.com",
+          "landing_page": "https://www.amorylondon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18303908311636577462"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR17141534401859944449?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amorylondon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amorylondon.com",
+          "landing_page": "https://www.amorylondon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2261539478364709971"
+        }
+      ]
+    },
+    {
+      "id": "AR06570825463483072513",
+      "name": "67.300.342 MARIANA JACINTO LUCAS DA SILVAĐã xác minh",
+      "legal_name": "67.300.342 MARIANA JACINTO LUCAS DA SILVAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06570825463483072513/creative/CR15281144587175854081?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amorylondon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amorylondon.com",
+          "landing_page": "https://www.amorylondon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2503605153130553766"
+        }
+      ]
+    },
+    {
+      "id": "AR17918469916709617665",
+      "name": "TRUNG THANH PHAT JOINT STOCK COMPANYĐã xác minh",
+      "legal_name": "TRUNG THANH PHAT JOINT STOCK COMPANYĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17918469916709617665/creative/CR02934736937015050241?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amorylondon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amorylondon.com",
+          "landing_page": "https://www.amorylondon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3882746529804251002"
+        }
+      ]
+    },
+    {
+      "id": "AR15863532213959131137",
+      "name": "Adcore East LimitedĐã xác minh",
+      "legal_name": "Adcore East LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15863532213959131137/creative/CR07362400030763778049?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amorylondon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amorylondon.com",
+          "landing_page": "https://www.amorylondon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17017521793036668723"
+        }
+      ]
+    },
+    {
+      "id": "AR01838590227136905217",
+      "name": "Nguyễn Quang HuyĐã xác minh",
+      "legal_name": "Nguyễn Quang HuyĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01838590227136905217/creative/CR14656980182871572481?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: amorylondon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amorylondon.com",
+          "landing_page": "https://www.amorylondon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR11311346387527925761",
+      "name": "Công ty TNHH Lộc Fast LogisticsĐã xác minh",
+      "legal_name": "Công ty TNHH Lộc Fast LogisticsĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11311346387527925761/creative/CR02336979812712710145?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amorylondon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amorylondon.com",
+          "landing_page": "https://www.amorylondon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11631090697291256737"
+        }
+      ]
+    },
+    {
+      "id": "AR14714308195157803009",
+      "name": "K&K ADVERTISING LTDĐã xác minh",
+      "legal_name": "K&K ADVERTISING LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14714308195157803009/creative/CR05560946367200755713?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amorylondon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amorylondon.com",
+          "landing_page": "https://www.amorylondon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11698498610614439527"
+        }
+      ]
+    },
+    {
+      "id": "AR09139233644706004993",
+      "name": "Hộ Kinh Doanh Tạp HóaĐã xác minh",
+      "legal_name": "Hộ Kinh Doanh Tạp HóaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09139233644706004993/creative/CR02354974694890799105?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amorylondon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amorylondon.com",
+          "landing_page": "https://www.amorylondon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1363944191357223853"
+        }
+      ]
+    }
+  ]
+}

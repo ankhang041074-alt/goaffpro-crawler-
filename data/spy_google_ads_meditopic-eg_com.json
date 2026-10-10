@@ -1,0 +1,43 @@
+{
+  "domain": "meditopic-eg.com",
+  "updated_at": "2026-10-10T15:43:16.994571",
+  "total_advertisers": 1,
+  "total_ads": 1,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR16595586213918801921",
+      "name": "LIKE A BEAUTIFUL DAY LTDĐã xác minh",
+      "legal_name": "LIKE A BEAUTIFUL DAY LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16595586213918801921/creative/CR14442259486250893313?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: meditopic-eg.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho meditopic-eg.com",
+          "landing_page": "https://www.meditopic-eg.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1172675773582037353"
+        }
+      ]
+    }
+  ]
+}

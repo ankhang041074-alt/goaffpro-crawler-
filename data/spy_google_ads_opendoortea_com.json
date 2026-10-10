@@ -1,0 +1,170 @@
+{
+  "domain": "opendoortea.com",
+  "updated_at": "2026-10-10T15:09:07.685315",
+  "total_advertisers": 5,
+  "total_ads": 48,
+  "super_scale_count": 1,
+  "win_ads_count": 4,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR01988180184255168513",
+      "name": "Open Door Tea, LLCĐã xác minh",
+      "legal_name": "Open Door Tea, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01988180184255168513/creative/CR11060791189618819073?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 38,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 38,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: opendoortea.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho opendoortea.com",
+          "landing_page": "https://www.opendoortea.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 38,
+          "image_url": "https://i.ytimg.com/vi/t8xvu9_2aIA/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR14714308195157803009",
+      "name": "K&K ADVERTISING LTDĐã xác minh",
+      "legal_name": "K&K ADVERTISING LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14714308195157803009/creative/CR09655957097048702977?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: opendoortea.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho opendoortea.com",
+          "landing_page": "https://www.opendoortea.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR09064736990280286209?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: opendoortea.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho opendoortea.com",
+          "landing_page": "https://www.opendoortea.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10674260603551349673"
+        }
+      ]
+    },
+    {
+      "id": "AR05535590074286080001",
+      "name": "Saba FatimaĐã xác minh",
+      "legal_name": "Saba FatimaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05535590074286080001/creative/CR02014088028280061953?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: opendoortea.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho opendoortea.com",
+          "landing_page": "https://www.opendoortea.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/979756206036563392"
+        }
+      ]
+    },
+    {
+      "id": "AR15605670503585415169",
+      "name": "Matrix Online (SMC-Private)LimitedĐã xác minh",
+      "legal_name": "Matrix Online (SMC-Private)LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15605670503585415169/creative/CR15857429357489291265?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: opendoortea.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho opendoortea.com",
+          "landing_page": "https://www.opendoortea.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15470876204224094935"
+        }
+      ]
+    }
+  ]
+}

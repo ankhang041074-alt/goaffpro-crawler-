@@ -1,0 +1,43 @@
+{
+  "domain": "nicetown.com",
+  "updated_at": "2026-10-10T15:37:30.963099",
+  "total_advertisers": 1,
+  "total_ads": 86,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR14586652258063089665",
+      "name": "杭州棠棠信息技术有限公司Đã xác minh",
+      "legal_name": "杭州棠棠信息技术有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14586652258063089665/creative/CR18080196111376580609?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 86,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 86,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: nicetown.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho nicetown.com",
+          "landing_page": "https://www.nicetown.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 86,
+          "image_url": "https://i.ytimg.com/vi/2jmb7cEDKds/hqdefault.jpg"
+        }
+      ]
+    }
+  ]
+}

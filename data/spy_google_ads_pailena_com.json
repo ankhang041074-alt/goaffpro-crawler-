@@ -1,0 +1,43 @@
+{
+  "domain": "pailena.com",
+  "updated_at": "2026-10-10T15:52:28.799713",
+  "total_advertisers": 1,
+  "total_ads": 16,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR01804148429123747841",
+      "name": "DRAME OUMAROUĐã xác minh",
+      "legal_name": "DRAME OUMAROUĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01804148429123747841/creative/CR13008306692234936321?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 16,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 16,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pailena.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pailena.com",
+          "landing_page": "https://www.pailena.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 16,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4771904143429179304"
+        }
+      ]
+    }
+  ]
+}

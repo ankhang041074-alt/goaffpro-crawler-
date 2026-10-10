@@ -1,0 +1,393 @@
+{
+  "domain": "syncwire.com",
+  "updated_at": "2026-10-10T15:15:30.969991",
+  "total_advertisers": 12,
+  "total_ads": 26,
+  "super_scale_count": 0,
+  "win_ads_count": 12,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR13982645166071087105",
+      "name": "Jabar HussainĐã xác minh",
+      "legal_name": "Jabar HussainĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13982645166071087105/creative/CR14676486309422301185?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: syncwire.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho syncwire.com",
+          "landing_page": "https://www.syncwire.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17641044968358661693"
+        }
+      ]
+    },
+    {
+      "id": "AR15252957266568019969",
+      "name": "PRICED RIGHT SUPPLY LLCĐã xác minh",
+      "legal_name": "PRICED RIGHT SUPPLY LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15252957266568019969/creative/CR12993771174285541377?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: syncwire.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho syncwire.com",
+          "landing_page": "https://www.syncwire.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9361248918799267587"
+        }
+      ]
+    },
+    {
+      "id": "AR11554747887908814849",
+      "name": "DIGITAL CRAFT LTDĐã xác minh",
+      "legal_name": "DIGITAL CRAFT LTDĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11554747887908814849/creative/CR17086317726776950785?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: syncwire.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho syncwire.com",
+          "landing_page": "https://www.syncwire.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8478363797020443071"
+        }
+      ]
+    },
+    {
+      "id": "AR14270366236410904577",
+      "name": "Hania AmberĐã xác minh",
+      "legal_name": "Hania AmberĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14270366236410904577/creative/CR06405754820732387329?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: syncwire.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho syncwire.com",
+          "landing_page": "https://www.syncwire.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15822397209154768949"
+        }
+      ]
+    },
+    {
+      "id": "AR15007266522848559105",
+      "name": "ADS CARE AGENCY GLOBAL LIMITEDĐã xác minh",
+      "legal_name": "ADS CARE AGENCY GLOBAL LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15007266522848559105/creative/CR01749218348618481665?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: syncwire.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho syncwire.com",
+          "landing_page": "https://www.syncwire.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR14714308195157803009",
+      "name": "K&K ADVERTISING LTDĐã xác minh",
+      "legal_name": "K&K ADVERTISING LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14714308195157803009/creative/CR13872414315023171585?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: syncwire.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho syncwire.com",
+          "landing_page": "https://www.syncwire.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR11693950389312290817",
+      "name": "BÙI VĂN THỤĐã xác minh",
+      "legal_name": "BÙI VĂN THỤĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11693950389312290817/creative/CR03803969529529237505?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: syncwire.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho syncwire.com",
+          "landing_page": "https://www.syncwire.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12706879300911782311"
+        }
+      ]
+    },
+    {
+      "id": "AR07880938235638054913",
+      "name": "AMERICAN HAOLUOJIE MEDICAL PRODUCTS INC.Đã xác minh",
+      "legal_name": "AMERICAN HAOLUOJIE MEDICAL PRODUCTS INC.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07880938235638054913/creative/CR06907057631085461505?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: syncwire.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho syncwire.com",
+          "landing_page": "https://www.syncwire.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7172414138377751317"
+        }
+      ]
+    },
+    {
+      "id": "AR01414869343786762241",
+      "name": "FATIMA TECHNOLOGIES (PRIVATE) LIMITEDĐã xác minh",
+      "legal_name": "FATIMA TECHNOLOGIES (PRIVATE) LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01414869343786762241/creative/CR15245300198872711169?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: syncwire.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho syncwire.com",
+          "landing_page": "https://www.syncwire.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9140528890250617448"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR06859086531471081473?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: syncwire.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho syncwire.com",
+          "landing_page": "https://www.syncwire.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1548027682224416344"
+        }
+      ]
+    },
+    {
+      "id": "AR06752056650829398017",
+      "name": "Lagoja - Marketing GmbHĐã xác minh",
+      "legal_name": "Lagoja - Marketing GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06752056650829398017/creative/CR12373153218966847489?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: syncwire.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho syncwire.com",
+          "landing_page": "https://www.syncwire.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5208743316651628633"
+        }
+      ]
+    },
+    {
+      "id": "AR18092359158111141889",
+      "name": "Hộ Kinh Doanh Tạp HóaĐã xác minh",
+      "legal_name": "Hộ Kinh Doanh Tạp HóaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18092359158111141889/creative/CR12310948554783850497?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: syncwire.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho syncwire.com",
+          "landing_page": "https://www.syncwire.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16566666992344258390"
+        }
+      ]
+    }
+  ]
+}

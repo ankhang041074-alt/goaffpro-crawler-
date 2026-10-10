@@ -1,0 +1,75 @@
+{
+  "domain": "creativewagons.com",
+  "updated_at": "2026-10-10T16:49:43.507276",
+  "total_advertisers": 2,
+  "total_ads": 2,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 2,
+  "advertisers": [
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR04600920743029506049?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: creativewagons.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho creativewagons.com",
+          "landing_page": "https://www.creativewagons.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8696525063547414528"
+        }
+      ]
+    },
+    {
+      "id": "AR10931860351611830273",
+      "name": "ASIM NAZEERĐã xác minh",
+      "legal_name": "ASIM NAZEERĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10931860351611830273/creative/CR17683301688246534145?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: creativewagons.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho creativewagons.com",
+          "landing_page": "https://www.creativewagons.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2711590264407004456"
+        }
+      ]
+    }
+  ]
+}

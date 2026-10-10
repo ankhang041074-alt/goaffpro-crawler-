@@ -1,0 +1,395 @@
+{
+  "domain": "enhancedlabs.com",
+  "updated_at": "2026-10-10T15:29:05.428134",
+  "total_advertisers": 12,
+  "total_ads": 84,
+  "super_scale_count": 1,
+  "win_ads_count": 10,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR00319537732802052097",
+      "name": "Unlimited Scale PartnersĐã xác minh",
+      "legal_name": "Unlimited Scale PartnersĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00319537732802052097/creative/CR04552908669427122177?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 63,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 63,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: enhancedlabs.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho enhancedlabs.com",
+          "landing_page": "https://www.enhancedlabs.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 63,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13810778913635864874"
+        }
+      ]
+    },
+    {
+      "id": "AR02346701737475178497",
+      "name": "Mohsin NawazĐã xác minh",
+      "legal_name": "Mohsin NawazĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02346701737475178497/creative/CR05223537893955338241?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: enhancedlabs.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho enhancedlabs.com",
+          "landing_page": "https://www.enhancedlabs.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13648101102925609914"
+        }
+      ]
+    },
+    {
+      "id": "AR14826960222349688833",
+      "name": "Muqadesa UroojĐã xác minh",
+      "legal_name": "Muqadesa UroojĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14826960222349688833/creative/CR03432876083047825409?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: enhancedlabs.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho enhancedlabs.com",
+          "landing_page": "https://www.enhancedlabs.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6590557867822507210"
+        }
+      ]
+    },
+    {
+      "id": "AR12667011496924938241",
+      "name": "Muhammad Sabir HussainĐã xác minh",
+      "legal_name": "Muhammad Sabir HussainĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12667011496924938241/creative/CR17041838495703760897?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: enhancedlabs.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho enhancedlabs.com",
+          "landing_page": "https://www.enhancedlabs.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7206362533661453666"
+        }
+      ]
+    },
+    {
+      "id": "AR00462663566571339777",
+      "name": "GLOBAL TECHNO CONSTRUCTION SMC-PRIVATE LIMITEDĐã xác minh",
+      "legal_name": "GLOBAL TECHNO CONSTRUCTION SMC-PRIVATE LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00462663566571339777/creative/CR15434640920129044481?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: enhancedlabs.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho enhancedlabs.com",
+          "landing_page": "https://www.enhancedlabs.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17869738910671059300"
+        }
+      ]
+    },
+    {
+      "id": "AR17139445346947039233",
+      "name": "TF AGENCY LTDĐã xác minh",
+      "legal_name": "TF AGENCY LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17139445346947039233/creative/CR07632966366068211713?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: enhancedlabs.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho enhancedlabs.com",
+          "landing_page": "https://www.enhancedlabs.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17597146626685939546"
+        }
+      ]
+    },
+    {
+      "id": "AR08387891427656335361",
+      "name": "PEREZ CENTENO ANDREUĐã xác minh",
+      "legal_name": "PEREZ CENTENO ANDREUĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08387891427656335361/creative/CR17335462122418601985?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: enhancedlabs.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho enhancedlabs.com",
+          "landing_page": "https://www.enhancedlabs.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18310464382392709728"
+        }
+      ]
+    },
+    {
+      "id": "AR02342331900309274625",
+      "name": "ENTERPRISE RESOURCES RESEARCH SOLUTIONS (PRIVATE) LIMITEDĐã xác minh",
+      "legal_name": "ENTERPRISE RESOURCES RESEARCH SOLUTIONS (PRIVATE) LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02342331900309274625/creative/CR10787660157543251969?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: enhancedlabs.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho enhancedlabs.com",
+          "landing_page": "https://www.enhancedlabs.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1634437193314794881"
+        }
+      ]
+    },
+    {
+      "id": "AR01961381254775439361",
+      "name": "ALKITAAB BOOKCAFE PRIVATE LIMITEDĐã xác minh",
+      "legal_name": "ALKITAAB BOOKCAFE PRIVATE LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01961381254775439361/creative/CR12448518101031452673?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: enhancedlabs.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho enhancedlabs.com",
+          "landing_page": "https://www.enhancedlabs.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2487003250944114954"
+        }
+      ]
+    },
+    {
+      "id": "AR03217398621779525633",
+      "name": "Doyle Terry DwayneĐã xác minh",
+      "legal_name": "Doyle Terry DwayneĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03217398621779525633/creative/CR14695253289281257473?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: enhancedlabs.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho enhancedlabs.com",
+          "landing_page": "https://www.enhancedlabs.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8036744922038045952"
+        }
+      ]
+    },
+    {
+      "id": "AR02927730823153057793",
+      "name": "Enhanced LabsĐã xác minh",
+      "legal_name": "Enhanced LabsĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02927730823153057793/creative/CR16146666611414138881?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: enhancedlabs.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho enhancedlabs.com",
+          "landing_page": "https://www.enhancedlabs.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4918211488423983623"
+        }
+      ]
+    },
+    {
+      "id": "AR07881713984041123841",
+      "name": "PRODUCOES NEXUS LTDAĐã xác minh",
+      "legal_name": "PRODUCOES NEXUS LTDAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07881713984041123841/creative/CR00775576106160881665?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: enhancedlabs.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho enhancedlabs.com",
+          "landing_page": "https://www.enhancedlabs.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7632802156606580804"
+        }
+      ]
+    }
+  ]
+}

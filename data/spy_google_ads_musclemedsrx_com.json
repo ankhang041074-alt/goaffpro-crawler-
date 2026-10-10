@@ -1,0 +1,75 @@
+{
+  "domain": "musclemedsrx.com",
+  "updated_at": "2026-10-10T15:17:58.883307",
+  "total_advertisers": 2,
+  "total_ads": 2,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 2,
+  "advertisers": [
+    {
+      "id": "AR01618654907642937345",
+      "name": "Maximum Human Performance LLCĐã xác minh",
+      "legal_name": "Maximum Human Performance LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01618654907642937345/creative/CR14947785159989002241?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: musclemedsrx.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho musclemedsrx.com",
+          "landing_page": "https://www.musclemedsrx.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://i.ytimg.com/vi/rZShiMDfsBg/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR06785990551779934209",
+      "name": "Absolute Link LimitedĐã xác minh",
+      "legal_name": "Absolute Link LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06785990551779934209/creative/CR04404032810751361025?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: musclemedsrx.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho musclemedsrx.com",
+          "landing_page": "https://www.musclemedsrx.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2250025084911536894"
+        }
+      ]
+    }
+  ]
+}

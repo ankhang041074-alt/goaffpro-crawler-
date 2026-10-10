@@ -1,0 +1,491 @@
+{
+  "domain": "sequremall.com",
+  "updated_at": "2026-10-10T14:56:40.174933",
+  "total_advertisers": 15,
+  "total_ads": 44,
+  "super_scale_count": 1,
+  "win_ads_count": 14,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR11730799353286098945",
+      "name": "Amir Ali KhanĐã xác minh",
+      "legal_name": "Amir Ali KhanĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11730799353286098945/creative/CR04848819873033224193?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sequremall.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sequremall.com",
+          "landing_page": "https://www.sequremall.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14950647732992093151"
+        }
+      ]
+    },
+    {
+      "id": "AR05223928873418227713",
+      "name": "Khuất Gia QuyếtĐã xác minh",
+      "legal_name": "Khuất Gia QuyếtĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05223928873418227713/creative/CR10377646980145872897?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sequremall.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sequremall.com",
+          "landing_page": "https://www.sequremall.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13588060936586483702"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR13362783468593872897?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sequremall.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sequremall.com",
+          "landing_page": "https://www.sequremall.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6631826920821630963"
+        }
+      ]
+    },
+    {
+      "id": "AR07772185772462964737",
+      "name": "广东思千科技有限公司Đã xác minh",
+      "legal_name": "广东思千科技有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07772185772462964737/creative/CR04197825383556448257?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 14,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 14,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sequremall.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sequremall.com",
+          "landing_page": "https://www.sequremall.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 14,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11520908118683140583"
+        }
+      ]
+    },
+    {
+      "id": "AR11262975254659596289",
+      "name": "NGUYỄN THỊ THẮMĐã xác minh",
+      "legal_name": "NGUYỄN THỊ THẮMĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11262975254659596289/creative/CR06337549228243419137?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sequremall.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sequremall.com",
+          "landing_page": "https://www.sequremall.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/274674996064972383"
+        }
+      ]
+    },
+    {
+      "id": "AR05051117076102512641",
+      "name": "Naja Marketing LtdaĐã xác minh",
+      "legal_name": "Naja Marketing LtdaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05051117076102512641/creative/CR18430560276160970753?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sequremall.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sequremall.com",
+          "landing_page": "https://www.sequremall.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3512147479331638732"
+        }
+      ]
+    },
+    {
+      "id": "AR01651191801760972801",
+      "name": "AMIR GHULAM MUSTAFAĐã xác minh",
+      "legal_name": "AMIR GHULAM MUSTAFAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01651191801760972801/creative/CR06801131093182382081?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sequremall.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sequremall.com",
+          "landing_page": "https://www.sequremall.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15780811917138635688"
+        }
+      ]
+    },
+    {
+      "id": "AR13827278168702058497",
+      "name": "Rukhsana TahirĐã xác minh",
+      "legal_name": "Rukhsana TahirĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13827278168702058497/creative/CR09210014353556766721?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sequremall.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sequremall.com",
+          "landing_page": "https://www.sequremall.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7768941378967143492"
+        }
+      ]
+    },
+    {
+      "id": "AR12123221950956830721",
+      "name": "TECHNOLOGYTRENDS (SMC-PRIVATE) LIMITEDĐã xác minh",
+      "legal_name": "TECHNOLOGYTRENDS (SMC-PRIVATE) LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12123221950956830721/creative/CR08404696097087291393?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sequremall.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sequremall.com",
+          "landing_page": "https://www.sequremall.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12247440183087071899"
+        }
+      ]
+    },
+    {
+      "id": "AR10931860351611830273",
+      "name": "ASIM NAZEERĐã xác minh",
+      "legal_name": "ASIM NAZEERĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10931860351611830273/creative/CR14974184614560530433?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sequremall.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sequremall.com",
+          "landing_page": "https://www.sequremall.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10604392238317563609"
+        }
+      ]
+    },
+    {
+      "id": "AR00649150848995164161",
+      "name": "Muhammad HarisĐã xác minh",
+      "legal_name": "Muhammad HarisĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00649150848995164161/creative/CR14207466775368433665?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sequremall.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sequremall.com",
+          "landing_page": "https://www.sequremall.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12923565820776801494"
+        }
+      ]
+    },
+    {
+      "id": "AR14451554001637867521",
+      "name": "CÔNG TY TNHH ADSDIGIĐã xác minh",
+      "legal_name": "CÔNG TY TNHH ADSDIGIĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14451554001637867521/creative/CR04194569660907126785?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sequremall.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sequremall.com",
+          "landing_page": "https://www.sequremall.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12218154890835846502"
+        }
+      ]
+    },
+    {
+      "id": "AR11273598538438672385",
+      "name": "Hộ Kinh Doanh Nhà CafeĐã xác minh",
+      "legal_name": "Hộ Kinh Doanh Nhà CafeĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11273598538438672385/creative/CR10210213736015200257?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sequremall.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sequremall.com",
+          "landing_page": "https://www.sequremall.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2744224293982316261"
+        }
+      ]
+    },
+    {
+      "id": "AR10680314055639433217",
+      "name": "Trần Văn TínĐã xác minh",
+      "legal_name": "Trần Văn TínĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10680314055639433217/creative/CR15899159422945984513?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sequremall.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sequremall.com",
+          "landing_page": "https://www.sequremall.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/769827148496404372"
+        }
+      ]
+    },
+    {
+      "id": "AR15567082541713195009",
+      "name": "ILONA MOISEJEVAĐã xác minh",
+      "legal_name": "ILONA MOISEJEVAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15567082541713195009/creative/CR12840415931008024577?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sequremall.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sequremall.com",
+          "landing_page": "https://www.sequremall.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2189106432471827669"
+        }
+      ]
+    }
+  ]
+}

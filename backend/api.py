@@ -542,26 +542,35 @@ def get_spy_google_ads_endpoint(domain: Optional[str] = "binize.com", store_id: 
 @app.post("/api/spy/google-ads/crawl")
 async def crawl_spy_google_ads_endpoint(domain: Optional[str] = "binize.com", store_id: Optional[str] = None):
     """Trigger real-time Google Ads Transparency crawl for domain and sync immediately with SQLite."""
-    data = await spy_ads.crawl_google_ads_transparency(domain or "binize.com")
+    raw_domain = domain or "binize.com"
+    data = await spy_ads.crawl_google_ads_transparency(raw_domain)
     
     # Sync with SQLite database immediately
     try:
-        clean = (domain or "binize.com").strip().lower().replace("https://", "").replace("http://", "").split("/")[0]
-        target_id = store_id
-        if not target_id:
+        clean = raw_domain.strip().lower().replace("https://", "").replace("http://", "").split("/")[0]
+        if clean.startswith("www."):
+            clean = clean[4:]
+
+        adv_count = data.get("total_advertisers", len(data.get("advertisers", [])))
+        ad_count = data.get("total_ads", 0)
+        data_status = data.get("status")
+        if data_status == "error":
+            status = "error"
+        elif adv_count > 0:
+            status = "done"
+        else:
+            status = "no_ads"
+
+        if store_id:
+            db.update_store_spy_ads(store_id, adv_count, ad_count, status)
+        else:
             conn = db.get_db()
             cursor = conn.cursor()
-            cursor.execute("SELECT store_id FROM stores WHERE website_url LIKE ? LIMIT 1", (f"%{clean}%",))
-            row = cursor.fetchone()
+            cursor.execute("SELECT store_id FROM stores WHERE website_url LIKE ?", (f"%{clean}%",))
+            rows = cursor.fetchall()
             conn.close()
-            if row:
-                target_id = row["store_id"]
-                
-        if target_id and data:
-            adv_count = data.get("total_advertisers", len(data.get("advertisers", [])))
-            ad_count = data.get("total_ads", 0)
-            status = "done" if adv_count > 0 else "no_ads"
-            db.update_store_spy_ads(target_id, adv_count, ad_count, status)
+            for row in rows:
+                db.update_store_spy_ads(row["store_id"], adv_count, ad_count, status)
     except Exception as e:
         print(f"Error syncing live crawl to DB: {e}")
         

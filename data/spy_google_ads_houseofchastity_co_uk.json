@@ -1,0 +1,42 @@
+{
+  "domain": "houseofchastity.co.uk",
+  "updated_at": "2026-10-10T15:16:20.708558",
+  "total_advertisers": 1,
+  "total_ads": 10,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR08794184132583227393",
+      "name": "Claire GoldsonĐã xác minh",
+      "legal_name": "Claire GoldsonĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08794184132583227393/creative/CR10780552227186540545?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 10,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 10,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: houseofchastity.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho houseofchastity.co.uk",
+          "landing_page": "https://www.houseofchastity.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 10,
+          "image_url": null
+        }
+      ]
+    }
+  ]
+}

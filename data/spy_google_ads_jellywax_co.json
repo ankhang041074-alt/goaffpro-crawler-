@@ -1,0 +1,75 @@
+{
+  "domain": "jellywax.co",
+  "updated_at": "2026-10-10T15:19:24.194780",
+  "total_advertisers": 2,
+  "total_ads": 92,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR00585355423415009281",
+      "name": "Jelly cosmetics, LLCĐã xác minh",
+      "legal_name": "Jelly cosmetics, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00585355423415009281/creative/CR17977738635738349569?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 91,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 91,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: jellywax.co",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho jellywax.co",
+          "landing_page": "https://www.jellywax.co",
+          "last_shown": "2026-10-10",
+          "duration_days": 91,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8314614486515010669"
+        }
+      ]
+    },
+    {
+      "id": "AR11291553906917638145",
+      "name": "VÕ HỒNG SƠNĐã xác minh",
+      "legal_name": "VÕ HỒNG SƠNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11291553906917638145/creative/CR05290681091923902465?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: jellywax.co",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho jellywax.co",
+          "landing_page": "https://www.jellywax.co",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12211584725682413284"
+        }
+      ]
+    }
+  ]
+}

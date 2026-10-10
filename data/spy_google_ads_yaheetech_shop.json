@@ -1,0 +1,75 @@
+{
+  "domain": "yaheetech.shop",
+  "updated_at": "2026-10-10T15:20:55.287663",
+  "total_advertisers": 2,
+  "total_ads": 32,
+  "super_scale_count": 1,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR18155497814472261633?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yaheetech.shop",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yaheetech.shop",
+          "landing_page": "https://www.yaheetech.shop",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15370770955182410368"
+        }
+      ]
+    },
+    {
+      "id": "AR12455432371312787457",
+      "name": "PI HUI HUANGĐã xác minh",
+      "legal_name": "PI HUI HUANGĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12455432371312787457/creative/CR16997067936998883329?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 30,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 30,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yaheetech.shop",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yaheetech.shop",
+          "landing_page": "https://www.yaheetech.shop",
+          "last_shown": "2026-10-10",
+          "duration_days": 30,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14052812335654469320"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "domain": "flashfishtech.com",
+  "updated_at": "2026-10-10T15:38:22.805421",
+  "total_advertisers": 9,
+  "total_ads": 18,
+  "super_scale_count": 0,
+  "win_ads_count": 9,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR11470443546813661185?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: flashfishtech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho flashfishtech.com",
+          "landing_page": "https://www.flashfishtech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14344141856383735526"
+        }
+      ]
+    },
+    {
+      "id": "AR07841924676866539521",
+      "name": "JAMES MATTHEW HANSHAWĐã xác minh",
+      "legal_name": "JAMES MATTHEW HANSHAWĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07841924676866539521/creative/CR04097736943159214081?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: flashfishtech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho flashfishtech.com",
+          "landing_page": "https://www.flashfishtech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9089138797567272657"
+        }
+      ]
+    },
+    {
+      "id": "AR00793965532624715777",
+      "name": "TRẦN ANH TUẤNĐã xác minh",
+      "legal_name": "TRẦN ANH TUẤNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00793965532624715777/creative/CR02338399591461814273?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: flashfishtech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho flashfishtech.com",
+          "landing_page": "https://www.flashfishtech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/661999046555580788"
+        }
+      ]
+    },
+    {
+      "id": "AR10643680965311856641",
+      "name": "DOROHA SEAN JASON JRĐã xác minh",
+      "legal_name": "DOROHA SEAN JASON JRĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10643680965311856641/creative/CR01186997508845338625?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: flashfishtech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho flashfishtech.com",
+          "landing_page": "https://www.flashfishtech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8433654956509063647"
+        }
+      ]
+    },
+    {
+      "id": "AR01385099886076100609",
+      "name": "Khuất Gia QuyếtĐã xác minh",
+      "legal_name": "Khuất Gia QuyếtĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01385099886076100609/creative/CR17505704996715364353?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: flashfishtech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho flashfishtech.com",
+          "landing_page": "https://www.flashfishtech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5112133414940335466"
+        }
+      ]
+    },
+    {
+      "id": "AR16279209525506998273",
+      "name": "GLOBAL INTEGRATED MARKETING COMMUNICATION GROUP HOLDINGS LIMITEDĐã xác minh",
+      "legal_name": "GLOBAL INTEGRATED MARKETING COMMUNICATION GROUP HOLDINGS LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16279209525506998273/creative/CR05744762927290777601?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: flashfishtech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho flashfishtech.com",
+          "landing_page": "https://www.flashfishtech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13812827553568526600"
+        }
+      ]
+    },
+    {
+      "id": "AR03397555466006429697",
+      "name": "Imran AliĐã xác minh",
+      "legal_name": "Imran AliĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03397555466006429697/creative/CR05981088658030067713?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: flashfishtech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho flashfishtech.com",
+          "landing_page": "https://www.flashfishtech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13761445646917484279"
+        }
+      ]
+    },
+    {
+      "id": "AR13234630681092423681",
+      "name": "HongKong AdTiger Media Co., Limited",
+      "legal_name": "HongKong AdTiger Media Co., Limited",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13234630681092423681/creative/CR08519991985887510529?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: flashfishtech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho flashfishtech.com",
+          "landing_page": "https://www.flashfishtech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2613853022955186998"
+        }
+      ]
+    },
+    {
+      "id": "AR07675194828119867393",
+      "name": "IT Solutions FZCOĐã xác minh",
+      "legal_name": "IT Solutions FZCOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07675194828119867393/creative/CR12982552547909697537?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: flashfishtech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho flashfishtech.com",
+          "landing_page": "https://www.flashfishtech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8262013072534740779"
+        }
+      ]
+    }
+  ]
+}

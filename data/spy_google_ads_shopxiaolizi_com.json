@@ -1,0 +1,107 @@
+{
+  "domain": "shopxiaolizi.com",
+  "updated_at": "2026-10-10T15:11:56.281388",
+  "total_advertisers": 3,
+  "total_ads": 24,
+  "super_scale_count": 1,
+  "win_ads_count": 2,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR01389426610360287233",
+      "name": "常小波Đã xác minh",
+      "legal_name": "常小波Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01389426610360287233/creative/CR16291928177800904705?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 20,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 20,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: shopxiaolizi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho shopxiaolizi.com",
+          "landing_page": "https://www.shopxiaolizi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 20,
+          "image_url": "https://i.ytimg.com/vi/ciSRNuNdP04/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR03923525613570228225",
+      "name": "NGUYỄN VĂN QUANGĐã xác minh",
+      "legal_name": "NGUYỄN VĂN QUANGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03923525613570228225/creative/CR05317724155934670849?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: shopxiaolizi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho shopxiaolizi.com",
+          "landing_page": "https://www.shopxiaolizi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11956979924058447244"
+        }
+      ]
+    },
+    {
+      "id": "AR17027088074770743297",
+      "name": "ALBEST FOR SOLAR ENERGY SYSTEMS RENTAL CO.Đã xác minh",
+      "legal_name": "ALBEST FOR SOLAR ENERGY SYSTEMS RENTAL CO.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17027088074770743297/creative/CR10458426905437667329?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: shopxiaolizi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho shopxiaolizi.com",
+          "landing_page": "https://www.shopxiaolizi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/928335900997263935"
+        }
+      ]
+    }
+  ]
+}

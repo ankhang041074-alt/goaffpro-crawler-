@@ -1,0 +1,75 @@
+{
+  "domain": "manastin.com",
+  "updated_at": "2026-10-10T16:52:38.947297",
+  "total_advertisers": 2,
+  "total_ads": 56,
+  "super_scale_count": 1,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR17459551561620389889",
+      "name": "Muhammad Imran KhanĐã xác minh",
+      "legal_name": "Muhammad Imran KhanĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17459551561620389889/creative/CR14103099207514587137?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: manastin.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho manastin.com",
+          "landing_page": "https://www.manastin.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15123546807540643011"
+        }
+      ]
+    },
+    {
+      "id": "AR09036773377339031553",
+      "name": "Haily IncĐã xác minh",
+      "legal_name": "Haily IncĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09036773377339031553/creative/CR06045506776558731265?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 54,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 54,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: manastin.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho manastin.com",
+          "landing_page": "https://www.manastin.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 54,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7632504863959145713"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "domain": "die-wikinger-taverne.com",
+  "updated_at": "2026-10-10T15:43:03.402589",
+  "total_advertisers": 1,
+  "total_ads": 1,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR11465508449001930753",
+      "name": "Ecom GalaxyĐã xác minh",
+      "legal_name": "Ecom GalaxyĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11465508449001930753/creative/CR10121675218591154177?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: die-wikinger-taverne.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho die-wikinger-taverne.com",
+          "landing_page": "https://www.die-wikinger-taverne.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    }
+  ]
+}

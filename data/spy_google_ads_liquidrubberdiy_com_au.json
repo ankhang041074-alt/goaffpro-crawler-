@@ -1,0 +1,75 @@
+{
+  "domain": "liquidrubberdiy.com.au",
+  "updated_at": "2026-10-10T15:27:12.259677",
+  "total_advertisers": 2,
+  "total_ads": 48,
+  "super_scale_count": 1,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR01344822601897213953",
+      "name": "Liquid Rubber DIYĐã xác minh",
+      "legal_name": "Liquid Rubber DIYĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01344822601897213953/creative/CR09907640986593394689?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 46,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 46,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: liquidrubberdiy.com.au",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho liquidrubberdiy.com.au",
+          "landing_page": "https://www.liquidrubberdiy.com.au",
+          "last_shown": "2026-10-10",
+          "duration_days": 46,
+          "image_url": "https://i.ytimg.com/vi/xPYrLW-NN8o/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR07431965229510033409",
+      "name": "Hither ABĐã xác minh",
+      "legal_name": "Hither ABĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07431965229510033409/creative/CR08535546132640563201?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: liquidrubberdiy.com.au",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho liquidrubberdiy.com.au",
+          "landing_page": "https://www.liquidrubberdiy.com.au",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/158019485678068494"
+        }
+      ]
+    }
+  ]
+}

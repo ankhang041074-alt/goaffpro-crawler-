@@ -1,0 +1,457 @@
+{
+  "domain": "herdiotech.com",
+  "updated_at": "2026-10-10T16:49:57.628937",
+  "total_advertisers": 14,
+  "total_ads": 36,
+  "super_scale_count": 0,
+  "win_ads_count": 14,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR16714978633936011265",
+      "name": "GEA UNIVERSITY CORPORATIONĐã xác minh",
+      "legal_name": "GEA UNIVERSITY CORPORATIONĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16714978633936011265/creative/CR13647228973535461377?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: herdiotech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho herdiotech.com",
+          "landing_page": "https://www.herdiotech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12071230724509269680"
+        }
+      ]
+    },
+    {
+      "id": "AR16638675507675660289",
+      "name": "TWK DIGITAL ELETRONICA LTDAĐã xác minh",
+      "legal_name": "TWK DIGITAL ELETRONICA LTDAĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16638675507675660289/creative/CR05520439130472841217?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: herdiotech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho herdiotech.com",
+          "landing_page": "https://www.herdiotech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3735998556766602415"
+        }
+      ]
+    },
+    {
+      "id": "AR09133748249914507265",
+      "name": "KHỔNG DUY THƠĐã xác minh",
+      "legal_name": "KHỔNG DUY THƠĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09133748249914507265/creative/CR01141865511462633473?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: herdiotech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho herdiotech.com",
+          "landing_page": "https://www.herdiotech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15602281481444825634"
+        }
+      ]
+    },
+    {
+      "id": "AR03305852734506270721",
+      "name": "AL FARIS AL ABYADH NEW AUTO SPARE PARTS TR. LLCĐã xác minh",
+      "legal_name": "AL FARIS AL ABYADH NEW AUTO SPARE PARTS TR. LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03305852734506270721/creative/CR03490452997278793729?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: herdiotech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho herdiotech.com",
+          "landing_page": "https://www.herdiotech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9364871796168531768"
+        }
+      ]
+    },
+    {
+      "id": "AR14038885984695746561",
+      "name": "TRẦN THÀNH THÁIĐã xác minh",
+      "legal_name": "TRẦN THÀNH THÁIĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14038885984695746561/creative/CR05118075796635779073?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: herdiotech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho herdiotech.com",
+          "landing_page": "https://www.herdiotech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR02142332238455373825",
+      "name": "COMMERCIAL SYSTEMS TECHNOLOGY, INC.Đã xác minh",
+      "legal_name": "COMMERCIAL SYSTEMS TECHNOLOGY, INC.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02142332238455373825/creative/CR02322582463861227521?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: herdiotech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho herdiotech.com",
+          "landing_page": "https://www.herdiotech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3408076866320455945"
+        }
+      ]
+    },
+    {
+      "id": "AR13623901666121089025",
+      "name": "Bizsoft Pte. Ltd.Đã xác minh",
+      "legal_name": "Bizsoft Pte. Ltd.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13623901666121089025/creative/CR08358630133296267265?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: herdiotech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho herdiotech.com",
+          "landing_page": "https://www.herdiotech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR12784598080762675201",
+      "name": "South Wind Tech LimitedĐã xác minh",
+      "legal_name": "South Wind Tech LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12784598080762675201/creative/CR04981280169135177729?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: herdiotech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho herdiotech.com",
+          "landing_page": "https://www.herdiotech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13646993778746298208"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR14202149262258601985?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: herdiotech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho herdiotech.com",
+          "landing_page": "https://www.herdiotech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2155623459549045621"
+        }
+      ]
+    },
+    {
+      "id": "AR10459943784807399425",
+      "name": "CÔNG TY CỔ PHẦN ĐẦU TƯ PHÁT TRIỂN TRUNG HIẾUĐã xác minh",
+      "legal_name": "CÔNG TY CỔ PHẦN ĐẦU TƯ PHÁT TRIỂN TRUNG HIẾUĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10459943784807399425/creative/CR15659465243845722113?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: herdiotech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho herdiotech.com",
+          "landing_page": "https://www.herdiotech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16510751827948326274"
+        }
+      ]
+    },
+    {
+      "id": "AR12327153182923816961",
+      "name": "SEBASTIAO BARBOSA DOS SANTOSĐã xác minh",
+      "legal_name": "SEBASTIAO BARBOSA DOS SANTOSĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12327153182923816961/creative/CR11085816374914711553?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: herdiotech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho herdiotech.com",
+          "landing_page": "https://www.herdiotech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7880813018181252688"
+        }
+      ]
+    },
+    {
+      "id": "AR07301687859126206465",
+      "name": "CÔNG TY CỔ PHẦN THIẾT KẾ XÂY DỰNG BICĐã xác minh",
+      "legal_name": "CÔNG TY CỔ PHẦN THIẾT KẾ XÂY DỰNG BICĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07301687859126206465/creative/CR08414664175015428097?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: herdiotech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho herdiotech.com",
+          "landing_page": "https://www.herdiotech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2274732200642619117"
+        }
+      ]
+    },
+    {
+      "id": "AR14157974656035848193",
+      "name": "深圳市京威电子科技有限公司Đã xác minh",
+      "legal_name": "深圳市京威电子科技有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14157974656035848193/creative/CR13771038148941316097?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 6,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: herdiotech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho herdiotech.com",
+          "landing_page": "https://www.herdiotech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 6,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14570996822574075719"
+        }
+      ]
+    },
+    {
+      "id": "AR02083579877574836225",
+      "name": "Lê Hoàng TiếnĐã xác minh",
+      "legal_name": "Lê Hoàng TiếnĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02083579877574836225/creative/CR09007843826252906497?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: herdiotech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho herdiotech.com",
+          "landing_page": "https://www.herdiotech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11256513074513508400"
+        }
+      ]
+    }
+  ]
+}

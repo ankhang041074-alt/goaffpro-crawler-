@@ -1,0 +1,43 @@
+{
+  "domain": "haikini.co",
+  "updated_at": "2026-10-10T15:54:52.255591",
+  "total_advertisers": 1,
+  "total_ads": 1,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR07431965229510033409",
+      "name": "Hither ABĐã xác minh",
+      "legal_name": "Hither ABĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07431965229510033409/creative/CR09318130981183422465?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: haikini.co",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho haikini.co",
+          "landing_page": "https://www.haikini.co",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6233693364850295006"
+        }
+      ]
+    }
+  ]
+}

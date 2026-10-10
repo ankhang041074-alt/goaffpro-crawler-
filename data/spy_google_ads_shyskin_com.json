@@ -1,0 +1,43 @@
+{
+  "domain": "shyskin.com",
+  "updated_at": "2026-10-10T15:59:51.536646",
+  "total_advertisers": 1,
+  "total_ads": 2,
+  "super_scale_count": 0,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR01504643832539512833",
+      "name": "Shy SkinĐã xác minh",
+      "legal_name": "Shy SkinĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01504643832539512833/creative/CR11096702064015704065?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: shyskin.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho shyskin.com",
+          "landing_page": "https://www.shyskin.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10975526095780381979"
+        }
+      ]
+    }
+  ]
+}

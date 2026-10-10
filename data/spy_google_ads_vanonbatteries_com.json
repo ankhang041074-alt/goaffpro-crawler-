@@ -1,0 +1,139 @@
+{
+  "domain": "vanonbatteries.com",
+  "updated_at": "2026-10-10T17:07:52.632214",
+  "total_advertisers": 4,
+  "total_ads": 116,
+  "super_scale_count": 1,
+  "win_ads_count": 1,
+  "test_ads_count": 2,
+  "advertisers": [
+    {
+      "id": "AR03363519473683267585",
+      "name": "VANON TECHNOLOGY HONGKONG LIMITEDĐã xác minh",
+      "legal_name": "VANON TECHNOLOGY HONGKONG LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03363519473683267585/creative/CR00663019839559827457?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 112,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 112,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: vanonbatteries.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho vanonbatteries.com",
+          "landing_page": "https://www.vanonbatteries.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 112,
+          "image_url": "https://i.ytimg.com/vi/yD8fJrI000A/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR15328596734481793025",
+      "name": "Bizsoft Pte. Ltd.Đã xác minh",
+      "legal_name": "Bizsoft Pte. Ltd.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15328596734481793025/creative/CR03522290937009012737?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: vanonbatteries.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho vanonbatteries.com",
+          "landing_page": "https://www.vanonbatteries.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7020729835428052242"
+        }
+      ]
+    },
+    {
+      "id": "AR11353865421297025025",
+      "name": "Trần Minh ThịnhĐã xác minh",
+      "legal_name": "Trần Minh ThịnhĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11353865421297025025/creative/CR08571066362582007809?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: vanonbatteries.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho vanonbatteries.com",
+          "landing_page": "https://www.vanonbatteries.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9134174437592166901"
+        }
+      ]
+    },
+    {
+      "id": "AR03620228243036045313",
+      "name": "Marina MartyshevaĐã xác minh",
+      "legal_name": "Marina MartyshevaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03620228243036045313/creative/CR06588869454317223937?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: vanonbatteries.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho vanonbatteries.com",
+          "landing_page": "https://www.vanonbatteries.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11187256713999470312"
+        }
+      ]
+    }
+  ]
+}

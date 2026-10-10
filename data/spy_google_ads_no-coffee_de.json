@@ -1,0 +1,107 @@
+{
+  "domain": "no-coffee.de",
+  "updated_at": "2026-10-10T15:14:34.576991",
+  "total_advertisers": 3,
+  "total_ads": 106,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 2,
+  "advertisers": [
+    {
+      "id": "AR00107116209484333057",
+      "name": "The Good Caf GmbHĐã xác minh",
+      "legal_name": "The Good Caf GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00107116209484333057/creative/CR12626557681000251393?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 104,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 104,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: no-coffee.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho no-coffee.de",
+          "landing_page": "https://www.no-coffee.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 104,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4215971170694729906"
+        }
+      ]
+    },
+    {
+      "id": "AR12590782269871882241",
+      "name": "IT GREEN PUBLIC COMPANY LIMITEDĐã xác minh",
+      "legal_name": "IT GREEN PUBLIC COMPANY LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12590782269871882241/creative/CR04414651619174514689?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: no-coffee.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho no-coffee.de",
+          "landing_page": "https://www.no-coffee.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15010272479890760769"
+        }
+      ]
+    },
+    {
+      "id": "AR10639578481270194177",
+      "name": "cannix LLCĐã xác minh",
+      "legal_name": "cannix LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10639578481270194177/creative/CR14861010989360349185?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: no-coffee.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho no-coffee.de",
+          "landing_page": "https://www.no-coffee.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8363237319867762763"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "galvic.com.br",
+  "updated_at": "2026-10-10T15:15:45.445233",
+  "total_advertisers": 1,
+  "total_ads": 92,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR05471075061295218689",
+      "name": "SALVADOR INDUSTRIA E COMERCIO DE ROUPAS LTDAĐã xác minh",
+      "legal_name": "SALVADOR INDUSTRIA E COMERCIO DE ROUPAS LTDAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05471075061295218689/creative/CR00818645539988963329?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 92,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 92,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: galvic.com.br",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho galvic.com.br",
+          "landing_page": "https://www.galvic.com.br",
+          "last_shown": "2026-10-10",
+          "duration_days": 92,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15298202764879605886"
+        }
+      ]
+    }
+  ]
+}

@@ -1253,7 +1253,17 @@ def get_stores_for_spy_ads_enrichment(limit: int = 30, cookie_min_days: int = 14
 
 
 def update_store_spy_ads(store_id: str, adv_count: int, ad_count: int, status: str = 'done'):
-    """Update store spy ads status and metrics."""
+    """Update store spy ads status and metrics with robust zero-ads normalization."""
+    adv_cnt = max(0, int(adv_count or 0))
+    ad_cnt = max(0, int(ad_count or 0))
+    
+    if status in ('error', 'pending'):
+        pass
+    elif adv_cnt == 0:
+        status = 'no_ads'
+    elif status not in ('done', 'no_ads'):
+        status = 'done' if adv_cnt > 0 else 'no_ads'
+
     conn = get_db()
     cursor = conn.cursor()
     cursor.execute("""
@@ -1263,7 +1273,7 @@ def update_store_spy_ads(store_id: str, adv_count: int, ad_count: int, status: s
         spy_ads_count = ?,
         spy_updated_at = CURRENT_TIMESTAMP
     WHERE store_id = ?
-    """, (status, adv_count, ad_count, store_id))
+    """, (status, adv_cnt, ad_cnt, store_id))
     conn.commit()
     conn.close()
 

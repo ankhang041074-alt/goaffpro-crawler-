@@ -1,0 +1,43 @@
+{
+  "domain": "au-line.com",
+  "updated_at": "2026-10-10T15:51:47.702103",
+  "total_advertisers": 1,
+  "total_ads": 1,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR07675194828119867393",
+      "name": "IT Solutions FZCOĐã xác minh",
+      "legal_name": "IT Solutions FZCOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07675194828119867393/creative/CR00625438368913686529?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: au-line.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho au-line.com",
+          "landing_page": "https://www.au-line.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7140558408169490690"
+        }
+      ]
+    }
+  ]
+}

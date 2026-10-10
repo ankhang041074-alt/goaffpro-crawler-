@@ -1,0 +1,43 @@
+{
+  "domain": "clearlidz.com",
+  "updated_at": "2026-10-10T16:51:15.244720",
+  "total_advertisers": 1,
+  "total_ads": 115,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR14799538316453609473",
+      "name": "Clear Lidz Inc.Đã xác minh",
+      "legal_name": "Clear Lidz Inc.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14799538316453609473/creative/CR13021235316890009601?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 115,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 115,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: clearlidz.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho clearlidz.com",
+          "landing_page": "https://www.clearlidz.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 115,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4405074085660055026"
+        }
+      ]
+    }
+  ]
+}

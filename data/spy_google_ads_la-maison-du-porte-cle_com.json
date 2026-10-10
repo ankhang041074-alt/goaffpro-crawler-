@@ -1,0 +1,43 @@
+{
+  "domain": "la-maison-du-porte-cle.com",
+  "updated_at": "2026-10-10T15:42:36.171703",
+  "total_advertisers": 1,
+  "total_ads": 16,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR02327531528906604545",
+      "name": "Lucas DelarueĐã xác minh",
+      "legal_name": "Lucas DelarueĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02327531528906604545/creative/CR10574097727702958081?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 16,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 16,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: la-maison-du-porte-cle.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho la-maison-du-porte-cle.com",
+          "landing_page": "https://www.la-maison-du-porte-cle.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 16,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10974564744739210435"
+        }
+      ]
+    }
+  ]
+}

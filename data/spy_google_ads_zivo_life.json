@@ -1,0 +1,107 @@
+{
+  "domain": "zivo.life",
+  "updated_at": "2026-10-10T16:56:35.425282",
+  "total_advertisers": 3,
+  "total_ads": 16,
+  "super_scale_count": 1,
+  "win_ads_count": 2,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR12596214115011133441",
+      "name": "AUBURN DIGITAL SOLUTIONS PVT LTDĐã xác minh",
+      "legal_name": "AUBURN DIGITAL SOLUTIONS PVT LTDĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12596214115011133441/creative/CR18274166317751730177?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: zivo.life",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho zivo.life",
+          "landing_page": "https://www.zivo.life",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16489929095399927745"
+        }
+      ]
+    },
+    {
+      "id": "AR06623226220567855105",
+      "name": "Gregory Louis ConsiglioĐã xác minh",
+      "legal_name": "Gregory Louis ConsiglioĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06623226220567855105/creative/CR01581734630032146433?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 12,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 12,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: zivo.life",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho zivo.life",
+          "landing_page": "https://www.zivo.life",
+          "last_shown": "2026-10-10",
+          "duration_days": 12,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5081188126862229639"
+        }
+      ]
+    },
+    {
+      "id": "AR15505981830154158081",
+      "name": "DIT Digital Innovation Technology Group GmbHĐã xác minh",
+      "legal_name": "DIT Digital Innovation Technology Group GmbHĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15505981830154158081/creative/CR17135080930029862913?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: zivo.life",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho zivo.life",
+          "landing_page": "https://www.zivo.life",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17887620706425042082"
+        }
+      ]
+    }
+  ]
+}

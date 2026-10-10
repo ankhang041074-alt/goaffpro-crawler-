@@ -1,0 +1,75 @@
+{
+  "domain": "plungechill.com",
+  "updated_at": "2026-10-10T15:21:24.244707",
+  "total_advertisers": 2,
+  "total_ads": 115,
+  "super_scale_count": 1,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR02591522020172759041",
+      "name": "刘嘉辉Đã xác minh",
+      "legal_name": "刘嘉辉Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02591522020172759041/creative/CR11202484866543255553?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 110,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 110,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: plungechill.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho plungechill.com",
+          "landing_page": "https://www.plungechill.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 110,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4597616671621747663"
+        }
+      ]
+    },
+    {
+      "id": "AR10942234166510485505",
+      "name": "BlueVision Interactive LimitedĐã xác minh",
+      "legal_name": "BlueVision Interactive LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10942234166510485505/creative/CR02979618177027145729?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 5,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 5,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: plungechill.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho plungechill.com",
+          "landing_page": "https://www.plungechill.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 5,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9792232899273215344"
+        }
+      ]
+    }
+  ]
+}

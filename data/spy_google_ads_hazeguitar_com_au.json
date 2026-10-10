@@ -1,0 +1,235 @@
+{
+  "domain": "hazeguitar.com.au",
+  "updated_at": "2026-10-10T15:28:08.723426",
+  "total_advertisers": 7,
+  "total_ads": 58,
+  "super_scale_count": 1,
+  "win_ads_count": 6,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR09355195200328171521",
+      "name": "Hill sound International Pty LtdĐã xác minh",
+      "legal_name": "Hill sound International Pty LtdĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09355195200328171521/creative/CR11989687260195848193?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 46,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 46,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hazeguitar.com.au",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hazeguitar.com.au",
+          "landing_page": "https://www.hazeguitar.com.au",
+          "last_shown": "2026-10-10",
+          "duration_days": 46,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11372838574086090187"
+        }
+      ]
+    },
+    {
+      "id": "AR13743836265629876225",
+      "name": "OPULENTAURAA LLCĐã xác minh",
+      "legal_name": "OPULENTAURAA LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13743836265629876225/creative/CR10295170345203662849?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hazeguitar.com.au",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hazeguitar.com.au",
+          "landing_page": "https://www.hazeguitar.com.au",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1337808623569104018"
+        }
+      ]
+    },
+    {
+      "id": "AR03858991427845357569",
+      "name": "OCEAN SUNRISE LIMITEDĐã xác minh",
+      "legal_name": "OCEAN SUNRISE LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03858991427845357569/creative/CR08609469967278014465?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hazeguitar.com.au",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hazeguitar.com.au",
+          "landing_page": "https://www.hazeguitar.com.au",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10917909983871645981"
+        }
+      ]
+    },
+    {
+      "id": "AR05842767664304357377",
+      "name": "TỔNG CÔNG TY VIỄN THÔNG VIETTEL - CHI NHÁNH TẬP ĐOÀN CÔNG NGHIỆP - VIỄN THÔNG QUÂN ĐỘIĐã xác minh",
+      "legal_name": "TỔNG CÔNG TY VIỄN THÔNG VIETTEL - CHI NHÁNH TẬP ĐOÀN CÔNG NGHIỆP - VIỄN THÔNG QUÂN ĐỘIĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05842767664304357377/creative/CR06488714038199975937?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hazeguitar.com.au",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hazeguitar.com.au",
+          "landing_page": "https://www.hazeguitar.com.au",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17519229771947303812"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR13788041091242524673?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hazeguitar.com.au",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hazeguitar.com.au",
+          "landing_page": "https://www.hazeguitar.com.au",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2395379197658693962"
+        }
+      ]
+    },
+    {
+      "id": "AR00736381952604504065",
+      "name": "al shalawi cargo transport by heavy trucks co. l.l.cĐã xác minh",
+      "legal_name": "al shalawi cargo transport by heavy trucks co. l.l.cĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00736381952604504065/creative/CR11245558440719810561?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hazeguitar.com.au",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hazeguitar.com.au",
+          "landing_page": "https://www.hazeguitar.com.au",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13709685657416437694"
+        }
+      ]
+    },
+    {
+      "id": "AR13734479387317764097",
+      "name": "Neha HundalĐã xác minh",
+      "legal_name": "Neha HundalĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13734479387317764097/creative/CR10036891627865243649?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hazeguitar.com.au",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hazeguitar.com.au",
+          "landing_page": "https://www.hazeguitar.com.au",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17159897866556887162"
+        }
+      ]
+    }
+  ]
+}

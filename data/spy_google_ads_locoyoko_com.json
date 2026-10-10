@@ -1,0 +1,43 @@
+{
+  "domain": "locoyoko.com",
+  "updated_at": "2026-10-10T16:58:13.058236",
+  "total_advertisers": 1,
+  "total_ads": 4,
+  "super_scale_count": 0,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR08663760827800616961",
+      "name": "LocoYoko CoffeeĐã xác minh",
+      "legal_name": "LocoYoko CoffeeĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08663760827800616961/creative/CR14837808476515729409?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: locoyoko.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho locoyoko.com",
+          "landing_page": "https://www.locoyoko.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3482961579064012128"
+        }
+      ]
+    }
+  ]
+}

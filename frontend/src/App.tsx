@@ -38,9 +38,14 @@ import {
   Info,
   BarChart2,
   Tag,
-  Monitor
+  Monitor,
+  Zap,
+  Square,
+  Sparkles
 } from 'lucide-react';
 import { StoreAccordionSpyView } from './StoreAccordionSpyView';
+import { SpyGoogleAdsTab } from './SpyGoogleAdsTab';
+import { SeasonalityChart3Year, analyzeSeasonality3Years } from './SeasonalityChart3Year';
 
 interface Store {
   id: number;
@@ -219,6 +224,8 @@ export default function App() {
   const [categories, setCategories] = useState<string[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [spyWorkerStatus, setSpyWorkerStatus] = useState<SpyWorkerStatus | null>(null);
+  const [activeNavTab, setActiveNavTab] = useState<'stores' | 'spy_pro'>('stores');
+  const [proSpyDomain, setProSpyDomain] = useState<string>('binize.com');
 
   // Filters & Pagination
   const [search, setSearch] = useState<string>('');
@@ -246,6 +253,18 @@ export default function App() {
   const [trafficCVStatus, setTrafficCVStatus] = useState<TrafficCVWorkerStatus | null>(null);
   const [refreshingStoreId, setRefreshingStoreId] = useState<string | null>(null);
   const [quickNoteEdit, setQuickNoteEdit] = useState<{ [id: string]: string }>({});
+  const [isAutomationExpanded, setIsAutomationExpanded] = useState<boolean>(() => {
+    const saved = localStorage.getItem('automation_center_expanded');
+    return saved !== null ? saved === 'true' : true;
+  });
+
+  const toggleAutomationExpanded = () => {
+    setIsAutomationExpanded(prev => {
+      const next = !prev;
+      localStorage.setItem('automation_center_expanded', String(next));
+      return next;
+    });
+  };
 
   // Crawl State
   const [activeJob, setActiveJob] = useState<CrawlJob | null>(null);
@@ -534,6 +553,30 @@ export default function App() {
       }
     } catch (e) {
       console.error(e);
+    }
+  }
+
+  async function handleStartAllWorkers() {
+    if (!trafficWorkerStatus?.is_running) {
+      handleStartTrafficWorker();
+    }
+    if (!trafficCVStatus?.is_running) {
+      handleStartTrafficCVWorker();
+    }
+    if (!spyWorkerStatus?.is_running) {
+      handleStartSpyWorker(true);
+    }
+  }
+
+  async function handleStopAllWorkers() {
+    if (trafficWorkerStatus?.is_running) {
+      handleStopTrafficWorker();
+    }
+    if (trafficCVStatus?.is_running) {
+      handleStopTrafficCVWorker();
+    }
+    if (spyWorkerStatus?.is_running) {
+      handleStopSpyWorker();
     }
   }
 
@@ -1097,6 +1140,76 @@ export default function App() {
 
   const totalPages = Math.ceil(totalCount / pageSize) || 1;
 
+  // Computed values for Unified Automation Center
+  const anyWorkerRunning = Boolean(
+    trafficWorkerStatus?.is_running ||
+    trafficCVStatus?.is_running ||
+    spyWorkerStatus?.is_running
+  );
+  const allWorkersRunning = Boolean(
+    trafficWorkerStatus?.is_running &&
+    trafficCVStatus?.is_running &&
+    spyWorkerStatus?.is_running
+  );
+  const runningWorkersCount = [
+    trafficWorkerStatus?.is_running,
+    trafficCVStatus?.is_running,
+    spyWorkerStatus?.is_running,
+  ].filter(Boolean).length;
+
+  // 1. Traffic & Google Trends Worker helpers
+  const isTrafficTrendsPhase = Boolean(
+    trafficWorkerStatus &&
+    trafficWorkerStatus.total_cookie_14_plus > 0 &&
+    trafficWorkerStatus.checked_cookie_14_plus >= trafficWorkerStatus.total_cookie_14_plus
+  );
+  const trafficPercent = trafficWorkerStatus && trafficWorkerStatus.total_cookie_14_plus > 0
+    ? isTrafficTrendsPhase
+      ? Math.min(100, (((trafficWorkerStatus.trend_checked_cookie_14 || 0) / trafficWorkerStatus.total_cookie_14_plus) * 100))
+      : Math.min(100, ((trafficWorkerStatus.checked_cookie_14_plus / trafficWorkerStatus.total_cookie_14_plus) * 100))
+    : 0;
+  const trafficDoneCount = trafficWorkerStatus
+    ? (isTrafficTrendsPhase ? (trafficWorkerStatus.trend_checked_cookie_14 || 0) : trafficWorkerStatus.checked_cookie_14_plus)
+    : 0;
+  const trafficTotalCount = trafficWorkerStatus ? trafficWorkerStatus.total_cookie_14_plus : 0;
+  const trafficProgressText = trafficWorkerStatus && trafficWorkerStatus.total_cookie_14_plus > 0
+    ? `${trafficDoneCount.toLocaleString()} / ${trafficTotalCount.toLocaleString()} (${trafficPercent.toFixed(1)}%)`
+    : '0 / 0 (0%)';
+
+  // 2. Similarweb (Traffic.cv) Worker helpers
+  const cvIsCookie7 = Boolean(
+    trafficCVStatus?.cookie_14_stats &&
+    trafficCVStatus.cookie_14_stats.percent >= 100 &&
+    trafficCVStatus.cookie_7_stats
+  );
+  const cvPercent = cvIsCookie7
+    ? (trafficCVStatus?.cookie_7_stats?.percent || 0)
+    : (trafficCVStatus?.cookie_14_stats?.percent || 0);
+  const cvDoneCount = cvIsCookie7 && trafficCVStatus?.cookie_7_stats
+    ? trafficCVStatus.cookie_7_stats.enriched
+    : trafficCVStatus?.cookie_14_stats
+    ? trafficCVStatus.cookie_14_stats.enriched
+    : 0;
+  const cvTotalCount = cvIsCookie7 && trafficCVStatus?.cookie_7_stats
+    ? trafficCVStatus.cookie_7_stats.total
+    : trafficCVStatus?.cookie_14_stats
+    ? trafficCVStatus.cookie_14_stats.total
+    : 5243;
+  const cvProgressText = `${cvDoneCount.toLocaleString()} / ${cvTotalCount.toLocaleString()} (${cvPercent}%)`;
+
+  // 3. Spy Google Ads Worker helpers
+  const spyIsHighPriority = Boolean(spyWorkerStatus?.high_priority_only);
+  const spyPercent = spyIsHighPriority
+    ? Math.min(100, spyWorkerStatus?.percent_high_priority || 0)
+    : Math.min(100, spyWorkerStatus?.percent_cookie_14 || 0);
+  const spyDoneCount = spyIsHighPriority
+    ? (spyWorkerStatus?.checked_high_priority || 0)
+    : (spyWorkerStatus?.checked_cookie_14 || 0);
+  const spyTotalCount = spyIsHighPriority
+    ? (spyWorkerStatus?.total_high_priority || 0)
+    : (spyWorkerStatus?.total_cookie_14 || 0);
+  const spyProgressText = `${spyDoneCount.toLocaleString()} / ${spyTotalCount.toLocaleString()} (${spyPercent}%)`;
+
   return (
     <div className="min-h-screen bg-slate-50 text-slate-800 flex flex-col font-sans">
       {/* HEADER */}
@@ -1117,6 +1230,43 @@ export default function App() {
                 Cào danh sách cửa hàng tự động & quản lý chương trình Affiliate Shopify
               </p>
             </div>
+          </div>
+
+          {/* TOP NAVIGATION TABS */}
+          <div className="flex items-center p-1 bg-slate-200/80 rounded-2xl border border-slate-300 shadow-inner gap-1">
+            <button
+              onClick={() => setActiveNavTab('stores')}
+              className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
+                activeNavTab === 'stores'
+                  ? 'bg-white text-indigo-700 shadow-xs'
+                  : 'text-slate-600 hover:text-slate-900'
+              }`}
+            >
+              <Building size={14} className={activeNavTab === 'stores' ? 'text-indigo-600' : 'text-slate-400'} />
+              <span>Quản Lý Cửa Hàng (CRM)</span>
+              <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-600 font-mono font-semibold">
+                {(stats?.total_stores || 0).toLocaleString()}
+              </span>
+            </button>
+
+            <button
+              onClick={() => setActiveNavTab('spy_pro')}
+              className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
+                activeNavTab === 'spy_pro'
+                  ? 'bg-gradient-to-r from-indigo-600 to-violet-600 text-white shadow-md shadow-indigo-500/25'
+                  : 'text-slate-600 hover:text-slate-900'
+              }`}
+            >
+              <Sparkles size={14} className={activeNavTab === 'spy_pro' ? 'text-amber-300' : 'text-amber-500'} />
+              <span>Spy Google Ads Chuyên Sâu</span>
+              <span className={`text-[9px] font-bold px-1.5 py-0.2 rounded-full ${
+                activeNavTab === 'spy_pro'
+                  ? 'bg-white/20 text-white border border-white/30'
+                  : 'bg-gradient-to-r from-amber-500 to-rose-500 text-white shadow-2xs'
+              }`}>
+                PRO 3 NĂM
+              </span>
+            </button>
           </div>
 
           <div className="flex items-center gap-2.5 flex-wrap">
@@ -1200,6 +1350,10 @@ export default function App() {
 
       {/* MAIN CONTAINER */}
       <main className="max-w-7xl mx-auto w-full px-6 py-6 flex-1 flex flex-col gap-6">
+        {activeNavTab === 'spy_pro' ? (
+          <SpyGoogleAdsTab initialDomain={proSpyDomain} />
+        ) : (
+          <>
             {/* STATS OVERVIEW */}
         <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-sm">
@@ -1265,470 +1419,558 @@ export default function App() {
           </div>
         </section>
 
-        {/* BACKGROUND TRAFFIC WORKER WIDGET */}
-        <section className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 border border-indigo-800/50 rounded-2xl p-4 shadow-lg text-white">
-          <div className="flex flex-wrap items-center justify-between gap-4">
+        {/* UNIFIED AUTOMATION CENTER */}
+        <section className="bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 border border-slate-800 rounded-2xl shadow-xl overflow-hidden transition-all duration-300 text-white">
+          {/* Header Bar */}
+          <div className="p-3.5 sm:p-4 flex flex-wrap items-center justify-between gap-3">
             <div className="flex items-center gap-3">
-              <div className={`p-2.5 rounded-xl border ${trafficWorkerStatus?.is_running ? 'bg-indigo-600/30 border-indigo-500/50 text-indigo-400' : 'bg-slate-800 border-slate-700 text-slate-400'}`}>
-                <BarChart2 size={20} className={trafficWorkerStatus?.is_running && !trafficWorkerStatus.is_paused ? 'animate-pulse' : ''} />
+              <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 via-purple-600 to-amber-500 p-0.5 flex items-center justify-center shadow-md shadow-indigo-950/50 shrink-0">
+                <div className="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center">
+                  <Zap size={18} className="text-amber-400 fill-amber-400/20" />
+                </div>
               </div>
               <div>
                 <div className="flex items-center gap-2 flex-wrap">
-                  <h3 className="text-sm font-bold text-white flex items-center gap-1.5">
-                    <span>Unified Enrichment Worker (Traffic & Google Trends)</span>
-                    <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-indigo-900/80 text-indigo-200 border border-indigo-700/60">
-                      Gộp Worker 1 & 2
+                  <h2 className="text-sm font-bold text-white tracking-wide">
+                    Trung Tâm Tự Động Hóa
+                  </h2>
+                  {runningWorkersCount > 0 ? (
+                    <span className="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 flex items-center gap-1.5 animate-pulse">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
+                      {runningWorkersCount}/3 luồng đang chạy
                     </span>
-                  </h3>
-                  {trafficWorkerStatus?.is_running ? (
-                    trafficWorkerStatus.is_paused ? (
-                      <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30">
-                        ⏸️ Tạm dừng
-                      </span>
-                    ) : (
-                      <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 flex items-center gap-1">
-                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
-                        Đang quét: {trafficWorkerStatus.current_store || '...'}
-                      </span>
-                    )
                   ) : (
-                    <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700">
-                      ⚪ Sẵn sàng
+                    <span className="px-2.5 py-0.5 rounded-full text-[11px] font-medium bg-slate-800 text-slate-400 border border-slate-700">
+                      ⚪ Tất cả đang dừng
                     </span>
                   )}
-                  <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-indigo-900/60 text-indigo-300 border border-indigo-700/50">
-                    🎯 Mục tiêu: Xóa nợ Google Trends (Cookie ≥ 14d)
-                  </span>
-                  {trafficWorkerStatus?.gt_cooldown_seconds && trafficWorkerStatus.gt_cooldown_seconds > 0 ? (
-                    <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 animate-pulse">
-                      ⏳ Google Trends tạm nghỉ {trafficWorkerStatus.gt_cooldown_seconds}s (Tránh ban IP)
-                    </span>
-                  ) : null}
                 </div>
-                <p className="text-[11px] text-slate-400 mt-0.5">
-                  {trafficWorkerStatus?.status_message || 'Tự động bóc tách Similarweb/Tranco Traffic và hoàn tất Google Trends 5 năm cho các store chất lượng cao mà không bị nghẽn.'}
+                <p className="text-[11px] text-slate-400 mt-0.5 hidden sm:block">
+                  Quản lý 3 luồng tự động: Đo lưu lượng & Google Trends, Chi tiết Similarweb và Spy Google Ads
                 </p>
               </div>
             </div>
 
-            {/* Control Buttons */}
+            {/* Master Actions */}
             <div className="flex items-center gap-2">
-              {trafficWorkerStatus?.is_running ? (
-                <>
-                  {trafficWorkerStatus.is_paused ? (
-                    <button
-                      onClick={handleResumeTrafficWorker}
-                      className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-emerald-600 hover:bg-emerald-500 text-white transition cursor-pointer shadow-sm"
-                    >
-                      <Play size={13} fill="currentColor" />
-                      <span>Tiếp tục</span>
-                    </button>
-                  ) : (
-                    <button
-                      onClick={handlePauseTrafficWorker}
-                      className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-amber-600 hover:bg-amber-500 text-white transition cursor-pointer shadow-sm"
-                    >
-                      <Pause size={13} />
-                      <span>Tạm dừng</span>
-                    </button>
-                  )}
-                  <button
-                    onClick={handleStopTrafficWorker}
-                    className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-rose-600/80 hover:bg-rose-600 text-white transition cursor-pointer shadow-sm"
-                  >
-                    <X size={13} />
-                    <span>Dừng hẳn</span>
-                  </button>
-                </>
-              ) : (
+              {!allWorkersRunning && (
                 <button
-                  onClick={handleStartTrafficWorker}
-                  className="flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold bg-gradient-to-r from-indigo-500 to-violet-600 hover:from-indigo-400 hover:to-violet-500 text-white shadow-lg shadow-indigo-500/25 transition cursor-pointer"
+                  onClick={handleStartAllWorkers}
+                  className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-bold bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white shadow-md shadow-emerald-950/40 transition cursor-pointer active:scale-95"
+                  title="Khởi động cả 3 luồng tự động hóa cùng lúc"
                 >
-                  <Play size={13} fill="currentColor" />
-                  <span>Chạy Quét Unified (Traffic & Google Trends)</span>
+                  <Play size={12} fill="currentColor" />
+                  <span>⚡ Bật Tất Cả</span>
                 </button>
               )}
-            </div>
-          </div>
 
-          {/* Progress Bar & Real-time Stats */}
-          <div className="mt-3 pt-3 border-t border-indigo-900/60 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
-            <div className="w-full sm:w-1/2">
-              <div className="flex items-center justify-between text-[11px] text-slate-400 mb-1">
-                {trafficWorkerStatus && trafficWorkerStatus.checked_cookie_14_plus >= trafficWorkerStatus.total_cookie_14_plus ? (
-                  <span className="flex items-center gap-1.5 font-medium text-slate-300">
-                    <span className="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                    <span>Đang cào Google Trends (Cookie ≥ 14 ngày):</span>
-                  </span>
-                ) : (
-                  <span>Tiến độ Traffic (Cookie ≥ 14 ngày):</span>
-                )}
-                <span className="font-mono text-emerald-300 font-semibold">
-                  {trafficWorkerStatus ? (
-                    trafficWorkerStatus.checked_cookie_14_plus >= trafficWorkerStatus.total_cookie_14_plus ? (
-                      `${trafficWorkerStatus.trend_checked_cookie_14 || 0} / ${trafficWorkerStatus.total_cookie_14_plus} (${trafficWorkerStatus.total_cookie_14_plus > 0 ? (((trafficWorkerStatus.trend_checked_cookie_14 || 0) / trafficWorkerStatus.total_cookie_14_plus) * 100).toFixed(1) : 0}%)`
-                    ) : (
-                      `${trafficWorkerStatus.checked_cookie_14_plus} / ${trafficWorkerStatus.total_cookie_14_plus} (${trafficWorkerStatus.total_cookie_14_plus > 0 ? ((trafficWorkerStatus.checked_cookie_14_plus / trafficWorkerStatus.total_cookie_14_plus) * 100).toFixed(1) : 0}%)`
-                    )
-                  ) : '0 / 0'}
-                </span>
-              </div>
-              <div className="w-full h-2 rounded-full bg-slate-800 overflow-hidden">
-                <div
-                  className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400 transition-all duration-500 rounded-full"
-                  style={{
-                    width: trafficWorkerStatus && trafficWorkerStatus.total_cookie_14_plus > 0
-                      ? trafficWorkerStatus.checked_cookie_14_plus >= trafficWorkerStatus.total_cookie_14_plus
-                        ? `${Math.min(100, (((trafficWorkerStatus.trend_checked_cookie_14 || 0) / trafficWorkerStatus.total_cookie_14_plus) * 100))}%`
-                        : `${Math.min(100, (trafficWorkerStatus.checked_cookie_14_plus / trafficWorkerStatus.total_cookie_14_plus) * 100)}%`
-                      : '0%'
-                  }}
-                />
-              </div>
-              {trafficWorkerStatus?.current_store && (
-                <div className="text-[10px] text-slate-400 mt-1 truncate">
-                  ⚡ Đang xử lý: <span className="text-slate-200 font-medium">{trafficWorkerStatus.current_store}</span>
-                </div>
+              {anyWorkerRunning && (
+                <button
+                  onClick={handleStopAllWorkers}
+                  className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-bold bg-rose-600/90 hover:bg-rose-600 text-white shadow-md shadow-rose-950/40 transition cursor-pointer active:scale-95"
+                  title="Dừng tất cả các luồng đang chạy"
+                >
+                  <Square size={11} fill="currentColor" />
+                  <span>⏹️ Dừng Tất Cả</span>
+                </button>
               )}
-            </div>
 
-            <div className="flex items-center gap-2.5 text-[11px] flex-wrap">
-              <span className="inline-flex items-center gap-1 text-indigo-300 font-medium bg-indigo-950/50 px-2 py-0.5 rounded border border-indigo-800/40" title="Traffic nhóm Cookie ≥ 14d đã hoàn tất 100%">
-                ✅ Traffic Cookie ≥14d: {trafficWorkerStatus?.checked_cookie_14_plus || 0}/{trafficWorkerStatus?.total_cookie_14_plus || 0}
-              </span>
-              <span className="inline-flex items-center gap-1 text-emerald-400 font-medium bg-emerald-950/50 px-2 py-0.5 rounded border border-emerald-800/40" title="Đã có Google Trends hoàn tất cho nhóm Traffic ≥ 10K">
-                🔥 Trends ≥10K: {trafficWorkerStatus?.trend_10k_done || 0}/{trafficWorkerStatus?.above_10k || 0}
-              </span>
-              <span className="inline-flex items-center gap-1 text-emerald-300 font-medium bg-emerald-950/50 px-2 py-0.5 rounded border border-emerald-800/40" title="Tổng store có Traffic hoặc Trends thành công">
-                📊 Có Data: {trafficWorkerStatus?.with_data ?? stats?.traffic?.with_data ?? 0}
-              </span>
-              {(trafficWorkerStatus?.errors || 0) > 0 && (
-                <span className="inline-flex items-center gap-1 text-rose-400 font-medium bg-rose-950/50 px-2 py-0.5 rounded border border-rose-800/40">
-                  <AlertCircle size={11} /> Lỗi: {trafficWorkerStatus?.errors}
-                </span>
-              )}
-            </div>
-          </div>
-        </section>
-
-        {/* DEDICATED TRAFFIC.CV (SIMILARWEB) WORKER WIDGET */}
-        <section className="bg-gradient-to-r from-slate-900 via-sky-950 to-slate-900 border border-sky-800/60 rounded-2xl p-4 shadow-lg text-white">
-          <div className="flex flex-wrap items-center justify-between gap-4">
-            <div className="flex items-center gap-3">
-              <div className={`p-2.5 rounded-xl border ${trafficCVStatus?.is_running ? 'bg-sky-500/20 border-sky-400/50 text-sky-300' : 'bg-slate-800 border-slate-700 text-slate-400'}`}>
-                <Globe size={20} className={trafficCVStatus?.is_running && !trafficCVStatus.is_paused ? 'animate-pulse text-sky-400' : ''} />
-              </div>
-              <div>
-                <div className="flex items-center gap-2 flex-wrap">
-                  <h3 className="text-sm font-bold text-white flex items-center gap-1.5">
-                    <span>Traffic.cv Similarweb Enrichment</span>
-                    <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-sky-900/80 text-sky-200 border border-sky-700/60">
-                      Tier 1-3 Defense
-                    </span>
-                  </h3>
-                  {trafficCVStatus?.waiting_turnstile ? (
-                    <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-rose-500/20 text-rose-300 border border-rose-500/40 animate-bounce flex items-center gap-1">
-                      <AlertCircle size={11} /> Cần giải Turnstile ({trafficCVStatus.turnstile_remaining_sec}s)
-                    </span>
-                  ) : trafficCVStatus?.is_running ? (
-                    trafficCVStatus.is_paused ? (
-                      <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30">
-                        ⏸️ Tạm dừng
-                      </span>
-                    ) : (
-                      <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 flex items-center gap-1">
-                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
-                        Đang quét: {trafficCVStatus.current_domain || trafficCVStatus.current_store || '...'}
-                      </span>
-                    )
-                  ) : (
-                    <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700">
-                      ⚪ Sẵn sàng
-                    </span>
-                  )}
-                  <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-sky-900/60 text-sky-300 border border-sky-700/50">
-                    🎯 Ưu tiên Cookie ≥ 14 ngày (~5,243 stores)
-                  </span>
-                  <span className="text-[10px] font-medium text-slate-400">
-                    (Total Visits, Global Rank, Bounce Rate, Avg Duration)
-                  </span>
-                </div>
-                <p className="text-[11px] text-slate-300 mt-0.5">
-                  {trafficCVStatus?.status_message || 'Bóc tách trực tiếp chỉ số thật từ Similarweb (traffic.cv) với cơ chế chạy ngầm off-screen và chống Cloudflare 3 lớp.'}
-                </p>
-              </div>
-            </div>
-
-            {/* Control Buttons */}
-            <div className="flex items-center gap-2">
               <button
-                onClick={handleToggleCVBrowser}
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-sky-300 border border-sky-800/60 transition cursor-pointer shadow-sm"
-                title={trafficCVStatus?.window_is_on_screen ? "Ẩn trình duyệt về lại ngoài màn hình" : "Mở cửa sổ trình duyệt ra màn hình để xem / giải Turnstile"}
+                onClick={toggleAutomationExpanded}
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-medium text-slate-300 hover:text-white bg-slate-800/90 hover:bg-slate-700 border border-slate-700 transition cursor-pointer"
+                title={isAutomationExpanded ? "Thu gọn bảng tự động hóa để tiết kiệm màn hình" : "Mở rộng xem chi tiết 3 bảng tự động hóa"}
               >
-                <Monitor size={13} />
-                <span>{trafficCVStatus?.window_is_on_screen ? "Ẩn Trình Duyệt" : "Xem Trình Duyệt"}</span>
+                {isAutomationExpanded ? <ChevronUp size={14} /> : <ChevronDown size={14} />}
+                <span>{isAutomationExpanded ? 'Thu gọn' : 'Chi tiết'}</span>
               </button>
-
-              {trafficCVStatus?.is_running ? (
-                <>
-                  {trafficCVStatus.is_paused ? (
-                    <button
-                      onClick={handleResumeTrafficCVWorker}
-                      className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-emerald-600 hover:bg-emerald-500 text-white transition cursor-pointer shadow-sm"
-                    >
-                      <Play size={13} fill="currentColor" />
-                      <span>Tiếp tục</span>
-                    </button>
-                  ) : (
-                    <button
-                      onClick={handlePauseTrafficCVWorker}
-                      className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-amber-600 hover:bg-amber-500 text-white transition cursor-pointer shadow-sm"
-                    >
-                      <Pause size={13} />
-                      <span>Tạm dừng</span>
-                    </button>
-                  )}
-                  <button
-                    onClick={handleStopTrafficCVWorker}
-                    className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-rose-600/80 hover:bg-rose-600 text-white transition cursor-pointer shadow-sm"
-                  >
-                    <X size={13} />
-                    <span>Dừng hẳn</span>
-                  </button>
-                </>
-              ) : (
-                <button
-                  onClick={handleStartTrafficCVWorker}
-                  className="flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white shadow-lg shadow-sky-500/25 transition cursor-pointer"
-                >
-                  <Play size={13} fill="currentColor" />
-                  <span>Chạy Quét Similarweb (Cookie ≥ 14d)</span>
-                </button>
-              )}
             </div>
           </div>
 
-          {/* Progress Bar & Real-time Stats */}
-          <div className="mt-3 pt-3 border-t border-sky-900/60 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
-            <div className="w-full sm:w-1/2">
-              <div className="flex items-center justify-between text-[11px] text-slate-300 mb-1">
-                <span>
-                  {trafficCVStatus?.cookie_14_stats && trafficCVStatus.cookie_14_stats.percent >= 100
-                    ? 'Tiến độ Similarweb (Đang cào Cookie ≥ 7 ngày):'
-                    : 'Tiến độ Similarweb (Cookie ≥ 14 ngày):'}
-                </span>
-                <span className="font-mono text-sky-300 font-semibold">
-                  {trafficCVStatus?.cookie_14_stats && trafficCVStatus.cookie_14_stats.percent >= 100 && trafficCVStatus.cookie_7_stats ? (
-                    `${trafficCVStatus.cookie_7_stats.enriched} / ${trafficCVStatus.cookie_7_stats.total} (${trafficCVStatus.cookie_7_stats.percent}%)`
-                  ) : trafficCVStatus?.cookie_14_stats ? (
-                    `${trafficCVStatus.cookie_14_stats.enriched} / ${trafficCVStatus.cookie_14_stats.total} (${trafficCVStatus.cookie_14_stats.percent}%)`
+          {/* Minimal Mode (When Collapsed) */}
+          {!isAutomationExpanded && (
+            <div className="px-4 py-2.5 bg-slate-950/70 border-t border-slate-800/80 flex flex-wrap items-center justify-between gap-3 text-xs">
+              <div className="flex items-center gap-2 min-w-0">
+                <BarChart2 size={13} className="text-indigo-400 shrink-0" />
+                <span className="text-slate-400 font-medium text-[11px]">Lưu lượng & Trends:</span>
+                {trafficWorkerStatus?.is_running ? (
+                  trafficWorkerStatus.is_paused ? (
+                    <span className="px-2 py-0.5 rounded text-[10px] font-mono bg-amber-500/20 text-amber-300 border border-amber-500/30">⏸️ Tạm dừng ({trafficPercent.toFixed(0)}%)</span>
                   ) : (
-                    `0 / 5,243 (0%)`
-                  )}
-                </span>
-              </div>
-              <div className="w-full h-2 rounded-full bg-slate-800 overflow-hidden">
-                <div
-                  className="h-full bg-gradient-to-r from-sky-400 to-blue-500 transition-all duration-500 rounded-full"
-                  style={{
-                    width: `${
-                      trafficCVStatus?.cookie_14_stats && trafficCVStatus.cookie_14_stats.percent >= 100 && trafficCVStatus.cookie_7_stats
-                        ? trafficCVStatus.cookie_7_stats.percent
-                        : trafficCVStatus?.cookie_14_stats?.percent || 0
-                    }%`
-                  }}
-                />
-              </div>
-              {trafficCVStatus?.current_domain && (
-                <div className="text-[10px] text-slate-400 mt-1 truncate">
-                  ⚡ Đang xử lý: <span className="text-sky-300 font-mono font-medium">{trafficCVStatus.current_domain}</span>
-                  {trafficCVStatus.current_store && <span className="text-slate-400"> ({trafficCVStatus.current_store})</span>}
-                </div>
-              )}
-            </div>
-
-            <div className="flex items-center gap-2.5 text-[11px] flex-wrap">
-              <span className="inline-flex items-center gap-1 text-sky-300 font-medium bg-sky-950/60 px-2 py-0.5 rounded border border-sky-800/40" title="Số store Cookie >= 14d đã hoàn thành 100%">
-                ✅ Cookie ≥14d: {trafficCVStatus?.cookie_14_stats?.percent || 0}% ({trafficCVStatus?.cookie_14_stats?.enriched || 0}/{trafficCVStatus?.cookie_14_stats?.total || 5243})
-              </span>
-              {trafficCVStatus?.cookie_7_stats && (
-                <span className="inline-flex items-center gap-1 text-blue-300 font-medium bg-blue-950/60 px-2 py-0.5 rounded border border-blue-800/40" title="Tiến độ Cookie >= 7 ngày">
-                  🎯 Cookie ≥7d: {trafficCVStatus.cookie_7_stats.enriched}/{trafficCVStatus.cookie_7_stats.total} ({trafficCVStatus.cookie_7_stats.percent}%)
-                </span>
-              )}
-              <span className="inline-flex items-center gap-1 text-emerald-300 font-medium bg-emerald-950/50 px-2 py-0.5 rounded border border-emerald-800/40" title="Store có traffic thật Similarweb">
-                🔥 Có Data: {trafficCVStatus?.with_data || 0}
-              </span>
-              <span className="inline-flex items-center gap-1 text-slate-400 font-medium bg-slate-800/60 px-2 py-0.5 rounded border border-slate-700/50" title="Website nhỏ/mới chưa đủ ngưỡng Similarweb">
-                📉 Store nhỏ: {trafficCVStatus?.no_data || 0}
-              </span>
-              {(trafficCVStatus?.tranco_fallbacks || 0) > 0 && (
-                <span className="inline-flex items-center gap-1 text-amber-300 font-medium bg-amber-950/50 px-2 py-0.5 rounded border border-amber-800/40" title="Số lần tự động fallback sang Tranco Rank khi Turnstile quá 90s">
-                  🔄 Tranco Fallback: {trafficCVStatus?.tranco_fallbacks}
-                </span>
-              )}
-              {(trafficCVStatus?.errors || 0) > 0 && (
-                <span className="inline-flex items-center gap-1 text-rose-400 font-medium bg-rose-950/50 px-2 py-0.5 rounded border border-rose-800/40">
-                  <AlertCircle size={11} /> Lỗi: {trafficCVStatus?.errors}
-                </span>
-              )}
-            </div>
-          </div>
-        </section>
-
-        {/* DEDICATED SPY GOOGLE ADS WORKER WIDGET */}
-        <section className="bg-gradient-to-r from-slate-900 via-orange-950/80 to-slate-900 border border-orange-700/60 rounded-2xl p-4 shadow-lg text-white">
-          <div className="flex flex-wrap items-center justify-between gap-4">
-            <div className="flex items-center gap-3">
-              <div className={`p-2.5 rounded-xl border ${spyWorkerStatus?.is_running ? 'bg-orange-500/20 border-orange-400/50 text-orange-300' : 'bg-slate-800 border-slate-700 text-slate-400'}`}>
-                <Flame size={20} className={spyWorkerStatus?.is_running && !spyWorkerStatus.is_paused ? 'animate-pulse text-orange-400' : ''} />
-              </div>
-              <div>
-                <div className="flex items-center gap-2 flex-wrap">
-                  <h3 className="text-sm font-bold text-white flex items-center gap-1.5">
-                    <span>Cào Ngầm Spy Google Ads Tự Động</span>
-                    <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-orange-900/80 text-orange-200 border border-orange-700/60">
-                      Transparency Engine
+                    <span className="px-2 py-0.5 rounded text-[10px] font-mono bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 flex items-center gap-1 truncate">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping shrink-0" />
+                      <span className="truncate">{trafficWorkerStatus.current_store ? `${trafficWorkerStatus.current_store} (${trafficPercent.toFixed(0)}%)` : `${trafficPercent.toFixed(0)}%`}</span>
                     </span>
-                  </h3>
-                  {spyWorkerStatus?.is_running ? (
-                    spyWorkerStatus.is_paused ? (
-                      <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30">
-                        ⏸️ Tạm dừng
-                      </span>
+                  )
+                ) : (
+                  <span className="px-2 py-0.5 rounded text-[10px] font-mono bg-slate-800 text-slate-400 border border-slate-700">
+                    ⚪ Sẵn sàng ({trafficDoneCount.toLocaleString()}/{trafficTotalCount.toLocaleString()})
+                  </span>
+                )}
+              </div>
+
+              <div className="flex items-center gap-2 min-w-0">
+                <Globe size={13} className="text-sky-400 shrink-0" />
+                <span className="text-slate-400 font-medium text-[11px]">Similarweb:</span>
+                {trafficCVStatus?.waiting_turnstile ? (
+                  <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-rose-500/20 text-rose-300 border border-rose-500/30 animate-bounce flex items-center gap-1">
+                    <AlertCircle size={10} /> Cần giải Captcha
+                  </span>
+                ) : trafficCVStatus?.is_running ? (
+                  trafficCVStatus.is_paused ? (
+                    <span className="px-2 py-0.5 rounded text-[10px] font-mono bg-amber-500/20 text-amber-300 border border-amber-500/30">⏸️ Tạm dừng ({cvPercent}%)</span>
+                  ) : (
+                    <span className="px-2 py-0.5 rounded text-[10px] font-mono bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 flex items-center gap-1 truncate">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping shrink-0" />
+                      <span className="truncate">{trafficCVStatus.current_domain || `${cvPercent}%`}</span>
+                    </span>
+                  )
+                ) : (
+                  <span className="px-2 py-0.5 rounded text-[10px] font-mono bg-slate-800 text-slate-400 border border-slate-700">
+                    ⚪ Sẵn sàng ({cvDoneCount.toLocaleString()}/{cvTotalCount.toLocaleString()})
+                  </span>
+                )}
+              </div>
+
+              <div className="flex items-center gap-2 min-w-0">
+                <Flame size={13} className="text-orange-400 shrink-0" />
+                <span className="text-slate-400 font-medium text-[11px]">Spy Ads:</span>
+                {spyWorkerStatus?.is_running ? (
+                  spyWorkerStatus.is_paused ? (
+                    <span className="px-2 py-0.5 rounded text-[10px] font-mono bg-amber-500/20 text-amber-300 border border-amber-500/30">⏸️ Tạm dừng</span>
+                  ) : (
+                    <span className="px-2 py-0.5 rounded text-[10px] font-mono bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 flex items-center gap-1">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping shrink-0" />
+                      {spyWorkerStatus.stores_with_ads} có Ads ({spyPercent}%)
+                    </span>
+                  )
+                ) : (
+                  <span className="px-2 py-0.5 rounded text-[10px] font-mono bg-slate-800 text-slate-400 border border-slate-700">
+                    ⚪ Sẵn sàng ({spyWorkerStatus?.stores_with_ads || 0} có Ads)
+                  </span>
+                )}
+              </div>
+            </div>
+          )}
+
+          {/* Full 3-Card Grid (When Expanded) */}
+          {isAutomationExpanded && (
+            <div className="p-3.5 sm:p-4 pt-0 border-t border-slate-800/80">
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-3.5">
+                {/* CARD 1: LƯU LƯỢNG & GOOGLE TRENDS */}
+                <div className="bg-slate-900/90 hover:bg-slate-900 border border-indigo-900/40 hover:border-indigo-800/70 rounded-xl p-3.5 flex flex-col justify-between transition-colors shadow-sm">
+                  <div>
+                    {/* Header */}
+                    <div className="flex items-start justify-between gap-2">
+                      <div className="flex items-center gap-2.5">
+                        <div className="w-8 h-8 rounded-lg bg-indigo-500/15 border border-indigo-500/30 flex items-center justify-center text-indigo-400 shrink-0">
+                          <BarChart2 size={16} className={trafficWorkerStatus?.is_running && !trafficWorkerStatus.is_paused ? 'animate-pulse' : ''} />
+                        </div>
+                        <div>
+                          <h3 className="text-xs font-bold text-white">1. Lưu Lượng & Trends</h3>
+                          <p className="text-[10px] text-slate-400">Đo traffic & tăng trưởng 5 năm</p>
+                        </div>
+                      </div>
+
+                      {/* Status */}
+                      {trafficWorkerStatus?.is_running ? (
+                        trafficWorkerStatus.is_paused ? (
+                          <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30">
+                            ⏸️ Tạm dừng
+                          </span>
+                        ) : (
+                          <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 flex items-center gap-1">
+                            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
+                            Đang chạy
+                          </span>
+                        )
+                      ) : (
+                        <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700">
+                          ⚪ Đang chờ
+                        </span>
+                      )}
+                    </div>
+
+                    {/* Active State / Cooldown / Note */}
+                    <div className="my-2.5">
+                      {trafficWorkerStatus?.gt_cooldown_seconds && trafficWorkerStatus.gt_cooldown_seconds > 0 ? (
+                        <div className="px-2.5 py-1.5 rounded-lg bg-amber-500/10 border border-amber-500/30 text-[10px] text-amber-300 flex items-center gap-1 font-medium animate-pulse">
+                          ⏳ Google Trends tạm nghỉ {trafficWorkerStatus.gt_cooldown_seconds}s (Tránh ban IP)
+                        </div>
+                      ) : trafficWorkerStatus?.is_running && trafficWorkerStatus.current_store ? (
+                        <div className="px-2.5 py-1.5 rounded-lg bg-indigo-950/40 border border-indigo-900/40 text-[10px] text-slate-300 truncate">
+                          ⚡ Đang xử lý: <span className="text-indigo-200 font-semibold">{trafficWorkerStatus.current_store}</span>
+                        </div>
+                      ) : (
+                        <p className="text-[10px] text-slate-400">
+                          Tự động đo Similarweb Traffic & Google Trends 5 năm cho các store chất lượng.
+                        </p>
+                      )}
+
+                      {/* Progress Bar */}
+                      <div className="mt-2.5">
+                        <div className="flex items-center justify-between text-[10px] text-slate-400 mb-1">
+                          <span>{isTrafficTrendsPhase ? 'Google Trends (Cookie ≥ 14d):' : 'Traffic (Cookie ≥ 14d):'}</span>
+                          <span className="font-mono text-emerald-400 font-semibold">{trafficProgressText}</span>
+                        </div>
+                        <div className="w-full h-1.5 rounded-full bg-slate-800 overflow-hidden">
+                          <div
+                            className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400 rounded-full transition-all duration-300"
+                            style={{ width: `${trafficPercent}%` }}
+                          />
+                        </div>
+                      </div>
+
+                      {/* Micro Stats */}
+                      <div className="grid grid-cols-3 gap-1.5 mt-2.5 text-[10px] text-center">
+                        <div className="bg-slate-800/50 border border-slate-800 rounded-lg p-1.5">
+                          <div className="text-slate-400">Có Data</div>
+                          <div className="font-mono font-bold text-emerald-300 mt-0.5">
+                            {trafficWorkerStatus?.with_data ?? stats?.traffic?.with_data ?? 0}
+                          </div>
+                        </div>
+                        <div className="bg-slate-800/50 border border-slate-800 rounded-lg p-1.5">
+                          <div className="text-slate-400">Trends ≥10K</div>
+                          <div className="font-mono font-bold text-indigo-300 mt-0.5">
+                            {trafficWorkerStatus?.trend_10k_done || 0}
+                          </div>
+                        </div>
+                        <div className="bg-slate-800/50 border border-slate-800 rounded-lg p-1.5">
+                          <div className="text-slate-400">Lỗi</div>
+                          <div className={`font-mono font-bold mt-0.5 ${(trafficWorkerStatus?.errors || 0) > 0 ? 'text-rose-400' : 'text-slate-500'}`}>
+                            {trafficWorkerStatus?.errors || 0}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Controls */}
+                  <div className="pt-2.5 border-t border-slate-800/80 flex items-center justify-end gap-1.5">
+                    {trafficWorkerStatus?.is_running ? (
+                      <>
+                        {trafficWorkerStatus.is_paused ? (
+                          <button
+                            onClick={handleResumeTrafficWorker}
+                            className="flex-1 flex items-center justify-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-semibold bg-emerald-600 hover:bg-emerald-500 text-white transition cursor-pointer"
+                          >
+                            <Play size={12} fill="currentColor" />
+                            <span>Tiếp tục</span>
+                          </button>
+                        ) : (
+                          <button
+                            onClick={handlePauseTrafficWorker}
+                            className="flex-1 flex items-center justify-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-semibold bg-amber-600 hover:bg-amber-500 text-white transition cursor-pointer"
+                          >
+                            <Pause size={12} />
+                            <span>Tạm dừng</span>
+                          </button>
+                        )}
+                        <button
+                          onClick={handleStopTrafficWorker}
+                          className="flex items-center justify-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-semibold bg-rose-600/80 hover:bg-rose-600 text-white transition cursor-pointer"
+                        >
+                          <Square size={11} fill="currentColor" />
+                          <span>Dừng</span>
+                        </button>
+                      </>
                     ) : (
-                      <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 flex items-center gap-1">
-                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
-                        Đang quét: {spyWorkerStatus.current_domain || spyWorkerStatus.current_store || '...'}
-                      </span>
-                    )
-                  ) : (
-                    <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700">
-                      ⚪ Sẵn sàng
-                    </span>
-                  )}
-                  <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-orange-900/60 text-orange-300 border border-orange-700/50">
-                    🎯 Ưu tiên ~320 stores chất lượng cao nhất (Traffic ≥ 25k)
-                  </span>
-                  <span className="text-[10px] font-medium text-slate-400">
-                    (Hoặc tùy chọn quét toàn bộ stores)
-                  </span>
+                      <button
+                        onClick={handleStartTrafficWorker}
+                        className="w-full flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-indigo-600 hover:bg-indigo-500 text-white shadow-md shadow-indigo-950/40 transition cursor-pointer"
+                      >
+                        <Play size={12} fill="currentColor" />
+                        <span>Bắt đầu quét</span>
+                      </button>
+                    )}
+                  </div>
                 </div>
-                <p className="text-[11px] text-slate-300 mt-0.5">
-                  {spyWorkerStatus?.status_message || 'Tự động quét ngầm Google Ads Transparency Center cho các store top, bóc tách nhà quảng cáo và mẫu ads lưu vĩnh viễn.'}
-                </p>
-              </div>
-            </div>
 
-            {/* Control Buttons */}
-            <div className="flex items-center gap-2">
-              {spyWorkerStatus?.is_running ? (
-                <>
-                  {spyWorkerStatus.is_paused ? (
+                {/* CARD 2: CHI TIẾT SIMILARWEB */}
+                <div className="bg-slate-900/90 hover:bg-slate-900 border border-sky-900/40 hover:border-sky-800/70 rounded-xl p-3.5 flex flex-col justify-between transition-colors shadow-sm">
+                  <div>
+                    {/* Header */}
+                    <div className="flex items-start justify-between gap-2">
+                      <div className="flex items-center gap-2.5">
+                        <div className="w-8 h-8 rounded-lg bg-sky-500/15 border border-sky-500/30 flex items-center justify-center text-sky-400 shrink-0">
+                          <Globe size={16} className={trafficCVStatus?.is_running && !trafficCVStatus.is_paused ? 'animate-pulse' : ''} />
+                        </div>
+                        <div>
+                          <h3 className="text-xs font-bold text-white">2. Chi Tiết Similarweb</h3>
+                          <p className="text-[10px] text-slate-400">Visits, Bounce Rate, Time on Site</p>
+                        </div>
+                      </div>
+
+                      {/* Status */}
+                      {trafficCVStatus?.waiting_turnstile ? (
+                        <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-rose-500/20 text-rose-300 border border-rose-500/40 animate-bounce flex items-center gap-1">
+                          <AlertCircle size={10} />
+                          Giải Turnstile ({trafficCVStatus.turnstile_remaining_sec}s)
+                        </span>
+                      ) : trafficCVStatus?.is_running ? (
+                        trafficCVStatus.is_paused ? (
+                          <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30">
+                            ⏸️ Tạm dừng
+                          </span>
+                        ) : (
+                          <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 flex items-center gap-1">
+                            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
+                            Đang chạy
+                          </span>
+                        )
+                      ) : (
+                        <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700">
+                          ⚪ Đang chờ
+                        </span>
+                      )}
+                    </div>
+
+                    {/* Active State / Turnstile / Note */}
+                    <div className="my-2.5">
+                      {trafficCVStatus?.waiting_turnstile ? (
+                        <div className="px-2.5 py-1.5 rounded-lg bg-rose-500/15 border border-rose-500/40 text-[10px] text-rose-300 flex items-center justify-between gap-1 font-medium animate-pulse">
+                          <span>⚠️ Vướng Cloudflare Turnstile ({trafficCVStatus.turnstile_remaining_sec}s)</span>
+                          <button
+                            onClick={handleToggleCVBrowser}
+                            className="underline text-rose-200 hover:text-white font-bold cursor-pointer"
+                          >
+                            Mở duyệt
+                          </button>
+                        </div>
+                      ) : trafficCVStatus?.is_running && (trafficCVStatus.current_domain || trafficCVStatus.current_store) ? (
+                        <div className="px-2.5 py-1.5 rounded-lg bg-sky-950/40 border border-sky-900/40 text-[10px] text-slate-300 truncate">
+                          ⚡ Đang quét: <span className="text-sky-300 font-semibold font-mono">{trafficCVStatus.current_domain || trafficCVStatus.current_store}</span>
+                        </div>
+                      ) : (
+                        <p className="text-[10px] text-slate-400">
+                          Bóc tách chỉ số traffic.cv ngầm off-screen với cơ chế chống chặn Cloudflare.
+                        </p>
+                      )}
+
+                      {/* Progress Bar */}
+                      <div className="mt-2.5">
+                        <div className="flex items-center justify-between text-[10px] text-slate-400 mb-1">
+                          <span>{cvIsCookie7 ? 'Similarweb (Cookie ≥ 7d):' : 'Similarweb (Cookie ≥ 14d):'}</span>
+                          <span className="font-mono text-sky-400 font-semibold">{cvProgressText}</span>
+                        </div>
+                        <div className="w-full h-1.5 rounded-full bg-slate-800 overflow-hidden">
+                          <div
+                            className="h-full bg-gradient-to-r from-sky-400 to-blue-500 rounded-full transition-all duration-300"
+                            style={{ width: `${cvPercent}%` }}
+                          />
+                        </div>
+                      </div>
+
+                      {/* Micro Stats */}
+                      <div className="grid grid-cols-3 gap-1.5 mt-2.5 text-[10px] text-center">
+                        <div className="bg-slate-800/50 border border-slate-800 rounded-lg p-1.5">
+                          <div className="text-slate-400">Có Data</div>
+                          <div className="font-mono font-bold text-emerald-300 mt-0.5">
+                            {trafficCVStatus?.with_data || 0}
+                          </div>
+                        </div>
+                        <div className="bg-slate-800/50 border border-slate-800 rounded-lg p-1.5">
+                          <div className="text-slate-400">Store nhỏ</div>
+                          <div className="font-mono font-bold text-slate-400 mt-0.5">
+                            {trafficCVStatus?.no_data || 0}
+                          </div>
+                        </div>
+                        <div className="bg-slate-800/50 border border-slate-800 rounded-lg p-1.5">
+                          <div className="text-slate-400">Tranco / Lỗi</div>
+                          <div className={`font-mono font-bold mt-0.5 ${(trafficCVStatus?.errors || 0) > 0 ? 'text-rose-400' : 'text-slate-400'}`}>
+                            {(trafficCVStatus?.errors || 0) > 0 ? trafficCVStatus?.errors : (trafficCVStatus?.tranco_fallbacks || 0)}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Controls */}
+                  <div className="pt-2.5 border-t border-slate-800/80 flex items-center justify-between gap-1.5">
                     <button
-                      onClick={handleResumeSpyWorker}
-                      className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-emerald-600 hover:bg-emerald-500 text-white transition cursor-pointer shadow-sm"
+                      onClick={handleToggleCVBrowser}
+                      className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-medium bg-slate-800 hover:bg-slate-700 text-sky-300 border border-slate-700 transition cursor-pointer"
+                      title={trafficCVStatus?.window_is_on_screen ? "Ẩn trình duyệt về lại nền" : "Mở cửa sổ trình duyệt ra màn hình để giải Captcha"}
                     >
-                      <Play size={13} fill="currentColor" />
-                      <span>Tiếp tục</span>
+                      <Monitor size={12} />
+                      <span>{trafficCVStatus?.window_is_on_screen ? "Ẩn Web" : "Xem Web"}</span>
                     </button>
-                  ) : (
-                    <button
-                      onClick={handlePauseSpyWorker}
-                      className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-amber-600 hover:bg-amber-500 text-white transition cursor-pointer shadow-sm"
-                    >
-                      <Pause size={13} />
-                      <span>Tạm dừng</span>
-                    </button>
-                  )}
-                  <button
-                    onClick={handleStopSpyWorker}
-                    className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-rose-600/80 hover:bg-rose-600 text-white transition cursor-pointer shadow-sm"
-                  >
-                    <X size={13} />
-                    <span>Dừng hẳn</span>
-                  </button>
-                </>
-              ) : (
-                <div className="flex items-center gap-1.5">
-                  <button
-                    onClick={() => handleStartSpyWorker(true)}
-                    className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-400 hover:to-amber-400 text-white shadow-lg shadow-orange-500/25 transition cursor-pointer"
-                    title="Chỉ quét nền nhóm ~320 stores có Traffic ≥ 25k hoặc Cookie cao"
-                  >
-                    <Play size={13} fill="currentColor" />
-                    <span>⚡ Quét Nhóm Top (~320 Stores)</span>
-                  </button>
-                  <button
-                    onClick={() => handleStartSpyWorker(false)}
-                    className="flex items-center gap-1 px-3 py-2 rounded-xl text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 transition cursor-pointer"
-                    title="Quét toàn bộ stores có cookie ≥ 14 ngày (~5,243 stores)"
-                  >
-                    <span>Quét Hết (Cookie ≥ 14d)</span>
-                  </button>
-                </div>
-              )}
-            </div>
-          </div>
 
-          {/* Progress Bar & Real-time Stats */}
-          <div className="mt-3 pt-3 border-t border-orange-900/60 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
-            <div className="w-full sm:w-1/2">
-              <div className="flex items-center justify-between text-[11px] text-slate-300 mb-1">
-                <span>
-                  {spyWorkerStatus?.high_priority_only
-                    ? 'Tiến độ Spy Ads (Nhóm Top Stores ≥ 25k Traffic):'
-                    : 'Tiến độ Spy Ads (Cookie ≥ 14 ngày):'}
-                </span>
-                <span className="font-mono text-orange-300 font-semibold">
-                  {spyWorkerStatus?.high_priority_only
-                    ? `${spyWorkerStatus.checked_high_priority || 0} / ${spyWorkerStatus.total_high_priority || 0} (${spyWorkerStatus.percent_high_priority || 0}%)`
-                    : spyWorkerStatus
-                    ? `${spyWorkerStatus.checked_cookie_14} / ${spyWorkerStatus.total_cookie_14} (${spyWorkerStatus.percent_cookie_14}%)`
-                    : '0 / 0 (0%)'}
-                </span>
-              </div>
-              <div className="w-full h-2 rounded-full bg-slate-800 overflow-hidden">
-                <div
-                  className="h-full bg-gradient-to-r from-orange-500 to-amber-400 transition-all duration-500 rounded-full"
-                  style={{
-                    width: `${
-                      spyWorkerStatus?.high_priority_only
-                        ? Math.min(100, spyWorkerStatus.percent_high_priority || 0)
-                        : spyWorkerStatus
-                        ? Math.min(100, spyWorkerStatus.percent_cookie_14)
-                        : 0
-                    }%`
-                  }}
-                />
-              </div>
-              {spyWorkerStatus?.current_domain && (
-                <div className="text-[10px] text-slate-400 mt-1 truncate">
-                  ⚡ Đang xử lý: <span className="text-orange-300 font-mono font-medium">{spyWorkerStatus.current_domain}</span>
-                  {spyWorkerStatus.current_store && <span className="text-slate-400"> ({spyWorkerStatus.current_store})</span>}
+                    {trafficCVStatus?.is_running ? (
+                      <div className="flex items-center gap-1.5 flex-1 justify-end">
+                        {trafficCVStatus.is_paused ? (
+                          <button
+                            onClick={handleResumeTrafficCVWorker}
+                            className="flex-1 flex items-center justify-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-semibold bg-emerald-600 hover:bg-emerald-500 text-white transition cursor-pointer"
+                          >
+                            <Play size={12} fill="currentColor" />
+                            <span>Tiếp tục</span>
+                          </button>
+                        ) : (
+                          <button
+                            onClick={handlePauseTrafficCVWorker}
+                            className="flex-1 flex items-center justify-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-semibold bg-amber-600 hover:bg-amber-500 text-white transition cursor-pointer"
+                          >
+                            <Pause size={12} />
+                            <span>Tạm dừng</span>
+                          </button>
+                        )}
+                        <button
+                          onClick={handleStopTrafficCVWorker}
+                          className="flex items-center justify-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-semibold bg-rose-600/80 hover:bg-rose-600 text-white transition cursor-pointer"
+                        >
+                          <Square size={11} fill="currentColor" />
+                          <span>Dừng</span>
+                        </button>
+                      </div>
+                    ) : (
+                      <button
+                        onClick={handleStartTrafficCVWorker}
+                        className="flex-1 flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-sky-600 hover:bg-sky-500 text-white shadow-md shadow-sky-950/40 transition cursor-pointer"
+                      >
+                        <Play size={12} fill="currentColor" />
+                        <span>Bắt đầu quét</span>
+                      </button>
+                    )}
+                  </div>
                 </div>
-              )}
-            </div>
 
-            <div className="flex items-center gap-2.5 text-[11px] flex-wrap">
-              <span className="inline-flex items-center gap-1 text-orange-300 font-medium bg-orange-950/60 px-2 py-0.5 rounded border border-orange-800/40">
-                🔥 Stores Có Ads: {spyWorkerStatus?.stores_with_ads || 0}
-              </span>
-              <span className="inline-flex items-center gap-1 text-amber-300 font-medium bg-amber-950/60 px-2 py-0.5 rounded border border-amber-800/40">
-                📑 Tổng Ads Bóc Tách: {spyWorkerStatus?.total_ads_count || 0}
-              </span>
-              <span className="inline-flex items-center gap-1 text-emerald-400 font-medium bg-emerald-950/50 px-2 py-0.5 rounded border border-emerald-800/40">
-                ✅ Phiên này: {spyWorkerStatus?.scanned || 0}
-              </span>
-              {(spyWorkerStatus?.errors || 0) > 0 && (
-                <span className="inline-flex items-center gap-1 text-rose-400 font-medium bg-rose-950/50 px-2 py-0.5 rounded border border-rose-800/40">
-                  <AlertCircle size={11} /> Lỗi: {spyWorkerStatus?.errors}
-                </span>
-              )}
+                {/* CARD 3: SPY GOOGLE ADS */}
+                <div className="bg-slate-900/90 hover:bg-slate-900 border border-orange-900/40 hover:border-orange-800/70 rounded-xl p-3.5 flex flex-col justify-between transition-colors shadow-sm">
+                  <div>
+                    {/* Header */}
+                    <div className="flex items-start justify-between gap-2">
+                      <div className="flex items-center gap-2.5">
+                        <div className="w-8 h-8 rounded-lg bg-orange-500/15 border border-orange-500/30 flex items-center justify-center text-orange-400 shrink-0">
+                          <Flame size={16} className={spyWorkerStatus?.is_running && !spyWorkerStatus.is_paused ? 'animate-pulse' : ''} />
+                        </div>
+                        <div>
+                          <h3 className="text-xs font-bold text-white">3. Spy Google Ads</h3>
+                          <p className="text-[10px] text-slate-400">Quét mẫu quảng cáo & Media Buyers</p>
+                        </div>
+                      </div>
+
+                      {/* Status */}
+                      {spyWorkerStatus?.is_running ? (
+                        spyWorkerStatus.is_paused ? (
+                          <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30">
+                            ⏸️ Tạm dừng
+                          </span>
+                        ) : (
+                          <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 flex items-center gap-1">
+                            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
+                            Đang chạy
+                          </span>
+                        )
+                      ) : (
+                        <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700">
+                          ⚪ Đang chờ
+                        </span>
+                      )}
+                    </div>
+
+                    {/* Active State / Note */}
+                    <div className="my-2.5">
+                      {spyWorkerStatus?.is_running && (spyWorkerStatus.current_domain || spyWorkerStatus.current_store) ? (
+                        <div className="px-2.5 py-1.5 rounded-lg bg-orange-950/40 border border-orange-900/40 text-[10px] text-slate-300 truncate">
+                          ⚡ Đang quét: <span className="text-orange-300 font-semibold font-mono">{spyWorkerStatus.current_domain || spyWorkerStatus.current_store}</span>
+                        </div>
+                      ) : (
+                        <p className="text-[10px] text-slate-400">
+                          Quét Google Ads Transparency Center và lưu trữ các mẫu ads đang chạy.
+                        </p>
+                      )}
+
+                      {/* Progress Bar */}
+                      <div className="mt-2.5">
+                        <div className="flex items-center justify-between text-[10px] text-slate-400 mb-1">
+                          <span>{spyIsHighPriority ? 'Nhóm Top Stores (Traffic ≥ 25k):' : 'Toàn bộ Stores (Cookie ≥ 14d):'}</span>
+                          <span className="font-mono text-orange-400 font-semibold">{spyProgressText}</span>
+                        </div>
+                        <div className="w-full h-1.5 rounded-full bg-slate-800 overflow-hidden">
+                          <div
+                            className="h-full bg-gradient-to-r from-orange-500 to-amber-400 rounded-full transition-all duration-300"
+                            style={{ width: `${spyPercent}%` }}
+                          />
+                        </div>
+                      </div>
+
+                      {/* Micro Stats */}
+                      <div className="grid grid-cols-3 gap-1.5 mt-2.5 text-[10px] text-center">
+                        <div className="bg-slate-800/50 border border-slate-800 rounded-lg p-1.5">
+                          <div className="text-slate-400">Có Ads</div>
+                          <div className="font-mono font-bold text-orange-300 mt-0.5">
+                            {spyWorkerStatus?.stores_with_ads || 0}
+                          </div>
+                        </div>
+                        <div className="bg-slate-800/50 border border-slate-800 rounded-lg p-1.5">
+                          <div className="text-slate-400">Tổng Mẫu Ads</div>
+                          <div className="font-mono font-bold text-amber-300 mt-0.5">
+                            {spyWorkerStatus?.total_ads_count || 0}
+                          </div>
+                        </div>
+                        <div className="bg-slate-800/50 border border-slate-800 rounded-lg p-1.5">
+                          <div className="text-slate-400">Đã Quét</div>
+                          <div className="font-mono font-bold text-slate-300 mt-0.5">
+                            {spyWorkerStatus?.scanned || 0}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Controls */}
+                  <div className="pt-2.5 border-t border-slate-800/80 flex items-center justify-end gap-1.5">
+                    {spyWorkerStatus?.is_running ? (
+                      <>
+                        {spyWorkerStatus.is_paused ? (
+                          <button
+                            onClick={handleResumeSpyWorker}
+                            className="flex-1 flex items-center justify-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-semibold bg-emerald-600 hover:bg-emerald-500 text-white transition cursor-pointer"
+                          >
+                            <Play size={12} fill="currentColor" />
+                            <span>Tiếp tục</span>
+                          </button>
+                        ) : (
+                          <button
+                            onClick={handlePauseSpyWorker}
+                            className="flex-1 flex items-center justify-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-semibold bg-amber-600 hover:bg-amber-500 text-white transition cursor-pointer"
+                          >
+                            <Pause size={12} />
+                            <span>Tạm dừng</span>
+                          </button>
+                        )}
+                        <button
+                          onClick={handleStopSpyWorker}
+                          className="flex items-center justify-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-semibold bg-rose-600/80 hover:bg-rose-600 text-white transition cursor-pointer"
+                        >
+                          <Square size={11} fill="currentColor" />
+                          <span>Dừng</span>
+                        </button>
+                      </>
+                    ) : (
+                      <div className="grid grid-cols-2 gap-1.5 w-full">
+                        <button
+                          onClick={() => handleStartSpyWorker(true)}
+                          className="flex items-center justify-center gap-1 px-2 py-1.5 rounded-lg text-xs font-bold bg-orange-600 hover:bg-orange-500 text-white shadow-md shadow-orange-950/40 transition cursor-pointer"
+                          title="Chỉ quét nhóm ~320 stores có traffic và cookie cao nhất"
+                        >
+                          <Play size={11} fill="currentColor" />
+                          <span>Quét Top ~320</span>
+                        </button>
+                        <button
+                          onClick={() => handleStartSpyWorker(false)}
+                          className="flex items-center justify-center px-2 py-1.5 rounded-lg text-xs font-medium bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 transition cursor-pointer"
+                          title="Quét toàn bộ stores có cookie ≥ 14 ngày (~5,243 stores)"
+                        >
+                          <span>Quét Hết (5.2k)</span>
+                        </button>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
+          )}
         </section>
 
         {/* SEARCH & FILTERS BAR */}
@@ -2517,6 +2759,38 @@ export default function App() {
                                     </span>
                                   )
                                 ) : null}
+
+                                {/* 3-Year Quick Verdict Pills (2024, 2025, 2026) */}
+                                {(() => {
+                                  if (!store.trend_timeline_json) return null;
+                                  try {
+                                    const tl = JSON.parse(store.trend_timeline_json);
+                                    if (!Array.isArray(tl) || tl.length === 0) return null;
+                                    const a = analyzeSeasonality3Years(tl, [2024, 2025, 2026], 2026, 10, store.trend_is_steady, store.trend_peak_month);
+                                    if (!a || a.years.length === 0) return null;
+                                    return (
+                                      <div className="flex items-center gap-0.5 mt-0.5 flex-wrap" title={`Đọc vị 3 năm: ${a.overallVerdict.title}`}>
+                                        {a.years.map(y => (
+                                          <span
+                                            key={y.year}
+                                            className={`px-1 py-0.2 rounded text-[9px] font-mono font-bold border ${
+                                              y.badgeTone === 'green'
+                                                ? 'bg-emerald-50 text-emerald-800 border-emerald-200'
+                                                : y.badgeTone === 'amber'
+                                                ? 'bg-amber-50 text-amber-900 border-amber-200'
+                                                : 'bg-slate-50 text-slate-400 border-slate-200'
+                                            }`}
+                                            title={`${y.year}: ${y.badgeTitle} (${y.badgeSubtitle})`}
+                                          >
+                                            {y.year.toString().slice(-2)}:{y.badgeTone === 'green' ? 'Full🟢' : y.badgeTone === 'amber' ? 'Mùa🔥' : 'Ít⚪'}
+                                          </span>
+                                        ))}
+                                      </div>
+                                    );
+                                  } catch (e) {
+                                    return null;
+                                  }
+                                })()}
                               </div>
                             );
                           })()}
@@ -2726,6 +3000,9 @@ export default function App() {
                                   storeName={store.name}
                                   storeWebsiteUrl={store.website_url}
                                   storeId={store.store_id}
+                                  trendTimelineJson={store.trend_timeline_json}
+                                  trendPeakMonth={store.trend_peak_month}
+                                  trendIsSteady={store.trend_is_steady}
                                 />
                               ) : (
                                 <>
@@ -2816,33 +3093,40 @@ export default function App() {
                                   </div>
                                 </div>
 
-                                {/* Card 2: Peak Season & Steady Indicator */}
+                                {/* Card 2: Mùa tìm kiếm & Độ ổn định */}
                                 <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200/80 flex flex-col justify-between">
                                   <div className="flex items-center justify-between text-slate-500 text-[11px] font-medium mb-1">
-                                    <span className="flex items-center gap-1">
+                                    <span className="flex items-center gap-1 font-bold text-slate-700">
                                       <Flame size={12} className="text-amber-500" />
                                       Mùa tìm kiếm & Độ ổn định
                                     </span>
                                     <span className="text-[10px] font-semibold text-indigo-600">Google Trends</span>
                                   </div>
-                                  <div className="flex flex-col gap-1">
-                                    {(store.trend_is_steady === 1 || store.trend_is_steady === true) && (
-                                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-xs font-bold bg-emerald-50 text-emerald-800 border border-emerald-300 w-fit">
+
+                                  <div className="flex flex-col gap-1.5 my-1">
+                                    {(store.trend_is_steady === 1 || store.trend_is_steady === true) ? (
+                                      <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold bg-emerald-50 text-emerald-800 border border-emerald-300 w-fit">
                                         🟢 Đều đặn quanh năm (Evergreen Steady)
                                       </span>
-                                    )}
-                                    <div className="text-lg font-bold text-slate-900">
+                                    ) : store.trend_peak_month ? (
+                                      <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold bg-amber-50 text-amber-900 border border-amber-300 w-fit">
+                                        🍂 Chạy Theo Mùa Vụ
+                                      </span>
+                                    ) : null}
+
+                                    <div className="text-lg font-bold text-slate-900 font-mono">
                                       {store.trend_peak_month ? (
                                         <span className="text-amber-600 inline-flex items-center gap-1">
                                           🔥 {store.trend_peak_month}
                                         </span>
                                       ) : store.trend_status === 'no_data' ? (
-                                        <span className="text-xs font-medium text-slate-400">Chưa đủ dữ liệu</span>
+                                        <span className="text-xs font-medium text-slate-400">Chưa đủ dữ liệu (Store nhỏ/mới)</span>
                                       ) : (
                                         <span className="text-xs font-medium text-slate-400">Chưa có số liệu</span>
                                       )}
                                     </div>
                                   </div>
+
                                   <div className="text-[10px] text-slate-400 mt-1">
                                     {(store.trend_is_steady === 1 || store.trend_is_steady === true)
                                       ? 'Lưu lượng tìm kiếm duy trì đều đặn ổn định qua các tháng và các năm, không bị đứt đoạn hay đóng băng traffic.'
@@ -2907,23 +3191,25 @@ export default function App() {
 
                               {/* 2-5 Year Google Trends Timeline Chart */}
                               <div className="p-4 rounded-xl bg-slate-50/80 border border-slate-200/80">
-                                <div className="flex items-center justify-between mb-3">
+                                <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
                                   <div className="flex items-center gap-2">
                                     <TrendingUp size={15} className="text-indigo-600" />
                                     <h5 className="text-xs font-bold text-slate-800">
                                       Biểu đồ xu hướng tìm kiếm Google 2-5 năm (Search Interest 0 - 100)
                                     </h5>
+                                  </div>
+                                  <div className="flex items-center gap-2 flex-wrap">
                                     {(store.trend_is_steady === 1 || store.trend_is_steady === true) && (
-                                      <span className="text-[10px] font-bold text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-300">
+                                      <span className="text-[11px] font-bold text-emerald-700 bg-emerald-50 px-2.5 py-0.5 rounded-full border border-emerald-200">
                                         🟢 Evergreen Steady
                                       </span>
                                     )}
+                                    {store.trend_peak_month && (
+                                      <span className="text-[11px] font-bold text-amber-700 bg-amber-50 px-2.5 py-0.5 rounded-full border border-amber-200">
+                                        🔥 Tháng cao điểm: {store.trend_peak_month}
+                                      </span>
+                                    )}
                                   </div>
-                                  {store.trend_peak_month && (
-                                    <span className="text-[11px] font-bold text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full border border-amber-200">
-                                      🔥 Tháng cao điểm: {store.trend_peak_month}
-                                    </span>
-                                  )}
                                 </div>
 
                                 {renderTrendsChart(store)}
@@ -3049,6 +3335,8 @@ export default function App() {
             </div>
           </div>
         </section>
+          </>
+        )}
       </main>
 
       {/* CRAWL MODAL */}

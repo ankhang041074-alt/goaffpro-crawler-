@@ -1,0 +1,43 @@
+{
+  "domain": "kindlingco.store",
+  "updated_at": "2026-10-10T17:06:07.377338",
+  "total_advertisers": 1,
+  "total_ads": 2,
+  "super_scale_count": 0,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR12800763624700248065",
+      "name": "kindlingpvt@gmail.com",
+      "legal_name": "kindlingpvt@gmail.com",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12800763624700248065/creative/CR07798416726877536257?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kindlingco.store",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kindlingco.store",
+          "landing_page": "https://www.kindlingco.store",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7825333272102649352"
+        }
+      ]
+    }
+  ]
+}

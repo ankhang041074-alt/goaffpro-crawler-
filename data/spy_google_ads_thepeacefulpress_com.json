@@ -1,0 +1,43 @@
+{
+  "domain": "thepeacefulpress.com",
+  "updated_at": "2026-10-10T14:57:01.231422",
+  "total_advertisers": 1,
+  "total_ads": 2,
+  "super_scale_count": 0,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR17929016561092263937",
+      "name": "BÙI VĂN ĐẠTĐã xác minh",
+      "legal_name": "BÙI VĂN ĐẠTĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17929016561092263937/creative/CR00940453191915405313?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: thepeacefulpress.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho thepeacefulpress.com",
+          "landing_page": "https://www.thepeacefulpress.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10785541759923881297"
+        }
+      ]
+    }
+  ]
+}

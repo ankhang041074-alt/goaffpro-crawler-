@@ -1,0 +1,43 @@
+{
+  "domain": "imanioliver.com",
+  "updated_at": "2026-10-10T15:30:08.795017",
+  "total_advertisers": 1,
+  "total_ads": 26,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR07660831787467145217",
+      "name": "Imani Oliver LLCĐã xác minh",
+      "legal_name": "Imani Oliver LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07660831787467145217/creative/CR16483105512972353537?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 26,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 26,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: imanioliver.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho imanioliver.com",
+          "landing_page": "https://www.imanioliver.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 26,
+          "image_url": "https://i.ytimg.com/vi/u2zTyTm-aNM/hqdefault.jpg"
+        }
+      ]
+    }
+  ]
+}

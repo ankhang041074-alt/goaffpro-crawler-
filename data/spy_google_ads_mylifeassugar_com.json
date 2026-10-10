@@ -1,0 +1,43 @@
+{
+  "domain": "mylifeassugar.com",
+  "updated_at": "2026-10-10T15:40:26.637872",
+  "total_advertisers": 1,
+  "total_ads": 10,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR02860080947892584449",
+      "name": "Sugar Ventures LLCĐã xác minh",
+      "legal_name": "Sugar Ventures LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02860080947892584449/creative/CR12332365014068363265?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 10,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 10,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mylifeassugar.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mylifeassugar.com",
+          "landing_page": "https://www.mylifeassugar.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 10,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9026376430471118778"
+        }
+      ]
+    }
+  ]
+}

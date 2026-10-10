@@ -1,0 +1,73 @@
+{
+  "domain": "digital2buy.com",
+  "updated_at": "2026-10-10T17:02:25.350820",
+  "total_advertisers": 2,
+  "total_ads": 116,
+  "super_scale_count": 2,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR09218342887849197569",
+      "name": "沈怡霖Đã xác minh",
+      "legal_name": "沈怡霖Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09218342887849197569/creative/CR03878559195766718465?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 93,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 93,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: digital2buy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digital2buy.com",
+          "landing_page": "https://www.digital2buy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 93,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR10322425683678068737",
+      "name": "WENZHI ZHONGĐã xác minh",
+      "legal_name": "WENZHI ZHONGĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10322425683678068737/creative/CR09097111757972832257?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 23,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 23,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: digital2buy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digital2buy.com",
+          "landing_page": "https://www.digital2buy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 23,
+          "image_url": null
+        }
+      ]
+    }
+  ]
+}

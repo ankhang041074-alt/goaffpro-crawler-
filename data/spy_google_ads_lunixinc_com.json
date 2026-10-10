@@ -1,0 +1,650 @@
+{
+  "domain": "lunixinc.com",
+  "updated_at": "2026-10-10T15:18:55.320602",
+  "total_advertisers": 20,
+  "total_ads": 64,
+  "super_scale_count": 1,
+  "win_ads_count": 19,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR05700227749973590017",
+      "name": "LUNIX LLCĐã xác minh",
+      "legal_name": "LUNIX LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05700227749973590017/creative/CR14597980741112430593?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 26,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 26,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lunixinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lunixinc.com",
+          "landing_page": "https://www.lunixinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 26,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2535943992912473252"
+        }
+      ]
+    },
+    {
+      "id": "AR08023052080623124481",
+      "name": "ĐẶNG QUANG TRUNGĐã xác minh",
+      "legal_name": "ĐẶNG QUANG TRUNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08023052080623124481/creative/CR03917316396530270209?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lunixinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lunixinc.com",
+          "landing_page": "https://www.lunixinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17512854015031895328"
+        }
+      ]
+    },
+    {
+      "id": "AR13047003033311903745",
+      "name": "Bùi Trọng ChâuĐã xác minh",
+      "legal_name": "Bùi Trọng ChâuĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13047003033311903745/creative/CR04529815635298877441?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lunixinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lunixinc.com",
+          "landing_page": "https://www.lunixinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5777518377271409942"
+        }
+      ]
+    },
+    {
+      "id": "AR16592806605574111233",
+      "name": "Taso Tech LLCĐã xác minh",
+      "legal_name": "Taso Tech LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16592806605574111233/creative/CR07307312986383712257?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lunixinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lunixinc.com",
+          "landing_page": "https://www.lunixinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9302399858602191913"
+        }
+      ]
+    },
+    {
+      "id": "AR00748736846938243073",
+      "name": "Yulia Rozen, M.D., Medical CorporationĐã xác minh",
+      "legal_name": "Yulia Rozen, M.D., Medical CorporationĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00748736846938243073/creative/CR15744199133210083329?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lunixinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lunixinc.com",
+          "landing_page": "https://www.lunixinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13376281619724605034"
+        }
+      ]
+    },
+    {
+      "id": "AR10283673782904160257",
+      "name": "Rebel Photography L.L.CĐã xác minh",
+      "legal_name": "Rebel Photography L.L.CĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10283673782904160257/creative/CR00158579478287613953?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lunixinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lunixinc.com",
+          "landing_page": "https://www.lunixinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3035180275681534583"
+        }
+      ]
+    },
+    {
+      "id": "AR13018851893508571137",
+      "name": "REYES LANDSCAPING & MAINTENANCEĐã xác minh",
+      "legal_name": "REYES LANDSCAPING & MAINTENANCEĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13018851893508571137/creative/CR02895075491016867841?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lunixinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lunixinc.com",
+          "landing_page": "https://www.lunixinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13660058124527795655"
+        }
+      ]
+    },
+    {
+      "id": "AR08346367280111681537",
+      "name": "3 Reys LLCĐã xác minh",
+      "legal_name": "3 Reys LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08346367280111681537/creative/CR17480873488674717697?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: lunixinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lunixinc.com",
+          "landing_page": "https://www.lunixinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR10732109875170508801",
+      "name": "Winterfell KI-SPV, LLCĐã xác minh",
+      "legal_name": "Winterfell KI-SPV, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10732109875170508801/creative/CR11443212698242777089?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lunixinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lunixinc.com",
+          "landing_page": "https://www.lunixinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10210085610267392949"
+        }
+      ]
+    },
+    {
+      "id": "AR11100952801738489857",
+      "name": "Fired Clay & Strawflower Productions, LLCĐã xác minh",
+      "legal_name": "Fired Clay & Strawflower Productions, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11100952801738489857/creative/CR09308378931520339969?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lunixinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lunixinc.com",
+          "landing_page": "https://www.lunixinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10817309478303783231"
+        }
+      ]
+    },
+    {
+      "id": "AR03259439625688580097",
+      "name": "Keystone Integral Logistics LLCĐã xác minh",
+      "legal_name": "Keystone Integral Logistics LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03259439625688580097/creative/CR13841585108491960321?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lunixinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lunixinc.com",
+          "landing_page": "https://www.lunixinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12626792545511658634"
+        }
+      ]
+    },
+    {
+      "id": "AR13848809724520169473",
+      "name": "RED KEUNGIL INCĐã xác minh",
+      "legal_name": "RED KEUNGIL INCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13848809724520169473/creative/CR08166448420022648833?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lunixinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lunixinc.com",
+          "landing_page": "https://www.lunixinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4063926347108158772"
+        }
+      ]
+    },
+    {
+      "id": "AR07265394036855275521",
+      "name": "SOKOLOV PROPERTY SERVICES LLCĐã xác minh",
+      "legal_name": "SOKOLOV PROPERTY SERVICES LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07265394036855275521/creative/CR01391001033701851137?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lunixinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lunixinc.com",
+          "landing_page": "https://www.lunixinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14370824567394494456"
+        }
+      ]
+    },
+    {
+      "id": "AR12730483597367050241",
+      "name": "Regenerative Medicine Regulatory Consulting LLCĐã xác minh",
+      "legal_name": "Regenerative Medicine Regulatory Consulting LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12730483597367050241/creative/CR06931910510883373057?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lunixinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lunixinc.com",
+          "landing_page": "https://www.lunixinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11817366399933729469"
+        }
+      ]
+    },
+    {
+      "id": "AR18159202137865715713",
+      "name": "Maldonado Jessy Construction LLCĐã xác minh",
+      "legal_name": "Maldonado Jessy Construction LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18159202137865715713/creative/CR10597464574586257409?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lunixinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lunixinc.com",
+          "landing_page": "https://www.lunixinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16450778399393256919"
+        }
+      ]
+    },
+    {
+      "id": "AR15306542584222973953",
+      "name": "REHMAT LOGISTICS INCĐã xác minh",
+      "legal_name": "REHMAT LOGISTICS INCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15306542584222973953/creative/CR18312809134946254849?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lunixinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lunixinc.com",
+          "landing_page": "https://www.lunixinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9197630813617848441"
+        }
+      ]
+    },
+    {
+      "id": "AR09647644582984286209",
+      "name": "Nara LA LLCĐã xác minh",
+      "legal_name": "Nara LA LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09647644582984286209/creative/CR11753125512413708289?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lunixinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lunixinc.com",
+          "landing_page": "https://www.lunixinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18291801970915645172"
+        }
+      ]
+    },
+    {
+      "id": "AR00356913715032883201",
+      "name": "GURU KIRPA ASSOCIATIONĐã xác minh",
+      "legal_name": "GURU KIRPA ASSOCIATIONĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00356913715032883201/creative/CR11099425167770648577?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lunixinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lunixinc.com",
+          "landing_page": "https://www.lunixinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13242806563728315230"
+        }
+      ]
+    },
+    {
+      "id": "AR04449980577042399233",
+      "name": "Alexander Adult Residential Facility, incĐã xác minh",
+      "legal_name": "Alexander Adult Residential Facility, incĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04449980577042399233/creative/CR12151904910790623233?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_18",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lunixinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lunixinc.com",
+          "landing_page": "https://www.lunixinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13318199520543495857"
+        }
+      ]
+    },
+    {
+      "id": "AR00944094843146076161",
+      "name": "Thomas Le, M.D., Inc.Đã xác minh",
+      "legal_name": "Thomas Le, M.D., Inc.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00944094843146076161/creative/CR02683336970578427905?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_19",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lunixinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lunixinc.com",
+          "landing_page": "https://www.lunixinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3081999958921127621"
+        }
+      ]
+    }
+  ]
+}

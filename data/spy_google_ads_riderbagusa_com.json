@@ -1,0 +1,43 @@
+{
+  "domain": "riderbagusa.com",
+  "updated_at": "2026-10-10T16:54:38.309429",
+  "total_advertisers": 1,
+  "total_ads": 68,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR17047822544788258817",
+      "name": "RiderBag LLCĐã xác minh",
+      "legal_name": "RiderBag LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17047822544788258817/creative/CR07588199655654031361?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 68,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 68,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: riderbagusa.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho riderbagusa.com",
+          "landing_page": "https://www.riderbagusa.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 68,
+          "image_url": "https://i.ytimg.com/vi/fJYp5zw-O7g/hqdefault.jpg"
+        }
+      ]
+    }
+  ]
+}

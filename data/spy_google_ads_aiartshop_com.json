@@ -1,0 +1,75 @@
+{
+  "domain": "aiartshop.com",
+  "updated_at": "2026-10-10T14:59:04.974904",
+  "total_advertisers": 2,
+  "total_ads": 2,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 2,
+  "advertisers": [
+    {
+      "id": "AR12720725560519557121",
+      "name": "DIGITAL FUNDAĐã xác minh",
+      "legal_name": "DIGITAL FUNDAĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12720725560519557121/creative/CR17544721896971436033?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: aiartshop.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho aiartshop.com",
+          "landing_page": "https://www.aiartshop.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7220188601398086277"
+        }
+      ]
+    },
+    {
+      "id": "AR06407937222464503809",
+      "name": "NGUYỄN XUÂN VŨĐã xác minh",
+      "legal_name": "NGUYỄN XUÂN VŨĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06407937222464503809/creative/CR06921699758713077761?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: aiartshop.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho aiartshop.com",
+          "landing_page": "https://www.aiartshop.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11198409386187325736"
+        }
+      ]
+    }
+  ]
+}

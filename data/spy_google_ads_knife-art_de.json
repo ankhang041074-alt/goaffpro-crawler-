@@ -1,0 +1,43 @@
+{
+  "domain": "knife-art.de",
+  "updated_at": "2026-10-10T15:37:16.258964",
+  "total_advertisers": 1,
+  "total_ads": 76,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR02178729036862193665",
+      "name": "Lukas WinkelĐã xác minh",
+      "legal_name": "Lukas WinkelĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02178729036862193665/creative/CR17690029093090754561?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 76,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 76,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: knife-art.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho knife-art.de",
+          "landing_page": "https://www.knife-art.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 76,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18054316108583184187"
+        }
+      ]
+    }
+  ]
+}

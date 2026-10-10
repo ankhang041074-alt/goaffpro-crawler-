@@ -1,0 +1,169 @@
+{
+  "domain": "carlinkitmall.com",
+  "updated_at": "2026-10-10T15:14:12.438583",
+  "total_advertisers": 5,
+  "total_ads": 12,
+  "super_scale_count": 0,
+  "win_ads_count": 5,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR15313511220200341505",
+      "name": "NGUYỄN NGỌC HOÀNGĐã xác minh",
+      "legal_name": "NGUYỄN NGỌC HOÀNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15313511220200341505/creative/CR17970301710886764545?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: carlinkitmall.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho carlinkitmall.com",
+          "landing_page": "https://www.carlinkitmall.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6569928999077823774"
+        }
+      ]
+    },
+    {
+      "id": "AR09444246313509060609",
+      "name": "AGENCY AKA LTDĐã xác minh",
+      "legal_name": "AGENCY AKA LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09444246313509060609/creative/CR18194045317752553473?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: carlinkitmall.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho carlinkitmall.com",
+          "landing_page": "https://www.carlinkitmall.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR12123221950956830721",
+      "name": "TECHNOLOGYTRENDS (SMC-PRIVATE) LIMITEDĐã xác minh",
+      "legal_name": "TECHNOLOGYTRENDS (SMC-PRIVATE) LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12123221950956830721/creative/CR08276040317375873025?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: carlinkitmall.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho carlinkitmall.com",
+          "landing_page": "https://www.carlinkitmall.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR17473658012336914433",
+      "name": "VŨ THI HỒNGĐã xác minh",
+      "legal_name": "VŨ THI HỒNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17473658012336914433/creative/CR04332040981252669441?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: carlinkitmall.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho carlinkitmall.com",
+          "landing_page": "https://www.carlinkitmall.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18340186699534210857"
+        }
+      ]
+    },
+    {
+      "id": "AR12493661394178146305",
+      "name": "惠州市韦利进出口有限公司Đã xác minh",
+      "legal_name": "惠州市韦利进出口有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12493661394178146305/creative/CR04011131496025817089?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: carlinkitmall.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho carlinkitmall.com",
+          "landing_page": "https://www.carlinkitmall.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12841310636266780679"
+        }
+      ]
+    }
+  ]
+}

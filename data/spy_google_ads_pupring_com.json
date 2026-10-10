@@ -1,0 +1,75 @@
+{
+  "domain": "pupring.com",
+  "updated_at": "2026-10-10T15:26:51.194651",
+  "total_advertisers": 2,
+  "total_ads": 104,
+  "super_scale_count": 1,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR13201554811528413185",
+      "name": "Pup Ring, LLCĐã xác minh",
+      "legal_name": "Pup Ring, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13201554811528413185/creative/CR04461408900901502977?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 102,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 102,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pupring.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pupring.com",
+          "landing_page": "https://www.pupring.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 102,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16608621179754630885"
+        }
+      ]
+    },
+    {
+      "id": "AR12519747281777328129",
+      "name": "LABINSO FASHIONĐã xác minh",
+      "legal_name": "LABINSO FASHIONĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12519747281777328129/creative/CR09462248849318871041?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pupring.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pupring.com",
+          "landing_page": "https://www.pupring.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2878321300606523112"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "domain": "nailsala.com",
+  "updated_at": "2026-10-10T14:54:27.548846",
+  "total_advertisers": 13,
+  "total_ads": 26,
+  "super_scale_count": 0,
+  "win_ads_count": 13,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR01385099886076100609",
+      "name": "Khuất Gia QuyếtĐã xác minh",
+      "legal_name": "Khuất Gia QuyếtĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01385099886076100609/creative/CR16027493526786801665?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: nailsala.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho nailsala.com",
+          "landing_page": "https://www.nailsala.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8367645911554965261"
+        }
+      ]
+    },
+    {
+      "id": "AR04244117254037307393",
+      "name": "Jean-Come David Joseph DubessetĐã xác minh",
+      "legal_name": "Jean-Come David Joseph DubessetĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04244117254037307393/creative/CR18300406437626511361?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: nailsala.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho nailsala.com",
+          "landing_page": "https://www.nailsala.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9872727818013904790"
+        }
+      ]
+    },
+    {
+      "id": "AR09019303718121635841",
+      "name": "NGUYỄN THỊ THẮMĐã xác minh",
+      "legal_name": "NGUYỄN THỊ THẮMĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09019303718121635841/creative/CR02498678699977605121?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: nailsala.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho nailsala.com",
+          "landing_page": "https://www.nailsala.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8743693409421623378"
+        }
+      ]
+    },
+    {
+      "id": "AR08023052080623124481",
+      "name": "ĐẶNG QUANG TRUNGĐã xác minh",
+      "legal_name": "ĐẶNG QUANG TRUNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08023052080623124481/creative/CR07935480678164987905?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: nailsala.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho nailsala.com",
+          "landing_page": "https://www.nailsala.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6601003670758737083"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR04151963379172376577?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: nailsala.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho nailsala.com",
+          "landing_page": "https://www.nailsala.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2620106040887296233"
+        }
+      ]
+    },
+    {
+      "id": "AR04050147709087121409",
+      "name": "Lo IncorporatedĐã xác minh",
+      "legal_name": "Lo IncorporatedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04050147709087121409/creative/CR10039656143694856193?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: nailsala.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho nailsala.com",
+          "landing_page": "https://www.nailsala.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1995558800704389317"
+        }
+      ]
+    },
+    {
+      "id": "AR08239911739676688385",
+      "name": "D.Underwood Construction LLCĐã xác minh",
+      "legal_name": "D.Underwood Construction LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08239911739676688385/creative/CR03086646975337070593?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: nailsala.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho nailsala.com",
+          "landing_page": "https://www.nailsala.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1053491624605265887"
+        }
+      ]
+    },
+    {
+      "id": "AR11232103235894378497",
+      "name": "APRIL 99 LLCĐã xác minh",
+      "legal_name": "APRIL 99 LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11232103235894378497/creative/CR16509088003528851457?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: nailsala.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho nailsala.com",
+          "landing_page": "https://www.nailsala.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16736749609364572891"
+        }
+      ]
+    },
+    {
+      "id": "AR03217736592756047873",
+      "name": "APRIL 99 LLCĐã xác minh",
+      "legal_name": "APRIL 99 LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03217736592756047873/creative/CR17649448481141555201?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: nailsala.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho nailsala.com",
+          "landing_page": "https://www.nailsala.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16956097737087494251"
+        }
+      ]
+    },
+    {
+      "id": "AR03892287251274530817",
+      "name": "Nguyễn Tuấn HùngĐã xác minh",
+      "legal_name": "Nguyễn Tuấn HùngĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03892287251274530817/creative/CR05715322884981784577?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: nailsala.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho nailsala.com",
+          "landing_page": "https://www.nailsala.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14510915982094281828"
+        }
+      ]
+    },
+    {
+      "id": "AR08634813289391456257",
+      "name": "Терех ОлександрĐã xác minh",
+      "legal_name": "Терех ОлександрĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08634813289391456257/creative/CR00060754623094325249?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: nailsala.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho nailsala.com",
+          "landing_page": "https://www.nailsala.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6995509065702017930"
+        }
+      ]
+    },
+    {
+      "id": "AR12667011496924938241",
+      "name": "Muhammad Sabir HussainĐã xác minh",
+      "legal_name": "Muhammad Sabir HussainĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12667011496924938241/creative/CR00331787718264619009?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: nailsala.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho nailsala.com",
+          "landing_page": "https://www.nailsala.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12077093690555047006"
+        }
+      ]
+    },
+    {
+      "id": "AR04047480474266763265",
+      "name": "Marksurge Marketing Minds Private LimitedĐã xác minh",
+      "legal_name": "Marksurge Marketing Minds Private LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04047480474266763265/creative/CR00802968789099479041?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: nailsala.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho nailsala.com",
+          "landing_page": "https://www.nailsala.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10638606572919494891"
+        }
+      ]
+    }
+  ]
+}

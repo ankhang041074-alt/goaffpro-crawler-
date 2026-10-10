@@ -1,0 +1,362 @@
+{
+  "domain": "getbubududu.com",
+  "updated_at": "2026-10-10T16:42:03.447601",
+  "total_advertisers": 11,
+  "total_ads": 30,
+  "super_scale_count": 0,
+  "win_ads_count": 11,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR00330275434509893633",
+      "name": "HỘ KINH DOANH PHAN VĂN VỊNHĐã xác minh",
+      "legal_name": "HỘ KINH DOANH PHAN VĂN VỊNHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00330275434509893633/creative/CR02527741644158009345?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: getbubududu.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho getbubududu.com",
+          "landing_page": "https://www.getbubududu.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1381637712369007777"
+        }
+      ]
+    },
+    {
+      "id": "AR13230233278826414081",
+      "name": "NGUYỄN THÙY LINHĐã xác minh",
+      "legal_name": "NGUYỄN THÙY LINHĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13230233278826414081/creative/CR13872528939110367233?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: getbubududu.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho getbubududu.com",
+          "landing_page": "https://www.getbubududu.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10017489173084201165"
+        }
+      ]
+    },
+    {
+      "id": "AR11793024117916041217",
+      "name": "ASHLESHA GROUPĐã xác minh",
+      "legal_name": "ASHLESHA GROUPĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11793024117916041217/creative/CR10019522573961789441?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 8,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 8,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: getbubududu.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho getbubududu.com",
+          "landing_page": "https://www.getbubududu.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 8,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR08409986362924597249",
+      "name": "Touched By T Shirts and Things LLCĐã xác minh",
+      "legal_name": "Touched By T Shirts and Things LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08409986362924597249/creative/CR01917910061116555265?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: getbubududu.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho getbubududu.com",
+          "landing_page": "https://www.getbubududu.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7269675324075877253"
+        }
+      ]
+    },
+    {
+      "id": "AR07841924676866539521",
+      "name": "JAMES MATTHEW HANSHAWĐã xác minh",
+      "legal_name": "JAMES MATTHEW HANSHAWĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07841924676866539521/creative/CR08284090082520989697?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: getbubududu.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho getbubududu.com",
+          "landing_page": "https://www.getbubududu.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1859937951674125387"
+        }
+      ]
+    },
+    {
+      "id": "AR15362122072373329921",
+      "name": "PHẠM BẢO THÁNGĐã xác minh",
+      "legal_name": "PHẠM BẢO THÁNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15362122072373329921/creative/CR07581938692848091137?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: getbubududu.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho getbubududu.com",
+          "landing_page": "https://www.getbubududu.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1189499124969411908"
+        }
+      ]
+    },
+    {
+      "id": "AR00845899246375796737",
+      "name": "Nguyễn Bá Hoàng LânĐã xác minh",
+      "legal_name": "Nguyễn Bá Hoàng LânĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00845899246375796737/creative/CR01184175749691604993?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: getbubududu.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho getbubududu.com",
+          "landing_page": "https://www.getbubududu.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4857321269681227105"
+        }
+      ]
+    },
+    {
+      "id": "AR11068749892867325953",
+      "name": "VU THI HONGĐã xác minh",
+      "legal_name": "VU THI HONGĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11068749892867325953/creative/CR11049074063568797697?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: getbubududu.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho getbubududu.com",
+          "landing_page": "https://www.getbubududu.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17390146956480254703"
+        }
+      ]
+    },
+    {
+      "id": "AR09456210125300695041",
+      "name": "CAO ANH KIỆTĐã xác minh",
+      "legal_name": "CAO ANH KIỆTĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09456210125300695041/creative/CR14579282025463676929?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: getbubududu.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho getbubududu.com",
+          "landing_page": "https://www.getbubududu.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8791928109213331873"
+        }
+      ]
+    },
+    {
+      "id": "AR11133654742859776001",
+      "name": "Click Tech LimitedĐã xác minh",
+      "legal_name": "Click Tech LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11133654742859776001/creative/CR18390847385044516865?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: getbubududu.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho getbubududu.com",
+          "landing_page": "https://www.getbubududu.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1284750292360355472"
+        }
+      ]
+    },
+    {
+      "id": "AR06785990551779934209",
+      "name": "Absolute Link LimitedĐã xác minh",
+      "legal_name": "Absolute Link LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06785990551779934209/creative/CR09985476540005089281?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: getbubududu.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho getbubududu.com",
+          "landing_page": "https://www.getbubududu.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15119614310629982044"
+        }
+      ]
+    }
+  ]
+}

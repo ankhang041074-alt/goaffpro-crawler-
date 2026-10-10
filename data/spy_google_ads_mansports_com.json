@@ -1,0 +1,43 @@
+{
+  "domain": "mansports.com",
+  "updated_at": "2026-10-10T17:02:39.181619",
+  "total_advertisers": 1,
+  "total_ads": 1,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR10456379820945178625",
+      "name": "FLAVIO PINTO GRANITOĐã xác minh",
+      "legal_name": "FLAVIO PINTO GRANITOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10456379820945178625/creative/CR13925319833844449281?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mansports.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mansports.com",
+          "landing_page": "https://www.mansports.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3668690538934601387"
+        }
+      ]
+    }
+  ]
+}

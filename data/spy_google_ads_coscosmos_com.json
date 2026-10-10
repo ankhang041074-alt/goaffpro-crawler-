@@ -1,0 +1,42 @@
+{
+  "domain": "coscosmos.com",
+  "updated_at": "2026-10-10T15:56:00.810534",
+  "total_advertisers": 1,
+  "total_ads": 91,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR12246623963463024641",
+      "name": "GOTHIC CLOTHING CO.,LIMITEDĐã xác minh",
+      "legal_name": "GOTHIC CLOTHING CO.,LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12246623963463024641/creative/CR15336694354152521729?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 91,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 91,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: coscosmos.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho coscosmos.com",
+          "landing_page": "https://www.coscosmos.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 91,
+          "image_url": null
+        }
+      ]
+    }
+  ]
+}

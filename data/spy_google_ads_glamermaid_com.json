@@ -1,0 +1,298 @@
+{
+  "domain": "glamermaid.com",
+  "updated_at": "2026-10-10T15:06:05.946543",
+  "total_advertisers": 9,
+  "total_ads": 93,
+  "super_scale_count": 1,
+  "win_ads_count": 6,
+  "test_ads_count": 2,
+  "advertisers": [
+    {
+      "id": "AR01017445737736175617",
+      "name": "บริษัท เอส แอนด์ พี ซินดิเคท จำกัดĐã xác minh",
+      "legal_name": "บริษัท เอส แอนด์ พี ซินดิเคท จำกัดĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01017445737736175617/creative/CR00060018534419267585?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: glamermaid.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho glamermaid.com",
+          "landing_page": "https://www.glamermaid.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7624653370971584143"
+        }
+      ]
+    },
+    {
+      "id": "AR13743836265629876225",
+      "name": "OPULENTAURAA LLCĐã xác minh",
+      "legal_name": "OPULENTAURAA LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13743836265629876225/creative/CR12742354131058950145?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: glamermaid.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho glamermaid.com",
+          "landing_page": "https://www.glamermaid.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1454187848630807819"
+        }
+      ]
+    },
+    {
+      "id": "AR07431965229510033409",
+      "name": "Hither ABĐã xác minh",
+      "legal_name": "Hither ABĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07431965229510033409/creative/CR06113531267456696321?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: glamermaid.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho glamermaid.com",
+          "landing_page": "https://www.glamermaid.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2857850457450703165"
+        }
+      ]
+    },
+    {
+      "id": "AR12772061380463296513",
+      "name": "Wojciech Lelito ConsultingĐã xác minh",
+      "legal_name": "Wojciech Lelito ConsultingĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12772061380463296513/creative/CR07688659284304855041?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: glamermaid.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho glamermaid.com",
+          "landing_page": "https://www.glamermaid.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17376670732282826956"
+        }
+      ]
+    },
+    {
+      "id": "AR12331099270026362881",
+      "name": "iliketomarketing LLCĐã xác minh",
+      "legal_name": "iliketomarketing LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12331099270026362881/creative/CR03663994208890388481?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: glamermaid.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho glamermaid.com",
+          "landing_page": "https://www.glamermaid.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR15053940507979808769",
+      "name": "LaVail Holdings LLC",
+      "legal_name": "LaVail Holdings LLC",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15053940507979808769/creative/CR07147690217590226945?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: glamermaid.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho glamermaid.com",
+          "landing_page": "https://www.glamermaid.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16942524777097632318"
+        }
+      ]
+    },
+    {
+      "id": "AR08509301185222541313",
+      "name": "广州德风电子商务有限公司Đã xác minh",
+      "legal_name": "广州德风电子商务有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08509301185222541313/creative/CR12978213737587539969?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 77,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 77,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: glamermaid.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho glamermaid.com",
+          "landing_page": "https://www.glamermaid.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 77,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8330952778583105057"
+        }
+      ]
+    },
+    {
+      "id": "AR05599820605823123457",
+      "name": "THAI HOLD CO COMPANY LIMITEDĐã xác minh",
+      "legal_name": "THAI HOLD CO COMPANY LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05599820605823123457/creative/CR04893509798022086657?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: glamermaid.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho glamermaid.com",
+          "landing_page": "https://www.glamermaid.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6030021372432798200"
+        }
+      ]
+    },
+    {
+      "id": "AR13530075434070310913",
+      "name": "DIAMOND NISHELLE EVANS FUNY LLCĐã xác minh",
+      "legal_name": "DIAMOND NISHELLE EVANS FUNY LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13530075434070310913/creative/CR03582284045221888001?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: glamermaid.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho glamermaid.com",
+          "landing_page": "https://www.glamermaid.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8246172863186803009"
+        }
+      ]
+    }
+  ]
+}

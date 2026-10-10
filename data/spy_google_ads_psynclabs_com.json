@@ -1,0 +1,75 @@
+{
+  "domain": "psynclabs.com",
+  "updated_at": "2026-10-10T16:54:17.232905",
+  "total_advertisers": 2,
+  "total_ads": 2,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 2,
+  "advertisers": [
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR10147772427724128257?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: psynclabs.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho psynclabs.com",
+          "landing_page": "https://www.psynclabs.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6785551229867875077"
+        }
+      ]
+    },
+    {
+      "id": "AR15135727706181730305",
+      "name": "Psync Labs, Inc.Đã xác minh",
+      "legal_name": "Psync Labs, Inc.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15135727706181730305/creative/CR08890499787808309249?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: psynclabs.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho psynclabs.com",
+          "landing_page": "https://www.psynclabs.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15702028939888567623"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "domain": "marticastore.com",
+  "updated_at": "2026-10-10T16:20:07.481528",
+  "total_advertisers": 1,
+  "total_ads": 4,
+  "super_scale_count": 0,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR17350404021583609857",
+      "name": "MC Corredi D'Autore s.a.s. di Martino FrancescoĐã xác minh",
+      "legal_name": "MC Corredi D'Autore s.a.s. di Martino FrancescoĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17350404021583609857/creative/CR06857667800693997569?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: marticastore.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho marticastore.com",
+          "landing_page": "https://www.marticastore.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": null
+        }
+      ]
+    }
+  ]
+}

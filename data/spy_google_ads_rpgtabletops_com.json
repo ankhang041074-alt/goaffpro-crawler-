@@ -1,0 +1,330 @@
+{
+  "domain": "rpgtabletops.com",
+  "updated_at": "2026-10-10T15:20:20.135930",
+  "total_advertisers": 10,
+  "total_ads": 119,
+  "super_scale_count": 1,
+  "win_ads_count": 3,
+  "test_ads_count": 6,
+  "advertisers": [
+    {
+      "id": "AR03758596541531553793",
+      "name": "SRC ECOM SCALING - FZCOĐã xác minh",
+      "legal_name": "SRC ECOM SCALING - FZCOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03758596541531553793/creative/CR16095431903590481921?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 107,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 107,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rpgtabletops.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rpgtabletops.com",
+          "landing_page": "https://www.rpgtabletops.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 107,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15055123467602671080"
+        }
+      ]
+    },
+    {
+      "id": "AR11331976386760933377",
+      "name": "HỘ KINH DOANH PHAN VĂN VỊNHĐã xác minh",
+      "legal_name": "HỘ KINH DOANH PHAN VĂN VỊNHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11331976386760933377/creative/CR00722470441863610369?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rpgtabletops.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rpgtabletops.com",
+          "landing_page": "https://www.rpgtabletops.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13177133508953371569"
+        }
+      ]
+    },
+    {
+      "id": "AR03305852734506270721",
+      "name": "AL FARIS AL ABYADH NEW AUTO SPARE PARTS TR. LLCĐã xác minh",
+      "legal_name": "AL FARIS AL ABYADH NEW AUTO SPARE PARTS TR. LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03305852734506270721/creative/CR11649896763728330753?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rpgtabletops.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rpgtabletops.com",
+          "landing_page": "https://www.rpgtabletops.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/38585569202508690"
+        }
+      ]
+    },
+    {
+      "id": "AR04244117254037307393",
+      "name": "Jean-Come David Joseph DubessetĐã xác minh",
+      "legal_name": "Jean-Come David Joseph DubessetĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04244117254037307393/creative/CR13169058238563352577?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rpgtabletops.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rpgtabletops.com",
+          "landing_page": "https://www.rpgtabletops.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5068169392827561170"
+        }
+      ]
+    },
+    {
+      "id": "AR14714308195157803009",
+      "name": "K&K ADVERTISING LTDĐã xác minh",
+      "legal_name": "K&K ADVERTISING LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14714308195157803009/creative/CR17027589933109346305?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rpgtabletops.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rpgtabletops.com",
+          "landing_page": "https://www.rpgtabletops.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11062856625952122816"
+        }
+      ]
+    },
+    {
+      "id": "AR01130389015250337793",
+      "name": "Keshia Renee HarperĐã xác minh",
+      "legal_name": "Keshia Renee HarperĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01130389015250337793/creative/CR05739228810390274049?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rpgtabletops.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rpgtabletops.com",
+          "landing_page": "https://www.rpgtabletops.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18187909893134418151"
+        }
+      ]
+    },
+    {
+      "id": "AR04586566446930198529",
+      "name": "PHAN THỊ DỊUĐã xác minh",
+      "legal_name": "PHAN THỊ DỊUĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04586566446930198529/creative/CR15380094895599386625?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: rpgtabletops.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rpgtabletops.com",
+          "landing_page": "https://www.rpgtabletops.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR08397826528825573377",
+      "name": "HỘ KINH DOANH MOON KIDS THỜI TRANG BÉ YÊUĐã xác minh",
+      "legal_name": "HỘ KINH DOANH MOON KIDS THỜI TRANG BÉ YÊUĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08397826528825573377/creative/CR14846432358529236993?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rpgtabletops.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rpgtabletops.com",
+          "landing_page": "https://www.rpgtabletops.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7985569733515575619"
+        }
+      ]
+    },
+    {
+      "id": "AR12784598080762675201",
+      "name": "South Wind Tech LimitedĐã xác minh",
+      "legal_name": "South Wind Tech LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12784598080762675201/creative/CR17830322653626368001?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rpgtabletops.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rpgtabletops.com",
+          "landing_page": "https://www.rpgtabletops.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2414827015118242547"
+        }
+      ]
+    },
+    {
+      "id": "AR13497936107894996993",
+      "name": "HERA SEO SRLĐã xác minh",
+      "legal_name": "HERA SEO SRLĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13497936107894996993/creative/CR03035741966382923777?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rpgtabletops.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rpgtabletops.com",
+          "landing_page": "https://www.rpgtabletops.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3095284887467666439"
+        }
+      ]
+    }
+  ]
+}

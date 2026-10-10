@@ -1,0 +1,43 @@
+{
+  "domain": "myfunleader.com",
+  "updated_at": "2026-10-10T16:22:38.414436",
+  "total_advertisers": 1,
+  "total_ads": 1,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR01889382235501494273",
+      "name": "Funleader",
+      "legal_name": "Funleader",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01889382235501494273/creative/CR14735764382889803777?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: myfunleader.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho myfunleader.com",
+          "landing_page": "https://www.myfunleader.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10717045207060540326"
+        }
+      ]
+    }
+  ]
+}

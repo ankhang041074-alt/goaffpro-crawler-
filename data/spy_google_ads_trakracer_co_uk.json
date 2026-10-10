@@ -1,0 +1,299 @@
+{
+  "domain": "trakracer.co.uk",
+  "updated_at": "2026-10-10T15:19:09.789514",
+  "total_advertisers": 9,
+  "total_ads": 114,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 8,
+  "advertisers": [
+    {
+      "id": "AR09630811034193231873",
+      "name": "MASTEN ENTERPRISES PTY LTDĐã xác minh",
+      "legal_name": "MASTEN ENTERPRISES PTY LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09630811034193231873/creative/CR10403005978889945089?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 106,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 106,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: trakracer.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho trakracer.co.uk",
+          "landing_page": "https://www.trakracer.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 106,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18308917357575935825"
+        }
+      ]
+    },
+    {
+      "id": "AR07758566302318329857",
+      "name": "HAVEN GABRIEL OROSCOĐã xác minh",
+      "legal_name": "HAVEN GABRIEL OROSCOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07758566302318329857/creative/CR02825190772473593857?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: trakracer.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho trakracer.co.uk",
+          "landing_page": "https://www.trakracer.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5857877155380054172"
+        }
+      ]
+    },
+    {
+      "id": "AR02927248790383493121",
+      "name": "Haroon khanĐã xác minh",
+      "legal_name": "Haroon khanĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02927248790383493121/creative/CR01660737418115940353?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: trakracer.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho trakracer.co.uk",
+          "landing_page": "https://www.trakracer.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17083545248099060865"
+        }
+      ]
+    },
+    {
+      "id": "AR05616890317685915649",
+      "name": "AGENCY ASSOCIATES LTDĐã xác minh",
+      "legal_name": "AGENCY ASSOCIATES LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05616890317685915649/creative/CR04607147724054200321?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: trakracer.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho trakracer.co.uk",
+          "landing_page": "https://www.trakracer.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12755493434125749777"
+        }
+      ]
+    },
+    {
+      "id": "AR09128139331863576577",
+      "name": "ISAAC JAMES RICOĐã xác minh",
+      "legal_name": "ISAAC JAMES RICOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09128139331863576577/creative/CR04353796949111996417?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: trakracer.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho trakracer.co.uk",
+          "landing_page": "https://www.trakracer.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8645709731637721035"
+        }
+      ]
+    },
+    {
+      "id": "AR02859177200874160129",
+      "name": "CLIENTECH (PRIVATE) LIMITEDĐã xác minh",
+      "legal_name": "CLIENTECH (PRIVATE) LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02859177200874160129/creative/CR18195388439925358593?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: trakracer.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho trakracer.co.uk",
+          "landing_page": "https://www.trakracer.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4972237297596228775"
+        }
+      ]
+    },
+    {
+      "id": "AR18330058797348814849",
+      "name": "CÔNG TY CỔ PHẦN ĐẦU TƯ PHÁT TRIỂN THƯƠNG MẠI & DỊCH VỤ GIA KHANGĐã xác minh",
+      "legal_name": "CÔNG TY CỔ PHẦN ĐẦU TƯ PHÁT TRIỂN THƯƠNG MẠI & DỊCH VỤ GIA KHANGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18330058797348814849/creative/CR12137321538315616257?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: trakracer.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho trakracer.co.uk",
+          "landing_page": "https://www.trakracer.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10995905666057958511"
+        }
+      ]
+    },
+    {
+      "id": "AR00028314640618356737",
+      "name": "Syed Shahrukh ShahĐã xác minh",
+      "legal_name": "Syed Shahrukh ShahĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00028314640618356737/creative/CR15333974548932460545?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: trakracer.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho trakracer.co.uk",
+          "landing_page": "https://www.trakracer.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2968718587458364615"
+        }
+      ]
+    },
+    {
+      "id": "AR15093427689974923265",
+      "name": "DUC HT COMPANY LIMITEDĐã xác minh",
+      "legal_name": "DUC HT COMPANY LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15093427689974923265/creative/CR17452259703584194561?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: trakracer.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho trakracer.co.uk",
+          "landing_page": "https://www.trakracer.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14525310045490744007"
+        }
+      ]
+    }
+  ]
+}

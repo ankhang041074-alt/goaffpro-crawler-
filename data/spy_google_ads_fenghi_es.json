@@ -1,0 +1,43 @@
+{
+  "domain": "fenghi.es",
+  "updated_at": "2026-10-10T14:58:23.283759",
+  "total_advertisers": 1,
+  "total_ads": 52,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR15515841554647351297",
+      "name": "K. Fenghi SLĐã xác minh",
+      "legal_name": "K. Fenghi SLĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15515841554647351297/creative/CR10925622727658176513?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 52,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 52,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: fenghi.es",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho fenghi.es",
+          "landing_page": "https://www.fenghi.es",
+          "last_shown": "2026-10-10",
+          "duration_days": 52,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10591024484051567454"
+        }
+      ]
+    }
+  ]
+}

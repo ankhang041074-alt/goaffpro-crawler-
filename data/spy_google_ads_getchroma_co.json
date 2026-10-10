@@ -1,0 +1,203 @@
+{
+  "domain": "getchroma.co",
+  "updated_at": "2026-10-10T15:24:41.779655",
+  "total_advertisers": 6,
+  "total_ads": 24,
+  "super_scale_count": 1,
+  "win_ads_count": 5,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR09853322045574610945",
+      "name": "Chroma Sigma Delta, Inc.Đã xác minh",
+      "legal_name": "Chroma Sigma Delta, Inc.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09853322045574610945/creative/CR09306581367447879681?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 12,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 12,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: getchroma.co",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho getchroma.co",
+          "landing_page": "https://www.getchroma.co",
+          "last_shown": "2026-10-10",
+          "duration_days": 12,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16545146253635122240"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR09006282760259633153?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: getchroma.co",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho getchroma.co",
+          "landing_page": "https://www.getchroma.co",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14337062823794649224"
+        }
+      ]
+    },
+    {
+      "id": "AR08157332686944337921",
+      "name": "LÊ ĐĂNG TOẢNĐã xác minh",
+      "legal_name": "LÊ ĐĂNG TOẢNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08157332686944337921/creative/CR04570145927964131329?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: getchroma.co",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho getchroma.co",
+          "landing_page": "https://www.getchroma.co",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10634233693770141158"
+        }
+      ]
+    },
+    {
+      "id": "AR08701046065962418177",
+      "name": "AL NEJOUD ELECTROMECHANICAL L.L.CĐã xác minh",
+      "legal_name": "AL NEJOUD ELECTROMECHANICAL L.L.CĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08701046065962418177/creative/CR02474497836532629505?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: getchroma.co",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho getchroma.co",
+          "landing_page": "https://www.getchroma.co",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4821961534665936220"
+        }
+      ]
+    },
+    {
+      "id": "AR02634479870750490625",
+      "name": "CÔNG TY CỔ PHẦN VÀ THƯƠNG MẠI THỜI TRANG NICEĐã xác minh",
+      "legal_name": "CÔNG TY CỔ PHẦN VÀ THƯƠNG MẠI THỜI TRANG NICEĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02634479870750490625/creative/CR10144736401241931777?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: getchroma.co",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho getchroma.co",
+          "landing_page": "https://www.getchroma.co",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18324784849113740300"
+        }
+      ]
+    },
+    {
+      "id": "AR02248685395459964929",
+      "name": "9401016 CANADA INC.Đã xác minh",
+      "legal_name": "9401016 CANADA INC.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02248685395459964929/creative/CR16866624076502794241?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: getchroma.co",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho getchroma.co",
+          "landing_page": "https://www.getchroma.co",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7100740449846497332"
+        }
+      ]
+    }
+  ]
+}

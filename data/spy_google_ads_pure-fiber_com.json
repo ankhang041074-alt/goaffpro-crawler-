@@ -1,0 +1,75 @@
+{
+  "domain": "pure-fiber.com",
+  "updated_at": "2026-10-10T15:45:56.693715",
+  "total_advertisers": 2,
+  "total_ads": 30,
+  "super_scale_count": 1,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR08994725810719948801",
+      "name": "IGH Global Corporation, Inc.Đã xác minh",
+      "legal_name": "IGH Global Corporation, Inc.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08994725810719948801/creative/CR04759477715688488961?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 28,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 28,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pure-fiber.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pure-fiber.com",
+          "landing_page": "https://www.pure-fiber.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 28,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2757408725699497226"
+        }
+      ]
+    },
+    {
+      "id": "AR14451554001637867521",
+      "name": "CÔNG TY TNHH ADSDIGIĐã xác minh",
+      "legal_name": "CÔNG TY TNHH ADSDIGIĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14451554001637867521/creative/CR10022117696281247745?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pure-fiber.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pure-fiber.com",
+          "landing_page": "https://www.pure-fiber.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7862358387096686576"
+        }
+      ]
+    }
+  ]
+}

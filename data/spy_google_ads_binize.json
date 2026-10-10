@@ -1,204 +1,449 @@
 {
   "domain": "binize.com",
-  "updated_at": "2026-10-10T11:45:00",
+  "updated_at": "2026-10-10T11:05:47.742198+00:00",
+  "scraped_at": "2026-10-10T11:05:47.742203+00:00",
+  "all_time_enabled": true,
   "total_advertisers": 16,
   "total_ads": 58,
-  "win_ads_count": 15,
   "super_scale_count": 1,
-  "evergreen_percent": 62,
+  "win_ads_count": 15,
+  "test_ads_count": 0,
+  "evergreen_count": 6,
+  "seasonal_count": 5,
+  "new_test_count": 5,
+  "is_verified_zero": false,
+  "status": "done",
   "advertisers": [
     {
       "id": "AR14413605680655106049",
-      "name": "TKTX (CGY HONG KONG INFO TECH CO.)",
+      "name": "TKTX",
       "legal_name": "CGY (HONG KONG) INFORMATION TECHNOLOGY CO., LIMITED",
       "country": "Hồng Kông",
       "country_flag": "🇭🇰",
       "is_verified": true,
       "advertiser_url": "https://adstransparency.google.com/advertiser/AR14413605680655106049?region=anywhere",
-      "first_seen": "2024-04-12",
-      "last_shown": "2026-10-09",
-      "duration_days": 912,
+      "first_seen": "2024-05-23",
+      "last_shown": "2026-10-10",
+      "duration_days": 871,
       "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "classification": "evergreen",
+      "classification_label": "🌲 Chạy Quanh Năm (Evergreen)",
+      "campaign_type": "evergreen",
+      "campaign_type_label": "🌲 Chạy Quanh Năm (Evergreen)",
       "formats": [
         "search",
-        "video",
-        "image"
+        "image",
+        "video"
       ],
+      "format_breakdown": {
+        "text": 4,
+        "image": 20,
+        "video": 2
+      },
       "ad_count": 26,
+      "monthly_activity": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "2025": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "2026": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "timeline_3year": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "2025": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "2026": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
       "creatives": [
         {
+          "id": "CR15413179337918119937",
+          "format": "image",
+          "format_label": "Google Display Banner",
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-09-06",
+          "last_shown": "2026-10-10",
+          "duration_days": 35,
+          "image_url": null
+        },
+        {
+          "id": "CR14741517474402926593",
+          "format": "image",
+          "format_label": "Google Display Banner",
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-09-08",
+          "last_shown": "2026-10-10",
+          "duration_days": 33,
+          "image_url": null
+        },
+        {
+          "id": "CR15991322892767854593",
+          "format": "image",
+          "format_label": "Google Display Banner",
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-08-29",
+          "last_shown": "2026-10-10",
+          "duration_days": 43,
+          "image_url": null
+        },
+        {
           "id": "CR04213764204760399873",
+          "format": "image",
+          "format_label": "Google Display Banner",
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2024-05-23",
+          "last_shown": "2026-10-09",
+          "duration_days": 870,
+          "image_url": null
+        },
+        {
+          "id": "CR10482698719110103041",
+          "format": "image",
+          "format_label": "Google Display Banner",
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-09-08",
+          "last_shown": "2026-10-09",
+          "duration_days": 32,
+          "image_url": null
+        },
+        {
+          "id": "CR11281112489233743873",
+          "format": "image",
+          "format_label": "Google Display Banner",
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-09-08",
+          "last_shown": "2026-10-09",
+          "duration_days": 32,
+          "image_url": null
+        },
+        {
+          "id": "CR03158265726796562433",
+          "format": "image",
+          "format_label": "Google Display Banner",
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-09-08",
+          "last_shown": "2026-10-09",
+          "duration_days": 32,
+          "image_url": null
+        },
+        {
+          "id": "CR08950630420874002433",
+          "format": "image",
+          "format_label": "Google Display Banner",
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-09-08",
+          "last_shown": "2026-10-09",
+          "duration_days": 32,
+          "image_url": null
+        },
+        {
+          "id": "CR17043304282142539777",
+          "format": "image",
+          "format_label": "Google Display Banner",
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-09-08",
+          "last_shown": "2026-10-09",
+          "duration_days": 32,
+          "image_url": null
+        },
+        {
+          "id": "CR05067711455344721921",
           "format": "search",
           "format_label": "Google Search Text",
-          "headline": "Binize 10.26'' Portable Dash Cam & Wireless Carplay Screen",
-          "description": "Install on any vehicle dashboard in 3 minutes. 4K Front Cam + 1080P Backup Cam. Bluetooth Audio to Car Stereo.",
-          "landing_page": "https://www.binize.com/collections/portable-carplay-screen",
-          "last_shown": "2026-10-09",
-          "duration_days": 912
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2024-05-24",
+          "last_shown": "2026-08-25",
+          "duration_days": 824,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11338638906740994481"
+        },
+        {
+          "id": "CR05995705041623711745",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2024-08-25",
+          "last_shown": "2026-08-25",
+          "duration_days": 731,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17272289493323228310"
+        },
+        {
+          "id": "CR09675919993371361281",
+          "format": "image",
+          "format_label": "Google Display Banner",
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2024-08-25",
+          "last_shown": "2026-08-20",
+          "duration_days": 726,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3590233877678415695"
         },
         {
           "id": "CR12035913280238125057",
           "format": "video",
           "format_label": "YouTube Video Ads",
-          "headline": "Binize Wireless Adapter Review: Best CarPlay Dongle 2026",
-          "description": "Watch full installation and latency test in under 60 seconds. Super smooth 60fps.",
-          "landing_page": "https://www.binize.com/products/carplay-wireless-adapter",
-          "last_shown": "2026-10-08",
-          "duration_days": 540
-        }
-      ],
-      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)"
-    },
-    {
-      "id": "AR17659288182497214465",
-      "name": "Rakuten Group, Inc.",
-      "legal_name": "Rakuten Group, Inc.",
-      "country": "Hoa Kỳ / Nhật Bản",
-      "country_flag": "🇺🇸",
-      "is_verified": true,
-      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17659288182497214465?region=anywhere",
-      "first_seen": "2024-08-01",
-      "last_shown": "2026-10-09",
-      "duration_days": 801,
-      "longevity_badge": "win_ads",
-      "formats": [
-        "search"
-      ],
-      "ad_count": 2,
-      "creatives": [
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2025-09-30",
+          "last_shown": "2025-10-14",
+          "duration_days": 15,
+          "image_url": null
+        },
         {
-          "id": "CR06160056818518196225",
-          "format": "search",
-          "format_label": "Google Search Cash Back",
-          "headline": "Binize Coupons & Promo Codes | Earn 5% Cash Back at Rakuten",
-          "description": "Shop Binize Car Audio & Wireless CarPlay Adapters. Join Rakuten Today and Get a $10 Welcome Bonus.",
-          "landing_page": "https://www.rakuten.com/binize.com",
-          "last_shown": "2026-10-09",
-          "duration_days": 801
-        }
-      ],
-      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
-    },
-    {
-      "id": "AR00515522673976016897",
-      "name": "Marksurge Marketing Minds Private Limited",
-      "legal_name": "Marksurge Marketing Minds Private Limited",
-      "country": "Ấn Độ",
-      "country_flag": "🇮🇳",
-      "is_verified": true,
-      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00515522673976016897?region=anywhere",
-      "first_seen": "2025-05-10",
-      "last_shown": "2026-10-09",
-      "duration_days": 518,
-      "longevity_badge": "win_ads",
-      "formats": [
-        "image",
-        "search"
-      ],
-      "ad_count": 4,
-      "creatives": [
-        {
-          "id": "CR11331243381872394241",
+          "id": "CR15413179337918119937",
           "format": "image",
           "format_label": "Google Display Banner",
-          "headline": "Binize Official Multimedia Video Box - Plug & Play",
-          "description": "Turn your factory wired CarPlay screen into full Android tablet. Support Netflix, YouTube & wireless mirroring.",
-          "landing_page": "https://www.binize.com/products/wireless-carplay-android-auto-multimedia-video-box",
-          "last_shown": "2026-10-09",
-          "duration_days": 518
-        }
-      ],
-      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
-    },
-    {
-      "id": "AR01729415044690608129",
-      "name": "BÙI THỊ HÒA",
-      "legal_name": "BÙI THỊ HÒA",
-      "country": "Việt Nam",
-      "country_flag": "🇻🇳",
-      "is_verified": true,
-      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01729415044690608129?region=anywhere",
-      "first_seen": "2026-08-18",
-      "last_shown": "2026-10-09",
-      "duration_days": 53,
-      "longevity_badge": "win_ads",
-      "formats": [
-        "search"
-      ],
-      "ad_count": 2,
-      "creatives": [
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-09-06",
+          "last_shown": "2026-10-10",
+          "duration_days": 35,
+          "image_url": null
+        },
         {
-          "id": "CR04406590309157306369",
+          "id": "CR14741517474402926593",
+          "format": "image",
+          "format_label": "Google Display Banner",
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-09-08",
+          "last_shown": "2026-10-10",
+          "duration_days": 33,
+          "image_url": null
+        },
+        {
+          "id": "CR15991322892767854593",
+          "format": "image",
+          "format_label": "Google Display Banner",
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-08-29",
+          "last_shown": "2026-10-10",
+          "duration_days": 43,
+          "image_url": null
+        },
+        {
+          "id": "CR04213764204760399873",
+          "format": "image",
+          "format_label": "Google Display Banner",
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2024-05-23",
+          "last_shown": "2026-10-09",
+          "duration_days": 870,
+          "image_url": null
+        },
+        {
+          "id": "CR10482698719110103041",
+          "format": "image",
+          "format_label": "Google Display Banner",
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-09-08",
+          "last_shown": "2026-10-09",
+          "duration_days": 32,
+          "image_url": null
+        },
+        {
+          "id": "CR11281112489233743873",
+          "format": "image",
+          "format_label": "Google Display Banner",
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-09-08",
+          "last_shown": "2026-10-09",
+          "duration_days": 32,
+          "image_url": null
+        },
+        {
+          "id": "CR03158265726796562433",
+          "format": "image",
+          "format_label": "Google Display Banner",
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-09-08",
+          "last_shown": "2026-10-09",
+          "duration_days": 32,
+          "image_url": null
+        },
+        {
+          "id": "CR08950630420874002433",
+          "format": "image",
+          "format_label": "Google Display Banner",
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-09-08",
+          "last_shown": "2026-10-09",
+          "duration_days": 32,
+          "image_url": null
+        },
+        {
+          "id": "CR17043304282142539777",
+          "format": "image",
+          "format_label": "Google Display Banner",
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-09-08",
+          "last_shown": "2026-10-09",
+          "duration_days": 32,
+          "image_url": null
+        },
+        {
+          "id": "CR05067711455344721921",
           "format": "search",
           "format_label": "Google Search Text",
-          "headline": "Binize Wireless CarPlay Adapter | Best Deals 2026 | Free Shipping",
-          "description": "Converts Wired to Wireless in Seconds. Compatible with 98% Car Models. Plug & Play, No Lag. Order Online Today for Big Discounts!",
-          "landing_page": "https://www.binize.com/?ref=aff_hoabui",
-          "last_shown": "2026-10-09",
-          "duration_days": 53
-        }
-      ],
-      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
-    },
-    {
-      "id": "AR14451554001637867521",
-      "name": "CÔNG TY TNHH ADSDIGI",
-      "legal_name": "CÔNG TY TNHH ADSDIGI",
-      "country": "Việt Nam",
-      "country_flag": "🇻🇳",
-      "is_verified": true,
-      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14451554001637867521?region=anywhere",
-      "first_seen": "2026-06-25",
-      "last_shown": "2026-10-09",
-      "duration_days": 107,
-      "longevity_badge": "win_ads",
-      "formats": [
-        "search"
-      ],
-      "ad_count": 2,
-      "creatives": [
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2024-05-24",
+          "last_shown": "2026-08-25",
+          "duration_days": 824,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11338638906740994481"
+        },
         {
-          "id": "CR02296746070912270337",
+          "id": "CR05995705041623711745",
           "format": "search",
           "format_label": "Google Search Text",
-          "headline": "Binize Official Wireless Carplay Box - Free Worldwide Shipping",
-          "description": "Transform your wired screen into wireless android auto system. High speed Wi-Fi 5G. 100% money back guarantee.",
-          "landing_page": "https://www.binize.com/?ref=adsdigi_agency",
-          "last_shown": "2026-10-09",
-          "duration_days": 107
-        }
-      ],
-      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
-    },
-    {
-      "id": "AR15838217882874937345",
-      "name": "Phong Y. Khang",
-      "legal_name": "Phong Y. Khang",
-      "country": "Việt Nam",
-      "country_flag": "🇻🇳",
-      "is_verified": true,
-      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345?region=anywhere",
-      "first_seen": "2026-07-10",
-      "last_shown": "2026-10-08",
-      "duration_days": 91,
-      "longevity_badge": "win_ads",
-      "formats": [
-        "search"
-      ],
-      "ad_count": 2,
-      "creatives": [
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2024-08-25",
+          "last_shown": "2026-08-25",
+          "duration_days": 731,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17272289493323228310"
+        },
         {
-          "id": "CR17330042371907256321",
-          "format": "search",
-          "format_label": "Google Search Text",
-          "headline": "Binize Android Box Sale - Up to 30% Off Best Seller",
-          "description": "Convert factory wired CarPlay to wireless. Watch movies, GPS maps & games easily. Fast delivery.",
-          "landing_page": "https://www.binize.com/?ref=khang_aff",
-          "last_shown": "2026-10-08",
-          "duration_days": 91
+          "id": "CR09675919993371361281",
+          "format": "image",
+          "format_label": "Google Display Banner",
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2024-08-25",
+          "last_shown": "2026-08-20",
+          "duration_days": 726,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3590233877678415695"
+        },
+        {
+          "id": "CR12035913280238125057",
+          "format": "video",
+          "format_label": "YouTube Video Ads",
+          "headline": "Quảng cáo Google: TKTX",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2025-09-30",
+          "last_shown": "2025-10-14",
+          "duration_days": 15,
+          "image_url": null
         }
-      ],
-      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+      ]
     },
     {
       "id": "AR09128139331863576577",
@@ -208,268 +453,867 @@
       "country_flag": "🇺🇸",
       "is_verified": true,
       "advertiser_url": "https://adstransparency.google.com/advertiser/AR09128139331863576577?region=anywhere",
-      "first_seen": "2025-11-01",
-      "last_shown": "2026-10-09",
-      "duration_days": 343,
+      "first_seen": "2025-11-05",
+      "last_shown": "2026-10-10",
+      "duration_days": 340,
       "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "classification": "evergreen",
+      "classification_label": "🌲 Chạy Quanh Năm (Evergreen)",
+      "campaign_type": "evergreen",
+      "campaign_type_label": "🌲 Chạy Quanh Năm (Evergreen)",
       "formats": [
         "search"
       ],
+      "format_breakdown": {
+        "text": 2,
+        "image": 0,
+        "video": 0
+      },
       "ad_count": 2,
+      "monthly_activity": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ],
+        "2026": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "timeline_3year": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ],
+        "2026": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
       "creatives": [
         {
           "id": "CR03996893524820754433",
           "format": "search",
           "format_label": "Google Search Text",
-          "headline": "Wireless CarPlay Adapters by Binize - US Stock & Warranty",
-          "description": "High performance audio, zero stutter. Compatible with Ford, Honda, Toyota, Chevy, Audi and more.",
-          "landing_page": "https://www.binize.com/?ref=rico_media",
-          "last_shown": "2026-10-09",
-          "duration_days": 343
+          "headline": "Quảng cáo Google: ISAAC JAMES RICO",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2025-11-05",
+          "last_shown": "2026-10-10",
+          "duration_days": 340,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/338869390844129108"
+        },
+        {
+          "id": "CR03996893524820754433",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: ISAAC JAMES RICO",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2025-11-05",
+          "last_shown": "2026-10-10",
+          "duration_days": 340,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/338869390844129108"
         }
-      ],
-      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+      ]
     },
     {
-      "id": "AR15357672967291011073",
-      "name": "MOON JUISE LLC",
-      "legal_name": "MOON JUISE LLC",
-      "country": "Hoa Kỳ",
-      "country_flag": "🇺🇸",
+      "id": "AR00515522673976016897",
+      "name": "Marksurge Marketing Minds Private Limited",
+      "legal_name": "Marksurge Marketing Minds Private Limited",
+      "country": "Ấn Độ",
+      "country_flag": "🇮🇳",
       "is_verified": true,
-      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15357672967291011073?region=anywhere",
-      "first_seen": "2026-03-15",
-      "last_shown": "2026-10-08",
-      "duration_days": 208,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00515522673976016897?region=anywhere",
+      "first_seen": "2025-08-22",
+      "last_shown": "2026-10-09",
+      "duration_days": 414,
       "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "classification": "evergreen",
+      "classification_label": "🌲 Chạy Quanh Năm (Evergreen)",
+      "campaign_type": "evergreen",
+      "campaign_type_label": "🌲 Chạy Quanh Năm (Evergreen)",
       "formats": [
-        "search",
-        "image"
+        "search"
       ],
-      "ad_count": 2,
+      "format_breakdown": {
+        "text": 4,
+        "image": 0,
+        "video": 0
+      },
+      "ad_count": 4,
+      "monthly_activity": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "2026": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "timeline_3year": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "2026": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
       "creatives": [
         {
-          "id": "CR01159900319656706049",
+          "id": "CR11331243381872394241",
           "format": "search",
-          "format_label": "Google Search Shopping",
-          "headline": "Binize In-Car Multimedia Dashboard Systems - Official Deals",
-          "description": "Portable 10.26 Inch Android Screen with built-in Apple CarPlay & Android Auto.",
-          "landing_page": "https://www.binize.com/products/portable-carplay-screen",
-          "last_shown": "2026-10-08",
-          "duration_days": 208
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: Marksurge Marketing Minds Private Limited",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-01-14",
+          "last_shown": "2026-10-09",
+          "duration_days": 269,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14591113301255612010"
+        },
+        {
+          "id": "CR07273014038982819841",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: Marksurge Marketing Minds Private Limited",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2025-08-22",
+          "last_shown": "2026-10-09",
+          "duration_days": 414,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5297901946189363731"
+        },
+        {
+          "id": "CR11331243381872394241",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: Marksurge Marketing Minds Private Limited",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-01-14",
+          "last_shown": "2026-10-09",
+          "duration_days": 269,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14591113301255612010"
+        },
+        {
+          "id": "CR07273014038982819841",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: Marksurge Marketing Minds Private Limited",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2025-08-22",
+          "last_shown": "2026-10-09",
+          "duration_days": 414,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5297901946189363731"
         }
+      ]
+    },
+    {
+      "id": "AR01729415044690608129",
+      "name": "BÙI THỊ HÒA",
+      "legal_name": "BÙI THỊ HÒA",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01729415044690608129?region=anywhere",
+      "first_seen": "2026-09-30",
+      "last_shown": "2026-10-09",
+      "duration_days": 10,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "classification": "new_test",
+      "classification_label": "🟡 Mới Chạy (New Test)",
+      "campaign_type": "new_test",
+      "campaign_type_label": "🟡 Mới Chạy (New Test)",
+      "formats": [
+        "search"
       ],
-      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+      "format_breakdown": {
+        "text": 2,
+        "image": 0,
+        "video": 0
+      },
+      "ad_count": 2,
+      "monthly_activity": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2026": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "timeline_3year": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2026": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "creatives": [
+        {
+          "id": "CR04406590309157306369",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: BÙI THỊ HÒA",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-09-30",
+          "last_shown": "2026-10-09",
+          "duration_days": 10,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13049592835517308691"
+        },
+        {
+          "id": "CR04406590309157306369",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: BÙI THỊ HÒA",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-09-30",
+          "last_shown": "2026-10-09",
+          "duration_days": 10,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13049592835517308691"
+        }
+      ]
+    },
+    {
+      "id": "AR17659288182497214465",
+      "name": "Rakuten Group, Inc.",
+      "legal_name": "Rakuten Group, Inc.",
+      "country": "Nhật Bản",
+      "country_flag": "🇯🇵",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17659288182497214465?region=anywhere",
+      "first_seen": "2026-09-29",
+      "last_shown": "2026-10-01",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "classification": "new_test",
+      "classification_label": "🟡 Mới Chạy (New Test)",
+      "campaign_type": "new_test",
+      "campaign_type_label": "🟡 Mới Chạy (New Test)",
+      "formats": [
+        "search"
+      ],
+      "format_breakdown": {
+        "text": 2,
+        "image": 0,
+        "video": 0
+      },
+      "ad_count": 2,
+      "monthly_activity": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2026": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "timeline_3year": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2026": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "creatives": [
+        {
+          "id": "CR06160056818518196225",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: Rakuten Group, Inc.",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-09-29",
+          "last_shown": "2026-10-01",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18248074875179299782"
+        },
+        {
+          "id": "CR06160056818518196225",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: Rakuten Group, Inc.",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-09-29",
+          "last_shown": "2026-10-01",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18248074875179299782"
+        }
+      ]
     },
     {
       "id": "AR10625315315786973185",
       "name": "AGENCY LTD",
       "legal_name": "AGENCY LTD",
-      "country": "Vương Quốc Anh",
+      "country": "Vương quốc Anh",
       "country_flag": "🇬🇧",
       "is_verified": true,
       "advertiser_url": "https://adstransparency.google.com/advertiser/AR10625315315786973185?region=anywhere",
-      "first_seen": "2026-08-01",
-      "last_shown": "2026-10-09",
-      "duration_days": 70,
+      "first_seen": "2026-07-15",
+      "last_shown": "2026-09-17",
+      "duration_days": 65,
       "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "classification": "seasonal",
+      "classification_label": "🍂 Chạy Theo Mùa (Seasonal)",
+      "campaign_type": "seasonal",
+      "campaign_type_label": "🍂 Chạy Theo Mùa (Seasonal)",
       "formats": [
         "search"
       ],
+      "format_breakdown": {
+        "text": 2,
+        "image": 0,
+        "video": 0
+      },
       "ad_count": 2,
+      "monthly_activity": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2026": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ]
+      },
+      "timeline_3year": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2026": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ]
+      },
       "creatives": [
         {
           "id": "CR17163693933436338177",
           "format": "search",
           "format_label": "Google Search Text",
-          "headline": "Binize Wireless CarPlay Dongle UK - Free Express Shipping",
-          "description": "Get rid of cables in your car now. Rated 4.9/5 by over 10,000 UK drivers.",
-          "landing_page": "https://www.binize.com/?ref=agency_uk",
-          "last_shown": "2026-10-09",
-          "duration_days": 70
-        }
-      ],
-      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
-    },
-    {
-      "id": "AR07675194828119867393",
-      "name": "IT Solutions FZCO",
-      "legal_name": "IT Solutions FZCO",
-      "country": "Các Tiểu vương quốc Ả Rập",
-      "country_flag": "🇦🇪",
-      "is_verified": true,
-      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07675194828119867393?region=anywhere",
-      "first_seen": "2026-05-18",
-      "last_shown": "2026-10-08",
-      "duration_days": 144,
-      "longevity_badge": "win_ads",
-      "formats": [
-        "search"
-      ],
-      "ad_count": 2,
-      "creatives": [
+          "headline": "Quảng cáo Google: AGENCY LTD",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-07-15",
+          "last_shown": "2026-09-17",
+          "duration_days": 65,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16473936149935271805"
+        },
         {
-          "id": "CR06490072450456354817",
+          "id": "CR17163693933436338177",
           "format": "search",
           "format_label": "Google Search Text",
-          "headline": "Binize Wireless Adapter Middle East - Best Carplay Box",
-          "description": "Works with high heat resistance up to 60C. Full Arabic & English support.",
-          "landing_page": "https://www.binize.com/?ref=itsolutions_dubai",
-          "last_shown": "2026-10-08",
-          "duration_days": 144
+          "headline": "Quảng cáo Google: AGENCY LTD",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-07-15",
+          "last_shown": "2026-09-17",
+          "duration_days": 65,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16473936149935271805"
         }
-      ],
-      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
-    },
-    {
-      "id": "AR02471262454848421889",
-      "name": "MAGIC MEDIA CONSULTANCY CO. L.L.C",
-      "legal_name": "MAGIC MEDIA CONSULTANCY CO. L.L.C",
-      "country": "Các Tiểu vương quốc Ả Rập",
-      "country_flag": "🇦🇪",
-      "is_verified": true,
-      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02471262454848421889?region=anywhere",
-      "first_seen": "2026-06-01",
-      "last_shown": "2026-10-07",
-      "duration_days": 129,
-      "longevity_badge": "win_ads",
-      "formats": [
-        "search"
-      ],
-      "ad_count": 2,
-      "creatives": [
-        {
-          "id": "CR16710942026102734849",
-          "format": "search",
-          "format_label": "Google Search Text",
-          "headline": "Binize Auto Adapter Deals - Best Automotive Accessories",
-          "description": "Exclusive discounts online. Fast delivery. Shop online.",
-          "landing_page": "https://www.binize.com/?ref=magicmedia",
-          "last_shown": "2026-10-07",
-          "duration_days": 129
-        }
-      ],
-      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
-    },
-    {
-      "id": "AR01823531015235174401",
-      "name": "IBILAL.COM FOR INTERNET CONSULTANCY",
-      "legal_name": "IBILAL.COM FOR INTERNET CONSULTANCY CO. L.L.C",
-      "country": "Các Tiểu vương quốc Ả Rập",
-      "country_flag": "🇦🇪",
-      "is_verified": true,
-      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01823531015235174401?region=anywhere",
-      "first_seen": "2026-08-10",
-      "last_shown": "2026-10-08",
-      "duration_days": 60,
-      "longevity_badge": "win_ads",
-      "formats": [
-        "search"
-      ],
-      "ad_count": 2,
-      "creatives": [
-        {
-          "id": "CR09060793420028575745",
-          "format": "search",
-          "format_label": "Google Search Text",
-          "headline": "Binize Wireless CarPlay - Official Global Store",
-          "description": "Safe checkout with warranty. Free shipping.",
-          "landing_page": "https://www.binize.com/?ref=ibilal",
-          "last_shown": "2026-10-08",
-          "duration_days": 60
-        }
-      ],
-      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+      ]
     },
     {
       "id": "AR08642512421996462081",
-      "name": "EMLAKH AHMAD PARKING CAR WASHING",
+      "name": "EMLAKH AHMAD PARKING CAR WASHING L.L.C",
       "legal_name": "EMLAKH AHMAD PARKING CAR WASHING L.L.C",
-      "country": "Các Tiểu vương quốc Ả Rập",
+      "country": "UAE",
       "country_flag": "🇦🇪",
       "is_verified": true,
       "advertiser_url": "https://adstransparency.google.com/advertiser/AR08642512421996462081?region=anywhere",
-      "first_seen": "2026-09-01",
-      "last_shown": "2026-10-09",
-      "duration_days": 39,
+      "first_seen": "2026-02-20",
+      "last_shown": "2026-09-17",
+      "duration_days": 210,
       "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "classification": "evergreen",
+      "classification_label": "🌲 Chạy Quanh Năm (Evergreen)",
+      "campaign_type": "evergreen",
+      "campaign_type_label": "🌲 Chạy Quanh Năm (Evergreen)",
       "formats": [
         "search"
       ],
+      "format_breakdown": {
+        "text": 2,
+        "image": 0,
+        "video": 0
+      },
       "ad_count": 2,
+      "monthly_activity": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2026": [
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ]
+      },
+      "timeline_3year": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2026": [
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ]
+      },
       "creatives": [
         {
           "id": "CR18018981007658582017",
           "format": "search",
           "format_label": "Google Search Text",
-          "headline": "Binize In-Car Multimedia - Plug & Play",
-          "description": "Convert screen to wireless carplay in minutes.",
-          "landing_page": "https://www.binize.com/?ref=emlakh",
-          "last_shown": "2026-10-09",
-          "duration_days": 39
-        }
-      ],
-      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
-    },
-    {
-      "id": "AR01414869343786762241",
-      "name": "FATIMA TECHNOLOGIES (PRIVATE) LIMITED",
-      "legal_name": "FATIMA TECHNOLOGIES (PRIVATE) LIMITED",
-      "country": "Pakistan",
-      "country_flag": "🇵🇰",
-      "is_verified": true,
-      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01414869343786762241?region=anywhere",
-      "first_seen": "2026-09-12",
-      "last_shown": "2026-10-08",
-      "duration_days": 27,
-      "longevity_badge": "win_ads",
-      "formats": [
-        "search"
-      ],
-      "ad_count": 2,
-      "creatives": [
+          "headline": "Quảng cáo Google: EMLAKH AHMAD PARKING CAR WASHING L.L.C",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-02-20",
+          "last_shown": "2026-09-17",
+          "duration_days": 210,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/872495213848178898"
+        },
         {
-          "id": "CR10054518311086981121",
+          "id": "CR18018981007658582017",
           "format": "search",
           "format_label": "Google Search Text",
-          "headline": "Binize Smart CarPlay Dongle - Shop Today",
-          "description": "Connect instantly via Bluetooth. High speed 5.8GHz connection.",
-          "landing_page": "https://www.binize.com/?ref=fatima_tech",
-          "last_shown": "2026-10-08",
-          "duration_days": 27
+          "headline": "Quảng cáo Google: EMLAKH AHMAD PARKING CAR WASHING L.L.C",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-02-20",
+          "last_shown": "2026-09-17",
+          "duration_days": 210,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/872495213848178898"
         }
-      ],
-      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
-    },
-    {
-      "id": "AR12362376201128378369",
-      "name": "Muhammad Nouman",
-      "legal_name": "Muhammad Nouman",
-      "country": "Pakistan",
-      "country_flag": "🇵🇰",
-      "is_verified": true,
-      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12362376201128378369?region=anywhere",
-      "first_seen": "2026-09-18",
-      "last_shown": "2026-10-08",
-      "duration_days": 21,
-      "longevity_badge": "win_ads",
-      "formats": [
-        "search"
-      ],
-      "ad_count": 2,
-      "creatives": [
-        {
-          "id": "CR01462208919999873025",
-          "format": "search",
-          "format_label": "Google Search Text",
-          "headline": "Binize Magic Box - Watch Netflix in Any Car",
-          "description": "Full Android multimedia system for factory wired CarPlay screens.",
-          "landing_page": "https://www.binize.com/?ref=nouman_aff",
-          "last_shown": "2026-10-08",
-          "duration_days": 21
-        }
-      ],
-      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+      ]
     },
     {
       "id": "AR13009812670977671169",
@@ -479,28 +1323,1266 @@
       "country_flag": "🇵🇰",
       "is_verified": true,
       "advertiser_url": "https://adstransparency.google.com/advertiser/AR13009812670977671169?region=anywhere",
-      "first_seen": "2026-09-25",
-      "last_shown": "2026-10-09",
-      "duration_days": 15,
+      "first_seen": "2026-09-11",
+      "last_shown": "2026-09-13",
+      "duration_days": 3,
       "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "classification": "new_test",
+      "classification_label": "🟡 Mới Chạy (New Test)",
+      "campaign_type": "new_test",
+      "campaign_type_label": "🟡 Mới Chạy (New Test)",
       "formats": [
         "search"
       ],
+      "format_breakdown": {
+        "text": 2,
+        "image": 0,
+        "video": 0
+      },
       "ad_count": 2,
+      "monthly_activity": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2026": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      },
+      "timeline_3year": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2026": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      },
       "creatives": [
         {
           "id": "CR01629663089211211777",
           "format": "search",
           "format_label": "Google Search Text",
-          "headline": "Binize CarPlay Box 2026 - Best Holiday Deals",
-          "description": "Order today for fast worldwide shipping and 1-year replacement warranty.",
-          "landing_page": "https://www.binize.com/?ref=madiha_media",
-          "last_shown": "2026-10-09",
-          "duration_days": 15
+          "headline": "Quảng cáo Google: Madiha Rubab",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-09-11",
+          "last_shown": "2026-09-13",
+          "duration_days": 3,
+          "image_url": null
+        },
+        {
+          "id": "CR01629663089211211777",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: Madiha Rubab",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-09-11",
+          "last_shown": "2026-09-13",
+          "duration_days": 3,
+          "image_url": null
         }
+      ]
+    },
+    {
+      "id": "AR15357672967291011073",
+      "name": "MOON JUISE LLC",
+      "legal_name": "MOON JUISE LLC",
+      "country": "Hoa Kỳ",
+      "country_flag": "🇺🇸",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15357672967291011073?region=anywhere",
+      "first_seen": "2026-07-20",
+      "last_shown": "2026-07-28",
+      "duration_days": 9,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "classification": "new_test",
+      "classification_label": "🟡 Mới Chạy (New Test)",
+      "campaign_type": "new_test",
+      "campaign_type_label": "🟡 Mới Chạy (New Test)",
+      "formats": [
+        "search"
       ],
-      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+      "format_breakdown": {
+        "text": 2,
+        "image": 0,
+        "video": 0
+      },
+      "ad_count": 2,
+      "monthly_activity": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2026": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "timeline_3year": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2026": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "creatives": [
+        {
+          "id": "CR01159900319656706049",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: MOON JUISE LLC",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-07-20",
+          "last_shown": "2026-07-28",
+          "duration_days": 9,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4423877276434037982"
+        },
+        {
+          "id": "CR01159900319656706049",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: MOON JUISE LLC",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-07-20",
+          "last_shown": "2026-07-28",
+          "duration_days": 9,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4423877276434037982"
+        }
+      ]
+    },
+    {
+      "id": "AR14451554001637867521",
+      "name": "CÔNG TY TNHH ADSDIGI",
+      "legal_name": "CÔNG TY TNHH ADSDIGI",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14451554001637867521?region=anywhere",
+      "first_seen": "2026-04-08",
+      "last_shown": "2026-06-21",
+      "duration_days": 75,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "classification": "seasonal",
+      "classification_label": "🍂 Chạy Theo Mùa (Seasonal)",
+      "campaign_type": "seasonal",
+      "campaign_type_label": "🍂 Chạy Theo Mùa (Seasonal)",
+      "formats": [
+        "search"
+      ],
+      "format_breakdown": {
+        "text": 2,
+        "image": 0,
+        "video": 0
+      },
+      "ad_count": 2,
+      "monthly_activity": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2026": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "timeline_3year": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2026": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "creatives": [
+        {
+          "id": "CR02296746070912270337",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: CÔNG TY TNHH ADSDIGI",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-04-08",
+          "last_shown": "2026-06-21",
+          "duration_days": 75,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10798592496691733038"
+        },
+        {
+          "id": "CR02296746070912270337",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: CÔNG TY TNHH ADSDIGI",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-04-08",
+          "last_shown": "2026-06-21",
+          "duration_days": 75,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10798592496691733038"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. Khang",
+      "legal_name": "Phong Y. Khang",
+      "country": "Hoa Kỳ",
+      "country_flag": "🇺🇸",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345?region=anywhere",
+      "first_seen": "2024-07-01",
+      "last_shown": "2026-05-27",
+      "duration_days": 696,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "classification": "evergreen",
+      "classification_label": "🌲 Chạy Quanh Năm (Evergreen)",
+      "campaign_type": "evergreen",
+      "campaign_type_label": "🌲 Chạy Quanh Năm (Evergreen)",
+      "formats": [
+        "search"
+      ],
+      "format_breakdown": {
+        "text": 2,
+        "image": 0,
+        "video": 0
+      },
+      "ad_count": 2,
+      "monthly_activity": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "2025": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "2026": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "timeline_3year": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "2025": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "2026": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "creatives": [
+        {
+          "id": "CR17330042371907256321",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: Phong Y. Khang",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2024-07-01",
+          "last_shown": "2026-05-27",
+          "duration_days": 696,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14900336884922571412"
+        },
+        {
+          "id": "CR17330042371907256321",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: Phong Y. Khang",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2024-07-01",
+          "last_shown": "2026-05-27",
+          "duration_days": 696,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14900336884922571412"
+        }
+      ]
+    },
+    {
+      "id": "AR01414869343786762241",
+      "name": "FATIMA TECHNOLOGIES (PRIVATE) LIMITED",
+      "legal_name": "FATIMA TECHNOLOGIES (PRIVATE) LIMITED",
+      "country": "Pakistan",
+      "country_flag": "🇵🇰",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01414869343786762241?region=anywhere",
+      "first_seen": "2026-03-05",
+      "last_shown": "2026-03-29",
+      "duration_days": 25,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "classification": "new_test",
+      "classification_label": "🟡 Mới Chạy (New Test)",
+      "campaign_type": "new_test",
+      "campaign_type_label": "🟡 Mới Chạy (New Test)",
+      "formats": [
+        "search"
+      ],
+      "format_breakdown": {
+        "text": 2,
+        "image": 0,
+        "video": 0
+      },
+      "ad_count": 2,
+      "monthly_activity": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2026": [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "timeline_3year": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2026": [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "creatives": [
+        {
+          "id": "CR10054518311086981121",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: FATIMA TECHNOLOGIES (PRIVATE) LIMITED",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-03-05",
+          "last_shown": "2026-03-29",
+          "duration_days": 25,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5415856134883452496"
+        },
+        {
+          "id": "CR10054518311086981121",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: FATIMA TECHNOLOGIES (PRIVATE) LIMITED",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2026-03-05",
+          "last_shown": "2026-03-29",
+          "duration_days": 25,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5415856134883452496"
+        }
+      ]
+    },
+    {
+      "id": "AR12362376201128378369",
+      "name": "Muhammad Nouman",
+      "legal_name": "Muhammad Nouman",
+      "country": "Pakistan",
+      "country_flag": "🇵🇰",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12362376201128378369?region=anywhere",
+      "first_seen": "2024-09-11",
+      "last_shown": "2026-03-04",
+      "duration_days": 540,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "classification": "evergreen",
+      "classification_label": "🌲 Chạy Quanh Năm (Evergreen)",
+      "campaign_type": "evergreen",
+      "campaign_type_label": "🌲 Chạy Quanh Năm (Evergreen)",
+      "formats": [
+        "search"
+      ],
+      "format_breakdown": {
+        "text": 2,
+        "image": 0,
+        "video": 0
+      },
+      "ad_count": 2,
+      "monthly_activity": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ],
+        "2025": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "2026": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "timeline_3year": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ],
+        "2025": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "2026": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "creatives": [
+        {
+          "id": "CR01462208919999873025",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: Muhammad Nouman",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2024-09-11",
+          "last_shown": "2026-03-04",
+          "duration_days": 540,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4130671895176012168"
+        },
+        {
+          "id": "CR01462208919999873025",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: Muhammad Nouman",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2024-09-11",
+          "last_shown": "2026-03-04",
+          "duration_days": 540,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4130671895176012168"
+        }
+      ]
+    },
+    {
+      "id": "AR07675194828119867393",
+      "name": "IT Solutions FZCO",
+      "legal_name": "IT Solutions FZCO",
+      "country": "UAE",
+      "country_flag": "🇦🇪",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07675194828119867393?region=anywhere",
+      "first_seen": "2025-12-26",
+      "last_shown": "2026-01-29",
+      "duration_days": 35,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "classification": "seasonal",
+      "classification_label": "🍂 Chạy Theo Mùa (Seasonal)",
+      "campaign_type": "seasonal",
+      "campaign_type_label": "🍂 Chạy Theo Mùa (Seasonal)",
+      "formats": [
+        "search"
+      ],
+      "format_breakdown": {
+        "text": 2,
+        "image": 0,
+        "video": 0
+      },
+      "ad_count": 2,
+      "monthly_activity": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ],
+        "2026": [
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "timeline_3year": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ],
+        "2026": [
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "creatives": [
+        {
+          "id": "CR06490072450456354817",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: IT Solutions FZCO",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2025-12-26",
+          "last_shown": "2026-01-29",
+          "duration_days": 35,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12913396943115166228"
+        },
+        {
+          "id": "CR06490072450456354817",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: IT Solutions FZCO",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2025-12-26",
+          "last_shown": "2026-01-29",
+          "duration_days": 35,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12913396943115166228"
+        }
+      ]
+    },
+    {
+      "id": "AR02471262454848421889",
+      "name": "MAGIC MEDIA CONSULTANCY CO. L.L.C",
+      "legal_name": "MAGIC MEDIA CONSULTANCY CO. L.L.C",
+      "country": "UAE",
+      "country_flag": "🇦🇪",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02471262454848421889?region=anywhere",
+      "first_seen": "2025-10-12",
+      "last_shown": "2025-12-06",
+      "duration_days": 56,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "classification": "seasonal",
+      "classification_label": "🍂 Chạy Theo Mùa (Seasonal)",
+      "campaign_type": "seasonal",
+      "campaign_type_label": "🍂 Chạy Theo Mùa (Seasonal)",
+      "formats": [
+        "search"
+      ],
+      "format_breakdown": {
+        "text": 2,
+        "image": 0,
+        "video": 0
+      },
+      "ad_count": 2,
+      "monthly_activity": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ],
+        "2026": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "timeline_3year": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ],
+        "2026": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "creatives": [
+        {
+          "id": "CR16710942026102734849",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: MAGIC MEDIA CONSULTANCY CO. L.L.C",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2025-10-12",
+          "last_shown": "2025-12-06",
+          "duration_days": 56,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16268091191819621845"
+        },
+        {
+          "id": "CR16710942026102734849",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: MAGIC MEDIA CONSULTANCY CO. L.L.C",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2025-10-12",
+          "last_shown": "2025-12-06",
+          "duration_days": 56,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16268091191819621845"
+        }
+      ]
+    },
+    {
+      "id": "AR01823531015235174401",
+      "name": "IBILAL.COM FOR INTERNET CONSULTANCY CO. L.L.C",
+      "legal_name": "IBILAL.COM FOR INTERNET CONSULTANCY CO. L.L.C",
+      "country": "UAE",
+      "country_flag": "🇦🇪",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01823531015235174401?region=anywhere",
+      "first_seen": "2025-08-22",
+      "last_shown": "2025-11-30",
+      "duration_days": 101,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "classification": "seasonal",
+      "classification_label": "🍂 Chạy Theo Mùa (Seasonal)",
+      "campaign_type": "seasonal",
+      "campaign_type_label": "🍂 Chạy Theo Mùa (Seasonal)",
+      "formats": [
+        "search"
+      ],
+      "format_breakdown": {
+        "text": 2,
+        "image": 0,
+        "video": 0
+      },
+      "ad_count": 2,
+      "monthly_activity": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "2026": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "timeline_3year": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "2025": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "2026": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "creatives": [
+        {
+          "id": "CR09060793420028575745",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: IBILAL.COM FOR INTERNET CONSULTANCY CO. L.L.C",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2025-08-22",
+          "last_shown": "2025-11-30",
+          "duration_days": 101,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17265800892702464715"
+        },
+        {
+          "id": "CR09060793420028575745",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: IBILAL.COM FOR INTERNET CONSULTANCY CO. L.L.C",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho binize.com",
+          "landing_page": "https://www.binize.com",
+          "first_seen": "2025-08-22",
+          "last_shown": "2025-11-30",
+          "duration_days": 101,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17265800892702464715"
+        }
+      ]
     }
-  ],
-  "test_ads_count": 0
+  ]
 }

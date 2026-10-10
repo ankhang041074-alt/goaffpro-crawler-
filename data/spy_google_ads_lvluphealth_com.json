@@ -1,0 +1,203 @@
+{
+  "domain": "lvluphealth.com",
+  "updated_at": "2026-10-10T15:01:32.285469",
+  "total_advertisers": 6,
+  "total_ads": 118,
+  "super_scale_count": 2,
+  "win_ads_count": 1,
+  "test_ads_count": 3,
+  "advertisers": [
+    {
+      "id": "AR00612758732102696961",
+      "name": "KYANA International LimitedĐã xác minh",
+      "legal_name": "KYANA International LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00612758732102696961/creative/CR07227010807484121089?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 93,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 93,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lvluphealth.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lvluphealth.com",
+          "landing_page": "https://www.lvluphealth.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 93,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5187975247362243103"
+        }
+      ]
+    },
+    {
+      "id": "AR05854706075659403265",
+      "name": "LVLUPHealthĐã xác minh",
+      "legal_name": "LVLUPHealthĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05854706075659403265/creative/CR12352882373489065985?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 19,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 19,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lvluphealth.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lvluphealth.com",
+          "landing_page": "https://www.lvluphealth.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 19,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11577945886951951921"
+        }
+      ]
+    },
+    {
+      "id": "AR07428277063783546881",
+      "name": "MM Digital VenturesĐã xác minh",
+      "legal_name": "MM Digital VenturesĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07428277063783546881/creative/CR15398949114834059265?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lvluphealth.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lvluphealth.com",
+          "landing_page": "https://www.lvluphealth.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17415256562098497328"
+        }
+      ]
+    },
+    {
+      "id": "AR15466433023968280577",
+      "name": "Mouassar Hussain ShahĐã xác minh",
+      "legal_name": "Mouassar Hussain ShahĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15466433023968280577/creative/CR12994235795257688065?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lvluphealth.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lvluphealth.com",
+          "landing_page": "https://www.lvluphealth.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/113541572586184233"
+        }
+      ]
+    },
+    {
+      "id": "AR12667011496924938241",
+      "name": "Muhammad Sabir HussainĐã xác minh",
+      "legal_name": "Muhammad Sabir HussainĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12667011496924938241/creative/CR14390387963626258433?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lvluphealth.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lvluphealth.com",
+          "landing_page": "https://www.lvluphealth.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6062099046486639819"
+        }
+      ]
+    },
+    {
+      "id": "AR11005763432967307265",
+      "name": "Rizwan AhmedĐã xác minh",
+      "legal_name": "Rizwan AhmedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11005763432967307265/creative/CR10193751676125446145?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lvluphealth.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lvluphealth.com",
+          "landing_page": "https://www.lvluphealth.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13627556483406121835"
+        }
+      ]
+    }
+  ]
+}

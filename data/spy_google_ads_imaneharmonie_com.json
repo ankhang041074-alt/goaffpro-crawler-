@@ -1,0 +1,425 @@
+{
+  "domain": "imaneharmonie.com",
+  "updated_at": "2026-10-10T16:10:43.526998",
+  "total_advertisers": 13,
+  "total_ads": 136,
+  "super_scale_count": 1,
+  "win_ads_count": 12,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR07497291544643239937",
+      "name": "Imane HarmonieĐã xác minh",
+      "legal_name": "Imane HarmonieĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07497291544643239937/creative/CR15740673824053526529?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 112,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 112,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: imaneharmonie.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho imaneharmonie.com",
+          "landing_page": "https://www.imaneharmonie.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 112,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/906228678806687670"
+        }
+      ]
+    },
+    {
+      "id": "AR09183319010098282497",
+      "name": "NGUYỄN HỮU KỀNĐã xác minh",
+      "legal_name": "NGUYỄN HỮU KỀNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09183319010098282497/creative/CR10226756601419661313?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: imaneharmonie.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho imaneharmonie.com",
+          "landing_page": "https://www.imaneharmonie.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/672576735254445493"
+        }
+      ]
+    },
+    {
+      "id": "AR02083325984878100481",
+      "name": "Julie V. OctaveĐã xác minh",
+      "legal_name": "Julie V. OctaveĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02083325984878100481/creative/CR16873171350418620417?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: imaneharmonie.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho imaneharmonie.com",
+          "landing_page": "https://www.imaneharmonie.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12983988184228337905"
+        }
+      ]
+    },
+    {
+      "id": "AR08374863185529798657",
+      "name": "UHLMANN CONSULTING GROUP LLCĐã xác minh",
+      "legal_name": "UHLMANN CONSULTING GROUP LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08374863185529798657/creative/CR07078052992242417665?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: imaneharmonie.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho imaneharmonie.com",
+          "landing_page": "https://www.imaneharmonie.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2277506645875919915"
+        }
+      ]
+    },
+    {
+      "id": "AR13679907970941452289",
+      "name": "SEVGILLI IMPORT & EXPORT LLCĐã xác minh",
+      "legal_name": "SEVGILLI IMPORT & EXPORT LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13679907970941452289/creative/CR09070217428679524353?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: imaneharmonie.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho imaneharmonie.com",
+          "landing_page": "https://www.imaneharmonie.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11228569560631121381"
+        }
+      ]
+    },
+    {
+      "id": "AR14317035926574858241",
+      "name": "GFR Capital Holdings LLCĐã xác minh",
+      "legal_name": "GFR Capital Holdings LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14317035926574858241/creative/CR16223178833862328321?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: imaneharmonie.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho imaneharmonie.com",
+          "landing_page": "https://www.imaneharmonie.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6809767919054929214"
+        }
+      ]
+    },
+    {
+      "id": "AR07948496628095123457",
+      "name": "LÂM HẰNG NYĐã xác minh",
+      "legal_name": "LÂM HẰNG NYĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07948496628095123457/creative/CR07166136105694134273?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: imaneharmonie.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho imaneharmonie.com",
+          "landing_page": "https://www.imaneharmonie.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR00790803105254998017",
+      "name": "Công ty TNHH Lộc Fast LogisticsĐã xác minh",
+      "legal_name": "Công ty TNHH Lộc Fast LogisticsĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00790803105254998017/creative/CR09691743451753742337?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: imaneharmonie.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho imaneharmonie.com",
+          "landing_page": "https://www.imaneharmonie.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR01158477963927224321",
+      "name": "Five Pearlz Design LLCĐã xác minh",
+      "legal_name": "Five Pearlz Design LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01158477963927224321/creative/CR01336749205842034689?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: imaneharmonie.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho imaneharmonie.com",
+          "landing_page": "https://www.imaneharmonie.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15389639749187054036"
+        }
+      ]
+    },
+    {
+      "id": "AR01441183766595764225",
+      "name": "Xun Meng International LimitedĐã xác minh",
+      "legal_name": "Xun Meng International LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01441183766595764225/creative/CR07024901912960958465?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: imaneharmonie.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho imaneharmonie.com",
+          "landing_page": "https://www.imaneharmonie.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4657479393413076156"
+        }
+      ]
+    },
+    {
+      "id": "AR09716077920409092097",
+      "name": "Thuy NguyenĐã xác minh",
+      "legal_name": "Thuy NguyenĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09716077920409092097/creative/CR00389373222430179329?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: imaneharmonie.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho imaneharmonie.com",
+          "landing_page": "https://www.imaneharmonie.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13702711555790863591"
+        }
+      ]
+    },
+    {
+      "id": "AR12122768445360046081",
+      "name": "TRẦN NGỌC THÀNHĐã xác minh",
+      "legal_name": "TRẦN NGỌC THÀNHĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12122768445360046081/creative/CR14251684047796305921?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: imaneharmonie.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho imaneharmonie.com",
+          "landing_page": "https://www.imaneharmonie.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9117473589695433615"
+        }
+      ]
+    },
+    {
+      "id": "AR02374887907031777281",
+      "name": "ECOM PRIME LLPĐã xác minh",
+      "legal_name": "ECOM PRIME LLPĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02374887907031777281/creative/CR07433872590126448641?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: imaneharmonie.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho imaneharmonie.com",
+          "landing_page": "https://www.imaneharmonie.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4329796405542530213"
+        }
+      ]
+    }
+  ]
+}

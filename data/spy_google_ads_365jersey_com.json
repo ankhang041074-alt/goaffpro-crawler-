@@ -1,0 +1,394 @@
+{
+  "domain": "365jersey.com",
+  "updated_at": "2026-10-10T15:19:38.453521",
+  "total_advertisers": 12,
+  "total_ads": 68,
+  "super_scale_count": 2,
+  "win_ads_count": 10,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR14262984991515344897",
+      "name": "Likov IvanĐã xác minh",
+      "legal_name": "Likov IvanĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14262984991515344897/creative/CR07389085908114341889?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 28,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 28,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: 365jersey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho 365jersey.com",
+          "landing_page": "https://www.365jersey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 28,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6168910011748402659"
+        }
+      ]
+    },
+    {
+      "id": "AR03858991427845357569",
+      "name": "OCEAN SUNRISE LIMITEDĐã xác minh",
+      "legal_name": "OCEAN SUNRISE LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03858991427845357569/creative/CR09029987672608735233?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: 365jersey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho 365jersey.com",
+          "landing_page": "https://www.365jersey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12770243365455817535"
+        }
+      ]
+    },
+    {
+      "id": "AR00494611809651654657",
+      "name": "MOHAMMED FAIZANĐã xác minh",
+      "legal_name": "MOHAMMED FAIZANĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00494611809651654657/creative/CR16683970550606856193?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: 365jersey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho 365jersey.com",
+          "landing_page": "https://www.365jersey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR07207833434910097409",
+      "name": "1606 Partners LLCĐã xác minh",
+      "legal_name": "1606 Partners LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07207833434910097409/creative/CR16693666593896398849?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: 365jersey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho 365jersey.com",
+          "landing_page": "https://www.365jersey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7292445077973552039"
+        }
+      ]
+    },
+    {
+      "id": "AR11073075783927857153",
+      "name": "Bùi Tân KhoaĐã xác minh",
+      "legal_name": "Bùi Tân KhoaĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11073075783927857153/creative/CR08853022787946676225?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: 365jersey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho 365jersey.com",
+          "landing_page": "https://www.365jersey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1564846498931940304"
+        }
+      ]
+    },
+    {
+      "id": "AR16374767617220542465",
+      "name": "Ping JinĐã xác minh",
+      "legal_name": "Ping JinĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16374767617220542465/creative/CR06446629165494960129?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 20,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 20,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: 365jersey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho 365jersey.com",
+          "landing_page": "https://www.365jersey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 20,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9101603699173366223"
+        }
+      ]
+    },
+    {
+      "id": "AR10174570137433145345",
+      "name": "LÊ THỊ HOAĐã xác minh",
+      "legal_name": "LÊ THỊ HOAĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10174570137433145345/creative/CR06586318819269017601?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: 365jersey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho 365jersey.com",
+          "landing_page": "https://www.365jersey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8101261406178305990"
+        }
+      ]
+    },
+    {
+      "id": "AR18108328284604334081",
+      "name": "NGUYỄN TUẤN HÙNGĐã xác minh",
+      "legal_name": "NGUYỄN TUẤN HÙNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18108328284604334081/creative/CR10265936530044354561?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: 365jersey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho 365jersey.com",
+          "landing_page": "https://www.365jersey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1086108358845205469"
+        }
+      ]
+    },
+    {
+      "id": "AR10890483710423990273",
+      "name": "蒯再兴Đã xác minh",
+      "legal_name": "蒯再兴Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10890483710423990273/creative/CR07916293100748668929?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: 365jersey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho 365jersey.com",
+          "landing_page": "https://www.365jersey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12731662190548153245"
+        }
+      ]
+    },
+    {
+      "id": "AR07973396374576168961",
+      "name": "K-101 CAPITAL LLCĐã xác minh",
+      "legal_name": "K-101 CAPITAL LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07973396374576168961/creative/CR11488942829950992385?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: 365jersey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho 365jersey.com",
+          "landing_page": "https://www.365jersey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6197313542501485144"
+        }
+      ]
+    },
+    {
+      "id": "AR08025646550107553793",
+      "name": "Muhammad ShehzadĐã xác minh",
+      "legal_name": "Muhammad ShehzadĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08025646550107553793/creative/CR11041201294025949185?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: 365jersey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho 365jersey.com",
+          "landing_page": "https://www.365jersey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4482982269950677363"
+        }
+      ]
+    },
+    {
+      "id": "AR17187745380926750721",
+      "name": "NGUYEN TIN PHATĐã xác minh",
+      "legal_name": "NGUYEN TIN PHATĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17187745380926750721/creative/CR12004271672052940801?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: 365jersey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho 365jersey.com",
+          "landing_page": "https://www.365jersey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1851366048495227666"
+        }
+      ]
+    }
+  ]
+}

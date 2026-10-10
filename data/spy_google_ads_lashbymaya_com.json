@@ -1,0 +1,1610 @@
+{
+  "domain": "lashbymaya.com",
+  "updated_at": "2026-10-10T16:47:50.373958",
+  "total_advertisers": 50,
+  "total_ads": 103,
+  "super_scale_count": 0,
+  "win_ads_count": 30,
+  "test_ads_count": 20,
+  "advertisers": [
+    {
+      "id": "AR15417310409262104577",
+      "name": "GB TRADEPLUS LLCĐã xác minh",
+      "legal_name": "GB TRADEPLUS LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15417310409262104577/creative/CR18296407951922954241?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16416625112573302878"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR03921584425791389697?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9259749486379895122"
+        }
+      ]
+    },
+    {
+      "id": "AR18123341952672858113",
+      "name": "RAU SẠCHĐã xác minh",
+      "legal_name": "RAU SẠCHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18123341952672858113/creative/CR06080672018863226881?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 6,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 6,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1145564852774150886"
+        }
+      ]
+    },
+    {
+      "id": "AR10696386098138972161",
+      "name": "HỘ KINH DOANH PHAN VĂN VỊNHĐã xác minh",
+      "legal_name": "HỘ KINH DOANH PHAN VĂN VỊNHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10696386098138972161/creative/CR11810335645027532801?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/834865331493256276"
+        }
+      ]
+    },
+    {
+      "id": "AR16767039452949250049",
+      "name": "Connect Profit (Hong Kong) LimitedĐã xác minh",
+      "legal_name": "Connect Profit (Hong Kong) LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16767039452949250049/creative/CR00734542701579468801?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14809049828473932278"
+        }
+      ]
+    },
+    {
+      "id": "AR16672615481709953025",
+      "name": "张琳霞Đã xác minh",
+      "legal_name": "张琳霞Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16672615481709953025/creative/CR16494158800287170561?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14362463091562874680"
+        }
+      ]
+    },
+    {
+      "id": "AR11369318687858229249",
+      "name": "佛山市火莱克科技有限公司Đã xác minh",
+      "legal_name": "佛山市火莱克科技有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11369318687858229249/creative/CR09869836538425114625?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13381660778639638249"
+        }
+      ]
+    },
+    {
+      "id": "AR02911352661154463745",
+      "name": "EVRY JEWELS HUB LTDĐã xác minh",
+      "legal_name": "EVRY JEWELS HUB LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02911352661154463745/creative/CR09552977250308063233?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9970549665995053089"
+        }
+      ]
+    },
+    {
+      "id": "AR12784598080762675201",
+      "name": "South Wind Tech LimitedĐã xác minh",
+      "legal_name": "South Wind Tech LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12784598080762675201/creative/CR14190284372153729025?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17818121142876912047"
+        }
+      ]
+    },
+    {
+      "id": "AR11890686073589727233",
+      "name": "AGENCY NXD LIMITEDĐã xác minh",
+      "legal_name": "AGENCY NXD LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11890686073589727233/creative/CR09696523715994451969?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13253360359226654191"
+        }
+      ]
+    },
+    {
+      "id": "AR15372385807260188673",
+      "name": "茂名舢舨科技有限公司Đã xác minh",
+      "legal_name": "茂名舢舨科技有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15372385807260188673/creative/CR06367408115763118081?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5066403617511689216"
+        }
+      ]
+    },
+    {
+      "id": "AR05412113380888543233",
+      "name": "Juan Pablo CorsiĐã xác minh",
+      "legal_name": "Juan Pablo CorsiĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05412113380888543233/creative/CR13262784732883582977?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13548109228898648707"
+        }
+      ]
+    },
+    {
+      "id": "AR02734696189503995905",
+      "name": "EURL LECOCQĐã xác minh",
+      "legal_name": "EURL LECOCQĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02734696189503995905/creative/CR14231234574628683777?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4468690739951953292"
+        }
+      ]
+    },
+    {
+      "id": "AR07675194828119867393",
+      "name": "IT Solutions FZCOĐã xác minh",
+      "legal_name": "IT Solutions FZCOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07675194828119867393/creative/CR17969710723386834945?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18165542076808873891"
+        }
+      ]
+    },
+    {
+      "id": "AR05444051719774273537",
+      "name": "Juan Pablo Corsi",
+      "legal_name": "Juan Pablo Corsi",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05444051719774273537/creative/CR08319005246059708417?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11119453212981206552"
+        }
+      ]
+    },
+    {
+      "id": "AR01790401518709506049",
+      "name": "Mok Solar Enterprise, LLC",
+      "legal_name": "Mok Solar Enterprise, LLC",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01790401518709506049/creative/CR04403190791002914817?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7693712223098748134"
+        }
+      ]
+    },
+    {
+      "id": "AR06407937222464503809",
+      "name": "NGUYỄN XUÂN VŨĐã xác minh",
+      "legal_name": "NGUYỄN XUÂN VŨĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06407937222464503809/creative/CR18057829777124884481?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 9,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 9,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 9,
+          "image_url": "https://i.ytimg.com/vi/e8BGCzZUv3g/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR12006487737738723329",
+      "name": "CÔNG TY TNHH NGUYÊN KHANG TRAVELĐã xác minh",
+      "legal_name": "CÔNG TY TNHH NGUYÊN KHANG TRAVELĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12006487737738723329/creative/CR06358166033336893441?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7432718549492446627"
+        }
+      ]
+    },
+    {
+      "id": "AR06327029582025195521",
+      "name": "David Nathaniel CarrollĐã xác minh",
+      "legal_name": "David Nathaniel CarrollĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06327029582025195521/creative/CR06154775073896005633?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_18",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR08321874327163109377",
+      "name": "ĐẶNG QUANG TRUNGĐã xác minh",
+      "legal_name": "ĐẶNG QUANG TRUNGĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08321874327163109377/creative/CR10111581976726077441?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_19",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14194239369692799547"
+        }
+      ]
+    },
+    {
+      "id": "AR02209412712721547265",
+      "name": "Digital FundaĐã xác minh",
+      "legal_name": "Digital FundaĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02209412712721547265/creative/CR16093851046387908609?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_20",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12088260724796947923"
+        }
+      ]
+    },
+    {
+      "id": "AR07663902379846139905",
+      "name": "DEBORAH CARVER KNIGHTĐã xác minh",
+      "legal_name": "DEBORAH CARVER KNIGHTĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07663902379846139905/creative/CR09653146264291770369?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_21",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17296155703153095269"
+        }
+      ]
+    },
+    {
+      "id": "AR14714308195157803009",
+      "name": "K&K ADVERTISING LTDĐã xác minh",
+      "legal_name": "K&K ADVERTISING LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14714308195157803009/creative/CR05457661242774650881?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_22",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13670263128763664266"
+        }
+      ]
+    },
+    {
+      "id": "AR06785990551779934209",
+      "name": "Absolute Link LimitedĐã xác minh",
+      "legal_name": "Absolute Link LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06785990551779934209/creative/CR03969538663364165633?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_23",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17210549930367442380"
+        }
+      ]
+    },
+    {
+      "id": "AR14461241832949940225",
+      "name": "RAU SẠCHĐã xác minh",
+      "legal_name": "RAU SẠCHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14461241832949940225/creative/CR17942862066775752705?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 6,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_24",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 6,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16353741699059589782"
+        }
+      ]
+    },
+    {
+      "id": "AR02242430239449808897",
+      "name": "Neocredit",
+      "legal_name": "Neocredit",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02242430239449808897/creative/CR04397950973851467777?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_25",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9516931076067447261"
+        }
+      ]
+    },
+    {
+      "id": "AR01739799622777307137",
+      "name": "NGC POWER(HK)TECH LIMITEDĐã xác minh",
+      "legal_name": "NGC POWER(HK)TECH LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01739799622777307137/creative/CR08950652067509174273?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_26",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4263096571189690700"
+        }
+      ]
+    },
+    {
+      "id": "AR17956267888067215361",
+      "name": "Juan Pablo Corsi",
+      "legal_name": "Juan Pablo Corsi",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17956267888067215361/creative/CR06912664934228688897?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_27",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11870466356324933679"
+        }
+      ]
+    },
+    {
+      "id": "AR17126400277138636801",
+      "name": "DIGITAL SIRMOURĐã xác minh",
+      "legal_name": "DIGITAL SIRMOURĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17126400277138636801/creative/CR09601916031824035841?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_28",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1770058612284659296"
+        }
+      ]
+    },
+    {
+      "id": "AR00115870057208217601",
+      "name": "CHÂU PHƯỚC HẢOĐã xác minh",
+      "legal_name": "CHÂU PHƯỚC HẢOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00115870057208217601/creative/CR14484023954395627521?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_29",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2270836977179271157"
+        }
+      ]
+    },
+    {
+      "id": "AR03009678867880214529",
+      "name": "غزاله رشیدĐã xác minh",
+      "legal_name": "غزاله رشیدĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03009678867880214529/creative/CR18162144293542690817?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_30",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8236518096248110633"
+        }
+      ]
+    },
+    {
+      "id": "AR17775441595877818369",
+      "name": "HỘ KINH DOANH BEAUTY SALON TOTOĐã xác minh",
+      "legal_name": "HỘ KINH DOANH BEAUTY SALON TOTOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17775441595877818369/creative/CR18061897420391841793?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_31",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11051832693836690053"
+        }
+      ]
+    },
+    {
+      "id": "AR14485634738930319361",
+      "name": "Malik Nazakat RafiqueĐã xác minh",
+      "legal_name": "Malik Nazakat RafiqueĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14485634738930319361/creative/CR15471868562779406337?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_32",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3734195019881480660"
+        }
+      ]
+    },
+    {
+      "id": "AR11440819791573549057",
+      "name": "LÊ THỊ HẢIĐã xác minh",
+      "legal_name": "LÊ THỊ HẢIĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11440819791573549057/creative/CR08623537874958024705?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_33",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8312165160986079815"
+        }
+      ]
+    },
+    {
+      "id": "AR05427078051970154497",
+      "name": "Mutee Ur RehmanĐã xác minh",
+      "legal_name": "Mutee Ur RehmanĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05427078051970154497/creative/CR17117650028597346305?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_34",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17625542603547569826"
+        }
+      ]
+    },
+    {
+      "id": "AR17139445346947039233",
+      "name": "TF AGENCY LTDĐã xác minh",
+      "legal_name": "TF AGENCY LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17139445346947039233/creative/CR14625839032865652737?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_35",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2216598923224503068"
+        }
+      ]
+    },
+    {
+      "id": "AR11893126748885221377",
+      "name": "Hassan NawazĐã xác minh",
+      "legal_name": "Hassan NawazĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11893126748885221377/creative/CR07411622563589128193?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_36",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9675556847970673930"
+        }
+      ]
+    },
+    {
+      "id": "AR05953835278060748801",
+      "name": "Ali HassanĐã xác minh",
+      "legal_name": "Ali HassanĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05953835278060748801/creative/CR03684657511299809281?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_37",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/590970871755362029"
+        }
+      ]
+    },
+    {
+      "id": "AR03567855188490321921",
+      "name": "HỘ KINH DOANH NGUYỄN THỊ ÁNHĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN THỊ ÁNHĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03567855188490321921/creative/CR00497849227150360577?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_38",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1990585794565434459"
+        }
+      ]
+    },
+    {
+      "id": "AR13539320402714558465",
+      "name": "HO KINH DOANH BEAUTY SALON TOTOĐã xác minh",
+      "legal_name": "HO KINH DOANH BEAUTY SALON TOTOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13539320402714558465/creative/CR09156181413857329153?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_39",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1866628619760176128"
+        }
+      ]
+    },
+    {
+      "id": "AR16176836660724498433",
+      "name": "TRIỆU TẤN PHƯỚC",
+      "legal_name": "TRIỆU TẤN PHƯỚC",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16176836660724498433/creative/CR02215911462096863233?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_40",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13083811722025583871"
+        }
+      ]
+    },
+    {
+      "id": "AR09613501216478724097",
+      "name": "BROOKFIELD REAL ESTATE INCOME TRUST INC.Đã xác minh",
+      "legal_name": "BROOKFIELD REAL ESTATE INCOME TRUST INC.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09613501216478724097/creative/CR16268415190360391681?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_41",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15519812628040671762"
+        }
+      ]
+    },
+    {
+      "id": "AR05498197900028542977",
+      "name": "DIGITAL AD EXPERTS (SMC-PRIVATE) LIMITEDĐã xác minh",
+      "legal_name": "DIGITAL AD EXPERTS (SMC-PRIVATE) LIMITEDĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05498197900028542977/creative/CR01723776379696185345?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_42",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6583770016433221830"
+        }
+      ]
+    },
+    {
+      "id": "AR14961110227305365505",
+      "name": "Shumaila RasheedĐã xác minh",
+      "legal_name": "Shumaila RasheedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14961110227305365505/creative/CR04135866846769315841?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_43",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10624095344528872942"
+        }
+      ]
+    },
+    {
+      "id": "AR11972715001141002241",
+      "name": "TO & CO PTY LIMITED",
+      "legal_name": "TO & CO PTY LIMITED",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11972715001141002241/creative/CR01805533178119585793?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_44",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1917717313979302666"
+        }
+      ]
+    },
+    {
+      "id": "AR10661399947380785153",
+      "name": "AFFI PLUSĐã xác minh",
+      "legal_name": "AFFI PLUSĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10661399947380785153/creative/CR14441431519635439617?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_45",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10620648008790016760"
+        }
+      ]
+    },
+    {
+      "id": "AR07268583866116341761",
+      "name": "Nguyễn Thị QuếĐã xác minh",
+      "legal_name": "Nguyễn Thị QuếĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07268583866116341761/creative/CR14990580952860721153?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_46",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1478911267966238445"
+        }
+      ]
+    },
+    {
+      "id": "AR14072930266305789953",
+      "name": "liana kapanadzeĐã xác minh",
+      "legal_name": "liana kapanadzeĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14072930266305789953/creative/CR08827014398737383425?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_47",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10242955697875671361"
+        }
+      ]
+    },
+    {
+      "id": "AR12358531432304345089",
+      "name": "Gundam Dynamics IncĐã xác minh",
+      "legal_name": "Gundam Dynamics IncĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12358531432304345089/creative/CR02837524896345489409?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_48",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6147574435169666794"
+        }
+      ]
+    },
+    {
+      "id": "AR06042871221417148417",
+      "name": "iBio, Inc.Đã xác minh",
+      "legal_name": "iBio, Inc.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06042871221417148417/creative/CR12062274621269868545?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_49",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lashbymaya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lashbymaya.com",
+          "landing_page": "https://www.lashbymaya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9936920955778139928"
+        }
+      ]
+    }
+  ]
+}

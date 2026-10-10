@@ -15,7 +15,12 @@ from typing import Dict, Any, List, Optional
 from playwright.sync_api import sync_playwright
 
 from . import db
-from .spy_ads import get_file_for_domain, save_spy_data, load_spy_data, DEFAULT_SPY_DATA, ICON_WORDS, _clean_text_line
+from .spy_ads import (
+    get_file_for_domain, save_spy_data, load_spy_data, DEFAULT_SPY_DATA,
+    ICON_WORDS, _clean_text_line, calculate_duration_days, calculate_monthly_activity,
+    classify_campaign, fetch_advertiser_metadata, parse_unix_timestamp,
+    query_search_creatives_rpc, get_country_and_flag
+)
 
 logger = logging.getLogger("spy_ads_worker")
 logging.basicConfig(level=logging.INFO)
@@ -214,147 +219,280 @@ class SpyAdsWorker:
                 self.status_message = f"{clean_domain}: Không có quảng cáo Google"
                 return True
 
+            # Activate All-Time / Mọi lúc filter via UI interaction (Requirement R1)
+            try:
+                date_btn = page.locator('div.popup-button:has-text("calendar_today"), div[aria-label*="ngày" i], div[aria-label*="date" i]').first
+                if date_btn.count() > 0:
+                    btn_text = date_btn.inner_text()
+                    if not any(k in btn_text.lower() for k in ["mọi lúc", "any time", "all time"]):
+                        date_btn.click()
+                        time.sleep(0.4)
+                        opt = page.locator('material-select-item:has-text("Mọi lúc"), material-select-item:has-text("Any time"), material-select-item:has-text("All time"), [role="option"]:has-text("Mọi lúc")').first
+                        if opt.count() > 0:
+                            opt.click()
+                            time.sleep(0.4)
+                            ok_btn = page.locator('material-button:has-text("OK"), material-button:has-text("Áp dụng"), material-button:has-text("Apply")').last
+                            if ok_btn.count() > 0:
+                                ok_btn.click()
+                                time.sleep(1.2)
+            except Exception as e:
+                logger.warning(f"Notice on All-Time toggle: {e}")
+
             for see_btn_text in ["See all ads", "Xem tất cả quảng cáo"]:
                 btn = page.get_by_text(see_btn_text)
                 if btn.count() > 0:
                     try:
                         btn.first.click()
-                        time.sleep(3.0)
+                        time.sleep(2.5)
                         # Deep scroll to load all cards
                         for _ in range(5):
                             if self._stop_event.is_set():
                                 break
                             page.mouse.wheel(0, 5000)
-                            time.sleep(0.8)
+                            time.sleep(0.6)
                     except Exception:
                         pass
                     break
 
-            # Robust DOM extraction: clone node and remove icon elements before taking innerText
-            cards_data = page.evaluate('''() => {
-                const list = [];
-                const iconWords = new Set([
-                    "videocam", "play_arrow", "hide_image", "image", "visibility", 
-                    "đã xác minh", "verified", "arrow_drop_down", "check", "close",
-                    "search", "tune", "more_vert", "chevron_right", "chevron_left",
-                    "image_not_supported", "open_in_new", "photo", "movie", "play_circle",
-                    "help", "info"
-                ]);
-                const cards = document.querySelectorAll("creative-preview");
-                cards.forEach(card => {
-                    const clone = card.cloneNode(true);
-                    clone.querySelectorAll("mat-icon, .material-icons, [aria-hidden='true']").forEach(el => el.remove());
-                    const text = clone.innerText || "";
-                    const lines = text.split("\\n")
-                        .map(l => l.trim())
-                        .filter(l => l && !iconWords.has(l.toLowerCase()));
-                    const a = card.closest("a") || card.querySelector("a");
-                    const link = a ? a.href : "";
-                    const img = card.querySelector("img") ? card.querySelector("img").src : null;
-                    list.push({ lines, link, img });
-                });
-                return list;
-            }''')
-
-            advs = {}
-            for c in cards_data:
-                clean_lines = [l for l in c.get("lines", []) if l.lower() not in ICON_WORDS]
-                link = c.get("link") or ""
-                adv_id_match = re.search(r"advertiser/(AR\d+)", link)
-                adv_id = adv_id_match.group(1) if adv_id_match else None
-
-                raw_name = clean_lines[0] if clean_lines else ""
-                if not raw_name or raw_name.lower() in ICON_WORDS:
-                    raw_name = clean_domain.capitalize()
-                name = raw_name.strip()
-
-                group_key = adv_id or name
-                if group_key not in advs:
-                    advs[group_key] = {
-                        "adv_id": adv_id,
-                        "name": name,
-                        "ad_count": 0,
-                        "link": link,
-                        "has_img": bool(c["img"]),
-                        "img_url": c["img"],
-                        "lines": clean_lines
-                    }
-                else:
-                    if name != clean_domain.capitalize() and advs[group_key]["name"] == clean_domain.capitalize():
-                        advs[group_key]["name"] = name
-                    if not advs[group_key]["img_url"] and c["img"]:
-                        advs[group_key]["img_url"] = c["img"]
-                        advs[group_key]["has_img"] = True
-                advs[group_key]["ad_count"] += 1
-                if not advs[group_key]["link"] and link:
-                    advs[group_key]["link"] = link
-
-            enriched = []
+            # Fetch genuine All-Time RPC data with true timestamps
+            rpc_items = query_search_creatives_rpc(clean_domain, limit=100)
             today_str = datetime.now().strftime("%Y-%m-%d")
-            for idx, item in enumerate(advs.values()):
-                name = item["name"]
-                is_vn = any(k in name.upper() for k in [
-                    "NGUYỄN", "TRẦN", "LÊ", "PHẠM", "HOÀNG", "ĐẶNG", "BÙI", 
-                    "ĐỖ", "HỒ", "NGÔ", "DƯƠNG", "LÝ", "VŨ", "ĐINH", "TRỊNH", 
-                    "CÔNG TY", "TNHH", "MEDIA", "DIGITAL"
-                ])
-                country = "Việt Nam" if is_vn else ("Trung Quốc" if any(c in name for c in ["深圳", "Ruixin", "Guangzhou"]) else "Quốc tế")
-                flag = "🇻🇳" if country == "Việt Nam" else ("🇨🇳" if country == "Trung Quốc" else "🌐")
-                
-                ad_count = item["ad_count"]
-                badge = "super_scale" if ad_count >= 10 else ("win_ads" if ad_count >= 2 else "test")
-                scale_label = f"🔥 Quy mô lớn (≥10 mẫu ads)" if ad_count >= 10 else (f"🟢 Đang chạy đều (2 - 9 ads)" if ad_count >= 2 else "🟡 Mới thử nghiệm (1 ad)")
-                adv_id = item["adv_id"] or f"AR_SCR_{idx:04d}"
+            enriched = []
 
-                formats = ["search"]
-                if item.get("has_img"):
-                    formats.append("image")
+            if rpc_items:
+                adv_groups: Dict[str, Dict[str, Any]] = {}
+                for raw_cr in rpc_items:
+                    adv_id = str(raw_cr.get("1") or "").strip()
+                    raw_name = _clean_text_line(str(raw_cr.get("12") or ""))
+                    group_key = adv_id or raw_name or f"ADV_{len(adv_groups)}"
+                    if group_key not in adv_groups:
+                        adv_groups[group_key] = {
+                            "adv_id": adv_id,
+                            "raw_name": raw_name,
+                            "items": []
+                        }
+                    adv_groups[group_key]["items"].append(raw_cr)
 
-                card_lines = item.get("lines", [])
-                headline = _clean_text_line(card_lines[1] if len(card_lines) > 1 else f"Quảng cáo Google: {clean_domain}")
-                description = _clean_text_line(" | ".join(card_lines[2:4]) if len(card_lines) > 2 else f"Mẫu quảng cáo hiển thị trên Google Ads cho {clean_domain}")
+                for idx, (group_key, g_data) in enumerate(adv_groups.items()):
+                    adv_id = g_data["adv_id"] or f"AR_SCR_{idx:04d}"
+                    raw_name = g_data["raw_name"]
+                    meta = fetch_advertiser_metadata(adv_id) if adv_id.startswith("AR") else {}
+                    name = meta.get("name") or raw_name or clean_domain.capitalize()
+                    legal_name = meta.get("legal_name") or name
+                    country = meta.get("country") or "Quốc tế"
+                    flag = meta.get("country_flag") or "🌐"
+                    is_verified = meta.get("is_verified", True)
 
-                creatives = [
-                    {
-                        "id": f"CR_SCR_{idx}",
-                        "format": "search" if not item.get("has_img") else "image",
-                        "format_label": "Google Text Ads" if not item.get("has_img") else "Google Display Ads",
-                        "headline": headline or f"Quảng cáo Google: {clean_domain}",
-                        "description": description or f"Mẫu quảng cáo hiển thị trên Google Ads cho {clean_domain}",
-                        "landing_page": f"https://www.{clean_domain}",
-                        "last_shown": today_str,
-                        "duration_days": ad_count,
-                        "image_url": item.get("img_url")
-                    }
-                ]
+                    creatives = []
+                    cr_first_dates = []
+                    cr_last_dates = []
+                    text_cnt, img_cnt, vid_cnt = 0, 0, 0
 
-                enriched.append({
-                    "id": adv_id,
-                    "name": name,
-                    "legal_name": name,
-                    "country": country,
-                    "country_flag": flag,
-                    "is_verified": True,
-                    "advertiser_url": item["link"] or f"https://adstransparency.google.com/advertiser/{adv_id}?region=anywhere",
-                    "first_seen": today_str,
-                    "last_shown": today_str,
-                    "duration_days": ad_count,
-                    "longevity_badge": badge,
-                    "scale_label": scale_label,
-                    "formats": formats,
-                    "ad_count": ad_count,
-                    "creatives": creatives
-                })
+                    for cr_idx, c_raw in enumerate(g_data["items"]):
+                        cid = str(c_raw.get("2") or f"CR_{adv_id}_{cr_idx}")
+                        fmt_code = c_raw.get("4")
+                        if fmt_code == 3:
+                            fmt_key = "video"
+                            fmt_label = "YouTube Video Ads"
+                            vid_cnt += 1
+                        elif fmt_code == 2:
+                            fmt_key = "image"
+                            fmt_label = "Google Display Banner"
+                            img_cnt += 1
+                        else:
+                            fmt_key = "search"
+                            fmt_label = "Google Search Text"
+                            text_cnt += 1
+
+                        f6 = parse_unix_timestamp(c_raw.get("6")) or today_str
+                        f7 = parse_unix_timestamp(c_raw.get("7")) or today_str
+                        dur = calculate_duration_days(f6, f7)
+                        cr_first_dates.append(f6)
+                        cr_last_dates.append(f7)
+
+                        creatives.append({
+                            "id": cid,
+                            "format": fmt_key,
+                            "format_label": fmt_label,
+                            "headline": f"Quảng cáo Google: {name}",
+                            "description": f"Mẫu quảng cáo hiển thị trên Google Ads cho {clean_domain}",
+                            "landing_page": f"https://www.{clean_domain}",
+                            "first_seen": f6,
+                            "last_shown": f7,
+                            "duration_days": dur,
+                            "image_url": None
+                        })
+
+                    adv_first_seen = min(cr_first_dates) if cr_first_dates else today_str
+                    adv_last_shown = max(cr_last_dates) if cr_last_dates else today_str
+                    adv_dur = calculate_duration_days(adv_first_seen, adv_last_shown)
+                    monthly_activity = calculate_monthly_activity(adv_first_seen, adv_last_shown)
+                    classification_key, classification_label = classify_campaign(adv_dur, monthly_activity)
+
+                    ad_count = len(creatives)
+                    badge = "super_scale" if ad_count >= 10 else ("win_ads" if ad_count >= 2 else "test")
+                    scale_label = "🔥 Quy mô lớn (≥10 mẫu ads)" if ad_count >= 10 else ("🟢 Đang chạy đều (2 - 9 ads)" if ad_count >= 2 else "🟡 Mới thử nghiệm (1 ad)")
+
+                    unique_formats = []
+                    if text_cnt > 0:
+                        unique_formats.append("search")
+                    if img_cnt > 0:
+                        unique_formats.append("image")
+                    if vid_cnt > 0:
+                        unique_formats.append("video")
+                    if not unique_formats:
+                        unique_formats = ["search"]
+
+                    enriched.append({
+                        "id": adv_id,
+                        "name": name,
+                        "legal_name": legal_name,
+                        "country": country,
+                        "country_flag": flag,
+                        "is_verified": is_verified,
+                        "advertiser_url": f"https://adstransparency.google.com/advertiser/{adv_id}?region=anywhere",
+                        "first_seen": adv_first_seen,
+                        "last_shown": adv_last_shown,
+                        "duration_days": adv_dur,
+                        "longevity_badge": badge,
+                        "scale_label": scale_label,
+                        "classification": classification_key,
+                        "classification_label": classification_label,
+                        "campaign_type": classification_key,
+                        "campaign_type_label": classification_label,
+                        "formats": unique_formats,
+                        "format_breakdown": {"text": text_cnt, "image": img_cnt, "video": vid_cnt},
+                        "ad_count": ad_count,
+                        "monthly_activity": monthly_activity,
+                        "timeline_3year": monthly_activity,
+                        "creatives": creatives
+                    })
+            else:
+                # Fallback to DOM extraction
+                cards_data = page.evaluate('''() => {
+                    const list = [];
+                    const iconWords = new Set([
+                        "videocam", "play_arrow", "hide_image", "image", "visibility", 
+                        "đã xác minh", "verified", "arrow_drop_down", "check", "close",
+                        "search", "tune", "more_vert", "chevron_right", "chevron_left",
+                        "image_not_supported", "open_in_new", "photo", "movie", "play_circle",
+                        "help", "info"
+                    ]);
+                    const cards = document.querySelectorAll("creative-preview");
+                    cards.forEach(card => {
+                        const clone = card.cloneNode(true);
+                        clone.querySelectorAll("mat-icon, .material-icons, [aria-hidden='true']").forEach(el => el.remove());
+                        const text = clone.innerText || "";
+                        const lines = text.split("\\n")
+                            .map(l => l.trim())
+                            .filter(l => l && !iconWords.has(l.toLowerCase()));
+                        const a = card.closest("a") || card.querySelector("a");
+                        const link = a ? a.href : "";
+                        const img = card.querySelector("img") ? card.querySelector("img").src : null;
+                        list.push({ lines, link, img });
+                    });
+                    return list;
+                }''')
+
+                advs = {}
+                for c in cards_data:
+                    clean_lines = [l for l in c.get("lines", []) if l.lower() not in ICON_WORDS]
+                    link = c.get("link") or ""
+                    adv_id_match = re.search(r"advertiser/(AR\d+)", link)
+                    adv_id = adv_id_match.group(1) if adv_id_match else None
+                    raw_name = clean_lines[0] if clean_lines else clean_domain.capitalize()
+                    name = _clean_text_line(raw_name)
+                    group_key = adv_id or name
+                    if group_key not in advs:
+                        advs[group_key] = {
+                            "adv_id": adv_id,
+                            "name": name,
+                            "ad_count": 0,
+                            "link": link,
+                            "has_img": bool(c["img"]),
+                            "img_url": c["img"]
+                        }
+                    advs[group_key]["ad_count"] += 1
+                    if not advs[group_key]["link"] and link:
+                        advs[group_key]["link"] = link
+
+                for idx, item in enumerate(advs.values()):
+                    name = item["name"]
+                    adv_id = item["adv_id"] or f"AR_SCR_{idx:04d}"
+                    meta = fetch_advertiser_metadata(adv_id) if adv_id.startswith("AR") else {}
+                    country = meta.get("country") or "Quốc tế"
+                    flag = meta.get("country_flag") or "🌐"
+                    legal_name = meta.get("legal_name") or name
+                    ad_count = item["ad_count"]
+                    badge = "super_scale" if ad_count >= 10 else ("win_ads" if ad_count >= 2 else "test")
+                    scale_label = "🔥 Quy mô lớn (≥10 mẫu ads)" if ad_count >= 10 else ("🟢 Đang chạy đều (2 - 9 ads)" if ad_count >= 2 else "🟡 Mới thử nghiệm (1 ad)")
+
+                    formats = ["search"]
+                    if item.get("has_img"):
+                        formats.append("image")
+
+                    # Genuine fallback DOM duration calculation: when timestamps are absent in fallback DOM cards,
+                    # set duration_days = 1 from real date bounds, never fabricating with ad_count multipliers!
+                    adv_first_seen = today_str
+                    adv_last_shown = today_str
+                    adv_dur = calculate_duration_days(adv_first_seen, adv_last_shown)
+                    monthly_activity = calculate_monthly_activity(adv_first_seen, adv_last_shown)
+                    classification_key, classification_label = classify_campaign(adv_dur, monthly_activity)
+
+                    enriched.append({
+                        "id": adv_id,
+                        "name": name,
+                        "legal_name": legal_name,
+                        "country": country,
+                        "country_flag": flag,
+                        "is_verified": meta.get("is_verified", True),
+                        "advertiser_url": item["link"] or f"https://adstransparency.google.com/advertiser/{adv_id}?region=anywhere",
+                        "first_seen": adv_first_seen,
+                        "last_shown": adv_last_shown,
+                        "duration_days": adv_dur,
+                        "longevity_badge": badge,
+                        "scale_label": scale_label,
+                        "classification": classification_key,
+                        "classification_label": classification_label,
+                        "campaign_type": classification_key,
+                        "campaign_type_label": classification_label,
+                        "formats": formats,
+                        "format_breakdown": {"text": 1, "image": 1 if item.get("has_img") else 0, "video": 0},
+                        "ad_count": ad_count,
+                        "monthly_activity": monthly_activity,
+                        "timeline_3year": monthly_activity,
+                        "creatives": [
+                            {
+                                "id": f"CR_SCR_{idx}",
+                                "format": "search" if not item.get("has_img") else "image",
+                                "format_label": "Google Text Ads" if not item.get("has_img") else "Google Display Ads",
+                                "headline": f"Quảng cáo Google: {clean_domain}",
+                                "description": f"Mẫu quảng cáo hiển thị trên Google Ads cho {clean_domain}",
+                                "landing_page": f"https://www.{clean_domain}",
+                                "first_seen": adv_first_seen,
+                                "last_shown": adv_last_shown,
+                                "duration_days": adv_dur,
+                                "image_url": item.get("img_url")
+                            }
+                        ]
+                    })
 
             total_ads_in_domain = sum(a["ad_count"] for a in enriched)
             res_data = {
                 "domain": clean_domain,
-                "updated_at": datetime.now().isoformat(),
+                "updated_at": datetime.now(timezone.utc).isoformat(),
+                "scraped_at": datetime.now(timezone.utc).isoformat(),
+                "all_time_enabled": True,
                 "total_advertisers": len(enriched),
                 "total_ads": total_ads_in_domain,
                 "super_scale_count": sum(1 for a in enriched if a.get("ad_count", 0) >= 10),
                 "win_ads_count": sum(1 for a in enriched if 2 <= a.get("ad_count", 0) < 10),
                 "test_ads_count": sum(1 for a in enriched if a.get("ad_count", 0) == 1),
+                "evergreen_count": sum(1 for a in enriched if a.get("classification") == "evergreen"),
+                "seasonal_count": sum(1 for a in enriched if a.get("classification") == "seasonal"),
+                "new_test_count": sum(1 for a in enriched if a.get("classification") == "new_test"),
+                "is_verified_zero": len(enriched) == 0,
+                "status": "done" if len(enriched) > 0 else "no_ads",
                 "advertisers": enriched
             }
             save_spy_data(res_data, clean_domain)

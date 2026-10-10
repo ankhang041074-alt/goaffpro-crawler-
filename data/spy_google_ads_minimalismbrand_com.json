@@ -1,0 +1,361 @@
+{
+  "domain": "minimalismbrand.com",
+  "updated_at": "2026-10-10T15:22:47.363227",
+  "total_advertisers": 11,
+  "total_ads": 70,
+  "super_scale_count": 1,
+  "win_ads_count": 10,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR09582178449485725697",
+      "name": "Minimalism Brand SLĐã xác minh",
+      "legal_name": "Minimalism Brand SLĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09582178449485725697/creative/CR09981721192400158721?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 44,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 44,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: minimalismbrand.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho minimalismbrand.com",
+          "landing_page": "https://www.minimalismbrand.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 44,
+          "image_url": "https://i.ytimg.com/vi/f1ZyAQk-KsI/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR16939307627664375809",
+      "name": "LEOPOLD S DEKOUMĐã xác minh",
+      "legal_name": "LEOPOLD S DEKOUMĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16939307627664375809/creative/CR17222286736281829377?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: minimalismbrand.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho minimalismbrand.com",
+          "landing_page": "https://www.minimalismbrand.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR04892960617733816321",
+      "name": "FLAVIA TEODOROSKIĐã xác minh",
+      "legal_name": "FLAVIA TEODOROSKIĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04892960617733816321/creative/CR18317869705932570625?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: minimalismbrand.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho minimalismbrand.com",
+          "landing_page": "https://www.minimalismbrand.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/503090196608069990"
+        }
+      ]
+    },
+    {
+      "id": "AR13375550095672475649",
+      "name": "CAPITAL FINANCE GROUPE - SAĐã xác minh",
+      "legal_name": "CAPITAL FINANCE GROUPE - SAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13375550095672475649/creative/CR06817607652881727489?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: minimalismbrand.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho minimalismbrand.com",
+          "landing_page": "https://www.minimalismbrand.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/964447123097800117"
+        }
+      ]
+    },
+    {
+      "id": "AR09496763343948480513",
+      "name": "Sissons Paints (Trinidad) LimitedĐã xác minh",
+      "legal_name": "Sissons Paints (Trinidad) LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09496763343948480513/creative/CR05064500134067306497?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: minimalismbrand.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho minimalismbrand.com",
+          "landing_page": "https://www.minimalismbrand.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12805285483678425172"
+        }
+      ]
+    },
+    {
+      "id": "AR03615441149797335041",
+      "name": "HO TAN PHATĐã xác minh",
+      "legal_name": "HO TAN PHATĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03615441149797335041/creative/CR12231516355869802497?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: minimalismbrand.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho minimalismbrand.com",
+          "landing_page": "https://www.minimalismbrand.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR16615543612683321345",
+      "name": "BRANDON MICHAEL WHITEĐã xác minh",
+      "legal_name": "BRANDON MICHAEL WHITEĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16615543612683321345/creative/CR04248078150187089921?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: minimalismbrand.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho minimalismbrand.com",
+          "landing_page": "https://www.minimalismbrand.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16410132707425071179"
+        }
+      ]
+    },
+    {
+      "id": "AR01704844189625221121",
+      "name": "SIGE (USA) INFORMATION TECHNOLOGY CO., LTD",
+      "legal_name": "SIGE (USA) INFORMATION TECHNOLOGY CO., LTD",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01704844189625221121/creative/CR13401564197188272129?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: minimalismbrand.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho minimalismbrand.com",
+          "landing_page": "https://www.minimalismbrand.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12214349536451381391"
+        }
+      ]
+    },
+    {
+      "id": "AR05005549646345404417",
+      "name": "TESFOM BERHE WELDAIĐã xác minh",
+      "legal_name": "TESFOM BERHE WELDAIĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05005549646345404417/creative/CR07683048682626744321?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: minimalismbrand.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho minimalismbrand.com",
+          "landing_page": "https://www.minimalismbrand.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11942930199805725134"
+        }
+      ]
+    },
+    {
+      "id": "AR10942234166510485505",
+      "name": "BlueVision Interactive LimitedĐã xác minh",
+      "legal_name": "BlueVision Interactive LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10942234166510485505/creative/CR16032995964008529921?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: minimalismbrand.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho minimalismbrand.com",
+          "landing_page": "https://www.minimalismbrand.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18409838535878735186"
+        }
+      ]
+    },
+    {
+      "id": "AR14007048044965527553",
+      "name": "AHMED 75LN SOLUTIONS LLCĐã xác minh",
+      "legal_name": "AHMED 75LN SOLUTIONS LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14007048044965527553/creative/CR14860695704401084417?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: minimalismbrand.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho minimalismbrand.com",
+          "landing_page": "https://www.minimalismbrand.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5274070736134347141"
+        }
+      ]
+    }
+  ]
+}

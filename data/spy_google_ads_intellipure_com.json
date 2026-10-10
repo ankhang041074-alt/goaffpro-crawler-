@@ -1,0 +1,43 @@
+{
+  "domain": "intellipure.com",
+  "updated_at": "2026-10-10T15:23:16.124203",
+  "total_advertisers": 1,
+  "total_ads": 56,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR05887683229695082497",
+      "name": "HealthWay Home ProductsĐã xác minh",
+      "legal_name": "HealthWay Home ProductsĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05887683229695082497/creative/CR04322611406324105217?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 56,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 56,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: intellipure.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho intellipure.com",
+          "landing_page": "https://www.intellipure.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 56,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2571685243907702835"
+        }
+      ]
+    }
+  ]
+}

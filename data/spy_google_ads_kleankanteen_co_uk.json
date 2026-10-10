@@ -1,0 +1,43 @@
+{
+  "domain": "kleankanteen.co.uk",
+  "updated_at": "2026-10-10T14:55:02.931801",
+  "total_advertisers": 1,
+  "total_ads": 54,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR12980787410840322049",
+      "name": "Whitby & Company (UK) LtdĐã xác minh",
+      "legal_name": "Whitby & Company (UK) LtdĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12980787410840322049/creative/CR11731961983753256961?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 54,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 54,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kleankanteen.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kleankanteen.co.uk",
+          "landing_page": "https://www.kleankanteen.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 54,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16831331881753189841"
+        }
+      ]
+    }
+  ]
+}

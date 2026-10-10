@@ -1,0 +1,840 @@
+{
+  "domain": "lumeo-creative.com",
+  "updated_at": "2026-10-10T15:44:47.556015",
+  "total_advertisers": 26,
+  "total_ads": 112,
+  "super_scale_count": 1,
+  "win_ads_count": 4,
+  "test_ads_count": 21,
+  "advertisers": [
+    {
+      "id": "AR12971586989596868609",
+      "name": "LUMEO COM - FZCOĐã xác minh",
+      "legal_name": "LUMEO COM - FZCOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12971586989596868609/creative/CR11038347984042459137?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 78,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 78,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 78,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16297851417185551970"
+        }
+      ]
+    },
+    {
+      "id": "AR14451554001637867521",
+      "name": "CÔNG TY TNHH ADSDIGIĐã xác minh",
+      "legal_name": "CÔNG TY TNHH ADSDIGIĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14451554001637867521/creative/CR05819761818012221441?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 5,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 5,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 5,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10687392685262904526"
+        }
+      ]
+    },
+    {
+      "id": "AR16401874590344675329",
+      "name": "Lê Bảo TrâmĐã xác minh",
+      "legal_name": "Lê Bảo TrâmĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16401874590344675329/creative/CR00030465860887904257?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16180275975313745612"
+        }
+      ]
+    },
+    {
+      "id": "AR10234174113019068417",
+      "name": "PHẠM ĐÌNH HƯNGĐã xác minh",
+      "legal_name": "PHẠM ĐÌNH HƯNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10234174113019068417/creative/CR17046256470863118337?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15531716311632845717"
+        }
+      ]
+    },
+    {
+      "id": "AR01300571218839076865",
+      "name": "NGUYỄN THỊ VƯƠNGĐã xác minh",
+      "legal_name": "NGUYỄN THỊ VƯƠNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01300571218839076865/creative/CR00751140585514991617?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10897008351102513060"
+        }
+      ]
+    },
+    {
+      "id": "AR10575899088526508033",
+      "name": "YINO (HONGKONG) DIGITAL TECHNOLOGY CO., LIMITEDĐã xác minh",
+      "legal_name": "YINO (HONGKONG) DIGITAL TECHNOLOGY CO., LIMITEDĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10575899088526508033/creative/CR01812840180210466817?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7776775320162469885"
+        }
+      ]
+    },
+    {
+      "id": "AR07279084399730098177",
+      "name": "BONGĐã xác minh",
+      "legal_name": "BONGĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07279084399730098177/creative/CR11806867063799021569?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1808062026732198643"
+        }
+      ]
+    },
+    {
+      "id": "AR03672412069912641537",
+      "name": "LOOMERA ADVISORY LTDĐã xác minh",
+      "legal_name": "LOOMERA ADVISORY LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03672412069912641537/creative/CR12085135761523867649?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13957916707771526420"
+        }
+      ]
+    },
+    {
+      "id": "AR06241577393740316673",
+      "name": "NGUYỄN THỊ DUYÊNĐã xác minh",
+      "legal_name": "NGUYỄN THỊ DUYÊNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06241577393740316673/creative/CR11068749411830988801?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10715029097772939963"
+        }
+      ]
+    },
+    {
+      "id": "AR05223928873418227713",
+      "name": "Khuất Gia QuyếtĐã xác minh",
+      "legal_name": "Khuất Gia QuyếtĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05223928873418227713/creative/CR18090755133854973953?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15572277417355828703"
+        }
+      ]
+    },
+    {
+      "id": "AR16767039452949250049",
+      "name": "Connect Profit (Hong Kong) LimitedĐã xác minh",
+      "legal_name": "Connect Profit (Hong Kong) LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16767039452949250049/creative/CR17129259153399742465?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17900600670061810493"
+        }
+      ]
+    },
+    {
+      "id": "AR13626256201552494593",
+      "name": "NGUYỄN VĂN THÀNHĐã xác minh",
+      "legal_name": "NGUYỄN VĂN THÀNHĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13626256201552494593/creative/CR08341362990376812545?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12517483769185995777"
+        }
+      ]
+    },
+    {
+      "id": "AR12146747720220016641",
+      "name": "MokuRaKu Brands LLCĐã xác minh",
+      "legal_name": "MokuRaKu Brands LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12146747720220016641/creative/CR08591239377294721025?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12415827302853913718"
+        }
+      ]
+    },
+    {
+      "id": "AR16935907147437309953",
+      "name": "Bac2Bac Fishing LLCĐã xác minh",
+      "legal_name": "Bac2Bac Fishing LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16935907147437309953/creative/CR05654692309132902401?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4757494360545041753"
+        }
+      ]
+    },
+    {
+      "id": "AR06940168186805354497",
+      "name": "North Adriatic Ltd.Đã xác minh",
+      "legal_name": "North Adriatic Ltd.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06940168186805354497/creative/CR01591711521233174529?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR04019516002332049409",
+      "name": "TRẦN VĂN LINHĐã xác minh",
+      "legal_name": "TRẦN VĂN LINHĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04019516002332049409/creative/CR16395330056617984001?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR16352166253768474625",
+      "name": "HUỲNH NGỌC THI THƠĐã xác minh",
+      "legal_name": "HUỲNH NGỌC THI THƠĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16352166253768474625/creative/CR09916892646796689409?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11457833772831951428"
+        }
+      ]
+    },
+    {
+      "id": "AR15361837711178596353",
+      "name": "BÙI VĂN DƯƠNGĐã xác minh",
+      "legal_name": "BÙI VĂN DƯƠNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15361837711178596353/creative/CR17913222695034552321?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10720957655355874027"
+        }
+      ]
+    },
+    {
+      "id": "AR18246536896215777281",
+      "name": "TRẦN HOÀNG NHÃĐã xác minh",
+      "legal_name": "TRẦN HOÀNG NHÃĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18246536896215777281/creative/CR03271856960256868353?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_18",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3953410059631759562"
+        }
+      ]
+    },
+    {
+      "id": "AR07202119453369171969",
+      "name": "TRẦN HOÀNG NHÃĐã xác minh",
+      "legal_name": "TRẦN HOÀNG NHÃĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07202119453369171969/creative/CR00196178858947379201?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_19",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6688063630678309851"
+        }
+      ]
+    },
+    {
+      "id": "AR06607148723459850241",
+      "name": "A.G.M Landscaping, LLCĐã xác minh",
+      "legal_name": "A.G.M Landscaping, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06607148723459850241/creative/CR07491214346308026369?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_20",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13805001509711365472"
+        }
+      ]
+    },
+    {
+      "id": "AR15511961721710313473",
+      "name": "ShopForward B.V.Đã xác minh",
+      "legal_name": "ShopForward B.V.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15511961721710313473/creative/CR13215100365285883905?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_21",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR13806937066149249025",
+      "name": "CÔNG TY TNHH HAGI KOREA",
+      "legal_name": "CÔNG TY TNHH HAGI KOREA",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13806937066149249025/creative/CR13976224061114548225?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_22",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6812764934350405080"
+        }
+      ]
+    },
+    {
+      "id": "AR07240887133852925953",
+      "name": "1320 N. HARPER LLCĐã xác minh",
+      "legal_name": "1320 N. HARPER LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07240887133852925953/creative/CR14907383691125719041?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_23",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5431863028775713714"
+        }
+      ]
+    },
+    {
+      "id": "AR00416048310822895617",
+      "name": "FAITHFUL PROPERTY VENTURES, LLCĐã xác minh",
+      "legal_name": "FAITHFUL PROPERTY VENTURES, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00416048310822895617/creative/CR10937414440110260225?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_24",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15378391015535463510"
+        }
+      ]
+    },
+    {
+      "id": "AR11044203819763236865",
+      "name": "HỘ KINH DOANH PHAN VĂN VỊNHĐã xác minh",
+      "legal_name": "HỘ KINH DOANH PHAN VĂN VỊNHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11044203819763236865/creative/CR09968853272812847105?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_25",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lumeo-creative.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lumeo-creative.com",
+          "landing_page": "https://www.lumeo-creative.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/448709256665228193"
+        }
+      ]
+    }
+  ]
+}

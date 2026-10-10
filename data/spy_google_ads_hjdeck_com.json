@@ -1,0 +1,43 @@
+{
+  "domain": "hjdeck.com",
+  "updated_at": "2026-10-10T16:53:07.131551",
+  "total_advertisers": 1,
+  "total_ads": 78,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR15337925901664911361",
+      "name": "惠州市建豪运动器材有限公司Đã xác minh",
+      "legal_name": "惠州市建豪运动器材有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15337925901664911361/creative/CR02130871865550307329?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 78,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 78,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hjdeck.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hjdeck.com",
+          "landing_page": "https://www.hjdeck.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 78,
+          "image_url": "https://i.ytimg.com/vi/Dp9Mu49iEKw/hqdefault.jpg"
+        }
+      ]
+    }
+  ]
+}

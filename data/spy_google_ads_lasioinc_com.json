@@ -1,0 +1,427 @@
+{
+  "domain": "lasioinc.com",
+  "updated_at": "2026-10-10T16:33:02.393562",
+  "total_advertisers": 13,
+  "total_ads": 36,
+  "super_scale_count": 0,
+  "win_ads_count": 13,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR01475140860369698817",
+      "name": "Abimbola oloyedeĐã xác minh",
+      "legal_name": "Abimbola oloyedeĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01475140860369698817/creative/CR14443050791025508353?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lasioinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lasioinc.com",
+          "landing_page": "https://www.lasioinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15317203279142174782"
+        }
+      ]
+    },
+    {
+      "id": "AR02310556323504193537",
+      "name": "METROPOLIS AGENCY LLPĐã xác minh",
+      "legal_name": "METROPOLIS AGENCY LLPĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02310556323504193537/creative/CR11472443352306155521?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lasioinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lasioinc.com",
+          "landing_page": "https://www.lasioinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2225874825767884878"
+        }
+      ]
+    },
+    {
+      "id": "AR14204179020853018625",
+      "name": "muhammad qasimĐã xác minh",
+      "legal_name": "muhammad qasimĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14204179020853018625/creative/CR01591676061983178753?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lasioinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lasioinc.com",
+          "landing_page": "https://www.lasioinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13672131642113715934"
+        }
+      ]
+    },
+    {
+      "id": "AR17811629598744510465",
+      "name": "shahmoona walayatĐã xác minh",
+      "legal_name": "shahmoona walayatĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17811629598744510465/creative/CR10036490649718489089?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lasioinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lasioinc.com",
+          "landing_page": "https://www.lasioinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11934656503039103881"
+        }
+      ]
+    },
+    {
+      "id": "AR16313882023393492993",
+      "name": "Martix Online(SMC-Private) LimitedĐã xác minh",
+      "legal_name": "Martix Online(SMC-Private) LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16313882023393492993/creative/CR04870408466017026049?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lasioinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lasioinc.com",
+          "landing_page": "https://www.lasioinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9965444585983877659"
+        }
+      ]
+    },
+    {
+      "id": "AR14606600465597595649",
+      "name": "GOOD SIRS LTDĐã xác minh",
+      "legal_name": "GOOD SIRS LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14606600465597595649/creative/CR01922387487213223937?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lasioinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lasioinc.com",
+          "landing_page": "https://www.lasioinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14158228501775953069"
+        }
+      ]
+    },
+    {
+      "id": "AR12630164749154254849",
+      "name": "Martix online (SMC PRIVATE) LimitedĐã xác minh",
+      "legal_name": "Martix online (SMC PRIVATE) LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12630164749154254849/creative/CR14747972878968291329?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lasioinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lasioinc.com",
+          "landing_page": "https://www.lasioinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7527511693469489611"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR06563067171998531585?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lasioinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lasioinc.com",
+          "landing_page": "https://www.lasioinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4019951339453279455"
+        }
+      ]
+    },
+    {
+      "id": "AR03960355842896691201",
+      "name": "Lasio Professional Products llc",
+      "legal_name": "Lasio Professional Products llc",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03960355842896691201/creative/CR05164677299898941441?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lasioinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lasioinc.com",
+          "landing_page": "https://www.lasioinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15166050442912490148"
+        }
+      ]
+    },
+    {
+      "id": "AR05115388392648998913",
+      "name": "Martix Online(SMC-Private) LimitedĐã xác minh",
+      "legal_name": "Martix Online(SMC-Private) LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05115388392648998913/creative/CR10123284791945068545?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lasioinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lasioinc.com",
+          "landing_page": "https://www.lasioinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17278256343790496586"
+        }
+      ]
+    },
+    {
+      "id": "AR01739799622777307137",
+      "name": "NGC POWER(HK)TECH LIMITEDĐã xác minh",
+      "legal_name": "NGC POWER(HK)TECH LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01739799622777307137/creative/CR00736096517667946497?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lasioinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lasioinc.com",
+          "landing_page": "https://www.lasioinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/168054343313133489"
+        }
+      ]
+    },
+    {
+      "id": "AR14761596918958129153",
+      "name": "Malik Abdul Sattar AnjumĐã xác minh",
+      "legal_name": "Malik Abdul Sattar AnjumĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14761596918958129153/creative/CR15140863361786314753?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lasioinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lasioinc.com",
+          "landing_page": "https://www.lasioinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4287955073919330283"
+        }
+      ]
+    },
+    {
+      "id": "AR14714308195157803009",
+      "name": "K&K ADVERTISING LTDĐã xác minh",
+      "legal_name": "K&K ADVERTISING LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14714308195157803009/creative/CR16353172074979655681?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lasioinc.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lasioinc.com",
+          "landing_page": "https://www.lasioinc.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7129621743253995858"
+        }
+      ]
+    }
+  ]
+}

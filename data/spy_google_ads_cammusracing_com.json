@@ -1,0 +1,203 @@
+{
+  "domain": "cammusracing.com",
+  "updated_at": "2026-10-10T15:26:09.137530",
+  "total_advertisers": 6,
+  "total_ads": 18,
+  "super_scale_count": 0,
+  "win_ads_count": 6,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR01806187387538112513",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01806187387538112513/creative/CR11301772278359916545?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: cammusracing.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho cammusracing.com",
+          "landing_page": "https://www.cammusracing.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1445725728507894280"
+        }
+      ]
+    },
+    {
+      "id": "AR06800851361962393601",
+      "name": "深圳市卡妙思电子科技有限公司Đã xác minh",
+      "legal_name": "深圳市卡妙思电子科技有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06800851361962393601/creative/CR18048028481366786049?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 8,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 8,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: cammusracing.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho cammusracing.com",
+          "landing_page": "https://www.cammusracing.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 8,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9375603994440958887"
+        }
+      ]
+    },
+    {
+      "id": "AR11354349962327490561",
+      "name": "Cityscape Homes LA Delta LLCĐã xác minh",
+      "legal_name": "Cityscape Homes LA Delta LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11354349962327490561/creative/CR17047958171265531905?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: cammusracing.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho cammusracing.com",
+          "landing_page": "https://www.cammusracing.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10178726079239540191"
+        }
+      ]
+    },
+    {
+      "id": "AR07430536242351046657",
+      "name": "PHAM VAN CONGĐã xác minh",
+      "legal_name": "PHAM VAN CONGĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07430536242351046657/creative/CR09794989449027780609?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: cammusracing.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho cammusracing.com",
+          "landing_page": "https://www.cammusracing.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16476065347575879669"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR01338234259504103425?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: cammusracing.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho cammusracing.com",
+          "landing_page": "https://www.cammusracing.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6206128584577914020"
+        }
+      ]
+    },
+    {
+      "id": "AR06474176097889026049",
+      "name": "HỘ KINH DOANH PHAN VĂN VỊNHĐã xác minh",
+      "legal_name": "HỘ KINH DOANH PHAN VĂN VỊNHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06474176097889026049/creative/CR18445447457442627585?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: cammusracing.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho cammusracing.com",
+          "landing_page": "https://www.cammusracing.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3516503510088978193"
+        }
+      ]
+    }
+  ]
+}

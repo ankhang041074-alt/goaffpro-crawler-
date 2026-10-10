@@ -1,0 +1,107 @@
+{
+  "domain": "sabrelaser-france.fr",
+  "updated_at": "2026-10-10T16:12:52.921990",
+  "total_advertisers": 3,
+  "total_ads": 10,
+  "super_scale_count": 0,
+  "win_ads_count": 3,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR14799190028965642241",
+      "name": "UNIVEXĐã xác minh",
+      "legal_name": "UNIVEXĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14799190028965642241/creative/CR18161737379751133185?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 6,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sabrelaser-france.fr",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sabrelaser-france.fr",
+          "landing_page": "https://www.sabrelaser-france.fr",
+          "last_shown": "2026-10-10",
+          "duration_days": 6,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12241821203938560373"
+        }
+      ]
+    },
+    {
+      "id": "AR09059775959456022529",
+      "name": "Qian KaiĐã xác minh",
+      "legal_name": "Qian KaiĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09059775959456022529/creative/CR16990705432576131073?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sabrelaser-france.fr",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sabrelaser-france.fr",
+          "landing_page": "https://www.sabrelaser-france.fr",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8949796779582678389"
+        }
+      ]
+    },
+    {
+      "id": "AR01847255658664034305",
+      "name": "蒯再兴Đã xác minh",
+      "legal_name": "蒯再兴Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01847255658664034305/creative/CR07630473678718763009?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sabrelaser-france.fr",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sabrelaser-france.fr",
+          "landing_page": "https://www.sabrelaser-france.fr",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11313184431109194548"
+        }
+      ]
+    }
+  ]
+}

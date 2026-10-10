@@ -1,0 +1,107 @@
+{
+  "domain": "unigearshop.com",
+  "updated_at": "2026-10-10T16:19:39.984871",
+  "total_advertisers": 3,
+  "total_ads": 3,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 3,
+  "advertisers": [
+    {
+      "id": "AR03471914655708872705",
+      "name": "ABC AUTO SALES LTDĐã xác minh",
+      "legal_name": "ABC AUTO SALES LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03471914655708872705/creative/CR12637107641097650177?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: unigearshop.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho unigearshop.com",
+          "landing_page": "https://www.unigearshop.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1697614485895912682"
+        }
+      ]
+    },
+    {
+      "id": "AR04748962708034945025",
+      "name": "CARRINA CLASSICS LIMITEDĐã xác minh",
+      "legal_name": "CARRINA CLASSICS LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04748962708034945025/creative/CR16450070797784973313?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: unigearshop.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho unigearshop.com",
+          "landing_page": "https://www.unigearshop.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15641731214294995381"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR14818676725084323841?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: unigearshop.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho unigearshop.com",
+          "landing_page": "https://www.unigearshop.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3929443288746406617"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "erlich-textil.com",
+  "updated_at": "2026-10-10T16:31:18.220778",
+  "total_advertisers": 1,
+  "total_ads": 160,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR14533528657982390273",
+      "name": "Vorfreude GmbHĐã xác minh",
+      "legal_name": "Vorfreude GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14533528657982390273/creative/CR14363190959397666817?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 160,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 160,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: erlich-textil.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho erlich-textil.com",
+          "landing_page": "https://www.erlich-textil.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 160,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14886646439427866994"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "domain": "comfier.com",
+  "updated_at": "2026-10-10T14:54:13.350347",
+  "total_advertisers": 12,
+  "total_ads": 119,
+  "super_scale_count": 1,
+  "win_ads_count": 9,
+  "test_ads_count": 2,
+  "advertisers": [
+    {
+      "id": "AR02577591164899164161",
+      "name": "TSUNAMI INNOVATION LIMITEDĐã xác minh",
+      "legal_name": "TSUNAMI INNOVATION LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02577591164899164161/creative/CR14162218504631091201?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: comfier.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho comfier.com",
+          "landing_page": "https://www.comfier.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12346075075262737161"
+        }
+      ]
+    },
+    {
+      "id": "AR12463471450579271681",
+      "name": "COMFIER TECHNOLOGY CO.,LTD.Đã xác minh",
+      "legal_name": "COMFIER TECHNOLOGY CO.,LTD.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12463471450579271681/creative/CR10648841308388458497?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 94,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 94,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: comfier.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho comfier.com",
+          "landing_page": "https://www.comfier.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 94,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12827819432048631031"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR11441322362876723201?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: comfier.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho comfier.com",
+          "landing_page": "https://www.comfier.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/98810050506957479"
+        }
+      ]
+    },
+    {
+      "id": "AR02901523688627109889",
+      "name": "RICHFIELD ELECTRONICS LIMITEDĐã xác minh",
+      "legal_name": "RICHFIELD ELECTRONICS LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02901523688627109889/creative/CR03298291384452120577?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: comfier.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho comfier.com",
+          "landing_page": "https://www.comfier.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17947242140224911494"
+        }
+      ]
+    },
+    {
+      "id": "AR01886734568552136705",
+      "name": "PATRONUM WEB PRIVATE LIMITEDĐã xác minh",
+      "legal_name": "PATRONUM WEB PRIVATE LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01886734568552136705/creative/CR03586133083243413505?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: comfier.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho comfier.com",
+          "landing_page": "https://www.comfier.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12150402897707747310"
+        }
+      ]
+    },
+    {
+      "id": "AR07950896106064314369",
+      "name": "Bùi Xuân TrườngĐã xác minh",
+      "legal_name": "Bùi Xuân TrườngĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07950896106064314369/creative/CR10135214561825914881?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: comfier.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho comfier.com",
+          "landing_page": "https://www.comfier.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3039379062231802773"
+        }
+      ]
+    },
+    {
+      "id": "AR11246321905516412929",
+      "name": "Bếp 304Đã xác minh",
+      "legal_name": "Bếp 304Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11246321905516412929/creative/CR16635673643363336193?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: comfier.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho comfier.com",
+          "landing_page": "https://www.comfier.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5907240685520587587"
+        }
+      ]
+    },
+    {
+      "id": "AR04291438052653400065",
+      "name": "LÊ CÔNG QUÂNĐã xác minh",
+      "legal_name": "LÊ CÔNG QUÂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04291438052653400065/creative/CR15418666175818629121?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: comfier.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho comfier.com",
+          "landing_page": "https://www.comfier.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7004254354846221970"
+        }
+      ]
+    },
+    {
+      "id": "AR06785990551779934209",
+      "name": "Absolute Link LimitedĐã xác minh",
+      "legal_name": "Absolute Link LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06785990551779934209/creative/CR17621339260219031553?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: comfier.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho comfier.com",
+          "landing_page": "https://www.comfier.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13922247006008143408"
+        }
+      ]
+    },
+    {
+      "id": "AR01385099886076100609",
+      "name": "Khuất Gia QuyếtĐã xác minh",
+      "legal_name": "Khuất Gia QuyếtĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01385099886076100609/creative/CR08673495972472422401?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: comfier.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho comfier.com",
+          "landing_page": "https://www.comfier.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3979597690726243251"
+        }
+      ]
+    },
+    {
+      "id": "AR14456121742306836481",
+      "name": "3 FIT USA LLCĐã xác minh",
+      "legal_name": "3 FIT USA LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14456121742306836481/creative/CR01784893721368592385?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: comfier.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho comfier.com",
+          "landing_page": "https://www.comfier.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/315305447467561658"
+        }
+      ]
+    },
+    {
+      "id": "AR04326335830164504577",
+      "name": "ELEGNTEA LLCĐã xác minh",
+      "legal_name": "ELEGNTEA LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04326335830164504577/creative/CR01948871449561268225?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: comfier.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho comfier.com",
+          "landing_page": "https://www.comfier.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8054145853541414567"
+        }
+      ]
+    }
+  ]
+}

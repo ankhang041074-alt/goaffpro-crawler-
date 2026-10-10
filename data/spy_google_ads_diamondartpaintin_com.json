@@ -1,0 +1,171 @@
+{
+  "domain": "diamondartpaintin.com",
+  "updated_at": "2026-10-10T14:59:46.875582",
+  "total_advertisers": 5,
+  "total_ads": 32,
+  "super_scale_count": 1,
+  "win_ads_count": 4,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR06238746451946504193",
+      "name": "莆田市荔城区雀跃工艺品店Đã xác minh",
+      "legal_name": "莆田市荔城区雀跃工艺品店Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06238746451946504193/creative/CR13939786005251883009?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 24,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 24,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: diamondartpaintin.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho diamondartpaintin.com",
+          "landing_page": "https://www.diamondartpaintin.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 24,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11108884787658145967"
+        }
+      ]
+    },
+    {
+      "id": "AR05842767664304357377",
+      "name": "TỔNG CÔNG TY VIỄN THÔNG VIETTEL - CHI NHÁNH TẬP ĐOÀN CÔNG NGHIỆP - VIỄN THÔNG QUÂN ĐỘIĐã xác minh",
+      "legal_name": "TỔNG CÔNG TY VIỄN THÔNG VIETTEL - CHI NHÁNH TẬP ĐOÀN CÔNG NGHIỆP - VIỄN THÔNG QUÂN ĐỘIĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05842767664304357377/creative/CR05425880365979926529?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: diamondartpaintin.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho diamondartpaintin.com",
+          "landing_page": "https://www.diamondartpaintin.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11136158662011277742"
+        }
+      ]
+    },
+    {
+      "id": "AR06752056650829398017",
+      "name": "Lagoja - Marketing GmbHĐã xác minh",
+      "legal_name": "Lagoja - Marketing GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06752056650829398017/creative/CR09283429569577091073?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: diamondartpaintin.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho diamondartpaintin.com",
+          "landing_page": "https://www.diamondartpaintin.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11122325809422874564"
+        }
+      ]
+    },
+    {
+      "id": "AR06940168186805354497",
+      "name": "North Adriatic Ltd.Đã xác minh",
+      "legal_name": "North Adriatic Ltd.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06940168186805354497/creative/CR05997415031313006593?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: diamondartpaintin.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho diamondartpaintin.com",
+          "landing_page": "https://www.diamondartpaintin.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17246644135814414124"
+        }
+      ]
+    },
+    {
+      "id": "AR16767039452949250049",
+      "name": "Connect Profit (Hong Kong) LimitedĐã xác minh",
+      "legal_name": "Connect Profit (Hong Kong) LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16767039452949250049/creative/CR03073620580046471169?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: diamondartpaintin.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho diamondartpaintin.com",
+          "landing_page": "https://www.diamondartpaintin.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17372903488301530460"
+        }
+      ]
+    }
+  ]
+}

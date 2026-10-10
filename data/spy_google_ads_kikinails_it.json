@@ -1,0 +1,43 @@
+{
+  "domain": "kikinails.it",
+  "updated_at": "2026-10-10T15:46:11.186499",
+  "total_advertisers": 1,
+  "total_ads": 30,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR05913458548209090561",
+      "name": "Kikinails SRLĐã xác minh",
+      "legal_name": "Kikinails SRLĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05913458548209090561/creative/CR08744990350268956673?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 30,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 30,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kikinails.it",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kikinails.it",
+          "landing_page": "https://www.kikinails.it",
+          "last_shown": "2026-10-10",
+          "duration_days": 30,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13145433615399285479"
+        }
+      ]
+    }
+  ]
+}

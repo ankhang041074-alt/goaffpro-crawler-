@@ -1,0 +1,75 @@
+{
+  "domain": "aolstecell.com",
+  "updated_at": "2026-10-10T15:06:55.335882",
+  "total_advertisers": 2,
+  "total_ads": 4,
+  "super_scale_count": 0,
+  "win_ads_count": 1,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR07675194828119867393",
+      "name": "IT Solutions FZCOĐã xác minh",
+      "legal_name": "IT Solutions FZCOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07675194828119867393/creative/CR00323220177632100353?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: aolstecell.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho aolstecell.com",
+          "landing_page": "https://www.aolstecell.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15290722975625055611"
+        }
+      ]
+    },
+    {
+      "id": "AR15581800501283389441",
+      "name": "Lovead LimitedĐã xác minh",
+      "legal_name": "Lovead LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15581800501283389441/creative/CR06767626817810464769?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: aolstecell.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho aolstecell.com",
+          "landing_page": "https://www.aolstecell.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16094974277543873965"
+        }
+      ]
+    }
+  ]
+}

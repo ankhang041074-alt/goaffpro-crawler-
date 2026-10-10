@@ -1,0 +1,43 @@
+{
+  "domain": "medileaf.es",
+  "updated_at": "2026-10-10T16:35:31.185610",
+  "total_advertisers": 1,
+  "total_ads": 1,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR11238952514730590209",
+      "name": "Medileaf NaturalĐã xác minh",
+      "legal_name": "Medileaf NaturalĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11238952514730590209/creative/CR11749875192833245185?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: medileaf.es",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho medileaf.es",
+          "landing_page": "https://www.medileaf.es",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15560303181607471776"
+        }
+      ]
+    }
+  ]
+}

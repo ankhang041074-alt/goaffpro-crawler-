@@ -1,0 +1,167 @@
+{
+  "domain": "haodirect.co.uk",
+  "updated_at": "2026-10-10T15:15:16.854044",
+  "total_advertisers": 5,
+  "total_ads": 132,
+  "super_scale_count": 1,
+  "win_ads_count": 1,
+  "test_ads_count": 3,
+  "advertisers": [
+    {
+      "id": "AR02632374744069963777",
+      "name": "LAI BEAUTIFUL LTDĐã xác minh",
+      "legal_name": "LAI BEAUTIFUL LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02632374744069963777/creative/CR11622428558084800513?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 127,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 127,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: haodirect.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho haodirect.co.uk",
+          "landing_page": "https://www.haodirect.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 127,
+          "image_url": "https://i.ytimg.com/vi/tyMlvdY7_ow/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR02511767587042361345",
+      "name": "LADS STORE LTDĐã xác minh",
+      "legal_name": "LADS STORE LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02511767587042361345/creative/CR12183067381014200321?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: haodirect.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho haodirect.co.uk",
+          "landing_page": "https://www.haodirect.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR00735480232810643457",
+      "name": "CODE CLOUD S.R.L.Đã xác minh",
+      "legal_name": "CODE CLOUD S.R.L.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00735480232810643457/creative/CR12106606981641404417?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: haodirect.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho haodirect.co.uk",
+          "landing_page": "https://www.haodirect.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR13893503557929271297",
+      "name": "Ceon Internet ApSĐã xác minh",
+      "legal_name": "Ceon Internet ApSĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13893503557929271297/creative/CR16759125675058659329?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: haodirect.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho haodirect.co.uk",
+          "landing_page": "https://www.haodirect.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR15511961721710313473",
+      "name": "ShopForward B.V.Đã xác minh",
+      "legal_name": "ShopForward B.V.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15511961721710313473/creative/CR01756988897939685377?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: haodirect.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho haodirect.co.uk",
+          "landing_page": "https://www.haodirect.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    }
+  ]
+}

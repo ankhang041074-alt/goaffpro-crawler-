@@ -1,0 +1,43 @@
+{
+  "domain": "cafegavi.com",
+  "updated_at": "2026-10-10T16:57:10.263037",
+  "total_advertisers": 1,
+  "total_ads": 12,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR02457548624272293889",
+      "name": "Cafe GaviĐã xác minh",
+      "legal_name": "Cafe GaviĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02457548624272293889/creative/CR08892033228571934721?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 12,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 12,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: cafegavi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho cafegavi.com",
+          "landing_page": "https://www.cafegavi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 12,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12572487260982965646"
+        }
+      ]
+    }
+  ]
+}

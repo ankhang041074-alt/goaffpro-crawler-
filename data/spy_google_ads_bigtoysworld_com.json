@@ -1,0 +1,43 @@
+{
+  "domain": "bigtoysworld.com",
+  "updated_at": "2026-10-10T15:51:27.189656",
+  "total_advertisers": 1,
+  "total_ads": 32,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR10979705350986399745",
+      "name": "Kèrim Ben SlamaĐã xác minh",
+      "legal_name": "Kèrim Ben SlamaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10979705350986399745/creative/CR09841433644818759681?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 32,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 32,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bigtoysworld.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bigtoysworld.com",
+          "landing_page": "https://www.bigtoysworld.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 32,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8080110039882651978"
+        }
+      ]
+    }
+  ]
+}

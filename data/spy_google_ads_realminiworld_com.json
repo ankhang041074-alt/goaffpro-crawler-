@@ -1,0 +1,203 @@
+{
+  "domain": "realminiworld.com",
+  "updated_at": "2026-10-10T15:04:56.060397",
+  "total_advertisers": 6,
+  "total_ads": 12,
+  "super_scale_count": 0,
+  "win_ads_count": 6,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR05840177970823561217",
+      "name": "Sahir RasoolĐã xác minh",
+      "legal_name": "Sahir RasoolĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05840177970823561217/creative/CR01976890579249790977?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: realminiworld.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho realminiworld.com",
+          "landing_page": "https://www.realminiworld.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16203436263797576014"
+        }
+      ]
+    },
+    {
+      "id": "AR08641362753740603393",
+      "name": "NAJA MARKETING LTDAĐã xác minh",
+      "legal_name": "NAJA MARKETING LTDAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08641362753740603393/creative/CR11692610600034107393?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: realminiworld.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho realminiworld.com",
+          "landing_page": "https://www.realminiworld.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13136170075434011231"
+        }
+      ]
+    },
+    {
+      "id": "AR15150434584736301057",
+      "name": "DEV & CO LIMITEDĐã xác minh",
+      "legal_name": "DEV & CO LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15150434584736301057/creative/CR06564542304286146561?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: realminiworld.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho realminiworld.com",
+          "landing_page": "https://www.realminiworld.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13720675080373990698"
+        }
+      ]
+    },
+    {
+      "id": "AR13496311038299078657",
+      "name": "PEACE LAND TRADING L.L.CĐã xác minh",
+      "legal_name": "PEACE LAND TRADING L.L.CĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13496311038299078657/creative/CR14243434343333625857?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: realminiworld.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho realminiworld.com",
+          "landing_page": "https://www.realminiworld.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10830957104156652426"
+        }
+      ]
+    },
+    {
+      "id": "AR15779082522580746241",
+      "name": "CÔNG TY TNHH XUẤT NHẬP KHẨU HOÀNG NGỌC DIỆPĐã xác minh",
+      "legal_name": "CÔNG TY TNHH XUẤT NHẬP KHẨU HOÀNG NGỌC DIỆPĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15779082522580746241/creative/CR03301769904234954753?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: realminiworld.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho realminiworld.com",
+          "landing_page": "https://www.realminiworld.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14448802197950067689"
+        }
+      ]
+    },
+    {
+      "id": "AR15534782411962318849",
+      "name": "Hộ Kinh Doanh Tạp HóaĐã xác minh",
+      "legal_name": "Hộ Kinh Doanh Tạp HóaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15534782411962318849/creative/CR05428935401987375105?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: realminiworld.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho realminiworld.com",
+          "landing_page": "https://www.realminiworld.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1894473380896434089"
+        }
+      ]
+    }
+  ]
+}

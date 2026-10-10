@@ -1,0 +1,75 @@
+{
+  "domain": "mannkitchen.com",
+  "updated_at": "2026-10-10T15:13:05.875873",
+  "total_advertisers": 2,
+  "total_ads": 26,
+  "super_scale_count": 1,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR08936857276799516673",
+      "name": "Creators Guild IncĐã xác minh",
+      "legal_name": "Creators Guild IncĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08936857276799516673/creative/CR11205838248158953473?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 24,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 24,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mannkitchen.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mannkitchen.com",
+          "landing_page": "https://www.mannkitchen.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 24,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3266285113882942398"
+        }
+      ]
+    },
+    {
+      "id": "AR03871396865354235905",
+      "name": "ReferDigital LLCĐã xác minh",
+      "legal_name": "ReferDigital LLCĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03871396865354235905/creative/CR01249175982317764609?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mannkitchen.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mannkitchen.com",
+          "landing_page": "https://www.mannkitchen.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12597872050738931257"
+        }
+      ]
+    }
+  ]
+}

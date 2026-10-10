@@ -1,0 +1,43 @@
+{
+  "domain": "i-blason.com",
+  "updated_at": "2026-10-10T15:10:46.112043",
+  "total_advertisers": 1,
+  "total_ads": 112,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR12223972537872154625",
+      "name": "I-Blason LLCĐã xác minh",
+      "legal_name": "I-Blason LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12223972537872154625/creative/CR09433981066793713665?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 112,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 112,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: i-blason.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho i-blason.com",
+          "landing_page": "https://www.i-blason.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 112,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14653037251936422407"
+        }
+      ]
+    }
+  ]
+}

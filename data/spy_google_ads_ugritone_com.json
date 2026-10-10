@@ -1,0 +1,330 @@
+{
+  "domain": "ugritone.com",
+  "updated_at": "2026-10-10T15:08:05.255670",
+  "total_advertisers": 10,
+  "total_ads": 52,
+  "super_scale_count": 1,
+  "win_ads_count": 9,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR14513111019112366081",
+      "name": "AMBG Lab GmbHĐã xác minh",
+      "legal_name": "AMBG Lab GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14513111019112366081/creative/CR11681036376135958529?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 34,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 34,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ugritone.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ugritone.com",
+          "landing_page": "https://www.ugritone.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 34,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4612885770855017904"
+        }
+      ]
+    },
+    {
+      "id": "AR16387915955222609921",
+      "name": "STAR HONOUR DEVELOPMENT LIMITEDĐã xác minh",
+      "legal_name": "STAR HONOUR DEVELOPMENT LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16387915955222609921/creative/CR14243219526249349121?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ugritone.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ugritone.com",
+          "landing_page": "https://www.ugritone.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17966806936471140801"
+        }
+      ]
+    },
+    {
+      "id": "AR16436604683742609409",
+      "name": "权成学Đã xác minh",
+      "legal_name": "权成学Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16436604683742609409/creative/CR04168802562960523265?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ugritone.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ugritone.com",
+          "landing_page": "https://www.ugritone.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1004760527231491382"
+        }
+      ]
+    },
+    {
+      "id": "AR00871732753106731009",
+      "name": "NGUYỄN VĂN ĐỀĐã xác minh",
+      "legal_name": "NGUYỄN VĂN ĐỀĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00871732753106731009/creative/CR04100794581916844033?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ugritone.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ugritone.com",
+          "landing_page": "https://www.ugritone.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9019580154163360345"
+        }
+      ]
+    },
+    {
+      "id": "AR16576821080895782913",
+      "name": "Vincente Investments IncĐã xác minh",
+      "legal_name": "Vincente Investments IncĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16576821080895782913/creative/CR12156022375678214145?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: ugritone.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ugritone.com",
+          "landing_page": "https://www.ugritone.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR16420002195602145281",
+      "name": "Adrian BrambilaĐã xác minh",
+      "legal_name": "Adrian BrambilaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16420002195602145281/creative/CR01529610202553253889?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ugritone.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ugritone.com",
+          "landing_page": "https://www.ugritone.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3020841739647085890"
+        }
+      ]
+    },
+    {
+      "id": "AR05747217251992338433",
+      "name": "Empire District Bondco, LLCĐã xác minh",
+      "legal_name": "Empire District Bondco, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05747217251992338433/creative/CR14144740049320673281?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ugritone.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ugritone.com",
+          "landing_page": "https://www.ugritone.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18037556928634475544"
+        }
+      ]
+    },
+    {
+      "id": "AR17956267888067215361",
+      "name": "Juan Pablo Corsi",
+      "legal_name": "Juan Pablo Corsi",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17956267888067215361/creative/CR14865254417048797185?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ugritone.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ugritone.com",
+          "landing_page": "https://www.ugritone.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9659066552463330965"
+        }
+      ]
+    },
+    {
+      "id": "AR01281441425912758273",
+      "name": "Awais MalikĐã xác minh",
+      "legal_name": "Awais MalikĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01281441425912758273/creative/CR06980752990642634753?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ugritone.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ugritone.com",
+          "landing_page": "https://www.ugritone.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3297448591734546801"
+        }
+      ]
+    },
+    {
+      "id": "AR07926237745335238657",
+      "name": "Exit Node Corporation",
+      "legal_name": "Exit Node Corporation",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07926237745335238657/creative/CR17267006013077192705?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ugritone.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ugritone.com",
+          "landing_page": "https://www.ugritone.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7424971810879368581"
+        }
+      ]
+    }
+  ]
+}

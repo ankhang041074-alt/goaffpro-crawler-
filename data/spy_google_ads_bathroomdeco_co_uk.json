@@ -1,0 +1,262 @@
+{
+  "domain": "bathroomdeco.co.uk",
+  "updated_at": "2026-10-10T15:09:22.168327",
+  "total_advertisers": 8,
+  "total_ads": 131,
+  "super_scale_count": 1,
+  "win_ads_count": 5,
+  "test_ads_count": 2,
+  "advertisers": [
+    {
+      "id": "AR16559661372288270337",
+      "name": "CAN STORE SUNDERLAND LTDĐã xác minh",
+      "legal_name": "CAN STORE SUNDERLAND LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16559661372288270337/creative/CR12295286733200687105?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 113,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 113,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bathroomdeco.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bathroomdeco.co.uk",
+          "landing_page": "https://www.bathroomdeco.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 113,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13701959230537921052"
+        }
+      ]
+    },
+    {
+      "id": "AR16344128145164599297",
+      "name": "Retailer Expert LtdĐã xác minh",
+      "legal_name": "Retailer Expert LtdĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16344128145164599297/creative/CR07020971511078977537?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 5,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 5,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bathroomdeco.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bathroomdeco.co.uk",
+          "landing_page": "https://www.bathroomdeco.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 5,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR15511961721710313473",
+      "name": "ShopForward B.V.Đã xác minh",
+      "legal_name": "ShopForward B.V.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15511961721710313473/creative/CR00112760071389184001?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bathroomdeco.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bathroomdeco.co.uk",
+          "landing_page": "https://www.bathroomdeco.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR12939944410749075457",
+      "name": "ShopSailorĐã xác minh",
+      "legal_name": "ShopSailorĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12939944410749075457/creative/CR15168914995787333633?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bathroomdeco.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bathroomdeco.co.uk",
+          "landing_page": "https://www.bathroomdeco.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR14700497126522093569",
+      "name": "Pashion.dk ApSĐã xác minh",
+      "legal_name": "Pashion.dk ApSĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14700497126522093569/creative/CR08793274716207972353?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bathroomdeco.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bathroomdeco.co.uk",
+          "landing_page": "https://www.bathroomdeco.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR01784295870510923777",
+      "name": "Tung Fung Business Consultancy Co., LimitedĐã xác minh",
+      "legal_name": "Tung Fung Business Consultancy Co., LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01784295870510923777/creative/CR18299183608897732609?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bathroomdeco.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bathroomdeco.co.uk",
+          "landing_page": "https://www.bathroomdeco.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12044221721938176471"
+        }
+      ]
+    },
+    {
+      "id": "AR00735480232810643457",
+      "name": "CODE CLOUD S.R.L.Đã xác minh",
+      "legal_name": "CODE CLOUD S.R.L.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00735480232810643457/creative/CR12106606981641404417?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bathroomdeco.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bathroomdeco.co.uk",
+          "landing_page": "https://www.bathroomdeco.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR04732741570040692737?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bathroomdeco.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bathroomdeco.co.uk",
+          "landing_page": "https://www.bathroomdeco.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5694126311469622260"
+        }
+      ]
+    }
+  ]
+}

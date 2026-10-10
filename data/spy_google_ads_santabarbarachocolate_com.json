@@ -1,0 +1,43 @@
+{
+  "domain": "santabarbarachocolate.com",
+  "updated_at": "2026-10-10T15:00:28.488629",
+  "total_advertisers": 1,
+  "total_ads": 64,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR10411740147073679361",
+      "name": "FANCY BRANDS INCORPORATEDĐã xác minh",
+      "legal_name": "FANCY BRANDS INCORPORATEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10411740147073679361/creative/CR02126175799848468481?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 64,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 64,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: santabarbarachocolate.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho santabarbarachocolate.com",
+          "landing_page": "https://www.santabarbarachocolate.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 64,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14501781917609323485"
+        }
+      ]
+    }
+  ]
+}

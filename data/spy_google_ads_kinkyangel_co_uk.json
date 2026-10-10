@@ -1,0 +1,42 @@
+{
+  "domain": "kinkyangel.co.uk",
+  "updated_at": "2026-10-10T14:55:23.500595",
+  "total_advertisers": 1,
+  "total_ads": 1,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR17752017394001248257",
+      "name": "Diane CannĐã xác minh",
+      "legal_name": "Diane CannĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17752017394001248257/creative/CR10034079085711327233?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: kinkyangel.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kinkyangel.co.uk",
+          "landing_page": "https://www.kinkyangel.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    }
+  ]
+}

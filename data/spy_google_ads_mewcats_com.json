@@ -1,0 +1,171 @@
+{
+  "domain": "mewcats.com",
+  "updated_at": "2026-10-10T14:56:54.338331",
+  "total_advertisers": 5,
+  "total_ads": 34,
+  "super_scale_count": 1,
+  "win_ads_count": 4,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR15427612068710187009",
+      "name": "宁波市佳轻装饰工程有限公司Đã xác minh",
+      "legal_name": "宁波市佳轻装饰工程有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15427612068710187009/creative/CR16801671732761985025?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 26,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 26,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mewcats.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mewcats.com",
+          "landing_page": "https://www.mewcats.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 26,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17734988292377428881"
+        }
+      ]
+    },
+    {
+      "id": "AR04889535750682443777",
+      "name": "HU SUĐã xác minh",
+      "legal_name": "HU SUĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04889535750682443777/creative/CR06222093497940312065?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mewcats.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mewcats.com",
+          "landing_page": "https://www.mewcats.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3772113723609244968"
+        }
+      ]
+    },
+    {
+      "id": "AR02898396677557714945",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02898396677557714945/creative/CR01103507330340749313?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mewcats.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mewcats.com",
+          "landing_page": "https://www.mewcats.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18442382966324592579"
+        }
+      ]
+    },
+    {
+      "id": "AR05861428257823391745",
+      "name": "AG Corporations LLCĐã xác minh",
+      "legal_name": "AG Corporations LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05861428257823391745/creative/CR04254208339828801537?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mewcats.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mewcats.com",
+          "landing_page": "https://www.mewcats.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7234284949899578644"
+        }
+      ]
+    },
+    {
+      "id": "AR05877214152421801985",
+      "name": "子电侠电闪Đã xác minh",
+      "legal_name": "子电侠电闪Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05877214152421801985/creative/CR09360592952017027073?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mewcats.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mewcats.com",
+          "landing_page": "https://www.mewcats.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10437136825983916181"
+        }
+      ]
+    }
+  ]
+}

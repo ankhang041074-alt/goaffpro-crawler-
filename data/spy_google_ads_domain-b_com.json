@@ -1,0 +1,276 @@
+{
+  "domain": "domain-b.com",
+  "updated_at": "2026-10-10T10:20:47.675235+00:00",
+  "scraped_at": "2026-10-10T10:20:47.675238+00:00",
+  "all_time_enabled": true,
+  "total_advertisers": 2,
+  "total_ads": 2,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 2,
+  "evergreen_count": 2,
+  "seasonal_count": 0,
+  "new_test_count": 0,
+  "is_verified_zero": false,
+  "status": "done",
+  "advertisers": [
+    {
+      "id": "AR001",
+      "name": "Adv One",
+      "legal_name": "Adv One",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR001?region=anywhere",
+      "first_seen": "2024-05-23",
+      "last_shown": "2026-10-10",
+      "duration_days": 871,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "classification": "evergreen",
+      "classification_label": "🌲 Chạy Quanh Năm (Evergreen)",
+      "campaign_type": "evergreen",
+      "campaign_type_label": "🌲 Chạy Quanh Năm (Evergreen)",
+      "formats": [
+        "search"
+      ],
+      "format_breakdown": {
+        "text": 1,
+        "image": 0,
+        "video": 0
+      },
+      "ad_count": 1,
+      "monthly_activity": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "2025": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "2026": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "timeline_3year": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "2025": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "2026": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "creatives": [
+        {
+          "id": "CR1",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Quảng cáo Google: Adv One",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho domain-b.com",
+          "landing_page": "https://www.domain-b.com",
+          "first_seen": "2024-05-23",
+          "last_shown": "2026-10-10",
+          "duration_days": 871,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR002",
+      "name": "Adv Two",
+      "legal_name": "Adv Two",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR002?region=anywhere",
+      "first_seen": "2024-05-23",
+      "last_shown": "2026-10-10",
+      "duration_days": 871,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "classification": "evergreen",
+      "classification_label": "🌲 Chạy Quanh Năm (Evergreen)",
+      "campaign_type": "evergreen",
+      "campaign_type_label": "🌲 Chạy Quanh Năm (Evergreen)",
+      "formats": [
+        "image"
+      ],
+      "format_breakdown": {
+        "text": 0,
+        "image": 1,
+        "video": 0
+      },
+      "ad_count": 1,
+      "monthly_activity": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "2025": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "2026": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "timeline_3year": {
+        "2024": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "2025": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "2026": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "creatives": [
+        {
+          "id": "CR2",
+          "format": "image",
+          "format_label": "Google Display Banner",
+          "headline": "Quảng cáo Google: Adv Two",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho domain-b.com",
+          "landing_page": "https://www.domain-b.com",
+          "first_seen": "2024-05-23",
+          "last_shown": "2026-10-10",
+          "duration_days": 871,
+          "image_url": null
+        }
+      ]
+    }
+  ]
+}

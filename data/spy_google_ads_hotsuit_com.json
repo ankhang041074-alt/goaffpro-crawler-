@@ -1,0 +1,107 @@
+{
+  "domain": "hotsuit.com",
+  "updated_at": "2026-10-10T15:27:54.525265",
+  "total_advertisers": 3,
+  "total_ads": 28,
+  "super_scale_count": 2,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR10942234166510485505",
+      "name": "BlueVision Interactive LimitedĐã xác minh",
+      "legal_name": "BlueVision Interactive LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10942234166510485505/creative/CR10761584998772375553?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 16,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 16,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hotsuit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hotsuit.com",
+          "landing_page": "https://www.hotsuit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 16,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9014379937261686604"
+        }
+      ]
+    },
+    {
+      "id": "AR06752056650829398017",
+      "name": "Lagoja - Marketing GmbHĐã xác minh",
+      "legal_name": "Lagoja - Marketing GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06752056650829398017/creative/CR16458722992222896129?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hotsuit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hotsuit.com",
+          "landing_page": "https://www.hotsuit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5386570820829785766"
+        }
+      ]
+    },
+    {
+      "id": "AR10376201148125151233",
+      "name": "阿吉斯（厦门）体育用品有限公司Đã xác minh",
+      "legal_name": "阿吉斯（厦门）体育用品有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10376201148125151233/creative/CR08387774123509547009?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 10,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 10,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hotsuit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hotsuit.com",
+          "landing_page": "https://www.hotsuit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 10,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11990706431174605777"
+        }
+      ]
+    }
+  ]
+}

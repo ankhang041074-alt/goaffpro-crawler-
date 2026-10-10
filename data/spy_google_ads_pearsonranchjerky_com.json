@@ -1,0 +1,43 @@
+{
+  "domain": "pearsonranchjerky.com",
+  "updated_at": "2026-10-10T16:55:53.762002",
+  "total_advertisers": 1,
+  "total_ads": 2,
+  "super_scale_count": 0,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR10955281280723320833",
+      "name": "Pearson Ranch JerkyĐã xác minh",
+      "legal_name": "Pearson Ranch JerkyĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10955281280723320833/creative/CR00976148931400433665?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pearsonranchjerky.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pearsonranchjerky.com",
+          "landing_page": "https://www.pearsonranchjerky.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14906122523384889133"
+        }
+      ]
+    }
+  ]
+}

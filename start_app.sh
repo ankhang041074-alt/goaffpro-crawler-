@@ -72,6 +72,8 @@ echo "💡 Nhấn Ctrl + C để dừng toàn bộ ứng dụng."
 # Auto-open browser
 if which open > /dev/null; then
     open "http://127.0.0.1:5174"
+elif which xdg-open > /dev/null; then
+    xdg-open "http://127.0.0.1:5174"
 fi
 
 # Trap Ctrl+C to kill both servers cleanly

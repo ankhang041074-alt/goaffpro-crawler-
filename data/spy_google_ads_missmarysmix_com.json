@@ -1,0 +1,171 @@
+{
+  "domain": "missmarysmix.com",
+  "updated_at": "2026-10-10T15:40:05.896167",
+  "total_advertisers": 5,
+  "total_ads": 30,
+  "super_scale_count": 1,
+  "win_ads_count": 4,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR04385443840106954753",
+      "name": "Ryan TimmĐã xác minh",
+      "legal_name": "Ryan TimmĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04385443840106954753/creative/CR06223280420742496257?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 18,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 18,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: missmarysmix.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho missmarysmix.com",
+          "landing_page": "https://www.missmarysmix.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 18,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1713976990360774191"
+        }
+      ]
+    },
+    {
+      "id": "AR07027169904801349633",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07027169904801349633/creative/CR03317240402204950529?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: missmarysmix.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho missmarysmix.com",
+          "landing_page": "https://www.missmarysmix.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11214983724040344632"
+        }
+      ]
+    },
+    {
+      "id": "AR15591704902026395649",
+      "name": "Inspire TradelinksĐã xác minh",
+      "legal_name": "Inspire TradelinksĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15591704902026395649/creative/CR02557101997643792385?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: missmarysmix.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho missmarysmix.com",
+          "landing_page": "https://www.missmarysmix.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11192851142686122196"
+        }
+      ]
+    },
+    {
+      "id": "AR12150734643871612929",
+      "name": "Swati Pankajkumar BadwaikĐã xác minh",
+      "legal_name": "Swati Pankajkumar BadwaikĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12150734643871612929/creative/CR17295120370780602369?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: missmarysmix.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho missmarysmix.com",
+          "landing_page": "https://www.missmarysmix.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9362236639510587206"
+        }
+      ]
+    },
+    {
+      "id": "AR12667011496924938241",
+      "name": "Muhammad Sabir HussainĐã xác minh",
+      "legal_name": "Muhammad Sabir HussainĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12667011496924938241/creative/CR13529827081881387009?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: missmarysmix.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho missmarysmix.com",
+          "landing_page": "https://www.missmarysmix.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1061893663871837733"
+        }
+      ]
+    }
+  ]
+}

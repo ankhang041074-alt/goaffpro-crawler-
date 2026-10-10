@@ -1,0 +1,362 @@
+{
+  "domain": "powermining.io",
+  "updated_at": "2026-10-10T15:41:40.391845",
+  "total_advertisers": 11,
+  "total_ads": 54,
+  "super_scale_count": 1,
+  "win_ads_count": 10,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR00260100058349830145",
+      "name": "Power Mining SIAĐã xác minh",
+      "legal_name": "Power Mining SIAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00260100058349830145/creative/CR00907282953329967105?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 30,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 30,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: powermining.io",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho powermining.io",
+          "landing_page": "https://www.powermining.io",
+          "last_shown": "2026-10-10",
+          "duration_days": 30,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9705819747819987212"
+        }
+      ]
+    },
+    {
+      "id": "AR05795912070775963649",
+      "name": "PHẠM ĐÌNH HƯNGĐã xác minh",
+      "legal_name": "PHẠM ĐÌNH HƯNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05795912070775963649/creative/CR12902372243002097665?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: powermining.io",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho powermining.io",
+          "landing_page": "https://www.powermining.io",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9122417094975666761"
+        }
+      ]
+    },
+    {
+      "id": "AR15357413645755613185",
+      "name": "Công ty cổ phần bất động sản Lima Việt NamĐã xác minh",
+      "legal_name": "Công ty cổ phần bất động sản Lima Việt NamĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15357413645755613185/creative/CR04116748048959275009?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: powermining.io",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho powermining.io",
+          "landing_page": "https://www.powermining.io",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10788591423062809560"
+        }
+      ]
+    },
+    {
+      "id": "AR14959278054386434049",
+      "name": "NGUYỄN ĐỨC PHƯƠNGĐã xác minh",
+      "legal_name": "NGUYỄN ĐỨC PHƯƠNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14959278054386434049/creative/CR15428101085096574977?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: powermining.io",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho powermining.io",
+          "landing_page": "https://www.powermining.io",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2248800221102006100"
+        }
+      ]
+    },
+    {
+      "id": "AR01441183766595764225",
+      "name": "Xun Meng International LimitedĐã xác minh",
+      "legal_name": "Xun Meng International LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01441183766595764225/creative/CR00173572693721874433?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: powermining.io",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho powermining.io",
+          "landing_page": "https://www.powermining.io",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR12167944483337404417",
+      "name": "CAPITAL SERVICES SARLĐã xác minh",
+      "legal_name": "CAPITAL SERVICES SARLĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12167944483337404417/creative/CR08927345066700177409?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: powermining.io",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho powermining.io",
+          "landing_page": "https://www.powermining.io",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5823215523721631689"
+        }
+      ]
+    },
+    {
+      "id": "AR07841924676866539521",
+      "name": "JAMES MATTHEW HANSHAWĐã xác minh",
+      "legal_name": "JAMES MATTHEW HANSHAWĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07841924676866539521/creative/CR09775240055529406465?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: powermining.io",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho powermining.io",
+          "landing_page": "https://www.powermining.io",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9702370306992258632"
+        }
+      ]
+    },
+    {
+      "id": "AR05084970841553240065",
+      "name": "Prestige Insurance Ltd.Đã xác minh",
+      "legal_name": "Prestige Insurance Ltd.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05084970841553240065/creative/CR05618602317419905025?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: powermining.io",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho powermining.io",
+          "landing_page": "https://www.powermining.io",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4771749317866798730"
+        }
+      ]
+    },
+    {
+      "id": "AR08031224020407943169",
+      "name": "Dominion Capital LimitedĐã xác minh",
+      "legal_name": "Dominion Capital LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08031224020407943169/creative/CR11706288859691089921?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: powermining.io",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho powermining.io",
+          "landing_page": "https://www.powermining.io",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2924608033090581707"
+        }
+      ]
+    },
+    {
+      "id": "AR08149736470345678849",
+      "name": "CENTRAL BRIGHT MANAGEMENT LIMITEDĐã xác minh",
+      "legal_name": "CENTRAL BRIGHT MANAGEMENT LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08149736470345678849/creative/CR06052367522957623297?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: powermining.io",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho powermining.io",
+          "landing_page": "https://www.powermining.io",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16783732649683720330"
+        }
+      ]
+    },
+    {
+      "id": "AR10931860351611830273",
+      "name": "ASIM NAZEERĐã xác minh",
+      "legal_name": "ASIM NAZEERĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10931860351611830273/creative/CR11775317161755541505?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: powermining.io",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho powermining.io",
+          "landing_page": "https://www.powermining.io",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17134548314632979187"
+        }
+      ]
+    }
+  ]
+}

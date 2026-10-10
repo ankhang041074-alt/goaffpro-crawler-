@@ -1,0 +1,75 @@
+{
+  "domain": "aeonlaser.us",
+  "updated_at": "2026-10-10T15:06:34.038700",
+  "total_advertisers": 2,
+  "total_ads": 85,
+  "super_scale_count": 2,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR11152187363533258753",
+      "name": "AEON Laser USAĐã xác minh",
+      "legal_name": "AEON Laser USAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11152187363533258753/creative/CR16012996328535621633?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 26,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 26,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: aeonlaser.us",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho aeonlaser.us",
+          "landing_page": "https://www.aeonlaser.us",
+          "last_shown": "2026-10-10",
+          "duration_days": 26,
+          "image_url": "https://i.ytimg.com/vi/-YFiq1J5cqI/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR11013178711183720449",
+      "name": "Engraving Machines Plus Corp.Đã xác minh",
+      "legal_name": "Engraving Machines Plus Corp.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11013178711183720449/creative/CR01450468051370639361?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 59,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 59,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: aeonlaser.us",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho aeonlaser.us",
+          "landing_page": "https://www.aeonlaser.us",
+          "last_shown": "2026-10-10",
+          "duration_days": 59,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16506658368442194377"
+        }
+      ]
+    }
+  ]
+}

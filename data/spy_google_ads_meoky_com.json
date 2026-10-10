@@ -1,0 +1,139 @@
+{
+  "domain": "meoky.com",
+  "updated_at": "2026-10-10T17:07:37.941137",
+  "total_advertisers": 4,
+  "total_ads": 10,
+  "super_scale_count": 0,
+  "win_ads_count": 4,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR14761596918958129153",
+      "name": "Malik Abdul Sattar AnjumĐã xác minh",
+      "legal_name": "Malik Abdul Sattar AnjumĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14761596918958129153/creative/CR13935780432852287489?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: meoky.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho meoky.com",
+          "landing_page": "https://www.meoky.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8417699207144608962"
+        }
+      ]
+    },
+    {
+      "id": "AR05799625903227011073",
+      "name": "Rameez AkhtarĐã xác minh",
+      "legal_name": "Rameez AkhtarĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05799625903227011073/creative/CR06204796419098804225?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: meoky.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho meoky.com",
+          "landing_page": "https://www.meoky.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10580854441929171651"
+        }
+      ]
+    },
+    {
+      "id": "AR12662425897781952513",
+      "name": "Arshad MehmoodĐã xác minh",
+      "legal_name": "Arshad MehmoodĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12662425897781952513/creative/CR06141907600985292801?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: meoky.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho meoky.com",
+          "landing_page": "https://www.meoky.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7249533815895504431"
+        }
+      ]
+    },
+    {
+      "id": "AR10416563738944471041",
+      "name": "Usman SubhaniĐã xác minh",
+      "legal_name": "Usman SubhaniĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10416563738944471041/creative/CR11901649441469235201?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: meoky.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho meoky.com",
+          "landing_page": "https://www.meoky.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5757037354889711056"
+        }
+      ]
+    }
+  ]
+}

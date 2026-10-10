@@ -1,0 +1,75 @@
+{
+  "domain": "bellandbone.com.au",
+  "updated_at": "2026-10-10T15:25:41.376433",
+  "total_advertisers": 2,
+  "total_ads": 27,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR02605990442143055873",
+      "name": "Bell and BoneĐã xác minh",
+      "legal_name": "Bell and BoneĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02605990442143055873/creative/CR15867264970036084737?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 26,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 26,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bellandbone.com.au",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bellandbone.com.au",
+          "landing_page": "https://www.bellandbone.com.au",
+          "last_shown": "2026-10-10",
+          "duration_days": 26,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6236271724827254983"
+        }
+      ]
+    },
+    {
+      "id": "AR16420002195602145281",
+      "name": "Adrian BrambilaĐã xác minh",
+      "legal_name": "Adrian BrambilaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16420002195602145281/creative/CR16012408888678678529?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bellandbone.com.au",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bellandbone.com.au",
+          "landing_page": "https://www.bellandbone.com.au",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8330544727655519819"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "flyingfishonline.com",
+  "updated_at": "2026-10-10T15:13:19.897550",
+  "total_advertisers": 1,
+  "total_ads": 28,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR05327853123337715713",
+      "name": "Flying Fish Uk ltdĐã xác minh",
+      "legal_name": "Flying Fish Uk ltdĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05327853123337715713/creative/CR03587774817312440321?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 28,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 28,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: flyingfishonline.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho flyingfishonline.com",
+          "landing_page": "https://www.flyingfishonline.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 28,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16673224340480715858"
+        }
+      ]
+    }
+  ]
+}

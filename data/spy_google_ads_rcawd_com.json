@@ -1,0 +1,523 @@
+{
+  "domain": "rcawd.com",
+  "updated_at": "2026-10-10T15:24:06.608214",
+  "total_advertisers": 16,
+  "total_ads": 114,
+  "super_scale_count": 1,
+  "win_ads_count": 7,
+  "test_ads_count": 8,
+  "advertisers": [
+    {
+      "id": "AR14002065152757727233",
+      "name": "ĐÀO QUANG VŨĐã xác minh",
+      "legal_name": "ĐÀO QUANG VŨĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14002065152757727233/creative/CR05888593891610853377?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rcawd.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rcawd.com",
+          "landing_page": "https://www.rcawd.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10174600295942897383"
+        }
+      ]
+    },
+    {
+      "id": "AR10616082596389453825",
+      "name": "罗嘉Đã xác minh",
+      "legal_name": "罗嘉Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10616082596389453825/creative/CR12726089476456054785?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 92,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 92,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rcawd.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rcawd.com",
+          "landing_page": "https://www.rcawd.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 92,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10251340224951355267"
+        }
+      ]
+    },
+    {
+      "id": "AR13497936107894996993",
+      "name": "HERA SEO SRLĐã xác minh",
+      "legal_name": "HERA SEO SRLĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13497936107894996993/creative/CR09950282040383373313?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rcawd.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rcawd.com",
+          "landing_page": "https://www.rcawd.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8601672883511388773"
+        }
+      ]
+    },
+    {
+      "id": "AR14761596918958129153",
+      "name": "Malik Abdul Sattar AnjumĐã xác minh",
+      "legal_name": "Malik Abdul Sattar AnjumĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14761596918958129153/creative/CR15418190087283802113?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rcawd.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rcawd.com",
+          "landing_page": "https://www.rcawd.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15245468271402351885"
+        }
+      ]
+    },
+    {
+      "id": "AR13707985237307293697",
+      "name": "ZX RESELLS, LLCĐã xác minh",
+      "legal_name": "ZX RESELLS, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13707985237307293697/creative/CR17410683655654735873?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rcawd.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rcawd.com",
+          "landing_page": "https://www.rcawd.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12095319211635728328"
+        }
+      ]
+    },
+    {
+      "id": "AR07675194828119867393",
+      "name": "IT Solutions FZCOĐã xác minh",
+      "legal_name": "IT Solutions FZCOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07675194828119867393/creative/CR09959479687077953537?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rcawd.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rcawd.com",
+          "landing_page": "https://www.rcawd.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6412181353013315745"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR04496469792680574977?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rcawd.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rcawd.com",
+          "landing_page": "https://www.rcawd.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5056975945025656088"
+        }
+      ]
+    },
+    {
+      "id": "AR14714308195157803009",
+      "name": "K&K ADVERTISING LTDĐã xác minh",
+      "legal_name": "K&K ADVERTISING LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14714308195157803009/creative/CR00944999054020968449?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rcawd.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rcawd.com",
+          "landing_page": "https://www.rcawd.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11920645794314334118"
+        }
+      ]
+    },
+    {
+      "id": "AR17827027099450343425",
+      "name": "NGUYỄN THANH THỦYĐã xác minh",
+      "legal_name": "NGUYỄN THANH THỦYĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17827027099450343425/creative/CR12249571023992651777?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rcawd.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rcawd.com",
+          "landing_page": "https://www.rcawd.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11343655177906725450"
+        }
+      ]
+    },
+    {
+      "id": "AR11093549034034429953",
+      "name": "6Y LIFE INCĐã xác minh",
+      "legal_name": "6Y LIFE INCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11093549034034429953/creative/CR18118974786976612353?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rcawd.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rcawd.com",
+          "landing_page": "https://www.rcawd.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6501742363021593908"
+        }
+      ]
+    },
+    {
+      "id": "AR14221590414544076801",
+      "name": "Mechanical Monkeyz OyĐã xác minh",
+      "legal_name": "Mechanical Monkeyz OyĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14221590414544076801/creative/CR11168023148471779329?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rcawd.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rcawd.com",
+          "landing_page": "https://www.rcawd.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15790209372110548629"
+        }
+      ]
+    },
+    {
+      "id": "AR13622199218394365953",
+      "name": "HỘ KINH DOANH ĐỖ ĐẮC CƯỜNGĐã xác minh",
+      "legal_name": "HỘ KINH DOANH ĐỖ ĐẮC CƯỜNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13622199218394365953/creative/CR16975994490982498305?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rcawd.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rcawd.com",
+          "landing_page": "https://www.rcawd.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2031543586486596156"
+        }
+      ]
+    },
+    {
+      "id": "AR05213825641459220481",
+      "name": "SPARKLES BEAUTY SUPPLIES LIMITEDĐã xác minh",
+      "legal_name": "SPARKLES BEAUTY SUPPLIES LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05213825641459220481/creative/CR18092360395061723137?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rcawd.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rcawd.com",
+          "landing_page": "https://www.rcawd.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9513199059352498076"
+        }
+      ]
+    },
+    {
+      "id": "AR05219246749180231681",
+      "name": "CLOFTECH (PRIVATE) LIMITEDĐã xác minh",
+      "legal_name": "CLOFTECH (PRIVATE) LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05219246749180231681/creative/CR18040534330370949121?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rcawd.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rcawd.com",
+          "landing_page": "https://www.rcawd.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8001059054769628301"
+        }
+      ]
+    },
+    {
+      "id": "AR12228764115056721921",
+      "name": "INTELLIA THERAPEUTICS, INC.",
+      "legal_name": "INTELLIA THERAPEUTICS, INC.",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12228764115056721921/creative/CR05682224123242086401?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rcawd.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rcawd.com",
+          "landing_page": "https://www.rcawd.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8149597032586060124"
+        }
+      ]
+    },
+    {
+      "id": "AR03331204380266332161",
+      "name": "CAVCO INDUSTRIES INC.",
+      "legal_name": "CAVCO INDUSTRIES INC.",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03331204380266332161/creative/CR02397833357493796865?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rcawd.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rcawd.com",
+          "landing_page": "https://www.rcawd.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3785856937468338438"
+        }
+      ]
+    }
+  ]
+}

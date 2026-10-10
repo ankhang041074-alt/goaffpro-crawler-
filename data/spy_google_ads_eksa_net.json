@@ -1,0 +1,43 @@
+{
+  "domain": "eksa.net",
+  "updated_at": "2026-10-10T15:04:27.971262",
+  "total_advertisers": 1,
+  "total_ads": 16,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR17046943708580151297",
+      "name": "inspiration ads limitedĐã xác minh",
+      "legal_name": "inspiration ads limitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17046943708580151297/creative/CR12788749235373735937?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 16,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 16,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: eksa.net",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho eksa.net",
+          "landing_page": "https://www.eksa.net",
+          "last_shown": "2026-10-10",
+          "duration_days": 16,
+          "image_url": "https://i.ytimg.com/vi/YGUPw1rH17A/hqdefault.jpg"
+        }
+      ]
+    }
+  ]
+}

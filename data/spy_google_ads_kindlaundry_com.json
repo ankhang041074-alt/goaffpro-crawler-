@@ -1,0 +1,75 @@
+{
+  "domain": "kindlaundry.com",
+  "updated_at": "2026-10-10T15:16:55.693781",
+  "total_advertisers": 2,
+  "total_ads": 42,
+  "super_scale_count": 1,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR17034541818714259457",
+      "name": "ANBE Inc.Đã xác minh",
+      "legal_name": "ANBE Inc.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17034541818714259457/creative/CR09895054421723709441?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 40,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 40,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kindlaundry.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kindlaundry.com",
+          "landing_page": "https://www.kindlaundry.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 40,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7160859368792736195"
+        }
+      ]
+    },
+    {
+      "id": "AR17806034991524610049",
+      "name": "龚爱珍Đã xác minh",
+      "legal_name": "龚爱珍Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17806034991524610049/creative/CR08682722593016381441?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kindlaundry.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kindlaundry.com",
+          "landing_page": "https://www.kindlaundry.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13255342033063756500"
+        }
+      ]
+    }
+  ]
+}

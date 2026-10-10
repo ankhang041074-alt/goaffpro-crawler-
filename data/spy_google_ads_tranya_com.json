@@ -1,0 +1,267 @@
+{
+  "domain": "tranya.com",
+  "updated_at": "2026-10-10T17:10:24.524872",
+  "total_advertisers": 8,
+  "total_ads": 24,
+  "super_scale_count": 0,
+  "win_ads_count": 8,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR06752056650829398017",
+      "name": "Lagoja - Marketing GmbHĐã xác minh",
+      "legal_name": "Lagoja - Marketing GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06752056650829398017/creative/CR11042990594581331969?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 6,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: tranya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho tranya.com",
+          "landing_page": "https://www.tranya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 6,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14044408442474841096"
+        }
+      ]
+    },
+    {
+      "id": "AR00468225523449856001",
+      "name": "CÔNG TY TNHH ĐẦU TƯ THƯƠNG MẠI VÀ TƯ VẤN CÔNG NGHỆ VIỆT NAMĐã xác minh",
+      "legal_name": "CÔNG TY TNHH ĐẦU TƯ THƯƠNG MẠI VÀ TƯ VẤN CÔNG NGHỆ VIỆT NAMĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00468225523449856001/creative/CR11467170506856202241?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: tranya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho tranya.com",
+          "landing_page": "https://www.tranya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1138884857840852862"
+        }
+      ]
+    },
+    {
+      "id": "AR17163584935756300289",
+      "name": "Ганна ХаверĐã xác minh",
+      "legal_name": "Ганна ХаверĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17163584935756300289/creative/CR15526347027473498113?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: tranya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho tranya.com",
+          "landing_page": "https://www.tranya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14690543470876094338"
+        }
+      ]
+    },
+    {
+      "id": "AR09128139331863576577",
+      "name": "ISAAC JAMES RICOĐã xác minh",
+      "legal_name": "ISAAC JAMES RICOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09128139331863576577/creative/CR00637677376439844865?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: tranya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho tranya.com",
+          "landing_page": "https://www.tranya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16123998592745659272"
+        }
+      ]
+    },
+    {
+      "id": "AR01208190449441832961",
+      "name": "WhooshUSA.com LimitedĐã xác minh",
+      "legal_name": "WhooshUSA.com LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01208190449441832961/creative/CR15486110562663792641?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: tranya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho tranya.com",
+          "landing_page": "https://www.tranya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13318844433046577989"
+        }
+      ]
+    },
+    {
+      "id": "AR12122768445360046081",
+      "name": "TRẦN NGỌC THÀNHĐã xác minh",
+      "legal_name": "TRẦN NGỌC THÀNHĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12122768445360046081/creative/CR17723685582103642113?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: tranya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho tranya.com",
+          "landing_page": "https://www.tranya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/132504439595561601"
+        }
+      ]
+    },
+    {
+      "id": "AR16037154291214974977",
+      "name": "10 on 10's Finest CorpĐã xác minh",
+      "legal_name": "10 on 10's Finest CorpĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16037154291214974977/creative/CR00772487440559505409?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: tranya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho tranya.com",
+          "landing_page": "https://www.tranya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11081428807453130257"
+        }
+      ]
+    },
+    {
+      "id": "AR15049634519797727233",
+      "name": "HỘ KINH DOANH PHAN VĂN VỊNHĐã xác minh",
+      "legal_name": "HỘ KINH DOANH PHAN VĂN VỊNHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15049634519797727233/creative/CR02990532247272030209?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: tranya.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho tranya.com",
+          "landing_page": "https://www.tranya.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15830524945930625378"
+        }
+      ]
+    }
+  ]
+}

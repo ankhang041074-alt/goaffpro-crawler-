@@ -1,0 +1,107 @@
+{
+  "domain": "chacktok.com",
+  "updated_at": "2026-10-10T14:57:36.872238",
+  "total_advertisers": 3,
+  "total_ads": 56,
+  "super_scale_count": 1,
+  "win_ads_count": 2,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR03832878722470379521",
+      "name": "深圳市玛威尔显控科技有限公司Đã xác minh",
+      "legal_name": "深圳市玛威尔显控科技有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03832878722470379521/creative/CR12739346348281692161?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 52,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 52,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: chacktok.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chacktok.com",
+          "landing_page": "https://www.chacktok.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 52,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13000764095347411481"
+        }
+      ]
+    },
+    {
+      "id": "AR13032374228672839681",
+      "name": "深圳市玛威尔显控科技有限公司Đã xác minh",
+      "legal_name": "深圳市玛威尔显控科技有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13032374228672839681/creative/CR10443009811091030017?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: chacktok.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chacktok.com",
+          "landing_page": "https://www.chacktok.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/688362842855237009"
+        }
+      ]
+    },
+    {
+      "id": "AR00784393536580616193",
+      "name": "Thuy NguyenĐã xác minh",
+      "legal_name": "Thuy NguyenĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00784393536580616193/creative/CR15323162046074191873?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: chacktok.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chacktok.com",
+          "landing_page": "https://www.chacktok.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11464438693341175748"
+        }
+      ]
+    }
+  ]
+}

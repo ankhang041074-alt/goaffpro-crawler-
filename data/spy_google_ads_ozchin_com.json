@@ -1,0 +1,43 @@
+{
+  "domain": "ozchin.com",
+  "updated_at": "2026-10-10T15:42:08.030225",
+  "total_advertisers": 1,
+  "total_ads": 3,
+  "super_scale_count": 0,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR16852193149596991489",
+      "name": "深圳市火旻科技有限公司Đã xác minh",
+      "legal_name": "深圳市火旻科技有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16852193149596991489/creative/CR00405105584556212225?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ozchin.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ozchin.com",
+          "landing_page": "https://www.ozchin.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/540072211037045247"
+        }
+      ]
+    }
+  ]
+}

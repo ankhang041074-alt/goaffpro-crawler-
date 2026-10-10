@@ -1,0 +1,43 @@
+{
+  "domain": "trs-detox.com",
+  "updated_at": "2026-10-10T15:46:45.447369",
+  "total_advertisers": 1,
+  "total_ads": 2,
+  "super_scale_count": 0,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR05872753150280073217",
+      "name": "Daily Detox B.V.Đã xác minh",
+      "legal_name": "Daily Detox B.V.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05872753150280073217/creative/CR06766708339054215169?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: trs-detox.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho trs-detox.com",
+          "landing_page": "https://www.trs-detox.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15943608330358943483"
+        }
+      ]
+    }
+  ]
+}

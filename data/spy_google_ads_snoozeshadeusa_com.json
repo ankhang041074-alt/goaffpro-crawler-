@@ -1,0 +1,75 @@
+{
+  "domain": "snoozeshadeusa.com",
+  "updated_at": "2026-10-10T15:46:38.558229",
+  "total_advertisers": 2,
+  "total_ads": 2,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 2,
+  "advertisers": [
+    {
+      "id": "AR09318076323429613569",
+      "name": "Really Simple Ideas LtdĐã xác minh",
+      "legal_name": "Really Simple Ideas LtdĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09318076323429613569/creative/CR02979047607801741313?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: snoozeshadeusa.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho snoozeshadeusa.com",
+          "landing_page": "https://www.snoozeshadeusa.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13046660593353534979"
+        }
+      ]
+    },
+    {
+      "id": "AR16668305988834557953",
+      "name": "ABC AUTOMOTIVE LIMITEDĐã xác minh",
+      "legal_name": "ABC AUTOMOTIVE LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16668305988834557953/creative/CR01022918488143953921?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: snoozeshadeusa.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho snoozeshadeusa.com",
+          "landing_page": "https://www.snoozeshadeusa.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8375351396309013834"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "domain": "drcowansgarden.com",
+  "updated_at": "2026-10-10T15:43:30.613582",
+  "total_advertisers": 4,
+  "total_ads": 4,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 4,
+  "advertisers": [
+    {
+      "id": "AR10676122949242585089",
+      "name": "Phan Thị Minh ÁnhĐã xác minh",
+      "legal_name": "Phan Thị Minh ÁnhĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10676122949242585089/creative/CR05231379988841758721?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: drcowansgarden.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho drcowansgarden.com",
+          "landing_page": "https://www.drcowansgarden.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7667721149640534622"
+        }
+      ]
+    },
+    {
+      "id": "AR10415977355649482753",
+      "name": "TWK DIGITAL ELETRONICA LTDAĐã xác minh",
+      "legal_name": "TWK DIGITAL ELETRONICA LTDAĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10415977355649482753/creative/CR02083167491994943489?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: drcowansgarden.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho drcowansgarden.com",
+          "landing_page": "https://www.drcowansgarden.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5408285904908306774"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR07548540657787207681?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: drcowansgarden.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho drcowansgarden.com",
+          "landing_page": "https://www.drcowansgarden.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1055164708759260284"
+        }
+      ]
+    },
+    {
+      "id": "AR10575899088526508033",
+      "name": "YINO (HONGKONG) DIGITAL TECHNOLOGY CO., LIMITEDĐã xác minh",
+      "legal_name": "YINO (HONGKONG) DIGITAL TECHNOLOGY CO., LIMITEDĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10575899088526508033/creative/CR10543989689130418177?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: drcowansgarden.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho drcowansgarden.com",
+          "landing_page": "https://www.drcowansgarden.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8223188886417540485"
+        }
+      ]
+    }
+  ]
+}

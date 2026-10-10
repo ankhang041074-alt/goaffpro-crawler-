@@ -1,0 +1,107 @@
+{
+  "domain": "grinnatural.co.nz",
+  "updated_at": "2026-10-10T16:47:21.689138",
+  "total_advertisers": 3,
+  "total_ads": 10,
+  "super_scale_count": 0,
+  "win_ads_count": 3,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR09252858997386510337",
+      "name": "GRIN NATURAL PRODUCTS LIMITEDĐã xác minh",
+      "legal_name": "GRIN NATURAL PRODUCTS LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09252858997386510337/creative/CR09526722055098073089?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 6,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: grinnatural.co.nz",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho grinnatural.co.nz",
+          "landing_page": "https://www.grinnatural.co.nz",
+          "last_shown": "2026-10-10",
+          "duration_days": 6,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14334678890555294108"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR15271693975497474049?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: grinnatural.co.nz",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho grinnatural.co.nz",
+          "landing_page": "https://www.grinnatural.co.nz",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5250382809609750791"
+        }
+      ]
+    },
+    {
+      "id": "AR07663902379846139905",
+      "name": "DEBORAH CARVER KNIGHTĐã xác minh",
+      "legal_name": "DEBORAH CARVER KNIGHTĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07663902379846139905/creative/CR09577627064052219905?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: grinnatural.co.nz",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho grinnatural.co.nz",
+          "landing_page": "https://www.grinnatural.co.nz",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3571384084038532716"
+        }
+      ]
+    }
+  ]
+}

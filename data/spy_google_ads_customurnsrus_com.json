@@ -1,0 +1,43 @@
+{
+  "domain": "customurnsrus.com",
+  "updated_at": "2026-10-10T15:42:14.946169",
+  "total_advertisers": 1,
+  "total_ads": 1,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR05517077665728692225",
+      "name": "Custom Urns R UsĐã xác minh",
+      "legal_name": "Custom Urns R UsĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05517077665728692225/creative/CR18093155324788736001?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: customurnsrus.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho customurnsrus.com",
+          "landing_page": "https://www.customurnsrus.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17145493350985246057"
+        }
+      ]
+    }
+  ]
+}

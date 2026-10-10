@@ -1,0 +1,43 @@
+{
+  "domain": "a2zozone.com",
+  "updated_at": "2026-10-10T16:32:41.467598",
+  "total_advertisers": 1,
+  "total_ads": 24,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR02805357017227591681",
+      "name": "A2Z Ozone, Inc.Đã xác minh",
+      "legal_name": "A2Z Ozone, Inc.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02805357017227591681/creative/CR03958388996983226369?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 24,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 24,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: a2zozone.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho a2zozone.com",
+          "landing_page": "https://www.a2zozone.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 24,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2516211586440091830"
+        }
+      ]
+    }
+  ]
+}

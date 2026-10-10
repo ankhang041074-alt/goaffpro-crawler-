@@ -1,0 +1,42 @@
+{
+  "domain": "appliancechamps.com",
+  "updated_at": "2026-10-10T15:45:14.723679",
+  "total_advertisers": 1,
+  "total_ads": 1,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR14628813572596039681",
+      "name": "APPLIANCE CHAMP LLCĐã xác minh",
+      "legal_name": "APPLIANCE CHAMP LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14628813572596039681/creative/CR15166700192821936129?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: appliancechamps.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho appliancechamps.com",
+          "landing_page": "https://www.appliancechamps.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    }
+  ]
+}

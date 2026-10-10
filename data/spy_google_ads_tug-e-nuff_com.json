@@ -1,0 +1,43 @@
+{
+  "domain": "tug-e-nuff.com",
+  "updated_at": "2026-10-10T15:07:36.914910",
+  "total_advertisers": 1,
+  "total_ads": 56,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR09258089185221279745",
+      "name": "Tug-E-Nuff Dog Gear LimitedĐã xác minh",
+      "legal_name": "Tug-E-Nuff Dog Gear LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09258089185221279745/creative/CR06698006248345829377?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 56,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 56,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: tug-e-nuff.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho tug-e-nuff.com",
+          "landing_page": "https://www.tug-e-nuff.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 56,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14810990273201958496"
+        }
+      ]
+    }
+  ]
+}

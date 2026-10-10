@@ -1,0 +1,996 @@
+{
+  "domain": "rockbrosbike.de",
+  "updated_at": "2026-10-10T16:45:48.950165",
+  "total_advertisers": 31,
+  "total_ads": 200,
+  "super_scale_count": 1,
+  "win_ads_count": 8,
+  "test_ads_count": 22,
+  "advertisers": [
+    {
+      "id": "AR01040090153940418561",
+      "name": "Rockbros Sport GmbHĐã xác minh",
+      "legal_name": "Rockbros Sport GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01040090153940418561/creative/CR14345052883009929217?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 154,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 154,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 154,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3108717100683731317"
+        }
+      ]
+    },
+    {
+      "id": "AR06629581234567643137",
+      "name": "ĐĂNG QUANG TRUNGĐã xác minh",
+      "legal_name": "ĐĂNG QUANG TRUNGĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06629581234567643137/creative/CR18007813268055261185?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3888641136057494711"
+        }
+      ]
+    },
+    {
+      "id": "AR08023052080623124481",
+      "name": "ĐẶNG QUANG TRUNGĐã xác minh",
+      "legal_name": "ĐẶNG QUANG TRUNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08023052080623124481/creative/CR05539871065758498817?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 5,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 5,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 5,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8113881634950644024"
+        }
+      ]
+    },
+    {
+      "id": "AR09143684777012887553",
+      "name": "HỘ KINH DOANH PHAN VĂN VỊNHĐã xác minh",
+      "legal_name": "HỘ KINH DOANH PHAN VĂN VỊNHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09143684777012887553/creative/CR16489962204922118145?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2443317500786095703"
+        }
+      ]
+    },
+    {
+      "id": "AR14700497126522093569",
+      "name": "Pashion.dk ApSĐã xác minh",
+      "legal_name": "Pashion.dk ApSĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14700497126522093569/creative/CR05375895467869601793?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR14443564692452409345",
+      "name": "Global Decibel SLĐã xác minh",
+      "legal_name": "Global Decibel SLĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14443564692452409345/creative/CR03753973842461065217?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR09120772621137346561",
+      "name": "ΤΣΑΧΕΙΡΙΔΗΣ Π. ΚΑΙ ΣΙA ΟΜΟΡΡΥΘΜΗ ΕΤΑΙΡΕΙΑĐã xác minh",
+      "legal_name": "ΤΣΑΧΕΙΡΙΔΗΣ Π. ΚΑΙ ΣΙA ΟΜΟΡΡΥΘΜΗ ΕΤΑΙΡΕΙΑĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09120772621137346561/creative/CR03338462419730038785?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR08733614785788116993",
+      "name": "OMIKRON44 G.P.Đã xác minh",
+      "legal_name": "OMIKRON44 G.P.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08733614785788116993/creative/CR11933890343621099521?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR02405368293499076609",
+      "name": "Vu Thi Van HaĐã xác minh",
+      "legal_name": "Vu Thi Van HaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02405368293499076609/creative/CR09348462418184896513?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2775742962288362097"
+        }
+      ]
+    },
+    {
+      "id": "AR15930053225785327617",
+      "name": "Đinh Ngọc VănĐã xác minh",
+      "legal_name": "Đinh Ngọc VănĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15930053225785327617/creative/CR00650191605470330881?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR08354054859254661121",
+      "name": "Bien LeĐã xác minh",
+      "legal_name": "Bien LeĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08354054859254661121/creative/CR17161310123507843073?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12999238000168814663"
+        }
+      ]
+    },
+    {
+      "id": "AR14192615474243567617",
+      "name": "ĐINH HỒNG NGỌCĐã xác minh",
+      "legal_name": "ĐINH HỒNG NGỌCĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14192615474243567617/creative/CR12776578766935687169?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16160346668948281353"
+        }
+      ]
+    },
+    {
+      "id": "AR00934351383417585665",
+      "name": "TRẦN VĂN LINHĐã xác minh",
+      "legal_name": "TRẦN VĂN LINHĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00934351383417585665/creative/CR15448171158033137665?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17114853939670642860"
+        }
+      ]
+    },
+    {
+      "id": "AR16436604683742609409",
+      "name": "权成学Đã xác minh",
+      "legal_name": "权成学Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16436604683742609409/creative/CR11227995194165035009?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8333482163710512897"
+        }
+      ]
+    },
+    {
+      "id": "AR03308822721571323905",
+      "name": "Ønskeskyen ApSĐã xác minh",
+      "legal_name": "Ønskeskyen ApSĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03308822721571323905/creative/CR05129254668794331137?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR11517470758645268481",
+      "name": "CÔNG TY TNHH ĐẦU TƯ THƯƠNG MẠI VÀ TƯ VẤN CÔNG NGHỆ VIỆT NAMĐã xác minh",
+      "legal_name": "CÔNG TY TNHH ĐẦU TƯ THƯƠNG MẠI VÀ TƯ VẤN CÔNG NGHỆ VIỆT NAMĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11517470758645268481/creative/CR15588938951677706241?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14152817181672369340"
+        }
+      ]
+    },
+    {
+      "id": "AR15426797725730996225",
+      "name": "SINOADS LTDĐã xác minh",
+      "legal_name": "SINOADS LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15426797725730996225/creative/CR07726319928378130433?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16034552902916363186"
+        }
+      ]
+    },
+    {
+      "id": "AR11098673625803259905",
+      "name": "CÔNG TY CP TƯ VẤN ĐẦU TƯ THIẾT KẾ XÂY DỰNG HCĐã xác minh",
+      "legal_name": "CÔNG TY CP TƯ VẤN ĐẦU TƯ THIẾT KẾ XÂY DỰNG HCĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11098673625803259905/creative/CR09593434880163708929?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6144707865620553193"
+        }
+      ]
+    },
+    {
+      "id": "AR08149736470345678849",
+      "name": "CENTRAL BRIGHT MANAGEMENT LIMITEDĐã xác minh",
+      "legal_name": "CENTRAL BRIGHT MANAGEMENT LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08149736470345678849/creative/CR16575639758730952705?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_18",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6036588765439930917"
+        }
+      ]
+    },
+    {
+      "id": "AR01515408755750076417",
+      "name": "Võ Thị HoaĐã xác minh",
+      "legal_name": "Võ Thị HoaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01515408755750076417/creative/CR11400780036266000385?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_19",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11240532713729582544"
+        }
+      ]
+    },
+    {
+      "id": "AR01886734568552136705",
+      "name": "PATRONUM WEB PRIVATE LIMITEDĐã xác minh",
+      "legal_name": "PATRONUM WEB PRIVATE LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01886734568552136705/creative/CR00817196220454797313?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_20",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13828859413524759377"
+        }
+      ]
+    },
+    {
+      "id": "AR06407937222464503809",
+      "name": "NGUYỄN XUÂN VŨĐã xác minh",
+      "legal_name": "NGUYỄN XUÂN VŨĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06407937222464503809/creative/CR13136054575989522433?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_21",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13245163694870779078"
+        }
+      ]
+    },
+    {
+      "id": "AR10991879461556715521",
+      "name": "GLOW GLOW GLOW FOR DIGITAL MARKETING CO.Đã xác minh",
+      "legal_name": "GLOW GLOW GLOW FOR DIGITAL MARKETING CO.Đã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10991879461556715521/creative/CR03965247887956246529?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_22",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12177215406745419797"
+        }
+      ]
+    },
+    {
+      "id": "AR17618670513570185217",
+      "name": "HỘ KINH DOANH PHAN VĂN VỊNHĐã xác minh",
+      "legal_name": "HỘ KINH DOANH PHAN VĂN VỊNHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17618670513570185217/creative/CR12744530683045609473?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_23",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/156473007878699088"
+        }
+      ]
+    },
+    {
+      "id": "AR11910736930842607617",
+      "name": "TRẦN VĂN LINHĐã xác minh",
+      "legal_name": "TRẦN VĂN LINHĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11910736930842607617/creative/CR06542878076928262145?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_24",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7898536534170466653"
+        }
+      ]
+    },
+    {
+      "id": "AR13932343196295102465",
+      "name": "HỒ THỊ THƯƠNGĐã xác minh",
+      "legal_name": "HỒ THỊ THƯƠNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13932343196295102465/creative/CR07624060708430282753?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_25",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR01461323254793764865",
+      "name": "Nguyễn Thị Thùy TrangĐã xác minh",
+      "legal_name": "Nguyễn Thị Thùy TrangĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01461323254793764865/creative/CR04885991569439588353?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_26",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13976337783804426705"
+        }
+      ]
+    },
+    {
+      "id": "AR00622371100839378945",
+      "name": "JOIN-CHEER Digital Marketing Communication(HK)Co., LimitedĐã xác minh",
+      "legal_name": "JOIN-CHEER Digital Marketing Communication(HK)Co., LimitedĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00622371100839378945/creative/CR13470067688608890881?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_27",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5507694653995887620"
+        }
+      ]
+    },
+    {
+      "id": "AR01441183766595764225",
+      "name": "Xun Meng International LimitedĐã xác minh",
+      "legal_name": "Xun Meng International LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01441183766595764225/creative/CR17968027645962616833?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_28",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8363616672717912644"
+        }
+      ]
+    },
+    {
+      "id": "AR11873745915120451585",
+      "name": "Collegedunia Web Pvt. Ltd.Đã xác minh",
+      "legal_name": "Collegedunia Web Pvt. Ltd.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11873745915120451585/creative/CR10766238853535629313?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_29",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8102672951349585344"
+        }
+      ]
+    },
+    {
+      "id": "AR03672412069912641537",
+      "name": "LOOMERA ADVISORY LTDĐã xác minh",
+      "legal_name": "LOOMERA ADVISORY LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03672412069912641537/creative/CR14119133316862967809?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_30",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rockbrosbike.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rockbrosbike.de",
+          "landing_page": "https://www.rockbrosbike.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7162562006357206899"
+        }
+      ]
+    }
+  ]
+}

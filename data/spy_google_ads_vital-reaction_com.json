@@ -1,0 +1,43 @@
+{
+  "domain": "vital-reaction.com",
+  "updated_at": "2026-10-10T15:47:06.140828",
+  "total_advertisers": 1,
+  "total_ads": 14,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR14632602764543262721",
+      "name": "Vital Reaction LLCĐã xác minh",
+      "legal_name": "Vital Reaction LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14632602764543262721/creative/CR06875860878432927745?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 14,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 14,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: vital-reaction.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho vital-reaction.com",
+          "landing_page": "https://www.vital-reaction.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 14,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9293026161677846309"
+        }
+      ]
+    }
+  ]
+}

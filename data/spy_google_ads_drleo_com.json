@@ -1,0 +1,75 @@
+{
+  "domain": "drleo.com",
+  "updated_at": "2026-10-10T15:27:26.372477",
+  "total_advertisers": 2,
+  "total_ads": 22,
+  "super_scale_count": 1,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR06945629529779994625",
+      "name": "Ever Rise International Trade LimitedĐã xác minh",
+      "legal_name": "Ever Rise International Trade LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06945629529779994625/creative/CR01196775809348534273?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 20,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 20,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: drleo.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho drleo.com",
+          "landing_page": "https://www.drleo.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 20,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10158200529306510292"
+        }
+      ]
+    },
+    {
+      "id": "AR15609370489061900289",
+      "name": "PHAN VĂN THÀNHĐã xác minh",
+      "legal_name": "PHAN VĂN THÀNHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15609370489061900289/creative/CR00728719619279290369?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: drleo.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho drleo.com",
+          "landing_page": "https://www.drleo.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15845855702668207981"
+        }
+      ]
+    }
+  ]
+}

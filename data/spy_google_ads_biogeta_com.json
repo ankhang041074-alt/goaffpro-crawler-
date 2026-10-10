@@ -1,0 +1,107 @@
+{
+  "domain": "biogeta.com",
+  "updated_at": "2026-10-10T17:03:14.025404",
+  "total_advertisers": 3,
+  "total_ads": 36,
+  "super_scale_count": 1,
+  "win_ads_count": 2,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR07675194828119867393",
+      "name": "IT Solutions FZCOĐã xác minh",
+      "legal_name": "IT Solutions FZCOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07675194828119867393/creative/CR08962029160998371329?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: biogeta.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho biogeta.com",
+          "landing_page": "https://www.biogeta.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15809332889867374315"
+        }
+      ]
+    },
+    {
+      "id": "AR14857634174403084289",
+      "name": "Alternawol eGĐã xác minh",
+      "legal_name": "Alternawol eGĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14857634174403084289/creative/CR02081390028369428481?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 32,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 32,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: biogeta.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho biogeta.com",
+          "landing_page": "https://www.biogeta.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 32,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8475846360869070717"
+        }
+      ]
+    },
+    {
+      "id": "AR02310556323504193537",
+      "name": "METROPOLIS AGENCY LLPĐã xác minh",
+      "legal_name": "METROPOLIS AGENCY LLPĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02310556323504193537/creative/CR01124527218114953217?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: biogeta.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho biogeta.com",
+          "landing_page": "https://www.biogeta.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12395790777472267986"
+        }
+      ]
+    }
+  ]
+}

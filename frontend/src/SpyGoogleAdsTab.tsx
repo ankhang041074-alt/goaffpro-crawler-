@@ -16,6 +16,7 @@ import {
   Layers,
   Award
 } from 'lucide-react';
+import { Campaign12MonthTimeline, getTripartiteClassification } from './Campaign12MonthTimeline';
 
 interface Creative {
   id: string;
@@ -24,6 +25,7 @@ interface Creative {
   headline: string;
   description: string;
   landing_page: string;
+  first_seen?: string;
   last_shown: string;
   duration_days: number;
   image_url?: string;
@@ -41,33 +43,60 @@ interface Advertiser {
   first_seen: string;
   last_shown: string;
   duration_days: number;
-  longevity_badge: 'test' | 'stable' | 'win_ads' | 'super_scale';
+  longevity_badge?: string;
+  classification?: 'evergreen' | 'seasonal' | 'new_test' | string;
+  classification_label?: string;
+  campaign_type?: string;
+  campaign_type_label?: string;
   scale_label?: string;
-  formats: string[];
+  formats: string[] | { text?: number; image?: number; video?: number; search?: number };
   ad_count: number;
+  monthly_activity?: {
+    [year: string]: boolean[];
+  };
+  timeline_3year?: {
+    [year: string]: boolean[];
+  };
   creatives: Creative[];
 }
 
 interface SpyData {
   domain: string;
-  updated_at: string;
+  updated_at?: string;
+  scraped_at?: string;
   total_advertisers: number;
   total_ads: number;
-  win_ads_count: number;
-  super_scale_count: number;
+  win_ads_count?: number;
+  super_scale_count?: number;
   test_ads_count?: number;
+  is_verified_zero?: boolean;
+  status?: string;
+  is_empty?: boolean;
+  all_time_enabled?: boolean;
   advertisers: Advertiser[];
 }
 
-export const SpyGoogleAdsTab: React.FC = () => {
+export interface SpyGoogleAdsTabProps {
+  initialDomain?: string;
+}
+
+export const SpyGoogleAdsTab: React.FC<SpyGoogleAdsTabProps> = ({ initialDomain }) => {
   const [data, setData] = useState<SpyData | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [crawling, setCrawling] = useState<boolean>(false);
-  const [searchDomain, setSearchDomain] = useState<string>('binize.com');
+  const [searchDomain, setSearchDomain] = useState<string>(() => initialDomain || 'binize.com');
+  const [filterLongevity, setFilterLongevity] = useState<'all' | 'scale' | 'win'>('all');
+  const [matrixMode, setMatrixMode] = useState<'3year' | '12m'>('3year');
   const [filterScale, setFilterScale] = useState<string>('all');
   const [filterFormat, setFilterFormat] = useState<string>('all');
   const [filterCountry, setFilterCountry] = useState<string>('all');
   const [expandedAdvId, setExpandedAdvId] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (initialDomain && initialDomain.trim() && initialDomain !== searchDomain) {
+      setSearchDomain(initialDomain.trim());
+    }
+  }, [initialDomain]);
 
   const getCleanDomain = (d: string) => {
     return (d || '')
@@ -175,23 +204,44 @@ export const SpyGoogleAdsTab: React.FC = () => {
     return cleaned.trim();
   };
 
-  const superScaleCount = (data?.advertisers || []).filter(a => a.ad_count >= 10).length;
-  const winAdsCount = (data?.advertisers || []).filter(a => a.ad_count >= 2 && a.ad_count < 10).length;
-  const testAdsCount = (data?.advertisers || []).filter(a => a.ad_count === 1).length;
+  const getAdvFormats = (adv: Advertiser): string[] => {
+    if (Array.isArray(adv.formats)) return adv.formats;
+    if (adv.formats && typeof adv.formats === 'object') {
+      const list: string[] = [];
+      if ((adv.formats as any).text > 0 || (adv.formats as any).search > 0) list.push('search');
+      if ((adv.formats as any).image > 0) list.push('image');
+      if ((adv.formats as any).video > 0) list.push('video');
+      return list.length > 0 ? list : ['search'];
+    }
+    return ['search'];
+  };
+
+  const advertisers = data?.advertisers || [];
+  const superScaleCount = advertisers.filter(a => a.duration_days >= 60 || a.ad_count >= 10).length;
+  const winAdsCount = advertisers.filter(a => a.duration_days >= 30 || (a.ad_count >= 2 && a.ad_count < 10)).length;
+  const evergreenCount = advertisers.filter(a => a.classification === 'evergreen' || a.duration_days >= 180).length;
+  const evergreenPct = advertisers.length > 0 ? Math.round((evergreenCount / advertisers.length) * 100) : 0;
+  const testAdsCount = advertisers.filter(a => a.duration_days < 30 && a.ad_count === 1).length;
+
   const isVerifiedZero = Boolean(
     data && (
-      (data.total_ads === 0 && Boolean(data.updated_at)) ||
-      (data as any).is_verified_zero ||
-      (data as any).status === 'no_ads'
+      (data.total_ads === 0 && Boolean(data.updated_at || data.scraped_at)) ||
+      data.is_verified_zero ||
+      data.status === 'no_ads' ||
+      data.is_empty
     )
   );
 
-  const filteredAdvertisers = (data?.advertisers || []).filter(adv => {
-    if (filterScale === 'super_scale' && adv.ad_count < 10) return false;
-    if (filterScale === 'win_ads' && (adv.ad_count < 2 || adv.ad_count >= 10)) return false;
-    if (filterScale === 'test' && adv.ad_count !== 1) return false;
+  const filteredAdvertisers = advertisers.filter(adv => {
+    if (filterLongevity === 'scale') {
+      return adv.duration_days >= 60 || adv.ad_count >= 10;
+    }
+    if (filterLongevity === 'win') {
+      return adv.duration_days >= 30 || adv.ad_count >= 2;
+    }
 
-    if (filterFormat !== 'all' && !adv.formats.includes(filterFormat)) return false;
+    const formats = getAdvFormats(adv);
+    if (filterFormat !== 'all' && !formats.includes(filterFormat)) return false;
     if (filterCountry !== 'all' && adv.country !== filterCountry) return false;
 
     return true;
@@ -326,146 +376,144 @@ export const SpyGoogleAdsTab: React.FC = () => {
 
       {/* METRIC OVERVIEW CARDS */}
       <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        {/* Card 1 */}
-        <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-sm">
+        {/* Card 1: TỔNG NHÀ QUẢNG CÁO */}
+        <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-sm flex flex-col justify-between">
           <div className="flex items-center justify-between text-slate-500 mb-1">
-            <span className="text-xs font-semibold uppercase tracking-wider">Tổng Nhà Quảng Cáo</span>
+            <span className="text-xs font-bold uppercase tracking-wider text-slate-500">
+              Tổng Nhà Quảng Cáo
+            </span>
             <Globe2 size={16} className="text-indigo-600" />
           </div>
-          <div className="text-2xl font-black text-slate-900 font-mono">
-            {data?.total_advertisers || 0} Đơn Vị
+          <div className="my-1">
+            <span className="text-2xl font-black text-slate-900 font-mono">
+              {data?.total_advertisers || 0} Đơn Vị
+            </span>
+            <span className="text-[11px] text-slate-400 block mt-0.5">
+              {data?.total_ads || 0} mẫu ads
+            </span>
           </div>
-          <span className="text-[11px] text-slate-500 mt-0.5 block">
-            {data?.total_ads || 0} mẫu quảng cáo đang được phân phối
-          </span>
         </div>
 
-        {/* Card 2: Quy mô lớn */}
-        <div className="bg-white border border-orange-200 rounded-2xl p-4 shadow-sm bg-gradient-to-br from-orange-50/50 to-white">
+        {/* Card 2: WIN ADS (> 1 THÁNG) */}
+        <div className="bg-white border border-emerald-300 rounded-2xl p-4 shadow-sm flex flex-col justify-between">
+          <div className="flex items-center justify-between text-emerald-700 mb-1">
+            <span className="text-xs font-bold uppercase tracking-wider text-emerald-700">
+              WIN ADS (&gt; 1 THÁNG)
+            </span>
+            <CheckCircle2 size={16} className="text-emerald-600" />
+          </div>
+          <div className="my-1">
+            <span className="text-2xl font-black text-emerald-600 font-mono">
+              {winAdsCount} Đơn Vị
+            </span>
+            <span className="text-[11px] text-emerald-600/90 font-medium block mt-0.5">
+              ✅ Đang có lời
+            </span>
+          </div>
+        </div>
+
+        {/* Card 3: SUPER SCALE (> 2 THÁNG) */}
+        <div className="bg-white border border-orange-300 rounded-2xl p-4 shadow-sm flex flex-col justify-between">
           <div className="flex items-center justify-between text-orange-700 mb-1">
-            <span className="text-xs font-bold uppercase tracking-wider">🔥 Quy Mô Lớn (≥10 Ads)</span>
+            <span className="text-xs font-bold uppercase tracking-wider text-orange-700">
+              SUPER SCALE (&gt; 2 THÁNG)
+            </span>
             <Flame size={16} className="text-orange-500" />
           </div>
-          <div className="text-2xl font-black text-orange-600 font-mono">
-            {superScaleCount} Đơn Vị
+          <div className="my-1">
+            <span className="text-2xl font-black text-orange-600 font-mono">
+              {superScaleCount} Đơn Vị
+            </span>
+            <span className="text-[11px] text-orange-600/90 font-medium block mt-0.5">
+              🔥 Cỗ máy in tiền
+            </span>
           </div>
-          <span className="text-[11px] text-orange-600/80 mt-0.5 block font-medium">
-            Chiến dịch lớn, ngân sách cao
-          </span>
         </div>
 
-        {/* Card 3: Đang chạy đều */}
-        <div className="bg-white border border-emerald-200 rounded-2xl p-4 shadow-sm bg-gradient-to-br from-emerald-50/50 to-white">
-          <div className="flex items-center justify-between text-emerald-700 mb-1">
-            <span className="text-xs font-bold uppercase tracking-wider">🟢 Đang Chạy Đều (2 - 9 Ads)</span>
-            <Award size={16} className="text-emerald-600" />
+        {/* Card 4: TỶ LỆ QUANH NĂM */}
+        <div className="bg-white border border-purple-300 rounded-2xl p-4 shadow-sm flex flex-col justify-between">
+          <div className="flex items-center justify-between text-purple-700 mb-1">
+            <span className="text-xs font-bold uppercase tracking-wider text-purple-700">
+              TỶ LỆ QUANH NĂM
+            </span>
+            <Sparkles size={16} className="text-purple-600" />
           </div>
-          <div className="text-2xl font-black text-emerald-600 font-mono">
-            {winAdsCount} Đơn Vị
+          <div className="my-1">
+            <span className="text-2xl font-black text-purple-600 font-mono">
+              {evergreenPct}%
+            </span>
+            <span className="text-[11px] text-purple-600/90 font-medium block mt-0.5">
+              🌲 Chạy đều 4 mùa
+            </span>
           </div>
-          <span className="text-[11px] text-emerald-600/80 mt-0.5 block font-medium">
-            Duy trì ổn định & hiệu quả
-          </span>
-        </div>
-
-        {/* Card 4: Mới thử nghiệm */}
-        <div className="bg-white border border-amber-200 rounded-2xl p-4 shadow-sm bg-gradient-to-br from-amber-50/50 to-white">
-          <div className="flex items-center justify-between text-amber-700 mb-1">
-            <span className="text-xs font-bold uppercase tracking-wider">🟡 Mới Thử Nghiệm (1 Ad)</span>
-            <Layers size={16} className="text-amber-500" />
-          </div>
-          <div className="text-2xl font-black text-amber-600 font-mono">
-            {testAdsCount} Đơn Vị
-          </div>
-          <span className="text-[11px] text-amber-600/80 mt-0.5 block font-medium">
-            Vừa bắt đầu triển khai
-          </span>
         </div>
       </section>
 
       {/* FILTER CONTROL BAR */}
-      <section className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-sm flex flex-wrap items-center justify-between gap-4">
-        {/* Scale Filter */}
-        <div className="flex items-center gap-2 flex-wrap">
-          <span className="text-xs font-bold text-slate-500 mr-1">Quy Mô Ads:</span>
+      <section className="bg-white border border-slate-200/90 rounded-2xl p-3 shadow-sm flex flex-wrap items-center justify-between gap-3">
+        <div className="flex items-center gap-1.5 flex-wrap">
+          <span className="text-xs font-bold text-slate-500 mr-1">Lọc Tuổi Thọ:</span>
           <button
-            onClick={() => setFilterScale('all')}
-            className={`px-3 py-1.5 rounded-xl text-xs font-bold transition cursor-pointer ${
-              filterScale === 'all' ? 'bg-slate-900 text-white' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+            onClick={() => setFilterLongevity('all')}
+            className={`px-3 py-1.5 rounded-xl text-xs font-bold cursor-pointer transition ${
+              filterLongevity === 'all'
+                ? 'bg-slate-900 text-white'
+                : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
             }`}
           >
-            Tất Cả ({data?.advertisers?.length || 0})
+            Tất Cả ({advertisers.length})
           </button>
           <button
-            onClick={() => setFilterScale('super_scale')}
-            className={`px-3 py-1.5 rounded-xl text-xs font-bold transition cursor-pointer flex items-center gap-1 ${
-              filterScale === 'super_scale' ? 'bg-orange-600 text-white' : 'bg-orange-50 text-orange-700 hover:bg-orange-100 border border-orange-200'
+            onClick={() => setFilterLongevity('scale')}
+            className={`px-3 py-1.5 rounded-xl text-xs font-bold cursor-pointer transition ${
+              filterLongevity === 'scale'
+                ? 'bg-orange-600 text-white'
+                : 'bg-orange-50 text-orange-700 hover:bg-orange-100 border border-orange-200'
             }`}
           >
-            <Flame size={12} />
-            <span>🔥 Quy mô lớn (≥10 ads) ({superScaleCount})</span>
+            🔥 &gt; 2 Tháng ({superScaleCount})
           </button>
           <button
-            onClick={() => setFilterScale('win_ads')}
-            className={`px-3 py-1.5 rounded-xl text-xs font-bold transition cursor-pointer flex items-center gap-1 ${
-              filterScale === 'win_ads' ? 'bg-emerald-600 text-white' : 'bg-emerald-50 text-emerald-700 hover:bg-emerald-100 border border-emerald-200'
+            onClick={() => setFilterLongevity('win')}
+            className={`px-3 py-1.5 rounded-xl text-xs font-bold cursor-pointer transition ${
+              filterLongevity === 'win'
+                ? 'bg-emerald-600 text-white'
+                : 'bg-emerald-50 text-emerald-700 hover:bg-emerald-100 border border-emerald-200'
             }`}
           >
-            <CheckCircle2 size={12} />
-            <span>🟢 Đang chạy đều (2-9 ads) ({winAdsCount})</span>
-          </button>
-          <button
-            onClick={() => setFilterScale('test')}
-            className={`px-3 py-1.5 rounded-xl text-xs font-bold transition cursor-pointer flex items-center gap-1 ${
-              filterScale === 'test' ? 'bg-amber-600 text-white' : 'bg-amber-50 text-amber-700 hover:bg-amber-100 border border-amber-200'
-            }`}
-          >
-            <span>🟡 Mới thử nghiệm (1 ad) ({testAdsCount})</span>
+            🟢 &gt; 1 Tháng (Win Ads) ({winAdsCount})
           </button>
         </div>
 
-        {/* Formats & Country */}
+        {/* Formats & Country & Toggle: Ma Trận 3 Năm vs Tóm Tắt 12T */}
         <div className="flex items-center gap-2 flex-wrap">
-          <div className="flex items-center bg-slate-100 p-0.5 rounded-xl border border-slate-300">
+          <div className="flex items-center bg-slate-100 p-0.5 rounded-xl border border-slate-200">
             <button
-              onClick={() => setFilterFormat('all')}
-              className={`px-2.5 py-1 rounded-lg text-xs font-semibold cursor-pointer transition ${
-                filterFormat === 'all' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-600 hover:text-slate-900'
+              onClick={() => setMatrixMode('3year')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
+                matrixMode === '3year'
+                  ? 'bg-white text-slate-900 shadow-2xs font-black'
+                  : 'text-slate-500 hover:text-slate-800'
               }`}
             >
-              Tất Cả Định Dạng
+              Ma Trận 3 Năm
             </button>
             <button
-              onClick={() => setFilterFormat('search')}
-              className={`px-2.5 py-1 rounded-lg text-xs font-semibold cursor-pointer transition ${
-                filterFormat === 'search' ? 'bg-white text-blue-700 shadow-xs' : 'text-slate-600 hover:text-slate-900'
+              onClick={() => setMatrixMode('12m')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
+                matrixMode === '12m'
+                  ? 'bg-white text-slate-900 shadow-2xs font-black'
+                  : 'text-slate-500 hover:text-slate-800'
               }`}
             >
-              Search Text
-            </button>
-            <button
-              onClick={() => setFilterFormat('image')}
-              className={`px-2.5 py-1 rounded-lg text-xs font-semibold cursor-pointer transition ${
-                filterFormat === 'image' ? 'bg-white text-emerald-700 shadow-xs' : 'text-slate-600 hover:text-slate-900'
-              }`}
-            >
-              Display Banner
-            </button>
-            <button
-              onClick={() => setFilterFormat('video')}
-              className={`px-2.5 py-1 rounded-lg text-xs font-semibold cursor-pointer transition ${
-                filterFormat === 'video' ? 'bg-white text-rose-700 shadow-xs' : 'text-slate-600 hover:text-slate-900'
-              }`}
-            >
-              YouTube Video
+              Tóm Tắt 12T
             </button>
           </div>
 
-          {/* Country filter */}
           <select
             value={filterCountry}
             onChange={e => setFilterCountry(e.target.value)}
-            className="px-3 py-1.5 rounded-xl text-xs font-semibold bg-slate-100 border border-slate-300 text-slate-700 focus:outline-none"
+            className="px-3 py-1.5 rounded-xl text-xs font-semibold bg-slate-100 border border-slate-200 text-slate-700 focus:outline-none"
           >
             <option value="all">Tất cả quốc gia</option>
             <option value="Việt Nam">🇻🇳 Việt Nam</option>
@@ -507,7 +555,7 @@ export const SpyGoogleAdsTab: React.FC = () => {
             <span>{crawling ? 'Đang Quét Lại...' : '🔄 Quét Lại Trực Tiếp'}</span>
           </button>
         </section>
-      ) : (!data || !data.updated_at || !data.advertisers || data.advertisers.length === 0) ? (
+      ) : (!data || (!data.updated_at && !data.scraped_at) || !data.advertisers || data.advertisers.length === 0) ? (
         <section className="bg-white border border-slate-200 rounded-3xl p-10 text-center shadow-sm space-y-3">
           <div className="w-14 h-14 rounded-2xl bg-orange-100 text-orange-600 flex items-center justify-center mx-auto">
             <Flame size={28} />
@@ -547,16 +595,15 @@ export const SpyGoogleAdsTab: React.FC = () => {
             <table className="w-full text-left border-collapse text-xs">
               <thead>
                 <tr className="bg-slate-50/90 text-slate-500 font-bold border-b border-slate-200 uppercase tracking-wider text-[11px]">
-                  <th className="py-3.5 px-4 w-[280px]">Nhà Quảng Cáo (Advertiser)</th>
-                  <th className="py-3.5 px-4 w-[220px]">Quy Mô Chiến Dịch</th>
-                  <th className="py-3.5 px-4 min-w-[240px]">Định Dạng Quảng Cáo</th>
-                  <th className="py-3.5 px-4 text-center w-[120px]">Creatives</th>
+                  <th className="py-3.5 px-4 w-[280px]">NHÀ QUẢNG CÁO</th>
+                  <th className="py-3.5 px-4 min-w-[200px]">TUỔI THỌ CAMP</th>
+                  <th className="py-3.5 px-4 min-w-[340px]">MA TRẬN MÙA VỤ (2024 - 2026)</th>
+                  <th className="py-3.5 px-4 text-center w-[120px]">CREATIVES</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100">
                 {filteredAdvertisers.map(adv => {
                   const isExpanded = expandedAdvId === adv.id;
-                  const scale = getScaleBadge(adv.ad_count);
                   const displayName = cleanAdvName(adv.name);
 
                   return (
@@ -600,36 +647,49 @@ export const SpyGoogleAdsTab: React.FC = () => {
                           </div>
                         </td>
 
-                        {/* Column 2: Scale Badge */}
+                        {/* Column 2: Tuổi Thọ Camp */}
                         <td className="py-4 px-4 align-top">
-                          <div>
-                            <span className={`inline-flex items-center gap-1 px-3 py-1 rounded-xl text-xs font-bold border ${scale.badgeClass}`}>
-                              {scale.label}
+                          <div className="flex flex-col gap-0.5">
+                            {adv.duration_days >= 60 ? (
+                              <span className="font-bold text-slate-900 text-xs flex items-center gap-1.5">
+                                <span className="w-2.5 h-2.5 rounded-full bg-orange-500 flex-shrink-0 animate-pulse"></span>
+                                <span>{adv.duration_days} ngày (&gt; 2 tháng)</span>
+                              </span>
+                            ) : adv.duration_days >= 30 ? (
+                              <span className="font-bold text-slate-900 text-xs flex items-center gap-1.5">
+                                <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 flex-shrink-0"></span>
+                                <span>{adv.duration_days} ngày (&gt; 1 tháng)</span>
+                              </span>
+                            ) : (
+                              <span className="font-bold text-slate-900 text-xs flex items-center gap-1.5">
+                                <span className="w-2.5 h-2.5 rounded-full bg-amber-400 flex-shrink-0"></span>
+                                <span>{adv.duration_days} ngày (Mới test)</span>
+                              </span>
+                            )}
+
+                            {adv.duration_days >= 365 && (
+                              <span className="text-[10px] text-orange-600 font-mono pl-4">
+                                ~{(adv.duration_days / 365).toFixed(1)} năm liên tục
+                              </span>
+                            )}
+
+                            <span className="text-[10.5px] text-slate-400 font-mono mt-0.5 pl-4 block">
+                              Từ: {adv.first_seen || adv.last_shown || '2026-05-01'}
                             </span>
-                            <div className="text-[10px] text-slate-400 mt-1.5 flex flex-col gap-0.5">
-                              <span>Tổng cộng: <strong className="text-slate-700 font-mono">{adv.ad_count}</strong> mẫu ads</span>
-                              <span>Gần nhất: <strong className="text-slate-600 font-mono">{adv.last_shown}</strong></span>
-                            </div>
                           </div>
                         </td>
 
-                        {/* Column 3: Formats */}
-                        <td className="py-4 px-4 align-top">
-                          <div className="flex flex-wrap gap-1.5">
-                            {adv.formats.map(fmt => (
-                              <span
-                                key={fmt}
-                                className="inline-flex items-center gap-1 text-[11px] font-semibold text-slate-700 bg-slate-100 px-2.5 py-1 rounded-lg border border-slate-200"
-                              >
-                                {fmt === 'search' && <FileText size={12} className="text-blue-600" />}
-                                {fmt === 'image' && <ImageIcon size={12} className="text-emerald-600" />}
-                                {fmt === 'video' && <Video size={12} className="text-rose-600" />}
-                                <span>
-                                  {fmt === 'search' ? 'Search Text' : fmt === 'image' ? 'Display Banner' : 'YouTube Video'}
-                                </span>
-                              </span>
-                            ))}
-                          </div>
+                        {/* Column 3: Ma Trận Mùa Vụ (2024 - 2026) */}
+                        <td className="py-4 px-4 align-top min-w-[340px]">
+                          <Campaign12MonthTimeline
+                            durationDays={adv.duration_days}
+                            firstSeen={adv.first_seen}
+                            lastShown={adv.last_shown}
+                            monthlyActivity={adv.monthly_activity || adv.timeline_3year}
+                            classification={adv.classification}
+                            classificationLabel={adv.classification_label || adv.longevity_badge}
+                            mode={matrixMode}
+                          />
                         </td>
 
                         {/* Column 4: Action Button */}
@@ -679,7 +739,7 @@ export const SpyGoogleAdsTab: React.FC = () => {
                                             {cr.format_label}
                                           </span>
                                           <span className="text-[10px] text-slate-400 font-mono">
-                                            {scale.label}
+                                            {cr.duration_days}d
                                           </span>
                                         </div>
 
@@ -702,6 +762,14 @@ export const SpyGoogleAdsTab: React.FC = () => {
                                         <p className="text-[11px] text-slate-600 mt-1 line-clamp-3">
                                           {descClean || `Mẫu quảng cáo hiển thị trên Google Ads cho ${searchDomain}`}
                                         </p>
+                                        <div className="mt-2">
+                                          <Campaign12MonthTimeline
+                                            durationDays={cr.duration_days}
+                                            firstSeen={cr.first_seen}
+                                            lastShown={cr.last_shown}
+                                            compact={true}
+                                          />
+                                        </div>
                                       </div>
 
                                       <div className="mt-2.5 pt-2 border-t border-slate-200 flex items-center justify-between text-[11px]">

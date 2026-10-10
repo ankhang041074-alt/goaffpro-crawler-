@@ -1,0 +1,74 @@
+{
+  "domain": "ruedelhygiene.fr",
+  "updated_at": "2026-10-10T15:24:27.762765",
+  "total_advertisers": 2,
+  "total_ads": 66,
+  "super_scale_count": 1,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR10682801580438192129",
+      "name": "MAUSEYTIĐã xác minh",
+      "legal_name": "MAUSEYTIĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10682801580438192129/creative/CR07973459390336335873?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 64,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 64,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ruedelhygiene.fr",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ruedelhygiene.fr",
+          "landing_page": "https://www.ruedelhygiene.fr",
+          "last_shown": "2026-10-10",
+          "duration_days": 64,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5593848575721765901"
+        }
+      ]
+    },
+    {
+      "id": "AR07476382269456777217",
+      "name": "SROVNAME, s.r.o.Đã xác minh",
+      "legal_name": "SROVNAME, s.r.o.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07476382269456777217/creative/CR13023340443570536449?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: ruedelhygiene.fr",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ruedelhygiene.fr",
+          "landing_page": "https://www.ruedelhygiene.fr",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    }
+  ]
+}

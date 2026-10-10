@@ -1,170 +1,238 @@
-# 🚀 GoAffPro Store Hunter, Traffic Intelligence & CRM Suite
+# 🚀 GoAffPro Store Hunter, Google Ads Spy & Traffic Intelligence Suite
 
-Ứng dụng nội bộ hoàn chỉnh (Full-Stack Desktop & Web App) chuyên dụng để săn tìm, phân tích lưu lượng truy cập thực tế (Similarweb & Tranco), bóc tách xu hướng tìm kiếm 5 năm (Google Trends), phân loại ngành hàng thông minh và quản lý quan hệ đối tác affiliate (CRM).
-
----
-
-## 🌟 Tính Năng Cốt Lõi (Key Features)
-
-### 1. 🌐 Tích Hợp Similarweb Thực Tế (Traffic.cv Worker)
-* **Dữ liệu thật 100% từ Similarweb:** Bóc tách chính xác Total Monthly Visits, Global Rank, Country Rank, Bounce Rate (Tỷ lệ thoát), Avg Visit Duration (Thời gian onsite), và Pages per Visit.
-* **Cơ Chế Vượt Rào Cloudflare Turnstile 3 Lớp:**
-  * **Lớp 1 (Tự động):** Chạy Chrome thật với profile lưu phiên, hầu hết các lượt truy vấn tự động vượt qua Turnstile.
-  * **Lớp 2 (Cảnh báo thông minh):** Nếu gặp Captcha người thật, cửa sổ tự động bung lên màn hình, phát chuông báo macOS `Glass.aiff` để người dùng bấm giải.
-  * **Lớp 3 (Chống treo luồng sau 90s):** Nếu người dùng đi vắng quá 90 giây, hệ thống tự động Fallback sang công thức Tranco Zipf và tiếp tục sang store tiếp theo, **tuyệt đối không bao giờ bị đơ hay treo máy**.
-* **Cào Ngầm 100% Không Làm Phiền (Stealth Crawling):** Cửa sổ Chrome tự động thu nhỏ xuống Dock (`windowState: minimized`), không chiếm con trỏ chuột, không giật màn hình.
+Ứng dụng nội bộ full-stack (Desktop & Web App) chuyên dụng để **săn tìm store affiliate tiềm năng**, **bóc tách chiến dịch Google Ads Transparency (All-Time Spy)**, **phân tích lưu lượng truy cập Similarweb & Tranco**, và **đọc vị chu kỳ tìm kiếm 3-5 năm trên Google Trends** nhằm phục vụ tối đa cho Affiliate Marketer, Media Buyer và Growth Hacker.
 
 ---
 
-### 2. 📈 Google Trends 5 Năm & Bộ Lọc Đón Sóng Mùa Bán Chạy (Growth & Evergreen)
-* **Biểu đồ thời gian thực (Interactive SVG Timeline):** Thể hiện chi tiết mức độ quan tâm tìm kiếm từ 0 - 100 điểm suốt 2 - 5 năm, đánh dấu tháng bùng nổ nhất (`🔥 Peak Month`).
-* **Bộ lọc Đều Đặn Quanh Năm (`🟢 Evergreen / Nhấp đều`):** Tìm các store có lượng tìm kiếm bền vững, không bị phụ thuộc vào mùa vụ.
-* **Bộ lọc theo Tháng (Tháng 1 -> Tháng 12) với 4 tiêu chí:**
-  1. `🌊 Tất cả`: Xem các store có phát sinh tìm kiếm trong tháng.
-  2. `↗️ Đón sóng tăng trưởng`: Store đang vào mùa bán chạy (điểm tháng này tăng so với tháng trước).
-  3. `🏔️ Bùng nổ đạt đỉnh`: Tháng được chọn chính là mùa bán chạy nhất năm (`🏔️ Đỉnh T{tháng}`).
-  4. `🔥 Lượng tìm kiếm cao`: Thương hiệu lớn có độ hot vượt trội ($\ge 50$ điểm).
-* **Cơ Chế HTTP/2 TLS Fingerprint:** Sử dụng `curl_cffi` giả lập Chrome 124 TLS/JA3 và cơ chế tái sử dụng Cookie NID/SOCS trên ổ đĩa, phản hồi cực nhanh (~0.3s) và tự động giãn cách khi gặp giới hạn của Google mà không cần bật VPN.
+## 🌟 Tính Năng Đột Phá (Core Capabilities)
+
+### 1. 🕵️ Google Ads Transparency Spy Engine (Toàn Diện & Chuẩn Xác)
+* **Bóc Tách Dữ Liệu Ads Không Giới Hạn Thời Gian (All-Time Mode):**
+  * Tự động crawl toàn bộ lịch sử mẫu quảng cáo của từng store trực tiếp từ Google Ads Transparency Center.
+  * Trích xuất chính xác: Tiêu đề quảng cáo (Headline), Nội dung mô tả (Description), Trang đích (Landing Page), Định dạng (Google Search Text Ads / Display Image Ads), Ngày hiển thị đầu tiên (`first_seen`) và Ngày hiển thị gần nhất (`last_shown`).
+* **Phân Loại Chiến Dịch 3 Nhóm Chuẩn Hóa (Tripartite Classification):**
+  * 🌲 **Chạy Quanh Năm (Evergreen):** Chiến dịch chạy liên tục xuyên suốt các quý ($\ge 6 - 7$ tháng/năm hoặc tuổi thọ $\ge 180$ ngày), doanh số và nhu cầu ổn định quanh năm.
+  * 🍂 **Chạy Theo Mùa (Seasonal):** Chiến dịch tập trung dồn ngân sách vào các tháng cao điểm cố định trong năm (đặc biệt là Q4: Black Friday, Cyber Monday, Giáng Sinh).
+  * 🟡 **Mới Chạy (New Test):** Mẫu quảng cáo mới được tung ra thử nghiệm trong vòng 30 ngày gần đây.
+* **Ma Trận Mùa Vụ 3 Năm Trực Tiếp (3-Year Seasonality Matrix 2024 - 2026):**
+  * Hiển thị bảng ma trận 3 hàng năm chồng trực tiếp (2024, 2025, 2026) với 12 tháng (T1 - T12) hiển thị trực quan các tháng chiến dịch có phân phối quảng cáo.
+  * Hiển thị tuổi thọ quảng cáo chính xác theo công thức ngày thực tế: `duration_days = max(1, (last_shown - first_seen).days + 1)`.
+* **Bộ Lọc Phân Cấp Quy Mô Ads:**
+  * 🔥 `Quy mô lớn (≥10 mẫu ads)`: Store đang vít ngân sách cực mạnh (Super Scale).
+  * 🟢 `Đang chạy đều (2 - 9 mẫu ads)`: Store có dàn quảng cáo chạy ổn định (Winning Ads).
+  * 🟡 `Mới thử nghiệm (1 mẫu ad)`: Store mới test thị trường.
+  * ⚪ `Chưa chạy ads (0 ads)`: Store chưa triển khai Google Ads.
+* **Worker Độc Lập Cách Ly Profile (Worker Profile Isolation):**
+  * Worker chạy ngầm Playwright với Chrome Profile riêng biệt (`data/chrome_profile_spy`), độc lập hoàn toàn với worker Similarweb và người dùng, không lo xung đột phiên.
 
 ---
 
-### 3. 🎯 Bộ Lọc Thời Hạn Cookie Tinh Gọn (Cookie Retention)
-Được tối ưu thành 4 nhóm chuẩn hóa:
-* `Dưới 14 ngày (< 14 days)`
-* `14 – 30 ngày (14d – 30d)`
-* `30 ngày trở lên (≥ 30 days)`
-* `≥ 14 ngày (Chuẩn)`: Tập trung các cơ hội affiliate bền vững với tỷ lệ giữ chân hoa hồng tốt nhất.
+### 2. 📈 Google Trends 5 Năm & Đánh Giá Mùa Vụ 3 Năm
+* **Biểu Đồ Xu Hướng SVG Tương Tác:** Trực quan hóa điểm tìm kiếm thương hiệu từ 0 - 100 điểm suốt 3 - 5 năm, định vị chính xác tháng đỉnh (`🔥 Peak Month`).
+* **Đọc Vị Từng Năm (2024, 2025, 2026):** Tự động phân tích xem từng năm thương hiệu bán theo mùa hay bán full mùa quanh năm, đưa ra lời khuyên chiến lược ngân sách cụ thể cho Affiliate.
+* **Bộ Lọc Đón Sóng Mùa Bán Chạy:**
+  1. `🟢 Evergreen`: Lưu lượng nhấp đều quanh năm, không đứt gãy.
+  2. `↗️ Đón sóng tăng trưởng`: Store đang bước vào mùa tăng trưởng lưu lượng.
+  3. `🏔️ Bùng nổ đạt đỉnh`: Lọc theo tháng đạt đỉnh cao nhất năm.
+  4. `🔥 Độ hot cao`: Lượng tìm kiếm lớn ($\ge 50$ điểm).
+* **Kết Nối TLS/JA3 HTTP/2 Siêu Tốc:** Giả lập Chrome TLS Fingerprint với `curl_cffi`, tái sử dụng cookie Google an toàn, phản hồi tức thì (~0.3s/store) mà không cần VPN.
 
 ---
 
-### 4. 🏷️ Phân Loại Ngành Hàng Đa Tầng & Lọc 18+ Tinh Tế
-* **Nhận diện chính xác Decor & Home:** Tự động xếp các store trang trí, quà tặng, nội thất vào đúng nhóm `Home, Living & Decor`.
-* **Phân biệt rạch ròi 18+ vs Sức khỏe & Chăm sóc cá nhân:**
-  * **Sức khỏe / Sinh lý sạch:** Bao cao su y tế, gel bôi trơn, dung dịch vệ sinh $\rightarrow$ Gán nhãn `Health & Personal Care` an toàn (`is_adult = 0`).
-  * **18+ Thô tục / Hardcore NSFW:** Búp bê tình dục, đồ chơi BDSM $\rightarrow$ Gán nhãn `Adult 18+` (`is_adult = 1`) và hỗ trợ ẩn mặc định bằng bộ lọc SafeFilter.
-* **Nút 1-Click Xóa Store Nam Á / Ấn Độ:** Tự động quét sạch các store sử dụng tiền tệ Nam Á (`INR`, `PKR`, `BDT`...) hoặc tên miền nội địa `.in`, `.pk`, `.bd`.
+### 3. 🌐 Similarweb Traffic Thực Tế (Traffic.cv Worker)
+* **Dữ Liệu Thật 100% Từ Similarweb:** Bóc tách Total Monthly Visits, Global Rank, Country Rank, Bounce Rate, Avg Visit Duration, và Pages per Visit.
+* **Cơ Chế Vượt Cloudflare Turnstile 3 Lớp:**
+  * *Lớp 1 (Tự động):* Tận dụng phiên Chrome lưu cookie để tự động vượt qua Turnstile.
+  * *Lớp 2 (Cảnh báo thông minh):* Khi có captcha tương tác, cửa sổ tự động hiển thị và phát âm thanh thông báo.
+  * *Lớp 3 (Chống treo luồng 90s):* Nếu người dùng vắng mặt quá 90 giây, hệ thống tự động fallback công thức Tranco Zipf và tiếp tục store kế tiếp, **không bao giờ đơ hay tắc nghẽn luồng**.
+* **Chế Độ Cào Tàng Hình (Stealth Mode):** Cửa sổ trình duyệt thu nhỏ xuống Taskbar/Dock, không chiếm chuột, không gây gián đoạn công việc của người dùng.
 
 ---
 
-### 5. 💼 CRM Mini & Xuất Báo Cáo
-* Đánh dấu yêu thích (`★`), lưu ghi chú nội bộ cho từng store trực tiếp vào database.
-* Xuất file **Excel (.xlsx)** hoặc **CSV** chỉ với 1 click, tương thích 100% với các bộ lọc đang chọn.
+### 4. 🎯 Bộ Lọc Hoa Hồng, Thời Hạn Cookie & Ngành Hàng
+* **Bộ Lọc Thời Hạn Cookie Tinh Gọn:**
+  * `Dưới 14 ngày (< 14 days)`
+  * `14 – 30 ngày (14d – 30d)`
+  * `30 ngày trở lên (≥ 30 days)`
+  * `≥ 14 ngày (Chuẩn khuyên dùng)`
+* **Bộ Lọc Phân Cấp Hoa Hồng (% Commission):** Lọc theo dải hoa hồng từ 5%, 10%, 15%, 20%+ hoặc hoa hồng cố định.
+* **Phân Loại Ngành Hàng NLP & SafeFilter 18+:**
+  * Nhận diện chuẩn xác nhóm nội thất & trang trí `Home, Living & Decor`.
+  * Phân biệt sinh lý sức khỏe y tế (`Health & Personal Care`) và sản phẩm người lớn nhạy cảm (`Adult 18+`).
+  * Nút bấm 1-click lọc nhanh hoặc ẩn các store không phù hợp.
 
 ---
 
-## 💻 Hướng Dẫn Cài Đặt & Chạy Mới Từ Đầu (Setup from Scratch)
+### 5. 💼 Quản Trị CRM Đối Tác & Xuất Báo Cáo
+* Đánh dấu sao yêu thích (`★`), lưu ghi chú đàm phán hợp tác trực tiếp vào SQLite.
+* Xuất báo cáo chuyên nghiệp ra **Excel (.xlsx)** hoặc **CSV** chỉ với 1 click, tương thích đầy đủ bộ lọc đang hiển thị.
 
-Dự án được đóng gói khép kín, hoạt động độc lập trên máy sạch mà không phụ thuộc vào bất kỳ cấu hình máy cũ nào.
+---
 
-### 📋 Yêu Cầu Tiên Quyết
-* **Python**: 3.10 trở lên ([Tải Python](https://www.python.org/downloads/))
-* **Node.js**: 18 trở lên ([Tải Node.js](https://nodejs.org/))
+## 💻 Hướng Dẫn Cài Đặt & Sử Dụng (Dễ Hiểu Cho Mọi Máy Tính)
+
+Ứng dụng được thiết kế độc lập, đóng gói hoàn chỉnh, hỗ trợ mượt mà trên **Windows**, **macOS** và **Linux**.
+
+### 📋 Yêu Cầu Cài Đặt Sẵn
+* **Python**: 3.10 trở lên ([Tải Python chính thức](https://www.python.org/downloads/)) — *Lưu ý trên Windows: Nhớ tích chọn **"Add python.exe to PATH"** khi cài đặt.*
+* **Node.js**: 18 trở lên ([Tải Node.js LTS](https://nodejs.org/))
 * **Git**: ([Tải Git](https://git-scm.com/))
 
 ---
 
-### 🍏 Cách 1: Chạy Tự Động 1-Click (Khuyên Dùng)
+### 🚀 Cách 1: Khởi Động 1-Click (Khuyên Dùng)
 
-#### Trên macOS / Linux:
+#### 👉 Dành Cho macOS & Linux:
 Mở Terminal tại thư mục dự án và chạy:
 ```bash
 bash start_app.sh
 ```
 
-#### Trên Windows:
-Nhấp đúp chuột (Double-click) vào file:
+#### 👉 Dành Cho Windows:
+Nhấp đúp chuột (Double-Click) vào file:
 ```cmd
 start_app.bat
 ```
+*(Hoặc mở Command Prompt / PowerShell tại thư mục dự án và gõ `start_app.bat`)*
 
-> **Script sẽ tự động thực hiện từ A đến Z:**
-> 1. Tự tạo môi trường ảo Python `.venv` nếu chưa có.
-> 2. Tự cài đặt đầy đủ dependencies trong `requirements.txt` (FastAPI, Playwright, curl_cffi, pytrends, pandas...).
-> 3. Tự cài đặt trình duyệt Chromium cho Playwright (`python -m playwright install chromium`).
-> 4. Tự tải và cài đặt Frontend `npm install`.
+> **Script tự động làm mọi việc cho bạn:**
+> 1. Tự động kiểm tra và tạo môi trường ảo Python `.venv`.
+> 2. Tự động cài đặt toàn bộ thư viện từ `requirements.txt`.
+> 3. Tự động cài đặt browser Chromium cho Playwright (`python -m playwright install chromium`).
+> 4. Tự động cài đặt gói thư viện Frontend `npm install` (nếu chưa có).
 > 5. Khởi động Backend API tại `http://127.0.0.1:8001`.
-> 6. Khởi động Frontend Vite tại `http://127.0.0.1:5174`.
-> 7. Tự động mở trình duyệt web lên để bạn sử dụng ngay lập tức!
+> 6. Khởi động Frontend Dashboard tại `http://127.0.0.1:5174`.
+> 7. Tự động mở trình duyệt web lên để bạn sử dụng ngay!
 
 ---
 
-### 🛠️ Cách 2: Khởi Động Thủ Công Từng Bước (Manual Setup)
+### 🛠️ Cách 2: Khởi Động Thủ Công Từng Bước
 
-#### 1. Clone Source Code
+#### Bước 1: Clone Repository
 ```bash
 git clone https://github.com/ankhang041074-alt/goaffpro-crawler-.git
 cd goaffpro-crawler-
 ```
 
-#### 2. Cài Đặt Môi Trường Python Backend
+#### Bước 2: Cài Đặt Backend Python
 ```bash
-# Tạo môi trường ảo
+# 1. Tạo môi trường ảo
 python3 -m venv .venv
 
-# Kích hoạt môi trường (macOS/Linux)
+# 2. Kích hoạt môi trường:
+# Trên macOS / Linux:
 source .venv/bin/activate
-# Hoặc trên Windows: .venv\Scripts\activate
+# Trên Windows:
+call .venv\Scripts\activate
 
-# Cài đặt thư viện
+# 3. Cài đặt các thư viện Python
 pip install -r requirements.txt
 
-# Cài đặt browser Playwright
+# 4. Cài đặt browser Chromium cho Playwright
 python -m playwright install chromium
 ```
 
-#### 3. Khởi Động Backend API
+#### Bước 3: Khởi Động Backend API Server
 ```bash
 python -m uvicorn backend.api:app --host 127.0.0.1 --port 8001 --reload
 ```
-*API docs & Swagger:* `http://127.0.0.1:8001/docs`
+*Tài liệu Swagger / API:* `http://127.0.0.1:8001/docs`
 
-#### 4. Cài Đặt & Khởi Động Frontend UI
-Mở một cửa sổ Terminal mới:
+#### Bước 4: Cài Đặt & Khởi Động Frontend Dashboard
+Mở thêm một cửa sổ Terminal mới:
 ```bash
 cd frontend
 npm install
-npm run dev -- --host 0.0.0.0 --port 5174
+npm run dev -- --host 127.0.0.1 --port 5174
 ```
-*Giao diện Dashboard:* `http://127.0.0.1:5174`
+*Truy cập giao diện chính:* `http://127.0.0.1:5174`
 
 ---
 
-## 📁 Cấu Trúc Thư Mục Dự Án (File Structure)
+## 🧪 Kiểm Thử Hệ Thống (Quality Assurance & Test Suite)
+
+Dự án đi kèm bộ kiểm thử tự động toàn diện từ Backend đến Frontend để đảm bảo hoạt động 100% không có lỗi trước khi sử dụng hoặc triển khai:
+
+### 1. Chạy Toàn Bộ Unit Test Python (Backend & Crawler)
+```bash
+# Kích hoạt .venv nếu chưa kích hoạt
+source .venv/bin/activate  # Trên Windows: .venv\Scripts\activate
+
+# Chạy khám phá và thực thi toàn bộ 30+ tests
+python3 -m unittest discover tests -p "test_*.py"
+```
+*Kiểm thử bao trùm: Phép tính ngày tháng, năm nhuận 29/02, ma trận mùa vụ 3 năm, bóc tách RPC Google Ads, chống rò rỉ token và an toàn SQLite.*
+
+### 2. Chạy Frontend Stress Test Suite (SSR & Timeline Component)
+```bash
+node tests/test_frontend_stress.mjs
+```
+*Kiểm thử 23 bài test căng thẳng: Date math, fallback dữ liệu thiếu, render ma trận 12 tháng, nhãn phân loại Evergreen/Seasonal/New Test.*
+
+### 3. Kiểm Tra Đóng Gói Frontend Production Build
+```bash
+cd frontend
+npm run build
+```
+*Biên dịch kiểm tra TypeScript (`tsc -b`) và đóng gói tài nguyên tối ưu với Vite.*
+
+---
+
+## 📁 Cấu Trúc Thư Mục Dự Án (Repository Architecture)
 
 ```
 goaffpro-crawler/
 ├── backend/
-│   ├── api.py                 # FastAPI RESTful Server (Routes, Filter, Export, Worker Control)
-│   ├── categorizer.py         # NLP phân loại ngành hàng đa tầng & lọc an toàn 18+
-│   ├── crawler.py             # Playwright crawler tự động 5 bước cào danh sách GoAffPro
-│   ├── db.py                  # Quản lý SQLite, auto-migration, index tối ưu & query tốc độ cao
-│   ├── traffic_worker.py      # Background worker Google Trends & Tranco Zipf ranking
-│   ├── traffic_cv_worker.py   # Background worker Similarweb Traffic.cv (Vượt Cloudflare 3 lớp)
-│   └── traffic_cv_scraper.py  # Playwright bóc tách dữ liệu Similarweb từ traffic.cv
+│   ├── api.py                    # FastAPI server: REST endpoints, bộ lọc, CRM, xuất file & điều khiển worker
+│   ├── categorizer.py            # Phân loại ngành hàng NLP, bóc tách từ khóa & SafeFilter 18+
+│   ├── crawler.py                # Playwright bot cào danh sách GoAffPro Store tự động
+│   ├── db.py                     # Quản lý SQLite database, migration, lập chỉ mục tốc độ cao
+│   ├── spy_ads.py                # Core engine: Google Ads Transparency API & DOM scraper, bóc tách Ads All-Time
+│   ├── spy_ads_worker.py         # Worker chạy nền cào Google Ads theo lô với Chrome profile độc lập
+│   ├── traffic_worker.py         # Worker chạy nền bóc tách Google Trends & Tranco Zipf ranking
+│   ├── traffic_cv_scraper.py     # Playwright bóc tách dữ liệu Similarweb từ Traffic.cv
+│   └── traffic_cv_worker.py      # Background worker quản lý luồng vượt Cloudflare Turnstile 3 lớp
 ├── data/
-│   ├── goaffpro.db            # Cơ sở dữ liệu SQLite đã làm giàu (20.800+ stores sạch)
-│   └── schema.sql             # Bản sao lưu cấu trúc database hoàn chỉnh
+│   ├── goaffpro.db               # Cơ sở dữ liệu SQLite chính (~8.400+ store đã làm giàu dữ liệu)
+│   ├── spy_google_ads_*.json     # Bộ đệm kết quả Google Ads của các store
+│   └── schema.sql                # Bản sao lưu cấu trúc database hoàn chỉnh
 ├── frontend/
 │   ├── src/
-│   │   ├── App.tsx            # Dashboard React 19: Accordion row, Biểu đồ SVG, Bộ lọc đa năng
-│   │   ├── main.tsx           # Entry point React
-│   │   └── index.css          # Tailwind CSS v4 styling
-│   ├── package.json           # Dependencies Frontend
-│   ├── package-lock.json      # Dependency lockfile đảm bảo tính nhất quán
-│   └── vite.config.ts         # Cấu hình Vite bundler
+│   │   ├── App.tsx               # Giao diện chính: Bộ lọc đa năng, bảng dữ liệu, xuất Excel/CSV
+│   │   ├── SpyGoogleAdsTab.tsx   # Tab quản trị & kiểm tra Ads Spy toàn bộ hệ thống
+│   │   ├── StoreAccordionSpyView.tsx # Accordion mở rộng chi tiết mẫu ads & ma trận mùa vụ từng store
+│   │   ├── Campaign12MonthTimeline.tsx # Thành phần Ma trận mùa vụ 3 năm (2024-2026) & chu kỳ 12 tháng
+│   │   ├── SeasonalityChart3Year.tsx   # Biểu đồ xu hướng Google Trends 3 năm tương tác
+│   │   ├── main.tsx              # Entry point ứng dụng React 19
+│   │   └── index.css             # Tailwind CSS styling
+│   ├── package.json              # Khai báo dependencies Frontend
+│   └── vite.config.ts            # Cấu hình bundler Vite
+├── tests/
+│   ├── test_spy_google_ads_e2e.py # 4-Tier E2E test suite kiểm thử toàn diện Google Ads Spy
+│   ├── test_challenger_m1_stress.py # Adversarial stress test ngày tháng, năm nhuận & phân loại
+│   └── test_frontend_stress.mjs   # Test suite kiểm tra render UI và SSR component timeline
 ├── scripts/
-│   └── test_30_traffic_cv.py  # Script kiểm thử và benchmark tự động
-├── .env.example               # Mẫu biến môi trường cấu hình hệ thống
-├── .gitignore                 # Danh sách loại trừ file nhạy cảm và tạm thời
-├── requirements.txt           # Danh sách thư viện Python chuẩn
-├── start_app.sh               # Script tự động hóa 1-click (macOS / Linux)
-├── start_app.bat              # Script tự động hóa 1-click (Windows)
-└── README.md                  # Hướng dẫn chi tiết này
+│   ├── merge_db.py               # Hỗ trợ gộp dữ liệu từ các máy khác vào DB chính an toàn
+│   └── scrape_full_google_ads.py # Script dòng lệnh độc lập cào Google Ads theo danh sách domain
+├── .env.example                  # Mẫu file cấu hình môi trường
+├── .gitignore                    # Bộ lọc file rác, profile chrome cá nhân và cache
+├── requirements.txt              # Danh sách thư viện Python chuẩn hóa
+├── start_app.sh                  # Script khởi động tự động 1-click cho macOS / Linux
+├── start_app.bat                 # Script khởi động tự động 1-click cho Windows
+├── TEST_INFRA.md                 # Tài liệu chi tiết kiến trúc kiểm thử
+└── README.md                     # Tài liệu hướng dẫn sử dụng này
 ```
 
 ---
 
-## 🔒 Chính Sách An Toàn & Bảo Mật Dữ Liệu
-* **Zero-Fake-Data:** Tuyệt đối không sinh dữ liệu ảo. Store dưới ngưỡng thống kê được đánh dấu trung thực là `no_data`.
-* **Zero-Leakage:** Dự án không chứa bất kỳ secret token, mật khẩu hay API key cá nhân nào.
-* **Tự lưu & Chống mất mát:** Mỗi store cào xong được commit ngay vào SQLite; hỗ trợ dừng/tiếp tục bất kỳ lúc nào mà không sợ mất tiến độ.
+## 🔒 An Toàn Dữ Liệu & Quy Chuẩn Repository
+
+* **Tuyệt Đối Không Rò Rỉ Bí Mật (Zero Secret Leakage):** Không lưu mật khẩu, API key hay GitHub Personal Access Token trong mã nguồn.
+* **Cách Ly Profile Trình Duyệt:** Thư mục lưu trữ phiên làm việc của Chrome (`data/chrome_profile_*`, `data/browser_profile`) được cấu hình trong `.gitignore`, không đưa lên repository để đảm bảo an toàn tuyệt đối.
+* **Bảo Vệ Tính Toàn Vẹn Cơ Sở Dữ Liệu:** Cơ sở dữ liệu SQLite sử dụng WAL mode (`Write-Ahead Logging`) chống lỗi phân mảnh dữ liệu khi nhiều tiến trình cùng truy cập.
+
+---
+
+## 🤝 Hỗ Trợ & Đóng Góp
+
+Nếu có bất kỳ thắc mắc, lỗi phát sinh hoặc ý tưởng nâng cấp, vui lòng mở một Issue trên GitHub hoặc liên hệ trực tiếp để được hỗ trợ nhanh nhất.

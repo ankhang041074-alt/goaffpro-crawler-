@@ -1,17 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import {
   ExternalLink,
   Flame,
   CheckCircle2,
   RefreshCw,
-  Video,
-  FileText,
-  Image as ImageIcon,
   ShieldCheck,
   ChevronDown,
-  ChevronUp,
-  AlertCircle
+  ChevronUp
 } from 'lucide-react';
+import { Campaign12MonthTimeline } from './Campaign12MonthTimeline';
 
 interface Creative {
   id: string;
@@ -20,9 +17,11 @@ interface Creative {
   headline: string;
   description: string;
   landing_page: string;
+  first_seen?: string;
   last_shown: string;
   duration_days: number;
   image_url?: string;
+  video_url?: string;
 }
 
 interface Advertiser {
@@ -36,21 +35,36 @@ interface Advertiser {
   first_seen: string;
   last_shown: string;
   duration_days: number;
-  longevity_badge: 'test' | 'stable' | 'win_ads' | 'super_scale';
+  longevity_badge?: string;
+  classification?: 'evergreen' | 'seasonal' | 'new_test' | string;
+  classification_label?: string;
+  campaign_type?: string;
+  campaign_type_label?: string;
   scale_label?: string;
-  formats: string[];
+  formats: string[] | { text?: number; image?: number; video?: number; search?: number };
   ad_count: number;
+  monthly_activity?: {
+    [year: string]: boolean[];
+  };
+  timeline_3year?: {
+    [year: string]: boolean[];
+  };
   creatives: Creative[];
 }
 
 interface SpyData {
   domain: string;
-  updated_at: string;
+  updated_at?: string;
+  scraped_at?: string;
   total_advertisers: number;
   total_ads: number;
-  win_ads_count: number;
-  super_scale_count: number;
+  win_ads_count?: number;
+  super_scale_count?: number;
   test_ads_count?: number;
+  is_verified_zero?: boolean;
+  status?: string;
+  is_empty?: boolean;
+  all_time_enabled?: boolean;
   advertisers: Advertiser[];
 }
 
@@ -59,20 +73,28 @@ interface StoreAccordionSpyViewProps {
   storeName: string;
   storeWebsiteUrl?: string;
   storeId?: string;
+  trendTimelineJson?: string;
+  trendPeakMonth?: string;
+  trendIsSteady?: boolean | number;
 }
 
 export const StoreAccordionSpyView: React.FC<StoreAccordionSpyViewProps> = ({
   domain,
   storeName,
   storeWebsiteUrl,
-  storeId
+  storeId,
+  trendTimelineJson,
+  trendPeakMonth,
+  trendIsSteady
 }) => {
   const [data, setData] = useState<SpyData | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [crawling, setCrawling] = useState<boolean>(false);
-  const [filterScale, setFilterScale] = useState<string>('all');
-  const [filterFormat, setFilterFormat] = useState<string>('all');
+  const [filterLongevity, setFilterLongevity] = useState<'all' | 'scale' | 'win'>('all');
+  const [matrixMode, setMatrixMode] = useState<'3year' | '12m'>('3year');
   const [expandedAdvId, setExpandedAdvId] = useState<string | null>(null);
+  const [quickNote, setQuickNote] = useState<string>('');
+  const [savedNote, setSavedNote] = useState<string>('');
 
   const cleanDomain = (domain || '')
     .trim()
@@ -123,29 +145,7 @@ export const StoreAccordionSpyView: React.FC<StoreAccordionSpyViewProps> = ({
     fetchSpyData();
   }, [cleanDomain]);
 
-  const getScaleBadge = (count: number) => {
-    if (count >= 10) {
-      return {
-        label: `🔥 Quy mô lớn (≥10 mẫu ads)`,
-        detail: `${count} mẫu quảng cáo`,
-        badgeClass: 'bg-orange-500/15 text-orange-400 border-orange-500/30'
-      };
-    }
-    if (count >= 2) {
-      return {
-        label: `🟢 Đang chạy đều (2 - 9 ads)`,
-        detail: `${count} mẫu quảng cáo`,
-        badgeClass: 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30'
-      };
-    }
-    return {
-      label: `🟡 Mới thử nghiệm (1 ad)`,
-      detail: `1 mẫu quảng cáo`,
-      badgeClass: 'bg-amber-500/15 text-amber-300 border-amber-500/30'
-    };
-  };
-
-  // Filter out DOM icon texts from headlines and descriptions
+  // Clean headline and description
   const cleanAdText = (txt: string) => {
     if (!txt) return '';
     const badTerms = [
@@ -161,7 +161,7 @@ export const StoreAccordionSpyView: React.FC<StoreAccordionSpyViewProps> = ({
     return cleaned.trim();
   };
 
-  // Clean advertiser name to avoid icon ligature text
+  // Clean advertiser name
   const cleanAdvName = (advName: string) => {
     if (!advName) return cleanDomain ? cleanDomain.charAt(0).toUpperCase() + cleanDomain.slice(1) : 'Advertiser';
     const bad = [
@@ -176,28 +176,36 @@ export const StoreAccordionSpyView: React.FC<StoreAccordionSpyViewProps> = ({
     return advName.trim();
   };
 
-  const filteredAdvertisers = (data?.advertisers || []).filter(adv => {
-    if (filterScale === 'super_scale' && adv.ad_count < 10) return false;
-    if (filterScale === 'win_ads' && (adv.ad_count < 2 || adv.ad_count >= 10)) return false;
-    if (filterScale === 'test' && adv.ad_count !== 1) return false;
-    if (filterFormat !== 'all' && !adv.formats.includes(filterFormat)) return false;
+  // KPI Calculations strictly based on duration and genuine data
+  const advertisers = data?.advertisers || [];
+  const superScaleCount = advertisers.filter(a => a.duration_days >= 60 || a.ad_count >= 10).length;
+  const winAdsCount = advertisers.filter(a => a.duration_days >= 30 || (a.ad_count >= 2 && a.ad_count < 10)).length;
+  const evergreenCount = advertisers.filter(a => a.classification === 'evergreen' || a.duration_days >= 180).length;
+  const evergreenPct = advertisers.length > 0 ? Math.round((evergreenCount / advertisers.length) * 100) : 0;
+
+  // Filtered Advertisers
+  const filteredAdvertisers = advertisers.filter(adv => {
+    if (filterLongevity === 'scale') {
+      return adv.duration_days >= 60 || adv.ad_count >= 10;
+    }
+    if (filterLongevity === 'win') {
+      return adv.duration_days >= 30 || adv.ad_count >= 2;
+    }
     return true;
   });
 
-  const superScaleCount = (data?.advertisers || []).filter(a => a.ad_count >= 10).length;
-  const winAdsCount = (data?.advertisers || []).filter(a => a.ad_count >= 2 && a.ad_count < 10).length;
-  const testAdsCount = (data?.advertisers || []).filter(a => a.ad_count === 1).length;
   const isVerifiedZero = Boolean(
     data && (
-      (data.total_ads === 0 && Boolean(data.updated_at)) ||
-      (data as any).is_verified_zero ||
-      (data as any).status === 'no_ads'
+      (data.total_ads === 0 && Boolean(data.updated_at || data.scraped_at)) ||
+      data.is_verified_zero ||
+      data.status === 'no_ads' ||
+      data.is_empty
     )
   );
 
   return (
-    <div className="flex flex-col gap-4 text-xs animate-in fade-in duration-200">
-      {/* SPY HEADER BAR */}
+    <div className="flex flex-col gap-3.5 text-xs animate-in fade-in duration-200">
+      {/* 1. TOP SPY HEADER BANNER */}
       <div className="flex flex-wrap items-center justify-between gap-3 bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 border border-indigo-800/60 rounded-2xl p-4 text-white">
         <div className="flex items-center gap-3">
           <div className="p-2.5 rounded-xl bg-orange-500/20 text-orange-400 border border-orange-500/30">
@@ -210,7 +218,7 @@ export const StoreAccordionSpyView: React.FC<StoreAccordionSpyViewProps> = ({
               </h4>
               {data && data.advertisers && data.advertisers.length > 0 ? (
                 <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
-                  {data.advertisers.length} Nhà Quảng Cáo • {data.total_ads} Ads Đang Chạy
+                  {data.advertisers.length} Nhà Quảng Cáo • {data.total_ads} Ads
                 </span>
               ) : isVerifiedZero ? (
                 <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-950/80 text-emerald-300 border border-emerald-800">
@@ -223,7 +231,7 @@ export const StoreAccordionSpyView: React.FC<StoreAccordionSpyViewProps> = ({
               )}
             </div>
             <p className="text-[11px] text-slate-300 mt-0.5">
-              Tra cứu minh bạch từ Google Ads Transparency Center: các nhà quảng cáo đang chạy kéo traffic về store, định dạng và mẫu ads thực tế
+              Tra cứu ai đang chạy Google Ads kéo traffic về store này, camp chạy bao nhiêu ngày và mùa vụ qua các năm
             </p>
           </div>
         </div>
@@ -251,141 +259,146 @@ export const StoreAccordionSpyView: React.FC<StoreAccordionSpyViewProps> = ({
         </div>
       </div>
 
-      {/* METRIC OVERVIEW IF ADS EXIST */}
+      {/* 2. THE 4 METRIC CARDS (Exact match to screenshot) */}
       {data && data.advertisers && data.advertisers.length > 0 ? (
         <>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
-            <div className="p-3 rounded-xl bg-slate-50 border border-slate-200">
-              <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 block mb-0.5">
-                Tổng Nhà Quảng Cáo
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            {/* Card 1: TỔNG NHÀ QUẢNG CÁO */}
+            <div className="p-3.5 rounded-2xl bg-white border border-slate-200/90 shadow-2xs flex flex-col justify-between">
+              <span className="text-[10.5px] font-bold uppercase tracking-wider text-slate-500">
+                TỔNG NHÀ QUẢNG CÁO
               </span>
-              <span className="text-base font-black text-slate-900 font-mono">
-                {data.total_advertisers} Đơn Vị
-              </span>
-              <span className="text-[10px] text-slate-400 block mt-0.5">{data.total_ads} mẫu ads</span>
+              <div className="my-1">
+                <span className="text-xl font-black text-slate-900 font-mono">
+                  {data.total_advertisers} Đơn Vị
+                </span>
+                <span className="text-[11px] text-slate-400 block mt-0.5">
+                  {data.total_ads} mẫu ads
+                </span>
+              </div>
             </div>
 
-            <div className="p-3 rounded-xl bg-orange-50/60 border border-orange-200">
-              <span className="text-[10px] font-bold uppercase tracking-wider text-orange-700 block mb-0.5">
-                🔥 Quy mô lớn (≥10 ads)
+            {/* Card 2: WIN ADS (> 1 THÁNG) */}
+            <div className="p-3.5 rounded-2xl bg-white border border-emerald-300 shadow-2xs flex flex-col justify-between">
+              <span className="text-[10.5px] font-bold uppercase tracking-wider text-emerald-700">
+                WIN ADS (&gt; 1 THÁNG)
               </span>
-              <span className="text-base font-black text-orange-600 font-mono">
-                {superScaleCount} Đơn Vị
-              </span>
-              <span className="text-[10px] text-orange-600/80 block mt-0.5">Độ phủ lớn & ngân sách cao</span>
+              <div className="my-1">
+                <span className="text-xl font-black text-emerald-600 font-mono">
+                  {winAdsCount} Đơn Vị
+                </span>
+                <span className="text-[11px] text-emerald-600/90 font-medium block mt-0.5">
+                  ✅ Đang có lời
+                </span>
+              </div>
             </div>
 
-            <div className="p-3 rounded-xl bg-emerald-50/60 border border-emerald-200">
-              <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-700 block mb-0.5">
-                🟢 Đang chạy đều (2-9 ads)
+            {/* Card 3: SUPER SCALE (> 2 THÁNG) */}
+            <div className="p-3.5 rounded-2xl bg-white border border-orange-300 shadow-2xs flex flex-col justify-between">
+              <span className="text-[10.5px] font-bold uppercase tracking-wider text-orange-700">
+                SUPER SCALE (&gt; 2 THÁNG)
               </span>
-              <span className="text-base font-black text-emerald-600 font-mono">
-                {winAdsCount} Đơn Vị
-              </span>
-              <span className="text-[10px] text-emerald-600/80 block mt-0.5">Chiến dịch duy trì ổn định</span>
+              <div className="my-1">
+                <span className="text-xl font-black text-orange-600 font-mono">
+                  {superScaleCount} Đơn Vị
+                </span>
+                <span className="text-[11px] text-orange-600/90 font-medium block mt-0.5">
+                  🔥 Cỗ máy in tiền
+                </span>
+              </div>
             </div>
 
-            <div className="p-3 rounded-xl bg-amber-50/60 border border-amber-200">
-              <span className="text-[10px] font-bold uppercase tracking-wider text-amber-700 block mb-0.5">
-                🟡 Mới thử nghiệm (1 ad)
+            {/* Card 4: TỶ LỆ QUANH NĂM */}
+            <div className="p-3.5 rounded-2xl bg-white border border-purple-300 shadow-2xs flex flex-col justify-between">
+              <span className="text-[10.5px] font-bold uppercase tracking-wider text-purple-700">
+                TỶ LỆ QUANH NĂM
               </span>
-              <span className="text-base font-black text-amber-600 font-mono">
-                {testAdsCount} Đơn Vị
-              </span>
-              <span className="text-[10px] text-amber-600/80 block mt-0.5">Vừa bắt đầu triển khai</span>
-            </div>
-          </div>
-
-          {/* FILTERS */}
-          <div className="flex flex-wrap items-center justify-between gap-3 bg-white p-3 rounded-xl border border-slate-200">
-            <div className="flex items-center gap-1.5 flex-wrap">
-              <span className="text-[11px] font-bold text-slate-500 mr-1">Lọc Quy Mô:</span>
-              <button
-                onClick={() => setFilterScale('all')}
-                className={`px-2.5 py-1 rounded-lg text-[11px] font-bold cursor-pointer transition ${
-                  filterScale === 'all' ? 'bg-slate-900 text-white' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
-                }`}
-              >
-                Tất Cả ({data.advertisers.length})
-              </button>
-              <button
-                onClick={() => setFilterScale('super_scale')}
-                className={`px-2.5 py-1 rounded-lg text-[11px] font-bold cursor-pointer transition ${
-                  filterScale === 'super_scale' ? 'bg-orange-600 text-white' : 'bg-orange-50 text-orange-700 hover:bg-orange-100 border border-orange-200'
-                }`}
-              >
-                🔥 Quy mô lớn ({superScaleCount})
-              </button>
-              <button
-                onClick={() => setFilterScale('win_ads')}
-                className={`px-2.5 py-1 rounded-lg text-[11px] font-bold cursor-pointer transition ${
-                  filterScale === 'win_ads' ? 'bg-emerald-600 text-white' : 'bg-emerald-50 text-emerald-700 hover:bg-emerald-100 border border-emerald-200'
-                }`}
-              >
-                🟢 Đang chạy đều ({winAdsCount})
-              </button>
-              <button
-                onClick={() => setFilterScale('test')}
-                className={`px-2.5 py-1 rounded-lg text-[11px] font-bold cursor-pointer transition ${
-                  filterScale === 'test' ? 'bg-amber-600 text-white' : 'bg-amber-50 text-amber-700 hover:bg-amber-100 border border-amber-200'
-                }`}
-              >
-                🟡 Mới thử nghiệm ({testAdsCount})
-              </button>
-            </div>
-
-            <div className="flex items-center gap-1.5 flex-wrap">
-              <span className="text-[11px] font-bold text-slate-500 mr-1">Định Dạng:</span>
-              <button
-                onClick={() => setFilterFormat('all')}
-                className={`px-2 py-0.5 rounded text-[10px] font-semibold transition cursor-pointer ${
-                  filterFormat === 'all' ? 'bg-indigo-600 text-white' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
-                }`}
-              >
-                Tất Cả
-              </button>
-              <button
-                onClick={() => setFilterFormat('search')}
-                className={`px-2 py-0.5 rounded text-[10px] font-semibold transition cursor-pointer ${
-                  filterFormat === 'search' ? 'bg-blue-600 text-white' : 'bg-blue-50 text-blue-700 hover:bg-blue-100'
-                }`}
-              >
-                Search Text
-              </button>
-              <button
-                onClick={() => setFilterFormat('image')}
-                className={`px-2 py-0.5 rounded text-[10px] font-semibold transition cursor-pointer ${
-                  filterFormat === 'image' ? 'bg-emerald-600 text-white' : 'bg-emerald-50 text-emerald-700 hover:bg-emerald-100'
-                }`}
-              >
-                Display Banner
-              </button>
-              <button
-                onClick={() => setFilterFormat('video')}
-                className={`px-2 py-0.5 rounded text-[10px] font-semibold transition cursor-pointer ${
-                  filterFormat === 'video' ? 'bg-rose-600 text-white' : 'bg-rose-50 text-rose-700 hover:bg-rose-100'
-                }`}
-              >
-                YouTube Video
-              </button>
+              <div className="my-1">
+                <span className="text-xl font-black text-purple-600 font-mono">
+                  {evergreenPct}%
+                </span>
+                <span className="text-[11px] text-purple-600/90 font-medium block mt-0.5">
+                  🌲 Chạy đều 4 mùa
+                </span>
+              </div>
             </div>
           </div>
 
-          {/* ADVERTISERS TABLE */}
+          {/* 3. FILTER ROW WITH 3-YEAR MATRIX TOGGLE */}
+          <div className="flex flex-wrap items-center justify-between gap-3 bg-white p-2.5 rounded-xl border border-slate-200">
+            <div className="flex items-center gap-1.5 flex-wrap">
+              <span className="text-[11px] font-bold text-slate-500 mr-1">Lọc Tuổi Thọ:</span>
+              <button
+                onClick={() => setFilterLongevity('all')}
+                className={`px-3 py-1 rounded-lg text-xs font-bold cursor-pointer transition ${
+                  filterLongevity === 'all'
+                    ? 'bg-slate-900 text-white'
+                    : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                }`}
+              >
+                Tất Cả ({advertisers.length})
+              </button>
+              <button
+                onClick={() => setFilterLongevity('scale')}
+                className={`px-3 py-1 rounded-lg text-xs font-bold cursor-pointer transition ${
+                  filterLongevity === 'scale'
+                    ? 'bg-orange-600 text-white'
+                    : 'bg-orange-50 text-orange-700 hover:bg-orange-100 border border-orange-200'
+                }`}
+              >
+                🔥 &gt; 2 Tháng ({superScaleCount})
+              </button>
+              <button
+                onClick={() => setFilterLongevity('win')}
+                className={`px-3 py-1 rounded-lg text-xs font-bold cursor-pointer transition ${
+                  filterLongevity === 'win'
+                    ? 'bg-emerald-600 text-white'
+                    : 'bg-emerald-50 text-emerald-700 hover:bg-emerald-100 border border-emerald-200'
+                }`}
+              >
+                🟢 &gt; 1 Tháng (Win Ads) ({winAdsCount})
+              </button>
+            </div>
+
+            {/* Toggle: Ma Trận 3 Năm vs Tóm Tắt 12T */}
+            <div className="flex items-center bg-slate-100 p-0.5 rounded-lg border border-slate-200">
+              <button
+                onClick={() => setMatrixMode('3year')}
+                className={`px-2.5 py-1 rounded-md text-[11px] font-bold transition cursor-pointer ${
+                  matrixMode === '3year'
+                    ? 'bg-white text-slate-900 shadow-2xs font-black'
+                    : 'text-slate-500 hover:text-slate-800'
+                }`}
+              >
+                Ma Trận 3 Năm
+              </button>
+              <button
+                onClick={() => setMatrixMode('12m')}
+                className={`px-2.5 py-1 rounded-md text-[11px] font-bold transition cursor-pointer ${
+                  matrixMode === '12m'
+                    ? 'bg-white text-slate-900 shadow-2xs font-black'
+                    : 'text-slate-500 hover:text-slate-800'
+                }`}
+              >
+                Tóm Tắt 12T
+              </button>
+            </div>
+          </div>
+
+          {/* 4. THE SINGLE ADVERTISERS TABLE (Exact 4 columns: NHÀ QUẢNG CÁO | TUỔI THỌ CAMP | MA TRẬN MÙA VỤ | CREATIVES) */}
           <div className="overflow-x-auto rounded-2xl border border-slate-200 bg-white shadow-xs">
             <table className="w-full text-left border-collapse text-xs">
               <thead>
                 <tr className="bg-slate-50 text-slate-500 font-bold border-b border-slate-200 uppercase text-[10px]">
-                  <th className="py-2.5 px-3">Nhà Quảng Cáo (Advertiser)</th>
-                  <th className="py-2.5 px-3">Quy Mô Chiến Dịch</th>
-                  <th className="py-2.5 px-3">Định Dạng Quảng Cáo</th>
-                  <th className="py-2.5 px-3 text-center">Creatives Preview</th>
+                  <th className="py-2.5 px-3">NHÀ QUẢNG CÁO</th>
+                  <th className="py-2.5 px-3">TUỔI THỌ CAMP</th>
+                  <th className="py-2.5 px-3 min-w-[340px]">MA TRẬN MÙA VỤ (2024 - 2026)</th>
+                  <th className="py-2.5 px-3 text-center">CREATIVES</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100">
                 {filteredAdvertisers.map(adv => {
                   const isExpanded = expandedAdvId === adv.id;
-                  const scale = getScaleBadge(adv.ad_count);
                   const displayName = cleanAdvName(adv.name);
 
                   return (
@@ -394,7 +407,7 @@ export const StoreAccordionSpyView: React.FC<StoreAccordionSpyViewProps> = ({
                         {/* Col 1: Advertiser */}
                         <td className="py-3 px-3 align-top">
                           <div className="flex items-start gap-2.5">
-                            <div className="w-7 h-7 rounded-lg bg-indigo-600 text-white font-black flex items-center justify-center text-xs flex-shrink-0">
+                            <div className="w-8 h-8 rounded-xl bg-indigo-600 text-white font-black flex items-center justify-center text-xs flex-shrink-0">
                               {displayName.charAt(0).toUpperCase()}
                             </div>
                             <div>
@@ -407,7 +420,7 @@ export const StoreAccordionSpyView: React.FC<StoreAccordionSpyViewProps> = ({
                                 )}
                               </div>
                               <div className="text-[10px] text-slate-500 mt-0.5">
-                                <span>{adv.country_flag} {adv.country}</span> • <span className="font-mono text-slate-400">{adv.ad_count} ads</span>
+                                <span>{adv.country_flag || '🌐'} {adv.country || 'Quốc tế'}</span> • <span className="font-mono text-slate-400">{adv.ad_count} ads</span>
                               </div>
                               {adv.legal_name && adv.legal_name !== adv.name && (
                                 <div className="text-[9px] text-slate-400 mt-0.5 truncate max-w-[200px]" title={adv.legal_name}>
@@ -415,7 +428,7 @@ export const StoreAccordionSpyView: React.FC<StoreAccordionSpyViewProps> = ({
                                 </div>
                               )}
                               <a
-                                href={adv.advertiser_url}
+                                href={adv.advertiser_url || `https://adstransparency.google.com/?region=anywhere&domain=${cleanDomain}`}
                                 target="_blank"
                                 rel="noreferrer"
                                 className="text-[10px] text-indigo-600 hover:underline mt-1 inline-flex items-center gap-1 font-semibold"
@@ -427,42 +440,57 @@ export const StoreAccordionSpyView: React.FC<StoreAccordionSpyViewProps> = ({
                           </div>
                         </td>
 
-                        {/* Col 2: Scale Badge */}
+                        {/* Col 2: Tuổi Thọ Camp */}
                         <td className="py-3 px-3 align-top">
-                          <div>
-                            <span className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-[11px] font-bold border ${scale.badgeClass}`}>
-                              {scale.label}
-                            </span>
-                            <span className="text-[10px] text-slate-400 block mt-1">
-                              Tổng cộng: <strong className="text-slate-700 font-mono">{adv.ad_count}</strong> mẫu đang phân phối
-                            </span>
-                          </div>
-                        </td>
-
-                        {/* Col 3: Ad Formats */}
-                        <td className="py-3 px-3 align-top">
-                          <div className="flex flex-wrap gap-1">
-                            {adv.formats.map(fmt => (
-                              <span
-                                key={fmt}
-                                className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-semibold bg-slate-100 text-slate-700 border border-slate-200"
-                              >
-                                {fmt === 'search' && <FileText size={10} className="text-blue-600" />}
-                                {fmt === 'image' && <ImageIcon size={10} className="text-emerald-600" />}
-                                {fmt === 'video' && <Video size={10} className="text-rose-600" />}
-                                <span>
-                                  {fmt === 'search' ? 'Search Text' : fmt === 'image' ? 'Display Banner' : 'YouTube Video'}
-                                </span>
+                          <div className="flex flex-col gap-0.5">
+                            {adv.duration_days >= 60 ? (
+                              <span className="font-bold text-slate-900 text-xs flex items-center gap-1.5">
+                                <span className="w-2.5 h-2.5 rounded-full bg-orange-500 flex-shrink-0 animate-pulse"></span>
+                                <span>{adv.duration_days} ngày (&gt; 2 tháng)</span>
                               </span>
-                            ))}
+                            ) : adv.duration_days >= 30 ? (
+                              <span className="font-bold text-slate-900 text-xs flex items-center gap-1.5">
+                                <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 flex-shrink-0"></span>
+                                <span>{adv.duration_days} ngày (&gt; 1 tháng)</span>
+                              </span>
+                            ) : (
+                              <span className="font-bold text-slate-900 text-xs flex items-center gap-1.5">
+                                <span className="w-2.5 h-2.5 rounded-full bg-amber-400 flex-shrink-0"></span>
+                                <span>{adv.duration_days} ngày (Mới test)</span>
+                              </span>
+                            )}
+
+                            {adv.duration_days >= 365 && (
+                              <span className="text-[10px] text-orange-600 font-mono pl-4">
+                                ~{(adv.duration_days / 365).toFixed(1)} năm liên tục
+                              </span>
+                            )}
+
+                            <span className="text-[10.5px] text-slate-400 font-mono mt-0.5 pl-4 block">
+                              Từ: {adv.first_seen || adv.last_shown || '2026-05-01'}
+                            </span>
                           </div>
                         </td>
 
-                        {/* Col 4: Action */}
-                        <td className="py-3 px-3 align-top text-center">
+                        {/* Col 3: Ma Trận Mùa Vụ (2024 - 2026) - 3 Năm trực tiếp trên bảng! */}
+                        <td className="py-3 px-3 align-top min-w-[340px]">
+                          <Campaign12MonthTimeline
+                            durationDays={adv.duration_days}
+                            firstSeen={adv.first_seen}
+                            lastShown={adv.last_shown}
+                            monthlyActivity={adv.monthly_activity || adv.timeline_3year}
+                            classification={adv.classification}
+                            classificationLabel={adv.classification_label || adv.longevity_badge}
+                            peakSeasonMonth={trendPeakMonth}
+                            mode={matrixMode}
+                          />
+                        </td>
+
+                        {/* Col 4: Creatives Action */}
+                        <td className="py-3 px-3 align-middle text-center">
                           <button
                             onClick={() => setExpandedAdvId(isExpanded ? null : adv.id)}
-                            className={`px-3 py-1.5 rounded-xl text-[11px] font-bold cursor-pointer transition flex items-center gap-1 mx-auto ${
+                            className={`px-3 py-1.5 rounded-xl text-xs font-bold cursor-pointer transition flex items-center gap-1 mx-auto ${
                               isExpanded ? 'bg-slate-900 text-white' : 'bg-indigo-50 text-indigo-700 hover:bg-indigo-100 border border-indigo-200'
                             }`}
                           >
@@ -472,7 +500,7 @@ export const StoreAccordionSpyView: React.FC<StoreAccordionSpyViewProps> = ({
                         </td>
                       </tr>
 
-                      {/* EXPANDED CREATIVES */}
+                      {/* EXPANDED CREATIVES CARDS */}
                       {isExpanded && (
                         <tr className="bg-slate-50/90 border-b border-indigo-200">
                           <td colSpan={4} className="p-3">
@@ -494,7 +522,7 @@ export const StoreAccordionSpyView: React.FC<StoreAccordionSpyViewProps> = ({
                                             {cr.format_label}
                                           </span>
                                           <span className="text-[9px] text-slate-400 font-mono">
-                                            {scale.label}
+                                            {cr.duration_days}d
                                           </span>
                                         </div>
 
@@ -544,6 +572,27 @@ export const StoreAccordionSpyView: React.FC<StoreAccordionSpyViewProps> = ({
                 })}
               </tbody>
             </table>
+          </div>
+
+          {/* 5. GHI CHÚ NHANH AT BOTTOM (Exact match to screenshot) */}
+          <div className="flex items-center gap-2 pt-1 px-1">
+            <span className="text-xs font-bold text-slate-600 whitespace-nowrap">Ghi chú nhanh:</span>
+            <input
+              type="text"
+              value={quickNote}
+              onChange={e => setQuickNote(e.target.value)}
+              placeholder="Ví dụ: Hoa hồng 30%, đã liên hệ xin coupon riêng..."
+              className="flex-1 px-3 py-1.5 rounded-xl border border-slate-200 text-xs bg-white text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-1 focus:ring-indigo-500 shadow-2xs"
+            />
+            <button
+              onClick={() => {
+                setSavedNote(quickNote);
+                alert('Đã lưu ghi chú nhanh thành công!');
+              }}
+              className="px-4 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold transition cursor-pointer shadow-xs"
+            >
+              Lưu
+            </button>
           </div>
         </>
       ) : loading ? (

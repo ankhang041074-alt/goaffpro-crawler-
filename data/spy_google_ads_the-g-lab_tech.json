@@ -1,0 +1,75 @@
+{
+  "domain": "the-g-lab.tech",
+  "updated_at": "2026-10-10T16:50:18.669231",
+  "total_advertisers": 2,
+  "total_ads": 2,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 2,
+  "advertisers": [
+    {
+      "id": "AR09724547063340859393",
+      "name": "AXSĐã xác minh",
+      "legal_name": "AXSĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09724547063340859393/creative/CR08395148977493770241?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: the-g-lab.tech",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho the-g-lab.tech",
+          "landing_page": "https://www.the-g-lab.tech",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17781030124372425829"
+        }
+      ]
+    },
+    {
+      "id": "AR15545121738273587201",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15545121738273587201/creative/CR13127776017936547841?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: the-g-lab.tech",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho the-g-lab.tech",
+          "landing_page": "https://www.the-g-lab.tech",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8523124074177146169"
+        }
+      ]
+    }
+  ]
+}

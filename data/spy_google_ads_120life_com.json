@@ -1,0 +1,171 @@
+{
+  "domain": "120life.com",
+  "updated_at": "2026-10-10T16:05:36.200525",
+  "total_advertisers": 5,
+  "total_ads": 72,
+  "super_scale_count": 1,
+  "win_ads_count": 4,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR15930463335032553473",
+      "name": "120 Life LLCĐã xác minh",
+      "legal_name": "120 Life LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15930463335032553473/creative/CR13321539430226329601?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 62,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 62,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: 120life.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho 120life.com",
+          "landing_page": "https://www.120life.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 62,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8569694507010622684"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR06356662150538199041?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: 120life.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho 120life.com",
+          "landing_page": "https://www.120life.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11609396013833454377"
+        }
+      ]
+    },
+    {
+      "id": "AR05444786545728946177",
+      "name": "9399160 Canada Inc.Đã xác minh",
+      "legal_name": "9399160 Canada Inc.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05444786545728946177/creative/CR08962562982483591169?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: 120life.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho 120life.com",
+          "landing_page": "https://www.120life.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3915587203851391366"
+        }
+      ]
+    },
+    {
+      "id": "AR09907983656264138753",
+      "name": "NAJAM WAQAS KHANĐã xác minh",
+      "legal_name": "NAJAM WAQAS KHANĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09907983656264138753/creative/CR16795418148709859329?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: 120life.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho 120life.com",
+          "landing_page": "https://www.120life.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12298562331930577357"
+        }
+      ]
+    },
+    {
+      "id": "AR03050384875694587905",
+      "name": "TONY'S MACHINE SHOPĐã xác minh",
+      "legal_name": "TONY'S MACHINE SHOPĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03050384875694587905/creative/CR16523412234857086977?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: 120life.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho 120life.com",
+          "landing_page": "https://www.120life.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12433998164900909483"
+        }
+      ]
+    }
+  ]
+}

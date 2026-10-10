@@ -1,0 +1,43 @@
+{
+  "domain": "pawdawoflondon.com",
+  "updated_at": "2026-10-10T15:44:19.514838",
+  "total_advertisers": 1,
+  "total_ads": 88,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR10042160135398227969",
+      "name": "Pawdaw of London LtdĐã xác minh",
+      "legal_name": "Pawdaw of London LtdĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10042160135398227969/creative/CR04666290042195410945?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 88,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 88,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pawdawoflondon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pawdawoflondon.com",
+          "landing_page": "https://www.pawdawoflondon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 88,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17736629324525370646"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "domain": "terunsoul.com",
+  "updated_at": "2026-10-10T15:15:59.839012",
+  "total_advertisers": 4,
+  "total_ads": 84,
+  "super_scale_count": 1,
+  "win_ads_count": 2,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR03248851534871527425",
+      "name": "Kang weiĐã xác minh",
+      "legal_name": "Kang weiĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03248851534871527425/creative/CR11998461809662099457?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 77,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 77,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: terunsoul.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho terunsoul.com",
+          "landing_page": "https://www.terunsoul.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 77,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3517776298340305599"
+        }
+      ]
+    },
+    {
+      "id": "AR05644834637634076673",
+      "name": "CÔNG TY TNHH GP&CN MINH NGUYÊNĐã xác minh",
+      "legal_name": "CÔNG TY TNHH GP&CN MINH NGUYÊNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05644834637634076673/creative/CR08114809718985195521?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: terunsoul.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho terunsoul.com",
+          "landing_page": "https://www.terunsoul.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9148868293534984236"
+        }
+      ]
+    },
+    {
+      "id": "AR11073075783927857153",
+      "name": "Bùi Tân KhoaĐã xác minh",
+      "legal_name": "Bùi Tân KhoaĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11073075783927857153/creative/CR07671267415535124481?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: terunsoul.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho terunsoul.com",
+          "landing_page": "https://www.terunsoul.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6479125602945976974"
+        }
+      ]
+    },
+    {
+      "id": "AR00145123723706368001",
+      "name": "TRẦN VĂN DANHĐã xác minh",
+      "legal_name": "TRẦN VĂN DANHĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00145123723706368001/creative/CR09007968646592462849?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: terunsoul.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho terunsoul.com",
+          "landing_page": "https://www.terunsoul.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3029634530902100257"
+        }
+      ]
+    }
+  ]
+}

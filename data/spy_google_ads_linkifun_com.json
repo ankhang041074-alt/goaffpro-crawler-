@@ -1,0 +1,778 @@
+{
+  "domain": "linkifun.com",
+  "updated_at": "2026-10-10T15:10:03.972001",
+  "total_advertisers": 24,
+  "total_ads": 138,
+  "super_scale_count": 1,
+  "win_ads_count": 10,
+  "test_ads_count": 13,
+  "advertisers": [
+    {
+      "id": "AR02474378676959969281",
+      "name": "深圳市乐随行科技有限公司Đã xác minh",
+      "legal_name": "深圳市乐随行科技有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02474378676959969281/creative/CR12837884786521407489?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 102,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 102,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 102,
+          "image_url": "https://i.ytimg.com/vi/qunBqSKgkoo/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR11500098474926407681",
+      "name": "Khuất Gia QuyếtĐã xác minh",
+      "legal_name": "Khuất Gia QuyếtĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11500098474926407681/creative/CR03517104403221839873?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9900847312520708105"
+        }
+      ]
+    },
+    {
+      "id": "AR17506280144375906305",
+      "name": "BNB CAMPS LLCĐã xác minh",
+      "legal_name": "BNB CAMPS LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17506280144375906305/creative/CR17018437280492158977?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5870432355571995703"
+        }
+      ]
+    },
+    {
+      "id": "AR04285963438229815297",
+      "name": "BNB CAMPS LLCĐã xác minh",
+      "legal_name": "BNB CAMPS LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04285963438229815297/creative/CR05808606173036806145?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11783931321317555781"
+        }
+      ]
+    },
+    {
+      "id": "AR06697163197805232129",
+      "name": "ALLURE HAIR SALON BY CYNDI SIM LLCĐã xác minh",
+      "legal_name": "ALLURE HAIR SALON BY CYNDI SIM LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06697163197805232129/creative/CR16602348545437073409?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 5,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 5,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 5,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9291744424043947450"
+        }
+      ]
+    },
+    {
+      "id": "AR18414610099063488513",
+      "name": "LÊ THỊ CỬUĐã xác minh",
+      "legal_name": "LÊ THỊ CỬUĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18414610099063488513/creative/CR08982446713969049601?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1688293875098000361"
+        }
+      ]
+    },
+    {
+      "id": "AR17151438055278641153",
+      "name": "SAMUEL JULIAN SIMEONOVĐã xác minh",
+      "legal_name": "SAMUEL JULIAN SIMEONOVĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17151438055278641153/creative/CR06342977620228964353?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5644965459017889556"
+        }
+      ]
+    },
+    {
+      "id": "AR17313072148666908673",
+      "name": "HỘ KINH DOANH BẢO BẢOĐã xác minh",
+      "legal_name": "HỘ KINH DOANH BẢO BẢOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17313072148666908673/creative/CR04264080923454078977?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15420260751676066297"
+        }
+      ]
+    },
+    {
+      "id": "AR10711667067792130049",
+      "name": "GULET MOHAMED HERSIĐã xác minh",
+      "legal_name": "GULET MOHAMED HERSIĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10711667067792130049/creative/CR07390664214106341377?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10602434303831047889"
+        }
+      ]
+    },
+    {
+      "id": "AR14069134949735202817",
+      "name": "GREGORY MATTHEW BOYDĐã xác minh",
+      "legal_name": "GREGORY MATTHEW BOYDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14069134949735202817/creative/CR04049775593120595969?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12904403358237772354"
+        }
+      ]
+    },
+    {
+      "id": "AR05444051719774273537",
+      "name": "Juan Pablo Corsi",
+      "legal_name": "Juan Pablo Corsi",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05444051719774273537/creative/CR06273284147989446657?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6796420303914332119"
+        }
+      ]
+    },
+    {
+      "id": "AR12784598080762675201",
+      "name": "South Wind Tech LimitedĐã xác minh",
+      "legal_name": "South Wind Tech LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12784598080762675201/creative/CR05299525864105443329?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12165552866970238083"
+        }
+      ]
+    },
+    {
+      "id": "AR17712850650926153729",
+      "name": "McConnie Yammie & Company LimitedĐã xác minh",
+      "legal_name": "McConnie Yammie & Company LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17712850650926153729/creative/CR14074463732839219201?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3661808541886325575"
+        }
+      ]
+    },
+    {
+      "id": "AR10245100166222708737",
+      "name": "A 2009 Corp.Đã xác minh",
+      "legal_name": "A 2009 Corp.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10245100166222708737/creative/CR04103801059024044033?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3292290021032476837"
+        }
+      ]
+    },
+    {
+      "id": "AR07341572737913061377",
+      "name": "NADEEM SHAUKAT BUTTĐã xác minh",
+      "legal_name": "NADEEM SHAUKAT BUTTĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07341572737913061377/creative/CR01362059963513438209?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR12342343348378402817",
+      "name": "Desert Ace Manufacturing LLCĐã xác minh",
+      "legal_name": "Desert Ace Manufacturing LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12342343348378402817/creative/CR15407877080532123649?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9060885906073676883"
+        }
+      ]
+    },
+    {
+      "id": "AR17331623650016624641",
+      "name": "LÊ ĐỨC ÂUĐã xác minh",
+      "legal_name": "LÊ ĐỨC ÂUĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17331623650016624641/creative/CR06749512733110042625?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3837023842269456975"
+        }
+      ]
+    },
+    {
+      "id": "AR14005839844895358977",
+      "name": "Pi Surfari LLCĐã xác minh",
+      "legal_name": "Pi Surfari LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14005839844895358977/creative/CR05355427990199074817?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16636241609644247800"
+        }
+      ]
+    },
+    {
+      "id": "AR17956267888067215361",
+      "name": "Juan Pablo Corsi",
+      "legal_name": "Juan Pablo Corsi",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17956267888067215361/creative/CR17937646146822340609?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_18",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4740621006373256488"
+        }
+      ]
+    },
+    {
+      "id": "AR08682008666372571137",
+      "name": "GPLANN CONSULTORIA LTDAĐã xác minh",
+      "legal_name": "GPLANN CONSULTORIA LTDAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08682008666372571137/creative/CR00526072891771453441?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_19",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14057983008395801015"
+        }
+      ]
+    },
+    {
+      "id": "AR07926237745335238657",
+      "name": "Exit Node Corporation",
+      "legal_name": "Exit Node Corporation",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07926237745335238657/creative/CR04294046437831868417?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_20",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2827344503532526959"
+        }
+      ]
+    },
+    {
+      "id": "AR17774847069324836865",
+      "name": "Dun & Bradstreet Latin America",
+      "legal_name": "Dun & Bradstreet Latin America",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17774847069324836865/creative/CR15789695592927592449?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_21",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5932743142425367833"
+        }
+      ]
+    },
+    {
+      "id": "AR05215198450445975553",
+      "name": "Dun & Bradstreet Latin America",
+      "legal_name": "Dun & Bradstreet Latin America",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05215198450445975553/creative/CR10969975789772079105?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_22",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8698960985736526921"
+        }
+      ]
+    },
+    {
+      "id": "AR03231161054205575169",
+      "name": "Exit Node Corporation",
+      "legal_name": "Exit Node Corporation",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03231161054205575169/creative/CR04351887071644745729?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_23",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: linkifun.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho linkifun.com",
+          "landing_page": "https://www.linkifun.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6972787636431723500"
+        }
+      ]
+    }
+  ]
+}

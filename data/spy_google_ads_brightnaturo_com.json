@@ -1,0 +1,42 @@
+{
+  "domain": "brightnaturo.com",
+  "updated_at": "2026-10-10T16:27:18.548417",
+  "total_advertisers": 1,
+  "total_ads": 1,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR05026927682852487169",
+      "name": "Đã bị xóa do vi phạm chính sáchRất tiếc, chúng tôi không thể hiển thị cho bạn quảng cáo này. Chính sách quảng cáo của chúng tôi",
+      "legal_name": "Đã bị xóa do vi phạm chính sáchRất tiếc, chúng tôi không thể hiển thị cho bạn quảng cáo này. Chính sách quảng cáo của chúng tôi",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05026927682852487169/creative/CR06718453359281438721?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Bright Naturo lab. SlĐã xác minh",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho brightnaturo.com",
+          "landing_page": "https://www.brightnaturo.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "domain": "shopee.com.br",
+  "updated_at": "2026-10-10T16:45:27.022986",
+  "total_advertisers": 5,
+  "total_ads": 160,
+  "super_scale_count": 1,
+  "win_ads_count": 3,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR03068654936427331585",
+      "name": "SHPS TECNOLOGIA E SERVICOS LTDA.Đã xác minh",
+      "legal_name": "SHPS TECNOLOGIA E SERVICOS LTDA.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03068654936427331585/creative/CR15523159045048369153?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 150,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 150,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: shopee.com.br",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho shopee.com.br",
+          "landing_page": "https://www.shopee.com.br",
+          "last_shown": "2026-10-10",
+          "duration_days": 150,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12072441990682845413"
+        }
+      ]
+    },
+    {
+      "id": "AR02808425925979406337",
+      "name": "CÔNG TY CỔ PHẦN QUẢNG CÁO CỔNG VIỆT NAMĐã xác minh",
+      "legal_name": "CÔNG TY CỔ PHẦN QUẢNG CÁO CỔNG VIỆT NAMĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02808425925979406337/creative/CR05650418095118876673?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: shopee.com.br",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho shopee.com.br",
+          "landing_page": "https://www.shopee.com.br",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1900929764581378614"
+        }
+      ]
+    },
+    {
+      "id": "AR06723935970934128641",
+      "name": "GERSON MATTIUZZO JUNIORĐã xác minh",
+      "legal_name": "GERSON MATTIUZZO JUNIORĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06723935970934128641/creative/CR04374756810423271425?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: shopee.com.br",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho shopee.com.br",
+          "landing_page": "https://www.shopee.com.br",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/112882895445591159"
+        }
+      ]
+    },
+    {
+      "id": "AR13729686375614119937",
+      "name": "JAIME LUCAS DE OLIVEIRA JUNIORĐã xác minh",
+      "legal_name": "JAIME LUCAS DE OLIVEIRA JUNIORĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13729686375614119937/creative/CR18209980445284630529?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: shopee.com.br",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho shopee.com.br",
+          "landing_page": "https://www.shopee.com.br",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5196841020638012196"
+        }
+      ]
+    },
+    {
+      "id": "AR02574894054286295041",
+      "name": "Silveredge Technologies Private LimitedĐã xác minh",
+      "legal_name": "Silveredge Technologies Private LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02574894054286295041/creative/CR11703707481266978817?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: shopee.com.br",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho shopee.com.br",
+          "landing_page": "https://www.shopee.com.br",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10300428340171212759"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "domain": "shinyhair.de",
+  "updated_at": "2026-10-10T15:39:06.048132",
+  "total_advertisers": 7,
+  "total_ads": 83,
+  "super_scale_count": 1,
+  "win_ads_count": 6,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR10449289225076473857",
+      "name": "Redexa GmbHĐã xác minh",
+      "legal_name": "Redexa GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10449289225076473857/creative/CR02363435230708105217?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 69,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 69,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: shinyhair.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho shinyhair.de",
+          "landing_page": "https://www.shinyhair.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 69,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10766910431894206369"
+        }
+      ]
+    },
+    {
+      "id": "AR15511961721710313473",
+      "name": "ShopForward B.V.Đã xác minh",
+      "legal_name": "ShopForward B.V.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15511961721710313473/creative/CR09891748422187220993?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: shinyhair.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho shinyhair.de",
+          "landing_page": "https://www.shinyhair.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR01734705336297717761",
+      "name": "Nuoren Technology Co.,LimitedĐã xác minh",
+      "legal_name": "Nuoren Technology Co.,LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01734705336297717761/creative/CR14072682524002222081?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: shinyhair.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho shinyhair.de",
+          "landing_page": "https://www.shinyhair.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9910848790614962005"
+        }
+      ]
+    },
+    {
+      "id": "AR17965165385267281921",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17965165385267281921/creative/CR04519686564816617473?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: shinyhair.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho shinyhair.de",
+          "landing_page": "https://www.shinyhair.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10996913886193869969"
+        }
+      ]
+    },
+    {
+      "id": "AR07240887133852925953",
+      "name": "1320 N. HARPER LLCĐã xác minh",
+      "legal_name": "1320 N. HARPER LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07240887133852925953/creative/CR07194563609463095297?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: shinyhair.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho shinyhair.de",
+          "landing_page": "https://www.shinyhair.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10862253907105467957"
+        }
+      ]
+    },
+    {
+      "id": "AR00639261884364619777",
+      "name": "HOÀNG VĂN QUỲNHĐã xác minh",
+      "legal_name": "HOÀNG VĂN QUỲNHĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00639261884364619777/creative/CR11735981626465714177?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: shinyhair.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho shinyhair.de",
+          "landing_page": "https://www.shinyhair.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3253326416578678763"
+        }
+      ]
+    },
+    {
+      "id": "AR18308272678819069953",
+      "name": "Mathias KraftĐã xác minh",
+      "legal_name": "Mathias KraftĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18308272678819069953/creative/CR13377096395568185345?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: shinyhair.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho shinyhair.de",
+          "landing_page": "https://www.shinyhair.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1510990182744892588"
+        }
+      ]
+    }
+  ]
+}

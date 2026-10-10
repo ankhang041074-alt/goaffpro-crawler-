@@ -1,0 +1,171 @@
+{
+  "domain": "eudrohnenpruefung.de",
+  "updated_at": "2026-10-10T15:29:26.733347",
+  "total_advertisers": 5,
+  "total_ads": 70,
+  "super_scale_count": 2,
+  "win_ads_count": 3,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR00507152658889441281",
+      "name": "DQ&A Technology NL BV",
+      "legal_name": "DQ&A Technology NL BV",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00507152658889441281/creative/CR08505200350448320513?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 32,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 32,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: eudrohnenpruefung.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho eudrohnenpruefung.de",
+          "landing_page": "https://www.eudrohnenpruefung.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 32,
+          "image_url": "https://i.ytimg.com/vi/Tdp0QsXxel4/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR05134719782750257153",
+      "name": "Drone Class B.V.Đã xác minh",
+      "legal_name": "Drone Class B.V.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05134719782750257153/creative/CR14448038794244390913?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 32,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 32,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: eudrohnenpruefung.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho eudrohnenpruefung.de",
+          "landing_page": "https://www.eudrohnenpruefung.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 32,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9516396977109439158"
+        }
+      ]
+    },
+    {
+      "id": "AR09706102111539822593",
+      "name": "SAMANTHA PATTERSONĐã xác minh",
+      "legal_name": "SAMANTHA PATTERSONĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09706102111539822593/creative/CR13444604373699133441?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: eudrohnenpruefung.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho eudrohnenpruefung.de",
+          "landing_page": "https://www.eudrohnenpruefung.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8124366892714059843"
+        }
+      ]
+    },
+    {
+      "id": "AR07004035999764316161",
+      "name": "HỘ KINH DOANH NGUYỄN THANH VƯƠNGĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN THANH VƯƠNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07004035999764316161/creative/CR03102915692979027969?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: eudrohnenpruefung.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho eudrohnenpruefung.de",
+          "landing_page": "https://www.eudrohnenpruefung.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10131389784467111308"
+        }
+      ]
+    },
+    {
+      "id": "AR09902340515913793537",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09902340515913793537/creative/CR11688322607764996097?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: eudrohnenpruefung.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho eudrohnenpruefung.de",
+          "landing_page": "https://www.eudrohnenpruefung.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6968251313716311348"
+        }
+      ]
+    }
+  ]
+}

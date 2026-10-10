@@ -1,0 +1,107 @@
+{
+  "domain": "eyeling.com",
+  "updated_at": "2026-10-10T15:38:37.265297",
+  "total_advertisers": 3,
+  "total_ads": 118,
+  "super_scale_count": 1,
+  "win_ads_count": 2,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR10074046900316667905",
+      "name": "Metriton OÜĐã xác minh",
+      "legal_name": "Metriton OÜĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10074046900316667905/creative/CR14130763538544721921?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 114,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 114,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: eyeling.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho eyeling.com",
+          "landing_page": "https://www.eyeling.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 114,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8630663187177459321"
+        }
+      ]
+    },
+    {
+      "id": "AR11559302185330147329",
+      "name": "QUAN , CHENGXUEĐã xác minh",
+      "legal_name": "QUAN , CHENGXUEĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11559302185330147329/creative/CR12409634181552799745?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: eyeling.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho eyeling.com",
+          "landing_page": "https://www.eyeling.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7297049779599862630"
+        }
+      ]
+    },
+    {
+      "id": "AR05223928873418227713",
+      "name": "Khuất Gia QuyếtĐã xác minh",
+      "legal_name": "Khuất Gia QuyếtĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05223928873418227713/creative/CR03388942716548153345?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: eyeling.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho eyeling.com",
+          "landing_page": "https://www.eyeling.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18426123766414302997"
+        }
+      ]
+    }
+  ]
+}

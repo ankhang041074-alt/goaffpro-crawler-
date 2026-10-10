@@ -1,0 +1,75 @@
+{
+  "domain": "iteaworld.com",
+  "updated_at": "2026-10-10T15:23:51.745415",
+  "total_advertisers": 2,
+  "total_ads": 56,
+  "super_scale_count": 1,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR09837508809214394369",
+      "name": "深圳济嘉茶业有限公司Đã xác minh",
+      "legal_name": "深圳济嘉茶业有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09837508809214394369/creative/CR03895287681067778049?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 54,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 54,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: iteaworld.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho iteaworld.com",
+          "landing_page": "https://www.iteaworld.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 54,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17131703975888888689"
+        }
+      ]
+    },
+    {
+      "id": "AR06752056650829398017",
+      "name": "Lagoja - Marketing GmbHĐã xác minh",
+      "legal_name": "Lagoja - Marketing GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06752056650829398017/creative/CR02283003481235128321?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: iteaworld.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho iteaworld.com",
+          "landing_page": "https://www.iteaworld.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13210600961455824087"
+        }
+      ]
+    }
+  ]
+}

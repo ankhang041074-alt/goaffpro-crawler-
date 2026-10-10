@@ -1,0 +1,73 @@
+{
+  "domain": "chefsupplyco.com.au",
+  "updated_at": "2026-10-10T16:47:35.773052",
+  "total_advertisers": 2,
+  "total_ads": 18,
+  "super_scale_count": 1,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR08238632595336724481",
+      "name": "Chef Supply Co Pty LtdĐã xác minh",
+      "legal_name": "Chef Supply Co Pty LtdĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08238632595336724481/creative/CR06824247603601866753?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 10,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 10,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: chefsupplyco.com.au",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chefsupplyco.com.au",
+          "landing_page": "https://www.chefsupplyco.com.au",
+          "last_shown": "2026-10-10",
+          "duration_days": 10,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR05517661764101079041",
+      "name": "Rất tiếc, chúng tôi không thể hiển thị cho bạn quảng cáo này vào lúc nàyAdam Geoffrey DoddĐã xác minh",
+      "legal_name": "Rất tiếc, chúng tôi không thể hiển thị cho bạn quảng cáo này vào lúc nàyAdam Geoffrey DoddĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05517661764101079041/creative/CR14802625684974862337?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 8,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 8,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: chefsupplyco.com.au",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chefsupplyco.com.au",
+          "landing_page": "https://www.chefsupplyco.com.au",
+          "last_shown": "2026-10-10",
+          "duration_days": 8,
+          "image_url": null
+        }
+      ]
+    }
+  ]
+}

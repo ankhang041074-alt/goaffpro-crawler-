@@ -1,0 +1,43 @@
+{
+  "domain": "maiden-art.com",
+  "updated_at": "2026-10-10T16:59:02.244558",
+  "total_advertisers": 1,
+  "total_ads": 12,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR08899637485349371905",
+      "name": "Maiden-ArtĐã xác minh",
+      "legal_name": "Maiden-ArtĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08899637485349371905/creative/CR08948906524080603137?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 12,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 12,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: maiden-art.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho maiden-art.com",
+          "landing_page": "https://www.maiden-art.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 12,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18058967415271854520"
+        }
+      ]
+    }
+  ]
+}

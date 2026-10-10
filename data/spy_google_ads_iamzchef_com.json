@@ -1,0 +1,522 @@
+{
+  "domain": "iamzchef.com",
+  "updated_at": "2026-10-10T15:21:09.819436",
+  "total_advertisers": 16,
+  "total_ads": 99,
+  "super_scale_count": 1,
+  "win_ads_count": 9,
+  "test_ads_count": 6,
+  "advertisers": [
+    {
+      "id": "AR09810926655324028929",
+      "name": "广州欧泊仕家电有限公司Đã xác minh",
+      "legal_name": "广州欧泊仕家电有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09810926655324028929/creative/CR06506124220710256641?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 73,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 73,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: iamzchef.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho iamzchef.com",
+          "landing_page": "https://www.iamzchef.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 73,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5200800221159662208"
+        }
+      ]
+    },
+    {
+      "id": "AR03869115602064900097",
+      "name": "Đàm Minh TrườngĐã xác minh",
+      "legal_name": "Đàm Minh TrườngĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03869115602064900097/creative/CR01898538624740229121?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: iamzchef.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho iamzchef.com",
+          "landing_page": "https://www.iamzchef.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3669513775018997823"
+        }
+      ]
+    },
+    {
+      "id": "AR16279209525506998273",
+      "name": "GLOBAL INTEGRATED MARKETING COMMUNICATION GROUP HOLDINGS LIMITEDĐã xác minh",
+      "legal_name": "GLOBAL INTEGRATED MARKETING COMMUNICATION GROUP HOLDINGS LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16279209525506998273/creative/CR02641942316297748481?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: iamzchef.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho iamzchef.com",
+          "landing_page": "https://www.iamzchef.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9407400363254747516"
+        }
+      ]
+    },
+    {
+      "id": "AR16387915955222609921",
+      "name": "STAR HONOUR DEVELOPMENT LIMITEDĐã xác minh",
+      "legal_name": "STAR HONOUR DEVELOPMENT LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16387915955222609921/creative/CR10675706543573303297?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: iamzchef.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho iamzchef.com",
+          "landing_page": "https://www.iamzchef.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7571761549498999011"
+        }
+      ]
+    },
+    {
+      "id": "AR10575899088526508033",
+      "name": "YINO (HONGKONG) DIGITAL TECHNOLOGY CO., LIMITEDĐã xác minh",
+      "legal_name": "YINO (HONGKONG) DIGITAL TECHNOLOGY CO., LIMITEDĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10575899088526508033/creative/CR07273542689327415297?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: iamzchef.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho iamzchef.com",
+          "landing_page": "https://www.iamzchef.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15842063924283644344"
+        }
+      ]
+    },
+    {
+      "id": "AR15191710508941049857",
+      "name": "CÔNG TY TNHH PHÁT TRIỂN GIẢI PHÁP TIN HỌC BỀN VỮNG ITGREENĐã xác minh",
+      "legal_name": "CÔNG TY TNHH PHÁT TRIỂN GIẢI PHÁP TIN HỌC BỀN VỮNG ITGREENĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15191710508941049857/creative/CR01594855952689922049?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: iamzchef.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho iamzchef.com",
+          "landing_page": "https://www.iamzchef.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4538919479582261509"
+        }
+      ]
+    },
+    {
+      "id": "AR16405902067077480449",
+      "name": "Khuất Gia QuyếtĐã xác minh",
+      "legal_name": "Khuất Gia QuyếtĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16405902067077480449/creative/CR01651029898673782785?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: iamzchef.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho iamzchef.com",
+          "landing_page": "https://www.iamzchef.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4463023446764222619"
+        }
+      ]
+    },
+    {
+      "id": "AR09019303718121635841",
+      "name": "NGUYỄN THỊ THẮMĐã xác minh",
+      "legal_name": "NGUYỄN THỊ THẮMĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09019303718121635841/creative/CR15040039279390621697?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: iamzchef.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho iamzchef.com",
+          "landing_page": "https://www.iamzchef.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4177506199297606705"
+        }
+      ]
+    },
+    {
+      "id": "AR10757538830341898241",
+      "name": "HỌ LAN PHƯƠNGĐã xác minh",
+      "legal_name": "HỌ LAN PHƯƠNGĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10757538830341898241/creative/CR18045765420148850689?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: iamzchef.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho iamzchef.com",
+          "landing_page": "https://www.iamzchef.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14973887577161452735"
+        }
+      ]
+    },
+    {
+      "id": "AR18353185400941445121",
+      "name": "LÊ VÕ THỊ NGỌC HÂNĐã xác minh",
+      "legal_name": "LÊ VÕ THỊ NGỌC HÂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18353185400941445121/creative/CR03982851069116940289?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: iamzchef.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho iamzchef.com",
+          "landing_page": "https://www.iamzchef.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9953358509616589369"
+        }
+      ]
+    },
+    {
+      "id": "AR17918469916709617665",
+      "name": "TRUNG THANH PHAT JOINT STOCK COMPANYĐã xác minh",
+      "legal_name": "TRUNG THANH PHAT JOINT STOCK COMPANYĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17918469916709617665/creative/CR17286307346997313537?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: iamzchef.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho iamzchef.com",
+          "landing_page": "https://www.iamzchef.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12171627006265472434"
+        }
+      ]
+    },
+    {
+      "id": "AR09580114983987970049",
+      "name": "HOÀNG THỊ HẰNGĐã xác minh",
+      "legal_name": "HOÀNG THỊ HẰNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09580114983987970049/creative/CR17767414602649305089?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: iamzchef.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho iamzchef.com",
+          "landing_page": "https://www.iamzchef.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16712635894261161166"
+        }
+      ]
+    },
+    {
+      "id": "AR12524371621525323777",
+      "name": "ĐẬU THỊ HOÀNĐã xác minh",
+      "legal_name": "ĐẬU THỊ HOÀNĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12524371621525323777/creative/CR00406622841883066369?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: iamzchef.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho iamzchef.com",
+          "landing_page": "https://www.iamzchef.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR06785990551779934209",
+      "name": "Absolute Link LimitedĐã xác minh",
+      "legal_name": "Absolute Link LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06785990551779934209/creative/CR14268211837865558017?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: iamzchef.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho iamzchef.com",
+          "landing_page": "https://www.iamzchef.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13317412443419479768"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR08061744015063646209?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: iamzchef.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho iamzchef.com",
+          "landing_page": "https://www.iamzchef.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5856705325396140785"
+        }
+      ]
+    },
+    {
+      "id": "AR09805610636862816257",
+      "name": "Hộ Kinh Doanh Phương ThảoĐã xác minh",
+      "legal_name": "Hộ Kinh Doanh Phương ThảoĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09805610636862816257/creative/CR16343844436804894721?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: iamzchef.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho iamzchef.com",
+          "landing_page": "https://www.iamzchef.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4096466019119117733"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "gomumba.com",
+  "updated_at": "2026-10-10T15:04:07.155051",
+  "total_advertisers": 1,
+  "total_ads": 72,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR10637652592164864001",
+      "name": "NESTIFY LLCĐã xác minh",
+      "legal_name": "NESTIFY LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10637652592164864001/creative/CR06929557899597316097?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 72,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 72,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: gomumba.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gomumba.com",
+          "landing_page": "https://www.gomumba.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 72,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3667997751632349258"
+        }
+      ]
+    }
+  ]
+}

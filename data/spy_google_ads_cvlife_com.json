@@ -1,0 +1,171 @@
+{
+  "domain": "cvlife.com",
+  "updated_at": "2026-10-10T16:13:20.300897",
+  "total_advertisers": 5,
+  "total_ads": 14,
+  "super_scale_count": 0,
+  "win_ads_count": 5,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR08149736470345678849",
+      "name": "CENTRAL BRIGHT MANAGEMENT LIMITEDĐã xác minh",
+      "legal_name": "CENTRAL BRIGHT MANAGEMENT LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08149736470345678849/creative/CR06282374738329206785?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 6,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: cvlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho cvlife.com",
+          "landing_page": "https://www.cvlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 6,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10252309807718097094"
+        }
+      ]
+    },
+    {
+      "id": "AR08321424626907348993",
+      "name": "VŨ MẠNH HÀĐã xác minh",
+      "legal_name": "VŨ MẠNH HÀĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08321424626907348993/creative/CR06386640498278268929?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: cvlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho cvlife.com",
+          "landing_page": "https://www.cvlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1970166451474693886"
+        }
+      ]
+    },
+    {
+      "id": "AR14413605680655106049",
+      "name": "TKTXĐã xác minh",
+      "legal_name": "TKTXĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14413605680655106049/creative/CR07348515810245083137?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: cvlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho cvlife.com",
+          "landing_page": "https://www.cvlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9172959707930895386"
+        }
+      ]
+    },
+    {
+      "id": "AR03394345647967567873",
+      "name": "Đặng Thành ĐôĐã xác minh",
+      "legal_name": "Đặng Thành ĐôĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03394345647967567873/creative/CR16840955934602690561?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: cvlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho cvlife.com",
+          "landing_page": "https://www.cvlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11067924507457313989"
+        }
+      ]
+    },
+    {
+      "id": "AR10624301703505117185",
+      "name": "VŨ THỊ HÒEĐã xác minh",
+      "legal_name": "VŨ THỊ HÒEĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10624301703505117185/creative/CR07360673179032879105?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: cvlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho cvlife.com",
+          "landing_page": "https://www.cvlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14980368738541131990"
+        }
+      ]
+    }
+  ]
+}

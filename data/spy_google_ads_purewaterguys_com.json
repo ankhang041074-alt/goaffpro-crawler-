@@ -1,0 +1,43 @@
+{
+  "domain": "purewaterguys.com",
+  "updated_at": "2026-10-10T16:46:32.177441",
+  "total_advertisers": 1,
+  "total_ads": 34,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR16278236818493669377",
+      "name": "Mangie LLCĐã xác minh",
+      "legal_name": "Mangie LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16278236818493669377/creative/CR12511951194580582401?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 34,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 34,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: purewaterguys.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho purewaterguys.com",
+          "landing_page": "https://www.purewaterguys.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 34,
+          "image_url": "https://i.ytimg.com/vi/IPT6pr_6YD0/hqdefault.jpg"
+        }
+      ]
+    }
+  ]
+}

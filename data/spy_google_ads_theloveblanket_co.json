@@ -1,0 +1,202 @@
+{
+  "domain": "theloveblanket.co",
+  "updated_at": "2026-10-10T16:08:13.188937",
+  "total_advertisers": 6,
+  "total_ads": 12,
+  "super_scale_count": 0,
+  "win_ads_count": 6,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR12090415753799401473?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theloveblanket.co",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theloveblanket.co",
+          "landing_page": "https://www.theloveblanket.co",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17278095354155423180"
+        }
+      ]
+    },
+    {
+      "id": "AR06142367909810274305",
+      "name": "LÊ THANH HẢIĐã xác minh",
+      "legal_name": "LÊ THANH HẢIĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06142367909810274305/creative/CR02169175165580083201?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: theloveblanket.co",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theloveblanket.co",
+          "landing_page": "https://www.theloveblanket.co",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR17404813466153254913",
+      "name": "Nilson Pro Drywall IncĐã xác minh",
+      "legal_name": "Nilson Pro Drywall IncĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17404813466153254913/creative/CR00791335432091598849?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theloveblanket.co",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theloveblanket.co",
+          "landing_page": "https://www.theloveblanket.co",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9948584175734399784"
+        }
+      ]
+    },
+    {
+      "id": "AR16767039452949250049",
+      "name": "Connect Profit (Hong Kong) LimitedĐã xác minh",
+      "legal_name": "Connect Profit (Hong Kong) LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16767039452949250049/creative/CR12765435972502421505?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theloveblanket.co",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theloveblanket.co",
+          "landing_page": "https://www.theloveblanket.co",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9791451964131056147"
+        }
+      ]
+    },
+    {
+      "id": "AR12703737985611333633",
+      "name": "Hộ Kinh Doanh Phương ThảoĐã xác minh",
+      "legal_name": "Hộ Kinh Doanh Phương ThảoĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12703737985611333633/creative/CR06796043214793998337?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theloveblanket.co",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theloveblanket.co",
+          "landing_page": "https://www.theloveblanket.co",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3001656343950453735"
+        }
+      ]
+    },
+    {
+      "id": "AR07431965229510033409",
+      "name": "Hither ABĐã xác minh",
+      "legal_name": "Hither ABĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07431965229510033409/creative/CR05859604795098136577?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theloveblanket.co",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theloveblanket.co",
+          "landing_page": "https://www.theloveblanket.co",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7911564917499581362"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "domain": "dragon-naga.com",
+  "updated_at": "2026-10-10T12:44:13.451569",
+  "total_advertisers": 1,
+  "total_ads": 1,
+  "win_ads_count": 0,
+  "super_scale_count": 0,
+  "evergreen_percent": 0,
+  "advertisers": [
+    {
+      "id": "AR13000165186588377089",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂN",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂN",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13000165186588377089/creative/CR02731345195890114561?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 35,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Dragon-naga.com Official Offers & Deals",
+          "description": "Shop online at dragon-naga.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.dragon-naga.com/?ref=aff_ar1300",
+          "last_shown": "2026-10-10",
+          "duration_days": 35,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16681247366104763976"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    }
+  ],
+  "test_ads_count": 1
+}

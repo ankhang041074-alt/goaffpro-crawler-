@@ -1,0 +1,140 @@
+{
+  "domain": "teckelshop.fr",
+  "updated_at": "2026-10-10T12:27:27.741913",
+  "total_advertisers": 4,
+  "total_ads": 10,
+  "win_ads_count": 4,
+  "super_scale_count": 0,
+  "evergreen_percent": 0,
+  "advertisers": [
+    {
+      "id": "AR14451554001637867521",
+      "name": "CÔNG TY TNHH ADSDIGI",
+      "legal_name": "CÔNG TY TNHH ADSDIGI",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14451554001637867521/creative/CR04951007341257424897?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 35,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Teckelshop.fr Official Offers & Deals",
+          "description": "Shop online at teckelshop.fr. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.teckelshop.fr/?ref=aff_ar1445",
+          "last_shown": "2026-10-10",
+          "duration_days": 35,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/891992213594805040"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR16218438976673939457",
+      "name": "G & A ASSOCIATES",
+      "legal_name": "G & A ASSOCIATES",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16218438976673939457/creative/CR07530531301569331201?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 46,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Teckelshop.fr Official Offers & Deals",
+          "description": "Shop online at teckelshop.fr. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.teckelshop.fr/?ref=aff_ar1621",
+          "last_shown": "2026-10-10",
+          "duration_days": 46,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15634499796272337067"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR12888799527871447041",
+      "name": "S&R COMPANY LTD",
+      "legal_name": "S&R COMPANY LTD",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12888799527871447041/creative/CR09810019291943141377?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 57,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Teckelshop.fr Official Offers & Deals",
+          "description": "Shop online at teckelshop.fr. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.teckelshop.fr/?ref=aff_ar1288",
+          "last_shown": "2026-10-10",
+          "duration_days": 57,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15831033505326068165"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR01101679813166366721",
+      "name": "Lai Thi Tham",
+      "legal_name": "Lai Thi Tham",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01101679813166366721/creative/CR15546128684766199809?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 68,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Teckelshop.fr Official Offers & Deals",
+          "description": "Shop online at teckelshop.fr. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.teckelshop.fr/?ref=aff_ar0110",
+          "last_shown": "2026-10-10",
+          "duration_days": 68,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4109116694782518420"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    }
+  ],
+  "test_ads_count": 0
+}

@@ -1,0 +1,74 @@
+{
+  "domain": "modiphius.net",
+  "updated_at": "2026-10-10T14:01:12.287052",
+  "total_advertisers": 2,
+  "total_ads": 2,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 2,
+  "advertisers": [
+    {
+      "id": "AR09477567657633906689",
+      "name": "NGUYỄN XUÂN TƯĐã xác minh",
+      "legal_name": "NGUYỄN XUÂN TƯĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09477567657633906689/creative/CR08553464280932941825?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: modiphius.net",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho modiphius.net",
+          "landing_page": "https://www.modiphius.net",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9386002824056531456"
+        }
+      ]
+    },
+    {
+      "id": "AR05226867799279796225",
+      "name": "DIGITAL AEC LIMITEDĐã xác minh",
+      "legal_name": "DIGITAL AEC LIMITEDĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05226867799279796225/creative/CR15718585288286535681?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: modiphius.net",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho modiphius.net",
+          "landing_page": "https://www.modiphius.net",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    }
+  ]
+}

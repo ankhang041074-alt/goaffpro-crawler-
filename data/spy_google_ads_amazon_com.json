@@ -1,0 +1,171 @@
+{
+  "domain": "amazon.com",
+  "updated_at": "2026-10-10T13:49:39.833627",
+  "total_advertisers": 5,
+  "total_ads": 160,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 4,
+  "advertisers": [
+    {
+      "id": "AR15974021587678527489",
+      "name": "Amazon.com Services LLCĐã xác minh",
+      "legal_name": "Amazon.com Services LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15974021587678527489/creative/CR09563230909201645569?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 156,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 156,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amazon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amazon.com",
+          "landing_page": "https://www.amazon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 156,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7531338856874860385"
+        }
+      ]
+    },
+    {
+      "id": "AR11152967329594212353",
+      "name": "Fromm International LLCĐã xác minh",
+      "legal_name": "Fromm International LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11152967329594212353/creative/CR16406245149065084929?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amazon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amazon.com",
+          "landing_page": "https://www.amazon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8152576646280331586"
+        }
+      ]
+    },
+    {
+      "id": "AR17586573604491886593",
+      "name": "Amazon.com, Inc.Đã xác minh",
+      "legal_name": "Amazon.com, Inc.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17586573604491886593/creative/CR08224321532378218497?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amazon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amazon.com",
+          "landing_page": "https://www.amazon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4841842532006386457"
+        }
+      ]
+    },
+    {
+      "id": "AR15312129606530629633",
+      "name": "Cage Point, LLCĐã xác minh",
+      "legal_name": "Cage Point, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15312129606530629633/creative/CR14398873530512965633?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amazon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amazon.com",
+          "landing_page": "https://www.amazon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7597437128976116155"
+        }
+      ]
+    },
+    {
+      "id": "AR07805807944687157249",
+      "name": "Auto Detailing Supplies, LLCĐã xác minh",
+      "legal_name": "Auto Detailing Supplies, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07805807944687157249/creative/CR18217232823981441025?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amazon.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amazon.com",
+          "landing_page": "https://www.amazon.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9600198400951777807"
+        }
+      ]
+    }
+  ]
+}

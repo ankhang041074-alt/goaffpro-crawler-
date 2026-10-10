@@ -1,0 +1,107 @@
+{
+  "domain": "bowwe.com",
+  "updated_at": "2026-10-10T14:38:45.267311",
+  "total_advertisers": 3,
+  "total_ads": 3,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 3,
+  "advertisers": [
+    {
+      "id": "AR10234174113019068417",
+      "name": "PHẠM ĐÌNH HƯNGĐã xác minh",
+      "legal_name": "PHẠM ĐÌNH HƯNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10234174113019068417/creative/CR03389618366443421697?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bowwe.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bowwe.com",
+          "landing_page": "https://www.bowwe.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4022006268164084328"
+        }
+      ]
+    },
+    {
+      "id": "AR01257152947767214081",
+      "name": "ALMARED ALAZRAQ BUILDING MAINTENANCE AND CLEANING SERVICES L.L.CĐã xác minh",
+      "legal_name": "ALMARED ALAZRAQ BUILDING MAINTENANCE AND CLEANING SERVICES L.L.CĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01257152947767214081/creative/CR00961949468872146945?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bowwe.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bowwe.com",
+          "landing_page": "https://www.bowwe.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7749705592936271382"
+        }
+      ]
+    },
+    {
+      "id": "AR04543081354757144577",
+      "name": "AMAN SRIVASTAVA",
+      "legal_name": "AMAN SRIVASTAVA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04543081354757144577/creative/CR16282564805498241025?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bowwe.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bowwe.com",
+          "landing_page": "https://www.bowwe.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16369932806252180524"
+        }
+      ]
+    }
+  ]
+}

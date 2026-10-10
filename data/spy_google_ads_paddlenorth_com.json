@@ -1,0 +1,43 @@
+{
+  "domain": "paddlenorth.com",
+  "updated_at": "2026-10-10T14:36:20.198585",
+  "total_advertisers": 1,
+  "total_ads": 26,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR12536650013901586433",
+      "name": "Paddle North LLCĐã xác minh",
+      "legal_name": "Paddle North LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12536650013901586433/creative/CR00737655487717179393?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 26,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 26,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: paddlenorth.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho paddlenorth.com",
+          "landing_page": "https://www.paddlenorth.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 26,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14193092967191020367"
+        }
+      ]
+    }
+  ]
+}

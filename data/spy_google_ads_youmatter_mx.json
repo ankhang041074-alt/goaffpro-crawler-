@@ -1,0 +1,43 @@
+{
+  "domain": "youmatter.mx",
+  "updated_at": "2026-10-10T14:17:58.381086",
+  "total_advertisers": 1,
+  "total_ads": 12,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR11866344483878600705",
+      "name": "COMERCIALIZADORA DE MEDICINA FUNCIONAL INTEGRALĐã xác minh",
+      "legal_name": "COMERCIALIZADORA DE MEDICINA FUNCIONAL INTEGRALĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11866344483878600705/creative/CR11146168765731831809?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 12,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 12,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: youmatter.mx",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho youmatter.mx",
+          "landing_page": "https://www.youmatter.mx",
+          "last_shown": "2026-10-10",
+          "duration_days": 12,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12935035484326967166"
+        }
+      ]
+    }
+  ]
+}

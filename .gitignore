@@ -5,11 +5,13 @@ node_modules/
 dist/
 .DS_Store
 data/browser_profile/
+data/chrome_profile_*/
 data/goaffpro.db-wal
 data/goaffpro.db-shm
 !data/goaffpro.db
 data/trends_cookies.json
 data/test_profile/
 data/benchmark_*.json
+data/scraped_advertisers_*.json
 exports/
 *.log

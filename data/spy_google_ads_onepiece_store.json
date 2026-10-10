@@ -1,0 +1,107 @@
+{
+  "domain": "onepiece.store",
+  "updated_at": "2026-10-10T14:50:42.196380",
+  "total_advertisers": 3,
+  "total_ads": 3,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 3,
+  "advertisers": [
+    {
+      "id": "AR17254279672791826433",
+      "name": "Lê Tuyết Nhi",
+      "legal_name": "Lê Tuyết Nhi",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17254279672791826433/creative/CR01796164986863616001?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: onepiece.store",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho onepiece.store",
+          "landing_page": "https://www.onepiece.store",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10368897652886424928"
+        }
+      ]
+    },
+    {
+      "id": "AR03471914655708872705",
+      "name": "ABC AUTO SALES LTDĐã xác minh",
+      "legal_name": "ABC AUTO SALES LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03471914655708872705/creative/CR03594396359802748929?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: onepiece.store",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho onepiece.store",
+          "landing_page": "https://www.onepiece.store",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2825556721545864270"
+        }
+      ]
+    },
+    {
+      "id": "AR14783524256012566529",
+      "name": "ĐỒNG THANH CẨMĐã xác minh",
+      "legal_name": "ĐỒNG THANH CẨMĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14783524256012566529/creative/CR16736269001570648065?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: onepiece.store",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho onepiece.store",
+          "landing_page": "https://www.onepiece.store",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9840605725802563214"
+        }
+      ]
+    }
+  ]
+}

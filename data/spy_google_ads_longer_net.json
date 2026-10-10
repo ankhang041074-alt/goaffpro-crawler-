@@ -1,0 +1,298 @@
+{
+  "domain": "longer.net",
+  "updated_at": "2026-10-10T14:31:33.017878",
+  "total_advertisers": 9,
+  "total_ads": 116,
+  "super_scale_count": 2,
+  "win_ads_count": 5,
+  "test_ads_count": 2,
+  "advertisers": [
+    {
+      "id": "AR14700497126522093569",
+      "name": "Pashion.dk ApSĐã xác minh",
+      "legal_name": "Pashion.dk ApSĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14700497126522093569/creative/CR13342958784318799873?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: longer.net",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho longer.net",
+          "landing_page": "https://www.longer.net",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR02409934195922042881",
+      "name": "LONGER TECHNOLOGY (HONGKONG) LIMITEDĐã xác minh",
+      "legal_name": "LONGER TECHNOLOGY (HONGKONG) LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02409934195922042881/creative/CR18052164474743291905?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 87,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 87,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: longer.net",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho longer.net",
+          "landing_page": "https://www.longer.net",
+          "last_shown": "2026-10-10",
+          "duration_days": 87,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2709279156070550912"
+        }
+      ]
+    },
+    {
+      "id": "AR04312461015624187905",
+      "name": "LONGER TECHNOLOGY (HONGKONG) LIMITEDĐã xác minh",
+      "legal_name": "LONGER TECHNOLOGY (HONGKONG) LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04312461015624187905/creative/CR07516653403242496001?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 13,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 13,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: longer.net",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho longer.net",
+          "landing_page": "https://www.longer.net",
+          "last_shown": "2026-10-10",
+          "duration_days": 13,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12208070804112491635"
+        }
+      ]
+    },
+    {
+      "id": "AR01166471456410828801",
+      "name": "Trần Đăng KhoaĐã xác minh",
+      "legal_name": "Trần Đăng KhoaĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01166471456410828801/creative/CR07205553288312258561?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: longer.net",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho longer.net",
+          "landing_page": "https://www.longer.net",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7007542937566552816"
+        }
+      ]
+    },
+    {
+      "id": "AR10351977781683814401",
+      "name": "RAU SẠCHĐã xác minh",
+      "legal_name": "RAU SẠCHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10351977781683814401/creative/CR17324508882071977985?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 6,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: longer.net",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho longer.net",
+          "landing_page": "https://www.longer.net",
+          "last_shown": "2026-10-10",
+          "duration_days": 6,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13770675814379892603"
+        }
+      ]
+    },
+    {
+      "id": "AR07044761936226942977",
+      "name": "Mohamed Dia Eddine FarahĐã xác minh",
+      "legal_name": "Mohamed Dia Eddine FarahĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07044761936226942977/creative/CR11096780472938659841?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: longer.net",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho longer.net",
+          "landing_page": "https://www.longer.net",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12046759967885251312"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR12432940091440103425?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: longer.net",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho longer.net",
+          "landing_page": "https://www.longer.net",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11746469982149735716"
+        }
+      ]
+    },
+    {
+      "id": "AR02973493390454292481",
+      "name": "Hoàng Văn ThànhĐã xác minh",
+      "legal_name": "Hoàng Văn ThànhĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02973493390454292481/creative/CR05871504182380331009?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: longer.net",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho longer.net",
+          "landing_page": "https://www.longer.net",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13697488548525060526"
+        }
+      ]
+    },
+    {
+      "id": "AR02346701737475178497",
+      "name": "Mohsin NawazĐã xác minh",
+      "legal_name": "Mohsin NawazĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02346701737475178497/creative/CR00742657303550885889?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: longer.net",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho longer.net",
+          "landing_page": "https://www.longer.net",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9572196602521145899"
+        }
+      ]
+    }
+  ]
+}

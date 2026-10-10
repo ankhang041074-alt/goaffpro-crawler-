@@ -1,0 +1,203 @@
+{
+  "domain": "pendantify.com",
+  "updated_at": "2026-10-10T14:41:49.062180",
+  "total_advertisers": 6,
+  "total_ads": 26,
+  "super_scale_count": 1,
+  "win_ads_count": 5,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR02355159060656947201",
+      "name": "Pendantify LLCĐã xác minh",
+      "legal_name": "Pendantify LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02355159060656947201/creative/CR13254991935631785985?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 16,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 16,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pendantify.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pendantify.com",
+          "landing_page": "https://www.pendantify.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 16,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1575433588679905072"
+        }
+      ]
+    },
+    {
+      "id": "AR18199331159773544449",
+      "name": "Nguyen The HungĐã xác minh",
+      "legal_name": "Nguyen The HungĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18199331159773544449/creative/CR15287480600240324609?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pendantify.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pendantify.com",
+          "landing_page": "https://www.pendantify.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1249831753047440565"
+        }
+      ]
+    },
+    {
+      "id": "AR13547397827449061377",
+      "name": "CAR DISTRICT JAPAN LLCĐã xác minh",
+      "legal_name": "CAR DISTRICT JAPAN LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13547397827449061377/creative/CR01931609254444138497?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pendantify.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pendantify.com",
+          "landing_page": "https://www.pendantify.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13173380420195661227"
+        }
+      ]
+    },
+    {
+      "id": "AR12205387217949949953",
+      "name": "DOAN GIA PHAT INTERIOR DECORATION COMPANY LIMITEDĐã xác minh",
+      "legal_name": "DOAN GIA PHAT INTERIOR DECORATION COMPANY LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12205387217949949953/creative/CR07242783542302736385?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pendantify.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pendantify.com",
+          "landing_page": "https://www.pendantify.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7178036329289958057"
+        }
+      ]
+    },
+    {
+      "id": "AR17183880185238257665",
+      "name": "Dan Reed Soaring Hearts FoundationĐã xác minh",
+      "legal_name": "Dan Reed Soaring Hearts FoundationĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17183880185238257665/creative/CR12822915829062434817?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pendantify.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pendantify.com",
+          "landing_page": "https://www.pendantify.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8453754539279613858"
+        }
+      ]
+    },
+    {
+      "id": "AR13991697007215902721",
+      "name": "DIGITAL NEXT (PRIVATE) LIMITED - DO NOT USE - IN OCAĐã xác minh",
+      "legal_name": "DIGITAL NEXT (PRIVATE) LIMITED - DO NOT USE - IN OCAĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13991697007215902721/creative/CR09883092053041086465?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pendantify.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pendantify.com",
+          "landing_page": "https://www.pendantify.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2752395305560240825"
+        }
+      ]
+    }
+  ]
+}

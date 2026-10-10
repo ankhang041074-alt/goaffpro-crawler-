@@ -1,0 +1,140 @@
+{
+  "domain": "healthnatura.com",
+  "updated_at": "2026-10-10T12:44:39.785898",
+  "total_advertisers": 4,
+  "total_ads": 48,
+  "win_ads_count": 3,
+  "super_scale_count": 1,
+  "evergreen_percent": 0,
+  "advertisers": [
+    {
+      "id": "AR04101144750600486913",
+      "name": "Healthnatura.com",
+      "legal_name": "Healthnatura.com",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04101144750600486913/creative/CR01927580025364676609?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 35,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Healthnatura.com Official Offers & Deals",
+          "description": "Shop online at healthnatura.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.healthnatura.com/?ref=aff_ar0410",
+          "last_shown": "2026-10-10",
+          "duration_days": 35,
+          "image_url": "https://i.ytimg.com/vi/wJ0CZH5Fj7g/hqdefault.jpg"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR04101144750600486913",
+      "name": "Health Natura",
+      "legal_name": "Health Natura",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04101144750600486913/creative/CR14132415142448594945?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 46,
+      "longevity_badge": "super_scale",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 40,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Healthnatura.com Official Offers & Deals",
+          "description": "Shop online at healthnatura.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.healthnatura.com/?ref=aff_ar0410",
+          "last_shown": "2026-10-10",
+          "duration_days": 46,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7052809292054128886"
+        }
+      ],
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)"
+    },
+    {
+      "id": "AR02673631280792338433",
+      "name": "Paula Natural",
+      "legal_name": "Paula Natural",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02673631280792338433/creative/CR08340614291677773825?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 57,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Healthnatura.com Official Offers & Deals",
+          "description": "Shop online at healthnatura.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.healthnatura.com/?ref=aff_ar0267",
+          "last_shown": "2026-10-10",
+          "duration_days": 57,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2835209383202321344"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR08362848607224725505",
+      "name": "Norte Digital Perú S.A.C.",
+      "legal_name": "Norte Digital Perú S.A.C.",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08362848607224725505/creative/CR12384540895255461889?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 68,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Healthnatura.com Official Offers & Deals",
+          "description": "Shop online at healthnatura.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.healthnatura.com/?ref=aff_ar0836",
+          "last_shown": "2026-10-10",
+          "duration_days": 68,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2255725045349414900"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    }
+  ],
+  "test_ads_count": 0
+}

@@ -1,0 +1,683 @@
+{
+  "domain": "kiwidesign.com",
+  "updated_at": "2026-10-10T14:23:34.257431",
+  "total_advertisers": 21,
+  "total_ads": 107,
+  "super_scale_count": 1,
+  "win_ads_count": 12,
+  "test_ads_count": 8,
+  "advertisers": [
+    {
+      "id": "AR06108640321908768769",
+      "name": "MIRZA USMAN TECHNICAL SERVICES CO.Đã xác minh",
+      "legal_name": "MIRZA USMAN TECHNICAL SERVICES CO.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06108640321908768769/creative/CR14514082429045571585?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kiwidesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kiwidesign.com",
+          "landing_page": "https://www.kiwidesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17279816086071625854"
+        }
+      ]
+    },
+    {
+      "id": "AR16420002195602145281",
+      "name": "Adrian BrambilaĐã xác minh",
+      "legal_name": "Adrian BrambilaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16420002195602145281/creative/CR02748035112384856065?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kiwidesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kiwidesign.com",
+          "landing_page": "https://www.kiwidesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9911618699524664221"
+        }
+      ]
+    },
+    {
+      "id": "AR10575899088526508033",
+      "name": "YINO (HONGKONG) DIGITAL TECHNOLOGY CO., LIMITEDĐã xác minh",
+      "legal_name": "YINO (HONGKONG) DIGITAL TECHNOLOGY CO., LIMITEDĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10575899088526508033/creative/CR05147050814245699585?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kiwidesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kiwidesign.com",
+          "landing_page": "https://www.kiwidesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14367524836202099311"
+        }
+      ]
+    },
+    {
+      "id": "AR00872160815317254145",
+      "name": "DarDesign Architectural Design ServicesĐã xác minh",
+      "legal_name": "DarDesign Architectural Design ServicesĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00872160815317254145/creative/CR04192558112974045185?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kiwidesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kiwidesign.com",
+          "landing_page": "https://www.kiwidesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11032545146107499933"
+        }
+      ]
+    },
+    {
+      "id": "AR06645248596658618369",
+      "name": "ĐÀM MINH TRƯỜNGĐã xác minh",
+      "legal_name": "ĐÀM MINH TRƯỜNGĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06645248596658618369/creative/CR04853325285136793601?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kiwidesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kiwidesign.com",
+          "landing_page": "https://www.kiwidesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6601203942429763544"
+        }
+      ]
+    },
+    {
+      "id": "AR12362376201128378369",
+      "name": "Muhammad NoumanĐã xác minh",
+      "legal_name": "Muhammad NoumanĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12362376201128378369/creative/CR04195132997407604737?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kiwidesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kiwidesign.com",
+          "landing_page": "https://www.kiwidesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16835166983754454931"
+        }
+      ]
+    },
+    {
+      "id": "AR11133654742859776001",
+      "name": "Click Tech LimitedĐã xác minh",
+      "legal_name": "Click Tech LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11133654742859776001/creative/CR01529979655640055809?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kiwidesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kiwidesign.com",
+          "landing_page": "https://www.kiwidesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12882924985253211235"
+        }
+      ]
+    },
+    {
+      "id": "AR00555693726433804289",
+      "name": "Hong Kong CIFNEWS LimitedĐã xác minh",
+      "legal_name": "Hong Kong CIFNEWS LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00555693726433804289/creative/CR18295414860994838529?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 71,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 71,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kiwidesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kiwidesign.com",
+          "landing_page": "https://www.kiwidesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 71,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/33484310971201870"
+        }
+      ]
+    },
+    {
+      "id": "AR08493102604396527617",
+      "name": "REINFORCING ALLIED INDUSTRIES SWA (PTY) LTDĐã xác minh",
+      "legal_name": "REINFORCING ALLIED INDUSTRIES SWA (PTY) LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08493102604396527617/creative/CR01534065226100506625?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kiwidesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kiwidesign.com",
+          "landing_page": "https://www.kiwidesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5230920120028550132"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR07026113093738430465?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kiwidesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kiwidesign.com",
+          "landing_page": "https://www.kiwidesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17754234115315859058"
+        }
+      ]
+    },
+    {
+      "id": "AR12784598080762675201",
+      "name": "South Wind Tech LimitedĐã xác minh",
+      "legal_name": "South Wind Tech LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12784598080762675201/creative/CR03550510289482940417?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kiwidesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kiwidesign.com",
+          "landing_page": "https://www.kiwidesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1465968812538564486"
+        }
+      ]
+    },
+    {
+      "id": "AR17834232912111730689",
+      "name": "西安波普达网络科技有限公司Đã xác minh",
+      "legal_name": "西安波普达网络科技有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17834232912111730689/creative/CR00056817177465978881?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kiwidesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kiwidesign.com",
+          "landing_page": "https://www.kiwidesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9614659378571687571"
+        }
+      ]
+    },
+    {
+      "id": "AR00296170138594443265",
+      "name": "La Thị LànhĐã xác minh",
+      "legal_name": "La Thị LànhĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00296170138594443265/creative/CR15325552083705266177?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kiwidesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kiwidesign.com",
+          "landing_page": "https://www.kiwidesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5373318006300091728"
+        }
+      ]
+    },
+    {
+      "id": "AR10071249691195998209",
+      "name": "JSCo Property Holdings, LLCĐã xác minh",
+      "legal_name": "JSCo Property Holdings, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10071249691195998209/creative/CR00995852677986385921?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kiwidesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kiwidesign.com",
+          "landing_page": "https://www.kiwidesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14315156887175721624"
+        }
+      ]
+    },
+    {
+      "id": "AR01887497732701028353",
+      "name": "Salman MushtaqĐã xác minh",
+      "legal_name": "Salman MushtaqĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01887497732701028353/creative/CR10383402829027999745?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kiwidesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kiwidesign.com",
+          "landing_page": "https://www.kiwidesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4687142852284086500"
+        }
+      ]
+    },
+    {
+      "id": "AR04360576099722199041",
+      "name": "MUHAMMAD SAQLAIN DYAL ENTERPRISES LLPĐã xác minh",
+      "legal_name": "MUHAMMAD SAQLAIN DYAL ENTERPRISES LLPĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04360576099722199041/creative/CR18265280932359438337?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kiwidesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kiwidesign.com",
+          "landing_page": "https://www.kiwidesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15622696639068938745"
+        }
+      ]
+    },
+    {
+      "id": "AR03509853871360966657",
+      "name": "Công ty TNHH Phát Triển Giải Pháp Tin Học Bền Vững ITGREENĐã xác minh",
+      "legal_name": "Công ty TNHH Phát Triển Giải Pháp Tin Học Bền Vững ITGREENĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03509853871360966657/creative/CR14483564014937833473?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kiwidesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kiwidesign.com",
+          "landing_page": "https://www.kiwidesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12255418629919587863"
+        }
+      ]
+    },
+    {
+      "id": "AR00515522673976016897",
+      "name": "Marksurge Marketing Minds Private LimitedĐã xác minh",
+      "legal_name": "Marksurge Marketing Minds Private LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00515522673976016897/creative/CR12223750651271708673?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kiwidesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kiwidesign.com",
+          "landing_page": "https://www.kiwidesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4495169515248324003"
+        }
+      ]
+    },
+    {
+      "id": "AR15086123462432915457",
+      "name": "BETTER DIESEL FBC, INCĐã xác minh",
+      "legal_name": "BETTER DIESEL FBC, INCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15086123462432915457/creative/CR04324088256598638593?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_18",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kiwidesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kiwidesign.com",
+          "landing_page": "https://www.kiwidesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7996380283076768684"
+        }
+      ]
+    },
+    {
+      "id": "AR05901475159956520961",
+      "name": "KM PETS SERVICES (PRIVATE) LIMITEDĐã xác minh",
+      "legal_name": "KM PETS SERVICES (PRIVATE) LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05901475159956520961/creative/CR13589631477821210625?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_19",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kiwidesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kiwidesign.com",
+          "landing_page": "https://www.kiwidesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10579389050861764661"
+        }
+      ]
+    },
+    {
+      "id": "AR17316464657434673153",
+      "name": "WALMART EV CHARGING, LLCĐã xác minh",
+      "legal_name": "WALMART EV CHARGING, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17316464657434673153/creative/CR15337041361740234753?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_20",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: kiwidesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho kiwidesign.com",
+          "landing_page": "https://www.kiwidesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5849073233787453258"
+        }
+      ]
+    }
+  ]
+}

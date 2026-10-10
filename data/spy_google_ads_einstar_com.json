@@ -1,0 +1,170 @@
+{
+  "domain": "einstar.com",
+  "updated_at": "2026-10-10T14:19:45.822691",
+  "total_advertisers": 5,
+  "total_ads": 200,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 4,
+  "advertisers": [
+    {
+      "id": "AR11597952372688551937",
+      "name": "SHINING 3D Technology IncĐã xác minh",
+      "legal_name": "SHINING 3D Technology IncĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11597952372688551937/creative/CR08642524516624367617?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 196,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 196,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: einstar.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho einstar.com",
+          "landing_page": "https://www.einstar.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 196,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10575144756995412014"
+        }
+      ]
+    },
+    {
+      "id": "AR07414596364585140225",
+      "name": "ABHISHEK JAISHANKAR PATHAKĐã xác minh",
+      "legal_name": "ABHISHEK JAISHANKAR PATHAKĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07414596364585140225/creative/CR17158850962673106945?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: einstar.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho einstar.com",
+          "landing_page": "https://www.einstar.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4896951602095149665"
+        }
+      ]
+    },
+    {
+      "id": "AR03778558570270818305",
+      "name": "Shoparize B.VĐã xác minh",
+      "legal_name": "Shoparize B.VĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03778558570270818305/creative/CR00861988812341903361?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: einstar.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho einstar.com",
+          "landing_page": "https://www.einstar.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR06752056650829398017",
+      "name": "Lagoja - Marketing GmbHĐã xác minh",
+      "legal_name": "Lagoja - Marketing GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06752056650829398017/creative/CR11948626213204918273?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: einstar.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho einstar.com",
+          "landing_page": "https://www.einstar.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4883724954847953191"
+        }
+      ]
+    },
+    {
+      "id": "AR18308272678819069953",
+      "name": "Mathias KraftĐã xác minh",
+      "legal_name": "Mathias KraftĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18308272678819069953/creative/CR05754906574892040193?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: einstar.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho einstar.com",
+          "landing_page": "https://www.einstar.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7323005309071969998"
+        }
+      ]
+    }
+  ]
+}

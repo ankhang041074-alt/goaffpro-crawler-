@@ -1,0 +1,362 @@
+{
+  "domain": "eyecandys.com",
+  "updated_at": "2026-10-10T14:00:50.904592",
+  "total_advertisers": 11,
+  "total_ads": 40,
+  "super_scale_count": 1,
+  "win_ads_count": 1,
+  "test_ads_count": 9,
+  "advertisers": [
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR03198173188521459713?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: eyecandys.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho eyecandys.com",
+          "landing_page": "https://www.eyecandys.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5544248828570764981"
+        }
+      ]
+    },
+    {
+      "id": "AR11468354887037747201",
+      "name": "Yuvraj SinghĐã xác minh",
+      "legal_name": "Yuvraj SinghĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11468354887037747201/creative/CR04436955349982904321?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: eyecandys.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho eyecandys.com",
+          "landing_page": "https://www.eyecandys.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1830782294756592494"
+        }
+      ]
+    },
+    {
+      "id": "AR05859326360958271489",
+      "name": "Chan Chloe Ho YeeĐã xác minh",
+      "legal_name": "Chan Chloe Ho YeeĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05859326360958271489/creative/CR00088028352618692609?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 29,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 29,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: eyecandys.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho eyecandys.com",
+          "landing_page": "https://www.eyecandys.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 29,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4753676878445212457"
+        }
+      ]
+    },
+    {
+      "id": "AR03397555466006429697",
+      "name": "Imran AliĐã xác minh",
+      "legal_name": "Imran AliĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03397555466006429697/creative/CR08612854951263076353?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: eyecandys.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho eyecandys.com",
+          "landing_page": "https://www.eyecandys.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11631495247017094304"
+        }
+      ]
+    },
+    {
+      "id": "AR07105807680794525697",
+      "name": "SIGE (USA) INFORMATION TECHNOLOGY CO., LTDĐã xác minh",
+      "legal_name": "SIGE (USA) INFORMATION TECHNOLOGY CO., LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07105807680794525697/creative/CR09555922670160183297?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: eyecandys.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho eyecandys.com",
+          "landing_page": "https://www.eyecandys.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10569177538577311816"
+        }
+      ]
+    },
+    {
+      "id": "AR00437693940972388353",
+      "name": "BERICH IMPACT LTDAĐã xác minh",
+      "legal_name": "BERICH IMPACT LTDAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00437693940972388353/creative/CR01117012494225768449?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: eyecandys.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho eyecandys.com",
+          "landing_page": "https://www.eyecandys.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR04025307241744695297",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04025307241744695297/creative/CR07679435618698395649?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: eyecandys.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho eyecandys.com",
+          "landing_page": "https://www.eyecandys.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2446776998578260947"
+        }
+      ]
+    },
+    {
+      "id": "AR18246877057625620481",
+      "name": "CÔNG TY CỔ PHẦN GIÁO DỤC TRƯỜNG ÁNH DƯƠNGĐã xác minh",
+      "legal_name": "CÔNG TY CỔ PHẦN GIÁO DỤC TRƯỜNG ÁNH DƯƠNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18246877057625620481/creative/CR12785709523809599489?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: eyecandys.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho eyecandys.com",
+          "landing_page": "https://www.eyecandys.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13010880560001340865"
+        }
+      ]
+    },
+    {
+      "id": "AR10454431855707947009",
+      "name": "BRK PRECISION BEARING LLC.Đã xác minh",
+      "legal_name": "BRK PRECISION BEARING LLC.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10454431855707947009/creative/CR00578469912234688513?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: eyecandys.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho eyecandys.com",
+          "landing_page": "https://www.eyecandys.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1980042550508008361"
+        }
+      ]
+    },
+    {
+      "id": "AR06785990551779934209",
+      "name": "Absolute Link LimitedĐã xác minh",
+      "legal_name": "Absolute Link LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06785990551779934209/creative/CR04462236970596171777?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: eyecandys.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho eyecandys.com",
+          "landing_page": "https://www.eyecandys.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1555988505259730028"
+        }
+      ]
+    },
+    {
+      "id": "AR15567082541713195009",
+      "name": "ILONA MOISEJEVAĐã xác minh",
+      "legal_name": "ILONA MOISEJEVAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15567082541713195009/creative/CR05977370590741266433?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: eyecandys.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho eyecandys.com",
+          "landing_page": "https://www.eyecandys.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5615327086849955089"
+        }
+      ]
+    }
+  ]
+}

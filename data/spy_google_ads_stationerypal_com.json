@@ -1,0 +1,491 @@
+{
+  "domain": "stationerypal.com",
+  "updated_at": "2026-10-10T14:07:03.655532",
+  "total_advertisers": 15,
+  "total_ads": 36,
+  "super_scale_count": 0,
+  "win_ads_count": 15,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR14210511606533586945",
+      "name": "CORBO COMPANY LIMITEDĐã xác minh",
+      "legal_name": "CORBO COMPANY LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14210511606533586945/creative/CR16232029292580569089?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 8,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 8,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: stationerypal.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho stationerypal.com",
+          "landing_page": "https://www.stationerypal.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 8,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5809297974112410965"
+        }
+      ]
+    },
+    {
+      "id": "AR10807342953278734337",
+      "name": "Digital FundaĐã xác minh",
+      "legal_name": "Digital FundaĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10807342953278734337/creative/CR03691802137857097729?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: stationerypal.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho stationerypal.com",
+          "landing_page": "https://www.stationerypal.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11130605257938943895"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR08862391108051664897?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: stationerypal.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho stationerypal.com",
+          "landing_page": "https://www.stationerypal.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7810148535161591223"
+        }
+      ]
+    },
+    {
+      "id": "AR10643680965311856641",
+      "name": "DOROHA SEAN JASON JRĐã xác minh",
+      "legal_name": "DOROHA SEAN JASON JRĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10643680965311856641/creative/CR02466149545390637057?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: stationerypal.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho stationerypal.com",
+          "landing_page": "https://www.stationerypal.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12083473431781015990"
+        }
+      ]
+    },
+    {
+      "id": "AR07531074735191359489",
+      "name": "THE STRATFORD VAPOUR GALLERY LTDĐã xác minh",
+      "legal_name": "THE STRATFORD VAPOUR GALLERY LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07531074735191359489/creative/CR09401349374157520897?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: stationerypal.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho stationerypal.com",
+          "landing_page": "https://www.stationerypal.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7561717503232644369"
+        }
+      ]
+    },
+    {
+      "id": "AR17213039740413018113",
+      "name": "NORDIC MAKERS, MBĐã xác minh",
+      "legal_name": "NORDIC MAKERS, MBĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17213039740413018113/creative/CR17575900567811653633?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: stationerypal.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho stationerypal.com",
+          "landing_page": "https://www.stationerypal.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5433526149082127369"
+        }
+      ]
+    },
+    {
+      "id": "AR06645248596658618369",
+      "name": "ĐÀM MINH TRƯỜNGĐã xác minh",
+      "legal_name": "ĐÀM MINH TRƯỜNGĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06645248596658618369/creative/CR10089364789508702209?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: stationerypal.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho stationerypal.com",
+          "landing_page": "https://www.stationerypal.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10704779418088910212"
+        }
+      ]
+    },
+    {
+      "id": "AR12936655427873013761",
+      "name": "NGUYỄN VĂN TIẾTĐã xác minh",
+      "legal_name": "NGUYỄN VĂN TIẾTĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12936655427873013761/creative/CR12244416238603730945?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: stationerypal.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho stationerypal.com",
+          "landing_page": "https://www.stationerypal.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13387959087862004399"
+        }
+      ]
+    },
+    {
+      "id": "AR16579156718471086081",
+      "name": "Nicholas Edward Nye HopkinsĐã xác minh",
+      "legal_name": "Nicholas Edward Nye HopkinsĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16579156718471086081/creative/CR05905419443172802561?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: stationerypal.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho stationerypal.com",
+          "landing_page": "https://www.stationerypal.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2955345305329358423"
+        }
+      ]
+    },
+    {
+      "id": "AR06784317911126245377",
+      "name": "ĐÀO NGỌC DIỆPĐã xác minh",
+      "legal_name": "ĐÀO NGỌC DIỆPĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06784317911126245377/creative/CR04159987615031885825?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: stationerypal.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho stationerypal.com",
+          "landing_page": "https://www.stationerypal.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4060153758493167119"
+        }
+      ]
+    },
+    {
+      "id": "AR13214661033081176065",
+      "name": "CC DRAUGHTING LTDĐã xác minh",
+      "legal_name": "CC DRAUGHTING LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13214661033081176065/creative/CR02835336138061774849?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: stationerypal.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho stationerypal.com",
+          "landing_page": "https://www.stationerypal.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10847469760686788324"
+        }
+      ]
+    },
+    {
+      "id": "AR18336776289408516097",
+      "name": "LƯU VẪN THUẬTĐã xác minh",
+      "legal_name": "LƯU VẪN THUẬTĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18336776289408516097/creative/CR02064312405176877057?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: stationerypal.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho stationerypal.com",
+          "landing_page": "https://www.stationerypal.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5275404489279968365"
+        }
+      ]
+    },
+    {
+      "id": "AR04291438052653400065",
+      "name": "LÊ CÔNG QUÂNĐã xác minh",
+      "legal_name": "LÊ CÔNG QUÂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04291438052653400065/creative/CR15817528724762394625?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: stationerypal.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho stationerypal.com",
+          "landing_page": "https://www.stationerypal.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10940663128710756654"
+        }
+      ]
+    },
+    {
+      "id": "AR01605280362303324161",
+      "name": "TRẦN PHÚC NAMĐã xác minh",
+      "legal_name": "TRẦN PHÚC NAMĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01605280362303324161/creative/CR02880543520710459393?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: stationerypal.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho stationerypal.com",
+          "landing_page": "https://www.stationerypal.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13011753828001256625"
+        }
+      ]
+    },
+    {
+      "id": "AR06785990551779934209",
+      "name": "Absolute Link LimitedĐã xác minh",
+      "legal_name": "Absolute Link LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06785990551779934209/creative/CR02154678173487333377?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: stationerypal.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho stationerypal.com",
+          "landing_page": "https://www.stationerypal.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2652856131493387464"
+        }
+      ]
+    }
+  ]
+}

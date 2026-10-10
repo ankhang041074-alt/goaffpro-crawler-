@@ -1,0 +1,168 @@
+{
+  "domain": "heybike.com",
+  "updated_at": "2026-10-10T13:54:19.464276",
+  "total_advertisers": 5,
+  "total_ads": 200,
+  "super_scale_count": 2,
+  "win_ads_count": 1,
+  "test_ads_count": 2,
+  "advertisers": [
+    {
+      "id": "AR01395559540191133697",
+      "name": "Heybike Inc.Đã xác minh",
+      "legal_name": "Heybike Inc.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01395559540191133697/creative/CR00553643145837936641?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 39,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 39,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: heybike.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho heybike.com",
+          "landing_page": "https://www.heybike.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 39,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5428880653921149473"
+        }
+      ]
+    },
+    {
+      "id": "AR17948405924662083585",
+      "name": "Heybike IncĐã xác minh",
+      "legal_name": "Heybike IncĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17948405924662083585/creative/CR05112638574197473281?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 155,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 155,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: heybike.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho heybike.com",
+          "landing_page": "https://www.heybike.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 155,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7425130736667359609"
+        }
+      ]
+    },
+    {
+      "id": "AR00785166750952980481",
+      "name": "Delupe A/SĐã xác minh",
+      "legal_name": "Delupe A/SĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00785166750952980481/creative/CR15906766187984322561?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: heybike.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho heybike.com",
+          "landing_page": "https://www.heybike.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR14700497126522093569",
+      "name": "Pashion.dk ApSĐã xác minh",
+      "legal_name": "Pashion.dk ApSĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14700497126522093569/creative/CR02898090901656043521?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: heybike.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho heybike.com",
+          "landing_page": "https://www.heybike.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR03778558570270818305",
+      "name": "Shoparize B.VĐã xác minh",
+      "legal_name": "Shoparize B.VĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03778558570270818305/creative/CR13956374921295691777?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: heybike.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho heybike.com",
+          "landing_page": "https://www.heybike.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    }
+  ]
+}

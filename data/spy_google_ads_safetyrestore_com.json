@@ -1,0 +1,75 @@
+{
+  "domain": "safetyrestore.com",
+  "updated_at": "2026-10-10T14:40:23.666416",
+  "total_advertisers": 2,
+  "total_ads": 99,
+  "super_scale_count": 2,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR10104870514800459777",
+      "name": "SafetyrestoreĐã xác minh",
+      "legal_name": "SafetyrestoreĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10104870514800459777/creative/CR05225568142176026625?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 28,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 28,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: safetyrestore.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho safetyrestore.com",
+          "landing_page": "https://www.safetyrestore.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 28,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4058627845296281185"
+        }
+      ]
+    },
+    {
+      "id": "AR07986629194584948737",
+      "name": "Safety RestoreĐã xác minh",
+      "legal_name": "Safety RestoreĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07986629194584948737/creative/CR12799863743152390145?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 71,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 71,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: safetyrestore.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho safetyrestore.com",
+          "landing_page": "https://www.safetyrestore.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 71,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9084208735731975711"
+        }
+      ]
+    }
+  ]
+}

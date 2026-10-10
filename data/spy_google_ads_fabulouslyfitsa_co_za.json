@@ -1,0 +1,44 @@
+{
+  "domain": "fabulouslyfitsa.co.za",
+  "updated_at": "2026-10-10T12:58:37.395214",
+  "total_advertisers": 1,
+  "total_ads": 56,
+  "win_ads_count": 0,
+  "super_scale_count": 1,
+  "evergreen_percent": 100,
+  "advertisers": [
+    {
+      "id": "AR13003299567821651969",
+      "name": "Lara Suttner",
+      "legal_name": "Lara Suttner",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13003299567821651969/creative/CR14199503699843219457?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 56,
+      "longevity_badge": "super_scale",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 56,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Lara Suttner",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho fabulouslyfitsa.co.za",
+          "landing_page": "https://www.fabulouslyfitsa.co.za",
+          "last_shown": "2026-10-10",
+          "duration_days": 56,
+          "image_url": "https://i.ytimg.com/vi/ZeYOor2XiZg/hqdefault.jpg"
+        }
+      ],
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)"
+    }
+  ],
+  "test_ads_count": 0
+}

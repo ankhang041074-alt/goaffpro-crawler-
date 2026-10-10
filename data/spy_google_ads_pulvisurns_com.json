@@ -1,0 +1,266 @@
+{
+  "domain": "pulvisurns.com",
+  "updated_at": "2026-10-10T14:35:38.195916",
+  "total_advertisers": 8,
+  "total_ads": 108,
+  "super_scale_count": 1,
+  "win_ads_count": 6,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR14116474001962303489",
+      "name": "Pulvis OOD (Pulvis Ltd.)Đã xác minh",
+      "legal_name": "Pulvis OOD (Pulvis Ltd.)Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14116474001962303489/creative/CR00002486210538766337?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 89,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 89,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pulvisurns.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pulvisurns.com",
+          "landing_page": "https://www.pulvisurns.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 89,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3152504649102084296"
+        }
+      ]
+    },
+    {
+      "id": "AR10168012237768228865",
+      "name": "Pulvis OOD",
+      "legal_name": "Pulvis OOD",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10168012237768228865/creative/CR11004372799866273793?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 6,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: pulvisurns.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pulvisurns.com",
+          "landing_page": "https://www.pulvisurns.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 6,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR11262975254659596289",
+      "name": "NGUYỄN THỊ THẮMĐã xác minh",
+      "legal_name": "NGUYỄN THỊ THẮMĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11262975254659596289/creative/CR11110396816347103233?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pulvisurns.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pulvisurns.com",
+          "landing_page": "https://www.pulvisurns.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11410838011095028148"
+        }
+      ]
+    },
+    {
+      "id": "AR10662838830144421889",
+      "name": "MEDIA ACCESS LIMITEDĐã xác minh",
+      "legal_name": "MEDIA ACCESS LIMITEDĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10662838830144421889/creative/CR14936345789474013185?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pulvisurns.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pulvisurns.com",
+          "landing_page": "https://www.pulvisurns.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16538302517572418157"
+        }
+      ]
+    },
+    {
+      "id": "AR08979161038217805825",
+      "name": "BÙI QUỐC HUYĐã xác minh",
+      "legal_name": "BÙI QUỐC HUYĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08979161038217805825/creative/CR02055195228989554689?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pulvisurns.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pulvisurns.com",
+          "landing_page": "https://www.pulvisurns.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3143628362721339103"
+        }
+      ]
+    },
+    {
+      "id": "AR09772555151213592577",
+      "name": "Nguyễn Trung DũngĐã xác minh",
+      "legal_name": "Nguyễn Trung DũngĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09772555151213592577/creative/CR08061891186413010945?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pulvisurns.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pulvisurns.com",
+          "landing_page": "https://www.pulvisurns.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9677406076425684456"
+        }
+      ]
+    },
+    {
+      "id": "AR16928895012031168513",
+      "name": "NGUYEN VAN DEĐã xác minh",
+      "legal_name": "NGUYEN VAN DEĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16928895012031168513/creative/CR15623422316384354305?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pulvisurns.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pulvisurns.com",
+          "landing_page": "https://www.pulvisurns.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4165191237957852063"
+        }
+      ]
+    },
+    {
+      "id": "AR00652816414603739137",
+      "name": "KISADHA CONSTRUCTION LTDĐã xác minh",
+      "legal_name": "KISADHA CONSTRUCTION LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00652816414603739137/creative/CR03165004771002155009?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pulvisurns.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pulvisurns.com",
+          "landing_page": "https://www.pulvisurns.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6162806848716588567"
+        }
+      ]
+    }
+  ]
+}

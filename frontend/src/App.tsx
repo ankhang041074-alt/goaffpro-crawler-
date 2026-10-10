@@ -40,6 +40,7 @@ import {
   Tag,
   Monitor
 } from 'lucide-react';
+import { StoreAccordionSpyView } from './StoreAccordionSpyView';
 
 interface Store {
   id: number;
@@ -78,12 +79,17 @@ interface Store {
   site_title?: string;
   site_description?: string;
   is_adult?: number;
+  spy_ads_status?: 'done' | 'no_ads' | 'error' | 'pending';
+  spy_adv_count?: number;
+  spy_ads_count?: number;
+  spy_updated_at?: string;
 }
 
 interface TrafficWorkerStatus {
   is_running: boolean;
   is_paused: boolean;
   current_store: string;
+  status_message?: string;
   scanned: number;
   with_data: number;
   no_data: number;
@@ -132,6 +138,30 @@ interface TrafficCVWorkerStatus {
     with_data: number;
     no_data: number;
   };
+}
+
+interface SpyWorkerStatus {
+  is_running: boolean;
+  is_paused: boolean;
+  current_store: string;
+  current_domain: string;
+  status_message: string;
+  scanned: number;
+  found_ads: number;
+  total_ads: number;
+  errors: number;
+  last_scraped_at: string;
+  total_cookie_14: number;
+  checked_cookie_14: number;
+  remaining_cookie_14: number;
+  percent_cookie_14: number;
+  high_priority_only?: boolean;
+  total_high_priority?: number;
+  checked_high_priority?: number;
+  remaining_high_priority?: number;
+  percent_high_priority?: number;
+  stores_with_ads: number;
+  total_ads_count: number;
 }
 
 interface Stats {
@@ -188,6 +218,7 @@ export default function App() {
   const [stats, setStats] = useState<Stats | null>(null);
   const [categories, setCategories] = useState<string[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
+  const [spyWorkerStatus, setSpyWorkerStatus] = useState<SpyWorkerStatus | null>(null);
 
   // Filters & Pagination
   const [search, setSearch] = useState<string>('');
@@ -201,6 +232,7 @@ export default function App() {
   const [trendPeakOnly, setTrendPeakOnly] = useState<boolean>(false);
   const [trendGrowthOnly, setTrendGrowthOnly] = useState<boolean>(false);
   const [adultFilter, setAdultFilter] = useState<string>('hide');
+  const [spyFilter, setSpyFilter] = useState<string>('all');
   const [notesFilter, setNotesFilter] = useState<string>('all');
   const [favoriteOnly, setFavoriteOnly] = useState<boolean>(false);
   const [sortBy, setSortBy] = useState<string>('commission_value');
@@ -208,8 +240,8 @@ export default function App() {
   const [page, setPage] = useState<number>(1);
   const pageSize = 50;
 
-  // Traffic Worker & Accordion States
   const [expandedStoreId, setExpandedStoreId] = useState<string | null>(null);
+  const [storeAccordionTabs, setStoreAccordionTabs] = useState<{ [storeId: string]: 'trends' | 'spy_ads' }>({});
   const [trafficWorkerStatus, setTrafficWorkerStatus] = useState<TrafficWorkerStatus | null>(null);
   const [trafficCVStatus, setTrafficCVStatus] = useState<TrafficCVWorkerStatus | null>(null);
   const [refreshingStoreId, setRefreshingStoreId] = useState<string | null>(null);
@@ -254,6 +286,7 @@ export default function App() {
   const pollingRef = useRef<any>(null);
   const trafficPollingRef = useRef<any>(null);
   const trafficCVPollingRef = useRef<any>(null);
+  const spyWorkerPollingRef = useRef<any>(null);
 
   // Initial load
   useEffect(() => {
@@ -261,9 +294,11 @@ export default function App() {
     fetchCategories();
     fetchTrafficStatus();
     fetchTrafficCVStatus();
+    fetchSpyWorkerStatus();
     return () => {
       if (trafficPollingRef.current) clearInterval(trafficPollingRef.current);
       if (trafficCVPollingRef.current) clearInterval(trafficCVPollingRef.current);
+      if (spyWorkerPollingRef.current) clearInterval(spyWorkerPollingRef.current);
     };
   }, []);
 
@@ -273,7 +308,7 @@ export default function App() {
   }, [
     search, selectedCategory, currencyFilter, commissionFilter, cookieFilter,
     trafficFilter, trendMonthFilter, trendScoreFilter, trendPeakOnly, trendGrowthOnly,
-    adultFilter, notesFilter, favoriteOnly, sortBy, sortOrder, page
+    adultFilter, spyFilter, notesFilter, favoriteOnly, sortBy, sortOrder, page
   ]);
 
   async function fetchStats() {
@@ -439,6 +474,69 @@ export default function App() {
     }
   }
 
+  async function fetchSpyWorkerStatus() {
+    try {
+      const res = await fetch('/api/spy-worker/status');
+      if (res.ok) {
+        const json: SpyWorkerStatus = await res.json();
+        setSpyWorkerStatus(json);
+        if (json.is_running && !spyWorkerPollingRef.current) {
+          spyWorkerPollingRef.current = setInterval(fetchSpyWorkerStatus, 2500);
+        } else if (!json.is_running && spyWorkerPollingRef.current) {
+          clearInterval(spyWorkerPollingRef.current);
+          spyWorkerPollingRef.current = null;
+        }
+      }
+    } catch (e) {
+      console.error('Error fetching spy worker status:', e);
+    }
+  }
+
+  async function handleStartSpyWorker(highPriority: boolean = true) {
+    try {
+      const res = await fetch(`/api/spy-worker/start?high_priority_only=${highPriority}`, { method: 'POST' });
+      if (res.ok) {
+        fetchSpyWorkerStatus();
+        if (!spyWorkerPollingRef.current) {
+          spyWorkerPollingRef.current = setInterval(fetchSpyWorkerStatus, 2000);
+        }
+      }
+    } catch (e) {
+      alert('Lỗi kích hoạt Spy Google Ads worker: ' + e);
+    }
+  }
+
+  async function handlePauseSpyWorker() {
+    try {
+      await fetch('/api/spy-worker/pause', { method: 'POST' });
+      fetchSpyWorkerStatus();
+    } catch (e) {
+      console.error(e);
+    }
+  }
+
+  async function handleResumeSpyWorker() {
+    try {
+      await fetch('/api/spy-worker/resume', { method: 'POST' });
+      fetchSpyWorkerStatus();
+    } catch (e) {
+      console.error(e);
+    }
+  }
+
+  async function handleStopSpyWorker() {
+    try {
+      await fetch('/api/spy-worker/stop', { method: 'POST' });
+      fetchSpyWorkerStatus();
+      if (spyWorkerPollingRef.current) {
+        clearInterval(spyWorkerPollingRef.current);
+        spyWorkerPollingRef.current = null;
+      }
+    } catch (e) {
+      console.error(e);
+    }
+  }
+
   async function handleRefreshSingleStore(storeId: string, e?: React.MouseEvent) {
     if (e) e.stopPropagation();
     setRefreshingStoreId(storeId);
@@ -522,6 +620,7 @@ export default function App() {
         trend_growth_only: trendGrowthOnlyVal ? 'true' : 'false',
         trend_steady_only: trendSteadyOnlyVal ? 'true' : 'false',
         adult_filter: adultFilter,
+        spy_filter: spyFilter !== 'all' ? spyFilter : '',
         notes_filter: notesFilter !== 'all' ? notesFilter : '',
         favorite_only: favoriteOnly ? 'true' : 'false',
         sort_by: sortBy,
@@ -1101,7 +1200,7 @@ export default function App() {
 
       {/* MAIN CONTAINER */}
       <main className="max-w-7xl mx-auto w-full px-6 py-6 flex-1 flex flex-col gap-6">
-        {/* STATS OVERVIEW */}
+            {/* STATS OVERVIEW */}
         <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-sm">
             <div className="flex items-center justify-between text-slate-500 mb-1">
@@ -1175,7 +1274,12 @@ export default function App() {
               </div>
               <div>
                 <div className="flex items-center gap-2 flex-wrap">
-                  <h3 className="text-sm font-bold text-white">Quét Traffic & Google Trends Tự Động</h3>
+                  <h3 className="text-sm font-bold text-white flex items-center gap-1.5">
+                    <span>Unified Enrichment Worker (Traffic & Google Trends)</span>
+                    <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-indigo-900/80 text-indigo-200 border border-indigo-700/60">
+                      Gộp Worker 1 & 2
+                    </span>
+                  </h3>
                   {trafficWorkerStatus?.is_running ? (
                     trafficWorkerStatus.is_paused ? (
                       <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30">
@@ -1193,19 +1297,16 @@ export default function App() {
                     </span>
                   )}
                   <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-indigo-900/60 text-indigo-300 border border-indigo-700/50">
-                    🎯 Ưu tiên Cookie ≥ 14 ngày
+                    🎯 Mục tiêu: Xóa nợ Google Trends (Cookie ≥ 14d)
                   </span>
                   {trafficWorkerStatus?.gt_cooldown_seconds && trafficWorkerStatus.gt_cooldown_seconds > 0 ? (
                     <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 animate-pulse">
                       ⏳ Google Trends tạm nghỉ {trafficWorkerStatus.gt_cooldown_seconds}s (Tránh ban IP)
                     </span>
                   ) : null}
-                  <span className="text-[10px] font-medium text-slate-400">
-                    (Chỉ lưu dữ liệu thật, không bịa số)
-                  </span>
                 </div>
                 <p className="text-[11px] text-slate-400 mt-0.5">
-                  Tự động tra cứu Domain Rank (Tranco Top 1M) và Google Trends 5 năm cho các store chất lượng cao
+                  {trafficWorkerStatus?.status_message || 'Tự động bóc tách Similarweb/Tranco Traffic và hoàn tất Google Trends 5 năm cho các store chất lượng cao mà không bị nghẽn.'}
                 </p>
               </div>
             </div>
@@ -1245,7 +1346,7 @@ export default function App() {
                   className="flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold bg-gradient-to-r from-indigo-500 to-violet-600 hover:from-indigo-400 hover:to-violet-500 text-white shadow-lg shadow-indigo-500/25 transition cursor-pointer"
                 >
                   <Play size={13} fill="currentColor" />
-                  <span>Chạy Quét Traffic (Cookie ≥ 14d)</span>
+                  <span>Chạy Quét Unified (Traffic & Google Trends)</span>
                 </button>
               )}
             </div>
@@ -1477,6 +1578,159 @@ export default function App() {
           </div>
         </section>
 
+        {/* DEDICATED SPY GOOGLE ADS WORKER WIDGET */}
+        <section className="bg-gradient-to-r from-slate-900 via-orange-950/80 to-slate-900 border border-orange-700/60 rounded-2xl p-4 shadow-lg text-white">
+          <div className="flex flex-wrap items-center justify-between gap-4">
+            <div className="flex items-center gap-3">
+              <div className={`p-2.5 rounded-xl border ${spyWorkerStatus?.is_running ? 'bg-orange-500/20 border-orange-400/50 text-orange-300' : 'bg-slate-800 border-slate-700 text-slate-400'}`}>
+                <Flame size={20} className={spyWorkerStatus?.is_running && !spyWorkerStatus.is_paused ? 'animate-pulse text-orange-400' : ''} />
+              </div>
+              <div>
+                <div className="flex items-center gap-2 flex-wrap">
+                  <h3 className="text-sm font-bold text-white flex items-center gap-1.5">
+                    <span>Cào Ngầm Spy Google Ads Tự Động</span>
+                    <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-orange-900/80 text-orange-200 border border-orange-700/60">
+                      Transparency Engine
+                    </span>
+                  </h3>
+                  {spyWorkerStatus?.is_running ? (
+                    spyWorkerStatus.is_paused ? (
+                      <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30">
+                        ⏸️ Tạm dừng
+                      </span>
+                    ) : (
+                      <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 flex items-center gap-1">
+                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
+                        Đang quét: {spyWorkerStatus.current_domain || spyWorkerStatus.current_store || '...'}
+                      </span>
+                    )
+                  ) : (
+                    <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700">
+                      ⚪ Sẵn sàng
+                    </span>
+                  )}
+                  <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-orange-900/60 text-orange-300 border border-orange-700/50">
+                    🎯 Ưu tiên ~320 stores chất lượng cao nhất (Traffic ≥ 25k)
+                  </span>
+                  <span className="text-[10px] font-medium text-slate-400">
+                    (Hoặc tùy chọn quét toàn bộ stores)
+                  </span>
+                </div>
+                <p className="text-[11px] text-slate-300 mt-0.5">
+                  {spyWorkerStatus?.status_message || 'Tự động quét ngầm Google Ads Transparency Center cho các store top, bóc tách nhà quảng cáo và mẫu ads lưu vĩnh viễn.'}
+                </p>
+              </div>
+            </div>
+
+            {/* Control Buttons */}
+            <div className="flex items-center gap-2">
+              {spyWorkerStatus?.is_running ? (
+                <>
+                  {spyWorkerStatus.is_paused ? (
+                    <button
+                      onClick={handleResumeSpyWorker}
+                      className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-emerald-600 hover:bg-emerald-500 text-white transition cursor-pointer shadow-sm"
+                    >
+                      <Play size={13} fill="currentColor" />
+                      <span>Tiếp tục</span>
+                    </button>
+                  ) : (
+                    <button
+                      onClick={handlePauseSpyWorker}
+                      className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-amber-600 hover:bg-amber-500 text-white transition cursor-pointer shadow-sm"
+                    >
+                      <Pause size={13} />
+                      <span>Tạm dừng</span>
+                    </button>
+                  )}
+                  <button
+                    onClick={handleStopSpyWorker}
+                    className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-rose-600/80 hover:bg-rose-600 text-white transition cursor-pointer shadow-sm"
+                  >
+                    <X size={13} />
+                    <span>Dừng hẳn</span>
+                  </button>
+                </>
+              ) : (
+                <div className="flex items-center gap-1.5">
+                  <button
+                    onClick={() => handleStartSpyWorker(true)}
+                    className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-400 hover:to-amber-400 text-white shadow-lg shadow-orange-500/25 transition cursor-pointer"
+                    title="Chỉ quét nền nhóm ~320 stores có Traffic ≥ 25k hoặc Cookie cao"
+                  >
+                    <Play size={13} fill="currentColor" />
+                    <span>⚡ Quét Nhóm Top (~320 Stores)</span>
+                  </button>
+                  <button
+                    onClick={() => handleStartSpyWorker(false)}
+                    className="flex items-center gap-1 px-3 py-2 rounded-xl text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 transition cursor-pointer"
+                    title="Quét toàn bộ stores có cookie ≥ 14 ngày (~5,243 stores)"
+                  >
+                    <span>Quét Hết (Cookie ≥ 14d)</span>
+                  </button>
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Progress Bar & Real-time Stats */}
+          <div className="mt-3 pt-3 border-t border-orange-900/60 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+            <div className="w-full sm:w-1/2">
+              <div className="flex items-center justify-between text-[11px] text-slate-300 mb-1">
+                <span>
+                  {spyWorkerStatus?.high_priority_only
+                    ? 'Tiến độ Spy Ads (Nhóm Top Stores ≥ 25k Traffic):'
+                    : 'Tiến độ Spy Ads (Cookie ≥ 14 ngày):'}
+                </span>
+                <span className="font-mono text-orange-300 font-semibold">
+                  {spyWorkerStatus?.high_priority_only
+                    ? `${spyWorkerStatus.checked_high_priority || 0} / ${spyWorkerStatus.total_high_priority || 0} (${spyWorkerStatus.percent_high_priority || 0}%)`
+                    : spyWorkerStatus
+                    ? `${spyWorkerStatus.checked_cookie_14} / ${spyWorkerStatus.total_cookie_14} (${spyWorkerStatus.percent_cookie_14}%)`
+                    : '0 / 0 (0%)'}
+                </span>
+              </div>
+              <div className="w-full h-2 rounded-full bg-slate-800 overflow-hidden">
+                <div
+                  className="h-full bg-gradient-to-r from-orange-500 to-amber-400 transition-all duration-500 rounded-full"
+                  style={{
+                    width: `${
+                      spyWorkerStatus?.high_priority_only
+                        ? Math.min(100, spyWorkerStatus.percent_high_priority || 0)
+                        : spyWorkerStatus
+                        ? Math.min(100, spyWorkerStatus.percent_cookie_14)
+                        : 0
+                    }%`
+                  }}
+                />
+              </div>
+              {spyWorkerStatus?.current_domain && (
+                <div className="text-[10px] text-slate-400 mt-1 truncate">
+                  ⚡ Đang xử lý: <span className="text-orange-300 font-mono font-medium">{spyWorkerStatus.current_domain}</span>
+                  {spyWorkerStatus.current_store && <span className="text-slate-400"> ({spyWorkerStatus.current_store})</span>}
+                </div>
+              )}
+            </div>
+
+            <div className="flex items-center gap-2.5 text-[11px] flex-wrap">
+              <span className="inline-flex items-center gap-1 text-orange-300 font-medium bg-orange-950/60 px-2 py-0.5 rounded border border-orange-800/40">
+                🔥 Stores Có Ads: {spyWorkerStatus?.stores_with_ads || 0}
+              </span>
+              <span className="inline-flex items-center gap-1 text-amber-300 font-medium bg-amber-950/60 px-2 py-0.5 rounded border border-amber-800/40">
+                📑 Tổng Ads Bóc Tách: {spyWorkerStatus?.total_ads_count || 0}
+              </span>
+              <span className="inline-flex items-center gap-1 text-emerald-400 font-medium bg-emerald-950/50 px-2 py-0.5 rounded border border-emerald-800/40">
+                ✅ Phiên này: {spyWorkerStatus?.scanned || 0}
+              </span>
+              {(spyWorkerStatus?.errors || 0) > 0 && (
+                <span className="inline-flex items-center gap-1 text-rose-400 font-medium bg-rose-950/50 px-2 py-0.5 rounded border border-rose-800/40">
+                  <AlertCircle size={11} /> Lỗi: {spyWorkerStatus?.errors}
+                </span>
+              )}
+            </div>
+          </div>
+        </section>
+
         {/* SEARCH & FILTERS BAR */}
         <section className="bg-white border border-slate-200 rounded-2xl p-3 shadow-sm flex flex-col gap-2.5">
           <div className="flex items-center gap-2.5 flex-wrap">
@@ -1547,6 +1801,27 @@ export default function App() {
               <option value="hide">🛡️ Ẩn 18+ (Sạch)</option>
               <option value="show_all">👁️ Hiện tất cả ({stats?.adult_count ? `gồm ${stats.adult_count} web 18+` : 'tất cả'})</option>
               <option value="only_adult">🔞 Chỉ xem 18+ ({stats?.adult_count || 0})</option>
+            </select>
+
+            {/* Spy Google Ads Filter */}
+            <select
+              value={spyFilter}
+              onChange={e => {
+                setSpyFilter(e.target.value);
+                setPage(1);
+              }}
+              className={`text-xs font-semibold py-2.5 px-3 rounded-xl border focus:outline-none transition cursor-pointer ${
+                spyFilter !== 'all'
+                  ? 'bg-orange-50 border-orange-300 text-orange-900 font-bold'
+                  : 'bg-slate-50 border-slate-200 text-slate-700 hover:border-slate-300'
+              }`}
+              title="Lọc theo trạng thái Spy Google Ads"
+            >
+              <option value="all">🎯 Tất cả Spy Ads</option>
+              <option value="has_ads">🔥 Đang chạy Google Ads (Có Ads)</option>
+              <option value="no_ads">⚪ 0 Ads (Đã xác minh)</option>
+              <option value="spied">✅ Đã Spy (Có data hoặc 0 Ads)</option>
+              <option value="pending">⏳ Chưa Spy (Chưa quét)</option>
             </select>
 
             <span className="text-xs text-slate-500 font-medium px-1 whitespace-nowrap">
@@ -1633,7 +1908,7 @@ export default function App() {
           </div>
 
           {/* Active filters bar if any filter is active */}
-          {(selectedCategory !== 'all' || adultFilter !== 'hide' || currencyFilter !== 'all' || commissionFilter !== 'all' || cookieFilter !== 'all' || trafficFilter !== 'all' || trendMonthFilter !== 'all' || trendScoreFilter !== 'all' || notesFilter !== 'all' || search.trim() !== '') && (
+          {(selectedCategory !== 'all' || adultFilter !== 'hide' || spyFilter !== 'all' || currencyFilter !== 'all' || commissionFilter !== 'all' || cookieFilter !== 'all' || trafficFilter !== 'all' || trendMonthFilter !== 'all' || trendScoreFilter !== 'all' || notesFilter !== 'all' || search.trim() !== '') && (
             <div className="flex items-center gap-2 pt-1 border-t border-slate-100 flex-wrap text-xs">
               <span className="text-[11px] font-semibold text-indigo-600 flex items-center gap-1">
                 <Filter size={12} /> Đang lọc:
@@ -1652,6 +1927,22 @@ export default function App() {
                 }`}>
                   18+: <strong>{adultFilter === 'only_adult' ? 'Chỉ xem 18+' : 'Hiện cả 18+'}</strong>
                   <button onClick={() => { setAdultFilter('hide'); setPage(1); }} className="hover:opacity-75 ml-0.5">
+                    <X size={11} />
+                  </button>
+                </span>
+              )}
+              {spyFilter !== 'all' && (
+                <span className="inline-flex items-center gap-1 text-[11px] bg-orange-50 text-orange-800 px-2 py-0.5 rounded-md border border-orange-300 font-medium">
+                  Spy Ads: <strong>{
+                    spyFilter === 'has_ads'
+                      ? '🔥 Đang chạy Ads'
+                      : spyFilter === 'no_ads'
+                      ? '⚪ 0 Ads (Đã xác minh)'
+                      : spyFilter === 'spied'
+                      ? '✅ Đã Spy'
+                      : '⏳ Chưa Spy'
+                  }</strong>
+                  <button onClick={() => { setSpyFilter('all'); setPage(1); }} className="hover:text-orange-950 ml-0.5">
                     <X size={11} />
                   </button>
                 </span>
@@ -1735,6 +2026,7 @@ export default function App() {
                   setSearch('');
                   setSelectedCategory('all');
                   setAdultFilter('hide');
+                  setSpyFilter('all');
                   setCurrencyFilter('all');
                   setCommissionFilter('all');
                   setCookieFilter('all');
@@ -1809,6 +2101,45 @@ export default function App() {
                         <option value="100000">≥ 100K / tháng</option>
                         <option value="has_data">Đã có data (Real)</option>
                         <option value="no_data">Chưa có data (Store nhỏ/mới)</option>
+                      </select>
+                    </div>
+                  </th>
+
+                  {/* GOOGLE ADS / SPY COLUMN */}
+                  <th className="py-2.5 px-3 w-32">
+                    <div className="flex flex-col gap-1">
+                      <button
+                        onClick={() => handleSort('spy_ads_count')}
+                        className="flex items-center justify-between hover:text-indigo-600 transition cursor-pointer w-full"
+                        title="Bấm để sắp xếp số lượng Google Ads Cao nhất / Thấp nhất"
+                      >
+                        <span className="flex items-center gap-1">
+                          <Flame size={12} className="text-orange-500 fill-orange-500" />
+                          <span>Google Ads</span>
+                        </span>
+                        {sortBy === 'spy_ads_count' ? (
+                          sortOrder === 'asc' ? <ArrowUp size={12} className="text-indigo-600" /> : <ArrowDown size={12} className="text-indigo-600" />
+                        ) : (
+                          <ArrowUpDown size={11} className="text-slate-400" />
+                        )}
+                      </button>
+                      <select
+                        value={spyFilter}
+                        onChange={e => {
+                          setSpyFilter(e.target.value);
+                          setPage(1);
+                        }}
+                        className={`text-[11px] font-normal py-1 px-1.5 rounded-lg border focus:outline-none transition cursor-pointer ${
+                          spyFilter !== 'all'
+                            ? 'bg-orange-50 border-orange-300 text-orange-700 font-semibold'
+                            : 'bg-white border-slate-200 text-slate-700 hover:border-slate-300'
+                        }`}
+                      >
+                        <option value="all">Tất cả Spy</option>
+                        <option value="has_ads">🔥 Có Ads</option>
+                        <option value="no_ads">⚪ 0 Ads</option>
+                        <option value="spied">✅ Đã Spy</option>
+                        <option value="pending">⏳ Chưa Spy</option>
                       </select>
                     </div>
                   </th>
@@ -2191,6 +2522,55 @@ export default function App() {
                           })()}
                         </td>
 
+                        {/* Google Ads Spy Cell */}
+                        <td className="py-3 px-3 w-32 text-center">
+                          {store.spy_ads_status === 'done' && store.spy_ads_count && store.spy_ads_count > 0 ? (
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                setExpandedStoreId(store.store_id);
+                                setStoreAccordionTabs(prev => ({ ...prev, [store.store_id]: 'spy_ads' }));
+                              }}
+                              className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[11px] font-bold font-mono bg-orange-50 text-orange-700 border border-orange-300 hover:bg-orange-100 transition cursor-pointer shadow-xs"
+                              title={`Bấm để mở xem ${store.spy_ads_count} quảng cáo từ ${store.spy_adv_count || 1} nhà quảng cáo`}
+                            >
+                              <Flame size={11} className="text-orange-500 fill-orange-500" />
+                              <span>{store.spy_ads_count} Ads</span>
+                              {store.spy_adv_count && store.spy_adv_count > 1 && (
+                                <span className="text-[9px] text-orange-600 font-normal">({store.spy_adv_count})</span>
+                              )}
+                            </button>
+                          ) : store.spy_ads_status === 'done' || store.spy_ads_status === 'no_ads' ? (
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                setExpandedStoreId(store.store_id);
+                                setStoreAccordionTabs(prev => ({ ...prev, [store.store_id]: 'spy_ads' }));
+                              }}
+                              className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-[10px] font-semibold text-slate-500 bg-slate-100 hover:bg-slate-200 transition cursor-pointer"
+                              title="Đã quét: không có quảng cáo Google Ads công khai. Bấm để xem."
+                            >
+                              <span>⚪ 0 Ads</span>
+                            </button>
+                          ) : store.spy_ads_status === 'error' ? (
+                            <span className="text-[10px] text-rose-500 font-medium" title="Lỗi khi quét Google Ads">
+                              ⚠️ Lỗi
+                            </span>
+                          ) : (
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                setExpandedStoreId(store.store_id);
+                                setStoreAccordionTabs(prev => ({ ...prev, [store.store_id]: 'spy_ads' }));
+                              }}
+                              className="text-[10px] text-orange-600 hover:text-orange-800 hover:underline font-medium cursor-pointer"
+                              title="Chưa quét. Bấm để mở spy ngay"
+                            >
+                              ⏳ Spy ngay
+                            </button>
+                          )}
+                        </td>
+
                         {/* Currency */}
                         <td className="py-3 px-3 w-24 text-center">
                           <span className="text-slate-700 font-mono text-xs font-semibold">
@@ -2292,10 +2672,65 @@ export default function App() {
                       {/* EXPANDABLE ACCORDION ROW */}
                       {expandedStoreId === store.store_id && (
                         <tr className="bg-gradient-to-b from-indigo-50/50 via-slate-50 to-indigo-50/30 border-b border-indigo-200 animate-in fade-in duration-200">
-                          <td colSpan={8} className="p-4 sm:p-5">
+                          <td colSpan={9} className="p-4 sm:p-5">
                             <div className="bg-white rounded-2xl border border-indigo-100 shadow-sm p-4 sm:p-5 space-y-4">
-                              {/* Accordion Header */}
-                              <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-slate-100">
+                              {/* ACCORDION SUB-TABS SELECTOR */}
+                              {(() => {
+                                const storeDomain = store.website_url ? store.website_url.replace(/^https?:\/\//, '').replace(/^www\./, '').split('/')[0] : '';
+                                const currentTab = storeAccordionTabs[store.store_id] || 'trends';
+                                return (
+                                  <div className="flex items-center justify-between gap-2 border-b border-slate-100 pb-3 flex-wrap">
+                                    <div className="flex items-center gap-2 flex-wrap">
+                                      <button
+                                        onClick={() => setStoreAccordionTabs(prev => ({ ...prev, [store.store_id]: 'trends' }))}
+                                        className={`flex items-center gap-2 px-3.5 py-1.5 rounded-xl text-xs font-bold transition cursor-pointer ${
+                                          currentTab === 'trends'
+                                            ? 'bg-indigo-600 text-white shadow-xs'
+                                            : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                                        }`}
+                                      >
+                                        <BarChart2 size={14} />
+                                        <span>1. Lưu Lượng & Google Trends</span>
+                                      </button>
+
+                                      <button
+                                        onClick={() => setStoreAccordionTabs(prev => ({ ...prev, [store.store_id]: 'spy_ads' }))}
+                                        className={`flex items-center gap-2 px-3.5 py-1.5 rounded-xl text-xs font-bold transition cursor-pointer ${
+                                          currentTab === 'spy_ads'
+                                            ? 'bg-gradient-to-r from-orange-500 to-amber-500 text-white shadow-xs ring-1 ring-orange-400'
+                                            : 'bg-orange-50 text-orange-700 hover:bg-orange-100 border border-orange-200'
+                                        }`}
+                                      >
+                                        <Flame size={14} />
+                                        <span>2. Spy Google Ads ({storeDomain || 'Domain'})</span>
+                                        <span className="px-1.5 py-0.2 rounded-full text-[10px] bg-white text-orange-600 font-black">
+                                          NEW
+                                        </span>
+                                      </button>
+                                    </div>
+
+                                    <button
+                                      onClick={() => setExpandedStoreId(null)}
+                                      className="p-1.5 rounded-xl hover:bg-slate-100 text-slate-400 hover:text-slate-600 transition cursor-pointer"
+                                      title="Thu gọn dòng"
+                                    >
+                                      <X size={15} />
+                                    </button>
+                                  </div>
+                                );
+                              })()}
+
+                              {storeAccordionTabs[store.store_id] === 'spy_ads' ? (
+                                <StoreAccordionSpyView
+                                  domain={store.website_url ? store.website_url.replace(/^https?:\/\//, '').replace(/^www\./, '').split('/')[0] : ''}
+                                  storeName={store.name}
+                                  storeWebsiteUrl={store.website_url}
+                                  storeId={store.store_id}
+                                />
+                              ) : (
+                                <>
+                                  {/* Accordion Header */}
+                                  <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-slate-100">
                                 <div className="flex items-center gap-3">
                                   <div className="p-2 rounded-xl bg-indigo-50 text-indigo-600 border border-indigo-100">
                                     <BarChart2 size={18} />
@@ -2545,6 +2980,8 @@ export default function App() {
                                   )}
                                 </div>
                               )}
+                                </>
+                              )}
 
                               {/* Inline Quick CRM Notes */}
                               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 pt-2 border-t border-slate-100" onClick={e => e.stopPropagation()}>
@@ -2573,7 +3010,7 @@ export default function App() {
 
                 {stores.length === 0 && !loading && (
                   <tr>
-                    <td colSpan={8} className="py-12 text-center text-slate-500">
+                    <td colSpan={9} className="py-12 text-center text-slate-500">
                       <div className="flex flex-col items-center gap-2">
                         <Building size={32} className="text-slate-600" />
                         <p className="text-sm font-semibold text-slate-500">Không tìm thấy store nào</p>

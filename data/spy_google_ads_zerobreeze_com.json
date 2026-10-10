@@ -1,0 +1,489 @@
+{
+  "domain": "zerobreeze.com",
+  "updated_at": "2026-10-10T14:41:35.009200",
+  "total_advertisers": 15,
+  "total_ads": 137,
+  "super_scale_count": 1,
+  "win_ads_count": 6,
+  "test_ads_count": 8,
+  "advertisers": [
+    {
+      "id": "AR07724667190602891265",
+      "name": "Zero Breeze Tech Inc.Đã xác minh",
+      "legal_name": "Zero Breeze Tech Inc.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07724667190602891265/creative/CR04049853873194532865?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 114,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 114,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: zerobreeze.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho zerobreeze.com",
+          "landing_page": "https://www.zerobreeze.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 114,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15880364762041067208"
+        }
+      ]
+    },
+    {
+      "id": "AR15817325736018051073",
+      "name": "ĐÀM MINH TRƯỜNGĐã xác minh",
+      "legal_name": "ĐÀM MINH TRƯỜNGĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15817325736018051073/creative/CR12938853214177984513?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: zerobreeze.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho zerobreeze.com",
+          "landing_page": "https://www.zerobreeze.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10798262000168551902"
+        }
+      ]
+    },
+    {
+      "id": "AR18391319805677273089",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18391319805677273089/creative/CR05450354945058406401?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: zerobreeze.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho zerobreeze.com",
+          "landing_page": "https://www.zerobreeze.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR10551749947709980673?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: zerobreeze.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho zerobreeze.com",
+          "landing_page": "https://www.zerobreeze.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2226479406192575105"
+        }
+      ]
+    },
+    {
+      "id": "AR10575899088526508033",
+      "name": "YINO (HONGKONG) DIGITAL TECHNOLOGY CO., LIMITEDĐã xác minh",
+      "legal_name": "YINO (HONGKONG) DIGITAL TECHNOLOGY CO., LIMITEDĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10575899088526508033/creative/CR13084022387228278785?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: zerobreeze.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho zerobreeze.com",
+          "landing_page": "https://www.zerobreeze.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12203391023042967753"
+        }
+      ]
+    },
+    {
+      "id": "AR07675194828119867393",
+      "name": "IT Solutions FZCOĐã xác minh",
+      "legal_name": "IT Solutions FZCOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07675194828119867393/creative/CR12835295505357471745?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: zerobreeze.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho zerobreeze.com",
+          "landing_page": "https://www.zerobreeze.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15180791173494241000"
+        }
+      ]
+    },
+    {
+      "id": "AR11886509028915806209",
+      "name": "PET DETECTIVE PROPERTIES LTDĐã xác minh",
+      "legal_name": "PET DETECTIVE PROPERTIES LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11886509028915806209/creative/CR01283064451104243713?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: zerobreeze.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho zerobreeze.com",
+          "landing_page": "https://www.zerobreeze.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6258134192603059026"
+        }
+      ]
+    },
+    {
+      "id": "AR07262673063404109825",
+      "name": "Al hayat wooden furniture factory llcĐã xác minh",
+      "legal_name": "Al hayat wooden furniture factory llcĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07262673063404109825/creative/CR03284108586396942337?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: zerobreeze.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho zerobreeze.com",
+          "landing_page": "https://www.zerobreeze.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8616582666418481776"
+        }
+      ]
+    },
+    {
+      "id": "AR12022399139871457281",
+      "name": "OMEGA BUILD LTDĐã xác minh",
+      "legal_name": "OMEGA BUILD LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12022399139871457281/creative/CR14397514130414108673?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: zerobreeze.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho zerobreeze.com",
+          "landing_page": "https://www.zerobreeze.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR03620228243036045313",
+      "name": "Marina MartyshevaĐã xác minh",
+      "legal_name": "Marina MartyshevaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03620228243036045313/creative/CR18283900981387198465?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: zerobreeze.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho zerobreeze.com",
+          "landing_page": "https://www.zerobreeze.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15318156543441163048"
+        }
+      ]
+    },
+    {
+      "id": "AR10373523467944329217",
+      "name": "BEAUTY LTDĐã xác minh",
+      "legal_name": "BEAUTY LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10373523467944329217/creative/CR04031998276805853185?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: zerobreeze.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho zerobreeze.com",
+          "landing_page": "https://www.zerobreeze.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6645921647803714174"
+        }
+      ]
+    },
+    {
+      "id": "AR02310556323504193537",
+      "name": "METROPOLIS AGENCY LLPĐã xác minh",
+      "legal_name": "METROPOLIS AGENCY LLPĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02310556323504193537/creative/CR04619279847024230401?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: zerobreeze.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho zerobreeze.com",
+          "landing_page": "https://www.zerobreeze.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10330968281497598878"
+        }
+      ]
+    },
+    {
+      "id": "AR06160580040024129537",
+      "name": "TOO Adv Digital Technology",
+      "legal_name": "TOO Adv Digital Technology",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06160580040024129537/creative/CR10047997631608651777?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: zerobreeze.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho zerobreeze.com",
+          "landing_page": "https://www.zerobreeze.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3134717727843581723"
+        }
+      ]
+    },
+    {
+      "id": "AR17788391970247278593",
+      "name": "the JAR groupĐã xác minh",
+      "legal_name": "the JAR groupĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17788391970247278593/creative/CR09255424604690710529?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: zerobreeze.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho zerobreeze.com",
+          "landing_page": "https://www.zerobreeze.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4520275032045117038"
+        }
+      ]
+    },
+    {
+      "id": "AR03910016232027324417",
+      "name": "Digital FundaĐã xác minh",
+      "legal_name": "Digital FundaĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03910016232027324417/creative/CR09970457460277772289?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: zerobreeze.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho zerobreeze.com",
+          "landing_page": "https://www.zerobreeze.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4726632862569815618"
+        }
+      ]
+    }
+  ]
+}

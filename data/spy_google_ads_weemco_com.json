@@ -1,0 +1,43 @@
+{
+  "domain": "weemco.com",
+  "updated_at": "2026-10-10T13:56:16.264027",
+  "total_advertisers": 1,
+  "total_ads": 119,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR15700810849599881217",
+      "name": "mendel weinbergerĐã xác minh",
+      "legal_name": "mendel weinbergerĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15700810849599881217/creative/CR03469524343199891457?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 119,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 119,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: weemco.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho weemco.com",
+          "landing_page": "https://www.weemco.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 119,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12173369874679902003"
+        }
+      ]
+    }
+  ]
+}

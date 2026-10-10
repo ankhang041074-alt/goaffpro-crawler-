@@ -1,0 +1,107 @@
+{
+  "domain": "fitbander.com",
+  "updated_at": "2026-10-10T14:30:50.377825",
+  "total_advertisers": 3,
+  "total_ads": 62,
+  "super_scale_count": 1,
+  "win_ads_count": 2,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR17317803587719397377",
+      "name": "שגיב לויĐã xác minh",
+      "legal_name": "שגיב לויĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17317803587719397377/creative/CR00849497466897170433?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 58,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 58,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: fitbander.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho fitbander.com",
+          "landing_page": "https://www.fitbander.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 58,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4733347068006529666"
+        }
+      ]
+    },
+    {
+      "id": "AR11048873643214897153",
+      "name": "P&H International Co., Ltd.Đã xác minh",
+      "legal_name": "P&H International Co., Ltd.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11048873643214897153/creative/CR17805285734479822849?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: fitbander.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho fitbander.com",
+          "landing_page": "https://www.fitbander.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11041588889295171155"
+        }
+      ]
+    },
+    {
+      "id": "AR08562646577414406145",
+      "name": "SABREEN JENKINSĐã xác minh",
+      "legal_name": "SABREEN JENKINSĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08562646577414406145/creative/CR15443487925693579265?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: fitbander.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho fitbander.com",
+          "landing_page": "https://www.fitbander.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16309205753661236179"
+        }
+      ]
+    }
+  ]
+}

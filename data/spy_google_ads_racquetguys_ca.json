@@ -1,0 +1,43 @@
+{
+  "domain": "racquetguys.ca",
+  "updated_at": "2026-10-10T14:01:26.743513",
+  "total_advertisers": 1,
+  "total_ads": 114,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR05033534132827717633",
+      "name": "1436206 Ontario LimitedĐã xác minh",
+      "legal_name": "1436206 Ontario LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05033534132827717633/creative/CR13242352121757564929?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 114,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 114,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: racquetguys.ca",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho racquetguys.ca",
+          "landing_page": "https://www.racquetguys.ca",
+          "last_shown": "2026-10-10",
+          "duration_days": 114,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16912079330862319797"
+        }
+      ]
+    }
+  ]
+}

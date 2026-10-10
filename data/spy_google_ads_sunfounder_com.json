@@ -1,0 +1,1765 @@
+{
+  "domain": "sunfounder.com",
+  "updated_at": "2026-10-10T13:58:48.682953",
+  "total_advertisers": 55,
+  "total_ads": 99,
+  "super_scale_count": 0,
+  "win_ads_count": 37,
+  "test_ads_count": 18,
+  "advertisers": [
+    {
+      "id": "AR01374097047447142401",
+      "name": "鉅灝貿易發展有限公司Đã xác minh",
+      "legal_name": "鉅灝貿易發展有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01374097047447142401/creative/CR16499540050711674881?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 5,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 5,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 5,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15343737719714379386"
+        }
+      ]
+    },
+    {
+      "id": "AR13083080621159350273",
+      "name": "KHUẤT GIA QUYẾTĐã xác minh",
+      "legal_name": "KHUẤT GIA QUYẾTĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13083080621159350273/creative/CR09816010943119753217?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10672562232582389506"
+        }
+      ]
+    },
+    {
+      "id": "AR16239088698396770305",
+      "name": "MarkSurge Marketing Minds Private LimitedĐã xác minh",
+      "legal_name": "MarkSurge Marketing Minds Private LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16239088698396770305/creative/CR06253367182047051777?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1084837747020063249"
+        }
+      ]
+    },
+    {
+      "id": "AR13461080830319263745",
+      "name": "Sohail Ahmed ChaudhryĐã xác minh",
+      "legal_name": "Sohail Ahmed ChaudhryĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13461080830319263745/creative/CR12014639027320782849?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2467248211939471261"
+        }
+      ]
+    },
+    {
+      "id": "AR13497936107894996993",
+      "name": "HERA SEO SRLĐã xác minh",
+      "legal_name": "HERA SEO SRLĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13497936107894996993/creative/CR08636677726104715265?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3477262698450993614"
+        }
+      ]
+    },
+    {
+      "id": "AR13362557166767046657",
+      "name": "TRẦN VĂN TRUNGĐã xác minh",
+      "legal_name": "TRẦN VĂN TRUNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13362557166767046657/creative/CR15182046703676030977?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9459106504880619055"
+        }
+      ]
+    },
+    {
+      "id": "AR07675194828119867393",
+      "name": "IT Solutions FZCOĐã xác minh",
+      "legal_name": "IT Solutions FZCOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07675194828119867393/creative/CR05447238791666335745?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/344421601857970474"
+        }
+      ]
+    },
+    {
+      "id": "AR01942990823289257985",
+      "name": "CÔNG TY TNHH ĐẦU TƯ XÂY DỰNG NHIÊN THỊNHĐã xác minh",
+      "legal_name": "CÔNG TY TNHH ĐẦU TƯ XÂY DỰNG NHIÊN THỊNHĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01942990823289257985/creative/CR09070332739961487361?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3023337107998478926"
+        }
+      ]
+    },
+    {
+      "id": "AR15398071773274570753",
+      "name": "JAMAL ROSHAWN GEATHERSĐã xác minh",
+      "legal_name": "JAMAL ROSHAWN GEATHERSĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15398071773274570753/creative/CR13855716272450306049?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5414732050533872048"
+        }
+      ]
+    },
+    {
+      "id": "AR05511822043097595905",
+      "name": "HANNAH MARIE FLORENCE YOUNGWORTHĐã xác minh",
+      "legal_name": "HANNAH MARIE FLORENCE YOUNGWORTHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05511822043097595905/creative/CR13259032649453797377?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6088345060051386801"
+        }
+      ]
+    },
+    {
+      "id": "AR17017993524471136257",
+      "name": "HEATHER ANN REDIFERĐã xác minh",
+      "legal_name": "HEATHER ANN REDIFERĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17017993524471136257/creative/CR08093607389590192129?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3680464493520150115"
+        }
+      ]
+    },
+    {
+      "id": "AR05540008066625306625",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HUÂNĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HUÂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05540008066625306625/creative/CR03327391024833101825?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8031080795219796816"
+        }
+      ]
+    },
+    {
+      "id": "AR13982645166071087105",
+      "name": "Jabar HussainĐã xác minh",
+      "legal_name": "Jabar HussainĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13982645166071087105/creative/CR13712105107376570369?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2110967194114487346"
+        }
+      ]
+    },
+    {
+      "id": "AR02647941011220725761",
+      "name": "NGUYỄN THANH THỦYĐã xác minh",
+      "legal_name": "NGUYỄN THANH THỦYĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02647941011220725761/creative/CR09685108586274881537?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9679455692826223407"
+        }
+      ]
+    },
+    {
+      "id": "AR08131477490628558849",
+      "name": "BEATRIZ ROCHA PEREIRA DOS SANTOS MARCONĐã xác minh",
+      "legal_name": "BEATRIZ ROCHA PEREIRA DOS SANTOS MARCONĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08131477490628558849/creative/CR12513334517647278081?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR15426181964859703297",
+      "name": "công ty cổ phần thương mại và dịch vụ sơn chiếnĐã xác minh",
+      "legal_name": "công ty cổ phần thương mại và dịch vụ sơn chiếnĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15426181964859703297/creative/CR13129564270519910401?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11041707069853652984"
+        }
+      ]
+    },
+    {
+      "id": "AR09953131201428455425",
+      "name": "Digital FundaĐã xác minh",
+      "legal_name": "Digital FundaĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09953131201428455425/creative/CR14315963627859869697?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18072245324549270031"
+        }
+      ]
+    },
+    {
+      "id": "AR16387915955222609921",
+      "name": "STAR HONOUR DEVELOPMENT LIMITEDĐã xác minh",
+      "legal_name": "STAR HONOUR DEVELOPMENT LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16387915955222609921/creative/CR11220258403286777857?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11744426138591160856"
+        }
+      ]
+    },
+    {
+      "id": "AR03858991427845357569",
+      "name": "OCEAN SUNRISE LIMITEDĐã xác minh",
+      "legal_name": "OCEAN SUNRISE LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03858991427845357569/creative/CR13503203120779362305?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_18",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13897603655931666251"
+        }
+      ]
+    },
+    {
+      "id": "AR14069134949735202817",
+      "name": "GREGORY MATTHEW BOYDĐã xác minh",
+      "legal_name": "GREGORY MATTHEW BOYDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14069134949735202817/creative/CR04171780701873504257?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_19",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR00032717076586037249",
+      "name": "TRUONG QUOC DUCĐã xác minh",
+      "legal_name": "TRUONG QUOC DUCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00032717076586037249/creative/CR15877266428450045953?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_20",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2426508431894459099"
+        }
+      ]
+    },
+    {
+      "id": "AR16949969901156564993",
+      "name": "Ufo kioskĐã xác minh",
+      "legal_name": "Ufo kioskĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16949969901156564993/creative/CR04514861040210542593?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_21",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4402002994428151216"
+        }
+      ]
+    },
+    {
+      "id": "AR07407373011277316097",
+      "name": "TRƯƠNG QUỐC ĐỨCĐã xác minh",
+      "legal_name": "TRƯƠNG QUỐC ĐỨCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07407373011277316097/creative/CR06064975210476470273?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_22",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR17166615129672908801",
+      "name": "Fahad FarooqĐã xác minh",
+      "legal_name": "Fahad FarooqĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17166615129672908801/creative/CR11950190912740524033?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_23",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR04821602450530107393",
+      "name": "SOUTHERN ARTISAN INVESTMENT LTDĐã xác minh",
+      "legal_name": "SOUTHERN ARTISAN INVESTMENT LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04821602450530107393/creative/CR18424306142353031169?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_24",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR08474701246513545217",
+      "name": "Alexa Suzanne MichaelĐã xác minh",
+      "legal_name": "Alexa Suzanne MichaelĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08474701246513545217/creative/CR14165348401918509057?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_25",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR14902096028038594561",
+      "name": "TEA & A LLCĐã xác minh",
+      "legal_name": "TEA & A LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14902096028038594561/creative/CR12688599832210702337?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_26",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11065590613429554223"
+        }
+      ]
+    },
+    {
+      "id": "AR16771932855218470913",
+      "name": "Brittany Aerelle BooneĐã xác minh",
+      "legal_name": "Brittany Aerelle BooneĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16771932855218470913/creative/CR17552072089253445633?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_27",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13736407423136449932"
+        }
+      ]
+    },
+    {
+      "id": "AR07105807680794525697",
+      "name": "SIGE (USA) INFORMATION TECHNOLOGY CO., LTDĐã xác minh",
+      "legal_name": "SIGE (USA) INFORMATION TECHNOLOGY CO., LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07105807680794525697/creative/CR17019143751072743425?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_28",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11121487148766606248"
+        }
+      ]
+    },
+    {
+      "id": "AR02920438819087974401",
+      "name": "POW PEARLS OF WISDOM DESIGN LTDĐã xác minh",
+      "legal_name": "POW PEARLS OF WISDOM DESIGN LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02920438819087974401/creative/CR11751155943490977793?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_29",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10333656035111101315"
+        }
+      ]
+    },
+    {
+      "id": "AR02304701862172950529",
+      "name": "JAMAAL FORRESTER INSURANCE SERVICES LLCĐã xác minh",
+      "legal_name": "JAMAAL FORRESTER INSURANCE SERVICES LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02304701862172950529/creative/CR09648632769059749889?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_30",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10471654161676641525"
+        }
+      ]
+    },
+    {
+      "id": "AR13475183922371362817",
+      "name": "bùi thị hoaĐã xác minh",
+      "legal_name": "bùi thị hoaĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13475183922371362817/creative/CR03970843783666335745?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_31",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5736364716255911714"
+        }
+      ]
+    },
+    {
+      "id": "AR15838986862409547777",
+      "name": "FFGĐã xác minh",
+      "legal_name": "FFGĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838986862409547777/creative/CR13157193064990638081?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_32",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8514868196394714610"
+        }
+      ]
+    },
+    {
+      "id": "AR14562315461535465473",
+      "name": "MEGAN MOSHEA D.D.S. LLCĐã xác minh",
+      "legal_name": "MEGAN MOSHEA D.D.S. LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14562315461535465473/creative/CR02783087001912475649?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_33",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11416836727080981581"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR13735241099767709697?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_34",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13423002137976446152"
+        }
+      ]
+    },
+    {
+      "id": "AR01864370106906181633",
+      "name": "CÔNG TY TNHH MTV GIA CÔNG CƠ KHÍ NGUYỄN VĂN BẬYĐã xác minh",
+      "legal_name": "CÔNG TY TNHH MTV GIA CÔNG CƠ KHÍ NGUYỄN VĂN BẬYĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01864370106906181633/creative/CR10724273312201965569?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_35",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5759316276531863309"
+        }
+      ]
+    },
+    {
+      "id": "AR01441183766595764225",
+      "name": "Xun Meng International LimitedĐã xác minh",
+      "legal_name": "Xun Meng International LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01441183766595764225/creative/CR03842718793193226241?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_36",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16454689451908612894"
+        }
+      ]
+    },
+    {
+      "id": "AR12205387217949949953",
+      "name": "DOAN GIA PHAT INTERIOR DECORATION COMPANY LIMITEDĐã xác minh",
+      "legal_name": "DOAN GIA PHAT INTERIOR DECORATION COMPANY LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12205387217949949953/creative/CR13468541635189014529?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_37",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13318400149353756088"
+        }
+      ]
+    },
+    {
+      "id": "AR00921748119715053569",
+      "name": "Hồ Ngọc HiếuĐã xác minh",
+      "legal_name": "Hồ Ngọc HiếuĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00921748119715053569/creative/CR02837672626040602625?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_38",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5579029797461816789"
+        }
+      ]
+    },
+    {
+      "id": "AR15153030806567387137",
+      "name": "Xun Meng International Limited",
+      "legal_name": "Xun Meng International Limited",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15153030806567387137/creative/CR02415992642430042113?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_39",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15663693493251838200"
+        }
+      ]
+    },
+    {
+      "id": "AR15380446945478705153",
+      "name": "Bodhi Family Office LLCĐã xác minh",
+      "legal_name": "Bodhi Family Office LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15380446945478705153/creative/CR11945501701806489601?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_40",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4651264417787909673"
+        }
+      ]
+    },
+    {
+      "id": "AR13827278168702058497",
+      "name": "Rukhsana TahirĐã xác minh",
+      "legal_name": "Rukhsana TahirĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13827278168702058497/creative/CR18322353583070117889?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_41",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16387725880656967853"
+        }
+      ]
+    },
+    {
+      "id": "AR07543636037063409665",
+      "name": "OCEAN CAPITAL COMPANIES, LLCĐã xác minh",
+      "legal_name": "OCEAN CAPITAL COMPANIES, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07543636037063409665/creative/CR12494166800159735809?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_42",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10258553423263665412"
+        }
+      ]
+    },
+    {
+      "id": "AR15891145331799228417",
+      "name": "DOGSTAR TECHNOLOGIES LIMITEDĐã xác minh",
+      "legal_name": "DOGSTAR TECHNOLOGIES LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15891145331799228417/creative/CR12014021067426234369?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_43",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12578680761947005532"
+        }
+      ]
+    },
+    {
+      "id": "AR08108057137042685953",
+      "name": "5534 Ellen St LLCĐã xác minh",
+      "legal_name": "5534 Ellen St LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08108057137042685953/creative/CR00851918110465196033?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_44",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8435535412930196880"
+        }
+      ]
+    },
+    {
+      "id": "AR05326333924685643777",
+      "name": "Our Island Preschool LLCĐã xác minh",
+      "legal_name": "Our Island Preschool LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05326333924685643777/creative/CR11361120591722577921?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_45",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10453075548086733216"
+        }
+      ]
+    },
+    {
+      "id": "AR17187745380926750721",
+      "name": "NGUYEN TIN PHATĐã xác minh",
+      "legal_name": "NGUYEN TIN PHATĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17187745380926750721/creative/CR17186768877162332161?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_46",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4545355165920152513"
+        }
+      ]
+    },
+    {
+      "id": "AR03736823256364089345",
+      "name": "HK HENGHUI BUSINESS CONSULTATION LIMITEDĐã xác minh",
+      "legal_name": "HK HENGHUI BUSINESS CONSULTATION LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03736823256364089345/creative/CR15425746798773272577?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_47",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5389232782787723470"
+        }
+      ]
+    },
+    {
+      "id": "AR08817968201179594753",
+      "name": "HỘ KINH DOANH LÊ THỊ NGAĐã xác minh",
+      "legal_name": "HỘ KINH DOANH LÊ THỊ NGAĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08817968201179594753/creative/CR08880924175401746433?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_48",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18367459581777020835"
+        }
+      ]
+    },
+    {
+      "id": "AR02310556323504193537",
+      "name": "METROPOLIS AGENCY LLPĐã xác minh",
+      "legal_name": "METROPOLIS AGENCY LLPĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02310556323504193537/creative/CR15551188946514870273?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_49",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10237827200459093310"
+        }
+      ]
+    },
+    {
+      "id": "AR01302696136728903681",
+      "name": "NEUTRAL GROUND LTDĐã xác minh",
+      "legal_name": "NEUTRAL GROUND LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01302696136728903681/creative/CR06257697514103767041?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_50",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8204166882416050321"
+        }
+      ]
+    },
+    {
+      "id": "AR11016521415510720513",
+      "name": "Boston Digital Pro LLCĐã xác minh",
+      "legal_name": "Boston Digital Pro LLCĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11016521415510720513/creative/CR15143088472673222657?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_51",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11021333322255459804"
+        }
+      ]
+    },
+    {
+      "id": "AR03181828149310652417",
+      "name": "L.E.ANTUNES LTDAĐã xác minh",
+      "legal_name": "L.E.ANTUNES LTDAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03181828149310652417/creative/CR14013106628912480257?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_52",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8297723472693445657"
+        }
+      ]
+    },
+    {
+      "id": "AR17360342764885114881",
+      "name": "đinh văn hưngĐã xác minh",
+      "legal_name": "đinh văn hưngĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17360342764885114881/creative/CR02810204987332755457?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_53",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17556307259972813731"
+        }
+      ]
+    },
+    {
+      "id": "AR02069776883477643265",
+      "name": "SIB TECHNOLOGY AND CONSULTING JOINT STOCK COMPANYĐã xác minh",
+      "legal_name": "SIB TECHNOLOGY AND CONSULTING JOINT STOCK COMPANYĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02069776883477643265/creative/CR09250873691703607297?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_54",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sunfounder.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sunfounder.com",
+          "landing_page": "https://www.sunfounder.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9595291965725509567"
+        }
+      ]
+    }
+  ]
+}

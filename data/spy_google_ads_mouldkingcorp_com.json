@@ -1,0 +1,267 @@
+{
+  "domain": "mouldkingcorp.com",
+  "updated_at": "2026-10-10T14:07:18.189093",
+  "total_advertisers": 8,
+  "total_ads": 116,
+  "super_scale_count": 1,
+  "win_ads_count": 1,
+  "test_ads_count": 6,
+  "advertisers": [
+    {
+      "id": "AR01571525862136741889",
+      "name": "广东宇星科技实业有限公司Đã xác minh",
+      "legal_name": "广东宇星科技实业有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01571525862136741889/creative/CR02097455611238154241?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 108,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 108,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mouldkingcorp.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mouldkingcorp.com",
+          "landing_page": "https://www.mouldkingcorp.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 108,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8951575478366454266"
+        }
+      ]
+    },
+    {
+      "id": "AR03162353917187063809",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03162353917187063809/creative/CR16091299492216700929?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mouldkingcorp.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mouldkingcorp.com",
+          "landing_page": "https://www.mouldkingcorp.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17828755894262360918"
+        }
+      ]
+    },
+    {
+      "id": "AR15548624395772624897",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15548624395772624897/creative/CR15483161397600190465?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mouldkingcorp.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mouldkingcorp.com",
+          "landing_page": "https://www.mouldkingcorp.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12397898891846865491"
+        }
+      ]
+    },
+    {
+      "id": "AR00486043564644499457",
+      "name": "TIARA TRAVEL SERVICE AND TRADING COMPANY LIMITEDĐã xác minh",
+      "legal_name": "TIARA TRAVEL SERVICE AND TRADING COMPANY LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00486043564644499457/creative/CR14080018027496079361?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mouldkingcorp.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mouldkingcorp.com",
+          "landing_page": "https://www.mouldkingcorp.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11717328255549598051"
+        }
+      ]
+    },
+    {
+      "id": "AR12926916924536782849",
+      "name": "HIEU VIEN TRANSPORTATION TRADING COMPANY LIMITEDĐã xác minh",
+      "legal_name": "HIEU VIEN TRANSPORTATION TRADING COMPANY LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12926916924536782849/creative/CR08434442971859910657?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mouldkingcorp.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mouldkingcorp.com",
+          "landing_page": "https://www.mouldkingcorp.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8187280504765947081"
+        }
+      ]
+    },
+    {
+      "id": "AR17243463802679197697",
+      "name": "ADSDIGI COMPANY LIMITEDĐã xác minh",
+      "legal_name": "ADSDIGI COMPANY LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17243463802679197697/creative/CR06947243681569046529?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mouldkingcorp.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mouldkingcorp.com",
+          "landing_page": "https://www.mouldkingcorp.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5441963971918143114"
+        }
+      ]
+    },
+    {
+      "id": "AR04140318631911227393",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04140318631911227393/creative/CR06534189504117342209?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mouldkingcorp.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mouldkingcorp.com",
+          "landing_page": "https://www.mouldkingcorp.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13051881703035653476"
+        }
+      ]
+    },
+    {
+      "id": "AR14378760387644358657",
+      "name": "Hộ Kinh Doanh Tạp HóaĐã xác minh",
+      "legal_name": "Hộ Kinh Doanh Tạp HóaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14378760387644358657/creative/CR06035309605075025921?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mouldkingcorp.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mouldkingcorp.com",
+          "landing_page": "https://www.mouldkingcorp.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17258084650489045503"
+        }
+      ]
+    }
+  ]
+}

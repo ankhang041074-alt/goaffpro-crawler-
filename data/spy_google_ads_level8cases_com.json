@@ -1,0 +1,138 @@
+{
+  "domain": "level8cases.com",
+  "updated_at": "2026-10-10T12:41:31.961385",
+  "total_advertisers": 4,
+  "total_ads": 200,
+  "win_ads_count": 1,
+  "super_scale_count": 2,
+  "evergreen_percent": 0,
+  "advertisers": [
+    {
+      "id": "AR11293514490768785409",
+      "name": "Level8cases.com",
+      "legal_name": "Level8cases.com",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11293514490768785409/creative/CR17686210033940955137?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 35,
+      "longevity_badge": "super_scale",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 93,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Level8cases.com Official Offers & Deals",
+          "description": "Shop online at level8cases.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.level8cases.com/?ref=aff_ar1129",
+          "last_shown": "2026-10-10",
+          "duration_days": 35,
+          "image_url": "https://i.ytimg.com/vi/AbB6cXeGoPo/hqdefault.jpg"
+        }
+      ],
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)"
+    },
+    {
+      "id": "AR11293514490768785409",
+      "name": "LEVEL 8 GROUP CORP.",
+      "legal_name": "LEVEL 8 GROUP CORP.",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11293514490768785409/creative/CR10871205998823997441?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 46,
+      "longevity_badge": "super_scale",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 104,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Level8cases.com Official Offers & Deals",
+          "description": "Shop online at level8cases.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.level8cases.com/?ref=aff_ar1129",
+          "last_shown": "2026-10-10",
+          "duration_days": 46,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)"
+    },
+    {
+      "id": "AR17411988741597167617",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂN",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂN",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17411988741597167617/creative/CR04402421270302425089?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 57,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Level8cases.com Official Offers & Deals",
+          "description": "Shop online at level8cases.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.level8cases.com/?ref=aff_ar1741",
+          "last_shown": "2026-10-10",
+          "duration_days": 57,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5008261092208082899"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR11293514490768785409",
+      "name": "Level8cases.com",
+      "legal_name": "Level8cases.com",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11293514490768785409/creative/CR13052394187930992641?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 68,
+      "longevity_badge": "test",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Level8cases.com Official Offers & Deals",
+          "description": "Shop online at level8cases.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.level8cases.com/?ref=aff_ar1129",
+          "last_shown": "2026-10-10",
+          "duration_days": 68,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    }
+  ],
+  "test_ads_count": 1
+}

@@ -1,0 +1,44 @@
+{
+  "domain": "boutique-tronconneuse.fr",
+  "updated_at": "2026-10-10T12:37:41.048906",
+  "total_advertisers": 1,
+  "total_ads": 1,
+  "win_ads_count": 0,
+  "super_scale_count": 0,
+  "evergreen_percent": 0,
+  "advertisers": [
+    {
+      "id": "AR02526065825228521473",
+      "name": "Hộ kinh doanh Hoàng Văn Ty",
+      "legal_name": "Hộ kinh doanh Hoàng Văn Ty",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02526065825228521473/creative/CR11717742815915016193?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 35,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Boutique-tronconneuse.fr Official Offers & Deals",
+          "description": "Shop online at boutique-tronconneuse.fr. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.boutique-tronconneuse.fr/?ref=aff_ar0252",
+          "last_shown": "2026-10-10",
+          "duration_days": 35,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3744285646830740695"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    }
+  ],
+  "test_ads_count": 1
+}

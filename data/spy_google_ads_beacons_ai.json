@@ -1,0 +1,2690 @@
+{
+  "domain": "beacons.ai",
+  "updated_at": "2026-10-10T12:41:12.747581",
+  "total_advertisers": 84,
+  "total_ads": 200,
+  "win_ads_count": 38,
+  "super_scale_count": 1,
+  "evergreen_percent": 66,
+  "advertisers": [
+    {
+      "id": "AR04090292536474599425",
+      "name": "ELSON ANTONIO BORDON JUNIOR",
+      "legal_name": "ELSON ANTONIO BORDON JUNIOR",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04090292536474599425/creative/CR06322164792828100609?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 35,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0409",
+          "last_shown": "2026-10-10",
+          "duration_days": 35,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6113989835331889305"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR14744763679404720129",
+      "name": "NATAN DA SILVA ALCANTARA",
+      "legal_name": "NATAN DA SILVA ALCANTARA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14744763679404720129/creative/CR16425994473843982337?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 46,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1474",
+          "last_shown": "2026-10-10",
+          "duration_days": 46,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4427218273173524834"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR13725016285874487297",
+      "name": "Beacons.ai",
+      "legal_name": "Beacons.ai",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13725016285874487297/creative/CR05995319851776737281?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 57,
+      "longevity_badge": "super_scale",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 53,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1372",
+          "last_shown": "2026-10-10",
+          "duration_days": 57,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)"
+    },
+    {
+      "id": "AR02972152518844350465",
+      "name": "Bùi Chí Thành",
+      "legal_name": "Bùi Chí Thành",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02972152518844350465/creative/CR10661113971278348289?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 68,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 8,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0297",
+          "last_shown": "2026-10-10",
+          "duration_days": 68,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5670518580875352790"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR09646539084172099585",
+      "name": "Mirage Distribution SK, s.r.o.",
+      "legal_name": "Mirage Distribution SK, s.r.o.",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09646539084172099585/creative/CR02033369442141863937?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 79,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0964",
+          "last_shown": "2026-10-10",
+          "duration_days": 79,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6430071703024116399"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR01642265957776752641",
+      "name": "MIRA & ROSSI PRESTACAO DE SERVICOS LTDA",
+      "legal_name": "MIRA & ROSSI PRESTACAO DE SERVICOS LTDA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01642265957776752641/creative/CR06604875139572039681?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 90,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0164",
+          "last_shown": "2026-10-10",
+          "duration_days": 90,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1223529380312880781"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR17463692588698566657",
+      "name": "EZ Elizabeth Taxi LLC",
+      "legal_name": "EZ Elizabeth Taxi LLC",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17463692588698566657/creative/CR17963394853718982657?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 101,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1746",
+          "last_shown": "2026-10-10",
+          "duration_days": 101,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12999659295092295994"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR08455734146948399105",
+      "name": "ALOHA COMERCIO E CIA LTDA",
+      "legal_name": "ALOHA COMERCIO E CIA LTDA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08455734146948399105/creative/CR03009804126306435073?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 112,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0845",
+          "last_shown": "2026-10-10",
+          "duration_days": 112,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7138598258524624638"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR12860790087629144065",
+      "name": "MELIN LOPEZ LIZETH",
+      "legal_name": "MELIN LOPEZ LIZETH",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12860790087629144065/creative/CR11371247153943937025?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 123,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1286",
+          "last_shown": "2026-10-10",
+          "duration_days": 123,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10604195984848525877"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR14752329762512830465",
+      "name": "ارسان لتأجير السيارات",
+      "legal_name": "ارسان لتأجير السيارات",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14752329762512830465/creative/CR01986419221894004737?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 134,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1475",
+          "last_shown": "2026-10-10",
+          "duration_days": 134,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6613648107666846199"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR08076962535892320257",
+      "name": "Nereid Expeditions, LLC",
+      "legal_name": "Nereid Expeditions, LLC",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08076962535892320257/creative/CR16752182740165591041?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 145,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0807",
+          "last_shown": "2026-10-10",
+          "duration_days": 145,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12005364395157171803"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR09167952579185868801",
+      "name": "52.520.135 IZABELLA DA SILVA FARIA",
+      "legal_name": "52.520.135 IZABELLA DA SILVA FARIA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09167952579185868801/creative/CR12570617810734022657?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 156,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0916",
+          "last_shown": "2026-10-10",
+          "duration_days": 156,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7707856117779631615"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR14339966009643892737",
+      "name": "2S CLINICA ODONTOLOGICA LTDA ME",
+      "legal_name": "2S CLINICA ODONTOLOGICA LTDA ME",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14339966009643892737/creative/CR05734677837273628673?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 167,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1433",
+          "last_shown": "2026-10-10",
+          "duration_days": 167,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/681078823156226079"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR00455453604971544577",
+      "name": "TATIANA HERNANDES DE LIMA",
+      "legal_name": "TATIANA HERNANDES DE LIMA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00455453604971544577/creative/CR13893491205603328001?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 178,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0045",
+          "last_shown": "2026-10-10",
+          "duration_days": 178,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18004248544576683100"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR09449573928381972481",
+      "name": "VICTORIA BRAGA MAZZOCO",
+      "legal_name": "VICTORIA BRAGA MAZZOCO",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09449573928381972481/creative/CR03385504646767312897?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 189,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0944",
+          "last_shown": "2026-10-10",
+          "duration_days": 189,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR00917501161563488257",
+      "name": "GM CHOCOLATES & CIA LTDA",
+      "legal_name": "GM CHOCOLATES & CIA LTDA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00917501161563488257/creative/CR08977044538463879169?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 200,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0091",
+          "last_shown": "2026-10-10",
+          "duration_days": 200,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13279612587691038483"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR04255586654963630081",
+      "name": "Global Fasteners Sourcing",
+      "legal_name": "Global Fasteners Sourcing",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04255586654963630081/creative/CR17406760400598335489?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 211,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0425",
+          "last_shown": "2026-10-10",
+          "duration_days": 211,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8180887309828660675"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR16577067921256218625",
+      "name": "CHOW KIT KUALA LUMPUR MED 24JAM SDN. BHD",
+      "legal_name": "CHOW KIT KUALA LUMPUR MED 24JAM SDN. BHD",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16577067921256218625/creative/CR12707936633970753537?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 42,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1657",
+          "last_shown": "2026-10-10",
+          "duration_days": 42,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR13979538702125236225",
+      "name": "1005 PHOTOGRAPHY LLC",
+      "legal_name": "1005 PHOTOGRAPHY LLC",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13979538702125236225/creative/CR12669456510137401345?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 53,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_18",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1397",
+          "last_shown": "2026-10-10",
+          "duration_days": 53,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10353170939864786287"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR00174879944327823361",
+      "name": "1603 SE 3RD AVENUE LLC",
+      "legal_name": "1603 SE 3RD AVENUE LLC",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00174879944327823361/creative/CR11469629839489630209?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 64,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_19",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0017",
+          "last_shown": "2026-10-10",
+          "duration_days": 64,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12961447963193892610"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR16335267215316090881",
+      "name": "THE CHURCH OF NIL, INC.",
+      "legal_name": "THE CHURCH OF NIL, INC.",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16335267215316090881/creative/CR00947904994533703681?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 75,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_20",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1633",
+          "last_shown": "2026-10-10",
+          "duration_days": 75,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7745965405677726099"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR14015491194755219457",
+      "name": "T&C MANAGEMENT SERVICES, LLC",
+      "legal_name": "T&C MANAGEMENT SERVICES, LLC",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14015491194755219457/creative/CR00952913269998223361?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 86,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_21",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1401",
+          "last_shown": "2026-10-10",
+          "duration_days": 86,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13693050364868641485"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR15864423110435405825",
+      "name": "RODRIGO BARBOSA DE SOUZA",
+      "legal_name": "RODRIGO BARBOSA DE SOUZA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15864423110435405825/creative/CR08313840427627184129?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 97,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_22",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1586",
+          "last_shown": "2026-10-10",
+          "duration_days": 97,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4996271441162048328"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR12390751177447309313",
+      "name": "JULIA TORRES AMARO",
+      "legal_name": "JULIA TORRES AMARO",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12390751177447309313/creative/CR11447973970138103809?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 108,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_23",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1239",
+          "last_shown": "2026-10-10",
+          "duration_days": 108,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14320285623807759663"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR03309698053086117889",
+      "name": "PosMotor Services",
+      "legal_name": "PosMotor Services",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03309698053086117889/creative/CR16906909753047777281?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 119,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_24",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0330",
+          "last_shown": "2026-10-10",
+          "duration_days": 119,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17918584148933123954"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR18296447122024693761",
+      "name": "GR GRAFICA EXPRESSA LTDA ME",
+      "legal_name": "GR GRAFICA EXPRESSA LTDA ME",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18296447122024693761/creative/CR09018528313315950593?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 130,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_25",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1829",
+          "last_shown": "2026-10-10",
+          "duration_days": 130,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17963164339142706202"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR10334815410196578305",
+      "name": "HB MOBILIDADE ELETRICA LTDA",
+      "legal_name": "HB MOBILIDADE ELETRICA LTDA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10334815410196578305/creative/CR14121553891711516673?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 141,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_26",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1033",
+          "last_shown": "2026-10-10",
+          "duration_days": 141,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2667870577901535064"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR06133662964584022017",
+      "name": "Beacons.ai",
+      "legal_name": "Beacons.ai",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06133662964584022017/creative/CR00650893274277478401?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 152,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_27",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0613",
+          "last_shown": "2026-10-10",
+          "duration_days": 152,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR17279011614900617217",
+      "name": "Natural chef gluten frre",
+      "legal_name": "Natural chef gluten frre",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17279011614900617217/creative/CR03962654140026322945?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 163,
+      "longevity_badge": "test",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_28",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1727",
+          "last_shown": "2026-10-10",
+          "duration_days": 163,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR06197953161806741505",
+      "name": "DMYTRO TABALA",
+      "legal_name": "DMYTRO TABALA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06197953161806741505/creative/CR11430985819704262657?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 174,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_29",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0619",
+          "last_shown": "2026-10-10",
+          "duration_days": 174,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13350672211946789149"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR06723155721405333505",
+      "name": "NAMASTE HOME REALTY, LLC",
+      "legal_name": "NAMASTE HOME REALTY, LLC",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06723155721405333505/creative/CR15046561822884757505?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 185,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_30",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0672",
+          "last_shown": "2026-10-10",
+          "duration_days": 185,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/390411753176642414"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR12903972659485736961",
+      "name": "GD BRASIL SERVICOS E PECAS AUTOMOTIVAS LTDA",
+      "legal_name": "GD BRASIL SERVICOS E PECAS AUTOMOTIVAS LTDA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12903972659485736961/creative/CR10290948632869863425?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 196,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_31",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1290",
+          "last_shown": "2026-10-10",
+          "duration_days": 196,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10355794198087890251"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR10267099126151774209",
+      "name": "MARIA NINA MUNOZ SALAS",
+      "legal_name": "MARIA NINA MUNOZ SALAS",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10267099126151774209/creative/CR10338242613710159873?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 207,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_32",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1026",
+          "last_shown": "2026-10-10",
+          "duration_days": 207,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16691440135061751628"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR06571920242056888321",
+      "name": "GABRIELA BRAZ MARICATO 14690279764",
+      "legal_name": "GABRIELA BRAZ MARICATO 14690279764",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06571920242056888321/creative/CR14922424185559973889?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 38,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_33",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0657",
+          "last_shown": "2026-10-10",
+          "duration_days": 38,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5161853651224932771"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR17348841529661194241",
+      "name": "Tims Garage LLC",
+      "legal_name": "Tims Garage LLC",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17348841529661194241/creative/CR02232071328087670785?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 49,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_34",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1734",
+          "last_shown": "2026-10-10",
+          "duration_days": 49,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11439706255081366632"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR06259714731393679361",
+      "name": "JV MARKETING AND PROMOTION",
+      "legal_name": "JV MARKETING AND PROMOTION",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06259714731393679361/creative/CR01309735716976066561?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 60,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_35",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0625",
+          "last_shown": "2026-10-10",
+          "duration_days": 60,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11736163943526723279"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR05283098584860852225",
+      "name": "长沙蓝正信息技术有限公司",
+      "legal_name": "长沙蓝正信息技术有限公司",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05283098584860852225/creative/CR07162328737445314561?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 71,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_36",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0528",
+          "last_shown": "2026-10-10",
+          "duration_days": 71,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12079377941300494430"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR12839666158567161857",
+      "name": "MARIO GUEDES FILHO",
+      "legal_name": "MARIO GUEDES FILHO",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12839666158567161857/creative/CR18383208072744009729?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 82,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_37",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1283",
+          "last_shown": "2026-10-10",
+          "duration_days": 82,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5208026535562025385"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR16489416915874217985",
+      "name": "CONSTRUTORA TAURUS LTDA",
+      "legal_name": "CONSTRUTORA TAURUS LTDA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16489416915874217985/creative/CR05534613922708979713?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 93,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_38",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1648",
+          "last_shown": "2026-10-10",
+          "duration_days": 93,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3064166493248743992"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR00074246524120334337",
+      "name": "Pakamas YOEMUE",
+      "legal_name": "Pakamas YOEMUE",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00074246524120334337/creative/CR03436082490882654209?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 104,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 7,
+      "creatives": [
+        {
+          "id": "CR_SCR_39",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0007",
+          "last_shown": "2026-10-10",
+          "duration_days": 104,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR16474952780281282561",
+      "name": "luciana soares balbi",
+      "legal_name": "luciana soares balbi",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16474952780281282561/creative/CR17689005069808173057?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 115,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_40",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1647",
+          "last_shown": "2026-10-10",
+          "duration_days": 115,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/312828902416396840"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR16280711647369101313",
+      "name": "LUCAS EDUARDO SOUZA PALMEIRA",
+      "legal_name": "LUCAS EDUARDO SOUZA PALMEIRA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16280711647369101313/creative/CR10765847908432478209?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 126,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_41",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1628",
+          "last_shown": "2026-10-10",
+          "duration_days": 126,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13816480537283733576"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR14017210865300799489",
+      "name": "The Muscle Auto Spa",
+      "legal_name": "The Muscle Auto Spa",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14017210865300799489/creative/CR08700906144517849089?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 137,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_42",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1401",
+          "last_shown": "2026-10-10",
+          "duration_days": 137,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8911650198183100401"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR13080917237542420481",
+      "name": "PRATA GAS PACAJUS LTDA",
+      "legal_name": "PRATA GAS PACAJUS LTDA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13080917237542420481/creative/CR18034734647052599297?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 148,
+      "longevity_badge": "test",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_43",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1308",
+          "last_shown": "2026-10-10",
+          "duration_days": 148,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR09985281307971682305",
+      "name": "WILSON ROSSI MIRAMONTES",
+      "legal_name": "WILSON ROSSI MIRAMONTES",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09985281307971682305/creative/CR10792450386108088321?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 159,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_44",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0998",
+          "last_shown": "2026-10-10",
+          "duration_days": 159,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12581405813053895863"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR17725056673103478785",
+      "name": "TAINA TRINDADE BALEEIRO",
+      "legal_name": "TAINA TRINDADE BALEEIRO",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17725056673103478785/creative/CR17720233665348239361?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 170,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_45",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1772",
+          "last_shown": "2026-10-10",
+          "duration_days": 170,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1210706938956921569"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR13740283872409550849",
+      "name": "10150 BLUE SPRINGS COURT, LLC",
+      "legal_name": "10150 BLUE SPRINGS COURT, LLC",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13740283872409550849/creative/CR10059299262522458113?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 181,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_46",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1374",
+          "last_shown": "2026-10-10",
+          "duration_days": 181,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11993775871775566358"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR11559715928119705601",
+      "name": "NATHALIA JESUS RONCONI",
+      "legal_name": "NATHALIA JESUS RONCONI",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11559715928119705601/creative/CR06150778280409563137?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 192,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_47",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1155",
+          "last_shown": "2026-10-10",
+          "duration_days": 192,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4956436258785447578"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR16141050950264553473",
+      "name": "A 5 TECNOLOGIA E AUTOMACAO DE PESAGENS LTDA ME",
+      "legal_name": "A 5 TECNOLOGIA E AUTOMACAO DE PESAGENS LTDA ME",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16141050950264553473/creative/CR07184586211455926273?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 203,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_48",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1614",
+          "last_shown": "2026-10-10",
+          "duration_days": 203,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7795890291470027340"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR15252618823145095169",
+      "name": "شركة المركبة المثالية لتأجير السيارات",
+      "legal_name": "شركة المركبة المثالية لتأجير السيارات",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15252618823145095169/creative/CR02642674213084725249?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 214,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_49",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1525",
+          "last_shown": "2026-10-10",
+          "duration_days": 214,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR09499050534292684801",
+      "name": "MARCOS VINICIUS GOMES DE FRANCA",
+      "legal_name": "MARCOS VINICIUS GOMES DE FRANCA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09499050534292684801/creative/CR18063014661644615681?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 45,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_50",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0949",
+          "last_shown": "2026-10-10",
+          "duration_days": 45,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12088836315805404048"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR07190671510099460097",
+      "name": "Comercial Construmix",
+      "legal_name": "Comercial Construmix",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07190671510099460097/creative/CR15255359604985430017?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 56,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_51",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0719",
+          "last_shown": "2026-10-10",
+          "duration_days": 56,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4474979070097600032"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR08520700286124163073",
+      "name": "Alessandra Aparecida Migoto Carletti",
+      "legal_name": "Alessandra Aparecida Migoto Carletti",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08520700286124163073/creative/CR08679346619872706561?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 67,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_52",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0852",
+          "last_shown": "2026-10-10",
+          "duration_days": 67,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14650317539807086693"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR04800478607367471105",
+      "name": "BRUNO RONCAGLIO",
+      "legal_name": "BRUNO RONCAGLIO",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04800478607367471105/creative/CR11427127805201088513?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 78,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_53",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0480",
+          "last_shown": "2026-10-10",
+          "duration_days": 78,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8736077483139666247"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR08922175240335785985",
+      "name": "53.046.838 Rodrigo Zulatto Martins",
+      "legal_name": "53.046.838 Rodrigo Zulatto Martins",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08922175240335785985/creative/CR02712998014724603905?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 89,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_54",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0892",
+          "last_shown": "2026-10-10",
+          "duration_days": 89,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15614429172694920163"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR09611165441464467457",
+      "name": "DIONY CEZAR RABELO",
+      "legal_name": "DIONY CEZAR RABELO",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09611165441464467457/creative/CR04031209102335016961?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 100,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_55",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0961",
+          "last_shown": "2026-10-10",
+          "duration_days": 100,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/376729937062694481"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR04613527803483127809",
+      "name": "CROC-CENTRO DE RADIOLOGIA ODONTOLOGICA LTDA",
+      "legal_name": "CROC-CENTRO DE RADIOLOGIA ODONTOLOGICA LTDA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04613527803483127809/creative/CR03553877457943658497?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 111,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_56",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0461",
+          "last_shown": "2026-10-10",
+          "duration_days": 111,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17933724090634040060"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR02602898555316207617",
+      "name": "LOPES PEREIRA PRODUCOES E NOIVAS LTDA",
+      "legal_name": "LOPES PEREIRA PRODUCOES E NOIVAS LTDA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02602898555316207617/creative/CR06515428769140834305?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 122,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_57",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0260",
+          "last_shown": "2026-10-10",
+          "duration_days": 122,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15437853247544195711"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR07996366031473868801",
+      "name": "RIGONATO MATERIAIS ELETRICOS LTDA",
+      "legal_name": "RIGONATO MATERIAIS ELETRICOS LTDA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07996366031473868801/creative/CR01765723907937009665?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 133,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_58",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0799",
+          "last_shown": "2026-10-10",
+          "duration_days": 133,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11814150370296873604"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR06133662964584022017",
+      "name": "HARD MASTER INFORMATICA LTDA",
+      "legal_name": "HARD MASTER INFORMATICA LTDA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06133662964584022017/creative/CR03450805157737005057?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 144,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_59",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0613",
+          "last_shown": "2026-10-10",
+          "duration_days": 144,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2093039656304268602"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR09723499065550831617",
+      "name": "AUTO PECAS MONLEVADE LTDA",
+      "legal_name": "AUTO PECAS MONLEVADE LTDA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09723499065550831617/creative/CR12886862695189446657?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 155,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_60",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0972",
+          "last_shown": "2026-10-10",
+          "duration_days": 155,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13204437574838805010"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR03071099296804765697",
+      "name": "HSOU TECH LIMITED",
+      "legal_name": "HSOU TECH LIMITED",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03071099296804765697/creative/CR06741636347204730881?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 166,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_61",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0307",
+          "last_shown": "2026-10-10",
+          "duration_days": 166,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10370826198736234158"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR11342476860245147649",
+      "name": "Elizabeth Wadsworth Rada",
+      "legal_name": "Elizabeth Wadsworth Rada",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11342476860245147649/creative/CR05999611030911582209?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 177,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_62",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1134",
+          "last_shown": "2026-10-10",
+          "duration_days": 177,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11213307154431763477"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR14885739787553079297",
+      "name": "M.C.TUBULARES INDUSTRIA & COMERCIO LTDA",
+      "legal_name": "M.C.TUBULARES INDUSTRIA & COMERCIO LTDA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14885739787553079297/creative/CR00779224320101580801?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 188,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_63",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1488",
+          "last_shown": "2026-10-10",
+          "duration_days": 188,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/892850896182671008"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR15731428133854773249",
+      "name": "Mc business digital",
+      "legal_name": "Mc business digital",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15731428133854773249/creative/CR08323798395202306049?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 199,
+      "longevity_badge": "test",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_64",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1573",
+          "last_shown": "2026-10-10",
+          "duration_days": 199,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR00456708663134912513",
+      "name": "MUKTER HOSSAIN",
+      "legal_name": "MUKTER HOSSAIN",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00456708663134912513/creative/CR12823234343837106177?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 210,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_65",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0045",
+          "last_shown": "2026-10-10",
+          "duration_days": 210,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/593587470956333383"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR14951753692590637057",
+      "name": "NICOLE VARGAS MARCONDES PEREIRA",
+      "legal_name": "NICOLE VARGAS MARCONDES PEREIRA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14951753692590637057/creative/CR09719837562981318657?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 41,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_66",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1495",
+          "last_shown": "2026-10-10",
+          "duration_days": 41,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3154937801015371551"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR09770364348525445121",
+      "name": "KARINE AZEVEDO IMOVEIS LTDA",
+      "legal_name": "KARINE AZEVEDO IMOVEIS LTDA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09770364348525445121/creative/CR14030612503294115841?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 52,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_67",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0977",
+          "last_shown": "2026-10-10",
+          "duration_days": 52,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6349186504913098918"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR17042231648420102145",
+      "name": "NACIF & VEIGA SERVICOS MEDICOS DE ORTOPEDIA E TRAUMATOLOGIA LTDA",
+      "legal_name": "NACIF & VEIGA SERVICOS MEDICOS DE ORTOPEDIA E TRAUMATOLOGIA LTDA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17042231648420102145/creative/CR02379469554804850689?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 63,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_68",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1704",
+          "last_shown": "2026-10-10",
+          "duration_days": 63,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4163728786073145535"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR05825297764568793089",
+      "name": "DOUGLAS DE SOUZA TOME LTDA",
+      "legal_name": "DOUGLAS DE SOUZA TOME LTDA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05825297764568793089/creative/CR01960189487250145281?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 74,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_69",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0582",
+          "last_shown": "2026-10-10",
+          "duration_days": 74,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4172499289853410097"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR03848560026025197569",
+      "name": "PERFECTTA INSPECOES VEICULARES LTDA",
+      "legal_name": "PERFECTTA INSPECOES VEICULARES LTDA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03848560026025197569/creative/CR11647777798663176193?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 85,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_70",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0384",
+          "last_shown": "2026-10-10",
+          "duration_days": 85,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18015134144378888526"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR05910847895287889921",
+      "name": "LS wellness & spa inc",
+      "legal_name": "LS wellness & spa inc",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05910847895287889921/creative/CR13880927223671685121?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 96,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_71",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0591",
+          "last_shown": "2026-10-10",
+          "duration_days": 96,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11027052257510673466"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR04443117700339728385",
+      "name": "XTREME GLASS TINTING LLC",
+      "legal_name": "XTREME GLASS TINTING LLC",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04443117700339728385/creative/CR02555238093506478081?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 107,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_72",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0444",
+          "last_shown": "2026-10-10",
+          "duration_days": 107,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18017828281040397949"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR10433844256392085505",
+      "name": "POPO BRINQUEDOS E UTILIDADES LTDA",
+      "legal_name": "POPO BRINQUEDOS E UTILIDADES LTDA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10433844256392085505/creative/CR00170253680434479105?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 118,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_73",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1043",
+          "last_shown": "2026-10-10",
+          "duration_days": 118,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR10886216694775152641",
+      "name": "Mohd Suhaimi bin Sanusi",
+      "legal_name": "Mohd Suhaimi bin Sanusi",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10886216694775152641/creative/CR06365552646941573121?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 129,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_74",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1088",
+          "last_shown": "2026-10-10",
+          "duration_days": 129,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7852909105965792178"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR00742328283286208513",
+      "name": "CHAPA STICKER ADESIVOS EM GERAL LTDA.",
+      "legal_name": "CHAPA STICKER ADESIVOS EM GERAL LTDA.",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00742328283286208513/creative/CR01364404818088558593?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 140,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_75",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0074",
+          "last_shown": "2026-10-10",
+          "duration_days": 140,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3033911058180278391"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR16118041908516749313",
+      "name": "Torres Maldonado Francisco Enrique",
+      "legal_name": "Torres Maldonado Francisco Enrique",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16118041908516749313/creative/CR08303697845177810945?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 151,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_76",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1611",
+          "last_shown": "2026-10-10",
+          "duration_days": 151,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15477459551705057694"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR10517078325996814337",
+      "name": "NUCLEO ODONTOLOGICO DE CONGONHAS LTDA",
+      "legal_name": "NUCLEO ODONTOLOGICO DE CONGONHAS LTDA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10517078325996814337/creative/CR02224975595438080001?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 162,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_77",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1051",
+          "last_shown": "2026-10-10",
+          "duration_days": 162,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3478635979472263701"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR12473543028629307393",
+      "name": "PENELOPE MOREIRA LEAL",
+      "legal_name": "PENELOPE MOREIRA LEAL",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12473543028629307393/creative/CR06335808400688939009?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 173,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_78",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1247",
+          "last_shown": "2026-10-10",
+          "duration_days": 173,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3963630002659699627"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR00138471747077799937",
+      "name": "PAPER SET PAPELARIA, GRAFICA E ARTIGOS DE ESCRTORIO LTDA",
+      "legal_name": "PAPER SET PAPELARIA, GRAFICA E ARTIGOS DE ESCRTORIO LTDA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00138471747077799937/creative/CR14932234535109132289?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 184,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_79",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0013",
+          "last_shown": "2026-10-10",
+          "duration_days": 184,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14996063359333618949"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR16320952742153551873",
+      "name": "Alencar e Moreira LTDA",
+      "legal_name": "Alencar e Moreira LTDA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16320952742153551873/creative/CR18171457199979626497?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 195,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_80",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1632",
+          "last_shown": "2026-10-10",
+          "duration_days": 195,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14533216905159410418"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR11124365501692641281",
+      "name": "FARMACIA SIQUEIRA CAMPOS LTDA",
+      "legal_name": "FARMACIA SIQUEIRA CAMPOS LTDA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11124365501692641281/creative/CR17676117822868029441?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 206,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_81",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1112",
+          "last_shown": "2026-10-10",
+          "duration_days": 206,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14906649583172181255"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR10168243710735679489",
+      "name": "Mauricio Puerta Romero",
+      "legal_name": "Mauricio Puerta Romero",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10168243710735679489/creative/CR03913399970471870465?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 37,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_82",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar1016",
+          "last_shown": "2026-10-10",
+          "duration_days": 37,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14106295525810578980"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR04746253923700965377",
+      "name": "STATUS CELULARES",
+      "legal_name": "STATUS CELULARES",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04746253923700965377/creative/CR02581436337450123265?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 48,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_83",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Beacons.ai Official Offers & Deals",
+          "description": "Shop online at beacons.ai. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.beacons.ai/?ref=aff_ar0474",
+          "last_shown": "2026-10-10",
+          "duration_days": 48,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16264990407227108599"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    }
+  ],
+  "test_ads_count": 45
+}

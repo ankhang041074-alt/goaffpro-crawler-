@@ -1,0 +1,171 @@
+{
+  "domain": "distacart.com",
+  "updated_at": "2026-10-10T13:55:41.335441",
+  "total_advertisers": 5,
+  "total_ads": 200,
+  "super_scale_count": 1,
+  "win_ads_count": 3,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR09962935245965623297",
+      "name": "DISTACART INCĐã xác minh",
+      "legal_name": "DISTACART INCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09962935245965623297/creative/CR12646266366798594049?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 192,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 192,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: distacart.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho distacart.com",
+          "landing_page": "https://www.distacart.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 192,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10739387905737639421"
+        }
+      ]
+    },
+    {
+      "id": "AR06752056650829398017",
+      "name": "Lagoja - Marketing GmbHĐã xác minh",
+      "legal_name": "Lagoja - Marketing GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06752056650829398017/creative/CR17264599345332748289?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: distacart.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho distacart.com",
+          "landing_page": "https://www.distacart.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13019532509864638135"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR11589699945216606209?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: distacart.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho distacart.com",
+          "landing_page": "https://www.distacart.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15977567069871652335"
+        }
+      ]
+    },
+    {
+      "id": "AR01017445737736175617",
+      "name": "บริษัท เอส แอนด์ พี ซินดิเคท จำกัดĐã xác minh",
+      "legal_name": "บริษัท เอส แอนด์ พี ซินดิเคท จำกัดĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01017445737736175617/creative/CR15069712899201040385?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: distacart.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho distacart.com",
+          "landing_page": "https://www.distacart.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12588228302391366772"
+        }
+      ]
+    },
+    {
+      "id": "AR07036614915842375681",
+      "name": "SUNRISE DIGITAL MEDIAĐã xác minh",
+      "legal_name": "SUNRISE DIGITAL MEDIAĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07036614915842375681/creative/CR08211423298911731713?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: distacart.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho distacart.com",
+          "landing_page": "https://www.distacart.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6094339742004733578"
+        }
+      ]
+    }
+  ]
+}

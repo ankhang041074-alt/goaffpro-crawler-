@@ -1,0 +1,139 @@
+{
+  "domain": "terra-master.com",
+  "updated_at": "2026-10-10T14:02:15.161200",
+  "total_advertisers": 4,
+  "total_ads": 14,
+  "super_scale_count": 0,
+  "win_ads_count": 4,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR02068488393288843265",
+      "name": "深圳市图美电子技术有限公司Đã xác minh",
+      "legal_name": "深圳市图美电子技术有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02068488393288843265/creative/CR15924316042831069185?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 8,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 8,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: terra-master.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho terra-master.com",
+          "landing_page": "https://www.terra-master.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 8,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13087319160301752032"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR07068742267648868353?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: terra-master.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho terra-master.com",
+          "landing_page": "https://www.terra-master.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17899265348051006224"
+        }
+      ]
+    },
+    {
+      "id": "AR17524729640252342273",
+      "name": "IT GREEN PUBLIC COMPANY LIMITEDĐã xác minh",
+      "legal_name": "IT GREEN PUBLIC COMPANY LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17524729640252342273/creative/CR05720711213512392705?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: terra-master.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho terra-master.com",
+          "landing_page": "https://www.terra-master.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8529371444599685567"
+        }
+      ]
+    },
+    {
+      "id": "AR11869210412476006401",
+      "name": "Mai Thị Ngọc Bích",
+      "legal_name": "Mai Thị Ngọc Bích",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11869210412476006401/creative/CR00460260523779293185?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: terra-master.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho terra-master.com",
+          "landing_page": "https://www.terra-master.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13700772583556439052"
+        }
+      ]
+    }
+  ]
+}

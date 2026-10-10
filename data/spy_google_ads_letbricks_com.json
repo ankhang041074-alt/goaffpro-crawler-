@@ -1,0 +1,967 @@
+{
+  "domain": "letbricks.com",
+  "updated_at": "2026-10-10T11:55:00",
+  "total_advertisers": 30,
+  "total_ads": 80,
+  "win_ads_count": 29,
+  "super_scale_count": 1,
+  "evergreen_percent": 33,
+  "advertisers": [
+    {
+      "id": "AR18308272678819069953",
+      "name": "Mathias Kraft",
+      "legal_name": "Mathias Kraft",
+      "country": "Đức",
+      "country_flag": "🇩🇪",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18308272678819069953/creative/CR07382705940354564097?region=anywhere",
+      "first_seen": "2024-06-15",
+      "last_shown": "2026-10-09",
+      "duration_days": 845,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 8,
+      "creatives": [
+        {
+          "id": "CR_LET_0_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar1830",
+          "last_shown": "2026-10-09",
+          "duration_days": 845,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15178284697372063978"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR03305852734506270721",
+      "name": "AL FARIS AL ABYADH NEW AUTO SPARE PARTS TR. LLC",
+      "legal_name": "AL FARIS AL ABYADH NEW AUTO SPARE PARTS TR. LLC",
+      "country": "UAE",
+      "country_flag": "🇦🇪",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03305852734506270721/creative/CR06475962211578675201?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 60,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_1_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar0330",
+          "last_shown": "2026-10-09",
+          "duration_days": 60,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17348557301191703085"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR13188167132178808833",
+      "name": "ĐINH NGỌC VĂN",
+      "legal_name": "ĐINH NGỌC VĂN",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13188167132178808833/creative/CR00894489757583671297?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 53,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_2_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar1318",
+          "last_shown": "2026-10-09",
+          "duration_days": 53,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15098520375321742107"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR02405368293499076609",
+      "name": "Vu Thi Van Ha",
+      "legal_name": "Vu Thi Van Ha",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02405368293499076609/creative/CR06498481446666108929?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 62,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_3_1",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar0240",
+          "last_shown": "2026-10-09",
+          "duration_days": 62,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR11262975254659596289",
+      "name": "NGUYỄN THỊ THẮM",
+      "legal_name": "NGUYỄN THỊ THẮM",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11262975254659596289/creative/CR09727243074442100737?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 71,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_4_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar1126",
+          "last_shown": "2026-10-09",
+          "duration_days": 71,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16593396428528138612"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR16239088698396770305",
+      "name": "MarkSurge Marketing Minds Private Limited",
+      "legal_name": "MarkSurge Marketing Minds Private Limited",
+      "country": "Ấn Độ",
+      "country_flag": "🇮🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16239088698396770305/creative/CR02605735707632730113?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 120,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_5_1",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar1623",
+          "last_shown": "2026-10-09",
+          "duration_days": 120,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR09163902253227048961",
+      "name": "CÔNG TY TNHH MỘT THÀNH VIÊN THƯƠNG MẠI XUẤT NHẬP KHẨU DĨNH TRẦN",
+      "legal_name": "CÔNG TY TNHH MỘT THÀNH VIÊN THƯƠNG MẠI XUẤT NHẬP KHẨU DĨNH TRẦN",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09163902253227048961/creative/CR16876609042242338817?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 89,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_6_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar0916",
+          "last_shown": "2026-10-09",
+          "duration_days": 89,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16673464300941972496"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR01823531015235174401",
+      "name": "IBILAL.COM FOR INTERNET CONSULTANCY CO. L.L.C",
+      "legal_name": "IBILAL.COM FOR INTERNET CONSULTANCY CO. L.L.C",
+      "country": "UAE",
+      "country_flag": "🇦🇪",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01823531015235174401/creative/CR17521208041947529217?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 150,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_7_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar0182",
+          "last_shown": "2026-10-09",
+          "duration_days": 150,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3715431912231250321"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR08202166098200625153",
+      "name": "CÔNG TY TNHH CS MAILISA",
+      "legal_name": "CÔNG TY TNHH CS MAILISA",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08202166098200625153/creative/CR16516181159198064641?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 107,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_LET_8_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar0820",
+          "last_shown": "2026-10-09",
+          "duration_days": 107,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7844847108081488184"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR09500912282356416513",
+      "name": "TRẦN ĐÌNH VÕ",
+      "legal_name": "TRẦN ĐÌNH VÕ",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09500912282356416513/creative/CR02949950467091726337?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 116,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_LET_9_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar0950",
+          "last_shown": "2026-10-09",
+          "duration_days": 116,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17797448290393751971"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR03315484207257485313",
+      "name": "I-BERIA COMPANY",
+      "legal_name": "I-BERIA COMPANY",
+      "country": "Hoa Kỳ",
+      "country_flag": "🇺🇸",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03315484207257485313/creative/CR12840673835204214785?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 195,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_10_1",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar0331",
+          "last_shown": "2026-10-09",
+          "duration_days": 195,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR01441183766595764225",
+      "name": "Xun Meng International Limited",
+      "legal_name": "Xun Meng International Limited",
+      "country": "Hồng Kông",
+      "country_flag": "🇭🇰",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01441183766595764225/creative/CR05584292916068614145?region=anywhere",
+      "first_seen": "2024-06-15",
+      "last_shown": "2026-10-09",
+      "duration_days": 520,
+      "longevity_badge": "super_scale",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 10,
+      "creatives": [
+        {
+          "id": "CR_LET_11_1",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar0144",
+          "last_shown": "2026-10-09",
+          "duration_days": 520,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)"
+    },
+    {
+      "id": "AR03858991427845357569",
+      "name": "OCEAN SUNRISE LIMITED",
+      "legal_name": "OCEAN SUNRISE LIMITED",
+      "country": "Hồng Kông",
+      "country_flag": "🇭🇰",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03858991427845357569/creative/CR10377788129951088641?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 225,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_12_1",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar0385",
+          "last_shown": "2026-10-09",
+          "duration_days": 225,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR14567350391567024129",
+      "name": "HongKong AdTiger Media Co., Limited",
+      "legal_name": "HongKong AdTiger Media Co., Limited",
+      "country": "Hồng Kông",
+      "country_flag": "🇭🇰",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14567350391567024129/creative/CR17005930370085945345?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 240,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_13_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar1456",
+          "last_shown": "2026-10-09",
+          "duration_days": 240,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15784557935700303020"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR04763704367234678785",
+      "name": "A Beautiful Life, LLC",
+      "legal_name": "A Beautiful Life, LLC",
+      "country": "UAE",
+      "country_flag": "🇦🇪",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04763704367234678785/creative/CR16126569007737208833?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 55,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_14_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar0476",
+          "last_shown": "2026-10-09",
+          "duration_days": 55,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17686175378850850710"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR06899040335893102593",
+      "name": "Trần Đức Mĩ",
+      "legal_name": "Trần Đức Mĩ",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06899040335893102593/creative/CR06896026574521368577?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 170,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_15_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar0689",
+          "last_shown": "2026-10-09",
+          "duration_days": 170,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8997819044944197162"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR06959308279063248897",
+      "name": "DS MART TRADING LIMITED",
+      "legal_name": "DS MART TRADING LIMITED",
+      "country": "Hồng Kông",
+      "country_flag": "🇭🇰",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06959308279063248897/creative/CR12535816575497797633?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 85,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_16_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar0695",
+          "last_shown": "2026-10-09",
+          "duration_days": 85,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17494547973433872825"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR15567082541713195009",
+      "name": "ILONA MOISEJEVA",
+      "legal_name": "ILONA MOISEJEVA",
+      "country": "Hoa Kỳ",
+      "country_flag": "🇺🇸",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15567082541713195009/creative/CR12832477182177574913?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 100,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_17_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar1556",
+          "last_shown": "2026-10-09",
+          "duration_days": 100,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4344878665430339460"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR11632282175134498817",
+      "name": "TRẦN ĐỨC MĨ",
+      "legal_name": "TRẦN ĐỨC MĨ",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11632282175134498817/creative/CR04826309734686523393?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 197,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_18_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar1163",
+          "last_shown": "2026-10-09",
+          "duration_days": 197,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6417186383403924333"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR15850770749431218177",
+      "name": "Noman Bhatti",
+      "legal_name": "Noman Bhatti",
+      "country": "Hoa Kỳ",
+      "country_flag": "🇺🇸",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15850770749431218177/creative/CR09709350275046703105?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 130,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_19_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar1585",
+          "last_shown": "2026-10-09",
+          "duration_days": 130,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11271126564124321963"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR04519205554249269249",
+      "name": "VŨ QUANG LỢI",
+      "legal_name": "VŨ QUANG LỢI",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04519205554249269249/creative/CR01451849862608846849?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 35,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_20_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar0451",
+          "last_shown": "2026-10-09",
+          "duration_days": 35,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11764681443470906044"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR16480343677202333697",
+      "name": "Shelea Kirksey",
+      "legal_name": "Shelea Kirksey",
+      "country": "Hoa Kỳ",
+      "country_flag": "🇺🇸",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16480343677202333697/creative/CR16783794455378395137?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 160,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_21_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar1648",
+          "last_shown": "2026-10-09",
+          "duration_days": 160,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8440966659298476924"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR13875598955963744257",
+      "name": "TRẦN THỊ HOÀI CHÂU",
+      "legal_name": "TRẦN THỊ HOÀI CHÂU",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13875598955963744257/creative/CR17758076519114080257?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 53,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_22_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar1387",
+          "last_shown": "2026-10-09",
+          "duration_days": 53,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6806171861585368889"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR14714308195157803009",
+      "name": "K&K ADVERTISING LTD",
+      "legal_name": "K&K ADVERTISING LTD",
+      "country": "Hoa Kỳ",
+      "country_flag": "🇺🇸",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14714308195157803009/creative/CR03027610004153696257?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 190,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_23_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar1471",
+          "last_shown": "2026-10-09",
+          "duration_days": 190,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9227078063946862185"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR01647007240894283777",
+      "name": "HỘ KINH DOANH BẢO BẢO",
+      "legal_name": "HỘ KINH DOANH BẢO BẢO",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01647007240894283777/creative/CR03457071824259514369?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 71,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_24_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar0164",
+          "last_shown": "2026-10-09",
+          "duration_days": 71,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2948187143388976374"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR15357413645755613185",
+      "name": "Công ty cổ phần bất động sản Lima Việt Nam",
+      "legal_name": "Công ty cổ phần bất động sản Lima Việt Nam",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15357413645755613185/creative/CR00042584617919709185?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 80,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_25_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar1535",
+          "last_shown": "2026-10-09",
+          "duration_days": 80,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/187387954649326071"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR07204433341230088193",
+      "name": "CÔNG TY CỔ PHẦN AMECC GT",
+      "legal_name": "CÔNG TY CỔ PHẦN AMECC GT",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07204433341230088193/creative/CR03028748660113408001?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 89,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_26_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar0720",
+          "last_shown": "2026-10-09",
+          "duration_days": 89,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1068585296604103499"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR12698175384487723009",
+      "name": "Nguyễn Thị Tâm",
+      "legal_name": "Nguyễn Thị Tâm",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12698175384487723009/creative/CR15184596411011301377?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 98,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_27_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar1269",
+          "last_shown": "2026-10-09",
+          "duration_days": 98,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11459506604875789584"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR17422444452932222977",
+      "name": "Công ty TNHH Lộc Fast Logistics",
+      "legal_name": "Công ty TNHH Lộc Fast Logistics",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17422444452932222977/creative/CR10314150226591481857?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 107,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_28_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar1742",
+          "last_shown": "2026-10-09",
+          "duration_days": 107,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12793659931677465606"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR02399566256538648577",
+      "name": "Hộ Kinh Doanh Tạp Hóa",
+      "legal_name": "Hộ Kinh Doanh Tạp Hóa",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02399566256538648577/creative/CR15675078377679618049?region=anywhere",
+      "first_seen": "2026-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 116,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_LET_29_1",
+          "format": "image",
+          "format_label": "Google Shopping / Banner",
+          "headline": "Letbricks MOC Brick Sets - Custom Lego Architecture & Vehicles",
+          "description": "Discover high quality custom bricks and modular buildings. 100% compatible with major brands. Worldwide Free Shipping.",
+          "landing_page": "https://www.letbricks.com/?ref=aff_ar0239",
+          "last_shown": "2026-10-09",
+          "duration_days": 116,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3604297732654239844"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    }
+  ],
+  "test_ads_count": 0
+}

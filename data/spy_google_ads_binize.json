@@ -1,0 +1,506 @@
+{
+  "domain": "binize.com",
+  "updated_at": "2026-10-10T11:45:00",
+  "total_advertisers": 16,
+  "total_ads": 58,
+  "win_ads_count": 15,
+  "super_scale_count": 1,
+  "evergreen_percent": 62,
+  "advertisers": [
+    {
+      "id": "AR14413605680655106049",
+      "name": "TKTX (CGY HONG KONG INFO TECH CO.)",
+      "legal_name": "CGY (HONG KONG) INFORMATION TECHNOLOGY CO., LIMITED",
+      "country": "Hồng Kông",
+      "country_flag": "🇭🇰",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14413605680655106049?region=anywhere",
+      "first_seen": "2024-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 912,
+      "longevity_badge": "super_scale",
+      "formats": [
+        "search",
+        "video",
+        "image"
+      ],
+      "ad_count": 26,
+      "creatives": [
+        {
+          "id": "CR04213764204760399873",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Binize 10.26'' Portable Dash Cam & Wireless Carplay Screen",
+          "description": "Install on any vehicle dashboard in 3 minutes. 4K Front Cam + 1080P Backup Cam. Bluetooth Audio to Car Stereo.",
+          "landing_page": "https://www.binize.com/collections/portable-carplay-screen",
+          "last_shown": "2026-10-09",
+          "duration_days": 912
+        },
+        {
+          "id": "CR12035913280238125057",
+          "format": "video",
+          "format_label": "YouTube Video Ads",
+          "headline": "Binize Wireless Adapter Review: Best CarPlay Dongle 2026",
+          "description": "Watch full installation and latency test in under 60 seconds. Super smooth 60fps.",
+          "landing_page": "https://www.binize.com/products/carplay-wireless-adapter",
+          "last_shown": "2026-10-08",
+          "duration_days": 540
+        }
+      ],
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)"
+    },
+    {
+      "id": "AR17659288182497214465",
+      "name": "Rakuten Group, Inc.",
+      "legal_name": "Rakuten Group, Inc.",
+      "country": "Hoa Kỳ / Nhật Bản",
+      "country_flag": "🇺🇸",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17659288182497214465?region=anywhere",
+      "first_seen": "2024-08-01",
+      "last_shown": "2026-10-09",
+      "duration_days": 801,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR06160056818518196225",
+          "format": "search",
+          "format_label": "Google Search Cash Back",
+          "headline": "Binize Coupons & Promo Codes | Earn 5% Cash Back at Rakuten",
+          "description": "Shop Binize Car Audio & Wireless CarPlay Adapters. Join Rakuten Today and Get a $10 Welcome Bonus.",
+          "landing_page": "https://www.rakuten.com/binize.com",
+          "last_shown": "2026-10-09",
+          "duration_days": 801
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR00515522673976016897",
+      "name": "Marksurge Marketing Minds Private Limited",
+      "legal_name": "Marksurge Marketing Minds Private Limited",
+      "country": "Ấn Độ",
+      "country_flag": "🇮🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00515522673976016897?region=anywhere",
+      "first_seen": "2025-05-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 518,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "image",
+        "search"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR11331243381872394241",
+          "format": "image",
+          "format_label": "Google Display Banner",
+          "headline": "Binize Official Multimedia Video Box - Plug & Play",
+          "description": "Turn your factory wired CarPlay screen into full Android tablet. Support Netflix, YouTube & wireless mirroring.",
+          "landing_page": "https://www.binize.com/products/wireless-carplay-android-auto-multimedia-video-box",
+          "last_shown": "2026-10-09",
+          "duration_days": 518
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR01729415044690608129",
+      "name": "BÙI THỊ HÒA",
+      "legal_name": "BÙI THỊ HÒA",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01729415044690608129?region=anywhere",
+      "first_seen": "2026-08-18",
+      "last_shown": "2026-10-09",
+      "duration_days": 53,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR04406590309157306369",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Binize Wireless CarPlay Adapter | Best Deals 2026 | Free Shipping",
+          "description": "Converts Wired to Wireless in Seconds. Compatible with 98% Car Models. Plug & Play, No Lag. Order Online Today for Big Discounts!",
+          "landing_page": "https://www.binize.com/?ref=aff_hoabui",
+          "last_shown": "2026-10-09",
+          "duration_days": 53
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR14451554001637867521",
+      "name": "CÔNG TY TNHH ADSDIGI",
+      "legal_name": "CÔNG TY TNHH ADSDIGI",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14451554001637867521?region=anywhere",
+      "first_seen": "2026-06-25",
+      "last_shown": "2026-10-09",
+      "duration_days": 107,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR02296746070912270337",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Binize Official Wireless Carplay Box - Free Worldwide Shipping",
+          "description": "Transform your wired screen into wireless android auto system. High speed Wi-Fi 5G. 100% money back guarantee.",
+          "landing_page": "https://www.binize.com/?ref=adsdigi_agency",
+          "last_shown": "2026-10-09",
+          "duration_days": 107
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. Khang",
+      "legal_name": "Phong Y. Khang",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345?region=anywhere",
+      "first_seen": "2026-07-10",
+      "last_shown": "2026-10-08",
+      "duration_days": 91,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR17330042371907256321",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Binize Android Box Sale - Up to 30% Off Best Seller",
+          "description": "Convert factory wired CarPlay to wireless. Watch movies, GPS maps & games easily. Fast delivery.",
+          "landing_page": "https://www.binize.com/?ref=khang_aff",
+          "last_shown": "2026-10-08",
+          "duration_days": 91
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR09128139331863576577",
+      "name": "ISAAC JAMES RICO",
+      "legal_name": "ISAAC JAMES RICO",
+      "country": "Hoa Kỳ",
+      "country_flag": "🇺🇸",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09128139331863576577?region=anywhere",
+      "first_seen": "2025-11-01",
+      "last_shown": "2026-10-09",
+      "duration_days": 343,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR03996893524820754433",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Wireless CarPlay Adapters by Binize - US Stock & Warranty",
+          "description": "High performance audio, zero stutter. Compatible with Ford, Honda, Toyota, Chevy, Audi and more.",
+          "landing_page": "https://www.binize.com/?ref=rico_media",
+          "last_shown": "2026-10-09",
+          "duration_days": 343
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR15357672967291011073",
+      "name": "MOON JUISE LLC",
+      "legal_name": "MOON JUISE LLC",
+      "country": "Hoa Kỳ",
+      "country_flag": "🇺🇸",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15357672967291011073?region=anywhere",
+      "first_seen": "2026-03-15",
+      "last_shown": "2026-10-08",
+      "duration_days": 208,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR01159900319656706049",
+          "format": "search",
+          "format_label": "Google Search Shopping",
+          "headline": "Binize In-Car Multimedia Dashboard Systems - Official Deals",
+          "description": "Portable 10.26 Inch Android Screen with built-in Apple CarPlay & Android Auto.",
+          "landing_page": "https://www.binize.com/products/portable-carplay-screen",
+          "last_shown": "2026-10-08",
+          "duration_days": 208
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR10625315315786973185",
+      "name": "AGENCY LTD",
+      "legal_name": "AGENCY LTD",
+      "country": "Vương Quốc Anh",
+      "country_flag": "🇬🇧",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10625315315786973185?region=anywhere",
+      "first_seen": "2026-08-01",
+      "last_shown": "2026-10-09",
+      "duration_days": 70,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR17163693933436338177",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Binize Wireless CarPlay Dongle UK - Free Express Shipping",
+          "description": "Get rid of cables in your car now. Rated 4.9/5 by over 10,000 UK drivers.",
+          "landing_page": "https://www.binize.com/?ref=agency_uk",
+          "last_shown": "2026-10-09",
+          "duration_days": 70
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR07675194828119867393",
+      "name": "IT Solutions FZCO",
+      "legal_name": "IT Solutions FZCO",
+      "country": "Các Tiểu vương quốc Ả Rập",
+      "country_flag": "🇦🇪",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07675194828119867393?region=anywhere",
+      "first_seen": "2026-05-18",
+      "last_shown": "2026-10-08",
+      "duration_days": 144,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR06490072450456354817",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Binize Wireless Adapter Middle East - Best Carplay Box",
+          "description": "Works with high heat resistance up to 60C. Full Arabic & English support.",
+          "landing_page": "https://www.binize.com/?ref=itsolutions_dubai",
+          "last_shown": "2026-10-08",
+          "duration_days": 144
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR02471262454848421889",
+      "name": "MAGIC MEDIA CONSULTANCY CO. L.L.C",
+      "legal_name": "MAGIC MEDIA CONSULTANCY CO. L.L.C",
+      "country": "Các Tiểu vương quốc Ả Rập",
+      "country_flag": "🇦🇪",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02471262454848421889?region=anywhere",
+      "first_seen": "2026-06-01",
+      "last_shown": "2026-10-07",
+      "duration_days": 129,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR16710942026102734849",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Binize Auto Adapter Deals - Best Automotive Accessories",
+          "description": "Exclusive discounts online. Fast delivery. Shop online.",
+          "landing_page": "https://www.binize.com/?ref=magicmedia",
+          "last_shown": "2026-10-07",
+          "duration_days": 129
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR01823531015235174401",
+      "name": "IBILAL.COM FOR INTERNET CONSULTANCY",
+      "legal_name": "IBILAL.COM FOR INTERNET CONSULTANCY CO. L.L.C",
+      "country": "Các Tiểu vương quốc Ả Rập",
+      "country_flag": "🇦🇪",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01823531015235174401?region=anywhere",
+      "first_seen": "2026-08-10",
+      "last_shown": "2026-10-08",
+      "duration_days": 60,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR09060793420028575745",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Binize Wireless CarPlay - Official Global Store",
+          "description": "Safe checkout with warranty. Free shipping.",
+          "landing_page": "https://www.binize.com/?ref=ibilal",
+          "last_shown": "2026-10-08",
+          "duration_days": 60
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR08642512421996462081",
+      "name": "EMLAKH AHMAD PARKING CAR WASHING",
+      "legal_name": "EMLAKH AHMAD PARKING CAR WASHING L.L.C",
+      "country": "Các Tiểu vương quốc Ả Rập",
+      "country_flag": "🇦🇪",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08642512421996462081?region=anywhere",
+      "first_seen": "2026-09-01",
+      "last_shown": "2026-10-09",
+      "duration_days": 39,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR18018981007658582017",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Binize In-Car Multimedia - Plug & Play",
+          "description": "Convert screen to wireless carplay in minutes.",
+          "landing_page": "https://www.binize.com/?ref=emlakh",
+          "last_shown": "2026-10-09",
+          "duration_days": 39
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR01414869343786762241",
+      "name": "FATIMA TECHNOLOGIES (PRIVATE) LIMITED",
+      "legal_name": "FATIMA TECHNOLOGIES (PRIVATE) LIMITED",
+      "country": "Pakistan",
+      "country_flag": "🇵🇰",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01414869343786762241?region=anywhere",
+      "first_seen": "2026-09-12",
+      "last_shown": "2026-10-08",
+      "duration_days": 27,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR10054518311086981121",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Binize Smart CarPlay Dongle - Shop Today",
+          "description": "Connect instantly via Bluetooth. High speed 5.8GHz connection.",
+          "landing_page": "https://www.binize.com/?ref=fatima_tech",
+          "last_shown": "2026-10-08",
+          "duration_days": 27
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR12362376201128378369",
+      "name": "Muhammad Nouman",
+      "legal_name": "Muhammad Nouman",
+      "country": "Pakistan",
+      "country_flag": "🇵🇰",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12362376201128378369?region=anywhere",
+      "first_seen": "2026-09-18",
+      "last_shown": "2026-10-08",
+      "duration_days": 21,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR01462208919999873025",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Binize Magic Box - Watch Netflix in Any Car",
+          "description": "Full Android multimedia system for factory wired CarPlay screens.",
+          "landing_page": "https://www.binize.com/?ref=nouman_aff",
+          "last_shown": "2026-10-08",
+          "duration_days": 21
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR13009812670977671169",
+      "name": "Madiha Rubab",
+      "legal_name": "Madiha Rubab",
+      "country": "Pakistan",
+      "country_flag": "🇵🇰",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13009812670977671169?region=anywhere",
+      "first_seen": "2026-09-25",
+      "last_shown": "2026-10-09",
+      "duration_days": 15,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR01629663089211211777",
+          "format": "search",
+          "format_label": "Google Search Text",
+          "headline": "Binize CarPlay Box 2026 - Best Holiday Deals",
+          "description": "Order today for fast worldwide shipping and 1-year replacement warranty.",
+          "landing_page": "https://www.binize.com/?ref=madiha_media",
+          "last_shown": "2026-10-09",
+          "duration_days": 15
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    }
+  ],
+  "test_ads_count": 0
+}

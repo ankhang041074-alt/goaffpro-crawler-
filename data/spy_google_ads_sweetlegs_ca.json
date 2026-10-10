@@ -1,0 +1,107 @@
+{
+  "domain": "sweetlegs.ca",
+  "updated_at": "2026-10-10T12:24:59.722184",
+  "total_advertisers": 3,
+  "total_ads": 80,
+  "win_ads_count": 1,
+  "super_scale_count": 2,
+  "evergreen_percent": 0,
+  "advertisers": [
+    {
+      "id": "AR12978626114577498113",
+      "name": "SweetLegs Clothing Inc",
+      "legal_name": "SweetLegs Clothing Inc",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12978626114577498113/creative/CR05894476553697361921?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 35,
+      "longevity_badge": "super_scale",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 56,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Sweetlegs.ca Official Offers & Deals",
+          "description": "Shop online at sweetlegs.ca. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.sweetlegs.ca/?ref=aff_ar1297",
+          "last_shown": "2026-10-10",
+          "duration_days": 35,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11790381055556812846"
+        }
+      ],
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)"
+    },
+    {
+      "id": "AR12978626114577498113",
+      "name": "Sweetlegs.ca",
+      "legal_name": "Sweetlegs.ca",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12978626114577498113/creative/CR09496986613528395777?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 46,
+      "longevity_badge": "super_scale",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 20,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Sweetlegs.ca Official Offers & Deals",
+          "description": "Shop online at sweetlegs.ca. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.sweetlegs.ca/?ref=aff_ar1297",
+          "last_shown": "2026-10-10",
+          "duration_days": 46,
+          "image_url": "https://i.ytimg.com/vi/RWa130R3Ifo/hqdefault.jpg"
+        }
+      ],
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)"
+    },
+    {
+      "id": "AR12978626114577498113",
+      "name": "Sweetlegs.ca",
+      "legal_name": "Sweetlegs.ca",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12978626114577498113/creative/CR16063278026065969153?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 57,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Sweetlegs.ca Official Offers & Deals",
+          "description": "Shop online at sweetlegs.ca. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.sweetlegs.ca/?ref=aff_ar1297",
+          "last_shown": "2026-10-10",
+          "duration_days": 57,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    }
+  ],
+  "test_ads_count": 0
+}

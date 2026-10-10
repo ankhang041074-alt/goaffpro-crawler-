@@ -1,0 +1,43 @@
+{
+  "domain": "oxoaustralia.com.au",
+  "updated_at": "2026-10-10T14:43:27.122274",
+  "total_advertisers": 1,
+  "total_ads": 50,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR13042404214259580929",
+      "name": "Sheldon and HammondĐã xác minh",
+      "legal_name": "Sheldon and HammondĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13042404214259580929/creative/CR13079481919601639425?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 50,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 50,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: oxoaustralia.com.au",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho oxoaustralia.com.au",
+          "landing_page": "https://www.oxoaustralia.com.au",
+          "last_shown": "2026-10-10",
+          "duration_days": 50,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5509898986859440931"
+        }
+      ]
+    }
+  ]
+}

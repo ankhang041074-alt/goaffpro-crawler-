@@ -1,0 +1,43 @@
+{
+  "domain": "ficheben.com",
+  "updated_at": "2026-10-10T14:52:20.940805",
+  "total_advertisers": 1,
+  "total_ads": 1,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR06646084972820037633",
+      "name": "NGUYỄN NGỌC TUYỀNĐã xác minh",
+      "legal_name": "NGUYỄN NGỌC TUYỀNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06646084972820037633/creative/CR09582130388801683457?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ficheben.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ficheben.com",
+          "landing_page": "https://www.ficheben.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11042580753560191531"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "domain": "nvx.com",
+  "updated_at": "2026-10-10T14:22:12.442606",
+  "total_advertisers": 1,
+  "total_ads": 10,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR10048338961249599489",
+      "name": "111x7 Trading LLCĐã xác minh",
+      "legal_name": "111x7 Trading LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10048338961249599489/creative/CR15519927649093812225?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 10,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 10,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: nvx.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho nvx.com",
+          "landing_page": "https://www.nvx.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 10,
+          "image_url": null
+        }
+      ]
+    }
+  ]
+}

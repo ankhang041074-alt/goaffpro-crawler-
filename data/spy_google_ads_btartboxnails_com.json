@@ -1,0 +1,618 @@
+{
+  "domain": "btartboxnails.com",
+  "updated_at": "2026-10-10T14:04:34.374555",
+  "total_advertisers": 19,
+  "total_ads": 43,
+  "super_scale_count": 1,
+  "win_ads_count": 2,
+  "test_ads_count": 16,
+  "advertisers": [
+    {
+      "id": "AR03569765727382536193",
+      "name": "广州偶得电子商务有限公司Đã xác minh",
+      "legal_name": "广州偶得电子商务有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03569765727382536193/creative/CR08140745901204307969?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 14,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 14,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: btartboxnails.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho btartboxnails.com",
+          "landing_page": "https://www.btartboxnails.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 14,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15931207211302905554"
+        }
+      ]
+    },
+    {
+      "id": "AR08819238884433985537",
+      "name": "PHẠM SƠNĐã xác minh",
+      "legal_name": "PHẠM SƠNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08819238884433985537/creative/CR04242551970386149377?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: btartboxnails.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho btartboxnails.com",
+          "landing_page": "https://www.btartboxnails.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13346318315327362212"
+        }
+      ]
+    },
+    {
+      "id": "AR16518039265129529345",
+      "name": "襄阳市樊城区禹荃慧百货行Đã xác minh",
+      "legal_name": "襄阳市樊城区禹荃慧百货行Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16518039265129529345/creative/CR03958548838486114305?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: btartboxnails.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho btartboxnails.com",
+          "landing_page": "https://www.btartboxnails.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8374870186007083213"
+        }
+      ]
+    },
+    {
+      "id": "AR02347411472230907905",
+      "name": "Nabila IrumĐã xác minh",
+      "legal_name": "Nabila IrumĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02347411472230907905/creative/CR08928117095661568001?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: btartboxnails.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho btartboxnails.com",
+          "landing_page": "https://www.btartboxnails.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR00420941025897349121",
+      "name": "HỘ KINH DOANH NGUYỄN THANH VƯƠNGĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN THANH VƯƠNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00420941025897349121/creative/CR06545877475929358337?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: btartboxnails.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho btartboxnails.com",
+          "landing_page": "https://www.btartboxnails.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4391176092183118243"
+        }
+      ]
+    },
+    {
+      "id": "AR15863532213959131137",
+      "name": "Adcore East LimitedĐã xác minh",
+      "legal_name": "Adcore East LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15863532213959131137/creative/CR05900827745176256513?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: btartboxnails.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho btartboxnails.com",
+          "landing_page": "https://www.btartboxnails.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1529643683287287310"
+        }
+      ]
+    },
+    {
+      "id": "AR15119281005095026689",
+      "name": "Shanjun XuĐã xác minh",
+      "legal_name": "Shanjun XuĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15119281005095026689/creative/CR04055646023140245505?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 6,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: btartboxnails.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho btartboxnails.com",
+          "landing_page": "https://www.btartboxnails.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 6,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9079461090762698329"
+        }
+      ]
+    },
+    {
+      "id": "AR06640749188919328769",
+      "name": "Willing Media Co., LimitedĐã xác minh",
+      "legal_name": "Willing Media Co., LimitedĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06640749188919328769/creative/CR02989742617534660609?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: btartboxnails.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho btartboxnails.com",
+          "landing_page": "https://www.btartboxnails.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15733545948684495604"
+        }
+      ]
+    },
+    {
+      "id": "AR08383409895570931713",
+      "name": "VI THỊ HƯỜNGĐã xác minh",
+      "legal_name": "VI THỊ HƯỜNGĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08383409895570931713/creative/CR02060924466254315521?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: btartboxnails.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho btartboxnails.com",
+          "landing_page": "https://www.btartboxnails.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18065531620667119382"
+        }
+      ]
+    },
+    {
+      "id": "AR01441183766595764225",
+      "name": "Xun Meng International LimitedĐã xác minh",
+      "legal_name": "Xun Meng International LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01441183766595764225/creative/CR13122546354087788545?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: btartboxnails.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho btartboxnails.com",
+          "landing_page": "https://www.btartboxnails.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8099447699768403917"
+        }
+      ]
+    },
+    {
+      "id": "AR14714871694867038209",
+      "name": "Cai QingkeĐã xác minh",
+      "legal_name": "Cai QingkeĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14714871694867038209/creative/CR05315077287849230337?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 7,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 7,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: btartboxnails.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho btartboxnails.com",
+          "landing_page": "https://www.btartboxnails.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 7,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/252549339072230872"
+        }
+      ]
+    },
+    {
+      "id": "AR05823991330006630401",
+      "name": "LegalZoomĐã xác minh",
+      "legal_name": "LegalZoomĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05823991330006630401/creative/CR11990911669472591873?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: btartboxnails.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho btartboxnails.com",
+          "landing_page": "https://www.btartboxnails.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11601252991454924057"
+        }
+      ]
+    },
+    {
+      "id": "AR09656087732773978113",
+      "name": "Ngô Thị OanhĐã xác minh",
+      "legal_name": "Ngô Thị OanhĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09656087732773978113/creative/CR09462349385913335809?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: btartboxnails.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho btartboxnails.com",
+          "landing_page": "https://www.btartboxnails.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5754226783784682642"
+        }
+      ]
+    },
+    {
+      "id": "AR11560632225032568833",
+      "name": "Hộ Kinh Doanh Bếp MộcĐã xác minh",
+      "legal_name": "Hộ Kinh Doanh Bếp MộcĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11560632225032568833/creative/CR13915686488487493633?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: btartboxnails.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho btartboxnails.com",
+          "landing_page": "https://www.btartboxnails.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3930338056651998180"
+        }
+      ]
+    },
+    {
+      "id": "AR10236191828525187073",
+      "name": "Công ty Cổ phần Thương mại & Dịch vụ Phát triển Đại Hưng ThịnhĐã xác minh",
+      "legal_name": "Công ty Cổ phần Thương mại & Dịch vụ Phát triển Đại Hưng ThịnhĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10236191828525187073/creative/CR00901083022009303041?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: btartboxnails.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho btartboxnails.com",
+          "landing_page": "https://www.btartboxnails.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16290590177613611430"
+        }
+      ]
+    },
+    {
+      "id": "AR01952430285232537601",
+      "name": "Iplayable LimitedĐã xác minh",
+      "legal_name": "Iplayable LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01952430285232537601/creative/CR05778599091965526017?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: btartboxnails.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho btartboxnails.com",
+          "landing_page": "https://www.btartboxnails.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10311883842325661824"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR10773830225411178497?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: btartboxnails.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho btartboxnails.com",
+          "landing_page": "https://www.btartboxnails.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16836615088307010816"
+        }
+      ]
+    },
+    {
+      "id": "AR14241161833187639297",
+      "name": "NGÔ VĂN XÒEĐã xác minh",
+      "legal_name": "NGÔ VĂN XÒEĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14241161833187639297/creative/CR09399920627516702721?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: btartboxnails.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho btartboxnails.com",
+          "landing_page": "https://www.btartboxnails.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/526452700911829584"
+        }
+      ]
+    },
+    {
+      "id": "AR07675194828119867393",
+      "name": "IT Solutions FZCOĐã xác minh",
+      "legal_name": "IT Solutions FZCOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07675194828119867393/creative/CR15917384901918195713?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_18",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: btartboxnails.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho btartboxnails.com",
+          "landing_page": "https://www.btartboxnails.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4121314587933356790"
+        }
+      ]
+    }
+  ]
+}

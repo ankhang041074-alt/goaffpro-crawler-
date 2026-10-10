@@ -1,0 +1,298 @@
+{
+  "domain": "theiuga.com",
+  "updated_at": "2026-10-10T14:10:42.258993",
+  "total_advertisers": 9,
+  "total_ads": 46,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 8,
+  "advertisers": [
+    {
+      "id": "AR12776955993913294849",
+      "name": "广州拓瑞信息技术有限公司Đã xác minh",
+      "legal_name": "广州拓瑞信息技术有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12776955993913294849/creative/CR09587671626757963777?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 38,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 38,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theiuga.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theiuga.com",
+          "landing_page": "https://www.theiuga.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 38,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9437418604812659088"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR04376714928963190785?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theiuga.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theiuga.com",
+          "landing_page": "https://www.theiuga.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3214200131297049938"
+        }
+      ]
+    },
+    {
+      "id": "AR06594559727638675457",
+      "name": "LÊ THỊ BIÊNĐã xác minh",
+      "legal_name": "LÊ THỊ BIÊNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06594559727638675457/creative/CR10992315761514512385?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theiuga.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theiuga.com",
+          "landing_page": "https://www.theiuga.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4958669968176947916"
+        }
+      ]
+    },
+    {
+      "id": "AR05563337564472999937",
+      "name": "深圳市龙岗区奢选悦百货商行（个体工商户）Đã xác minh",
+      "legal_name": "深圳市龙岗区奢选悦百货商行（个体工商户）Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05563337564472999937/creative/CR00303654917971640321?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theiuga.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theiuga.com",
+          "landing_page": "https://www.theiuga.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13605284120091870427"
+        }
+      ]
+    },
+    {
+      "id": "AR14451554001637867521",
+      "name": "CÔNG TY TNHH ADSDIGIĐã xác minh",
+      "legal_name": "CÔNG TY TNHH ADSDIGIĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14451554001637867521/creative/CR13867101887154618369?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theiuga.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theiuga.com",
+          "landing_page": "https://www.theiuga.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5716773554984669621"
+        }
+      ]
+    },
+    {
+      "id": "AR06241577393740316673",
+      "name": "NGUYỄN THỊ DUYÊNĐã xác minh",
+      "legal_name": "NGUYỄN THỊ DUYÊNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06241577393740316673/creative/CR01268000832566067201?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theiuga.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theiuga.com",
+          "landing_page": "https://www.theiuga.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15463624440875996578"
+        }
+      ]
+    },
+    {
+      "id": "AR02537992537092653057",
+      "name": "刘荣Đã xác minh",
+      "legal_name": "刘荣Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02537992537092653057/creative/CR04035807672279236609?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theiuga.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theiuga.com",
+          "landing_page": "https://www.theiuga.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9390895693440362990"
+        }
+      ]
+    },
+    {
+      "id": "AR03659050778842103809",
+      "name": "Bizsoft Pte. LtdĐã xác minh",
+      "legal_name": "Bizsoft Pte. LtdĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03659050778842103809/creative/CR12984243665512693761?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: theiuga.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theiuga.com",
+          "landing_page": "https://www.theiuga.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR00463177115810922497",
+      "name": "K2 CitadelĐã xác minh",
+      "legal_name": "K2 CitadelĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00463177115810922497/creative/CR07071221382901661697?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theiuga.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theiuga.com",
+          "landing_page": "https://www.theiuga.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15269756733287094943"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "domain": "montre-connectee-shop.fr",
+  "updated_at": "2026-10-10T12:36:50.367824",
+  "total_advertisers": 9,
+  "total_ads": 42,
+  "win_ads_count": 8,
+  "super_scale_count": 1,
+  "evergreen_percent": 33,
+  "advertisers": [
+    {
+      "id": "AR07233076959163449345",
+      "name": "Youssouf MAHI",
+      "legal_name": "Youssouf MAHI",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07233076959163449345/creative/CR17952107370427449345?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 35,
+      "longevity_badge": "super_scale",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 26,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Montre-connectee-shop.fr Official Offers & Deals",
+          "description": "Shop online at montre-connectee-shop.fr. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.montre-connectee-shop.fr/?ref=aff_ar0723",
+          "last_shown": "2026-10-10",
+          "duration_days": 35,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)"
+    },
+    {
+      "id": "AR06570825463483072513",
+      "name": "67.300.342 MARIANA JACINTO LUCAS DA SILVA",
+      "legal_name": "67.300.342 MARIANA JACINTO LUCAS DA SILVA",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06570825463483072513/creative/CR05116905057270366209?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 46,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Montre-connectee-shop.fr Official Offers & Deals",
+          "description": "Shop online at montre-connectee-shop.fr. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.montre-connectee-shop.fr/?ref=aff_ar0657",
+          "last_shown": "2026-10-10",
+          "duration_days": 46,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9277884617485607738"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR11262975254659596289",
+      "name": "NGUYỄN THỊ THẮM",
+      "legal_name": "NGUYỄN THỊ THẮM",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11262975254659596289/creative/CR14634645940615512065?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 57,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Montre-connectee-shop.fr Official Offers & Deals",
+          "description": "Shop online at montre-connectee-shop.fr. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.montre-connectee-shop.fr/?ref=aff_ar1126",
+          "last_shown": "2026-10-10",
+          "duration_days": 57,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4348368729062205548"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR15903438103725998081",
+      "name": "MOGHADDAM ENTERPRISES LLC",
+      "legal_name": "MOGHADDAM ENTERPRISES LLC",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15903438103725998081/creative/CR09494499174628982785?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 68,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Montre-connectee-shop.fr Official Offers & Deals",
+          "description": "Shop online at montre-connectee-shop.fr. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.montre-connectee-shop.fr/?ref=aff_ar1590",
+          "last_shown": "2026-10-10",
+          "duration_days": 68,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11469705945887731881"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR09632476339042779137",
+      "name": "VanMay Wealth Management, LLC",
+      "legal_name": "VanMay Wealth Management, LLC",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09632476339042779137/creative/CR14128184771460726785?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 79,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Montre-connectee-shop.fr Official Offers & Deals",
+          "description": "Shop online at montre-connectee-shop.fr. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.montre-connectee-shop.fr/?ref=aff_ar0963",
+          "last_shown": "2026-10-10",
+          "duration_days": 79,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14336356104202805771"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR08023052080623124481",
+      "name": "ĐẶNG QUANG TRUNG",
+      "legal_name": "ĐẶNG QUANG TRUNG",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08023052080623124481/creative/CR17477252247128637441?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 90,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Montre-connectee-shop.fr Official Offers & Deals",
+          "description": "Shop online at montre-connectee-shop.fr. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.montre-connectee-shop.fr/?ref=aff_ar0802",
+          "last_shown": "2026-10-10",
+          "duration_days": 90,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16928216951261750755"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR05842767664304357377",
+      "name": "TỔNG CÔNG TY VIỄN THÔNG VIETTEL - CHI NHÁNH TẬP ĐOÀN CÔNG NGHIỆP - VIỄN THÔNG QUÂN ĐỘI",
+      "legal_name": "TỔNG CÔNG TY VIỄN THÔNG VIETTEL - CHI NHÁNH TẬP ĐOÀN CÔNG NGHIỆP - VIỄN THÔNG QUÂN ĐỘI",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05842767664304357377/creative/CR10347563517376200705?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 101,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Montre-connectee-shop.fr Official Offers & Deals",
+          "description": "Shop online at montre-connectee-shop.fr. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.montre-connectee-shop.fr/?ref=aff_ar0584",
+          "last_shown": "2026-10-10",
+          "duration_days": 101,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15052478156345225891"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR17473653270693019649",
+      "name": "G.H. COMPANY",
+      "legal_name": "G.H. COMPANY",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17473653270693019649/creative/CR05856988842187292673?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 112,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Montre-connectee-shop.fr Official Offers & Deals",
+          "description": "Shop online at montre-connectee-shop.fr. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.montre-connectee-shop.fr/?ref=aff_ar1747",
+          "last_shown": "2026-10-10",
+          "duration_days": 112,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2519446930641542998"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR16595586213918801921",
+      "name": "LIKE A BEAUTIFUL DAY LTD",
+      "legal_name": "LIKE A BEAUTIFUL DAY LTD",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16595586213918801921/creative/CR16874611203844866049?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 123,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Montre-connectee-shop.fr Official Offers & Deals",
+          "description": "Shop online at montre-connectee-shop.fr. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.montre-connectee-shop.fr/?ref=aff_ar1659",
+          "last_shown": "2026-10-10",
+          "duration_days": 123,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2325704921858909966"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    }
+  ],
+  "test_ads_count": 0
+}

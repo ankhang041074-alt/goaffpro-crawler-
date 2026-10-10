@@ -1,0 +1,139 @@
+{
+  "domain": "yerbamagic.com",
+  "updated_at": "2026-10-10T14:50:20.479937",
+  "total_advertisers": 4,
+  "total_ads": 104,
+  "super_scale_count": 1,
+  "win_ads_count": 3,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR16874404444119236609",
+      "name": "安柏鸿睿（北京）科技发展有限公司Đã xác minh",
+      "legal_name": "安柏鸿睿（北京）科技发展有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16874404444119236609/creative/CR02989499591105183745?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yerbamagic.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yerbamagic.com",
+          "landing_page": "https://www.yerbamagic.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12203076377416499607"
+        }
+      ]
+    },
+    {
+      "id": "AR05515641720722685953",
+      "name": "Brainista Inc.Đã xác minh",
+      "legal_name": "Brainista Inc.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05515641720722685953/creative/CR10414767317333311489?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 98,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 98,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yerbamagic.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yerbamagic.com",
+          "landing_page": "https://www.yerbamagic.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 98,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11890316290105087325"
+        }
+      ]
+    },
+    {
+      "id": "AR12008466197243756545",
+      "name": "GRACEFUL GAL LLCĐã xác minh",
+      "legal_name": "GRACEFUL GAL LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12008466197243756545/creative/CR10313374890505273345?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yerbamagic.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yerbamagic.com",
+          "landing_page": "https://www.yerbamagic.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10016889862988969542"
+        }
+      ]
+    },
+    {
+      "id": "AR08082317097390047233",
+      "name": "Beyond Gluten LLCĐã xác minh",
+      "legal_name": "Beyond Gluten LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08082317097390047233/creative/CR03003091238451675137?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yerbamagic.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yerbamagic.com",
+          "landing_page": "https://www.yerbamagic.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12141389841844191881"
+        }
+      ]
+    }
+  ]
+}

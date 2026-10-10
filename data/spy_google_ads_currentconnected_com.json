@@ -1,0 +1,43 @@
+{
+  "domain": "currentconnected.com",
+  "updated_at": "2026-10-10T14:51:52.921255",
+  "total_advertisers": 1,
+  "total_ads": 102,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR04931140497583374337",
+      "name": "Current Connected LLCĐã xác minh",
+      "legal_name": "Current Connected LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04931140497583374337/creative/CR09636987334603833345?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 102,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 102,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: currentconnected.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho currentconnected.com",
+          "landing_page": "https://www.currentconnected.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 102,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10080928316597868600"
+        }
+      ]
+    }
+  ]
+}

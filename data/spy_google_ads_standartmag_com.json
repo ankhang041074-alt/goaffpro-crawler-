@@ -1,0 +1,43 @@
+{
+  "domain": "standartmag.com",
+  "updated_at": "2026-10-10T14:39:19.662895",
+  "total_advertisers": 1,
+  "total_ads": 30,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR12347733764263116801",
+      "name": "standart, spol. s r.o.Đã xác minh",
+      "legal_name": "standart, spol. s r.o.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12347733764263116801/creative/CR02201361298308988929?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 30,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 30,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: standartmag.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho standartmag.com",
+          "landing_page": "https://www.standartmag.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 30,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13231885720884812218"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1227 @@
+{
+  "domain": "quordlepuzzles.com",
+  "updated_at": "2026-10-10T14:44:16.299759",
+  "total_advertisers": 38,
+  "total_ads": 85,
+  "super_scale_count": 0,
+  "win_ads_count": 33,
+  "test_ads_count": 5,
+  "advertisers": [
+    {
+      "id": "AR01441183766595764225",
+      "name": "Xun Meng International LimitedĐã xác minh",
+      "legal_name": "Xun Meng International LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01441183766595764225/creative/CR02750013202522701825?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 6,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 6,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11221679948445849981"
+        }
+      ]
+    },
+    {
+      "id": "AR06752056650829398017",
+      "name": "Lagoja - Marketing GmbHĐã xác minh",
+      "legal_name": "Lagoja - Marketing GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06752056650829398017/creative/CR05189604594300223489?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 6,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 6,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8465783504511362256"
+        }
+      ]
+    },
+    {
+      "id": "AR16232300562714984449",
+      "name": "佛山市火莱克科技有限公司Đã xác minh",
+      "legal_name": "佛山市火莱克科技有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16232300562714984449/creative/CR07223583251783221249?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14176185479981330444"
+        }
+      ]
+    },
+    {
+      "id": "AR16677832217707151361",
+      "name": "Valeria FernandezĐã xác minh",
+      "legal_name": "Valeria FernandezĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16677832217707151361/creative/CR14343418398845698049?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4852701210129505253"
+        }
+      ]
+    },
+    {
+      "id": "AR08775112124146909185",
+      "name": "MARKETING GENIUSES LTDĐã xác minh",
+      "legal_name": "MARKETING GENIUSES LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08775112124146909185/creative/CR15124524550278086657?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8678893354628820282"
+        }
+      ]
+    },
+    {
+      "id": "AR01385099886076100609",
+      "name": "Khuất Gia QuyếtĐã xác minh",
+      "legal_name": "Khuất Gia QuyếtĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01385099886076100609/creative/CR11260307427133751297?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/299141560470322565"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR14677456155987410945?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1637749436174070097"
+        }
+      ]
+    },
+    {
+      "id": "AR07105807680794525697",
+      "name": "SIGE (USA) INFORMATION TECHNOLOGY CO., LTDĐã xác minh",
+      "legal_name": "SIGE (USA) INFORMATION TECHNOLOGY CO., LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07105807680794525697/creative/CR05033869286305693697?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15811815359070937662"
+        }
+      ]
+    },
+    {
+      "id": "AR06785990551779934209",
+      "name": "Absolute Link LimitedĐã xác minh",
+      "legal_name": "Absolute Link LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06785990551779934209/creative/CR06853587349834563585?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5241714064328404393"
+        }
+      ]
+    },
+    {
+      "id": "AR05412113380888543233",
+      "name": "Juan Pablo CorsiĐã xác minh",
+      "legal_name": "Juan Pablo CorsiĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05412113380888543233/creative/CR01729233212955164673?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13740767961776152215"
+        }
+      ]
+    },
+    {
+      "id": "AR10575899088526508033",
+      "name": "YINO (HONGKONG) DIGITAL TECHNOLOGY CO., LIMITEDĐã xác minh",
+      "legal_name": "YINO (HONGKONG) DIGITAL TECHNOLOGY CO., LIMITEDĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10575899088526508033/creative/CR15307855401106538497?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16883681662111333563"
+        }
+      ]
+    },
+    {
+      "id": "AR11540951009845051393",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11540951009845051393/creative/CR03828202533877186561?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13561566079993088359"
+        }
+      ]
+    },
+    {
+      "id": "AR13561304759754817537",
+      "name": "Hộ Kinh Doanh Tạp HóaĐã xác minh",
+      "legal_name": "Hộ Kinh Doanh Tạp HóaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13561304759754817537/creative/CR06334119619548151809?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/682291589818339264"
+        }
+      ]
+    },
+    {
+      "id": "AR03649400949400666113",
+      "name": "Hộ Kinh Doanh Tạp HóaĐã xác minh",
+      "legal_name": "Hộ Kinh Doanh Tạp HóaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03649400949400666113/creative/CR02209990179664429057?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15617328746896459002"
+        }
+      ]
+    },
+    {
+      "id": "AR16167424085276491777",
+      "name": "Hộ Kinh Doanh Tạp HóaĐã xác minh",
+      "legal_name": "Hộ Kinh Doanh Tạp HóaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16167424085276491777/creative/CR16851304057006981121?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18440301992033205902"
+        }
+      ]
+    },
+    {
+      "id": "AR05174423508406501377",
+      "name": "CÔNG TY CỔ PHẦN THÔNG TIN VÀ THẨM ĐỊNH GIÁ MIỀN NAMĐã xác minh",
+      "legal_name": "CÔNG TY CỔ PHẦN THÔNG TIN VÀ THẨM ĐỊNH GIÁ MIỀN NAMĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05174423508406501377/creative/CR03592772149200289793?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12232659038830201347"
+        }
+      ]
+    },
+    {
+      "id": "AR06793763308714328065",
+      "name": "R.A BARBOSA FERNANDESĐã xác minh",
+      "legal_name": "R.A BARBOSA FERNANDESĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06793763308714328065/creative/CR09182922661926273025?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11064275663769789335"
+        }
+      ]
+    },
+    {
+      "id": "AR14773581097484681217",
+      "name": "R.A BARBOSA FERNANDESĐã xác minh",
+      "legal_name": "R.A BARBOSA FERNANDESĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14773581097484681217/creative/CR08304107207100727297?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16280730644137376181"
+        }
+      ]
+    },
+    {
+      "id": "AR15083235457703608321",
+      "name": "MAPFRE SEGUROS GERAIS S.A.",
+      "legal_name": "MAPFRE SEGUROS GERAIS S.A.",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15083235457703608321/creative/CR14986138436258234369?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_18",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11545781987829854100"
+        }
+      ]
+    },
+    {
+      "id": "AR02414335927515086849",
+      "name": "R.A BARBOSA FERNANDES",
+      "legal_name": "R.A BARBOSA FERNANDES",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02414335927515086849/creative/CR10953351337168863233?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_19",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4866364487857130842"
+        }
+      ]
+    },
+    {
+      "id": "AR05794649462060089345",
+      "name": "E A C DA SILVA CONTABIL EIRELI - MEĐã xác minh",
+      "legal_name": "E A C DA SILVA CONTABIL EIRELI - MEĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05794649462060089345/creative/CR16522283723610128385?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_20",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13845942943169853069"
+        }
+      ]
+    },
+    {
+      "id": "AR08520690356159774721",
+      "name": "R.A BARBOSA FERNANDESĐã xác minh",
+      "legal_name": "R.A BARBOSA FERNANDESĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08520690356159774721/creative/CR12486399850021126145?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_21",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13361648153054052545"
+        }
+      ]
+    },
+    {
+      "id": "AR16186515111827996673",
+      "name": "R.A BARBOSA FERNANDESĐã xác minh",
+      "legal_name": "R.A BARBOSA FERNANDESĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16186515111827996673/creative/CR10050412047474098177?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_22",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11456205588688922192"
+        }
+      ]
+    },
+    {
+      "id": "AR00061917880626708481",
+      "name": "Juan Pablo Corsi",
+      "legal_name": "Juan Pablo Corsi",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00061917880626708481/creative/CR12746643806955241473?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_23",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9659538583480429012"
+        }
+      ]
+    },
+    {
+      "id": "AR07926237745335238657",
+      "name": "Exit Node Corporation",
+      "legal_name": "Exit Node Corporation",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07926237745335238657/creative/CR02505835910789070849?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_24",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3113129231322451017"
+        }
+      ]
+    },
+    {
+      "id": "AR17012325172662763521",
+      "name": "BALLON DEVELOPMENT CONSULTANTS, INC.Đã xác minh",
+      "legal_name": "BALLON DEVELOPMENT CONSULTANTS, INC.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17012325172662763521/creative/CR04294756722343411713?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_25",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7799950596100886574"
+        }
+      ]
+    },
+    {
+      "id": "AR14375180996259610625",
+      "name": "PATI CREATIVE AGENCY LIMITEDĐã xác minh",
+      "legal_name": "PATI CREATIVE AGENCY LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14375180996259610625/creative/CR16356293863368818689?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_26",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13452330017912844690"
+        }
+      ]
+    },
+    {
+      "id": "AR05799637121681588225",
+      "name": "Dun & Bradstreet Latin America",
+      "legal_name": "Dun & Bradstreet Latin America",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05799637121681588225/creative/CR04667930968810586113?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_27",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16590825378373159532"
+        }
+      ]
+    },
+    {
+      "id": "AR17774847069324836865",
+      "name": "Dun & Bradstreet Latin America",
+      "legal_name": "Dun & Bradstreet Latin America",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17774847069324836865/creative/CR04744596890958430209?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_28",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13268693727794667293"
+        }
+      ]
+    },
+    {
+      "id": "AR03988620387016507393",
+      "name": "陈坤生",
+      "legal_name": "陈坤生",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03988620387016507393/creative/CR02491379531907072001?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_29",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7343546545627429102"
+        }
+      ]
+    },
+    {
+      "id": "AR05729538445047496705",
+      "name": "THAI-IN LIMITEDĐã xác minh",
+      "legal_name": "THAI-IN LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05729538445047496705/creative/CR06927861670983237633?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_30",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12743840985288286814"
+        }
+      ]
+    },
+    {
+      "id": "AR10469577052854943745",
+      "name": "NGA HK Holding LimitedĐã xác minh",
+      "legal_name": "NGA HK Holding LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10469577052854943745/creative/CR12551336706109865985?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_31",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9522737393124001238"
+        }
+      ]
+    },
+    {
+      "id": "AR16857733425480597505",
+      "name": "Dun & Bradstreet Latin America",
+      "legal_name": "Dun & Bradstreet Latin America",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16857733425480597505/creative/CR04300572314220625921?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_32",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8801568197375823749"
+        }
+      ]
+    },
+    {
+      "id": "AR06161720731798339585",
+      "name": "MIA NAILS AND SPA LLCĐã xác minh",
+      "legal_name": "MIA NAILS AND SPA LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06161720731798339585/creative/CR02144583943779778561?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_33",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1933074400448674777"
+        }
+      ]
+    },
+    {
+      "id": "AR08960097946133594113",
+      "name": "ULTIMATE SPORTS INSTITUTE AND FITNESS CENTER, LLCĐã xác minh",
+      "legal_name": "ULTIMATE SPORTS INSTITUTE AND FITNESS CENTER, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08960097946133594113/creative/CR03293081700791222273?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_34",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15630332637274901746"
+        }
+      ]
+    },
+    {
+      "id": "AR10557759500310282241",
+      "name": "Hộ Kinh Doanh Tạp HóaĐã xác minh",
+      "legal_name": "Hộ Kinh Doanh Tạp HóaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10557759500310282241/creative/CR16413362090263183361?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_35",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8204780618176412895"
+        }
+      ]
+    },
+    {
+      "id": "AR05215198450445975553",
+      "name": "Dun & Bradstreet Latin America",
+      "legal_name": "Dun & Bradstreet Latin America",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05215198450445975553/creative/CR09390120517169577985?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_36",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15443797426736528959"
+        }
+      ]
+    },
+    {
+      "id": "AR03231161054205575169",
+      "name": "Exit Node Corporation",
+      "legal_name": "Exit Node Corporation",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03231161054205575169/creative/CR01277755914476060673?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_37",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: quordlepuzzles.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho quordlepuzzles.com",
+          "landing_page": "https://www.quordlepuzzles.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/52836313367942952"
+        }
+      ]
+    }
+  ]
+}

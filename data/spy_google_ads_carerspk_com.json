@@ -1,0 +1,43 @@
+{
+  "domain": "carerspk.com",
+  "updated_at": "2026-10-10T14:50:05.916427",
+  "total_advertisers": 1,
+  "total_ads": 124,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR12695135990751166465",
+      "name": "SPARK INDUSTRY LIMITEDĐã xác minh",
+      "legal_name": "SPARK INDUSTRY LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12695135990751166465/creative/CR06995043978923999233?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 124,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 124,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: carerspk.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho carerspk.com",
+          "landing_page": "https://www.carerspk.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 124,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18412747301903607000"
+        }
+      ]
+    }
+  ]
+}

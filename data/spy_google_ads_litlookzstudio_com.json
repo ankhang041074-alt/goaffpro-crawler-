@@ -1,0 +1,203 @@
+{
+  "domain": "litlookzstudio.com",
+  "updated_at": "2026-10-10T14:45:06.125796",
+  "total_advertisers": 6,
+  "total_ads": 12,
+  "super_scale_count": 0,
+  "win_ads_count": 6,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR00784393536580616193",
+      "name": "Thuy NguyenĐã xác minh",
+      "legal_name": "Thuy NguyenĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00784393536580616193/creative/CR05066237534237884417?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: litlookzstudio.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho litlookzstudio.com",
+          "landing_page": "https://www.litlookzstudio.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14233501499794310035"
+        }
+      ]
+    },
+    {
+      "id": "AR13497936107894996993",
+      "name": "HERA SEO SRLĐã xác minh",
+      "legal_name": "HERA SEO SRLĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13497936107894996993/creative/CR05181188769092468737?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: litlookzstudio.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho litlookzstudio.com",
+          "landing_page": "https://www.litlookzstudio.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3091307654551867704"
+        }
+      ]
+    },
+    {
+      "id": "AR03087800981509898241",
+      "name": "บริษัท ผลธัญญะ จำกัด (มหาชน)Đã xác minh",
+      "legal_name": "บริษัท ผลธัญญะ จำกัด (มหาชน)Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03087800981509898241/creative/CR07454611123183026177?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: litlookzstudio.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho litlookzstudio.com",
+          "landing_page": "https://www.litlookzstudio.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6714299133483094375"
+        }
+      ]
+    },
+    {
+      "id": "AR11262975254659596289",
+      "name": "NGUYỄN THỊ THẮMĐã xác minh",
+      "legal_name": "NGUYỄN THỊ THẮMĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11262975254659596289/creative/CR15876677365095464961?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: litlookzstudio.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho litlookzstudio.com",
+          "landing_page": "https://www.litlookzstudio.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3243161606505974190"
+        }
+      ]
+    },
+    {
+      "id": "AR17358468020250345473",
+      "name": "COLLECTION OF HER LLCĐã xác minh",
+      "legal_name": "COLLECTION OF HER LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17358468020250345473/creative/CR10842750019421863937?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: litlookzstudio.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho litlookzstudio.com",
+          "landing_page": "https://www.litlookzstudio.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4389886352612756767"
+        }
+      ]
+    },
+    {
+      "id": "AR07853917574176702465",
+      "name": "Phan Thị LạiĐã xác minh",
+      "legal_name": "Phan Thị LạiĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07853917574176702465/creative/CR14254803843320643585?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: litlookzstudio.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho litlookzstudio.com",
+          "landing_page": "https://www.litlookzstudio.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15866280861268157360"
+        }
+      ]
+    }
+  ]
+}

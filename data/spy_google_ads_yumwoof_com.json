@@ -1,0 +1,107 @@
+{
+  "domain": "yumwoof.com",
+  "updated_at": "2026-10-10T14:48:48.499571",
+  "total_advertisers": 3,
+  "total_ads": 32,
+  "super_scale_count": 1,
+  "win_ads_count": 2,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR08425245101827031041",
+      "name": "Yumwoof Natural Pet Food LLCĐã xác minh",
+      "legal_name": "Yumwoof Natural Pet Food LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08425245101827031041/creative/CR17741701793089323009?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 26,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 26,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yumwoof.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yumwoof.com",
+          "landing_page": "https://www.yumwoof.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 26,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4247058697718133229"
+        }
+      ]
+    },
+    {
+      "id": "AR09744420169077227521",
+      "name": "Kun LiĐã xác minh",
+      "legal_name": "Kun LiĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09744420169077227521/creative/CR02650630347942789121?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yumwoof.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yumwoof.com",
+          "landing_page": "https://www.yumwoof.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3979368567422056701"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR18412550645065187329?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yumwoof.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yumwoof.com",
+          "landing_page": "https://www.yumwoof.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10324442399728934854"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "domain": "dronelicense.eu",
+  "updated_at": "2026-10-10T14:44:01.961118",
+  "total_advertisers": 9,
+  "total_ads": 85,
+  "super_scale_count": 2,
+  "win_ads_count": 5,
+  "test_ads_count": 2,
+  "advertisers": [
+    {
+      "id": "AR05134719782750257153",
+      "name": "Drone Class B.V.Đã xác minh",
+      "legal_name": "Drone Class B.V.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05134719782750257153/creative/CR04419811824812163073?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 63,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 63,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: dronelicense.eu",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho dronelicense.eu",
+          "landing_page": "https://www.dronelicense.eu",
+          "last_shown": "2026-10-10",
+          "duration_days": 63,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16588559028055323948"
+        }
+      ]
+    },
+    {
+      "id": "AR12007923888903159809",
+      "name": "DQ&A Technology NL BV",
+      "legal_name": "DQ&A Technology NL BV",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12007923888903159809/creative/CR09235484978500861953?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 10,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 10,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: dronelicense.eu",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho dronelicense.eu",
+          "landing_page": "https://www.dronelicense.eu",
+          "last_shown": "2026-10-10",
+          "duration_days": 10,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR03897850024196833281",
+      "name": "Trần Quốc HuyĐã xác minh",
+      "legal_name": "Trần Quốc HuyĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03897850024196833281/creative/CR10075312171912265729?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: dronelicense.eu",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho dronelicense.eu",
+          "landing_page": "https://www.dronelicense.eu",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16249191936702640898"
+        }
+      ]
+    },
+    {
+      "id": "AR15387405685851422721",
+      "name": "AGENCE GAUCHET LIMITEDĐã xác minh",
+      "legal_name": "AGENCE GAUCHET LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15387405685851422721/creative/CR17458931875148988417?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: dronelicense.eu",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho dronelicense.eu",
+          "landing_page": "https://www.dronelicense.eu",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3395480420913454037"
+        }
+      ]
+    },
+    {
+      "id": "AR08080054886575636481",
+      "name": "Jay S",
+      "legal_name": "Jay S",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08080054886575636481/creative/CR13135282246380421121?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: dronelicense.eu",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho dronelicense.eu",
+          "landing_page": "https://www.dronelicense.eu",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3251629881256320937"
+        }
+      ]
+    },
+    {
+      "id": "AR04256246224501342209",
+      "name": "AZSAPAC LLCĐã xác minh",
+      "legal_name": "AZSAPAC LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04256246224501342209/creative/CR02332396567211802625?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: dronelicense.eu",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho dronelicense.eu",
+          "landing_page": "https://www.dronelicense.eu",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4333664780589974412"
+        }
+      ]
+    },
+    {
+      "id": "AR14714308195157803009",
+      "name": "K&K ADVERTISING LTDĐã xác minh",
+      "legal_name": "K&K ADVERTISING LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14714308195157803009/creative/CR17593055285667168257?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: dronelicense.eu",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho dronelicense.eu",
+          "landing_page": "https://www.dronelicense.eu",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/422418257676835941"
+        }
+      ]
+    },
+    {
+      "id": "AR07675194828119867393",
+      "name": "IT Solutions FZCOĐã xác minh",
+      "legal_name": "IT Solutions FZCOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07675194828119867393/creative/CR13182086008243486721?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: dronelicense.eu",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho dronelicense.eu",
+          "landing_page": "https://www.dronelicense.eu",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15879503151171033239"
+        }
+      ]
+    },
+    {
+      "id": "AR13918613706268213249",
+      "name": "JIM COMERCIAL DE ALIMENTOS LTDAĐã xác minh",
+      "legal_name": "JIM COMERCIAL DE ALIMENTOS LTDAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13918613706268213249/creative/CR12664326506709778433?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: dronelicense.eu",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho dronelicense.eu",
+          "landing_page": "https://www.dronelicense.eu",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9636568983976814901"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "domain": "fitueyes.com",
+  "updated_at": "2026-10-10T14:05:03.015477",
+  "total_advertisers": 4,
+  "total_ads": 200,
+  "super_scale_count": 2,
+  "win_ads_count": 0,
+  "test_ads_count": 2,
+  "advertisers": [
+    {
+      "id": "AR17895475297461993473",
+      "name": "MIMO (Hong Kong) LIMITEDĐã xác minh",
+      "legal_name": "MIMO (Hong Kong) LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17895475297461993473/creative/CR09145857600967933953?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 130,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 130,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: fitueyes.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho fitueyes.com",
+          "landing_page": "https://www.fitueyes.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 130,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13793223273979195362"
+        }
+      ]
+    },
+    {
+      "id": "AR14822213304235065345",
+      "name": "宁波索迈视听科技有限公司Đã xác minh",
+      "legal_name": "宁波索迈视听科技有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14822213304235065345/creative/CR16341524355601137665?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 68,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 68,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: fitueyes.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho fitueyes.com",
+          "landing_page": "https://www.fitueyes.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 68,
+          "image_url": "https://i.ytimg.com/vi/zsikR1UUV5o/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR00785166750952980481",
+      "name": "Delupe A/SĐã xác minh",
+      "legal_name": "Delupe A/SĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00785166750952980481/creative/CR16105555553824014337?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: fitueyes.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho fitueyes.com",
+          "landing_page": "https://www.fitueyes.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR10957318143193645057",
+      "name": "Digitl GmbH",
+      "legal_name": "Digitl GmbH",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10957318143193645057/creative/CR02525886664962736129?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: fitueyes.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho fitueyes.com",
+          "landing_page": "https://www.fitueyes.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://s0.2mdn.net/simgad/15697894932699991121"
+        }
+      ]
+    }
+  ]
+}

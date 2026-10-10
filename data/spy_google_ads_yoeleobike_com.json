@@ -1,0 +1,521 @@
+{
+  "domain": "yoeleobike.com",
+  "updated_at": "2026-10-10T14:25:54.208619",
+  "total_advertisers": 16,
+  "total_ads": 34,
+  "super_scale_count": 0,
+  "win_ads_count": 16,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR01823531015235174401",
+      "name": "IBILAL.COM FOR INTERNET CONSULTANCY CO. L.L.CĐã xác minh",
+      "legal_name": "IBILAL.COM FOR INTERNET CONSULTANCY CO. L.L.CĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01823531015235174401/creative/CR17731473319883964417?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yoeleobike.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yoeleobike.com",
+          "landing_page": "https://www.yoeleobike.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16209911055960137271"
+        }
+      ]
+    },
+    {
+      "id": "AR16569933843138609153",
+      "name": "TRẦN THỊ HIỀNĐã xác minh",
+      "legal_name": "TRẦN THỊ HIỀNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16569933843138609153/creative/CR04629894523688845313?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yoeleobike.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yoeleobike.com",
+          "landing_page": "https://www.yoeleobike.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16172174242062304852"
+        }
+      ]
+    },
+    {
+      "id": "AR15863532213959131137",
+      "name": "Adcore East LimitedĐã xác minh",
+      "legal_name": "Adcore East LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15863532213959131137/creative/CR02096914952164999169?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yoeleobike.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yoeleobike.com",
+          "landing_page": "https://www.yoeleobike.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10749889049361542877"
+        }
+      ]
+    },
+    {
+      "id": "AR06784317911126245377",
+      "name": "ĐÀO NGỌC DIỆPĐã xác minh",
+      "legal_name": "ĐÀO NGỌC DIỆPĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06784317911126245377/creative/CR05064569300220641281?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yoeleobike.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yoeleobike.com",
+          "landing_page": "https://www.yoeleobike.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5594515417737777141"
+        }
+      ]
+    },
+    {
+      "id": "AR05788379041736163329",
+      "name": "Nguyễn Quang HuyĐã xác minh",
+      "legal_name": "Nguyễn Quang HuyĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05788379041736163329/creative/CR11779714933388738561?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yoeleobike.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yoeleobike.com",
+          "landing_page": "https://www.yoeleobike.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7323441042821209677"
+        }
+      ]
+    },
+    {
+      "id": "AR11559697159112622081",
+      "name": "HUYNH LIMITEDĐã xác minh",
+      "legal_name": "HUYNH LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11559697159112622081/creative/CR12971049938296242177?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yoeleobike.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yoeleobike.com",
+          "landing_page": "https://www.yoeleobike.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11728865060813720587"
+        }
+      ]
+    },
+    {
+      "id": "AR06595586602779541505",
+      "name": "CÔNG TY CỔ PHẦN HAPPY CENTURYĐã xác minh",
+      "legal_name": "CÔNG TY CỔ PHẦN HAPPY CENTURYĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06595586602779541505/creative/CR15459560311790501889?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yoeleobike.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yoeleobike.com",
+          "landing_page": "https://www.yoeleobike.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8779121544099384903"
+        }
+      ]
+    },
+    {
+      "id": "AR00145327751832797185",
+      "name": "Sao Nam TRANĐã xác minh",
+      "legal_name": "Sao Nam TRANĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00145327751832797185/creative/CR11759322840984190977?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: yoeleobike.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yoeleobike.com",
+          "landing_page": "https://www.yoeleobike.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR00015750237779918849",
+      "name": "VŨ QUANG LỢIĐã xác minh",
+      "legal_name": "VŨ QUANG LỢIĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00015750237779918849/creative/CR05787808670079254529?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: yoeleobike.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yoeleobike.com",
+          "landing_page": "https://www.yoeleobike.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR15788123016421965825",
+      "name": "NGUYỄN THỊ HẰNGĐã xác minh",
+      "legal_name": "NGUYỄN THỊ HẰNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15788123016421965825/creative/CR07554985608402173953?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yoeleobike.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yoeleobike.com",
+          "landing_page": "https://www.yoeleobike.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7800813953671678621"
+        }
+      ]
+    },
+    {
+      "id": "AR03858991427845357569",
+      "name": "OCEAN SUNRISE LIMITEDĐã xác minh",
+      "legal_name": "OCEAN SUNRISE LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03858991427845357569/creative/CR09127948248768577537?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yoeleobike.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yoeleobike.com",
+          "landing_page": "https://www.yoeleobike.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5635348073351855828"
+        }
+      ]
+    },
+    {
+      "id": "AR17577515338075996161",
+      "name": "XUI SERVICES LLCĐã xác minh",
+      "legal_name": "XUI SERVICES LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17577515338075996161/creative/CR12192270112950059009?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yoeleobike.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yoeleobike.com",
+          "landing_page": "https://www.yoeleobike.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8036597173174114508"
+        }
+      ]
+    },
+    {
+      "id": "AR14012305222374785025",
+      "name": "Công ty TNHH Lộc Fast LogisticsĐã xác minh",
+      "legal_name": "Công ty TNHH Lộc Fast LogisticsĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14012305222374785025/creative/CR00555591892759216129?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yoeleobike.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yoeleobike.com",
+          "landing_page": "https://www.yoeleobike.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17199205919052441445"
+        }
+      ]
+    },
+    {
+      "id": "AR07662346596662640641",
+      "name": "KMG MEDICAL GROUP MO, P.C.Đã xác minh",
+      "legal_name": "KMG MEDICAL GROUP MO, P.C.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07662346596662640641/creative/CR05830415913886679041?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yoeleobike.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yoeleobike.com",
+          "landing_page": "https://www.yoeleobike.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17852067461684803220"
+        }
+      ]
+    },
+    {
+      "id": "AR17467564793773686785",
+      "name": "Nguyễn Văn SửĐã xác minh",
+      "legal_name": "Nguyễn Văn SửĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17467564793773686785/creative/CR07130906447470133249?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yoeleobike.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yoeleobike.com",
+          "landing_page": "https://www.yoeleobike.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11564027247068465570"
+        }
+      ]
+    },
+    {
+      "id": "AR09235676276344225793",
+      "name": "Methembe Nkabinde SibandaĐã xác minh",
+      "legal_name": "Methembe Nkabinde SibandaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09235676276344225793/creative/CR17807832169050013697?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yoeleobike.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yoeleobike.com",
+          "landing_page": "https://www.yoeleobike.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5407895906301856362"
+        }
+      ]
+    }
+  ]
+}

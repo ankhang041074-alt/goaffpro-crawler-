@@ -1,0 +1,235 @@
+{
+  "domain": "giratree.com",
+  "updated_at": "2026-10-10T14:42:10.348619",
+  "total_advertisers": 7,
+  "total_ads": 137,
+  "super_scale_count": 1,
+  "win_ads_count": 3,
+  "test_ads_count": 3,
+  "advertisers": [
+    {
+      "id": "AR12479849810146361345",
+      "name": "福州泓鹏少年电子商务有限公司Đã xác minh",
+      "legal_name": "福州泓鹏少年电子商务有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12479849810146361345/creative/CR14522532141545291777?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 128,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 128,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: giratree.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho giratree.com",
+          "landing_page": "https://www.giratree.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 128,
+          "image_url": "https://i.ytimg.com/vi/urd-aycfSio/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR02961432598301114369",
+      "name": "Al Murtaza Building Construction Company LLCĐã xác minh",
+      "legal_name": "Al Murtaza Building Construction Company LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02961432598301114369/creative/CR05552223529140748289?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: giratree.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho giratree.com",
+          "landing_page": "https://www.giratree.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2337082868403125614"
+        }
+      ]
+    },
+    {
+      "id": "AR06665929328045326337",
+      "name": "su huĐã xác minh",
+      "legal_name": "su huĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06665929328045326337/creative/CR13912404317429563393?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: giratree.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho giratree.com",
+          "landing_page": "https://www.giratree.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13403355316960556764"
+        }
+      ]
+    },
+    {
+      "id": "AR05632914514249777153",
+      "name": "CÔNG TY TNHH TRUYỀN THÔNG VÀ QUẢNG CÁO H2TĐã xác minh",
+      "legal_name": "CÔNG TY TNHH TRUYỀN THÔNG VÀ QUẢNG CÁO H2TĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05632914514249777153/creative/CR14936756938103324673?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: giratree.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho giratree.com",
+          "landing_page": "https://www.giratree.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14606708479748508391"
+        }
+      ]
+    },
+    {
+      "id": "AR06555583277384597505",
+      "name": "CHELSEA POLING CONSULTING LLCĐã xác minh",
+      "legal_name": "CHELSEA POLING CONSULTING LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06555583277384597505/creative/CR00759477357554696193?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: giratree.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho giratree.com",
+          "landing_page": "https://www.giratree.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11924750533691069536"
+        }
+      ]
+    },
+    {
+      "id": "AR08169345933809549313",
+      "name": "AL Murtaza Bldg. Construction Co.LLCĐã xác minh",
+      "legal_name": "AL Murtaza Bldg. Construction Co.LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08169345933809549313/creative/CR05295696746142236673?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: giratree.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho giratree.com",
+          "landing_page": "https://www.giratree.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2832242690213817929"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR00030683641499615233?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: giratree.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho giratree.com",
+          "landing_page": "https://www.giratree.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1724819697472219830"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "domain": "design-vegetal.eu",
+  "updated_at": "2026-10-10T12:37:27.158562",
+  "total_advertisers": 2,
+  "total_ads": 18,
+  "win_ads_count": 1,
+  "super_scale_count": 1,
+  "evergreen_percent": 0,
+  "advertisers": [
+    {
+      "id": "AR02785396551856422913",
+      "name": "michel florian",
+      "legal_name": "michel florian",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02785396551856422913/creative/CR18259565327320875009?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 35,
+      "longevity_badge": "super_scale",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 14,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Design-vegetal.eu Official Offers & Deals",
+          "description": "Shop online at design-vegetal.eu. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.design-vegetal.eu/?ref=aff_ar0278",
+          "last_shown": "2026-10-10",
+          "duration_days": 35,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/170973742793866660"
+        }
+      ],
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)"
+    },
+    {
+      "id": "AR02785396551856422913",
+      "name": "Design-vegetal.eu",
+      "legal_name": "Design-vegetal.eu",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02785396551856422913/creative/CR03579386351046361089?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 46,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Design-vegetal.eu Official Offers & Deals",
+          "description": "Shop online at design-vegetal.eu. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.design-vegetal.eu/?ref=aff_ar0278",
+          "last_shown": "2026-10-10",
+          "duration_days": 46,
+          "image_url": "https://i.ytimg.com/vi/t3_ToT6AIIk/hqdefault.jpg"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    }
+  ],
+  "test_ads_count": 0
+}

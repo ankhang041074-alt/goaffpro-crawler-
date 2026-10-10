@@ -1,0 +1,75 @@
+{
+  "domain": "pulsar.gg",
+  "updated_at": "2026-10-10T13:53:50.112740",
+  "total_advertisers": 2,
+  "total_ads": 50,
+  "super_scale_count": 1,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR10942234166510485505",
+      "name": "BlueVision Interactive LimitedĐã xác minh",
+      "legal_name": "BlueVision Interactive LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10942234166510485505/creative/CR06634738081540866049?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pulsar.gg",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pulsar.gg",
+          "landing_page": "https://www.pulsar.gg",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4613952278596305800"
+        }
+      ]
+    },
+    {
+      "id": "AR17405093145833635841",
+      "name": "Liquid Advertising, IncĐã xác minh",
+      "legal_name": "Liquid Advertising, IncĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17405093145833635841/creative/CR03436623630992146433?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 48,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 48,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pulsar.gg",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pulsar.gg",
+          "landing_page": "https://www.pulsar.gg",
+          "last_shown": "2026-10-10",
+          "duration_days": 48,
+          "image_url": "https://i.ytimg.com/vi/yxOdMG7frjQ/hqdefault.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "domain": "ouferbodyjewelry.com",
+  "updated_at": "2026-10-10T14:12:33.244395",
+  "total_advertisers": 6,
+  "total_ads": 40,
+  "super_scale_count": 1,
+  "win_ads_count": 1,
+  "test_ads_count": 4,
+  "advertisers": [
+    {
+      "id": "AR02570234470036668417",
+      "name": "S&L FOREVER INTERNATIONAL CO.,LTDĐã xác minh",
+      "legal_name": "S&L FOREVER INTERNATIONAL CO.,LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02570234470036668417/creative/CR04370274805891465217?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 34,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 34,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ouferbodyjewelry.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ouferbodyjewelry.com",
+          "landing_page": "https://www.ouferbodyjewelry.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 34,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14164862308904647965"
+        }
+      ]
+    },
+    {
+      "id": "AR15478184174749220865",
+      "name": "Branislav KollarĐã xác minh",
+      "legal_name": "Branislav KollarĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15478184174749220865/creative/CR02284284377921748993?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ouferbodyjewelry.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ouferbodyjewelry.com",
+          "landing_page": "https://www.ouferbodyjewelry.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1226172280826528665"
+        }
+      ]
+    },
+    {
+      "id": "AR07833353889238745089",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07833353889238745089/creative/CR04098132183229661185?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ouferbodyjewelry.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ouferbodyjewelry.com",
+          "landing_page": "https://www.ouferbodyjewelry.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4957027043450822382"
+        }
+      ]
+    },
+    {
+      "id": "AR14017206870981214209",
+      "name": "Phạm Gia KhánhĐã xác minh",
+      "legal_name": "Phạm Gia KhánhĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14017206870981214209/creative/CR02023602987158470657?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ouferbodyjewelry.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ouferbodyjewelry.com",
+          "landing_page": "https://www.ouferbodyjewelry.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16988059937762454190"
+        }
+      ]
+    },
+    {
+      "id": "AR15567082541713195009",
+      "name": "ILONA MOISEJEVAĐã xác minh",
+      "legal_name": "ILONA MOISEJEVAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15567082541713195009/creative/CR05670909555886784513?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ouferbodyjewelry.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ouferbodyjewelry.com",
+          "landing_page": "https://www.ouferbodyjewelry.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18237746975926429391"
+        }
+      ]
+    },
+    {
+      "id": "AR08186579996890890241",
+      "name": "Bernhard BüchiĐã xác minh",
+      "legal_name": "Bernhard BüchiĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08186579996890890241/creative/CR08216283647112642561?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ouferbodyjewelry.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ouferbodyjewelry.com",
+          "landing_page": "https://www.ouferbodyjewelry.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13934911355809635162"
+        }
+      ]
+    }
+  ]
+}

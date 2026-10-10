@@ -1,0 +1,139 @@
+{
+  "domain": "korekawaii.com",
+  "updated_at": "2026-10-10T14:32:30.003089",
+  "total_advertisers": 4,
+  "total_ads": 10,
+  "super_scale_count": 0,
+  "win_ads_count": 4,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR14963717719130636289",
+      "name": "CÔNG TY TNHH MTV GIA CÔNG CƠ KHÍ NGUYỄN VĂN BẬYĐã xác minh",
+      "legal_name": "CÔNG TY TNHH MTV GIA CÔNG CƠ KHÍ NGUYỄN VĂN BẬYĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14963717719130636289/creative/CR01965477579833999361?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: korekawaii.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho korekawaii.com",
+          "landing_page": "https://www.korekawaii.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18370994439088698913"
+        }
+      ]
+    },
+    {
+      "id": "AR04124698033424171009",
+      "name": "GEATOPIA MEDIA, LLC.Đã xác minh",
+      "legal_name": "GEATOPIA MEDIA, LLC.Đã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04124698033424171009/creative/CR00497372545910046721?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: korekawaii.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho korekawaii.com",
+          "landing_page": "https://www.korekawaii.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9381846773255126241"
+        }
+      ]
+    },
+    {
+      "id": "AR10872553175445929985",
+      "name": "Kore Kawaii LLCĐã xác minh",
+      "legal_name": "Kore Kawaii LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10872553175445929985/creative/CR03508596038648725505?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: korekawaii.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho korekawaii.com",
+          "landing_page": "https://www.korekawaii.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://i.ytimg.com/vi/-nZkW2FnNOs/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR01096644221709844481",
+      "name": "Hoàng Trọng HuyĐã xác minh",
+      "legal_name": "Hoàng Trọng HuyĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01096644221709844481/creative/CR05989385615722938369?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: korekawaii.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho korekawaii.com",
+          "landing_page": "https://www.korekawaii.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17632521042348236011"
+        }
+      ]
+    }
+  ]
+}

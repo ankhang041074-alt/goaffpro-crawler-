@@ -1,0 +1,363 @@
+{
+  "domain": "yeoreo.com",
+  "updated_at": "2026-10-10T13:59:17.059843",
+  "total_advertisers": 11,
+  "total_ads": 200,
+  "super_scale_count": 1,
+  "win_ads_count": 3,
+  "test_ads_count": 7,
+  "advertisers": [
+    {
+      "id": "AR04154781453244170241",
+      "name": "广州纵马网络科技有限公司Đã xác minh",
+      "legal_name": "广州纵马网络科技有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04154781453244170241/creative/CR07592107225489866753?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 186,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 186,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yeoreo.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yeoreo.com",
+          "landing_page": "https://www.yeoreo.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 186,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9533518980761431920"
+        }
+      ]
+    },
+    {
+      "id": "AR03620228243036045313",
+      "name": "Marina MartyshevaĐã xác minh",
+      "legal_name": "Marina MartyshevaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03620228243036045313/creative/CR14197492693076017153?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yeoreo.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yeoreo.com",
+          "landing_page": "https://www.yeoreo.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13601012971756935551"
+        }
+      ]
+    },
+    {
+      "id": "AR04390986203344666625",
+      "name": "Javed AkhtarĐã xác minh",
+      "legal_name": "Javed AkhtarĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04390986203344666625/creative/CR03944898779584397313?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yeoreo.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yeoreo.com",
+          "landing_page": "https://www.yeoreo.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8959354616752293498"
+        }
+      ]
+    },
+    {
+      "id": "AR13094918994136137729",
+      "name": "Hộ Kinh Doanh UnithreeĐã xác minh",
+      "legal_name": "Hộ Kinh Doanh UnithreeĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13094918994136137729/creative/CR00728070804339687425?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yeoreo.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yeoreo.com",
+          "landing_page": "https://www.yeoreo.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3806055471786591246"
+        }
+      ]
+    },
+    {
+      "id": "AR03427860729477201921",
+      "name": "Hộ Kinh Doanh Tạp HóaĐã xác minh",
+      "legal_name": "Hộ Kinh Doanh Tạp HóaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03427860729477201921/creative/CR14340825140542046209?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yeoreo.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yeoreo.com",
+          "landing_page": "https://www.yeoreo.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1903286468980465616"
+        }
+      ]
+    },
+    {
+      "id": "AR07963153049373900801",
+      "name": "Công ty TNHH Lộc Fast LogisticsĐã xác minh",
+      "legal_name": "Công ty TNHH Lộc Fast LogisticsĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07963153049373900801/creative/CR17041503213376765953?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yeoreo.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yeoreo.com",
+          "landing_page": "https://www.yeoreo.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1451622066243513446"
+        }
+      ]
+    },
+    {
+      "id": "AR03869115602064900097",
+      "name": "Đàm Minh TrườngĐã xác minh",
+      "legal_name": "Đàm Minh TrườngĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03869115602064900097/creative/CR15070642433203109889?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yeoreo.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yeoreo.com",
+          "landing_page": "https://www.yeoreo.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2121374984499643749"
+        }
+      ]
+    },
+    {
+      "id": "AR06785990551779934209",
+      "name": "Absolute Link LimitedĐã xác minh",
+      "legal_name": "Absolute Link LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06785990551779934209/creative/CR17221662660353851393?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yeoreo.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yeoreo.com",
+          "landing_page": "https://www.yeoreo.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14199299892989052961"
+        }
+      ]
+    },
+    {
+      "id": "AR12314325429870657537",
+      "name": "Essent Energy Next Solutions B.V.Đã xác minh",
+      "legal_name": "Essent Energy Next Solutions B.V.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12314325429870657537/creative/CR07323634789821448193?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yeoreo.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yeoreo.com",
+          "landing_page": "https://www.yeoreo.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13629699355547722259"
+        }
+      ]
+    },
+    {
+      "id": "AR12597151938300084225",
+      "name": "Nguyễn Thị Diệu LinhĐã xác minh",
+      "legal_name": "Nguyễn Thị Diệu LinhĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12597151938300084225/creative/CR08381833367695392769?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yeoreo.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yeoreo.com",
+          "landing_page": "https://www.yeoreo.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16642792358605923758"
+        }
+      ]
+    },
+    {
+      "id": "AR08327905543578451969",
+      "name": "SOFTWARE ADD-ONS LIMITEDĐã xác minh",
+      "legal_name": "SOFTWARE ADD-ONS LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08327905543578451969/creative/CR12046606924171444225?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: yeoreo.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho yeoreo.com",
+          "landing_page": "https://www.yeoreo.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5822964985531504119"
+        }
+      ]
+    }
+  ]
+}

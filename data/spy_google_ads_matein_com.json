@@ -1,0 +1,779 @@
+{
+  "domain": "matein.com",
+  "updated_at": "2026-10-10T14:27:18.330885",
+  "total_advertisers": 24,
+  "total_ads": 106,
+  "super_scale_count": 1,
+  "win_ads_count": 12,
+  "test_ads_count": 11,
+  "advertisers": [
+    {
+      "id": "AR17285141993520889857",
+      "name": "MATEIN LLCĐã xác minh",
+      "legal_name": "MATEIN LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17285141993520889857/creative/CR02500617594243907585?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 67,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 67,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 67,
+          "image_url": "https://i.ytimg.com/vi/nK_pN2RiOFg/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR03620228243036045313",
+      "name": "Marina MartyshevaĐã xác minh",
+      "legal_name": "Marina MartyshevaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03620228243036045313/creative/CR14984878808249663489?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16114141934607817442"
+        }
+      ]
+    },
+    {
+      "id": "AR17523142194569936897",
+      "name": "ĐĂNG QUANG TRUNGĐã xác minh",
+      "legal_name": "ĐĂNG QUANG TRUNGĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17523142194569936897/creative/CR07705181817334136833?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4691977318285924788"
+        }
+      ]
+    },
+    {
+      "id": "AR09223495225106759681",
+      "name": "BADGER MICHAEL BERNARDĐã xác minh",
+      "legal_name": "BADGER MICHAEL BERNARDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09223495225106759681/creative/CR05849910976601653249?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14267800935736545341"
+        }
+      ]
+    },
+    {
+      "id": "AR03443039418779172865",
+      "name": "VNSOLUTION AI LIMITEDĐã xác minh",
+      "legal_name": "VNSOLUTION AI LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03443039418779172865/creative/CR14761549476749377537?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3838908452616516155"
+        }
+      ]
+    },
+    {
+      "id": "AR15191710508941049857",
+      "name": "CÔNG TY TNHH PHÁT TRIỂN GIẢI PHÁP TIN HỌC BỀN VỮNG ITGREENĐã xác minh",
+      "legal_name": "CÔNG TY TNHH PHÁT TRIỂN GIẢI PHÁP TIN HỌC BỀN VỮNG ITGREENĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15191710508941049857/creative/CR08563715680673726465?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7243379875644541567"
+        }
+      ]
+    },
+    {
+      "id": "AR12581825845720514561",
+      "name": "Công Ty Cổ Phần Tập Đoàn Kiến VàngĐã xác minh",
+      "legal_name": "Công Ty Cổ Phần Tập Đoàn Kiến VàngĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12581825845720514561/creative/CR13239015043837722625?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11353735271561846010"
+        }
+      ]
+    },
+    {
+      "id": "AR06784317911126245377",
+      "name": "ĐÀO NGỌC DIỆPĐã xác minh",
+      "legal_name": "ĐÀO NGỌC DIỆPĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06784317911126245377/creative/CR07085992840584495105?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 6,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 6,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3685133214288474946"
+        }
+      ]
+    },
+    {
+      "id": "AR11656839973499305985",
+      "name": "HỘ KINH DOANH LÝ SEO THIĐã xác minh",
+      "legal_name": "HỘ KINH DOANH LÝ SEO THIĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11656839973499305985/creative/CR08964742652616507393?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2440545708568168190"
+        }
+      ]
+    },
+    {
+      "id": "AR01441183766595764225",
+      "name": "Xun Meng International LimitedĐã xác minh",
+      "legal_name": "Xun Meng International LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01441183766595764225/creative/CR03107184065837531137?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16563923150308821384"
+        }
+      ]
+    },
+    {
+      "id": "AR00610652746428710913",
+      "name": "Nguyễn Việt TrungĐã xác minh",
+      "legal_name": "Nguyễn Việt TrungĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00610652746428710913/creative/CR09597257607215579137?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6918832425961610875"
+        }
+      ]
+    },
+    {
+      "id": "AR04291438052653400065",
+      "name": "LÊ CÔNG QUÂNĐã xác minh",
+      "legal_name": "LÊ CÔNG QUÂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04291438052653400065/creative/CR13257752543041159169?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8841604869939132127"
+        }
+      ]
+    },
+    {
+      "id": "AR01718927284309590017",
+      "name": "Trần Thị Hải YếnĐã xác minh",
+      "legal_name": "Trần Thị Hải YếnĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01718927284309590017/creative/CR08256936165404311553?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10748040327539465406"
+        }
+      ]
+    },
+    {
+      "id": "AR16098811742204723201",
+      "name": "ABC APARTMENTS LTDĐã xác minh",
+      "legal_name": "ABC APARTMENTS LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16098811742204723201/creative/CR00587061908410990593?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2435097824385570394"
+        }
+      ]
+    },
+    {
+      "id": "AR01139555987288489985",
+      "name": "VŨ THỊ MINH ANHĐã xác minh",
+      "legal_name": "VŨ THỊ MINH ANHĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01139555987288489985/creative/CR15130185523332644865?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6475806311132199324"
+        }
+      ]
+    },
+    {
+      "id": "AR06785990551779934209",
+      "name": "Absolute Link LimitedĐã xác minh",
+      "legal_name": "Absolute Link LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06785990551779934209/creative/CR12299615776767213569?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/223522429172101579"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR02032332533957394433?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6693444703946134889"
+        }
+      ]
+    },
+    {
+      "id": "AR09686948275386580993",
+      "name": "Max Tax Financial & Multi Services, LLCĐã xác minh",
+      "legal_name": "Max Tax Financial & Multi Services, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09686948275386580993/creative/CR03001996193589886977?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4236889146275028835"
+        }
+      ]
+    },
+    {
+      "id": "AR08936328866973089793",
+      "name": "TRẦN THỊ TRANGĐã xác minh",
+      "legal_name": "TRẦN THỊ TRANGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08936328866973089793/creative/CR06695780768091734017?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_18",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16982567694005910481"
+        }
+      ]
+    },
+    {
+      "id": "AR07463535240590393345",
+      "name": "ANDRESSA RIBEIRO ROSA COMERCIO DE SUPLEMENTOS LTDAĐã xác minh",
+      "legal_name": "ANDRESSA RIBEIRO ROSA COMERCIO DE SUPLEMENTOS LTDAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07463535240590393345/creative/CR03844235844361650177?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_19",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5362528112036181393"
+        }
+      ]
+    },
+    {
+      "id": "AR06160580040024129537",
+      "name": "TOO Adv Digital Technology",
+      "legal_name": "TOO Adv Digital Technology",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06160580040024129537/creative/CR02565624355220357121?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_20",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/154924862780469933"
+        }
+      ]
+    },
+    {
+      "id": "AR15731333996761579521",
+      "name": "ALEXIS GENE SHINES FUNY LLCĐã xác minh",
+      "legal_name": "ALEXIS GENE SHINES FUNY LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15731333996761579521/creative/CR14054957365770321921?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_21",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/802623309289343788"
+        }
+      ]
+    },
+    {
+      "id": "AR01781161042601050113",
+      "name": "SUPERADS INTERNATIONAL TECHNOLOGY LIMITEDĐã xác minh",
+      "legal_name": "SUPERADS INTERNATIONAL TECHNOLOGY LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01781161042601050113/creative/CR10815495643020132353?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_22",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4677944798675237320"
+        }
+      ]
+    },
+    {
+      "id": "AR12012681733414584321",
+      "name": "Công ty TNHH Đầu tư Thương mại và Tư vấn Công nghệ Việt NamĐã xác minh",
+      "legal_name": "Công ty TNHH Đầu tư Thương mại và Tư vấn Công nghệ Việt NamĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12012681733414584321/creative/CR01076990176485441537?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_23",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: matein.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho matein.com",
+          "landing_page": "https://www.matein.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14323942234853149236"
+        }
+      ]
+    }
+  ]
+}

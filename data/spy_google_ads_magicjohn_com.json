@@ -1,0 +1,331 @@
+{
+  "domain": "magicjohn.com",
+  "updated_at": "2026-10-10T14:01:05.411383",
+  "total_advertisers": 10,
+  "total_ads": 200,
+  "super_scale_count": 2,
+  "win_ads_count": 2,
+  "test_ads_count": 6,
+  "advertisers": [
+    {
+      "id": "AR10388606018698346497",
+      "name": "斯嘉德伊兰(深圳)贸易有限公司Đã xác minh",
+      "legal_name": "斯嘉德伊兰(深圳)贸易有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10388606018698346497/creative/CR06880486523850981377?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 95,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 95,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: magicjohn.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho magicjohn.com",
+          "landing_page": "https://www.magicjohn.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 95,
+          "image_url": "https://i.ytimg.com/vi/G0fG6qD_Ips/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR17649564625647173633",
+      "name": "深圳如润数码科技有限公司Đã xác minh",
+      "legal_name": "深圳如润数码科技有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17649564625647173633/creative/CR06792610152945025025?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 93,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 93,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: magicjohn.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho magicjohn.com",
+          "landing_page": "https://www.magicjohn.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 93,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3195650017570518693"
+        }
+      ]
+    },
+    {
+      "id": "AR16549779795001475073",
+      "name": "EURL COURANT AURELIAĐã xác minh",
+      "legal_name": "EURL COURANT AURELIAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16549779795001475073/creative/CR01022764659595280385?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: magicjohn.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho magicjohn.com",
+          "landing_page": "https://www.magicjohn.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8791995926493980061"
+        }
+      ]
+    },
+    {
+      "id": "AR03909976537939574785",
+      "name": "DVSUPPLY LLCĐã xác minh",
+      "legal_name": "DVSUPPLY LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03909976537939574785/creative/CR11480047677803069441?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: magicjohn.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho magicjohn.com",
+          "landing_page": "https://www.magicjohn.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5120168824697197097"
+        }
+      ]
+    },
+    {
+      "id": "AR02797483311381872641",
+      "name": "Neptune Europe LtdĐã xác minh",
+      "legal_name": "Neptune Europe LtdĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02797483311381872641/creative/CR16805578426424492033?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: magicjohn.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho magicjohn.com",
+          "landing_page": "https://www.magicjohn.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11971680304986110732"
+        }
+      ]
+    },
+    {
+      "id": "AR02100543340536659969",
+      "name": "EURL PATRICK LOIGETĐã xác minh",
+      "legal_name": "EURL PATRICK LOIGETĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02100543340536659969/creative/CR04656201988650827777?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: magicjohn.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho magicjohn.com",
+          "landing_page": "https://www.magicjohn.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7865061305839722877"
+        }
+      ]
+    },
+    {
+      "id": "AR00579627938496905217",
+      "name": "CCV TELECOM LTDĐã xác minh",
+      "legal_name": "CCV TELECOM LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00579627938496905217/creative/CR05464232534147596289?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: magicjohn.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho magicjohn.com",
+          "landing_page": "https://www.magicjohn.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14120577574066768474"
+        }
+      ]
+    },
+    {
+      "id": "AR14100694609944379393",
+      "name": "TUTA, LLCĐã xác minh",
+      "legal_name": "TUTA, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14100694609944379393/creative/CR14217829431942053889?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: magicjohn.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho magicjohn.com",
+          "landing_page": "https://www.magicjohn.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1823719231681052236"
+        }
+      ]
+    },
+    {
+      "id": "AR01441183766595764225",
+      "name": "Xun Meng International LimitedĐã xác minh",
+      "legal_name": "Xun Meng International LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01441183766595764225/creative/CR15788809618483838977?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: magicjohn.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho magicjohn.com",
+          "landing_page": "https://www.magicjohn.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4946066410652809131"
+        }
+      ]
+    },
+    {
+      "id": "AR00802616215234150401",
+      "name": "Burns Inc.Đã xác minh",
+      "legal_name": "Burns Inc.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00802616215234150401/creative/CR03365431962490634241?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: magicjohn.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho magicjohn.com",
+          "landing_page": "https://www.magicjohn.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13088295485311869899"
+        }
+      ]
+    }
+  ]
+}

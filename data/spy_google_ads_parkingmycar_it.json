@@ -1,0 +1,43 @@
+{
+  "domain": "parkingmycar.it",
+  "updated_at": "2026-10-10T13:55:26.507470",
+  "total_advertisers": 1,
+  "total_ads": 200,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR04054954937132515329",
+      "name": "PARKINGMYCAR ITALIA SRLĐã xác minh",
+      "legal_name": "PARKINGMYCAR ITALIA SRLĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04054954937132515329/creative/CR05421278609169973249?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 200,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 200,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: parkingmycar.it",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho parkingmycar.it",
+          "landing_page": "https://www.parkingmycar.it",
+          "last_shown": "2026-10-10",
+          "duration_days": 200,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8773014626290598067"
+        }
+      ]
+    }
+  ]
+}

@@ -3,6 +3,7 @@
 # Navigate to project directory
 PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$PROJECT_DIR"
+export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:$PATH"
 
 echo "=========================================================="
 echo "🚀 Khởi động GoAffPro Store Hunter & CRM Local App"

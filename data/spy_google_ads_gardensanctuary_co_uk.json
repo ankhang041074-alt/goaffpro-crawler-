@@ -1,0 +1,511 @@
+{
+  "domain": "gardensanctuary.co.uk",
+  "updated_at": "2026-10-10T14:18:26.427179",
+  "total_advertisers": 16,
+  "total_ads": 111,
+  "super_scale_count": 2,
+  "win_ads_count": 9,
+  "test_ads_count": 5,
+  "advertisers": [
+    {
+      "id": "AR00913528651822137345",
+      "name": "Morden Furniture World LtdĐã xác minh",
+      "legal_name": "Morden Furniture World LtdĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00913528651822137345/creative/CR06975507358105468929?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 70,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 70,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: gardensanctuary.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gardensanctuary.co.uk",
+          "landing_page": "https://www.gardensanctuary.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 70,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18141103341369925235"
+        }
+      ]
+    },
+    {
+      "id": "AR15511961721710313473",
+      "name": "ShopForward B.V.Đã xác minh",
+      "legal_name": "ShopForward B.V.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15511961721710313473/creative/CR15992459169315684353?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 10,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 10,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: gardensanctuary.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gardensanctuary.co.uk",
+          "landing_page": "https://www.gardensanctuary.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 10,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR13893503557929271297",
+      "name": "Ceon Internet ApSĐã xác minh",
+      "legal_name": "Ceon Internet ApSĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13893503557929271297/creative/CR01750124964675059713?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 7,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 7,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: gardensanctuary.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gardensanctuary.co.uk",
+          "landing_page": "https://www.gardensanctuary.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 7,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR05789379726166458369",
+      "name": "Winner.Shopping s.r.o.Đã xác minh",
+      "legal_name": "Winner.Shopping s.r.o.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05789379726166458369/creative/CR13057077351551074305?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: gardensanctuary.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gardensanctuary.co.uk",
+          "landing_page": "https://www.gardensanctuary.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR08704071612724412417",
+      "name": "Ifra ZamanĐã xác minh",
+      "legal_name": "Ifra ZamanĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08704071612724412417/creative/CR13623586827838423041?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: gardensanctuary.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gardensanctuary.co.uk",
+          "landing_page": "https://www.gardensanctuary.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17307120506739642329"
+        }
+      ]
+    },
+    {
+      "id": "AR09120772621137346561",
+      "name": "ΤΣΑΧΕΙΡΙΔΗΣ Π. ΚΑΙ ΣΙA ΟΜΟΡΡΥΘΜΗ ΕΤΑΙΡΕΙΑĐã xác minh",
+      "legal_name": "ΤΣΑΧΕΙΡΙΔΗΣ Π. ΚΑΙ ΣΙA ΟΜΟΡΡΥΘΜΗ ΕΤΑΙΡΕΙΑĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09120772621137346561/creative/CR06222039853798785025?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: gardensanctuary.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gardensanctuary.co.uk",
+          "landing_page": "https://www.gardensanctuary.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR07931414752884948993?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: gardensanctuary.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gardensanctuary.co.uk",
+          "landing_page": "https://www.gardensanctuary.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/675536299486738936"
+        }
+      ]
+    },
+    {
+      "id": "AR02511767587042361345",
+      "name": "LADS STORE LTDĐã xác minh",
+      "legal_name": "LADS STORE LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02511767587042361345/creative/CR14256132783511437313?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: gardensanctuary.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gardensanctuary.co.uk",
+          "landing_page": "https://www.gardensanctuary.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR08169345933809549313",
+      "name": "AL Murtaza Bldg. Construction Co.LLCĐã xác minh",
+      "legal_name": "AL Murtaza Bldg. Construction Co.LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08169345933809549313/creative/CR11412408857788416001?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: gardensanctuary.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gardensanctuary.co.uk",
+          "landing_page": "https://www.gardensanctuary.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4229196364312983097"
+        }
+      ]
+    },
+    {
+      "id": "AR08733614785788116993",
+      "name": "OMIKRON44 G.P.Đã xác minh",
+      "legal_name": "OMIKRON44 G.P.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08733614785788116993/creative/CR01173781593827835905?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: gardensanctuary.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gardensanctuary.co.uk",
+          "landing_page": "https://www.gardensanctuary.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR00735480232810643457",
+      "name": "CODE CLOUD S.R.L.Đã xác minh",
+      "legal_name": "CODE CLOUD S.R.L.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00735480232810643457/creative/CR09229102768768155649?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: gardensanctuary.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gardensanctuary.co.uk",
+          "landing_page": "https://www.gardensanctuary.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR02784575362699362305",
+      "name": "Delupe Global Portal LLCĐã xác minh",
+      "legal_name": "Delupe Global Portal LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02784575362699362305/creative/CR00360598616584224769?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: gardensanctuary.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gardensanctuary.co.uk",
+          "landing_page": "https://www.gardensanctuary.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR10989643054905819137",
+      "name": "Adam Matthew Hamilton WilmshurstĐã xác minh",
+      "legal_name": "Adam Matthew Hamilton WilmshurstĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10989643054905819137/creative/CR18215600143703474177?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: gardensanctuary.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gardensanctuary.co.uk",
+          "landing_page": "https://www.gardensanctuary.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR12716845298085789697",
+      "name": "30M LimitedĐã xác minh",
+      "legal_name": "30M LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12716845298085789697/creative/CR13618894146570813441?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: gardensanctuary.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gardensanctuary.co.uk",
+          "landing_page": "https://www.gardensanctuary.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR12310718018119270401",
+      "name": "Mertin & Thum GbRĐã xác minh",
+      "legal_name": "Mertin & Thum GbRĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12310718018119270401/creative/CR02029963601795612673?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: gardensanctuary.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gardensanctuary.co.uk",
+          "landing_page": "https://www.gardensanctuary.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR09934734756988059649",
+      "name": "Aldoor BVĐã xác minh",
+      "legal_name": "Aldoor BVĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09934734756988059649/creative/CR06055899867270610945?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: gardensanctuary.co.uk",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gardensanctuary.co.uk",
+          "landing_page": "https://www.gardensanctuary.co.uk",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    }
+  ]
+}

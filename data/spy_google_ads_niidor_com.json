@@ -1,0 +1,106 @@
+{
+  "domain": "niidor.com",
+  "updated_at": "2026-10-10T12:43:36.995571",
+  "total_advertisers": 3,
+  "total_ads": 48,
+  "win_ads_count": 2,
+  "super_scale_count": 1,
+  "evergreen_percent": 0,
+  "advertisers": [
+    {
+      "id": "AR00661878726878822401",
+      "name": "深圳市爱腾途科技有限公司",
+      "legal_name": "深圳市爱腾途科技有限公司",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00661878726878822401/creative/CR09123143108077289473?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 35,
+      "longevity_badge": "super_scale",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 40,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Niidor.com Official Offers & Deals",
+          "description": "Shop online at niidor.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.niidor.com/?ref=aff_ar0066",
+          "last_shown": "2026-10-10",
+          "duration_days": 35,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)"
+    },
+    {
+      "id": "AR00661878726878822401",
+      "name": "Niidor.com",
+      "legal_name": "Niidor.com",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00661878726878822401/creative/CR03190582228962770945?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 46,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Niidor.com Official Offers & Deals",
+          "description": "Shop online at niidor.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.niidor.com/?ref=aff_ar0066",
+          "last_shown": "2026-10-10",
+          "duration_days": 46,
+          "image_url": "https://i.ytimg.com/vi/rMbqtfhvJTM/hqdefault.jpg"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR00661878726878822401",
+      "name": "Niidor.com",
+      "legal_name": "Niidor.com",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00661878726878822401/creative/CR18114387942293110785?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 57,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Niidor.com Official Offers & Deals",
+          "description": "Shop online at niidor.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.niidor.com/?ref=aff_ar0066",
+          "last_shown": "2026-10-10",
+          "duration_days": 57,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    }
+  ],
+  "test_ads_count": 0
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "petpawz.com.au",
+  "updated_at": "2026-10-10T14:29:47.376377",
+  "total_advertisers": 1,
+  "total_ads": 104,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR11832019740904128513",
+      "name": "Sello Products Pty LtdĐã xác minh",
+      "legal_name": "Sello Products Pty LtdĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11832019740904128513/creative/CR11597212332643581953?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 104,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 104,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: petpawz.com.au",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho petpawz.com.au",
+          "landing_page": "https://www.petpawz.com.au",
+          "last_shown": "2026-10-10",
+          "duration_days": 104,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10465234477041019126"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "tribe-organics.com",
+  "updated_at": "2026-10-10T14:44:52.172630",
+  "total_advertisers": 1,
+  "total_ads": 135,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR01923225100325224449",
+      "name": "TRIIBE INCĐã xác minh",
+      "legal_name": "TRIIBE INCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01923225100325224449/creative/CR16113483994732953601?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 135,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 135,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: tribe-organics.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho tribe-organics.com",
+          "landing_page": "https://www.tribe-organics.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 135,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10355606972554242989"
+        }
+      ]
+    }
+  ]
+}

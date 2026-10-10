@@ -1,0 +1,74 @@
+{
+  "domain": "omegawalk.com",
+  "updated_at": "2026-10-10T14:32:16.012771",
+  "total_advertisers": 2,
+  "total_ads": 107,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR09620450499333455873",
+      "name": "ZENVARO PTE. LTDĐã xác minh",
+      "legal_name": "ZENVARO PTE. LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09620450499333455873/creative/CR02685188616879079425?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 106,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 106,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: omegawalk.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho omegawalk.com",
+          "landing_page": "https://www.omegawalk.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 106,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7358911694215997605"
+        }
+      ]
+    },
+    {
+      "id": "AR10661988795987001345",
+      "name": "Megan Elizabeth PiepmeyerĐã xác minh",
+      "legal_name": "Megan Elizabeth PiepmeyerĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10661988795987001345/creative/CR13186114000372367361?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: omegawalk.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho omegawalk.com",
+          "landing_page": "https://www.omegawalk.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    }
+  ]
+}

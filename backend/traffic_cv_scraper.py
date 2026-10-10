@@ -18,7 +18,7 @@ from playwright.sync_api import sync_playwright
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
-BROWSER_PROFILE_DIR = DATA_DIR / "browser_profile"
+BROWSER_PROFILE_DIR = DATA_DIR / "chrome_profile_traffic_cv"
 
 logger = logging.getLogger("TrafficCVScraper")
 logging.basicConfig(level=logging.INFO)

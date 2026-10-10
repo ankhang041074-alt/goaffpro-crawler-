@@ -14,14 +14,23 @@ from . import db
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
-BROWSER_PROFILE_DIR = DATA_DIR / "browser_profile"
+BROWSER_PROFILE_DIR = DATA_DIR / "chrome_profile_goaffpro"
 
 active_crawl_threads: Dict[str, threading.Thread] = {}
 active_browsers: Dict[str, Any] = {}
 
 
 def get_profile_dir() -> Path:
-    BROWSER_PROFILE_DIR.mkdir(parents=True, exist_ok=True)
+    if not BROWSER_PROFILE_DIR.exists():
+        old_profile = DATA_DIR / "browser_profile"
+        if old_profile.exists():
+            try:
+                import shutil
+                shutil.copytree(old_profile, BROWSER_PROFILE_DIR, dirs_exist_ok=True)
+            except Exception:
+                BROWSER_PROFILE_DIR.mkdir(parents=True, exist_ok=True)
+        else:
+            BROWSER_PROFILE_DIR.mkdir(parents=True, exist_ok=True)
     return BROWSER_PROFILE_DIR
 
 
@@ -71,7 +80,7 @@ def _force_kill_browser_processes():
     import subprocess
     try:
         if os.name != 'nt':
-            subprocess.run(["pkill", "-f", "browser_profile"], check=False)
+            subprocess.run(["pkill", "-f", "chrome_profile_goaffpro"], check=False)
         time.sleep(0.5)
     except Exception as e:
         print(f"Error killing existing browser: {e}")

@@ -1,0 +1,44 @@
+{
+  "domain": "bryghtenup.com",
+  "updated_at": "2026-10-10T12:43:52.062189",
+  "total_advertisers": 1,
+  "total_ads": 2,
+  "win_ads_count": 1,
+  "super_scale_count": 0,
+  "evergreen_percent": 0,
+  "advertisers": [
+    {
+      "id": "AR07022948699273691137",
+      "name": "NO5 DISTRIBUTING",
+      "legal_name": "NO5 DISTRIBUTING",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07022948699273691137/creative/CR00306393904515645441?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 35,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Bryghtenup.com Official Offers & Deals",
+          "description": "Shop online at bryghtenup.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.bryghtenup.com/?ref=aff_ar0702",
+          "last_shown": "2026-10-10",
+          "duration_days": 35,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5273916458157012256"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    }
+  ],
+  "test_ads_count": 0
+}

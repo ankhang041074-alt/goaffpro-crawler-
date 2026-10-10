@@ -1,0 +1,328 @@
+{
+  "domain": "windhorse.com",
+  "updated_at": "2026-10-10T14:12:54.117893",
+  "total_advertisers": 10,
+  "total_ads": 80,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 9,
+  "advertisers": [
+    {
+      "id": "AR00888835321469337601",
+      "name": "YIMING ZHAOĐã xác minh",
+      "legal_name": "YIMING ZHAOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00888835321469337601/creative/CR03553592383784353793?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 71,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 71,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: windhorse.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho windhorse.com",
+          "landing_page": "https://www.windhorse.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 71,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1595974393200660408"
+        }
+      ]
+    },
+    {
+      "id": "AR05842767664304357377",
+      "name": "TỔNG CÔNG TY VIỄN THÔNG VIETTEL - CHI NHÁNH TẬP ĐOÀN CÔNG NGHIỆP - VIỄN THÔNG QUÂN ĐỘIĐã xác minh",
+      "legal_name": "TỔNG CÔNG TY VIỄN THÔNG VIETTEL - CHI NHÁNH TẬP ĐOÀN CÔNG NGHIỆP - VIỄN THÔNG QUÂN ĐỘIĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05842767664304357377/creative/CR13639684674501476353?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: windhorse.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho windhorse.com",
+          "landing_page": "https://www.windhorse.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1388250634187209354"
+        }
+      ]
+    },
+    {
+      "id": "AR07569484524640272385",
+      "name": "Hong Kong Ruixin Zhike Group Co., LimitedĐã xác minh",
+      "legal_name": "Hong Kong Ruixin Zhike Group Co., LimitedĐã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07569484524640272385/creative/CR01845250931139018753?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: windhorse.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho windhorse.com",
+          "landing_page": "https://www.windhorse.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9139231164154141985"
+        }
+      ]
+    },
+    {
+      "id": "AR13903911715386425345",
+      "name": "Sania AmirĐã xác minh",
+      "legal_name": "Sania AmirĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13903911715386425345/creative/CR11855263167607209985?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: windhorse.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho windhorse.com",
+          "landing_page": "https://www.windhorse.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2558114549794005576"
+        }
+      ]
+    },
+    {
+      "id": "AR04228904840652128257",
+      "name": "PATRICK MITCHELLĐã xác minh",
+      "legal_name": "PATRICK MITCHELLĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04228904840652128257/creative/CR10638551193812467713?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: windhorse.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho windhorse.com",
+          "landing_page": "https://www.windhorse.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR06784317911126245377",
+      "name": "ĐÀO NGỌC DIỆPĐã xác minh",
+      "legal_name": "ĐÀO NGỌC DIỆPĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06784317911126245377/creative/CR14534942226208784385?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: windhorse.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho windhorse.com",
+          "landing_page": "https://www.windhorse.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15581112556524955861"
+        }
+      ]
+    },
+    {
+      "id": "AR01886734568552136705",
+      "name": "PATRONUM WEB PRIVATE LIMITEDĐã xác minh",
+      "legal_name": "PATRONUM WEB PRIVATE LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01886734568552136705/creative/CR00504443780066181121?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: windhorse.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho windhorse.com",
+          "landing_page": "https://www.windhorse.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12634779901048829186"
+        }
+      ]
+    },
+    {
+      "id": "AR01823531015235174401",
+      "name": "IBILAL.COM FOR INTERNET CONSULTANCY CO. L.L.CĐã xác minh",
+      "legal_name": "IBILAL.COM FOR INTERNET CONSULTANCY CO. L.L.CĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01823531015235174401/creative/CR11333911896593006593?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: windhorse.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho windhorse.com",
+          "landing_page": "https://www.windhorse.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR01441183766595764225",
+      "name": "Xun Meng International LimitedĐã xác minh",
+      "legal_name": "Xun Meng International LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01441183766595764225/creative/CR12487718370621259777?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: windhorse.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho windhorse.com",
+          "landing_page": "https://www.windhorse.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR17414382172252405761?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: windhorse.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho windhorse.com",
+          "landing_page": "https://www.windhorse.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8340065825877098390"
+        }
+      ]
+    }
+  ]
+}

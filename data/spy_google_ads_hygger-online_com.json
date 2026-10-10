@@ -1,0 +1,331 @@
+{
+  "domain": "hygger-online.com",
+  "updated_at": "2026-10-10T14:06:49.532438",
+  "total_advertisers": 10,
+  "total_ads": 101,
+  "super_scale_count": 1,
+  "win_ads_count": 2,
+  "test_ads_count": 7,
+  "advertisers": [
+    {
+      "id": "AR17940593946086342657",
+      "name": "HYGGER AQUARIUM INCĐã xác minh",
+      "legal_name": "HYGGER AQUARIUM INCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17940593946086342657/creative/CR09569096365649166337?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 90,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 90,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hygger-online.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hygger-online.com",
+          "landing_page": "https://www.hygger-online.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 90,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14270575612047128547"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR12986386416106733569?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hygger-online.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hygger-online.com",
+          "landing_page": "https://www.hygger-online.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9793383047275058843"
+        }
+      ]
+    },
+    {
+      "id": "AR01441183766595764225",
+      "name": "Xun Meng International LimitedĐã xác minh",
+      "legal_name": "Xun Meng International LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01441183766595764225/creative/CR00586410447771533313?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hygger-online.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hygger-online.com",
+          "landing_page": "https://www.hygger-online.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2316747177072135524"
+        }
+      ]
+    },
+    {
+      "id": "AR06750482777243648001",
+      "name": "ADVANCE CARE HOME HEALTH AGENCY INCĐã xác minh",
+      "legal_name": "ADVANCE CARE HOME HEALTH AGENCY INCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06750482777243648001/creative/CR15801132532491091969?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hygger-online.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hygger-online.com",
+          "landing_page": "https://www.hygger-online.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12829337037965260993"
+        }
+      ]
+    },
+    {
+      "id": "AR10496448524332302337",
+      "name": "ALLAN E. SEWARD ENGINEERING GEOLOGY, INC.Đã xác minh",
+      "legal_name": "ALLAN E. SEWARD ENGINEERING GEOLOGY, INC.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10496448524332302337/creative/CR08230286889765044225?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hygger-online.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hygger-online.com",
+          "landing_page": "https://www.hygger-online.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12061075561380857510"
+        }
+      ]
+    },
+    {
+      "id": "AR05320691050623270913",
+      "name": "Alfonso D. Gonzalez Dental CorporationĐã xác minh",
+      "legal_name": "Alfonso D. Gonzalez Dental CorporationĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05320691050623270913/creative/CR11250091177405317121?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hygger-online.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hygger-online.com",
+          "landing_page": "https://www.hygger-online.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2983959906644135488"
+        }
+      ]
+    },
+    {
+      "id": "AR12155782819582312449",
+      "name": "\"AS Asphaltstraßensanierung GmbH\"Đã xác minh",
+      "legal_name": "\"AS Asphaltstraßensanierung GmbH\"Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12155782819582312449/creative/CR02720163257124913153?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hygger-online.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hygger-online.com",
+          "landing_page": "https://www.hygger-online.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11932056057715735307"
+        }
+      ]
+    },
+    {
+      "id": "AR12429688277211021313",
+      "name": "KMG MEDICAL GROUP MO, P.C.Đã xác minh",
+      "legal_name": "KMG MEDICAL GROUP MO, P.C.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12429688277211021313/creative/CR02610155263340052481?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hygger-online.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hygger-online.com",
+          "landing_page": "https://www.hygger-online.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6745593331573183490"
+        }
+      ]
+    },
+    {
+      "id": "AR06251483314901745665",
+      "name": "HongKong AdTiger Media Co., Limited",
+      "legal_name": "HongKong AdTiger Media Co., Limited",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06251483314901745665/creative/CR17753853432390746113?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hygger-online.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hygger-online.com",
+          "landing_page": "https://www.hygger-online.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14088509210536121261"
+        }
+      ]
+    },
+    {
+      "id": "AR16767039452949250049",
+      "name": "Connect Profit (Hong Kong) LimitedĐã xác minh",
+      "legal_name": "Connect Profit (Hong Kong) LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16767039452949250049/creative/CR09926620919520821249?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hygger-online.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hygger-online.com",
+          "landing_page": "https://www.hygger-online.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7735901307839120736"
+        }
+      ]
+    }
+  ]
+}

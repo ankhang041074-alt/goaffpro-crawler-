@@ -1,0 +1,76 @@
+{
+  "domain": "tanfanco.com",
+  "updated_at": "2026-10-10T12:33:34.476858",
+  "total_advertisers": 2,
+  "total_ads": 2,
+  "win_ads_count": 0,
+  "super_scale_count": 0,
+  "evergreen_percent": 0,
+  "advertisers": [
+    {
+      "id": "AR17720351313092411393",
+      "name": "HỘ KINH DOANH NGUYỄN THANH VƯƠNG",
+      "legal_name": "HỘ KINH DOANH NGUYỄN THANH VƯƠNG",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17720351313092411393/creative/CR14512366228833566721?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 35,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Tanfanco.com Official Offers & Deals",
+          "description": "Shop online at tanfanco.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.tanfanco.com/?ref=aff_ar1772",
+          "last_shown": "2026-10-10",
+          "duration_days": 35,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5872533825996134268"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR02975587272910438401",
+      "name": "Marketing services",
+      "legal_name": "Marketing services",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02975587272910438401/creative/CR07405753404879798273?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 46,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Tanfanco.com Official Offers & Deals",
+          "description": "Shop online at tanfanco.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.tanfanco.com/?ref=aff_ar0297",
+          "last_shown": "2026-10-10",
+          "duration_days": 46,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6724401502300542274"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    }
+  ],
+  "test_ads_count": 2
+}

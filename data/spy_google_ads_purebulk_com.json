@@ -1,0 +1,171 @@
+{
+  "domain": "purebulk.com",
+  "updated_at": "2026-10-10T14:22:37.166855",
+  "total_advertisers": 5,
+  "total_ads": 93,
+  "super_scale_count": 2,
+  "win_ads_count": 3,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR13781113644001525761",
+      "name": "PureBulk, Inc.Đã xác minh",
+      "legal_name": "PureBulk, Inc.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13781113644001525761/creative/CR04075429578808492033?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 59,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 59,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: purebulk.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho purebulk.com",
+          "landing_page": "https://www.purebulk.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 59,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12401075405343333389"
+        }
+      ]
+    },
+    {
+      "id": "AR16862145954621423617",
+      "name": "PURPLEMELODY INC.Đã xác minh",
+      "legal_name": "PURPLEMELODY INC.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16862145954621423617/creative/CR01316506793047752705?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: purebulk.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho purebulk.com",
+          "landing_page": "https://www.purebulk.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4106531113476055325"
+        }
+      ]
+    },
+    {
+      "id": "AR10299459540063617025",
+      "name": "ĐẶNG THÁI SƠNĐã xác minh",
+      "legal_name": "ĐẶNG THÁI SƠNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10299459540063617025/creative/CR18355625698279817217?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: purebulk.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho purebulk.com",
+          "landing_page": "https://www.purebulk.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4011091691478302378"
+        }
+      ]
+    },
+    {
+      "id": "AR16767039452949250049",
+      "name": "Connect Profit (Hong Kong) LimitedĐã xác minh",
+      "legal_name": "Connect Profit (Hong Kong) LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16767039452949250049/creative/CR13401225272729010177?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: purebulk.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho purebulk.com",
+          "landing_page": "https://www.purebulk.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1927304672753687891"
+        }
+      ]
+    },
+    {
+      "id": "AR01066773394181062657",
+      "name": "Brawo Press Inc.Đã xác minh",
+      "legal_name": "Brawo Press Inc.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01066773394181062657/creative/CR02631381876480147457?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 28,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 28,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: purebulk.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho purebulk.com",
+          "landing_page": "https://www.purebulk.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 28,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15758786748021811893"
+        }
+      ]
+    }
+  ]
+}

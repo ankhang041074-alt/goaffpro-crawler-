@@ -1,0 +1,648 @@
+{
+  "domain": "wanbo.cn",
+  "updated_at": "2026-10-10T14:05:46.649498",
+  "total_advertisers": 20,
+  "total_ads": 85,
+  "super_scale_count": 1,
+  "win_ads_count": 19,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR14535923909703761921",
+      "name": "深圳万播科技有限公司Đã xác minh",
+      "legal_name": "深圳万播科技有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14535923909703761921/creative/CR10058318841747865601?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 46,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 46,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wanbo.cn",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wanbo.cn",
+          "landing_page": "https://www.wanbo.cn",
+          "last_shown": "2026-10-10",
+          "duration_days": 46,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11383218649172536649"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR17658624455431159809?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wanbo.cn",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wanbo.cn",
+          "landing_page": "https://www.wanbo.cn",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11188557930698772148"
+        }
+      ]
+    },
+    {
+      "id": "AR03796406513027776513",
+      "name": "CÔNG TY TNHH MTV FC MAILISAĐã xác minh",
+      "legal_name": "CÔNG TY TNHH MTV FC MAILISAĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03796406513027776513/creative/CR16206998738575556609?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wanbo.cn",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wanbo.cn",
+          "landing_page": "https://www.wanbo.cn",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14672102537116390509"
+        }
+      ]
+    },
+    {
+      "id": "AR13641592026527956993",
+      "name": "Hamid ArifĐã xác minh",
+      "legal_name": "Hamid ArifĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13641592026527956993/creative/CR09117768763960197121?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wanbo.cn",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wanbo.cn",
+          "landing_page": "https://www.wanbo.cn",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3671865490762888243"
+        }
+      ]
+    },
+    {
+      "id": "AR18336776289408516097",
+      "name": "LƯU VẪN THUẬTĐã xác minh",
+      "legal_name": "LƯU VẪN THUẬTĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18336776289408516097/creative/CR05045739167162564609?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wanbo.cn",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wanbo.cn",
+          "landing_page": "https://www.wanbo.cn",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11038548834770372441"
+        }
+      ]
+    },
+    {
+      "id": "AR12419750246874087425",
+      "name": "DIGITAL ADS - FZCOĐã xác minh",
+      "legal_name": "DIGITAL ADS - FZCOĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12419750246874087425/creative/CR06516257251152363521?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wanbo.cn",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wanbo.cn",
+          "landing_page": "https://www.wanbo.cn",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13565553407998646688"
+        }
+      ]
+    },
+    {
+      "id": "AR01823531015235174401",
+      "name": "IBILAL.COM FOR INTERNET CONSULTANCY CO. L.L.CĐã xác minh",
+      "legal_name": "IBILAL.COM FOR INTERNET CONSULTANCY CO. L.L.CĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01823531015235174401/creative/CR16243389781726199809?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wanbo.cn",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wanbo.cn",
+          "landing_page": "https://www.wanbo.cn",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6741188447173711265"
+        }
+      ]
+    },
+    {
+      "id": "AR03950641150859149313",
+      "name": "GLENN RICARDO BROTHERS JRĐã xác minh",
+      "legal_name": "GLENN RICARDO BROTHERS JRĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03950641150859149313/creative/CR07340691960379736065?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: wanbo.cn",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wanbo.cn",
+          "landing_page": "https://www.wanbo.cn",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR15817325736018051073",
+      "name": "ĐÀM MINH TRƯỜNGĐã xác minh",
+      "legal_name": "ĐÀM MINH TRƯỜNGĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15817325736018051073/creative/CR00225928413779591169?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wanbo.cn",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wanbo.cn",
+          "landing_page": "https://www.wanbo.cn",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10798383955933066229"
+        }
+      ]
+    },
+    {
+      "id": "AR07777431310510850049",
+      "name": "ĐẶNG ĐỨC THÔNGĐã xác minh",
+      "legal_name": "ĐẶNG ĐỨC THÔNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07777431310510850049/creative/CR03819969691456110593?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wanbo.cn",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wanbo.cn",
+          "landing_page": "https://www.wanbo.cn",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6219060401257519361"
+        }
+      ]
+    },
+    {
+      "id": "AR15175721041482743809",
+      "name": "Nguyễn Quang HuyĐã xác minh",
+      "legal_name": "Nguyễn Quang HuyĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15175721041482743809/creative/CR08947659403016798209?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: wanbo.cn",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wanbo.cn",
+          "landing_page": "https://www.wanbo.cn",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR11262975254659596289",
+      "name": "NGUYỄN THỊ THẮMĐã xác minh",
+      "legal_name": "NGUYỄN THỊ THẮMĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11262975254659596289/creative/CR13677219665011539969?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: wanbo.cn",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wanbo.cn",
+          "landing_page": "https://www.wanbo.cn",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR00556997730044477441",
+      "name": "HongKong AdTiger Media Co., Limited",
+      "legal_name": "HongKong AdTiger Media Co., Limited",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00556997730044477441/creative/CR11527472397447856129?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wanbo.cn",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wanbo.cn",
+          "landing_page": "https://www.wanbo.cn",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16060912045862498816"
+        }
+      ]
+    },
+    {
+      "id": "AR09717926439973552129",
+      "name": "MISS WATSAMON PHUTTHAMKULĐã xác minh",
+      "legal_name": "MISS WATSAMON PHUTTHAMKULĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09717926439973552129/creative/CR15001603136022380545?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wanbo.cn",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wanbo.cn",
+          "landing_page": "https://www.wanbo.cn",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://i.ytimg.com/vi/bS0EG-RgZN4/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR00921748119715053569",
+      "name": "Hồ Ngọc HiếuĐã xác minh",
+      "legal_name": "Hồ Ngọc HiếuĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00921748119715053569/creative/CR13140222858930159617?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wanbo.cn",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wanbo.cn",
+          "landing_page": "https://www.wanbo.cn",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6296370305402588645"
+        }
+      ]
+    },
+    {
+      "id": "AR16767039452949250049",
+      "name": "Connect Profit (Hong Kong) LimitedĐã xác minh",
+      "legal_name": "Connect Profit (Hong Kong) LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16767039452949250049/creative/CR12084820957600940033?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wanbo.cn",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wanbo.cn",
+          "landing_page": "https://www.wanbo.cn",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17014690979135764448"
+        }
+      ]
+    },
+    {
+      "id": "AR04892846723791060993",
+      "name": "CÔNG TY TNHH LLD DIGITAL MEDIAĐã xác minh",
+      "legal_name": "CÔNG TY TNHH LLD DIGITAL MEDIAĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04892846723791060993/creative/CR16148527672283103233?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wanbo.cn",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wanbo.cn",
+          "landing_page": "https://www.wanbo.cn",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16010700899963956518"
+        }
+      ]
+    },
+    {
+      "id": "AR14714308195157803009",
+      "name": "K&K ADVERTISING LTDĐã xác minh",
+      "legal_name": "K&K ADVERTISING LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14714308195157803009/creative/CR17424481470021369857?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wanbo.cn",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wanbo.cn",
+          "landing_page": "https://www.wanbo.cn",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5482872144399277235"
+        }
+      ]
+    },
+    {
+      "id": "AR11042681133597720577",
+      "name": "HERA COMERCIO ALIMENTOS LTDAĐã xác minh",
+      "legal_name": "HERA COMERCIO ALIMENTOS LTDAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11042681133597720577/creative/CR11342964656860823553?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_18",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wanbo.cn",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wanbo.cn",
+          "landing_page": "https://www.wanbo.cn",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18034474915853325530"
+        }
+      ]
+    },
+    {
+      "id": "AR17827254741306966017",
+      "name": "Phan Lệ HằngĐã xác minh",
+      "legal_name": "Phan Lệ HằngĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17827254741306966017/creative/CR16778732166405160961?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_19",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wanbo.cn",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wanbo.cn",
+          "landing_page": "https://www.wanbo.cn",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14943354533975875700"
+        }
+      ]
+    }
+  ]
+}

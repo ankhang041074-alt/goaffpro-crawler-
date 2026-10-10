@@ -1,0 +1,43 @@
+{
+  "domain": "neewer.com",
+  "updated_at": "2026-10-10T13:54:04.832996",
+  "total_advertisers": 1,
+  "total_ads": 200,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR05540123137389101057",
+      "name": "Pleasant Stone IncĐã xác minh",
+      "legal_name": "Pleasant Stone IncĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05540123137389101057/creative/CR13453422456953896961?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 200,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 200,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: neewer.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho neewer.com",
+          "landing_page": "https://www.neewer.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 200,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2127474595848735989"
+        }
+      ]
+    }
+  ]
+}

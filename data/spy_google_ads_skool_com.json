@@ -1,0 +1,2322 @@
+{
+  "domain": "skool.com",
+  "updated_at": "2026-10-10T13:50:45.270870",
+  "total_advertisers": 73,
+  "total_ads": 200,
+  "super_scale_count": 1,
+  "win_ads_count": 41,
+  "test_ads_count": 31,
+  "advertisers": [
+    {
+      "id": "AR15535701981640261633",
+      "name": "JOSE MARIA LUQUE GOMEZĐã xác minh",
+      "legal_name": "JOSE MARIA LUQUE GOMEZĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15535701981640261633/creative/CR11887776825952174081?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR04785761266272567297",
+      "name": "Blake Willard Educational Consulting, LLC.Đã xác minh",
+      "legal_name": "Blake Willard Educational Consulting, LLC.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04785761266272567297/creative/CR03059467013538709505?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR01441183766595764225",
+      "name": "Xun Meng International LimitedĐã xác minh",
+      "legal_name": "Xun Meng International LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01441183766595764225/creative/CR12629475484212658177?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/808015685009186507"
+        }
+      ]
+    },
+    {
+      "id": "AR07079837637053251585",
+      "name": "JP CP LLCĐã xác minh",
+      "legal_name": "JP CP LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07079837637053251585/creative/CR05082860328983724033?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR04187595690580377601",
+      "name": "DIGIDREAM.s.r.o.Đã xác minh",
+      "legal_name": "DIGIDREAM.s.r.o.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04187595690580377601/creative/CR03854167638406070273?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 35,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 35,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 35,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4961717333819093015"
+        }
+      ]
+    },
+    {
+      "id": "AR04943732276543356929",
+      "name": "Distributors Group PTY LTD Trading As Courses For SuccessĐã xác minh",
+      "legal_name": "Distributors Group PTY LTD Trading As Courses For SuccessĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04943732276543356929/creative/CR11129406822635536385?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8081324038764814579"
+        }
+      ]
+    },
+    {
+      "id": "AR09583571444818771969",
+      "name": "MarketMates LimitedĐã xác minh",
+      "legal_name": "MarketMates LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09583571444818771969/creative/CR01680239627656495105?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3905020946024371432"
+        }
+      ]
+    },
+    {
+      "id": "AR14734835338514006017",
+      "name": "JOSE AMADO MORTEO CORDOVAĐã xác minh",
+      "legal_name": "JOSE AMADO MORTEO CORDOVAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14734835338514006017/creative/CR01740138822114476033?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR06926514313972678657",
+      "name": "Hedi SaidiĐã xác minh",
+      "legal_name": "Hedi SaidiĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06926514313972678657/creative/CR04441287047839219713?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://i.ytimg.com/vi/0qX2w91Pk8Q/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR12286575637581266945",
+      "name": "Christopher David WendtĐã xác minh",
+      "legal_name": "Christopher David WendtĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12286575637581266945/creative/CR13414638936630755329?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 5,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 5,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 5,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15646089544758508052"
+        }
+      ]
+    },
+    {
+      "id": "AR02470076588608192513",
+      "name": "Noontide Collective LLCĐã xác minh",
+      "legal_name": "Noontide Collective LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02470076588608192513/creative/CR03848991378180669441?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1658867701872570557"
+        }
+      ]
+    },
+    {
+      "id": "AR17806079384306581505",
+      "name": "Lotus Production houseĐã xác minh",
+      "legal_name": "Lotus Production houseĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17806079384306581505/creative/CR15943150092899319809?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR09864683668591607809",
+      "name": "Roman HruškaĐã xác minh",
+      "legal_name": "Roman HruškaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09864683668591607809/creative/CR13503227078106939393?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 6,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 6,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5984599759070305995"
+        }
+      ]
+    },
+    {
+      "id": "AR09766018692025417729",
+      "name": "COBE EMILIANO FERNANDOĐã xác minh",
+      "legal_name": "COBE EMILIANO FERNANDOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09766018692025417729/creative/CR04405426579178520577?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 9,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 9,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 9,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12215685473724158229"
+        }
+      ]
+    },
+    {
+      "id": "AR13578620891071250433",
+      "name": "Isabel Noé da Silva MonteĐã xác minh",
+      "legal_name": "Isabel Noé da Silva MonteĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13578620891071250433/creative/CR15763929697571831809?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR07472436706340241409",
+      "name": "ANDRE PINTO GRANITO 39648734895Đã xác minh",
+      "legal_name": "ANDRE PINTO GRANITO 39648734895Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07472436706340241409/creative/CR03525278447540633601?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 6,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 6,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4255657563653366788"
+        }
+      ]
+    },
+    {
+      "id": "AR11540623132041674753",
+      "name": "AFFIĐã xác minh",
+      "legal_name": "AFFIĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11540623132041674753/creative/CR00946687079247511553?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 6,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 6,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13555006452870236671"
+        }
+      ]
+    },
+    {
+      "id": "AR09530749205413363713",
+      "name": "Chislain Nangse JueyaĐã xác minh",
+      "legal_name": "Chislain Nangse JueyaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09530749205413363713/creative/CR00178969371668905985?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR17199856037650235393",
+      "name": "Martin JovanovicĐã xác minh",
+      "legal_name": "Martin JovanovicĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17199856037650235393/creative/CR03122466281031204865?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 6,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_18",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 6,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1836433068803023713"
+        }
+      ]
+    },
+    {
+      "id": "AR12005525278517362689",
+      "name": "Giannis PsaropoulosĐã xác minh",
+      "legal_name": "Giannis PsaropoulosĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12005525278517362689/creative/CR03528895291040202753?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 7,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 7,
+      "creatives": [
+        {
+          "id": "CR_SCR_19",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 7,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1456708036073069487"
+        }
+      ]
+    },
+    {
+      "id": "AR06223263730499584001",
+      "name": "JASON WRAY SCOTTĐã xác minh",
+      "legal_name": "JASON WRAY SCOTTĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06223263730499584001/creative/CR04987394415858286593?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_20",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://i.ytimg.com/vi/LOa0cVcoQkA/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR02100953767611465729",
+      "name": "Amir khajavi bajestaniĐã xác minh",
+      "legal_name": "Amir khajavi bajestaniĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02100953767611465729/creative/CR13740995428231413761?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_21",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR11489679854928920577",
+      "name": "STUDIO26 LtdĐã xác minh",
+      "legal_name": "STUDIO26 LtdĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11489679854928920577/creative/CR18261316428437127169?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_22",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13142883947587316174"
+        }
+      ]
+    },
+    {
+      "id": "AR01014354211686580225",
+      "name": "KLIK Michał ListwońĐã xác minh",
+      "legal_name": "KLIK Michał ListwońĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01014354211686580225/creative/CR18288794289167138817?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_23",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12093834272668695799"
+        }
+      ]
+    },
+    {
+      "id": "AR05254621637428379649",
+      "name": "Mohamed BounaddiĐã xác minh",
+      "legal_name": "Mohamed BounaddiĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05254621637428379649/creative/CR09370260785961369601?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_24",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR04016537433922338817",
+      "name": "Josep Montalat CollĐã xác minh",
+      "legal_name": "Josep Montalat CollĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04016537433922338817/creative/CR12384328062446075905?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_25",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17128790241153805612"
+        }
+      ]
+    },
+    {
+      "id": "AR07797798114147958785",
+      "name": "KRISTINA MARIE JACOBSĐã xác minh",
+      "legal_name": "KRISTINA MARIE JACOBSĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07797798114147958785/creative/CR01999720495091548161?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_26",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16187153586984042667"
+        }
+      ]
+    },
+    {
+      "id": "AR10565274035220905985",
+      "name": "MINH HY TRANĐã xác minh",
+      "legal_name": "MINH HY TRANĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10565274035220905985/creative/CR01722712559246639105?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_27",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16330276119622075994"
+        }
+      ]
+    },
+    {
+      "id": "AR01497886989989445633",
+      "name": "UDE KURUMSAL VE BİREYSEL GELİŞİM HİZ. ULUS. TİC. LTD. ŞTİ.Đã xác minh",
+      "legal_name": "UDE KURUMSAL VE BİREYSEL GELİŞİM HİZ. ULUS. TİC. LTD. ŞTİ.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01497886989989445633/creative/CR11039125922878849025?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_28",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6716186523437363973"
+        }
+      ]
+    },
+    {
+      "id": "AR02025273626357399553",
+      "name": "REKHIFY ENTERPRISES LLPĐã xác minh",
+      "legal_name": "REKHIFY ENTERPRISES LLPĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02025273626357399553/creative/CR11672380608285245441?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_29",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2666703537759903434"
+        }
+      ]
+    },
+    {
+      "id": "AR12953777048710545409",
+      "name": "Donald Carlos ScarperoĐã xác minh",
+      "legal_name": "Donald Carlos ScarperoĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12953777048710545409/creative/CR07237194561489993729?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_30",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://i.ytimg.com/vi/8syC7c_Dfkc/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR05536077681923194881",
+      "name": "Charles ConroyĐã xác minh",
+      "legal_name": "Charles ConroyĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05536077681923194881/creative/CR12536848535879942145?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_31",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5152054956455392498"
+        }
+      ]
+    },
+    {
+      "id": "AR11337002838527049729",
+      "name": "Milestone Endeavors LLCĐã xác minh",
+      "legal_name": "Milestone Endeavors LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11337002838527049729/creative/CR16270501857271480321?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_32",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3551258709003527210"
+        }
+      ]
+    },
+    {
+      "id": "AR12444148530153521153",
+      "name": "Mehmet Hamdi Bol",
+      "legal_name": "Mehmet Hamdi Bol",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12444148530153521153/creative/CR10065768410983170049?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_33",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR10473892833562460161",
+      "name": "D & D Tax Solutions LLCĐã xác minh",
+      "legal_name": "D & D Tax Solutions LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10473892833562460161/creative/CR09772480281343688705?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_34",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7334684300172968595"
+        }
+      ]
+    },
+    {
+      "id": "AR17346691769680527361",
+      "name": "MANON BORDESĐã xác minh",
+      "legal_name": "MANON BORDESĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17346691769680527361/creative/CR17470629029601083393?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_35",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR14953517781687992321",
+      "name": "ADBREAK TECHNOLOGIES LTDĐã xác minh",
+      "legal_name": "ADBREAK TECHNOLOGIES LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14953517781687992321/creative/CR01552421022970413057?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_36",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://i.ytimg.com/vi/sal0lb0-CMM/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR15420012115489980417",
+      "name": "María Victoria Almada GaraycocheaĐã xác minh",
+      "legal_name": "María Victoria Almada GaraycocheaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15420012115489980417/creative/CR07577428461791215617?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_37",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16353956473100474666"
+        }
+      ]
+    },
+    {
+      "id": "AR05972699487389351937",
+      "name": "Magnus Engdahl LLCĐã xác minh",
+      "legal_name": "Magnus Engdahl LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05972699487389351937/creative/CR00726799768897978369?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 6,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_38",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 6,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR07352147059064963073",
+      "name": "Social Commerce Club IncĐã xác minh",
+      "legal_name": "Social Commerce Club IncĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07352147059064963073/creative/CR07085391407724101633?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_39",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR11707120468438810625",
+      "name": "Nel Vilella FariasĐã xác minh",
+      "legal_name": "Nel Vilella FariasĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11707120468438810625/creative/CR04765785914544750593?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_40",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1143198216544490401"
+        }
+      ]
+    },
+    {
+      "id": "AR11559908514453258241",
+      "name": "STEVEN MAHARAJĐã xác minh",
+      "legal_name": "STEVEN MAHARAJĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11559908514453258241/creative/CR06780288578967568385?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_41",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR17889952519275151361",
+      "name": "Kory Lee PrinceĐã xác minh",
+      "legal_name": "Kory Lee PrinceĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17889952519275151361/creative/CR04725187718999441409?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_42",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2656159229202793044"
+        }
+      ]
+    },
+    {
+      "id": "AR02400351685798002689",
+      "name": "KHANG HUY HOLIDAY VIET NAMĐã xác minh",
+      "legal_name": "KHANG HUY HOLIDAY VIET NAMĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02400351685798002689/creative/CR16276374761192292353?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_43",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14797043789393752171"
+        }
+      ]
+    },
+    {
+      "id": "AR12315085974089498625",
+      "name": "Dental Digital Prodecad S.L.Đã xác minh",
+      "legal_name": "Dental Digital Prodecad S.L.Đã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12315085974089498625/creative/CR15698387156605075457?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_44",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR14787700201174859777",
+      "name": "Rascals EducationĐã xác minh",
+      "legal_name": "Rascals EducationĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14787700201174859777/creative/CR04723886103390584833?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_45",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18393198256250505459"
+        }
+      ]
+    },
+    {
+      "id": "AR17065849948458713089",
+      "name": "Source of Longevity Kft.Đã xác minh",
+      "legal_name": "Source of Longevity Kft.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17065849948458713089/creative/CR01909339196179349505?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_46",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://i.ytimg.com/vi/HOn85dOfWaI/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR15157962184937439233",
+      "name": "agrici danielĐã xác minh",
+      "legal_name": "agrici danielĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15157962184937439233/creative/CR05174401269065842689?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_47",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR15218818667476156417",
+      "name": "DAWID JOWO KOSTOWĐã xác minh",
+      "legal_name": "DAWID JOWO KOSTOWĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15218818667476156417/creative/CR07441645372830646273?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_48",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR18381803360740179969",
+      "name": "Daniel Sanchez-Crespo DalmauĐã xác minh",
+      "legal_name": "Daniel Sanchez-Crespo DalmauĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18381803360740179969/creative/CR14054719630740553729?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_49",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR05304024232462647297",
+      "name": "Gold Mountain Media BVĐã xác minh",
+      "legal_name": "Gold Mountain Media BVĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05304024232462647297/creative/CR02124655321296142337?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_50",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3027955542341745813"
+        }
+      ]
+    },
+    {
+      "id": "AR17442419950688927745",
+      "name": "Michael DeerĐã xác minh",
+      "legal_name": "Michael DeerĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17442419950688927745/creative/CR14867149081741885441?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_51",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8847523460245580849"
+        }
+      ]
+    },
+    {
+      "id": "AR15493459569534828545",
+      "name": "PHILIP D WILSONĐã xác minh",
+      "legal_name": "PHILIP D WILSONĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15493459569534828545/creative/CR09711132514675851265?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_52",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11627775675749046144"
+        }
+      ]
+    },
+    {
+      "id": "AR17383913923362684929",
+      "name": "IMAD SONIC KARAYELĐã xác minh",
+      "legal_name": "IMAD SONIC KARAYELĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17383913923362684929/creative/CR03847687108282023937?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_53",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://i.ytimg.com/vi/X_Q6LzMkCGI/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR06688294305087356929",
+      "name": "CraigAds LLCĐã xác minh",
+      "legal_name": "CraigAds LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06688294305087356929/creative/CR04476252101718048769?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_54",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/975937825231100980"
+        }
+      ]
+    },
+    {
+      "id": "AR00435676277005877249",
+      "name": "Mohamad SalehĐã xác minh",
+      "legal_name": "Mohamad SalehĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00435676277005877249/creative/CR06049903105082916865?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_55",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17901879837604186979"
+        }
+      ]
+    },
+    {
+      "id": "AR15870671789634879489",
+      "name": "Steven BraunĐã xác minh",
+      "legal_name": "Steven BraunĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15870671789634879489/creative/CR02511303292487729153?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_56",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5738752388508173513"
+        }
+      ]
+    },
+    {
+      "id": "AR06302922514708299777",
+      "name": "Wash a bin LtdĐã xác minh",
+      "legal_name": "Wash a bin LtdĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06302922514708299777/creative/CR08096800371357253633?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_57",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://i.ytimg.com/vi/WbKfHERmt58/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR10498735688906702849",
+      "name": "MERCATITLANĐã xác minh",
+      "legal_name": "MERCATITLANĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10498735688906702849/creative/CR02964398462197563393?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_58",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8349156521373105983"
+        }
+      ]
+    },
+    {
+      "id": "AR09392784590894006273",
+      "name": "Dr Gina Holmes ltdĐã xác minh",
+      "legal_name": "Dr Gina Holmes ltdĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09392784590894006273/creative/CR06300835538559565825?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_59",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8496670050504465571"
+        }
+      ]
+    },
+    {
+      "id": "AR01944162181129961473",
+      "name": "ALEXANDRU OLARU CRIMUĐã xác minh",
+      "legal_name": "ALEXANDRU OLARU CRIMUĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01944162181129961473/creative/CR13405459114050453505?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_60",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16595803913827670185"
+        }
+      ]
+    },
+    {
+      "id": "AR15399005636603674625",
+      "name": "Cherubim Press LLCĐã xác minh",
+      "legal_name": "Cherubim Press LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15399005636603674625/creative/CR08763970283196383233?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_61",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1007032576573133967"
+        }
+      ]
+    },
+    {
+      "id": "AR15240863119698821121",
+      "name": "FUNNEL INSIDERĐã xác minh",
+      "legal_name": "FUNNEL INSIDERĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15240863119698821121/creative/CR08504729390104444929?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_62",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6343658866379195479"
+        }
+      ]
+    },
+    {
+      "id": "AR04557965598281170945",
+      "name": "Adi Putra SimanjuntakĐã xác minh",
+      "legal_name": "Adi Putra SimanjuntakĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04557965598281170945/creative/CR08832332315574140929?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_63",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5599308188519370880"
+        }
+      ]
+    },
+    {
+      "id": "AR09449213443186884609",
+      "name": "Adewale LawalĐã xác minh",
+      "legal_name": "Adewale LawalĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09449213443186884609/creative/CR17414418387416645633?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_64",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR18348998632461565953",
+      "name": "Sarah WeichenhainĐã xác minh",
+      "legal_name": "Sarah WeichenhainĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18348998632461565953/creative/CR14440742220334104577?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_65",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR17881836697533022209",
+      "name": "NGUYỄN THỊ THỦY LÊĐã xác minh",
+      "legal_name": "NGUYỄN THỊ THỦY LÊĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17881836697533022209/creative/CR16160824807896645633?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_66",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR11429778358368468993",
+      "name": "Eric Seto Research LtdĐã xác minh",
+      "legal_name": "Eric Seto Research LtdĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11429778358368468993/creative/CR11711560846147584001?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_67",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR07539047165155344385",
+      "name": "Robb JarrettĐã xác minh",
+      "legal_name": "Robb JarrettĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07539047165155344385/creative/CR04730939642281459713?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_68",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR15161899879673888769",
+      "name": "BILLY HARISĐã xác minh",
+      "legal_name": "BILLY HARISĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15161899879673888769/creative/CR12708074974867357697?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_69",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR03679731493048942593",
+      "name": "Zubair TrabzadaĐã xác minh",
+      "legal_name": "Zubair TrabzadaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03679731493048942593/creative/CR01184548449773682689?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_70",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR10870207668035780609",
+      "name": "Join BrandsĐã xác minh",
+      "legal_name": "Join BrandsĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10870207668035780609/creative/CR11920039967444697089?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_71",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15000876167900398393"
+        }
+      ]
+    },
+    {
+      "id": "AR10445732382270029825",
+      "name": "ILANA'S METHOD SPINAL AWAKENING INC.Đã xác minh",
+      "legal_name": "ILANA'S METHOD SPINAL AWAKENING INC.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10445732382270029825/creative/CR09961917235637256193?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_72",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: skool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho skool.com",
+          "landing_page": "https://www.skool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://i.ytimg.com/vi/GuKFR6P37JE/hqdefault.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -159,6 +159,8 @@ def clean_brand_name(name: str, website_url: str = "", site_title: str = "") -> 
 
     # Remove emojis and decorative icons (keep letters, digits, spaces, hyphens, apostrophes, &)
     brand = re.sub(r"[^\w\s\-\'’&]", " ", brand)
+    # Clean dangling hyphens or hyphen spacing
+    brand = re.sub(r"\s*-\s*", " ", brand)
     brand = re.sub(r"\s+", " ", brand).strip()
 
     # Rule: If brand is too long (> 4 words) or looks like a slogan (e.g., "100% Plant Based..."),
@@ -1062,10 +1064,12 @@ class TrafficWorker:
         self._lock = threading.Lock()
 
         self.current_store = ""
+        self.status_message = "Sẵn sàng"
         self.scanned = 0
         self.with_data = 0
         self.no_data = 0
         self.errors = 0
+        self._attempted_store_ids = set()
 
     def is_running(self) -> bool:
         return self._is_running
@@ -1125,6 +1129,7 @@ class TrafficWorker:
             "is_running": self._is_running,
             "is_paused": self._is_paused,
             "current_store": self.current_store,
+            "status_message": self.status_message,
             "scanned": self.scanned,
             "with_data": db_stats.get("with_data", 0),
             "no_data": db_stats.get("no_data", 0),
@@ -1146,42 +1151,73 @@ class TrafficWorker:
         try:
             while not self._stop_event.is_set():
                 if self._is_paused:
+                    self.status_message = "Tạm dừng"
                     self._stop_event.wait(0.5)
                     continue
+
+                now = time.time()
+                in_gt_cooldown = now < _gt_cooldown_until
 
                 stores = []
                 is_low_traffic_trend_phase = False
 
-                # PRIORITY 1: High-traffic stores (Traffic >= 10k) waiting for Google Trends!
-                if time.time() >= _gt_cooldown_until:
-                    stores = db.get_stores_for_trend_enrichment(limit=25, cookie_min_days=0, min_traffic=10000)
+                if not in_gt_cooldown:
+                    # PRIORITY 1: High-value target - Stores with cookie_days >= 14 waiting for Google Trends!
+                    attempted_list = list(self._attempted_store_ids)
+                    raw_stores = db.get_stores_for_trend_enrichment(limit=50, cookie_min_days=14, min_traffic=0, exclude_store_ids=attempted_list)
+                    if not raw_stores and attempted_list:
+                        # Check if any pending stores remain in the database
+                        remaining_pending = db.get_stores_for_trend_enrichment(limit=1, cookie_min_days=14, min_traffic=0)
+                        if remaining_pending:
+                            self._attempted_store_ids.clear()
+                            raw_stores = db.get_stores_for_trend_enrichment(limit=50, cookie_min_days=14, min_traffic=0)
+                    stores = raw_stores
+                    if stores:
+                        is_low_traffic_trend_phase = True
 
                 # PRIORITY 2: Stores with cookie_days >= 14 that haven't had their Traffic checked yet
                 if not stores:
                     stores = db.get_stores_for_traffic_enrichment(limit=25, cookie_min_days=14)
 
-                # PRIORITY 3: Stores with cookie_days >= 14 waiting for Google Trends!
-                # (User's primary target - progress bar tracks trend_checked_cookie_14)
-                if not stores and time.time() >= _gt_cooldown_until:
-                    stores = db.get_stores_for_trend_enrichment(limit=25, cookie_min_days=14, min_traffic=0)
-                    if stores:
-                        is_low_traffic_trend_phase = True
+                # PRIORITY 3: High-traffic stores from any cookie group waiting for Google Trends
+                if not stores and not in_gt_cooldown:
+                    attempted_list = list(self._attempted_store_ids)
+                    raw_stores = db.get_stores_for_trend_enrichment(limit=50, cookie_min_days=0, min_traffic=10000, exclude_store_ids=attempted_list)
+                    if not raw_stores and attempted_list:
+                        remaining_pending = db.get_stores_for_trend_enrichment(limit=1, cookie_min_days=0, min_traffic=10000)
+                        if remaining_pending:
+                            self._attempted_store_ids.clear()
+                            raw_stores = db.get_stores_for_trend_enrichment(limit=50, cookie_min_days=0, min_traffic=10000)
+                    stores = raw_stores
 
                 # PRIORITY 4: Remaining stores in database (cookie_days < 14) for Traffic & Category
                 if not stores:
                     stores = db.get_stores_for_traffic_enrichment(limit=25, cookie_min_days=0)
 
                 # PRIORITY 5: Remaining stores (cookie_days < 14) for Google Trends
-                if not stores and time.time() >= _gt_cooldown_until:
-                    stores = db.get_stores_for_trend_enrichment(limit=25, cookie_min_days=0, min_traffic=0)
+                if not stores and not in_gt_cooldown:
+                    attempted_list = list(self._attempted_store_ids)
+                    raw_stores = db.get_stores_for_trend_enrichment(limit=50, cookie_min_days=0, min_traffic=0, exclude_store_ids=attempted_list)
+                    if not raw_stores and attempted_list:
+                        remaining_pending = db.get_stores_for_trend_enrichment(limit=1, cookie_min_days=0, min_traffic=0)
+                        if remaining_pending:
+                            self._attempted_store_ids.clear()
+                            raw_stores = db.get_stores_for_trend_enrichment(limit=50, cookie_min_days=0, min_traffic=0)
+                    stores = raw_stores
                     if stores:
                         is_low_traffic_trend_phase = True
 
+                # If in cooldown and no stores needing Traffic were found, wait politely
                 if not stores:
-                    if time.time() < _gt_cooldown_until:
-                        wait_sec = min(5.0, max(1.0, _gt_cooldown_until - time.time()))
-                        self._stop_event.wait(wait_sec)
-                        continue
+                    if in_gt_cooldown:
+                        cd_rem = int(_gt_cooldown_until - time.time())
+                        if cd_rem > 0:
+                            self.status_message = f"Đang giãn cách an toàn Google Trends ({cd_rem}s)..."
+                            wait_sec = min(3.0, max(0.5, _gt_cooldown_until - time.time()))
+                            self._stop_event.wait(wait_sec)
+                            continue
+
+                    self.status_message = "Đã làm giàu hoàn tất 100% dữ liệu Traffic & Google Trends!"
                     logger.info("All stores have been enriched with traffic and trends data. Worker idle.")
                     break
 
@@ -1190,18 +1226,21 @@ class TrafficWorker:
                         break
 
                     while self._is_paused and not self._stop_event.is_set():
+                        self.status_message = "Tạm dừng"
                         self._stop_event.wait(0.5)
 
                     if self._stop_event.is_set():
                         break
 
+                    store_id = store.get("store_id")
                     store_name = store.get("name", "Unknown")
                     self.current_store = store_name
+                    self.status_message = f"Đang tra cứu Google Trends: {store_name}"
+                    self._attempted_store_ids.add(store_id)
 
                     try:
-                        # Only check Trends for stores with traffic >= 10k during normal run,
-                        # unless in Phase 3 where all >= 10k stores are completed.
-                        min_traffic_req = 0 if is_low_traffic_trend_phase else 10000
+                        # For cookie >= 14 or in trend phase, require_min_traffic is 0 so Google Trends is ALWAYS queried
+                        min_traffic_req = 0 if (is_low_traffic_trend_phase or store.get("cookie_days", 0) >= 14) else 10000
                         res = enrich_store_data(store, require_min_traffic_for_trends=min_traffic_req)
                         self.scanned += 1
 
@@ -1215,11 +1254,7 @@ class TrafficWorker:
                         else:
                             self.no_data += 1
 
-                        # High-speed adaptive delay powered by curl_cffi HTTP/2:
-                        # - If trends query was executed: safe 1.2s - 1.8s delay to respect Google's quota
-                        # - If in cooldown/pending: snappy 0.5s - 0.9s delay
-                        # - If error: 1.2s - 1.8s delay
-                        # - If only Tranco domain traffic was checked: ultra-fast 0.3s - 0.6s delay
+                        # Delay pacing
                         if res.get("trends_queried"):
                             delay = random.uniform(1.2, 1.8)
                         elif t_status == "pending":

@@ -1,0 +1,235 @@
+{
+  "domain": "litime.com",
+  "updated_at": "2026-10-10T13:57:04.912276",
+  "total_advertisers": 7,
+  "total_ads": 200,
+  "super_scale_count": 1,
+  "win_ads_count": 3,
+  "test_ads_count": 3,
+  "advertisers": [
+    {
+      "id": "AR06264228114956550145",
+      "name": "深圳锂言时代科技有限公司Đã xác minh",
+      "legal_name": "深圳锂言时代科技有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06264228114956550145/creative/CR00524913491119702017?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 184,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 184,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: litime.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho litime.com",
+          "landing_page": "https://www.litime.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 184,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2340471828177085304"
+        }
+      ]
+    },
+    {
+      "id": "AR00926363525931073537",
+      "name": "Leeza SohailĐã xác minh",
+      "legal_name": "Leeza SohailĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00926363525931073537/creative/CR14472268963913924609?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: litime.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho litime.com",
+          "landing_page": "https://www.litime.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4905408774033742836"
+        }
+      ]
+    },
+    {
+      "id": "AR10575899088526508033",
+      "name": "YINO (HONGKONG) DIGITAL TECHNOLOGY CO., LIMITEDĐã xác minh",
+      "legal_name": "YINO (HONGKONG) DIGITAL TECHNOLOGY CO., LIMITEDĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10575899088526508033/creative/CR11727102889682796545?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: litime.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho litime.com",
+          "landing_page": "https://www.litime.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14874001228261003926"
+        }
+      ]
+    },
+    {
+      "id": "AR09962298491294187521",
+      "name": "深圳锂言时代科技有限公司Đã xác minh",
+      "legal_name": "深圳锂言时代科技有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09962298491294187521/creative/CR04067742824299233281?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 8,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 8,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: litime.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho litime.com",
+          "landing_page": "https://www.litime.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 8,
+          "image_url": "https://i.ytimg.com/vi/ZeFOpoVWj3w/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR12623575951494610945",
+      "name": "EdgeMedia Solutions LimitedĐã xác minh",
+      "legal_name": "EdgeMedia Solutions LimitedĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12623575951494610945/creative/CR10007531128350572545?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: litime.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho litime.com",
+          "landing_page": "https://www.litime.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6958354855156370409"
+        }
+      ]
+    },
+    {
+      "id": "AR14567350391567024129",
+      "name": "HongKong AdTiger Media Co., LimitedĐã xác minh",
+      "legal_name": "HongKong AdTiger Media Co., LimitedĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14567350391567024129/creative/CR06033732587573215233?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: litime.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho litime.com",
+          "landing_page": "https://www.litime.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11528518268602374140"
+        }
+      ]
+    },
+    {
+      "id": "AR06177656701144006657",
+      "name": "EURL DE GROS MONTĐã xác minh",
+      "legal_name": "EURL DE GROS MONTĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06177656701144006657/creative/CR04045574462270078977?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: litime.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho litime.com",
+          "landing_page": "https://www.litime.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7903455679876240409"
+        }
+      ]
+    }
+  ]
+}

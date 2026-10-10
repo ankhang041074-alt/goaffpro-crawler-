@@ -1,0 +1,171 @@
+{
+  "domain": "lanyspace.com",
+  "updated_at": "2026-10-10T14:52:55.906331",
+  "total_advertisers": 5,
+  "total_ads": 68,
+  "super_scale_count": 1,
+  "win_ads_count": 4,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR06752056650829398017",
+      "name": "Lagoja - Marketing GmbHĐã xác minh",
+      "legal_name": "Lagoja - Marketing GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06752056650829398017/creative/CR16559304116908589057?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lanyspace.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lanyspace.com",
+          "landing_page": "https://www.lanyspace.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13566238998411817223"
+        }
+      ]
+    },
+    {
+      "id": "AR03719992086984916993",
+      "name": "yuting tanĐã xác minh",
+      "legal_name": "yuting tanĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03719992086984916993/creative/CR14167302002152833025?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 56,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 56,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lanyspace.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lanyspace.com",
+          "landing_page": "https://www.lanyspace.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 56,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16642324726132374554"
+        }
+      ]
+    },
+    {
+      "id": "AR06598662417838768129",
+      "name": "TRADEREPLY LLCĐã xác minh",
+      "legal_name": "TRADEREPLY LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06598662417838768129/creative/CR12282359835122466817?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lanyspace.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lanyspace.com",
+          "landing_page": "https://www.lanyspace.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8859256969468067796"
+        }
+      ]
+    },
+    {
+      "id": "AR16673030779277672449",
+      "name": "张伟Đã xác minh",
+      "legal_name": "张伟Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16673030779277672449/creative/CR07985437787836907521?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lanyspace.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lanyspace.com",
+          "landing_page": "https://www.lanyspace.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6984840380174929360"
+        }
+      ]
+    },
+    {
+      "id": "AR08169345933809549313",
+      "name": "AL Murtaza Bldg. Construction Co.LLCĐã xác minh",
+      "legal_name": "AL Murtaza Bldg. Construction Co.LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08169345933809549313/creative/CR09081322839717445633?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lanyspace.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lanyspace.com",
+          "landing_page": "https://www.lanyspace.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4087008603838879174"
+        }
+      ]
+    }
+  ]
+}

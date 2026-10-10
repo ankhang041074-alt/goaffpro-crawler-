@@ -1,0 +1,234 @@
+{
+  "domain": "ninjutso.com",
+  "updated_at": "2026-10-10T14:25:33.343863",
+  "total_advertisers": 7,
+  "total_ads": 14,
+  "super_scale_count": 0,
+  "win_ads_count": 7,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR03869115602064900097",
+      "name": "Đàm Minh TrườngĐã xác minh",
+      "legal_name": "Đàm Minh TrườngĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03869115602064900097/creative/CR07667781826236121089?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ninjutso.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ninjutso.com",
+          "landing_page": "https://www.ninjutso.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9635826681029343015"
+        }
+      ]
+    },
+    {
+      "id": "AR13743836265629876225",
+      "name": "OPULENTAURAA LLCĐã xác minh",
+      "legal_name": "OPULENTAURAA LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13743836265629876225/creative/CR06748961809065050113?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ninjutso.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ninjutso.com",
+          "landing_page": "https://www.ninjutso.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2759122989307655943"
+        }
+      ]
+    },
+    {
+      "id": "AR05100080639579783169",
+      "name": "Trương Văn HuyĐã xác minh",
+      "legal_name": "Trương Văn HuyĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05100080639579783169/creative/CR05956223614884773889?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: ninjutso.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ninjutso.com",
+          "landing_page": "https://www.ninjutso.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR07381483223294935041",
+      "name": "TOYS AND PARTS UK LIMITEDĐã xác minh",
+      "legal_name": "TOYS AND PARTS UK LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07381483223294935041/creative/CR05506954779999338497?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ninjutso.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ninjutso.com",
+          "landing_page": "https://www.ninjutso.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5888378793278037053"
+        }
+      ]
+    },
+    {
+      "id": "AR11761209809095884801",
+      "name": "Hộ Kinh Doanh Bảo BảoĐã xác minh",
+      "legal_name": "Hộ Kinh Doanh Bảo BảoĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11761209809095884801/creative/CR10090774913171324929?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ninjutso.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ninjutso.com",
+          "landing_page": "https://www.ninjutso.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1595707073553601096"
+        }
+      ]
+    },
+    {
+      "id": "AR03618307190063890433",
+      "name": "Adskill LimitedĐã xác minh",
+      "legal_name": "Adskill LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03618307190063890433/creative/CR14639645007670149121?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ninjutso.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ninjutso.com",
+          "landing_page": "https://www.ninjutso.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3144912598027497350"
+        }
+      ]
+    },
+    {
+      "id": "AR01681398315343675393",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01681398315343675393/creative/CR15456560337263788033?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ninjutso.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ninjutso.com",
+          "landing_page": "https://www.ninjutso.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18094875506239618691"
+        }
+      ]
+    }
+  ]
+}

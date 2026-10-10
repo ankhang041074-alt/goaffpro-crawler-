@@ -1,0 +1,361 @@
+{
+  "domain": "aukey.com",
+  "updated_at": "2026-10-10T14:17:30.834413",
+  "total_advertisers": 11,
+  "total_ads": 28,
+  "super_scale_count": 0,
+  "win_ads_count": 11,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR01474772214736748545",
+      "name": "Panomobi Co., LimitedĐã xác minh",
+      "legal_name": "Panomobi Co., LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01474772214736748545/creative/CR02129713873647828993?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: aukey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho aukey.com",
+          "landing_page": "https://www.aukey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3383382428170825349"
+        }
+      ]
+    },
+    {
+      "id": "AR01441183766595764225",
+      "name": "Xun Meng International LimitedĐã xác minh",
+      "legal_name": "Xun Meng International LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01441183766595764225/creative/CR15198776769525055489?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: aukey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho aukey.com",
+          "landing_page": "https://www.aukey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR10172136205236305921",
+      "name": "ABC ARRAN TRAINING LIMITEDĐã xác minh",
+      "legal_name": "ABC ARRAN TRAINING LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10172136205236305921/creative/CR11399943754593861633?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: aukey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho aukey.com",
+          "landing_page": "https://www.aukey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5208434272720466761"
+        }
+      ]
+    },
+    {
+      "id": "AR08222496300126437377",
+      "name": "MONI GRO LTDĐã xác minh",
+      "legal_name": "MONI GRO LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08222496300126437377/creative/CR02254585091386769409?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: aukey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho aukey.com",
+          "landing_page": "https://www.aukey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11181149709807938782"
+        }
+      ]
+    },
+    {
+      "id": "AR04212633537439858689",
+      "name": "MEA PARTICIPACOES SAĐã xác minh",
+      "legal_name": "MEA PARTICIPACOES SAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04212633537439858689/creative/CR11731404316609609729?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: aukey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho aukey.com",
+          "landing_page": "https://www.aukey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6511553124678258423"
+        }
+      ]
+    },
+    {
+      "id": "AR12821676129702117377",
+      "name": "Trần Thị DươngĐã xác minh",
+      "legal_name": "Trần Thị DươngĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12821676129702117377/creative/CR14251125221011488769?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: aukey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho aukey.com",
+          "landing_page": "https://www.aukey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8731307956997263945"
+        }
+      ]
+    },
+    {
+      "id": "AR09580426875923070977",
+      "name": "AUKEY INTERNATIONAL LIMITEDĐã xác minh",
+      "legal_name": "AUKEY INTERNATIONAL LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09580426875923070977/creative/CR11473452197174312961?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 8,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 8,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: aukey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho aukey.com",
+          "landing_page": "https://www.aukey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 8,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15647264935597877521"
+        }
+      ]
+    },
+    {
+      "id": "AR10136643695013789697",
+      "name": "MUHAMMED HADŽIĆĐã xác minh",
+      "legal_name": "MUHAMMED HADŽIĆĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10136643695013789697/creative/CR05988544515097493505?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: aukey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho aukey.com",
+          "landing_page": "https://www.aukey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR07675194828119867393",
+      "name": "IT Solutions FZCOĐã xác minh",
+      "legal_name": "IT Solutions FZCOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07675194828119867393/creative/CR01010467137434681345?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: aukey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho aukey.com",
+          "landing_page": "https://www.aukey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7951704016651521516"
+        }
+      ]
+    },
+    {
+      "id": "AR17504038205807132673",
+      "name": "BÙI VĂN DƯƠNGĐã xác minh",
+      "legal_name": "BÙI VĂN DƯƠNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17504038205807132673/creative/CR11414051107253518337?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: aukey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho aukey.com",
+          "landing_page": "https://www.aukey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8583272649159786170"
+        }
+      ]
+    },
+    {
+      "id": "AR05599820605823123457",
+      "name": "THAI HOLD CO COMPANY LIMITEDĐã xác minh",
+      "legal_name": "THAI HOLD CO COMPANY LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05599820605823123457/creative/CR03200015600642424833?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: aukey.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho aukey.com",
+          "landing_page": "https://www.aukey.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7954402205203329648"
+        }
+      ]
+    }
+  ]
+}

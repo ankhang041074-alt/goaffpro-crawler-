@@ -1,0 +1,650 @@
+{
+  "domain": "chicchoi.com",
+  "updated_at": "2026-10-10T14:45:54.639081",
+  "total_advertisers": 20,
+  "total_ads": 58,
+  "super_scale_count": 1,
+  "win_ads_count": 19,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR15817325736018051073",
+      "name": "ĐÀM MINH TRƯỜNGĐã xác minh",
+      "legal_name": "ĐÀM MINH TRƯỜNGĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15817325736018051073/creative/CR01038977336503959553?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: chicchoi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chicchoi.com",
+          "landing_page": "https://www.chicchoi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14929698460670440035"
+        }
+      ]
+    },
+    {
+      "id": "AR00784393536580616193",
+      "name": "Thuy NguyenĐã xác minh",
+      "legal_name": "Thuy NguyenĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00784393536580616193/creative/CR17080470249062531073?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: chicchoi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chicchoi.com",
+          "landing_page": "https://www.chicchoi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15600821932346487360"
+        }
+      ]
+    },
+    {
+      "id": "AR16672758555660517377",
+      "name": "VŨ THỊ LIÊNĐã xác minh",
+      "legal_name": "VŨ THỊ LIÊNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16672758555660517377/creative/CR05178178263305945089?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: chicchoi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chicchoi.com",
+          "landing_page": "https://www.chicchoi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15091922056194816216"
+        }
+      ]
+    },
+    {
+      "id": "AR14451554001637867521",
+      "name": "CÔNG TY TNHH ADSDIGIĐã xác minh",
+      "legal_name": "CÔNG TY TNHH ADSDIGIĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14451554001637867521/creative/CR03767458940258877441?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: chicchoi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chicchoi.com",
+          "landing_page": "https://www.chicchoi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR10993030375353090049",
+      "name": "RICHARD MULLER DE MORAESĐã xác minh",
+      "legal_name": "RICHARD MULLER DE MORAESĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10993030375353090049/creative/CR00977341807027290113?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: chicchoi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chicchoi.com",
+          "landing_page": "https://www.chicchoi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12160568434963350213"
+        }
+      ]
+    },
+    {
+      "id": "AR03858991427845357569",
+      "name": "OCEAN SUNRISE LIMITEDĐã xác minh",
+      "legal_name": "OCEAN SUNRISE LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03858991427845357569/creative/CR08215790516147585025?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: chicchoi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chicchoi.com",
+          "landing_page": "https://www.chicchoi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17509603357061089435"
+        }
+      ]
+    },
+    {
+      "id": "AR03830239499426725889",
+      "name": "Lê Hồng ÂnĐã xác minh",
+      "legal_name": "Lê Hồng ÂnĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03830239499426725889/creative/CR12341232635475918849?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: chicchoi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chicchoi.com",
+          "landing_page": "https://www.chicchoi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15021961708397981555"
+        }
+      ]
+    },
+    {
+      "id": "AR03553898391614259201",
+      "name": "bds gold and diamond L.L.CĐã xác minh",
+      "legal_name": "bds gold and diamond L.L.CĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03553898391614259201/creative/CR06617768425236201473?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: chicchoi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chicchoi.com",
+          "landing_page": "https://www.chicchoi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/171540300931340563"
+        }
+      ]
+    },
+    {
+      "id": "AR13852934980478435329",
+      "name": "Digital FundaĐã xác minh",
+      "legal_name": "Digital FundaĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13852934980478435329/creative/CR03248823222447112193?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: chicchoi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chicchoi.com",
+          "landing_page": "https://www.chicchoi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12801974323389715261"
+        }
+      ]
+    },
+    {
+      "id": "AR07369474984361590785",
+      "name": "268 GENERAL CONSTRUCTION JOINT STOCK COMPANYĐã xác minh",
+      "legal_name": "268 GENERAL CONSTRUCTION JOINT STOCK COMPANYĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07369474984361590785/creative/CR01741532624901373953?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: chicchoi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chicchoi.com",
+          "landing_page": "https://www.chicchoi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7764984440347475636"
+        }
+      ]
+    },
+    {
+      "id": "AR12589448596627128321",
+      "name": "EMLAKH AHMAD PARKING CAR WASHING L.L.CĐã xác minh",
+      "legal_name": "EMLAKH AHMAD PARKING CAR WASHING L.L.CĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12589448596627128321/creative/CR15366070281189720065?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: chicchoi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chicchoi.com",
+          "landing_page": "https://www.chicchoi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15522414094188588529"
+        }
+      ]
+    },
+    {
+      "id": "AR05021395189449621505",
+      "name": "Peak View Optometry Peterson SFB Clinic PLLCĐã xác minh",
+      "legal_name": "Peak View Optometry Peterson SFB Clinic PLLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05021395189449621505/creative/CR01542032424794324993?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: chicchoi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chicchoi.com",
+          "landing_page": "https://www.chicchoi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5658468065026115511"
+        }
+      ]
+    },
+    {
+      "id": "AR12122768445360046081",
+      "name": "TRẦN NGỌC THÀNHĐã xác minh",
+      "legal_name": "TRẦN NGỌC THÀNHĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12122768445360046081/creative/CR09627732152527355905?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: chicchoi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chicchoi.com",
+          "landing_page": "https://www.chicchoi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12214591770736428328"
+        }
+      ]
+    },
+    {
+      "id": "AR06579623386161348609",
+      "name": "Công ty TNHH Lộc Fast LogisticsĐã xác minh",
+      "legal_name": "Công ty TNHH Lộc Fast LogisticsĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06579623386161348609/creative/CR18154990596014473217?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: chicchoi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chicchoi.com",
+          "landing_page": "https://www.chicchoi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9392535062616688880"
+        }
+      ]
+    },
+    {
+      "id": "AR06033132434613075969",
+      "name": "HỘ KINH DOANH NGUYỄN THANH VƯƠNGĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN THANH VƯƠNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06033132434613075969/creative/CR03965529431652433921?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: chicchoi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chicchoi.com",
+          "landing_page": "https://www.chicchoi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13751611674031337434"
+        }
+      ]
+    },
+    {
+      "id": "AR15399056463246655489",
+      "name": "CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN LIMA VIỆT NAMĐã xác minh",
+      "legal_name": "CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN LIMA VIỆT NAMĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15399056463246655489/creative/CR10114486061812940801?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: chicchoi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chicchoi.com",
+          "landing_page": "https://www.chicchoi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9536194743139396263"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR07759721588391411713?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: chicchoi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chicchoi.com",
+          "landing_page": "https://www.chicchoi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16000329233674578641"
+        }
+      ]
+    },
+    {
+      "id": "AR14413605680655106049",
+      "name": "TKTXĐã xác minh",
+      "legal_name": "TKTXĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14413605680655106049/creative/CR02052862889949134849?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: chicchoi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chicchoi.com",
+          "landing_page": "https://www.chicchoi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6388050579654006133"
+        }
+      ]
+    },
+    {
+      "id": "AR18347581714160680961",
+      "name": "Qianlan GuoĐã xác minh",
+      "legal_name": "Qianlan GuoĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18347581714160680961/creative/CR09986343204275879937?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 16,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 16,
+      "creatives": [
+        {
+          "id": "CR_SCR_18",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: chicchoi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chicchoi.com",
+          "landing_page": "https://www.chicchoi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 16,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8947025734802854584"
+        }
+      ]
+    },
+    {
+      "id": "AR17859763194151567361",
+      "name": "HongKong Luckstar Technology Co., Ltd.Đã xác minh",
+      "legal_name": "HongKong Luckstar Technology Co., Ltd.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17859763194151567361/creative/CR05414319456480395265?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_19",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: chicchoi.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho chicchoi.com",
+          "landing_page": "https://www.chicchoi.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16767348199591998586"
+        }
+      ]
+    }
+  ]
+}

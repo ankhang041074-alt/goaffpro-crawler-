@@ -1,0 +1,170 @@
+{
+  "domain": "aoocci.com",
+  "updated_at": "2026-10-10T14:09:10.723601",
+  "total_advertisers": 5,
+  "total_ads": 200,
+  "super_scale_count": 1,
+  "win_ads_count": 2,
+  "test_ads_count": 2,
+  "advertisers": [
+    {
+      "id": "AR10942234166510485505",
+      "name": "BlueVision Interactive LimitedĐã xác minh",
+      "legal_name": "BlueVision Interactive LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10942234166510485505/creative/CR03999943939443392513?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 194,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 194,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: aoocci.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho aoocci.com",
+          "landing_page": "https://www.aoocci.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 194,
+          "image_url": "https://i.ytimg.com/vi/7IA1oqbUsV8/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR05935809463528194049",
+      "name": "Lê Văn KiênĐã xác minh",
+      "legal_name": "Lê Văn KiênĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05935809463528194049/creative/CR08521043634399739905?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: aoocci.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho aoocci.com",
+          "landing_page": "https://www.aoocci.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6912030902937823849"
+        }
+      ]
+    },
+    {
+      "id": "AR14949635620878680065",
+      "name": "Jurilon SIAĐã xác minh",
+      "legal_name": "Jurilon SIAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14949635620878680065/creative/CR13793008925294985217?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: aoocci.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho aoocci.com",
+          "landing_page": "https://www.aoocci.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8035572290461799124"
+        }
+      ]
+    },
+    {
+      "id": "AR03672412069912641537",
+      "name": "LOOMERA ADVISORY LTDĐã xác minh",
+      "legal_name": "LOOMERA ADVISORY LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03672412069912641537/creative/CR16161629650408177665?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: aoocci.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho aoocci.com",
+          "landing_page": "https://www.aoocci.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR04568737109971566593",
+      "name": "Nguyễn Thị Minh TrâmĐã xác minh",
+      "legal_name": "Nguyễn Thị Minh TrâmĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04568737109971566593/creative/CR13359065220916445185?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: aoocci.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho aoocci.com",
+          "landing_page": "https://www.aoocci.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/828551421973556255"
+        }
+      ]
+    }
+  ]
+}

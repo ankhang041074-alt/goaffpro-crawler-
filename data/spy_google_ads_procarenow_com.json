@@ -1,0 +1,76 @@
+{
+  "domain": "procarenow.com",
+  "updated_at": "2026-10-10T12:42:15.549360",
+  "total_advertisers": 2,
+  "total_ads": 44,
+  "win_ads_count": 1,
+  "super_scale_count": 1,
+  "evergreen_percent": 0,
+  "advertisers": [
+    {
+      "id": "AR08786024725512978433",
+      "name": "B & G MEDICAL SUPPLIES, LLC",
+      "legal_name": "B & G MEDICAL SUPPLIES, LLC",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08786024725512978433/creative/CR04119802071354441729?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 35,
+      "longevity_badge": "super_scale",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 42,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Procarenow.com Official Offers & Deals",
+          "description": "Shop online at procarenow.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.procarenow.com/?ref=aff_ar0878",
+          "last_shown": "2026-10-10",
+          "duration_days": 35,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15743995695016303861"
+        }
+      ],
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)"
+    },
+    {
+      "id": "AR08786024725512978433",
+      "name": "Procarenow.com",
+      "legal_name": "Procarenow.com",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08786024725512978433/creative/CR05252061184084934657?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 46,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Procarenow.com Official Offers & Deals",
+          "description": "Shop online at procarenow.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.procarenow.com/?ref=aff_ar0878",
+          "last_shown": "2026-10-10",
+          "duration_days": 46,
+          "image_url": "https://i.ytimg.com/vi/30ydWWBdBkY/hqdefault.jpg"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    }
+  ],
+  "test_ads_count": 0
+}

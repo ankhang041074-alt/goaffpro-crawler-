@@ -1,0 +1,171 @@
+{
+  "domain": "amazon.de",
+  "updated_at": "2026-10-10T13:50:09.769433",
+  "total_advertisers": 5,
+  "total_ads": 200,
+  "super_scale_count": 1,
+  "win_ads_count": 1,
+  "test_ads_count": 3,
+  "advertisers": [
+    {
+      "id": "AR09188314108603138049",
+      "name": "Amazon Europe Core S.à r.l.Đã xác minh",
+      "legal_name": "Amazon Europe Core S.à r.l.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09188314108603138049/creative/CR14894813069174636545?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 195,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 195,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amazon.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amazon.de",
+          "landing_page": "https://www.amazon.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 195,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3281784458429057833"
+        }
+      ]
+    },
+    {
+      "id": "AR05613967008325435393",
+      "name": "AMAZON EU S.A R.L., NIEDERLASSUNG DEUTSCHLANDĐã xác minh",
+      "legal_name": "AMAZON EU S.A R.L., NIEDERLASSUNG DEUTSCHLANDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05613967008325435393/creative/CR09832858991720398849?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amazon.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amazon.de",
+          "landing_page": "https://www.amazon.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2568475034575491952"
+        }
+      ]
+    },
+    {
+      "id": "AR09780006120608235521",
+      "name": "Amazon Digital Germany GmbHĐã xác minh",
+      "legal_name": "Amazon Digital Germany GmbHĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09780006120608235521/creative/CR08478069737824190465?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amazon.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amazon.de",
+          "landing_page": "https://www.amazon.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10513833683762142771"
+        }
+      ]
+    },
+    {
+      "id": "AR00622371100839378945",
+      "name": "JOIN-CHEER Digital Marketing Communication(HK)Co., LimitedĐã xác minh",
+      "legal_name": "JOIN-CHEER Digital Marketing Communication(HK)Co., LimitedĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00622371100839378945/creative/CR07992590308544086017?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amazon.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amazon.de",
+          "landing_page": "https://www.amazon.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4539617587716871429"
+        }
+      ]
+    },
+    {
+      "id": "AR00358768238961623041",
+      "name": "HGH GmbHĐã xác minh",
+      "legal_name": "HGH GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00358768238961623041/creative/CR06014331292584247297?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: amazon.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho amazon.de",
+          "landing_page": "https://www.amazon.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3656684400460725785"
+        }
+      ]
+    }
+  ]
+}

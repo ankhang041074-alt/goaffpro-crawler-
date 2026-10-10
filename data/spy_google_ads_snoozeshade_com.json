@@ -1,0 +1,236 @@
+{
+  "domain": "snoozeshade.com",
+  "updated_at": "2026-10-10T12:42:32.760728",
+  "total_advertisers": 7,
+  "total_ads": 24,
+  "win_ads_count": 7,
+  "super_scale_count": 0,
+  "evergreen_percent": 14,
+  "advertisers": [
+    {
+      "id": "AR09318076323429613569",
+      "name": "Really Simple Ideas Ltd",
+      "legal_name": "Really Simple Ideas Ltd",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09318076323429613569/creative/CR02979047607801741313?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 35,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 8,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Snoozeshade.com Official Offers & Deals",
+          "description": "Shop online at snoozeshade.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.snoozeshade.com/?ref=aff_ar0931",
+          "last_shown": "2026-10-10",
+          "duration_days": 35,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13046660593353534979"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR13052631871421153281",
+      "name": "SYNERGETIC DIGITAL MARKETING LIMITED",
+      "legal_name": "SYNERGETIC DIGITAL MARKETING LIMITED",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13052631871421153281/creative/CR07334708770288697345?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 46,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Snoozeshade.com Official Offers & Deals",
+          "description": "Shop online at snoozeshade.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.snoozeshade.com/?ref=aff_ar1305",
+          "last_shown": "2026-10-10",
+          "duration_days": 46,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9923973918525985668"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR00491826342971572225",
+      "name": "许路",
+      "legal_name": "许路",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00491826342971572225/creative/CR18273975758642741249?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 57,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Snoozeshade.com Official Offers & Deals",
+          "description": "Shop online at snoozeshade.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.snoozeshade.com/?ref=aff_ar0049",
+          "last_shown": "2026-10-10",
+          "duration_days": 57,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9739894749612694885"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR12751150155361681409",
+      "name": "CashbackAny International Limited",
+      "legal_name": "CashbackAny International Limited",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12751150155361681409/creative/CR03397058143153291265?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 68,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Snoozeshade.com Official Offers & Deals",
+          "description": "Shop online at snoozeshade.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.snoozeshade.com/?ref=aff_ar1275",
+          "last_shown": "2026-10-10",
+          "duration_days": 68,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10692579831714740006"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR03491928138156343297",
+      "name": "ru liu",
+      "legal_name": "ru liu",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03491928138156343297/creative/CR12678605615111602177?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 79,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Snoozeshade.com Official Offers & Deals",
+          "description": "Shop online at snoozeshade.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.snoozeshade.com/?ref=aff_ar0349",
+          "last_shown": "2026-10-10",
+          "duration_days": 79,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5055667258224092395"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR13686227182093860865",
+      "name": "Công ty TNHH Lộc Fast Logistics",
+      "legal_name": "Công ty TNHH Lộc Fast Logistics",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13686227182093860865/creative/CR00231306056431566849?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 90,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Snoozeshade.com Official Offers & Deals",
+          "description": "Shop online at snoozeshade.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.snoozeshade.com/?ref=aff_ar1368",
+          "last_shown": "2026-10-10",
+          "duration_days": 90,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5444564294526195166"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR02101683284986560513",
+      "name": "4G Marketing LTD",
+      "legal_name": "4G Marketing LTD",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02101683284986560513/creative/CR16956666897632329729?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 101,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Snoozeshade.com Official Offers & Deals",
+          "description": "Shop online at snoozeshade.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.snoozeshade.com/?ref=aff_ar0210",
+          "last_shown": "2026-10-10",
+          "duration_days": 101,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4180501784407910024"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    }
+  ],
+  "test_ads_count": 0
+}

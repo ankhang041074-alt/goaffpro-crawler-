@@ -1,0 +1,427 @@
+{
+  "domain": "titan-army.com",
+  "updated_at": "2026-10-10T14:49:09.476420",
+  "total_advertisers": 13,
+  "total_ads": 66,
+  "super_scale_count": 1,
+  "win_ads_count": 12,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR01166471456410828801",
+      "name": "Trần Đăng KhoaĐã xác minh",
+      "legal_name": "Trần Đăng KhoaĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01166471456410828801/creative/CR14088823182899281921?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: titan-army.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho titan-army.com",
+          "landing_page": "https://www.titan-army.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5961044981642477874"
+        }
+      ]
+    },
+    {
+      "id": "AR13361274242855862273",
+      "name": "CÔNG TY TNHH PHÁT TRIỂN GIẢI PHÁP TIN HỌC BỀN VỮNG ITGREEN - DO NOT USEĐã xác minh",
+      "legal_name": "CÔNG TY TNHH PHÁT TRIỂN GIẢI PHÁP TIN HỌC BỀN VỮNG ITGREEN - DO NOT USEĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13361274242855862273/creative/CR18133278849138425857?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: titan-army.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho titan-army.com",
+          "landing_page": "https://www.titan-army.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15722205077480986417"
+        }
+      ]
+    },
+    {
+      "id": "AR11677330240266305537",
+      "name": "DIGITAL CRATE LIMITEDĐã xác minh",
+      "legal_name": "DIGITAL CRATE LIMITEDĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11677330240266305537/creative/CR08941796944456450049?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: titan-army.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho titan-army.com",
+          "landing_page": "https://www.titan-army.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9238867861768108231"
+        }
+      ]
+    },
+    {
+      "id": "AR15143113168735174657",
+      "name": "A.d Shop ABĐã xác minh",
+      "legal_name": "A.d Shop ABĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15143113168735174657/creative/CR08843330730386784257?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: titan-army.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho titan-army.com",
+          "landing_page": "https://www.titan-army.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4242321838722351405"
+        }
+      ]
+    },
+    {
+      "id": "AR15863532213959131137",
+      "name": "Adcore East LimitedĐã xác minh",
+      "legal_name": "Adcore East LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15863532213959131137/creative/CR11842321262913257473?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: titan-army.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho titan-army.com",
+          "landing_page": "https://www.titan-army.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12134534687308223222"
+        }
+      ]
+    },
+    {
+      "id": "AR11865952585292709889",
+      "name": "NGUYỄN VĂN MINH TRÍĐã xác minh",
+      "legal_name": "NGUYỄN VĂN MINH TRÍĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11865952585292709889/creative/CR11701709325041926145?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: titan-army.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho titan-army.com",
+          "landing_page": "https://www.titan-army.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5562903518122418455"
+        }
+      ]
+    },
+    {
+      "id": "AR18132290491264270337",
+      "name": "DEBORAH LOUISE CUNYĐã xác minh",
+      "legal_name": "DEBORAH LOUISE CUNYĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18132290491264270337/creative/CR12540102609261821953?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: titan-army.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho titan-army.com",
+          "landing_page": "https://www.titan-army.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4077065588471536585"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR13079238695603666945?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: titan-army.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho titan-army.com",
+          "landing_page": "https://www.titan-army.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17490903267610822391"
+        }
+      ]
+    },
+    {
+      "id": "AR06785990551779934209",
+      "name": "Absolute Link LimitedĐã xác minh",
+      "legal_name": "Absolute Link LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06785990551779934209/creative/CR03546571108687806465?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: titan-army.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho titan-army.com",
+          "landing_page": "https://www.titan-army.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9208139716023444682"
+        }
+      ]
+    },
+    {
+      "id": "AR00519672196499505153",
+      "name": "Công ty TNHH Lộc Fast LogisticsĐã xác minh",
+      "legal_name": "Công ty TNHH Lộc Fast LogisticsĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00519672196499505153/creative/CR13595957689770311681?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: titan-army.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho titan-army.com",
+          "landing_page": "https://www.titan-army.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12442801352296433304"
+        }
+      ]
+    },
+    {
+      "id": "AR17021211150760542209",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17021211150760542209/creative/CR04329467479798579201?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: titan-army.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho titan-army.com",
+          "landing_page": "https://www.titan-army.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2619075444397356971"
+        }
+      ]
+    },
+    {
+      "id": "AR16874404444119236609",
+      "name": "安柏鸿睿（北京）科技发展有限公司Đã xác minh",
+      "legal_name": "安柏鸿睿（北京）科技发展有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16874404444119236609/creative/CR00607980709834915841?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: titan-army.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho titan-army.com",
+          "landing_page": "https://www.titan-army.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15043920032807362207"
+        }
+      ]
+    },
+    {
+      "id": "AR06310272432112402433",
+      "name": "深圳市恒易方立科技有限公司Đã xác minh",
+      "legal_name": "深圳市恒易方立科技有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06310272432112402433/creative/CR10445136902234308609?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 42,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 42,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: titan-army.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho titan-army.com",
+          "landing_page": "https://www.titan-army.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 42,
+          "image_url": "https://i.ytimg.com/vi/uW3wkOTuU5U/hqdefault.jpg"
+        }
+      ]
+    }
+  ]
+}

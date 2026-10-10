@@ -1,0 +1,43 @@
+{
+  "domain": "inspirationco.com",
+  "updated_at": "2026-10-10T14:47:11.491187",
+  "total_advertisers": 1,
+  "total_ads": 136,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR05112319707235483649",
+      "name": "Inspire Me Bracelets LLCĐã xác minh",
+      "legal_name": "Inspire Me Bracelets LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05112319707235483649/creative/CR09278062793192374273?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 136,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 136,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: inspirationco.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho inspirationco.com",
+          "landing_page": "https://www.inspirationco.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 136,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15393829216916080040"
+        }
+      ]
+    }
+  ]
+}

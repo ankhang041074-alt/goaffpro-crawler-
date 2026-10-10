@@ -1,0 +1,2231 @@
+{
+  "domain": "bit.ly",
+  "updated_at": "2026-10-10T13:49:55.023547",
+  "total_advertisers": 70,
+  "total_ads": 200,
+  "super_scale_count": 4,
+  "win_ads_count": 36,
+  "test_ads_count": 30,
+  "advertisers": [
+    {
+      "id": "AR13387141379180724225",
+      "name": "Lasse ErbsĐã xác minh",
+      "legal_name": "Lasse ErbsĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13387141379180724225/creative/CR12562103905653096449?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://i.ytimg.com/vi/iJqp_iux9HE/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR14674456155690893313",
+      "name": "CM BARRE PRECIOS SOCIEDAD ANONIMAĐã xác minh",
+      "legal_name": "CM BARRE PRECIOS SOCIEDAD ANONIMAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14674456155690893313/creative/CR04481194243276144641?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 6,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 6,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16751111343214927492"
+        }
+      ]
+    },
+    {
+      "id": "AR04849904601383567361",
+      "name": "김시민Đã xác minh",
+      "legal_name": "김시민Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04849904601383567361/creative/CR02897075193430147073?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://i.ytimg.com/vi/QdNPxKWPL7Y/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR02663080246953115649",
+      "name": "UNIT MEDIAĐã xác minh",
+      "legal_name": "UNIT MEDIAĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02663080246953115649/creative/CR15631733765296881665?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR13481666136122589185",
+      "name": "ONWUKA, OLISE ELOKEĐã xác minh",
+      "legal_name": "ONWUKA, OLISE ELOKEĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13481666136122589185/creative/CR04743886941454336001?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://i.ytimg.com/vi/epAPXmOlxMs/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR04915055707620900865",
+      "name": "Studyportals B.V.Đã xác minh",
+      "legal_name": "Studyportals B.V.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04915055707620900865/creative/CR08765191290859028481?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 15,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 15,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 15,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12916988930025274102"
+        }
+      ]
+    },
+    {
+      "id": "AR03992992964371546113",
+      "name": "NAUFAL FACHRIZA HARSONOĐã xác minh",
+      "legal_name": "NAUFAL FACHRIZA HARSONOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03992992964371546113/creative/CR02902205514685349889?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 9,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 9,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 9,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7983261476535534457"
+        }
+      ]
+    },
+    {
+      "id": "AR12399468225891401729",
+      "name": "INCUBETA AUSTRALIA PTY LIMITED",
+      "legal_name": "INCUBETA AUSTRALIA PTY LIMITED",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12399468225891401729/creative/CR16232281415750778881?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 10,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 10,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 10,
+          "image_url": "https://s0.2mdn.net/simgad/6854091830760901760"
+        }
+      ]
+    },
+    {
+      "id": "AR00792770457974603777",
+      "name": "Eversafe Academy Pte. Ltd.Đã xác minh",
+      "legal_name": "Eversafe Academy Pte. Ltd.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00792770457974603777/creative/CR09202192977592582145?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2319178399254703562"
+        }
+      ]
+    },
+    {
+      "id": "AR00350484449638481921",
+      "name": "Air Arabia P J S CĐã xác minh",
+      "legal_name": "Air Arabia P J S CĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00350484449638481921/creative/CR03131424440349360129?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8990664379804222121"
+        }
+      ]
+    },
+    {
+      "id": "AR18017765695122571265",
+      "name": "LEAL COLOMBIA SASĐã xác minh",
+      "legal_name": "LEAL COLOMBIA SASĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18017765695122571265/creative/CR04269498689690533889?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4020086272612103150"
+        }
+      ]
+    },
+    {
+      "id": "AR09893794175239847937",
+      "name": "Bridgewater InfinitiĐã xác minh",
+      "legal_name": "Bridgewater InfinitiĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09893794175239847937/creative/CR11447674585147768833?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 13,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 13,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 13,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6912659867385733566"
+        }
+      ]
+    },
+    {
+      "id": "AR06506500691773620225",
+      "name": "UNION LAW GROUP APCĐã xác minh",
+      "legal_name": "UNION LAW GROUP APCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06506500691773620225/creative/CR14678188319062360065?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 8,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 8,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 8,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7596251206888924704"
+        }
+      ]
+    },
+    {
+      "id": "AR11209491495801323521",
+      "name": "Cerved Group S.p.A., San Donato Milanese, Succursale di Morbio InferioreĐã xác minh",
+      "legal_name": "Cerved Group S.p.A., San Donato Milanese, Succursale di Morbio InferioreĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11209491495801323521/creative/CR11859821218829959169?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 5,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 5,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 5,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1871843587310027137"
+        }
+      ]
+    },
+    {
+      "id": "AR13890358490817363969",
+      "name": "L JAMIUK VIOL CLINICA MEĐã xác minh",
+      "legal_name": "L JAMIUK VIOL CLINICA MEĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13890358490817363969/creative/CR05986501004017795073?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8582770422536085598"
+        }
+      ]
+    },
+    {
+      "id": "AR16684056544442056705",
+      "name": "Sanjay Arvindbhai ShahĐã xác minh",
+      "legal_name": "Sanjay Arvindbhai ShahĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16684056544442056705/creative/CR13113737685401337857?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14762621404841257551"
+        }
+      ]
+    },
+    {
+      "id": "AR08743337784292409345",
+      "name": "ProgrammAds SPRL",
+      "legal_name": "ProgrammAds SPRL",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08743337784292409345/creative/CR06904951654001410049?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 14,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 14,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 14,
+          "image_url": "https://s0.2mdn.net/simgad/3987046542885851127"
+        }
+      ]
+    },
+    {
+      "id": "AR02187786504414167041",
+      "name": "EDSON PABLO LEITE DA SILVAĐã xác minh",
+      "legal_name": "EDSON PABLO LEITE DA SILVAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02187786504414167041/creative/CR12513096026703265793?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14018216540756945361"
+        }
+      ]
+    },
+    {
+      "id": "AR10838247038269784065",
+      "name": "ODA International Inc",
+      "legal_name": "ODA International Inc",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10838247038269784065/creative/CR15594155043429810177?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 5,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 5,
+      "creatives": [
+        {
+          "id": "CR_SCR_18",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 5,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4597213113624505798"
+        }
+      ]
+    },
+    {
+      "id": "AR00758129656946753537",
+      "name": "Jaya Johan Sdn BhdĐã xác minh",
+      "legal_name": "Jaya Johan Sdn BhdĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00758129656946753537/creative/CR02136530665351413761?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_19",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16193608585969813597"
+        }
+      ]
+    },
+    {
+      "id": "AR14129532300269977601",
+      "name": "Oneistox India Private LimitedĐã xác minh",
+      "legal_name": "Oneistox India Private LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14129532300269977601/creative/CR08120086352596303873?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 5,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 5,
+      "creatives": [
+        {
+          "id": "CR_SCR_20",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 5,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6060705068569680409"
+        }
+      ]
+    },
+    {
+      "id": "AR14629587164925526017",
+      "name": "GS Enterprises, IncĐã xác minh",
+      "legal_name": "GS Enterprises, IncĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14629587164925526017/creative/CR14958331211666161665?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 5,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 5,
+      "creatives": [
+        {
+          "id": "CR_SCR_21",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 5,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5249000140568797126"
+        }
+      ]
+    },
+    {
+      "id": "AR04199638727338754049",
+      "name": "HERTALI VITA PRAMANTAĐã xác minh",
+      "legal_name": "HERTALI VITA PRAMANTAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04199638727338754049/creative/CR06890875955250724865?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_22",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7300772202630434544"
+        }
+      ]
+    },
+    {
+      "id": "AR06636457554517950465",
+      "name": "INCUBETA UK LIMITED",
+      "legal_name": "INCUBETA UK LIMITED",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06636457554517950465/creative/CR00751744767154454529?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_23",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR07014355251398443009",
+      "name": "Pyramid Consulting Group, LLCĐã xác minh",
+      "legal_name": "Pyramid Consulting Group, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07014355251398443009/creative/CR18437567120167403521?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_24",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6071385463528267245"
+        }
+      ]
+    },
+    {
+      "id": "AR03330628047194816513",
+      "name": "Cole Motor Group pty LtdĐã xác minh",
+      "legal_name": "Cole Motor Group pty LtdĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03330628047194816513/creative/CR12324482812777332737?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_25",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR17890876246481436673",
+      "name": "Estrella Diesel SAĐã xác minh",
+      "legal_name": "Estrella Diesel SAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17890876246481436673/creative/CR09614934180777426945?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_26",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5155231780500071084"
+        }
+      ]
+    },
+    {
+      "id": "AR04111905688081399809",
+      "name": "Mysogi Company LimitedĐã xác minh",
+      "legal_name": "Mysogi Company LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04111905688081399809/creative/CR08960770220184567809?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_27",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR10777741660717580289",
+      "name": "Bui Quoc HuyĐã xác minh",
+      "legal_name": "Bui Quoc HuyĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10777741660717580289/creative/CR15325463701868249089?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_28",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR07064836269771063297",
+      "name": "Digital Web Analytics and Optimization LLP",
+      "legal_name": "Digital Web Analytics and Optimization LLP",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07064836269771063297/creative/CR04472673157009899521?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_29",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR13524843236190846977",
+      "name": "The Dark Room Gents Salon LLC OPCĐã xác minh",
+      "legal_name": "The Dark Room Gents Salon LLC OPCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13524843236190846977/creative/CR07822628522676977665?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_30",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11266429066712594009"
+        }
+      ]
+    },
+    {
+      "id": "AR09132119177409069057",
+      "name": "Ban the Bugs Pest ControlĐã xác minh",
+      "legal_name": "Ban the Bugs Pest ControlĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09132119177409069057/creative/CR17287173830879477761?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_31",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7425441906306643955"
+        }
+      ]
+    },
+    {
+      "id": "AR12024394229489860609",
+      "name": "عبداللّٰه حسن صالح على مصطفىĐã xác minh",
+      "legal_name": "عبداللّٰه حسن صالح على مصطفىĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12024394229489860609/creative/CR03684000063475941377?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_32",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR00679945704377942017",
+      "name": "HEALTH AND HAPPINESS (H&H) ITALY S.R.LĐã xác minh",
+      "legal_name": "HEALTH AND HAPPINESS (H&H) ITALY S.R.LĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00679945704377942017/creative/CR05010168866492383233?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_33",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR12678291317994815489",
+      "name": "Ganesha Institute of Neurology and PsychiatryĐã xác minh",
+      "legal_name": "Ganesha Institute of Neurology and PsychiatryĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12678291317994815489/creative/CR08057767442283233281?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_34",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5132013776576332912"
+        }
+      ]
+    },
+    {
+      "id": "AR02676674471279984641",
+      "name": "SAINT GOBAIN DO BRASIL PRODUTOS INDUSTRIAIS E PARA CONSTRUCAO LTDAĐã xác minh",
+      "legal_name": "SAINT GOBAIN DO BRASIL PRODUTOS INDUSTRIAIS E PARA CONSTRUCAO LTDAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02676674471279984641/creative/CR09802891956924186625?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_35",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12514484668786467993"
+        }
+      ]
+    },
+    {
+      "id": "AR15187729246056349697",
+      "name": "Millbatrim, LLCĐã xác minh",
+      "legal_name": "Millbatrim, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15187729246056349697/creative/CR03984851080767864833?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_36",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10834876668686107909"
+        }
+      ]
+    },
+    {
+      "id": "AR07219575832547688449",
+      "name": "PAMELA ELIZEU FERREIRA DE OLIVEIRA LIMAĐã xác minh",
+      "legal_name": "PAMELA ELIZEU FERREIRA DE OLIVEIRA LIMAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07219575832547688449/creative/CR09646528475602878465?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_37",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR03621835883654676481",
+      "name": "METRO GROSMARKET BAKIRKÖY ALIŞVERİŞ HİZMETLERİ TİCARET LİMİTED ŞİRKETİĐã xác minh",
+      "legal_name": "METRO GROSMARKET BAKIRKÖY ALIŞVERİŞ HİZMETLERİ TİCARET LİMİTED ŞİRKETİĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03621835883654676481/creative/CR10776141836939427841?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_38",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14165992342586145555"
+        }
+      ]
+    },
+    {
+      "id": "AR02422572901694701569",
+      "name": "Danilo Coiado AgonilhaĐã xác minh",
+      "legal_name": "Danilo Coiado AgonilhaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02422572901694701569/creative/CR04474712106834329601?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_39",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5010237037695025267"
+        }
+      ]
+    },
+    {
+      "id": "AR16612727737634783233",
+      "name": "Tri-County Electric Service, IncĐã xác minh",
+      "legal_name": "Tri-County Electric Service, IncĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16612727737634783233/creative/CR02622062768110436353?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_40",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5172350335577198613"
+        }
+      ]
+    },
+    {
+      "id": "AR13720032560443031553",
+      "name": "DIANA LAURA DIONICIO ROSASĐã xác minh",
+      "legal_name": "DIANA LAURA DIONICIO ROSASĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13720032560443031553/creative/CR14954190820243144705?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_41",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR15245428154538393601",
+      "name": "SEGBEM ASSESSORIA EM SEGURANCA DO TRABALHO LTDAĐã xác minh",
+      "legal_name": "SEGBEM ASSESSORIA EM SEGURANCA DO TRABALHO LTDAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15245428154538393601/creative/CR14615358994835832833?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_42",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR13771325052756688897",
+      "name": "PT. Perusahaan Cat, Pernis dan Kaleng MataramĐã xác minh",
+      "legal_name": "PT. Perusahaan Cat, Pernis dan Kaleng MataramĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13771325052756688897/creative/CR16688870214938394625?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_43",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://i.ytimg.com/vi/1SzqB3DndLg/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR10229626867934035969",
+      "name": "LAMAR MEXICANAĐã xác minh",
+      "legal_name": "LAMAR MEXICANAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10229626867934035969/creative/CR08774312839323058177?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_44",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8438250831081179552"
+        }
+      ]
+    },
+    {
+      "id": "AR14337519759480848385",
+      "name": "JOAO DIMAS DE LARA MELLOĐã xác minh",
+      "legal_name": "JOAO DIMAS DE LARA MELLOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14337519759480848385/creative/CR16151079183504637953?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_45",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13323334098768959763"
+        }
+      ]
+    },
+    {
+      "id": "AR00617036373500624897",
+      "name": "Sticker Mountain LLCĐã xác minh",
+      "legal_name": "Sticker Mountain LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00617036373500624897/creative/CR16952718121880256513?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_46",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8589451160887212240"
+        }
+      ]
+    },
+    {
+      "id": "AR00314388840108261377",
+      "name": "HAVAS MEDIA IRELAND LIMITED",
+      "legal_name": "HAVAS MEDIA IRELAND LIMITED",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00314388840108261377/creative/CR04747989116258353153?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 5,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 5,
+      "creatives": [
+        {
+          "id": "CR_SCR_47",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 5,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR06610682304723419137",
+      "name": "Equipamiento Digital SLUĐã xác minh",
+      "legal_name": "Equipamiento Digital SLUĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06610682304723419137/creative/CR16027078710255419393?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_48",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15986213033309171774"
+        }
+      ]
+    },
+    {
+      "id": "AR05905346626297266177",
+      "name": "COLMEIA CONSULTORIA E REPRESENTACAO COMERCIAL S/AĐã xác minh",
+      "legal_name": "COLMEIA CONSULTORIA E REPRESENTACAO COMERCIAL S/AĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05905346626297266177/creative/CR08202236217836699649?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_49",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/453012987570268285"
+        }
+      ]
+    },
+    {
+      "id": "AR12965915227584462849",
+      "name": "Wade Law GroupĐã xác minh",
+      "legal_name": "Wade Law GroupĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12965915227584462849/creative/CR10658788246487564289?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_50",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4546489275730845393"
+        }
+      ]
+    },
+    {
+      "id": "AR15515209455720464385",
+      "name": "PETER WILSMANN SCHWAMBACHĐã xác minh",
+      "legal_name": "PETER WILSMANN SCHWAMBACHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15515209455720464385/creative/CR03208248425883631617?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_51",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14863088885726199150"
+        }
+      ]
+    },
+    {
+      "id": "AR06773644127121702913",
+      "name": "Minio Studio SRLĐã xác minh",
+      "legal_name": "Minio Studio SRLĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06773644127121702913/creative/CR00553076931709370369?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_52",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://i.ytimg.com/vi/CsCNrPHKwjk/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR14638096886708305921",
+      "name": "Agencia de Seguros Falabella LTDAĐã xác minh",
+      "legal_name": "Agencia de Seguros Falabella LTDAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14638096886708305921/creative/CR10036269553392025601?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_53",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3341931293397297331"
+        }
+      ]
+    },
+    {
+      "id": "AR18281623918575878145",
+      "name": "Daniel Torres PavanĐã xác minh",
+      "legal_name": "Daniel Torres PavanĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18281623918575878145/creative/CR03706615265312636929?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_54",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2844732964981151888"
+        }
+      ]
+    },
+    {
+      "id": "AR00758125361979457537",
+      "name": "Asoc Alcuadrado AdopcionesĐã xác minh",
+      "legal_name": "Asoc Alcuadrado AdopcionesĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00758125361979457537/creative/CR03259452742518702081?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_55",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14380604277062438033"
+        }
+      ]
+    },
+    {
+      "id": "AR15686388040182267905",
+      "name": "WasiCo IncĐã xác minh",
+      "legal_name": "WasiCo IncĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15686388040182267905/creative/CR10646686660735008769?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_56",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15843177041733440795"
+        }
+      ]
+    },
+    {
+      "id": "AR05536249076888109057",
+      "name": "Ka Meng HOĐã xác minh",
+      "legal_name": "Ka Meng HOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05536249076888109057/creative/CR04629775776433045505?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_57",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR05681306254371192833",
+      "name": "TIAGO DE GODOI TEIXEIRAĐã xác minh",
+      "legal_name": "TIAGO DE GODOI TEIXEIRAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05681306254371192833/creative/CR10754985729982464001?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_58",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR15453081018617036801",
+      "name": "WISLON FRANCA DA SILVAĐã xác minh",
+      "legal_name": "WISLON FRANCA DA SILVAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15453081018617036801/creative/CR02491333962304061441?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_59",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR00566639828544782337",
+      "name": "巨百禾有限公司Đã xác minh",
+      "legal_name": "巨百禾有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00566639828544782337/creative/CR11385245586232967169?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_60",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR13302881276248719361",
+      "name": "Varia AntaresĐã xác minh",
+      "legal_name": "Varia AntaresĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13302881276248719361/creative/CR15614292212345470977?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_61",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR11716843166295392257",
+      "name": "Le Fondamenta srlĐã xác minh",
+      "legal_name": "Le Fondamenta srlĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11716843166295392257/creative/CR08600094672146137089?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_62",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15778702019786660077"
+        }
+      ]
+    },
+    {
+      "id": "AR17872765949942169601",
+      "name": "SOHAIB FAIEZ SALEH SALEHĐã xác minh",
+      "legal_name": "SOHAIB FAIEZ SALEH SALEHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17872765949942169601/creative/CR03844484127831097345?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_63",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR03162077312703266817",
+      "name": "Open College for Direct Learning Company Limited by GuaranteeĐã xác minh",
+      "legal_name": "Open College for Direct Learning Company Limited by GuaranteeĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03162077312703266817/creative/CR14841485647125938177?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_64",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12266354609592579174"
+        }
+      ]
+    },
+    {
+      "id": "AR05519997264237428737",
+      "name": "I Gusti ayu kade Dwi puspitaĐã xác minh",
+      "legal_name": "I Gusti ayu kade Dwi puspitaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05519997264237428737/creative/CR01710314466131836929?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_65",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR11574114574051311617",
+      "name": "MAN MAN CHANĐã xác minh",
+      "legal_name": "MAN MAN CHANĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11574114574051311617/creative/CR15133766907582218241?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_66",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR14587638717561700353",
+      "name": "Penguin Random House Grupo Editorial S.AĐã xác minh",
+      "legal_name": "Penguin Random House Grupo Editorial S.AĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14587638717561700353/creative/CR13486573651654344705?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_67",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7541643175092512765"
+        }
+      ]
+    },
+    {
+      "id": "AR16498314430254153729",
+      "name": "Aldeias de Crianças SOSĐã xác minh",
+      "legal_name": "Aldeias de Crianças SOSĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16498314430254153729/creative/CR12150225741786644481?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_68",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1609010747037713241"
+        }
+      ]
+    },
+    {
+      "id": "AR17272080310778986497",
+      "name": "ALESSOĐã xác minh",
+      "legal_name": "ALESSOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17272080310778986497/creative/CR09692685295132082177?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_69",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bit.ly",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bit.ly",
+          "landing_page": "https://www.bit.ly",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2511398689380260559"
+        }
+      ]
+    }
+  ]
+}

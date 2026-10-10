@@ -1,0 +1,1483 @@
+{
+  "domain": "pantasy.com",
+  "updated_at": "2026-10-10T14:20:41.944501",
+  "total_advertisers": 46,
+  "total_ads": 98,
+  "super_scale_count": 0,
+  "win_ads_count": 35,
+  "test_ads_count": 11,
+  "advertisers": [
+    {
+      "id": "AR12582943937376813057",
+      "name": "Digital FundaĐã xác minh",
+      "legal_name": "Digital FundaĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12582943937376813057/creative/CR16197525921916256257?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14336304622285729017"
+        }
+      ]
+    },
+    {
+      "id": "AR16912720783669723137",
+      "name": "Lê Thanh HuyềnĐã xác minh",
+      "legal_name": "Lê Thanh HuyềnĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16912720783669723137/creative/CR16547870493059842049?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/426654045637218124"
+        }
+      ]
+    },
+    {
+      "id": "AR07456047815513341953",
+      "name": "AGENCY CLUB LTDĐã xác minh",
+      "legal_name": "AGENCY CLUB LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07456047815513341953/creative/CR07359678327168172033?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12014757557369569774"
+        }
+      ]
+    },
+    {
+      "id": "AR03775385551511748609",
+      "name": "Hammad HussainĐã xác minh",
+      "legal_name": "Hammad HussainĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03775385551511748609/creative/CR18082572267673354241?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10235371787317347157"
+        }
+      ]
+    },
+    {
+      "id": "AR13231457078217801729",
+      "name": "Trần Thị TrangĐã xác minh",
+      "legal_name": "Trần Thị TrangĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13231457078217801729/creative/CR04025967292318744577?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2177208659405378718"
+        }
+      ]
+    },
+    {
+      "id": "AR14905823879262896129",
+      "name": "CASA BRANCA SERVICOS MEDICOS LTDAĐã xác minh",
+      "legal_name": "CASA BRANCA SERVICOS MEDICOS LTDAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14905823879262896129/creative/CR18324359959862575105?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/78294880909000629"
+        }
+      ]
+    },
+    {
+      "id": "AR17918469916709617665",
+      "name": "TRUNG THANH PHAT JOINT STOCK COMPANYĐã xác minh",
+      "legal_name": "TRUNG THANH PHAT JOINT STOCK COMPANYĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17918469916709617665/creative/CR00714885632698089473?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10075923144610617629"
+        }
+      ]
+    },
+    {
+      "id": "AR12154252574274355201",
+      "name": "HAIKOU LONGHUA WANGHANLEI BAIHUODIAN",
+      "legal_name": "HAIKOU LONGHUA WANGHANLEI BAIHUODIAN",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12154252574274355201/creative/CR10875561233101094913?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14198611625725941417"
+        }
+      ]
+    },
+    {
+      "id": "AR16177220974398144513",
+      "name": "TDK MACHINING VIET NAM COMPANY LIMITEDĐã xác minh",
+      "legal_name": "TDK MACHINING VIET NAM COMPANY LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16177220974398144513/creative/CR17322276358071517185?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12701744552152468817"
+        }
+      ]
+    },
+    {
+      "id": "AR07430536242351046657",
+      "name": "PHAM VAN CONGĐã xác minh",
+      "legal_name": "PHAM VAN CONGĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07430536242351046657/creative/CR14234982328731435009?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17170964279316183398"
+        }
+      ]
+    },
+    {
+      "id": "AR06785990551779934209",
+      "name": "Absolute Link LimitedĐã xác minh",
+      "legal_name": "Absolute Link LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06785990551779934209/creative/CR13802505785181208577?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14430580813985092298"
+        }
+      ]
+    },
+    {
+      "id": "AR16874404444119236609",
+      "name": "安柏鸿睿（北京）科技发展有限公司Đã xác minh",
+      "legal_name": "安柏鸿睿（北京）科技发展有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16874404444119236609/creative/CR06446749355859771393?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 5,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 5,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 5,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16745888089512820888"
+        }
+      ]
+    },
+    {
+      "id": "AR15057642563630530561",
+      "name": "ELITE METAL HOLDINGS UK LIMITEDĐã xác minh",
+      "legal_name": "ELITE METAL HOLDINGS UK LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15057642563630530561/creative/CR07315128246314467329?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14335331355365674779"
+        }
+      ]
+    },
+    {
+      "id": "AR15336156005771771905",
+      "name": "HỘ KINH DOANH PHAN VĂN VỊNHĐã xác minh",
+      "legal_name": "HỘ KINH DOANH PHAN VĂN VỊNHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15336156005771771905/creative/CR09556320246692839425?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10721981673043042986"
+        }
+      ]
+    },
+    {
+      "id": "AR05535590074286080001",
+      "name": "Saba FatimaĐã xác minh",
+      "legal_name": "Saba FatimaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05535590074286080001/creative/CR13279605104714973185?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17947994746930478785"
+        }
+      ]
+    },
+    {
+      "id": "AR14451554001637867521",
+      "name": "CÔNG TY TNHH ADSDIGIĐã xác minh",
+      "legal_name": "CÔNG TY TNHH ADSDIGIĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14451554001637867521/creative/CR12550438980635590657?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 7,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 7,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 7,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16632626507036005177"
+        }
+      ]
+    },
+    {
+      "id": "AR06562238071511711745",
+      "name": "تهمین سرفرازĐã xác minh",
+      "legal_name": "تهمین سرفرازĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06562238071511711745/creative/CR00576599024480550913?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15743181277320146449"
+        }
+      ]
+    },
+    {
+      "id": "AR05779086218566303745",
+      "name": "SHAHROZ ASIM ADVERTISEMENTĐã xác minh",
+      "legal_name": "SHAHROZ ASIM ADVERTISEMENTĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05779086218566303745/creative/CR11673845638809780225?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9479509451724191781"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR10481272403420774401?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_18",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13737194147511774918"
+        }
+      ]
+    },
+    {
+      "id": "AR16215077331541164033",
+      "name": "Công ty TNHH Đầu tư Thương mại và Tư vấn Công nghệ Việt NamĐã xác minh",
+      "legal_name": "Công ty TNHH Đầu tư Thương mại và Tư vấn Công nghệ Việt NamĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16215077331541164033/creative/CR13118553589280669697?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_19",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6488222150991972738"
+        }
+      ]
+    },
+    {
+      "id": "AR11075796637119938561",
+      "name": "HỘ KINH DOANH BẢO BẢO",
+      "legal_name": "HỘ KINH DOANH BẢO BẢO",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11075796637119938561/creative/CR10067403900169748481?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_20",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1871822086556383314"
+        }
+      ]
+    },
+    {
+      "id": "AR07675194828119867393",
+      "name": "IT Solutions FZCOĐã xác minh",
+      "legal_name": "IT Solutions FZCOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07675194828119867393/creative/CR16259255253478670337?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_21",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4980646254887243253"
+        }
+      ]
+    },
+    {
+      "id": "AR11644785271609753601",
+      "name": "TRẦN HOÀNG NHÃ",
+      "legal_name": "TRẦN HOÀNG NHÃ",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11644785271609753601/creative/CR14146023316829241345?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_22",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5305250814203770960"
+        }
+      ]
+    },
+    {
+      "id": "AR17055984468709343233",
+      "name": "3304 E 28TH AVE LLCĐã xác minh",
+      "legal_name": "3304 E 28TH AVE LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17055984468709343233/creative/CR02773329248532824065?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_23",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3560466012595260356"
+        }
+      ]
+    },
+    {
+      "id": "AR02707999841023164417",
+      "name": "3304 E 28TH AVE LLCĐã xác minh",
+      "legal_name": "3304 E 28TH AVE LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02707999841023164417/creative/CR15386025042844319745?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_24",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11401427047047391700"
+        }
+      ]
+    },
+    {
+      "id": "AR05842767664304357377",
+      "name": "TỔNG CÔNG TY VIỄN THÔNG VIETTEL - CHI NHÁNH TẬP ĐOÀN CÔNG NGHIỆP - VIỄN THÔNG QUÂN ĐỘIĐã xác minh",
+      "legal_name": "TỔNG CÔNG TY VIỄN THÔNG VIETTEL - CHI NHÁNH TẬP ĐOÀN CÔNG NGHIỆP - VIỄN THÔNG QUÂN ĐỘIĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05842767664304357377/creative/CR04108102554670333953?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_25",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5507353571507508634"
+        }
+      ]
+    },
+    {
+      "id": "AR18126738241011843073",
+      "name": "اسماء حنیفĐã xác minh",
+      "legal_name": "اسماء حنیفĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18126738241011843073/creative/CR09981105268320108545?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_26",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14278943062619557259"
+        }
+      ]
+    },
+    {
+      "id": "AR06209234030848638977",
+      "name": "Syeda Riffat ZahraĐã xác minh",
+      "legal_name": "Syeda Riffat ZahraĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06209234030848638977/creative/CR05673167746611806209?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_27",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14277121418683018456"
+        }
+      ]
+    },
+    {
+      "id": "AR13503871391920816129",
+      "name": "KJA EMPREITEIRA DE OBRAS LTDAĐã xác minh",
+      "legal_name": "KJA EMPREITEIRA DE OBRAS LTDAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13503871391920816129/creative/CR01615778525095133185?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_28",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/457726276227253150"
+        }
+      ]
+    },
+    {
+      "id": "AR11215918811280572417",
+      "name": "Manahil SaeedĐã xác minh",
+      "legal_name": "Manahil SaeedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11215918811280572417/creative/CR04882398983915307009?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_29",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/185978769416134479"
+        }
+      ]
+    },
+    {
+      "id": "AR00427631012986486785",
+      "name": "Nguyễn Phương TùngĐã xác minh",
+      "legal_name": "Nguyễn Phương TùngĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00427631012986486785/creative/CR11993536590275149825?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_30",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8537954497965384899"
+        }
+      ]
+    },
+    {
+      "id": "AR17497591193607864321",
+      "name": "1618PLAY LIMITED LIABILITY COMPANYĐã xác minh",
+      "legal_name": "1618PLAY LIMITED LIABILITY COMPANYĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17497591193607864321/creative/CR18139147982077952001?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_31",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11216039083981202693"
+        }
+      ]
+    },
+    {
+      "id": "AR02950723020039127041",
+      "name": "FASHION ACCESSORISE LTDĐã xác minh",
+      "legal_name": "FASHION ACCESSORISE LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02950723020039127041/creative/CR10319383627061788673?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_32",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12150665910210723321"
+        }
+      ]
+    },
+    {
+      "id": "AR02717652427833606145",
+      "name": "Ghazala RasheedĐã xác minh",
+      "legal_name": "Ghazala RasheedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02717652427833606145/creative/CR02197080401325850625?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_33",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5055998129836403757"
+        }
+      ]
+    },
+    {
+      "id": "AR17206834414613430273",
+      "name": "R.A BARBOSA FERNANDESĐã xác minh",
+      "legal_name": "R.A BARBOSA FERNANDESĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17206834414613430273/creative/CR11443529537980203009?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_34",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5707249354033078279"
+        }
+      ]
+    },
+    {
+      "id": "AR15357413645755613185",
+      "name": "Công ty cổ phần bất động sản Lima Việt NamĐã xác minh",
+      "legal_name": "Công ty cổ phần bất động sản Lima Việt NamĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15357413645755613185/creative/CR07984848518323896321?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_35",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1637680024968983331"
+        }
+      ]
+    },
+    {
+      "id": "AR13109347893817376769",
+      "name": "滕淑新Đã xác minh",
+      "legal_name": "滕淑新Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13109347893817376769/creative/CR07989133658734723073?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_36",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16257058275828082609"
+        }
+      ]
+    },
+    {
+      "id": "AR03137033375580160001",
+      "name": "LƯU THỊ THUĐã xác minh",
+      "legal_name": "LƯU THỊ THUĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03137033375580160001/creative/CR03551166079449432065?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_37",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4332914491118281956"
+        }
+      ]
+    },
+    {
+      "id": "AR08679557141989687297",
+      "name": "CÔNG TY CỔ PHẦN THIẾT KẾ VÀ QUẢNG CÁO ĐẠI HƯNG THỊNH",
+      "legal_name": "CÔNG TY CỔ PHẦN THIẾT KẾ VÀ QUẢNG CÁO ĐẠI HƯNG THỊNH",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08679557141989687297/creative/CR17100325272986583041?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_38",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5222590357107784093"
+        }
+      ]
+    },
+    {
+      "id": "AR18092359158111141889",
+      "name": "Hộ Kinh Doanh Tạp HóaĐã xác minh",
+      "legal_name": "Hộ Kinh Doanh Tạp HóaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18092359158111141889/creative/CR10998362843539046401?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_39",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5400260541053688422"
+        }
+      ]
+    },
+    {
+      "id": "AR11016521415510720513",
+      "name": "Boston Digital Pro LLCĐã xác minh",
+      "legal_name": "Boston Digital Pro LLCĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11016521415510720513/creative/CR17722637309435707393?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_40",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1224704814709049559"
+        }
+      ]
+    },
+    {
+      "id": "AR12784598080762675201",
+      "name": "South Wind Tech LimitedĐã xác minh",
+      "legal_name": "South Wind Tech LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12784598080762675201/creative/CR08372696640816939009?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_41",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10561888679001397473"
+        }
+      ]
+    },
+    {
+      "id": "AR04508606167668228097",
+      "name": "SIB TECHNOLOGY AND CONSULTING JOINT STOCK COMPANYĐã xác minh",
+      "legal_name": "SIB TECHNOLOGY AND CONSULTING JOINT STOCK COMPANYĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04508606167668228097/creative/CR08444120916157267969?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_42",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17604395528724609756"
+        }
+      ]
+    },
+    {
+      "id": "AR05599820605823123457",
+      "name": "THAI HOLD CO COMPANY LIMITEDĐã xác minh",
+      "legal_name": "THAI HOLD CO COMPANY LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05599820605823123457/creative/CR11486358539539054593?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_43",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11611453556588737696"
+        }
+      ]
+    },
+    {
+      "id": "AR11581128607832997889",
+      "name": "Hợp Tác Xã Nông Nghiệp Hưu Cơ Bình MinhĐã xác minh",
+      "legal_name": "Hợp Tác Xã Nông Nghiệp Hưu Cơ Bình MinhĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11581128607832997889/creative/CR01250230740386316289?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_44",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/677443226545722954"
+        }
+      ]
+    },
+    {
+      "id": "AR04464681983808634881",
+      "name": "HỘ KINH DOANH OANHCATĐã xác minh",
+      "legal_name": "HỘ KINH DOANH OANHCATĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04464681983808634881/creative/CR05196047156913373185?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_45",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: pantasy.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho pantasy.com",
+          "landing_page": "https://www.pantasy.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4179281883950780243"
+        }
+      ]
+    }
+  ]
+}

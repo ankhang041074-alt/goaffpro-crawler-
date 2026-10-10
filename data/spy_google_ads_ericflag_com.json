@@ -1,0 +1,266 @@
+{
+  "domain": "ericflag.com",
+  "updated_at": "2026-10-10T14:10:56.326256",
+  "total_advertisers": 8,
+  "total_ads": 55,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 7,
+  "advertisers": [
+    {
+      "id": "AR15130517292376391681",
+      "name": "Flag & KoĐã xác minh",
+      "legal_name": "Flag & KoĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15130517292376391681/creative/CR09782774209850638337?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 48,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 48,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ericflag.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ericflag.com",
+          "landing_page": "https://www.ericflag.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 48,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16028770630064682259"
+        }
+      ]
+    },
+    {
+      "id": "AR00933413611668242433",
+      "name": "LƯU THI HUYỀN ANHĐã xác minh",
+      "legal_name": "LƯU THI HUYỀN ANHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00933413611668242433/creative/CR00287567310510620673?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ericflag.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ericflag.com",
+          "landing_page": "https://www.ericflag.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13097922264747314114"
+        }
+      ]
+    },
+    {
+      "id": "AR11661279741322723329",
+      "name": "Phan Phúc ThạchĐã xác minh",
+      "legal_name": "Phan Phúc ThạchĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11661279741322723329/creative/CR15476881339369652225?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ericflag.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ericflag.com",
+          "landing_page": "https://www.ericflag.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14538263331829585007"
+        }
+      ]
+    },
+    {
+      "id": "AR10274184722678546433",
+      "name": "TRẦN THU HẰNGĐã xác minh",
+      "legal_name": "TRẦN THU HẰNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10274184722678546433/creative/CR03244690364396732417?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ericflag.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ericflag.com",
+          "landing_page": "https://www.ericflag.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9059881643710791372"
+        }
+      ]
+    },
+    {
+      "id": "AR11073075783927857153",
+      "name": "Bùi Tân KhoaĐã xác minh",
+      "legal_name": "Bùi Tân KhoaĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11073075783927857153/creative/CR02073273562382204929?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: ericflag.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ericflag.com",
+          "landing_page": "https://www.ericflag.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR16922539628664193025",
+      "name": "TRẦN VĂN LINHĐã xác minh",
+      "legal_name": "TRẦN VĂN LINHĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16922539628664193025/creative/CR08156597964068880385?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ericflag.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ericflag.com",
+          "landing_page": "https://www.ericflag.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10944001280211061458"
+        }
+      ]
+    },
+    {
+      "id": "AR16992756227920363521",
+      "name": "HOÀNG VĂN NHÂNĐã xác minh",
+      "legal_name": "HOÀNG VĂN NHÂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16992756227920363521/creative/CR08697976049109041153?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ericflag.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ericflag.com",
+          "landing_page": "https://www.ericflag.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18234098135777550877"
+        }
+      ]
+    },
+    {
+      "id": "AR17197911121839783937",
+      "name": "Trần Thị TuấnĐã xác minh",
+      "legal_name": "Trần Thị TuấnĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17197911121839783937/creative/CR14354148541411098625?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: ericflag.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ericflag.com",
+          "landing_page": "https://www.ericflag.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/332931086644365580"
+        }
+      ]
+    }
+  ]
+}

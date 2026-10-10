@@ -1,0 +1,1402 @@
+{
+  "domain": "fafreesebike.com",
+  "updated_at": "2026-10-10T12:00:00",
+  "total_advertisers": 45,
+  "total_ads": 320,
+  "win_ads_count": 7,
+  "super_scale_count": 3,
+  "evergreen_percent": 44,
+  "advertisers": [
+    {
+      "id": "AR00057058657707229185",
+      "name": "深圳市海兆丹国际电子商务有限公司",
+      "legal_name": "深圳市海兆丹国际电子商务有限公司",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00057058657707229185/creative/CR15519059215296495617?region=anywhere",
+      "first_seen": "2023-09-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 1120,
+      "longevity_badge": "super_scale",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 200,
+      "creatives": [
+        {
+          "id": "CR_FAF_0_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0005",
+          "last_shown": "2026-10-09",
+          "duration_days": 1120
+        }
+      ],
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)"
+    },
+    {
+      "id": "AR00057058657707229185",
+      "name": "TKTX",
+      "legal_name": "TKTX",
+      "country": "Châu Âu / Mỹ",
+      "country_flag": "🇪🇺",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00057058657707229185/creative/CR06578773669831507969?region=anywhere",
+      "first_seen": "2023-09-10",
+      "last_shown": "2026-10-09",
+      "duration_days": 880,
+      "longevity_badge": "super_scale",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 48,
+      "creatives": [
+        {
+          "id": "CR_FAF_1_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0005",
+          "last_shown": "2026-10-09",
+          "duration_days": 880
+        }
+      ],
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)"
+    },
+    {
+      "id": "AR03461726641095442433",
+      "name": "PHÙNG HỮU SƠN",
+      "legal_name": "PHÙNG HỮU SƠN",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03461726641095442433/creative/CR11847689181759275009?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 44,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_FAF_2_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0346",
+          "last_shown": "2026-10-09",
+          "duration_days": 44
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR07569484524640272385",
+      "name": "Hong Kong Ruixin Zhike Group Co., Limited",
+      "legal_name": "Hong Kong Ruixin Zhike Group Co., Limited",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07569484524640272385/creative/CR11066299803003518977?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 73,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 5,
+      "creatives": [
+        {
+          "id": "CR_FAF_3_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0756",
+          "last_shown": "2026-10-09",
+          "duration_days": 73
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR14506062007117021185",
+      "name": "CREATIVE ENTERPRISE HOLDINGS LIMITED",
+      "legal_name": "CREATIVE ENTERPRISE HOLDINGS LIMITED",
+      "country": "Châu Âu / Mỹ",
+      "country_flag": "🇪🇺",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14506062007117021185/creative/CR11642186060481429505?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 84,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 5,
+      "creatives": [
+        {
+          "id": "CR_FAF_4_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar1450",
+          "last_shown": "2026-10-09",
+          "duration_days": 84
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR10416563738944471041",
+      "name": "Usman Subhani",
+      "legal_name": "Usman Subhani",
+      "country": "Pakistan",
+      "country_flag": "🇵🇰",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10416563738944471041/creative/CR01108647512840863745?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 95,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_5_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar1041",
+          "last_shown": "2026-10-09",
+          "duration_days": 95
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR03897850024196833281",
+      "name": "Trần Quốc Huy",
+      "legal_name": "Trần Quốc Huy",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03897850024196833281/creative/CR07943136474549977089?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 72,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_FAF_6_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0389",
+          "last_shown": "2026-10-09",
+          "duration_days": 72
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR00057058657707229185",
+      "name": "Fafreesebike.com",
+      "legal_name": "Fafreesebike.com",
+      "country": "Châu Âu / Mỹ",
+      "country_flag": "🇪🇺",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00057058657707229185/creative/CR14557926623434244097?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 117,
+      "longevity_badge": "test",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_7_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0005",
+          "last_shown": "2026-10-09",
+          "duration_days": 117
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR07044761936226942977",
+      "name": "Mohamed Dia Eddine Farah",
+      "legal_name": "Mohamed Dia Eddine Farah",
+      "country": "Pakistan",
+      "country_flag": "🇵🇰",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07044761936226942977/creative/CR18046471212124602369?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 128,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_8_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0704",
+          "last_shown": "2026-10-09",
+          "duration_days": 128
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR04280098737696538625",
+      "name": "shamoona walayat",
+      "legal_name": "shamoona walayat",
+      "country": "Pakistan",
+      "country_flag": "🇵🇰",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04280098737696538625/creative/CR10326547830080012289?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 139,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_9_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0428",
+          "last_shown": "2026-10-09",
+          "duration_days": 139
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR12408712369901928449",
+      "name": "Qaisar Ali",
+      "legal_name": "Qaisar Ali",
+      "country": "Pakistan",
+      "country_flag": "🇵🇰",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12408712369901928449/creative/CR17238075723256692737?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 150,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_10_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar1240",
+          "last_shown": "2026-10-09",
+          "duration_days": 150
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR10575899088526508033",
+      "name": "YINO (HONGKONG) DIGITAL TECHNOLOGY CO., LIMITED",
+      "legal_name": "YINO (HONGKONG) DIGITAL TECHNOLOGY CO., LIMITED",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10575899088526508033/creative/CR14424221508370956289?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 161,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_FAF_11_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar1057",
+          "last_shown": "2026-10-09",
+          "duration_days": 161
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR02577591164899164161",
+      "name": "TSUNAMI INNOVATION LIMITED",
+      "legal_name": "TSUNAMI INNOVATION LIMITED",
+      "country": "Châu Âu / Mỹ",
+      "country_flag": "🇪🇺",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02577591164899164161/creative/CR06203933414140149761?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 172,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_FAF_12_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0257",
+          "last_shown": "2026-10-09",
+          "duration_days": 172
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR13361274242855862273",
+      "name": "CÔNG TY TNHH PHÁT TRIỂN GIẢI PHÁP TIN HỌC BỀN VỮNG ITGREEN - DO NOT USE",
+      "legal_name": "CÔNG TY TNHH PHÁT TRIỂN GIẢI PHÁP TIN HỌC BỀN VỮNG ITGREEN - DO NOT USE",
+      "country": "Châu Âu / Mỹ",
+      "country_flag": "🇪🇺",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13361274242855862273/creative/CR08703888569808191489?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 183,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_13_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar1336",
+          "last_shown": "2026-10-09",
+          "duration_days": 183
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR14824543796439547905",
+      "name": "KOOAO TECH (HK) LIMITED",
+      "legal_name": "KOOAO TECH (HK) LIMITED",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14824543796439547905/creative/CR05648891663741878273?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 194,
+      "longevity_badge": "test",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_14_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar1482",
+          "last_shown": "2026-10-09",
+          "duration_days": 194
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR12667011496924938241",
+      "name": "Muhammad Sabir Hussain",
+      "legal_name": "Muhammad Sabir Hussain",
+      "country": "Pakistan",
+      "country_flag": "🇵🇰",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12667011496924938241/creative/CR07964726493462921217?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 205,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_15_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar1266",
+          "last_shown": "2026-10-09",
+          "duration_days": 205
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR11127315036123430913",
+      "name": "Đinh Ngọc văn",
+      "legal_name": "Đinh Ngọc văn",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11127315036123430913/creative/CR16524988178617073665?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 142,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_16_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar1112",
+          "last_shown": "2026-10-09",
+          "duration_days": 142
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR06916145232127983617",
+      "name": "Trung Pham",
+      "legal_name": "Trung Pham",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06916145232127983617/creative/CR05137137170733072385?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 149,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_17_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0691",
+          "last_shown": "2026-10-09",
+          "duration_days": 149
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR11446620359655161857",
+      "name": "NGUYỄN VĂN NHÌ",
+      "legal_name": "NGUYỄN VĂN NHÌ",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11446620359655161857/creative/CR16867785392709959681?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 156,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_18_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar1144",
+          "last_shown": "2026-10-09",
+          "duration_days": 156
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR08085084147250364417",
+      "name": "Imran Ali",
+      "legal_name": "Imran Ali",
+      "country": "Pakistan",
+      "country_flag": "🇵🇰",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08085084147250364417/creative/CR03663292411234222081?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 249,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_19_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0808",
+          "last_shown": "2026-10-09",
+          "duration_days": 249
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR05383099021378191361",
+      "name": "Y-INTERCEPT LIMITED",
+      "legal_name": "Y-INTERCEPT LIMITED",
+      "country": "Hồng Kông",
+      "country_flag": "🇭🇰",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05383099021378191361/creative/CR06115098887570063361?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 260,
+      "longevity_badge": "super_scale",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 13,
+      "creatives": [
+        {
+          "id": "CR_FAF_20_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0538",
+          "last_shown": "2026-10-09",
+          "duration_days": 260
+        }
+      ],
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)"
+    },
+    {
+      "id": "AR08921967844954996737",
+      "name": "THÁI HUỲNH TẤN ĐẠT",
+      "legal_name": "THÁI HUỲNH TẤN ĐẠT",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08921967844954996737/creative/CR07057741713942511617?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 177,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_21_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0892",
+          "last_shown": "2026-10-09",
+          "duration_days": 177
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR18224407644158820353",
+      "name": "Nguyễn Như Minh Phương",
+      "legal_name": "Nguyễn Như Minh Phương",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18224407644158820353/creative/CR04456686154862821377?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 184,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_22_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar1822",
+          "last_shown": "2026-10-09",
+          "duration_days": 184
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR18336776289408516097",
+      "name": "LƯU VẪN THUẬT",
+      "legal_name": "LƯU VẪN THUẬT",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18336776289408516097/creative/CR08969374345348513793?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 191,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_23_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar1833",
+          "last_shown": "2026-10-09",
+          "duration_days": 191
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR14451554001637867521",
+      "name": "CÔNG TY TNHH ADSDIGI",
+      "legal_name": "CÔNG TY TNHH ADSDIGI",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14451554001637867521/creative/CR07199900046198833153?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 198,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_24_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar1445",
+          "last_shown": "2026-10-09",
+          "duration_days": 198
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR05935809463528194049",
+      "name": "Lê Văn Kiên",
+      "legal_name": "Lê Văn Kiên",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05935809463528194049/creative/CR13365371366778339329?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 205,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_25_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0593",
+          "last_shown": "2026-10-09",
+          "duration_days": 205
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR03443039418779172865",
+      "name": "VNSOLUTION AI LIMITED",
+      "legal_name": "VNSOLUTION AI LIMITED",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03443039418779172865/creative/CR00019229573606539265?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 212,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_26_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0344",
+          "last_shown": "2026-10-09",
+          "duration_days": 212
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR04522511923152945153",
+      "name": "LÊ THỊ BIỂN",
+      "legal_name": "LÊ THỊ BIỂN",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04522511923152945153/creative/CR10043007042819457025?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 219,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_27_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0452",
+          "last_shown": "2026-10-09",
+          "duration_days": 219
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR03950641150859149313",
+      "name": "GLENN RICARDO BROTHERS JR",
+      "legal_name": "GLENN RICARDO BROTHERS JR",
+      "country": "Châu Âu / Mỹ",
+      "country_flag": "🇪🇺",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03950641150859149313/creative/CR01226945515061510145?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 88,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_28_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0395",
+          "last_shown": "2026-10-09",
+          "duration_days": 88
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR09254961495547052033",
+      "name": "Finch Bay Capital GP Ltd.",
+      "legal_name": "Finch Bay Capital GP Ltd.",
+      "country": "Châu Âu / Mỹ",
+      "country_flag": "🇪🇺",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09254961495547052033/creative/CR15245694579949699073?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 99,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_FAF_29_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0925",
+          "last_shown": "2026-10-09",
+          "duration_days": 99
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    },
+    {
+      "id": "AR04352098409805512705",
+      "name": "Yen Vy Nguyen",
+      "legal_name": "Yen Vy Nguyen",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04352098409805512705/creative/CR12344888236760367105?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 30,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_30_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0435",
+          "last_shown": "2026-10-09",
+          "duration_days": 30
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR16220417547848122369",
+      "name": "HOÀNG VĂN TÂM",
+      "legal_name": "HOÀNG VĂN TÂM",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16220417547848122369/creative/CR05686671055070953473?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 37,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_31_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar1622",
+          "last_shown": "2026-10-09",
+          "duration_days": 37
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR17481270824689205249",
+      "name": "1324 PORTER STREET, LLC",
+      "legal_name": "1324 PORTER STREET, LLC",
+      "country": "UAE",
+      "country_flag": "🇦🇪",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17481270824689205249/creative/CR00974368727585783809?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 132,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_32_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar1748",
+          "last_shown": "2026-10-09",
+          "duration_days": 132
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR12429688277211021313",
+      "name": "KMG MEDICAL GROUP MO, P.C.",
+      "legal_name": "KMG MEDICAL GROUP MO, P.C.",
+      "country": "Châu Âu / Mỹ",
+      "country_flag": "🇪🇺",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12429688277211021313/creative/CR16377485051618656257?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 143,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_33_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar1242",
+          "last_shown": "2026-10-09",
+          "duration_days": 143
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR01880125103509864449",
+      "name": "DKM PAINTWORKS LTD",
+      "legal_name": "DKM PAINTWORKS LTD",
+      "country": "Châu Âu / Mỹ",
+      "country_flag": "🇪🇺",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01880125103509864449/creative/CR02421320532180860929?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 154,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_34_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0188",
+          "last_shown": "2026-10-09",
+          "duration_days": 154
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR01823531015235174401",
+      "name": "IBILAL.COM FOR INTERNET CONSULTANCY CO. L.L.C",
+      "legal_name": "IBILAL.COM FOR INTERNET CONSULTANCY CO. L.L.C",
+      "country": "UAE",
+      "country_flag": "🇦🇪",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01823531015235174401/creative/CR08534812577996210177?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 165,
+      "longevity_badge": "test",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_35_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0182",
+          "last_shown": "2026-10-09",
+          "duration_days": 165
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR15863532213959131137",
+      "name": "Adcore East Limited",
+      "legal_name": "Adcore East Limited",
+      "country": "Châu Âu / Mỹ",
+      "country_flag": "🇪🇺",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15863532213959131137/creative/CR13326823451181187073?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 176,
+      "longevity_badge": "test",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_36_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar1586",
+          "last_shown": "2026-10-09",
+          "duration_days": 176
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR01863440289436270593",
+      "name": "CTY TNHH NEFLINK",
+      "legal_name": "CTY TNHH NEFLINK",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01863440289436270593/creative/CR12280937479392985089?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 79,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_37_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0186",
+          "last_shown": "2026-10-09",
+          "duration_days": 79
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR16192527928603443201",
+      "name": "LÊ CÔNG VINH",
+      "legal_name": "LÊ CÔNG VINH",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16192527928603443201/creative/CR16323344755469582337?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 86,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_38_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar1619",
+          "last_shown": "2026-10-09",
+          "duration_days": 86
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR03896894136275435521",
+      "name": "HY ACCOUNTANTS LIMITED",
+      "legal_name": "HY ACCOUNTANTS LIMITED",
+      "country": "Châu Âu / Mỹ",
+      "country_flag": "🇪🇺",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03896894136275435521/creative/CR05057091109323276289?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 209,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_39_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0389",
+          "last_shown": "2026-10-09",
+          "duration_days": 209
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR16723851005577396225",
+      "name": "TIÊU PHÚC ĐẠT",
+      "legal_name": "TIÊU PHÚC ĐẠT",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16723851005577396225/creative/CR14251382712890818561?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 100,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_40_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar1672",
+          "last_shown": "2026-10-09",
+          "duration_days": 100
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR00921748119715053569",
+      "name": "Hồ Ngọc Hiếu",
+      "legal_name": "Hồ Ngọc Hiếu",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00921748119715053569/creative/CR00316101423957803009?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 107,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_41_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0092",
+          "last_shown": "2026-10-09",
+          "duration_days": 107
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR07691394456917901313",
+      "name": "THIEN PHU INTERIORS TRADING - CONSTRUCTION COMPANY LIMITED",
+      "legal_name": "THIEN PHU INTERIORS TRADING - CONSTRUCTION COMPANY LIMITED",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07691394456917901313/creative/CR11452446122014932993?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 114,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_42_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar0769",
+          "last_shown": "2026-10-09",
+          "duration_days": 114
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR12621236122031226881",
+      "name": "BHG Reference Lab LLC",
+      "legal_name": "BHG Reference Lab LLC",
+      "country": "UAE",
+      "country_flag": "🇦🇪",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12621236122031226881/creative/CR06835375795146326017?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 253,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_43_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar1262",
+          "last_shown": "2026-10-09",
+          "duration_days": 253
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    },
+    {
+      "id": "AR12326815211947294721",
+      "name": "Luca Baruffaldi",
+      "legal_name": "Luca Baruffaldi",
+      "country": "Châu Âu / Mỹ",
+      "country_flag": "🇪🇺",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12326815211947294721/creative/CR17263196643373613057?region=anywhere",
+      "first_seen": "2026-04-12",
+      "last_shown": "2026-10-09",
+      "duration_days": 264,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_FAF_44_1",
+          "format": "search",
+          "format_label": "Google Search E-Bike Ads",
+          "headline": "Fafrees E-Bikes Europe Official Store - Electric Bikes 250W - 750W",
+          "description": "City, Trekking, Folding & Fat Tire Electric Bicycles. Free EU Warehouse Shipping 3-7 Days. 2-Year Warranty.",
+          "landing_page": "https://www.fafreesebike.com/?ref=aff_ar1232",
+          "last_shown": "2026-10-09",
+          "duration_days": 264
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    }
+  ],
+  "test_ads_count": 35
+}

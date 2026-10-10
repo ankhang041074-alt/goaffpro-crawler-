@@ -1,0 +1,107 @@
+{
+  "domain": "bavariatrachten.com",
+  "updated_at": "2026-10-10T14:42:59.317068",
+  "total_advertisers": 3,
+  "total_ads": 56,
+  "super_scale_count": 1,
+  "win_ads_count": 2,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR14132094523139948545",
+      "name": "SolRide Inc.Đã xác minh",
+      "legal_name": "SolRide Inc.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14132094523139948545/creative/CR03661183625241559041?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 52,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 52,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bavariatrachten.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bavariatrachten.com",
+          "landing_page": "https://www.bavariatrachten.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 52,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16221022494117259229"
+        }
+      ]
+    },
+    {
+      "id": "AR14119279319981228033",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14119279319981228033/creative/CR07371642525506863105?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bavariatrachten.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bavariatrachten.com",
+          "landing_page": "https://www.bavariatrachten.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12737547521992403088"
+        }
+      ]
+    },
+    {
+      "id": "AR01890588236548407297",
+      "name": "ABC BEHAVIOUR LTDĐã xác minh",
+      "legal_name": "ABC BEHAVIOUR LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01890588236548407297/creative/CR08430907217342889985?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: bavariatrachten.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho bavariatrachten.com",
+          "landing_page": "https://www.bavariatrachten.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14188545334268515806"
+        }
+      ]
+    }
+  ]
+}

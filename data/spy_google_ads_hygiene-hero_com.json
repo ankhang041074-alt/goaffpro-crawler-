@@ -1,0 +1,43 @@
+{
+  "domain": "hygiene-hero.com",
+  "updated_at": "2026-10-10T14:26:57.122838",
+  "total_advertisers": 1,
+  "total_ads": 38,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR07186090188743901185",
+      "name": "Berry White, Inc.Đã xác minh",
+      "legal_name": "Berry White, Inc.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07186090188743901185/creative/CR09788785866984914945?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 38,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 38,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hygiene-hero.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hygiene-hero.com",
+          "landing_page": "https://www.hygiene-hero.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 38,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11298920568539138963"
+        }
+      ]
+    }
+  ]
+}

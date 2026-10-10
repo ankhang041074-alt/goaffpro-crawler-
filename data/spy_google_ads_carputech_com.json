@@ -1,0 +1,107 @@
+{
+  "domain": "carputech.com",
+  "updated_at": "2026-10-10T14:41:05.719514",
+  "total_advertisers": 3,
+  "total_ads": 82,
+  "super_scale_count": 1,
+  "win_ads_count": 2,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR05142421827343089665",
+      "name": "深圳市明佳电子商务有限公司Đã xác minh",
+      "legal_name": "深圳市明佳电子商务有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05142421827343089665/creative/CR05801198067415777281?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 76,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 76,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: carputech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho carputech.com",
+          "landing_page": "https://www.carputech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 76,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10038429503262525496"
+        }
+      ]
+    },
+    {
+      "id": "AR03305852734506270721",
+      "name": "AL FARIS AL ABYADH NEW AUTO SPARE PARTS TR. LLCĐã xác minh",
+      "legal_name": "AL FARIS AL ABYADH NEW AUTO SPARE PARTS TR. LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03305852734506270721/creative/CR10749298196850147329?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: carputech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho carputech.com",
+          "landing_page": "https://www.carputech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13312926132723547888"
+        }
+      ]
+    },
+    {
+      "id": "AR07675194828119867393",
+      "name": "IT Solutions FZCOĐã xác minh",
+      "legal_name": "IT Solutions FZCOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07675194828119867393/creative/CR09990663417389645825?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: carputech.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho carputech.com",
+          "landing_page": "https://www.carputech.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18203769161436722352"
+        }
+      ]
+    }
+  ]
+}

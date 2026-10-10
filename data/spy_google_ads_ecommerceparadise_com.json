@@ -1,0 +1,43 @@
+{
+  "domain": "ecommerceparadise.com",
+  "updated_at": "2026-10-10T12:59:47.169106",
+  "total_advertisers": 1,
+  "total_ads": 2,
+  "win_ads_count": 1,
+  "super_scale_count": 0,
+  "evergreen_percent": 0,
+  "advertisers": [
+    {
+      "id": "AR13379789254163431425",
+      "name": "Ecom Paradise LLC",
+      "legal_name": "Ecom Paradise LLC",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13379789254163431425/creative/CR02108758788340187137?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: ecommerceparadise.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho ecommerceparadise.com",
+          "landing_page": "https://www.ecommerceparadise.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    }
+  ],
+  "test_ads_count": 0
+}

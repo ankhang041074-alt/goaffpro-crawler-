@@ -1,0 +1,43 @@
+{
+  "domain": "tessi-supply.com",
+  "updated_at": "2026-10-10T14:33:25.727603",
+  "total_advertisers": 1,
+  "total_ads": 126,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR00726126618673676289",
+      "name": "EV Smart Mobility GmbHĐã xác minh",
+      "legal_name": "EV Smart Mobility GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00726126618673676289/creative/CR03028777900250759169?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 126,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 126,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: tessi-supply.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho tessi-supply.com",
+          "landing_page": "https://www.tessi-supply.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 126,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15946237050952832250"
+        }
+      ]
+    }
+  ]
+}

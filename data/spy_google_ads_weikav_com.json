@@ -1,0 +1,107 @@
+{
+  "domain": "weikav.com",
+  "updated_at": "2026-10-10T14:26:28.302330",
+  "total_advertisers": 3,
+  "total_ads": 3,
+  "super_scale_count": 0,
+  "win_ads_count": 0,
+  "test_ads_count": 3,
+  "advertisers": [
+    {
+      "id": "AR14451554001637867521",
+      "name": "CÔNG TY TNHH ADSDIGIĐã xác minh",
+      "legal_name": "CÔNG TY TNHH ADSDIGIĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14451554001637867521/creative/CR17805889263284256769?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: weikav.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho weikav.com",
+          "landing_page": "https://www.weikav.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13913991740732298853"
+        }
+      ]
+    },
+    {
+      "id": "AR09128139331863576577",
+      "name": "ISAAC JAMES RICOĐã xác minh",
+      "legal_name": "ISAAC JAMES RICOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09128139331863576577/creative/CR03114128581278564353?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: weikav.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho weikav.com",
+          "landing_page": "https://www.weikav.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17104994885824632198"
+        }
+      ]
+    },
+    {
+      "id": "AR04291438052653400065",
+      "name": "LÊ CÔNG QUÂNĐã xác minh",
+      "legal_name": "LÊ CÔNG QUÂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04291438052653400065/creative/CR04558185096879800321?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: weikav.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho weikav.com",
+          "landing_page": "https://www.weikav.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12774554863999027920"
+        }
+      ]
+    }
+  ]
+}

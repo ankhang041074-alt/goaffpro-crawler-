@@ -1,0 +1,907 @@
+{
+  "domain": "theretrokit.com",
+  "updated_at": "2026-10-10T14:39:40.683665",
+  "total_advertisers": 28,
+  "total_ads": 62,
+  "super_scale_count": 0,
+  "win_ads_count": 28,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR04780077169114087425",
+      "name": "AGRILIFT AI PRIVATE LIMITEDĐã xác minh",
+      "legal_name": "AGRILIFT AI PRIVATE LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04780077169114087425/creative/CR10026772616196390913?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12631665002413314852"
+        }
+      ]
+    },
+    {
+      "id": "AR14959278054386434049",
+      "name": "NGUYỄN ĐỨC PHƯƠNGĐã xác minh",
+      "legal_name": "NGUYỄN ĐỨC PHƯƠNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14959278054386434049/creative/CR12005156461085720577?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17115186661864599121"
+        }
+      ]
+    },
+    {
+      "id": "AR15612568581840044033",
+      "name": "Kashif HussainĐã xác minh",
+      "legal_name": "Kashif HussainĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15612568581840044033/creative/CR17863766086491570177?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4614451213257245928"
+        }
+      ]
+    },
+    {
+      "id": "AR04244117254037307393",
+      "name": "Jean-Come David Joseph DubessetĐã xác minh",
+      "legal_name": "Jean-Come David Joseph DubessetĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04244117254037307393/creative/CR15060512907454316545?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14344774072194632906"
+        }
+      ]
+    },
+    {
+      "id": "AR04360576099722199041",
+      "name": "MUHAMMAD SAQLAIN DYAL ENTERPRISES LLPĐã xác minh",
+      "legal_name": "MUHAMMAD SAQLAIN DYAL ENTERPRISES LLPĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04360576099722199041/creative/CR08058314930354388993?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12322003730210940849"
+        }
+      ]
+    },
+    {
+      "id": "AR17202668365055787009",
+      "name": "KITCHEN APPLIANCE RETAIL LTDĐã xác minh",
+      "legal_name": "KITCHEN APPLIANCE RETAIL LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17202668365055787009/creative/CR01492698162689736705?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9599433398436357190"
+        }
+      ]
+    },
+    {
+      "id": "AR03217398621779525633",
+      "name": "Doyle Terry DwayneĐã xác minh",
+      "legal_name": "Doyle Terry DwayneĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03217398621779525633/creative/CR17770945349234458625?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7479050394139294971"
+        }
+      ]
+    },
+    {
+      "id": "AR06610224839166787585",
+      "name": "ABOVE AND BEYOND TECH (SMC-PRIVATE) LIMITEDĐã xác minh",
+      "legal_name": "ABOVE AND BEYOND TECH (SMC-PRIVATE) LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06610224839166787585/creative/CR10583422239141527553?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 6,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 6,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9952552864356943055"
+        }
+      ]
+    },
+    {
+      "id": "AR07915437405824352257",
+      "name": "Aftermath Capital Investments LLCĐã xác minh",
+      "legal_name": "Aftermath Capital Investments LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07915437405824352257/creative/CR08565825471688736769?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14467811568197118195"
+        }
+      ]
+    },
+    {
+      "id": "AR16387915955222609921",
+      "name": "STAR HONOUR DEVELOPMENT LIMITEDĐã xác minh",
+      "legal_name": "STAR HONOUR DEVELOPMENT LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16387915955222609921/creative/CR09573681260417515521?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3999442644782409552"
+        }
+      ]
+    },
+    {
+      "id": "AR02346701737475178497",
+      "name": "Mohsin NawazĐã xác minh",
+      "legal_name": "Mohsin NawazĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02346701737475178497/creative/CR12371359322796457985?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10451233957641312953"
+        }
+      ]
+    },
+    {
+      "id": "AR04951980615206436865",
+      "name": "TRẦN THỊ QUỲNHĐã xác minh",
+      "legal_name": "TRẦN THỊ QUỲNHĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04951980615206436865/creative/CR15017752281774817281?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3751084549728641053"
+        }
+      ]
+    },
+    {
+      "id": "AR06075435208188887041",
+      "name": "SUN COMMUNITIES, INC.Đã xác minh",
+      "legal_name": "SUN COMMUNITIES, INC.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06075435208188887041/creative/CR14920546657786396673?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15634429599780627929"
+        }
+      ]
+    },
+    {
+      "id": "AR04149418877337468929",
+      "name": "DIY BOOKKEEPER LTDĐã xác minh",
+      "legal_name": "DIY BOOKKEEPER LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04149418877337468929/creative/CR02188375593538551809?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12225392286382366781"
+        }
+      ]
+    },
+    {
+      "id": "AR06617107799136534529",
+      "name": "BEAUTY ACADEMY MANUALS LTDĐã xác minh",
+      "legal_name": "BEAUTY ACADEMY MANUALS LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06617107799136534529/creative/CR11211686816795066369?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9740788308568699349"
+        }
+      ]
+    },
+    {
+      "id": "AR14761596918958129153",
+      "name": "Malik Abdul Sattar AnjumĐã xác minh",
+      "legal_name": "Malik Abdul Sattar AnjumĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14761596918958129153/creative/CR15984172519544324097?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15933293948759044111"
+        }
+      ]
+    },
+    {
+      "id": "AR10468984897123909633",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10468984897123909633/creative/CR16100710530066415617?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10591195499469329721"
+        }
+      ]
+    },
+    {
+      "id": "AR03516949552470949889",
+      "name": "IT GREEN PUBLIC COMPANY LIMITED",
+      "legal_name": "IT GREEN PUBLIC COMPANY LIMITED",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03516949552470949889/creative/CR01777764350535139329?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1828566825929499107"
+        }
+      ]
+    },
+    {
+      "id": "AR10416563738944471041",
+      "name": "Usman SubhaniĐã xác minh",
+      "legal_name": "Usman SubhaniĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10416563738944471041/creative/CR12999924668419801089?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_18",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10849025281650018771"
+        }
+      ]
+    },
+    {
+      "id": "AR14413605680655106049",
+      "name": "TKTXĐã xác minh",
+      "legal_name": "TKTXĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14413605680655106049/creative/CR11490581832420818945?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_19",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10127458992876245503"
+        }
+      ]
+    },
+    {
+      "id": "AR00656750372718641153",
+      "name": "FTE NETWORKS, INC.Đã xác minh",
+      "legal_name": "FTE NETWORKS, INC.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00656750372718641153/creative/CR17162591441101258753?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_20",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11682288953245384138"
+        }
+      ]
+    },
+    {
+      "id": "AR11893126748885221377",
+      "name": "Hassan NawazĐã xác minh",
+      "legal_name": "Hassan NawazĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11893126748885221377/creative/CR07522328953416056833?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_21",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14822279814126509842"
+        }
+      ]
+    },
+    {
+      "id": "AR11701328833889173505",
+      "name": "Hộ Kinh Doanh Tạp HóaĐã xác minh",
+      "legal_name": "Hộ Kinh Doanh Tạp HóaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11701328833889173505/creative/CR16693578194879512577?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_22",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15668012572791717605"
+        }
+      ]
+    },
+    {
+      "id": "AR04770485441990230017",
+      "name": "ZILLOW GROUP, INC.Đã xác minh",
+      "legal_name": "ZILLOW GROUP, INC.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04770485441990230017/creative/CR13794260934031572993?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_23",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11171877967316469834"
+        }
+      ]
+    },
+    {
+      "id": "AR10661824187070414849",
+      "name": "HỘ KINH DOANH LÊ THỊ NGAĐã xác minh",
+      "legal_name": "HỘ KINH DOANH LÊ THỊ NGAĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10661824187070414849/creative/CR07825575943983857665?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_24",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/656337732034093095"
+        }
+      ]
+    },
+    {
+      "id": "AR06665450988947636225",
+      "name": "RAMMSHIRE GARDENS LLCĐã xác minh",
+      "legal_name": "RAMMSHIRE GARDENS LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06665450988947636225/creative/CR04596868845112655873?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_25",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3162305269300859017"
+        }
+      ]
+    },
+    {
+      "id": "AR02921886231656660993",
+      "name": "Adeela KousarĐã xác minh",
+      "legal_name": "Adeela KousarĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02921886231656660993/creative/CR01191341584797401089?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_26",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5328424932372121683"
+        }
+      ]
+    },
+    {
+      "id": "AR13991697007215902721",
+      "name": "DIGITAL NEXT (PRIVATE) LIMITED - DO NOT USE - IN OCAĐã xác minh",
+      "legal_name": "DIGITAL NEXT (PRIVATE) LIMITED - DO NOT USE - IN OCAĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13991697007215902721/creative/CR11883193382882770945?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_27",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: theretrokit.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho theretrokit.com",
+          "landing_page": "https://www.theretrokit.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6953976080343714766"
+        }
+      ]
+    }
+  ]
+}

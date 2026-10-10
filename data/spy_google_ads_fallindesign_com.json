@@ -1,0 +1,107 @@
+{
+  "domain": "fallindesign.com",
+  "updated_at": "2026-10-10T14:39:54.738791",
+  "total_advertisers": 3,
+  "total_ads": 34,
+  "super_scale_count": 1,
+  "win_ads_count": 2,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR13926901137723621377",
+      "name": "FallindesignĐã xác minh",
+      "legal_name": "FallindesignĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13926901137723621377/creative/CR04341215031396925441?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 26,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 26,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: fallindesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho fallindesign.com",
+          "landing_page": "https://www.fallindesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 26,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9152593186224770194"
+        }
+      ]
+    },
+    {
+      "id": "AR06665929328045326337",
+      "name": "su huĐã xác minh",
+      "legal_name": "su huĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06665929328045326337/creative/CR18086055821157859329?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: fallindesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho fallindesign.com",
+          "landing_page": "https://www.fallindesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2339781631265425618"
+        }
+      ]
+    },
+    {
+      "id": "AR06407937222464503809",
+      "name": "NGUYỄN XUÂN VŨĐã xác minh",
+      "legal_name": "NGUYỄN XUÂN VŨĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06407937222464503809/creative/CR13966332467964018689?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 6,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 6,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: fallindesign.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho fallindesign.com",
+          "landing_page": "https://www.fallindesign.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 6,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8252239575211456218"
+        }
+      ]
+    }
+  ]
+}

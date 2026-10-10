@@ -1,0 +1,44 @@
+{
+  "domain": "phillipsbrush.com",
+  "updated_at": "2026-10-10T12:30:21.176742",
+  "total_advertisers": 1,
+  "total_ads": 1,
+  "win_ads_count": 0,
+  "super_scale_count": 0,
+  "evergreen_percent": 0,
+  "advertisers": [
+    {
+      "id": "AR18158832289641922561",
+      "name": "Stephanie Meno",
+      "legal_name": "Stephanie Meno",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18158832289641922561/creative/CR12506291802073989121?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 35,
+      "longevity_badge": "test",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Phillipsbrush.com Official Offers & Deals",
+          "description": "Shop online at phillipsbrush.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.phillipsbrush.com/?ref=aff_ar1815",
+          "last_shown": "2026-10-10",
+          "duration_days": 35,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7945088002418462428"
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    }
+  ],
+  "test_ads_count": 1
+}

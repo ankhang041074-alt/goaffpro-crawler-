@@ -1,0 +1,43 @@
+{
+  "domain": "velotricbike.com",
+  "updated_at": "2026-10-10T13:52:15.030788",
+  "total_advertisers": 1,
+  "total_ads": 200,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR03902102428366929921",
+      "name": "深圳唯乐高科技有限公司Đã xác minh",
+      "legal_name": "深圳唯乐高科技有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03902102428366929921/creative/CR01005018095246376961?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 200,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 200,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: velotricbike.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho velotricbike.com",
+          "landing_page": "https://www.velotricbike.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 200,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12400858219344160108"
+        }
+      ]
+    }
+  ]
+}

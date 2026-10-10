@@ -1,0 +1,361 @@
+{
+  "domain": "xtool.com",
+  "updated_at": "2026-10-10T13:51:50.051613",
+  "total_advertisers": 11,
+  "total_ads": 200,
+  "super_scale_count": 5,
+  "win_ads_count": 5,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR07041210599568572417",
+      "name": "深圳市创客工场科技有限公司Đã xác minh",
+      "legal_name": "深圳市创客工场科技有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07041210599568572417/creative/CR01696111662118993921?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 22,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 22,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: xtool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho xtool.com",
+          "landing_page": "https://www.xtool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 22,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8353904589978119602"
+        }
+      ]
+    },
+    {
+      "id": "AR06310741854857986049",
+      "name": "深圳市创客工场科技有限公司Đã xác minh",
+      "legal_name": "深圳市创客工场科技有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06310741854857986049/creative/CR16579397786395475969?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 74,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 74,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: xtool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho xtool.com",
+          "landing_page": "https://www.xtool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 74,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10232808266029378913"
+        }
+      ]
+    },
+    {
+      "id": "AR12396727830598123521",
+      "name": "深圳市创客工场科技有限公司Đã xác minh",
+      "legal_name": "深圳市创客工场科技有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12396727830598123521/creative/CR11626526163043614721?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 13,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 13,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: xtool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho xtool.com",
+          "landing_page": "https://www.xtool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 13,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11431314082340291087"
+        }
+      ]
+    },
+    {
+      "id": "AR06216776474456752129",
+      "name": "深圳市创客工场科技有限公司Đã xác minh",
+      "legal_name": "深圳市创客工场科技有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06216776474456752129/creative/CR03363381923060645889?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 54,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 54,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: xtool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho xtool.com",
+          "landing_page": "https://www.xtool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 54,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3746781134675642692"
+        }
+      ]
+    },
+    {
+      "id": "AR13893503557929271297",
+      "name": "Ceon Internet ApSĐã xác minh",
+      "legal_name": "Ceon Internet ApSĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13893503557929271297/creative/CR17271805991217790977?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: xtool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho xtool.com",
+          "landing_page": "https://www.xtool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR11685366570753720321",
+      "name": "ARTUR COSTA MELO JUNIORĐã xác minh",
+      "legal_name": "ARTUR COSTA MELO JUNIORĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11685366570753720321/creative/CR03150793548853411841?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 8,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 8,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: xtool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho xtool.com",
+          "landing_page": "https://www.xtool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 8,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7983000352686546838"
+        }
+      ]
+    },
+    {
+      "id": "AR06511078594335211521",
+      "name": "深圳市创客工场科技有限公司Đã xác minh",
+      "legal_name": "深圳市创客工场科技有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06511078594335211521/creative/CR14131035573183315969?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 13,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 13,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: xtool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho xtool.com",
+          "landing_page": "https://www.xtool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 13,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10704948442314252956"
+        }
+      ]
+    },
+    {
+      "id": "AR04786318572638961665",
+      "name": "XTL US INC.Đã xác minh",
+      "legal_name": "XTL US INC.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04786318572638961665/creative/CR08580617923171713025?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 7,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 7,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: xtool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho xtool.com",
+          "landing_page": "https://www.xtool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 7,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15148227811447764822"
+        }
+      ]
+    },
+    {
+      "id": "AR13264882875947286529",
+      "name": "深圳市创客工场科技有限公司Đã xác minh",
+      "legal_name": "深圳市创客工场科技有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13264882875947286529/creative/CR01374104426200956929?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: xtool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho xtool.com",
+          "landing_page": "https://www.xtool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9777132663791816699"
+        }
+      ]
+    },
+    {
+      "id": "AR15511961721710313473",
+      "name": "ShopForward B.V.Đã xác minh",
+      "legal_name": "ShopForward B.V.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15511961721710313473/creative/CR15630092022637920257?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: xtool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho xtool.com",
+          "landing_page": "https://www.xtool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR14907583759292301313",
+      "name": "SEEMA DEVIĐã xác minh",
+      "legal_name": "SEEMA DEVIĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14907583759292301313/creative/CR01059015008207241217?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: xtool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho xtool.com",
+          "landing_page": "https://www.xtool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15742292308426977408"
+        }
+      ]
+    }
+  ]
+}

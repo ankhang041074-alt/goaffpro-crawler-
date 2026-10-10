@@ -1,0 +1,607 @@
+{
+  "domain": "wopet.com",
+  "updated_at": "2026-10-10T14:10:06.858683",
+  "total_advertisers": 19,
+  "total_ads": 42,
+  "super_scale_count": 0,
+  "win_ads_count": 19,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR15539860222947360769",
+      "name": "TIARA MARIE THORNTONĐã xác minh",
+      "legal_name": "TIARA MARIE THORNTONĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15539860222947360769/creative/CR00446378124326731777?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wopet.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wopet.com",
+          "landing_page": "https://www.wopet.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2812883631873225691"
+        }
+      ]
+    },
+    {
+      "id": "AR18083268112504848385",
+      "name": "TIFFANY S CARTERĐã xác minh",
+      "legal_name": "TIFFANY S CARTERĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18083268112504848385/creative/CR09711399661641662465?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: wopet.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wopet.com",
+          "landing_page": "https://www.wopet.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR04554454831883878401",
+      "name": "TIERA NICOLE TINDELLĐã xác minh",
+      "legal_name": "TIERA NICOLE TINDELLĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04554454831883878401/creative/CR16135925267574030337?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: wopet.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wopet.com",
+          "landing_page": "https://www.wopet.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR07493192127208226817",
+      "name": "MICHAEL LEE ALVAREZĐã xác minh",
+      "legal_name": "MICHAEL LEE ALVAREZĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07493192127208226817/creative/CR10190056655631155201?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: wopet.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wopet.com",
+          "landing_page": "https://www.wopet.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR16382033353265643521",
+      "name": "TIERRA LAQUASHA SMITHĐã xác minh",
+      "legal_name": "TIERRA LAQUASHA SMITHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16382033353265643521/creative/CR10728016908776374273?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wopet.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wopet.com",
+          "landing_page": "https://www.wopet.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2645659973884230303"
+        }
+      ]
+    },
+    {
+      "id": "AR17742120440731533313",
+      "name": "TALIA PATRICE PASSLEYĐã xác minh",
+      "legal_name": "TALIA PATRICE PASSLEYĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17742120440731533313/creative/CR14975623840921550849?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: wopet.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wopet.com",
+          "landing_page": "https://www.wopet.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR16773846520846876673",
+      "name": "TIFFANY RENEE WATKINSĐã xác minh",
+      "legal_name": "TIFFANY RENEE WATKINSĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16773846520846876673/creative/CR11549563200957579265?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wopet.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wopet.com",
+          "landing_page": "https://www.wopet.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5159252482833871808"
+        }
+      ]
+    },
+    {
+      "id": "AR11799013801997631489",
+      "name": "ROBERT MARIUS NASTASEĐã xác minh",
+      "legal_name": "ROBERT MARIUS NASTASEĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11799013801997631489/creative/CR09120313205665562625?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: wopet.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wopet.com",
+          "landing_page": "https://www.wopet.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR10812939338615095297",
+      "name": "SAVANNAH ALEXUS WATSONĐã xác minh",
+      "legal_name": "SAVANNAH ALEXUS WATSONĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10812939338615095297/creative/CR13598575687085588481?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: wopet.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wopet.com",
+          "landing_page": "https://www.wopet.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR13641592026527956993",
+      "name": "Hamid ArifĐã xác minh",
+      "legal_name": "Hamid ArifĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13641592026527956993/creative/CR06730736338682773505?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wopet.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wopet.com",
+          "landing_page": "https://www.wopet.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11098175159576101853"
+        }
+      ]
+    },
+    {
+      "id": "AR11460320789933326337",
+      "name": "DESTINY TERRY'NAE NAPPERĐã xác minh",
+      "legal_name": "DESTINY TERRY'NAE NAPPERĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11460320789933326337/creative/CR02053090617705103361?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: wopet.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wopet.com",
+          "landing_page": "https://www.wopet.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR05179008772542038017",
+      "name": "ANTHONY LEON DIXON JRĐã xác minh",
+      "legal_name": "ANTHONY LEON DIXON JRĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05179008772542038017/creative/CR16695271571635306497?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: wopet.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wopet.com",
+          "landing_page": "https://www.wopet.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR11615302348347277313",
+      "name": "KIELIN DESHEA SMITHĐã xác minh",
+      "legal_name": "KIELIN DESHEA SMITHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11615302348347277313/creative/CR14428442533509988353?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wopet.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wopet.com",
+          "landing_page": "https://www.wopet.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11681463866279112234"
+        }
+      ]
+    },
+    {
+      "id": "AR07647969829294440449",
+      "name": "AMANDA CHRISTINE TILLEYĐã xác minh",
+      "legal_name": "AMANDA CHRISTINE TILLEYĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07647969829294440449/creative/CR03590796112056811521?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wopet.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wopet.com",
+          "landing_page": "https://www.wopet.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9250853352744943257"
+        }
+      ]
+    },
+    {
+      "id": "AR07142504439717298177",
+      "name": "ALANDIS MAREE WOOTENĐã xác minh",
+      "legal_name": "ALANDIS MAREE WOOTENĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07142504439717298177/creative/CR03344518598495305729?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: wopet.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wopet.com",
+          "landing_page": "https://www.wopet.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR09301724274832179201",
+      "name": "TANISHA DANQUEL MONIQUE GRIFFINĐã xác minh",
+      "legal_name": "TANISHA DANQUEL MONIQUE GRIFFINĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09301724274832179201/creative/CR07835923542402138113?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: wopet.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wopet.com",
+          "landing_page": "https://www.wopet.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR15522623076079501313",
+      "name": "BRANDON LEE JOHNSONĐã xác minh",
+      "legal_name": "BRANDON LEE JOHNSONĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15522623076079501313/creative/CR01701429312667779073?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: wopet.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wopet.com",
+          "landing_page": "https://www.wopet.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR17075226265792806913",
+      "name": "NGÔ TUẤN ANHĐã xác minh",
+      "legal_name": "NGÔ TUẤN ANHĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17075226265792806913/creative/CR15810845068455051265?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: wopet.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wopet.com",
+          "landing_page": "https://www.wopet.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR02612849092597907457",
+      "name": "Abdur RehmanĐã xác minh",
+      "legal_name": "Abdur RehmanĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02612849092597907457/creative/CR04012187482455015425?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_18",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: wopet.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho wopet.com",
+          "landing_page": "https://www.wopet.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3568198757904558089"
+        }
+      ]
+    }
+  ]
+}

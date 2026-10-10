@@ -1,0 +1,1130 @@
+{
+  "domain": "sofirnlight.com",
+  "updated_at": "2026-10-10T14:05:32.118909",
+  "total_advertisers": 35,
+  "total_ads": 111,
+  "super_scale_count": 1,
+  "win_ads_count": 14,
+  "test_ads_count": 20,
+  "advertisers": [
+    {
+      "id": "AR07390713546100703233",
+      "name": "TUOTENG E-BUSINESS CO ., LIMITEDĐã xác minh",
+      "legal_name": "TUOTENG E-BUSINESS CO ., LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07390713546100703233/creative/CR15565611876191567873?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 63,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 63,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 63,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1713951194875587335"
+        }
+      ]
+    },
+    {
+      "id": "AR06656426944831160321",
+      "name": "Saad Bin KhalilĐã xác minh",
+      "legal_name": "Saad Bin KhalilĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06656426944831160321/creative/CR16779854802136858625?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6542505014669734403"
+        }
+      ]
+    },
+    {
+      "id": "AR04244117254037307393",
+      "name": "Jean-Come David Joseph DubessetĐã xác minh",
+      "legal_name": "Jean-Come David Joseph DubessetĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04244117254037307393/creative/CR02763125643188109313?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17107410983943172727"
+        }
+      ]
+    },
+    {
+      "id": "AR00434757892738908161",
+      "name": "郑州悉知信息科技股份有限公司Đã xác minh",
+      "legal_name": "郑州悉知信息科技股份有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00434757892738908161/creative/CR11258813577378660353?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7273090584907706382"
+        }
+      ]
+    },
+    {
+      "id": "AR02982319780175806465",
+      "name": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ DCNĐã xác minh",
+      "legal_name": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ DCNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02982319780175806465/creative/CR00751993428581023745?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5374416754888377290"
+        }
+      ]
+    },
+    {
+      "id": "AR13641592026527956993",
+      "name": "Hamid ArifĐã xác minh",
+      "legal_name": "Hamid ArifĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13641592026527956993/creative/CR00132085920982630401?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17010298573350276823"
+        }
+      ]
+    },
+    {
+      "id": "AR09765407500999327745",
+      "name": "HỘ KINH DOANH NGUYỄN THANH VƯƠNGĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN THANH VƯƠNGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09765407500999327745/creative/CR12834157991859060737?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1668635242111367481"
+        }
+      ]
+    },
+    {
+      "id": "AR03003897043035881473",
+      "name": "EAGLE EYE CAM SERVICES INC",
+      "legal_name": "EAGLE EYE CAM SERVICES INC",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03003897043035881473/creative/CR00624176748040290305?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9494267587834657645"
+        }
+      ]
+    },
+    {
+      "id": "AR13517945278195302401",
+      "name": "CÔNG TY CỔ PHẦN GDS HOLDINGĐã xác minh",
+      "legal_name": "CÔNG TY CỔ PHẦN GDS HOLDINGĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13517945278195302401/creative/CR05819440657537695745?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9574462125845146081"
+        }
+      ]
+    },
+    {
+      "id": "AR00775699620830380033",
+      "name": "DAIAGI D LLCĐã xác minh",
+      "legal_name": "DAIAGI D LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00775699620830380033/creative/CR15575150319951151105?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/633205896628852333"
+        }
+      ]
+    },
+    {
+      "id": "AR11893126748885221377",
+      "name": "Hassan NawazĐã xác minh",
+      "legal_name": "Hassan NawazĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11893126748885221377/creative/CR01185415629440548865?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14894956891042186760"
+        }
+      ]
+    },
+    {
+      "id": "AR00920799215410479105",
+      "name": "CG MEDIA GROUP CO., LTDĐã xác minh",
+      "legal_name": "CG MEDIA GROUP CO., LTDĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00920799215410479105/creative/CR00689832298186539009?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR12648274212469866497",
+      "name": "STAR HONOUR DEVELOPMENT LIMITED",
+      "legal_name": "STAR HONOUR DEVELOPMENT LIMITED",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12648274212469866497/creative/CR06453276812796493825?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4671974424935523983"
+        }
+      ]
+    },
+    {
+      "id": "AR02937928132075716609",
+      "name": "LACOSTE UK LIMITEDĐã xác minh",
+      "legal_name": "LACOSTE UK LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02937928132075716609/creative/CR14776440471961993217?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5035544715086403160"
+        }
+      ]
+    },
+    {
+      "id": "AR16387915955222609921",
+      "name": "STAR HONOUR DEVELOPMENT LIMITEDĐã xác minh",
+      "legal_name": "STAR HONOUR DEVELOPMENT LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16387915955222609921/creative/CR13603590387821182977?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17183859450499736157"
+        }
+      ]
+    },
+    {
+      "id": "AR17804639324721905665",
+      "name": "NGUYỄN ĐỨC TOÀNĐã xác minh",
+      "legal_name": "NGUYỄN ĐỨC TOÀNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17804639324721905665/creative/CR01764824610504704001?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2518762753027859341"
+        }
+      ]
+    },
+    {
+      "id": "AR06785990551779934209",
+      "name": "Absolute Link LimitedĐã xác minh",
+      "legal_name": "Absolute Link LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06785990551779934209/creative/CR12897244052050673665?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6653820484886954833"
+        }
+      ]
+    },
+    {
+      "id": "AR14192615474243567617",
+      "name": "ĐINH HỒNG NGỌCĐã xác minh",
+      "legal_name": "ĐINH HỒNG NGỌCĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14192615474243567617/creative/CR01555118717698834433?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6804557887424177706"
+        }
+      ]
+    },
+    {
+      "id": "AR05948583288971984897",
+      "name": "Công Ty TNHH K-GROUP GLOBALĐã xác minh",
+      "legal_name": "Công Ty TNHH K-GROUP GLOBALĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05948583288971984897/creative/CR02114461748995031041?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_18",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10664937861297558225"
+        }
+      ]
+    },
+    {
+      "id": "AR02766607976901902337",
+      "name": "HILLS COMPANYĐã xác minh",
+      "legal_name": "HILLS COMPANYĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02766607976901902337/creative/CR11192600944204316673?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_19",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10029081001254821618"
+        }
+      ]
+    },
+    {
+      "id": "AR11133654742859776001",
+      "name": "Click Tech LimitedĐã xác minh",
+      "legal_name": "Click Tech LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11133654742859776001/creative/CR10595705879967825921?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_20",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11070737408483896525"
+        }
+      ]
+    },
+    {
+      "id": "AR13547397827449061377",
+      "name": "CAR DISTRICT JAPAN LLCĐã xác minh",
+      "legal_name": "CAR DISTRICT JAPAN LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13547397827449061377/creative/CR16859832118300114945?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_21",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13290658825326286063"
+        }
+      ]
+    },
+    {
+      "id": "AR01823531015235174401",
+      "name": "IBILAL.COM FOR INTERNET CONSULTANCY CO. L.L.CĐã xác minh",
+      "legal_name": "IBILAL.COM FOR INTERNET CONSULTANCY CO. L.L.CĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01823531015235174401/creative/CR13624808187688386561?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_22",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16713737598053309478"
+        }
+      ]
+    },
+    {
+      "id": "AR06093805161271001089",
+      "name": "CÔNG TY TNHH MỘT THÀNH VIÊN THƯƠNG MẠI XUẤT NHẬP KHẨU DĨNH TRẦN",
+      "legal_name": "CÔNG TY TNHH MỘT THÀNH VIÊN THƯƠNG MẠI XUẤT NHẬP KHẨU DĨNH TRẦN",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06093805161271001089/creative/CR05606831461329010689?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_23",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10796354974095075566"
+        }
+      ]
+    },
+    {
+      "id": "AR02374887907031777281",
+      "name": "ECOM PRIME LLPĐã xác minh",
+      "legal_name": "ECOM PRIME LLPĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02374887907031777281/creative/CR01359699217559322625?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_24",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11834356232824394649"
+        }
+      ]
+    },
+    {
+      "id": "AR11153880791828660225",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HUÂNĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HUÂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11153880791828660225/creative/CR17893177361109614593?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_25",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8226409872799190933"
+        }
+      ]
+    },
+    {
+      "id": "AR04586577278837719041",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HUÂNĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HUÂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04586577278837719041/creative/CR00961014377182396417?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_26",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12521210186868402902"
+        }
+      ]
+    },
+    {
+      "id": "AR11982921252185571329",
+      "name": "VŨ MINH QUÂNĐã xác minh",
+      "legal_name": "VŨ MINH QUÂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11982921252185571329/creative/CR10844304496935305217?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_27",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9961681887472459043"
+        }
+      ]
+    },
+    {
+      "id": "AR12784598080762675201",
+      "name": "South Wind Tech LimitedĐã xác minh",
+      "legal_name": "South Wind Tech LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12784598080762675201/creative/CR13328285157401034753?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_28",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1831616340902701721"
+        }
+      ]
+    },
+    {
+      "id": "AR16599245251177086977",
+      "name": "PACIFIC CREST ADVERTISINGĐã xác minh",
+      "legal_name": "PACIFIC CREST ADVERTISINGĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16599245251177086977/creative/CR06972638182512787457?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_29",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18268131285430718826"
+        }
+      ]
+    },
+    {
+      "id": "AR13554097357955530753",
+      "name": "NGÔ XUÂN BÁCHĐã xác minh",
+      "legal_name": "NGÔ XUÂN BÁCHĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13554097357955530753/creative/CR11856777684744929281?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_30",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9328354800732354853"
+        }
+      ]
+    },
+    {
+      "id": "AR16283803199188500481",
+      "name": "Rooks Advertising LLCĐã xác minh",
+      "legal_name": "Rooks Advertising LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16283803199188500481/creative/CR14970498132461223937?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_31",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2183286452692740608"
+        }
+      ]
+    },
+    {
+      "id": "AR08115669442588835841",
+      "name": "VŨ THỊ THUĐã xác minh",
+      "legal_name": "VŨ THỊ THUĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08115669442588835841/creative/CR03567344293540528129?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_32",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17837671612966903662"
+        }
+      ]
+    },
+    {
+      "id": "AR16874404444119236609",
+      "name": "安柏鸿睿（北京）科技发展有限公司Đã xác minh",
+      "legal_name": "安柏鸿睿（北京）科技发展有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16874404444119236609/creative/CR01064488042082861057?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_33",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4290430263750602485"
+        }
+      ]
+    },
+    {
+      "id": "AR10215658740934246401",
+      "name": "Creation（International）Media LtdĐã xác minh",
+      "legal_name": "Creation（International）Media LtdĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10215658740934246401/creative/CR13994971284123942913?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_34",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: sofirnlight.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho sofirnlight.com",
+          "landing_page": "https://www.sofirnlight.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7171467906458890248"
+        }
+      ]
+    }
+  ]
+}

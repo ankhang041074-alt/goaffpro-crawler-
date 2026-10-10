@@ -1,0 +1,139 @@
+{
+  "domain": "incrediwear.com",
+  "updated_at": "2026-10-10T14:35:08.822230",
+  "total_advertisers": 4,
+  "total_ads": 87,
+  "super_scale_count": 1,
+  "win_ads_count": 1,
+  "test_ads_count": 2,
+  "advertisers": [
+    {
+      "id": "AR00561057659550171137",
+      "name": "Incrediwear Holdings, Inc.Đã xác minh",
+      "legal_name": "Incrediwear Holdings, Inc.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00561057659550171137/creative/CR07049271763556892673?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 77,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 77,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: incrediwear.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho incrediwear.com",
+          "landing_page": "https://www.incrediwear.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 77,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2524166638541398545"
+        }
+      ]
+    },
+    {
+      "id": "AR05541185111002710017",
+      "name": "Infinitum Agency SIAĐã xác minh",
+      "legal_name": "Infinitum Agency SIAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05541185111002710017/creative/CR02875372483165290497?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 8,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 8,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: incrediwear.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho incrediwear.com",
+          "landing_page": "https://www.incrediwear.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 8,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17899067278409133881"
+        }
+      ]
+    },
+    {
+      "id": "AR12485949118973214721",
+      "name": "Ngô Trâm AnhĐã xác minh",
+      "legal_name": "Ngô Trâm AnhĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12485949118973214721/creative/CR08108137744988897281?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: incrediwear.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho incrediwear.com",
+          "landing_page": "https://www.incrediwear.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16390881769288952251"
+        }
+      ]
+    },
+    {
+      "id": "AR18017028936432615425",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18017028936432615425/creative/CR18077833441277116417?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: incrediwear.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho incrediwear.com",
+          "landing_page": "https://www.incrediwear.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14149348713543392154"
+        }
+      ]
+    }
+  ]
+}

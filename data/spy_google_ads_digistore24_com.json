@@ -1,0 +1,806 @@
+{
+  "domain": "digistore24.com",
+  "updated_at": "2026-10-10T13:52:36.288986",
+  "total_advertisers": 25,
+  "total_ads": 137,
+  "super_scale_count": 3,
+  "win_ads_count": 10,
+  "test_ads_count": 12,
+  "advertisers": [
+    {
+      "id": "AR18014523037763764225",
+      "name": "Digistore24 GmbHĐã xác minh",
+      "legal_name": "Digistore24 GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18014523037763764225/creative/CR17678670888867725313?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 18,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 18,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 18,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11109089003699813365"
+        }
+      ]
+    },
+    {
+      "id": "AR13020571418025263105",
+      "name": "Digistore24 Inc.Đã xác minh",
+      "legal_name": "Digistore24 Inc.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13020571418025263105/creative/CR05757851444988346369?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 70,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 70,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 70,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10989214257727400202"
+        }
+      ]
+    },
+    {
+      "id": "AR03826015175752810497",
+      "name": "Jafeth MarianiĐã xác minh",
+      "legal_name": "Jafeth MarianiĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03826015175752810497/creative/CR08603514153308520449?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR05683904743945011201",
+      "name": "indaro Mikrofinanz GmbH & Co. KGĐã xác minh",
+      "legal_name": "indaro Mikrofinanz GmbH & Co. KGĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05683904743945011201/creative/CR03031067169359134721?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10763989294597587452"
+        }
+      ]
+    },
+    {
+      "id": "AR12023932383066587137",
+      "name": "Burak TürkerĐã xác minh",
+      "legal_name": "Burak TürkerĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12023932383066587137/creative/CR01728134354162417665?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 12,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 12,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 12,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR15911969764201725953",
+      "name": "REUDES OLIVEIRA SANTOSĐã xác minh",
+      "legal_name": "REUDES OLIVEIRA SANTOSĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15911969764201725953/creative/CR10493031104754221057?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15104416108997192101"
+        }
+      ]
+    },
+    {
+      "id": "AR02034920397782122497",
+      "name": "JOSE MARIA PEREIRA LIMAĐã xác minh",
+      "legal_name": "JOSE MARIA PEREIRA LIMAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02034920397782122497/creative/CR04874496587688050689?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR16111072980481605633",
+      "name": "cfm Kober + Partner GmbHĐã xác minh",
+      "legal_name": "cfm Kober + Partner GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16111072980481605633/creative/CR15320086505892872193?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7363684137979394009"
+        }
+      ]
+    },
+    {
+      "id": "AR10545092086976217089",
+      "name": "TIAGO LIMA DE OLIVEIRAĐã xác minh",
+      "legal_name": "TIAGO LIMA DE OLIVEIRAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10545092086976217089/creative/CR14026048250138591233?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4047619837778758691"
+        }
+      ]
+    },
+    {
+      "id": "AR11300497746814828545",
+      "name": "Rất tiếc, chúng tôi không thể hiển thị cho bạn quảng cáo này vào lúc nàyMichael KrügerĐã xác minh",
+      "legal_name": "Rất tiếc, chúng tôi không thể hiển thị cho bạn quảng cáo này vào lúc nàyMichael KrügerĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11300497746814828545/creative/CR01645480800927350785?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://i.ytimg.com/vi/ympOeHtOYuU/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR09955291372409847809",
+      "name": "PADARIA DO BRASIL LTDAĐã xác minh",
+      "legal_name": "PADARIA DO BRASIL LTDAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09955291372409847809/creative/CR17880825516202655745?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15437178070087144265"
+        }
+      ]
+    },
+    {
+      "id": "AR04800045348246519809",
+      "name": "Jenny KühneĐã xác minh",
+      "legal_name": "Jenny KühneĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04800045348246519809/creative/CR01507538271129829377?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR04667714038602399745",
+      "name": "Jürgen Höller Academy GmbHĐã xác minh",
+      "legal_name": "Jürgen Höller Academy GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04667714038602399745/creative/CR01037720319835504641?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10858895335872885169"
+        }
+      ]
+    },
+    {
+      "id": "AR18308437064397357057",
+      "name": "EDMILSON NEVESĐã xác minh",
+      "legal_name": "EDMILSON NEVESĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR18308437064397357057/creative/CR10455333592681676801?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13957598308555810531"
+        }
+      ]
+    },
+    {
+      "id": "AR00652360460875595777",
+      "name": "Cristina Osvalda CONSTANTEĐã xác minh",
+      "legal_name": "Cristina Osvalda CONSTANTEĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00652360460875595777/creative/CR13566211390523310081?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7388450109506901704"
+        }
+      ]
+    },
+    {
+      "id": "AR16793412235773870081",
+      "name": "Jens Martin BeuermannĐã xác minh",
+      "legal_name": "Jens Martin BeuermannĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16793412235773870081/creative/CR04129380166252101633?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2059438096578240920"
+        }
+      ]
+    },
+    {
+      "id": "AR00786016742160728065",
+      "name": "Rene Jan BuchingerĐã xác minh",
+      "legal_name": "Rene Jan BuchingerĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00786016742160728065/creative/CR09736129679605104641?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7237367970883673476"
+        }
+      ]
+    },
+    {
+      "id": "AR08160332867629481985",
+      "name": "KAI ERNST OSKAR BIERMANNĐã xác minh",
+      "legal_name": "KAI ERNST OSKAR BIERMANNĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08160332867629481985/creative/CR00796850307538616321?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR03546926637490634753",
+      "name": "Jens KehlenĐã xác minh",
+      "legal_name": "Jens KehlenĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03546926637490634753/creative/CR00971918259764854785?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_18",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3875188183434314757"
+        }
+      ]
+    },
+    {
+      "id": "AR13750001768492695553",
+      "name": "DEE'S Fahrschule GmbHĐã xác minh",
+      "legal_name": "DEE'S Fahrschule GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13750001768492695553/creative/CR09839083988470202369?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_19",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/548552645538106095"
+        }
+      ]
+    },
+    {
+      "id": "AR01243176617379889153",
+      "name": "MS EMPREENDEDORISMO DIGITAL LTDAĐã xác minh",
+      "legal_name": "MS EMPREENDEDORISMO DIGITAL LTDAĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01243176617379889153/creative/CR09669496139635752961?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_20",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16579797667326587106"
+        }
+      ]
+    },
+    {
+      "id": "AR10136425192847572993",
+      "name": "JOHN AITCHISON",
+      "legal_name": "JOHN AITCHISON",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10136425192847572993/creative/CR10434218571381866497?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_21",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13736255892577156200"
+        }
+      ]
+    },
+    {
+      "id": "AR03680156686221312001",
+      "name": "MARCIO DAVID PALMEIRA DE BARROSĐã xác minh",
+      "legal_name": "MARCIO DAVID PALMEIRA DE BARROSĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03680156686221312001/creative/CR03435530192448126977?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_22",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4230533507094903188"
+        }
+      ]
+    },
+    {
+      "id": "AR08733104758421716993",
+      "name": "Andrew FischerĐã xác minh",
+      "legal_name": "Andrew FischerĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08733104758421716993/creative/CR15940104411330641921?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_23",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11169163141341114666"
+        }
+      ]
+    },
+    {
+      "id": "AR16402462528417824769",
+      "name": "LEVI CRISOSTOMO GOMES DE SANTANAĐã xác minh",
+      "legal_name": "LEVI CRISOSTOMO GOMES DE SANTANAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16402462528417824769/creative/CR05370021369947881473?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_24",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: digistore24.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho digistore24.com",
+          "landing_page": "https://www.digistore24.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://i.ytimg.com/vi/El9cz1jAGkk/hqdefault.jpg"
+        }
+      ]
+    }
+  ]
+}

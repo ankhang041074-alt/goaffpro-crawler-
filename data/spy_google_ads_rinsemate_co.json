@@ -1,0 +1,107 @@
+{
+  "domain": "rinsemate.co",
+  "updated_at": "2026-10-10T14:23:12.828924",
+  "total_advertisers": 3,
+  "total_ads": 70,
+  "super_scale_count": 1,
+  "win_ads_count": 2,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR05119648922897219585",
+      "name": "DKX ABĐã xác minh",
+      "legal_name": "DKX ABĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05119648922897219585/creative/CR00786934568081948673?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 66,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 66,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rinsemate.co",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rinsemate.co",
+          "landing_page": "https://www.rinsemate.co",
+          "last_shown": "2026-10-10",
+          "duration_days": 66,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10332868273575650097"
+        }
+      ]
+    },
+    {
+      "id": "AR13917645929877340161",
+      "name": "ZOCA EMPREENDIMENTOS DIGITAIS LTDAĐã xác minh",
+      "legal_name": "ZOCA EMPREENDIMENTOS DIGITAIS LTDAĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13917645929877340161/creative/CR11246058168754634753?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rinsemate.co",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rinsemate.co",
+          "landing_page": "https://www.rinsemate.co",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3101088069987717377"
+        }
+      ]
+    },
+    {
+      "id": "AR05311986217066168321",
+      "name": "miz durrab for project management services co.Đã xác minh",
+      "legal_name": "miz durrab for project management services co.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05311986217066168321/creative/CR01821967947787141121?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: rinsemate.co",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho rinsemate.co",
+          "landing_page": "https://www.rinsemate.co",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14923630243866321083"
+        }
+      ]
+    }
+  ]
+}

@@ -201,6 +201,10 @@ def init_db():
         ("traffic_global_rank", "INTEGER DEFAULT 0"),
         ("traffic_country_rank", "INTEGER DEFAULT 0"),
         ("traffic_pages_per_visit", "TEXT DEFAULT ''"),
+        ("spy_ads_status", "TEXT DEFAULT 'pending'"),
+        ("spy_adv_count", "INTEGER DEFAULT 0"),
+        ("spy_ads_count", "INTEGER DEFAULT 0"),
+        ("spy_updated_at", "DATETIME DEFAULT NULL"),
     ]
     for col_name, col_type in traffic_cols:
         if col_name not in existing_cols:
@@ -213,6 +217,7 @@ def init_db():
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_trend_status ON stores(trend_status)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_trend_steady ON stores(trend_is_steady)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_is_adult ON stores(is_adult)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_stores_spy_ads_status ON stores(spy_ads_status)")
 
     # Backfill trend_is_steady for existing records with trend data
     cursor.execute("SELECT store_id, trend_timeline_json, trend_is_steady FROM stores WHERE trend_status = 'success' AND trend_timeline_json != ''")
@@ -418,6 +423,7 @@ def get_stores(
     trend_steady_only: bool = False,
     adult_filter: Optional[str] = "hide",
     notes_filter: Optional[str] = None,
+    spy_filter: Optional[str] = None,
     favorite_only: bool = False,
     sort_by: str = "commission_value",
     sort_order: str = "desc",
@@ -619,6 +625,18 @@ def get_stores(
         elif notes_filter == "no_notes":
             conditions.append("(notes IS NULL OR TRIM(notes) = '')")
 
+    # Spy Google Ads filtering
+    if isinstance(spy_filter, str) and spy_filter.strip() and spy_filter.strip() != "all":
+        sf = spy_filter.strip().lower()
+        if sf == "has_ads":
+            conditions.append("(spy_ads_status = 'done' AND COALESCE(spy_ads_count, 0) > 0)")
+        elif sf == "no_ads":
+            conditions.append("spy_ads_status = 'no_ads'")
+        elif sf == "spied":
+            conditions.append("spy_ads_status IN ('done', 'no_ads')")
+        elif sf in ["unspied", "pending"]:
+            conditions.append("(spy_ads_status IS NULL OR spy_ads_status IN ('pending', ''))")
+
     if favorite_only is True or (isinstance(favorite_only, str) and favorite_only.strip().lower() in ("true", "1")):
         conditions.append("is_favorite = 1")
 
@@ -631,7 +649,7 @@ def get_stores(
 
     # Allowed sorting fields
     safe_sort_col = "commission_value"
-    if isinstance(sort_by, str) and sort_by in ["name", "commission_value", "cookie_days", "currency", "notes", "crawled_at", "updated_at", "traffic_raw_value", "trend_is_steady", "traffic_global_rank", "traffic_source"]:
+    if isinstance(sort_by, str) and sort_by in ["name", "commission_value", "cookie_days", "currency", "notes", "crawled_at", "updated_at", "traffic_raw_value", "trend_is_steady", "traffic_global_rank", "traffic_source", "spy_ads_count", "spy_adv_count"]:
         safe_sort_col = sort_by
 
     safe_order = "DESC"
@@ -823,21 +841,31 @@ def get_stores_for_traffic_enrichment(limit: int = 50, cookie_min_days: int = 14
 def get_stores_for_trend_enrichment(
     limit: int = 50,
     cookie_min_days: int = 14,
-    min_traffic: int = 0
+    min_traffic: int = 0,
+    exclude_store_ids: Optional[List[str]] = None
 ) -> List[Dict[str, Any]]:
     """Get stores with cookie_days >= cookie_min_days that have traffic checked but Google Trends is still pending."""
     conn = get_db()
     cursor = conn.cursor()
-    cursor.execute("""
+    params: List[Any] = [cookie_min_days, min_traffic]
+    exclude_clause = ""
+    if exclude_store_ids:
+        placeholders = ",".join(["?"] * len(exclude_store_ids))
+        exclude_clause = f"AND store_id NOT IN ({placeholders})"
+        params = [cookie_min_days, min_traffic] + list(exclude_store_ids)
+    
+    query = f"""
     SELECT store_id, name, website_url, cookie_days, commission_value, category, currency, status, 
            traffic_visits, traffic_raw_value, traffic_status, trend_status, trend_timeline_json, trend_peak_month, trend_is_steady, site_description
     FROM stores
     WHERE cookie_days >= ? 
-      AND (trend_status IS NULL OR trend_status IN ('pending', '', 'error'))
       AND COALESCE(traffic_raw_value, 0) >= ?
+      AND (trend_status IS NULL OR trend_status IN ('pending', '', 'error'))
+      {exclude_clause}
     ORDER BY COALESCE(traffic_raw_value, 0) DESC, cookie_days DESC, commission_value DESC
     LIMIT ?
-    """, (cookie_min_days, min_traffic, limit))
+    """
+    cursor.execute(query, params + [limit])
     rows = [dict(r) for r in cursor.fetchall()]
     conn.close()
     return rows
@@ -1190,5 +1218,88 @@ def reclassify_all_stores() -> Dict[str, Any]:
         "updated_stores": len(updates),
         "decor_stores_total": decor_matched_count,
         "category_counts": category_counts,
+    }
+
+
+def get_stores_for_spy_ads_enrichment(limit: int = 30, cookie_min_days: int = 14, high_priority_only: bool = False) -> List[Dict[str, Any]]:
+    """Get stores that haven't been checked for Google Ads yet, with optional high-priority filter."""
+    conn = get_db()
+    cursor = conn.cursor()
+    if high_priority_only:
+        cursor.execute("""
+        SELECT store_id, name, website_url, cookie_days, commission_value, category, currency, status, 
+               traffic_visits, traffic_raw_value, traffic_status, spy_ads_status, spy_adv_count, spy_ads_count
+        FROM stores
+        WHERE website_url != '' 
+          AND (COALESCE(traffic_raw_value, 0) >= 25000 OR (cookie_days >= 14 AND COALESCE(traffic_raw_value, 0) >= 25000))
+          AND (spy_ads_status IS NULL OR spy_ads_status IN ('pending', ''))
+        ORDER BY is_favorite DESC, COALESCE(traffic_raw_value, 0) DESC, cookie_days DESC
+        LIMIT ?
+        """, (limit,))
+    else:
+        cursor.execute("""
+        SELECT store_id, name, website_url, cookie_days, commission_value, category, currency, status, 
+               traffic_visits, traffic_raw_value, traffic_status, spy_ads_status, spy_adv_count, spy_ads_count
+        FROM stores
+        WHERE website_url != '' 
+          AND cookie_days >= ? 
+          AND (spy_ads_status IS NULL OR spy_ads_status IN ('pending', ''))
+        ORDER BY is_favorite DESC, cookie_days DESC, COALESCE(traffic_raw_value, 0) DESC
+        LIMIT ?
+        """, (cookie_min_days, limit))
+    rows = [dict(r) for r in cursor.fetchall()]
+    conn.close()
+    return rows
+
+
+def update_store_spy_ads(store_id: str, adv_count: int, ad_count: int, status: str = 'done'):
+    """Update store spy ads status and metrics."""
+    conn = get_db()
+    cursor = conn.cursor()
+    cursor.execute("""
+    UPDATE stores
+    SET spy_ads_status = ?,
+        spy_adv_count = ?,
+        spy_ads_count = ?,
+        spy_updated_at = CURRENT_TIMESTAMP
+    WHERE store_id = ?
+    """, (status, adv_count, ad_count, store_id))
+    conn.commit()
+    conn.close()
+
+
+def get_spy_ads_stats() -> Dict[str, Any]:
+    """Summary statistics for Spy Google Ads enrichment."""
+    conn = get_db()
+    cursor = conn.cursor()
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE cookie_days >= 14")
+    total_cookie_14 = cursor.fetchone()["cnt"]
+    
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE cookie_days >= 14 AND spy_ads_status IN ('done', 'no_ads', 'success')")
+    checked_cookie_14 = cursor.fetchone()["cnt"]
+    
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE website_url != '' AND (COALESCE(traffic_raw_value, 0) >= 25000 OR (cookie_days >= 14 AND COALESCE(traffic_raw_value, 0) >= 25000))")
+    total_high_priority = cursor.fetchone()["cnt"]
+
+    cursor.execute("SELECT COUNT(*) as cnt FROM stores WHERE website_url != '' AND (COALESCE(traffic_raw_value, 0) >= 25000 OR (cookie_days >= 14 AND COALESCE(traffic_raw_value, 0) >= 25000)) AND spy_ads_status IN ('done', 'no_ads', 'success')")
+    checked_high_priority = cursor.fetchone()["cnt"]
+
+    cursor.execute("SELECT COUNT(*) as cnt, COALESCE(SUM(spy_ads_count), 0) as total_ads FROM stores WHERE spy_ads_status IN ('done', 'success') AND spy_ads_count > 0")
+    row_with_ads = cursor.fetchone()
+    stores_with_ads = row_with_ads["cnt"] if row_with_ads else 0
+    total_ads_count = row_with_ads["total_ads"] if row_with_ads else 0
+    
+    conn.close()
+    return {
+        "total_cookie_14": total_cookie_14,
+        "checked_cookie_14": checked_cookie_14,
+        "remaining_cookie_14": max(0, total_cookie_14 - checked_cookie_14),
+        "percent_cookie_14": round((checked_cookie_14 / max(1, total_cookie_14)) * 100, 1),
+        "total_high_priority": total_high_priority,
+        "checked_high_priority": checked_high_priority,
+        "remaining_high_priority": max(0, total_high_priority - checked_high_priority),
+        "percent_high_priority": round((checked_high_priority / max(1, total_high_priority)) * 100, 1),
+        "stores_with_ads": stores_with_ads,
+        "total_ads_count": total_ads_count
     }
 

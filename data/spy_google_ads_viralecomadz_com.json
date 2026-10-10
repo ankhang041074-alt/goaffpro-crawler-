@@ -1,0 +1,75 @@
+{
+  "domain": "viralecomadz.com",
+  "updated_at": "2026-10-10T12:43:18.374912",
+  "total_advertisers": 2,
+  "total_ads": 56,
+  "win_ads_count": 0,
+  "super_scale_count": 2,
+  "evergreen_percent": 0,
+  "advertisers": [
+    {
+      "id": "AR00031864121850855425",
+      "name": "Viral Ecom Adz",
+      "legal_name": "Viral Ecom Adz",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00031864121850855425/creative/CR07336493793056653313?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 35,
+      "longevity_badge": "super_scale",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 14,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Viralecomadz.com Official Offers & Deals",
+          "description": "Shop online at viralecomadz.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.viralecomadz.com/?ref=aff_ar0003",
+          "last_shown": "2026-10-10",
+          "duration_days": 35,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4276087808676325156"
+        }
+      ],
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)"
+    },
+    {
+      "id": "AR00031864121850855425",
+      "name": "Viralecomadz.com",
+      "legal_name": "Viralecomadz.com",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00031864121850855425/creative/CR09226216731133870081?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 46,
+      "longevity_badge": "super_scale",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 42,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Viralecomadz.com Official Offers & Deals",
+          "description": "Shop online at viralecomadz.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.viralecomadz.com/?ref=aff_ar0003",
+          "last_shown": "2026-10-10",
+          "duration_days": 46,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)"
+    }
+  ],
+  "test_ads_count": 0
+}

@@ -1,0 +1,139 @@
+{
+  "domain": "duotts.com",
+  "updated_at": "2026-10-10T14:07:53.271036",
+  "total_advertisers": 4,
+  "total_ads": 200,
+  "super_scale_count": 2,
+  "win_ads_count": 1,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR05235633389444268033",
+      "name": "齐天宇Đã xác minh",
+      "legal_name": "齐天宇Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05235633389444268033/creative/CR10913220880741957633?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 151,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 151,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: duotts.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho duotts.com",
+          "landing_page": "https://www.duotts.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 151,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15149905734485086270"
+        }
+      ]
+    },
+    {
+      "id": "AR15753700769099939841",
+      "name": "DUOTTS TECHNOLOGY CO., LIMITEDĐã xác minh",
+      "legal_name": "DUOTTS TECHNOLOGY CO., LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15753700769099939841/creative/CR03363501529309904897?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 44,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 44,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: duotts.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho duotts.com",
+          "landing_page": "https://www.duotts.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 44,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16749398264185922612"
+        }
+      ]
+    },
+    {
+      "id": "AR00845899246375796737",
+      "name": "Nguyễn Bá Hoàng LânĐã xác minh",
+      "legal_name": "Nguyễn Bá Hoàng LânĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00845899246375796737/creative/CR13460560039764819969?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: duotts.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho duotts.com",
+          "landing_page": "https://www.duotts.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10949679962528699406"
+        }
+      ]
+    },
+    {
+      "id": "AR11133654742859776001",
+      "name": "Click Tech LimitedĐã xác minh",
+      "legal_name": "Click Tech LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11133654742859776001/creative/CR13228983099745894401?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: duotts.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho duotts.com",
+          "landing_page": "https://www.duotts.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14906363235298046452"
+        }
+      ]
+    }
+  ]
+}

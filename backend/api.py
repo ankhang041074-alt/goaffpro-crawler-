@@ -14,6 +14,8 @@ from . import crawler
 from . import traffic_worker
 from . import traffic_cv_scraper
 from . import traffic_cv_worker
+from . import spy_ads
+from . import spy_ads_worker
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -120,6 +122,7 @@ def get_stores_endpoint(
     trend_steady_only: bool = Query(False),
     adult_filter: Optional[str] = Query("hide"),
     notes_filter: Optional[str] = Query(None),
+    spy_filter: Optional[str] = Query(None),
     favorite_only: bool = Query(False),
     sort_by: str = Query("commission_value"),
     sort_order: str = Query("desc"),
@@ -170,6 +173,7 @@ def get_stores_endpoint(
         trend_steady_only=trend_steady_only,
         adult_filter=adult_filter,
         notes_filter=notes_filter,
+        spy_filter=spy_filter,
         favorite_only=favorite_only,
         sort_by=sort_by,
         sort_order=sort_order,
@@ -527,6 +531,79 @@ def check_traffic_cv_session_endpoint():
 def scrape_traffic_cv_endpoint(domain: str):
     """Scrape traffic.cv data for a specific domain."""
     return traffic_cv_scraper.scrape_traffic_cv(domain)
+
+
+@app.get("/api/spy/google-ads")
+def get_spy_google_ads_endpoint(domain: Optional[str] = "binize.com", store_id: Optional[str] = None):
+    """Get spy intelligence data for a domain on Google Ads Transparency Center."""
+    return spy_ads.load_spy_data(domain or "binize.com", store_id=store_id)
+
+
+@app.post("/api/spy/google-ads/crawl")
+async def crawl_spy_google_ads_endpoint(domain: Optional[str] = "binize.com", store_id: Optional[str] = None):
+    """Trigger real-time Google Ads Transparency crawl for domain and sync immediately with SQLite."""
+    data = await spy_ads.crawl_google_ads_transparency(domain or "binize.com")
+    
+    # Sync with SQLite database immediately
+    try:
+        clean = (domain or "binize.com").strip().lower().replace("https://", "").replace("http://", "").split("/")[0]
+        target_id = store_id
+        if not target_id:
+            conn = db.get_db()
+            cursor = conn.cursor()
+            cursor.execute("SELECT store_id FROM stores WHERE website_url LIKE ? LIMIT 1", (f"%{clean}%",))
+            row = cursor.fetchone()
+            conn.close()
+            if row:
+                target_id = row["store_id"]
+                
+        if target_id and data:
+            adv_count = data.get("total_advertisers", len(data.get("advertisers", [])))
+            ad_count = data.get("total_ads", 0)
+            status = "done" if adv_count > 0 else "no_ads"
+            db.update_store_spy_ads(target_id, adv_count, ad_count, status)
+    except Exception as e:
+        print(f"Error syncing live crawl to DB: {e}")
+        
+    return {"status": "success", "data": data}
+
+
+@app.post("/api/spy-worker/start")
+def start_spy_worker_endpoint(high_priority_only: bool = True):
+    """Start background Spy Google Ads worker."""
+    return spy_ads_worker.spy_worker.start(high_priority_only=high_priority_only)
+
+
+@app.post("/api/spy-worker/pause")
+def pause_spy_worker_endpoint():
+    """Pause background Spy Google Ads worker."""
+    return spy_ads_worker.spy_worker.pause()
+
+
+@app.post("/api/spy-worker/resume")
+def resume_spy_worker_endpoint():
+    """Resume background Spy Google Ads worker."""
+    return spy_ads_worker.spy_worker.resume()
+
+
+@app.post("/api/spy-worker/stop")
+def stop_spy_worker_endpoint():
+    """Stop background Spy Google Ads worker."""
+    return spy_ads_worker.spy_worker.stop()
+
+
+@app.get("/api/spy-worker/status")
+def get_spy_worker_status_endpoint():
+    """Get live status and progress of the background Spy Google Ads worker."""
+    return spy_ads_worker.spy_worker.get_status()
+
+
+@app.post("/api/spy-worker/prioritize/{store_id}")
+def prioritize_store_spy_worker_endpoint(store_id: str):
+    """Enqueue a priority store for the background Spy Ads worker."""
+    spy_ads_worker.spy_worker.enqueue_priority_store(store_id)
+    return {"status": "enqueued", "store_id": store_id}
+
 
 
 # Mount built frontend for instant zero-dependency dashboard access

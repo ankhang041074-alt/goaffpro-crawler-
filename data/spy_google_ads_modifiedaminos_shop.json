@@ -1,0 +1,43 @@
+{
+  "domain": "modifiedaminos.shop",
+  "updated_at": "2026-10-10T12:41:54.532579",
+  "total_advertisers": 1,
+  "total_ads": 1,
+  "win_ads_count": 0,
+  "super_scale_count": 0,
+  "evergreen_percent": 0,
+  "advertisers": [
+    {
+      "id": "AR12536202641518100481",
+      "name": "Modified Aminos LLC",
+      "legal_name": "Modified Aminos LLC",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12536202641518100481/creative/CR01879881149367451649?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 35,
+      "longevity_badge": "test",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Modifiedaminos.shop Official Offers & Deals",
+          "description": "Shop online at modifiedaminos.shop. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.modifiedaminos.shop/?ref=aff_ar1253",
+          "last_shown": "2026-10-10",
+          "duration_days": 35,
+          "image_url": null
+        }
+      ],
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)"
+    }
+  ],
+  "test_ads_count": 1
+}

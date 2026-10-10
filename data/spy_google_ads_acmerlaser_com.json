@@ -1,0 +1,43 @@
+{
+  "domain": "acmerlaser.com",
+  "updated_at": "2026-10-10T14:19:30.699459",
+  "total_advertisers": 1,
+  "total_ads": 200,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR16046437244549988353",
+      "name": "深圳市泰坦国际发展科技有限公司Đã xác minh",
+      "legal_name": "深圳市泰坦国际发展科技有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16046437244549988353/creative/CR16413772989784391681?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 200,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 200,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: acmerlaser.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho acmerlaser.com",
+          "landing_page": "https://www.acmerlaser.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 200,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1659987576896217134"
+        }
+      ]
+    }
+  ]
+}

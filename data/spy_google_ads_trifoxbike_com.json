@@ -1,0 +1,76 @@
+{
+  "domain": "trifoxbike.com",
+  "updated_at": "2026-10-10T12:27:10.567902",
+  "total_advertisers": 2,
+  "total_ads": 101,
+  "win_ads_count": 0,
+  "super_scale_count": 2,
+  "evergreen_percent": 0,
+  "advertisers": [
+    {
+      "id": "AR10240746366464688129",
+      "name": "董永强",
+      "legal_name": "董永强",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10240746366464688129/creative/CR04188068308781629441?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 35,
+      "longevity_badge": "super_scale",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 74,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Trifoxbike.com Official Offers & Deals",
+          "description": "Shop online at trifoxbike.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.trifoxbike.com/?ref=aff_ar1024",
+          "last_shown": "2026-10-10",
+          "duration_days": 35,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8460164642950832553"
+        }
+      ],
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)"
+    },
+    {
+      "id": "AR10240746366464688129",
+      "name": "Trifoxbike.com",
+      "legal_name": "Trifoxbike.com",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10240746366464688129/creative/CR10583151209525280769?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 46,
+      "longevity_badge": "super_scale",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 27,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Trifoxbike.com Official Offers & Deals",
+          "description": "Shop online at trifoxbike.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.trifoxbike.com/?ref=aff_ar1024",
+          "last_shown": "2026-10-10",
+          "duration_days": 46,
+          "image_url": "https://i.ytimg.com/vi/GXUrZ6OVaQI/hqdefault.jpg"
+        }
+      ],
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)"
+    }
+  ],
+  "test_ads_count": 0
+}

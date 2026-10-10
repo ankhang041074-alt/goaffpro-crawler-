@@ -1,0 +1,171 @@
+{
+  "domain": "waterdropfilter.com",
+  "updated_at": "2026-10-10T13:55:11.659102",
+  "total_advertisers": 5,
+  "total_ads": 200,
+  "super_scale_count": 1,
+  "win_ads_count": 3,
+  "test_ads_count": 1,
+  "advertisers": [
+    {
+      "id": "AR02585961360374366209",
+      "name": "ECOLIFE TECHNOLOGIES INCĐã xác minh",
+      "legal_name": "ECOLIFE TECHNOLOGIES INCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02585961360374366209/creative/CR00038443126985064449?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 190,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 190,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: waterdropfilter.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho waterdropfilter.com",
+          "landing_page": "https://www.waterdropfilter.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 190,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6445139564758797079"
+        }
+      ]
+    },
+    {
+      "id": "AR00079763727439626241",
+      "name": "Roman HruskaĐã xác minh",
+      "legal_name": "Roman HruskaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00079763727439626241/creative/CR12727712424338128897?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: waterdropfilter.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho waterdropfilter.com",
+          "landing_page": "https://www.waterdropfilter.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14838221188054415387"
+        }
+      ]
+    },
+    {
+      "id": "AR08994583922180358145",
+      "name": "CÔNG TY TNHH DỊCH VỤ BẤT ĐỘNG SẢN HOMESQUADĐã xác minh",
+      "legal_name": "CÔNG TY TNHH DỊCH VỤ BẤT ĐỘNG SẢN HOMESQUADĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08994583922180358145/creative/CR02647101671531872257?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: waterdropfilter.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho waterdropfilter.com",
+          "landing_page": "https://www.waterdropfilter.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17799055060459838317"
+        }
+      ]
+    },
+    {
+      "id": "AR13315680957395632129",
+      "name": "青岛伊可普电器有限公司Đã xác minh",
+      "legal_name": "青岛伊可普电器有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13315680957395632129/creative/CR17567005355534188545?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: waterdropfilter.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho waterdropfilter.com",
+          "landing_page": "https://www.waterdropfilter.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": "https://i.ytimg.com/vi/GW_j40kIjBw/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "id": "AR15907958307696934913",
+      "name": "Công ty CP thương mại kỹ thuật Tân Đại PhongĐã xác minh",
+      "legal_name": "Công ty CP thương mại kỹ thuật Tân Đại PhongĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15907958307696934913/creative/CR09021568093599563777?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: waterdropfilter.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho waterdropfilter.com",
+          "landing_page": "https://www.waterdropfilter.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9561531017708125905"
+        }
+      ]
+    }
+  ]
+}

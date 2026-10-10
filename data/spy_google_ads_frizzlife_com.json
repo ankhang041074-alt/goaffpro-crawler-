@@ -1,0 +1,1128 @@
+{
+  "domain": "frizzlife.com",
+  "updated_at": "2026-10-10T14:19:09.160311",
+  "total_advertisers": 35,
+  "total_ads": 121,
+  "super_scale_count": 2,
+  "win_ads_count": 9,
+  "test_ads_count": 24,
+  "advertisers": [
+    {
+      "id": "AR05661618536603189249",
+      "name": "FRIZZLIFE INCĐã xác minh",
+      "legal_name": "FRIZZLIFE INCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05661618536603189249/creative/CR17738887026142347265?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 64,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 64,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 64,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3712760552270383677"
+        }
+      ]
+    },
+    {
+      "id": "AR09864683668591607809",
+      "name": "Roman HruškaĐã xác minh",
+      "legal_name": "Roman HruškaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09864683668591607809/creative/CR13100700303584395265?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 11,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 11,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 11,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5412117930289324846"
+        }
+      ]
+    },
+    {
+      "id": "AR01619906100335738881",
+      "name": "Digital fundaĐã xác minh",
+      "legal_name": "Digital fundaĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01619906100335738881/creative/CR02186623977026224129?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11118396199217443382"
+        }
+      ]
+    },
+    {
+      "id": "AR12012681733414584321",
+      "name": "Công ty TNHH Đầu tư Thương mại và Tư vấn Công nghệ Việt NamĐã xác minh",
+      "legal_name": "Công ty TNHH Đầu tư Thương mại và Tư vấn Công nghệ Việt NamĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12012681733414584321/creative/CR12930197411967533057?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14663702246952970138"
+        }
+      ]
+    },
+    {
+      "id": "AR01601941678065713153",
+      "name": "Digital FundaĐã xác minh",
+      "legal_name": "Digital FundaĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01601941678065713153/creative/CR13321259441308303361?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/763643082647914627"
+        }
+      ]
+    },
+    {
+      "id": "AR08704071612724412417",
+      "name": "Ifra ZamanĐã xác minh",
+      "legal_name": "Ifra ZamanĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08704071612724412417/creative/CR00895460901228904449?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/405566803407425835"
+        }
+      ]
+    },
+    {
+      "id": "AR04439109044153614337",
+      "name": "Sohail AsgharĐã xác minh",
+      "legal_name": "Sohail AsgharĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04439109044153614337/creative/CR17126180520841969665?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5056755291150977479"
+        }
+      ]
+    },
+    {
+      "id": "AR06167139846654525441",
+      "name": "Long JessicaĐã xác minh",
+      "legal_name": "Long JessicaĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06167139846654525441/creative/CR00200555009715208193?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11180992842528243729"
+        }
+      ]
+    },
+    {
+      "id": "AR11685366570753720321",
+      "name": "ARTUR COSTA MELO JUNIORĐã xác minh",
+      "legal_name": "ARTUR COSTA MELO JUNIORĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11685366570753720321/creative/CR00605582460226371585?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8234459362702345145"
+        }
+      ]
+    },
+    {
+      "id": "AR02612849092597907457",
+      "name": "Abdur RehmanĐã xác minh",
+      "legal_name": "Abdur RehmanĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02612849092597907457/creative/CR03299111474097553409?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14256976061136472349"
+        }
+      ]
+    },
+    {
+      "id": "AR03672412069912641537",
+      "name": "LOOMERA ADVISORY LTDĐã xác minh",
+      "legal_name": "LOOMERA ADVISORY LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03672412069912641537/creative/CR07698537365488271361?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16112215163465837957"
+        }
+      ]
+    },
+    {
+      "id": "AR06142367909810274305",
+      "name": "LÊ THANH HẢIĐã xác minh",
+      "legal_name": "LÊ THANH HẢIĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06142367909810274305/creative/CR14884670899042123777?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16351418793770159742"
+        }
+      ]
+    },
+    {
+      "id": "AR00872160815317254145",
+      "name": "DarDesign Architectural Design ServicesĐã xác minh",
+      "legal_name": "DarDesign Architectural Design ServicesĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00872160815317254145/creative/CR12543397751120986113?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3622143871168260130"
+        }
+      ]
+    },
+    {
+      "id": "AR02255413298520391681",
+      "name": "UA 85-73, LLCĐã xác minh",
+      "legal_name": "UA 85-73, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02255413298520391681/creative/CR11299117438815174657?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14123566261013668823"
+        }
+      ]
+    },
+    {
+      "id": "AR02892707323359264769",
+      "name": "MARKETING FORWARD LTDĐã xác minh",
+      "legal_name": "MARKETING FORWARD LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02892707323359264769/creative/CR10084433067541266433?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3651863515637484715"
+        }
+      ]
+    },
+    {
+      "id": "AR03950641150859149313",
+      "name": "GLENN RICARDO BROTHERS JRĐã xác minh",
+      "legal_name": "GLENN RICARDO BROTHERS JRĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03950641150859149313/creative/CR05030066075585216513?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9938566192137355910"
+        }
+      ]
+    },
+    {
+      "id": "AR02640276178224545793",
+      "name": "VBNMJ LLCĐã xác minh",
+      "legal_name": "VBNMJ LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02640276178224545793/creative/CR03613735944701607937?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9858113363903241866"
+        }
+      ]
+    },
+    {
+      "id": "AR08121504507847770113",
+      "name": "C & D GROUP LIMITEDĐã xác minh",
+      "legal_name": "C & D GROUP LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08121504507847770113/creative/CR14680160499325206529?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2816447644633979323"
+        }
+      ]
+    },
+    {
+      "id": "AR01155180116238663681",
+      "name": "UDA TRANSPORT LLCĐã xác minh",
+      "legal_name": "UDA TRANSPORT LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01155180116238663681/creative/CR13957551561946169345?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_18",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13269572836134403650"
+        }
+      ]
+    },
+    {
+      "id": "AR15817325736018051073",
+      "name": "ĐÀM MINH TRƯỜNGĐã xác minh",
+      "legal_name": "ĐÀM MINH TRƯỜNGĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15817325736018051073/creative/CR09470760306268438529?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_19",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13198112625703722061"
+        }
+      ]
+    },
+    {
+      "id": "AR16497381228350013441",
+      "name": "WEBLISTERS, INCĐã xác minh",
+      "legal_name": "WEBLISTERS, INCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16497381228350013441/creative/CR13109160281055952897?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_20",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR00143734009728335873",
+      "name": "MPI LTD.Đã xác minh",
+      "legal_name": "MPI LTD.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00143734009728335873/creative/CR14731607885339426817?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_21",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR01647007240894283777",
+      "name": "HỘ KINH DOANH BẢO BẢOĐã xác minh",
+      "legal_name": "HỘ KINH DOANH BẢO BẢOĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01647007240894283777/creative/CR01739481829557141505?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_22",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7694992240645601471"
+        }
+      ]
+    },
+    {
+      "id": "AR00628608922361528321",
+      "name": "BEAUTY ACADEMY MANUALS LTDĐã xác minh",
+      "legal_name": "BEAUTY ACADEMY MANUALS LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00628608922361528321/creative/CR14339797535256739841?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_23",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10502421094803366857"
+        }
+      ]
+    },
+    {
+      "id": "AR11500098474926407681",
+      "name": "Khuất Gia QuyếtĐã xác minh",
+      "legal_name": "Khuất Gia QuyếtĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11500098474926407681/creative/CR14591572710036340737?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_24",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16485637898597844361"
+        }
+      ]
+    },
+    {
+      "id": "AR16341490889215967233",
+      "name": "BB AFFILIATES LLCĐã xác minh",
+      "legal_name": "BB AFFILIATES LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16341490889215967233/creative/CR17156122902525902849?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_25",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12252668072249232350"
+        }
+      ]
+    },
+    {
+      "id": "AR06897308742518308865",
+      "name": "NGUYỄN PHÚ THÀNHĐã xác minh",
+      "legal_name": "NGUYỄN PHÚ THÀNHĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06897308742518308865/creative/CR11457711751919828993?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_26",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2656005951037085684"
+        }
+      ]
+    },
+    {
+      "id": "AR06706203013041618945",
+      "name": "Nữ Thanh Tâm LêĐã xác minh",
+      "legal_name": "Nữ Thanh Tâm LêĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06706203013041618945/creative/CR08189312283285913601?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_27",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3577658900255622558"
+        }
+      ]
+    },
+    {
+      "id": "AR10136643695013789697",
+      "name": "MUHAMMED HADŽIĆĐã xác minh",
+      "legal_name": "MUHAMMED HADŽIĆĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10136643695013789697/creative/CR11817539439054290945?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_28",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR11730799353286098945",
+      "name": "Amir Ali KhanĐã xác minh",
+      "legal_name": "Amir Ali KhanĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11730799353286098945/creative/CR07361788908457164801?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_29",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10099476697946453154"
+        }
+      ]
+    },
+    {
+      "id": "AR05842767664304357377",
+      "name": "TỔNG CÔNG TY VIỄN THÔNG VIETTEL - CHI NHÁNH TẬP ĐOÀN CÔNG NGHIỆP - VIỄN THÔNG QUÂN ĐỘIĐã xác minh",
+      "legal_name": "TỔNG CÔNG TY VIỄN THÔNG VIETTEL - CHI NHÁNH TẬP ĐOÀN CÔNG NGHIỆP - VIỄN THÔNG QUÂN ĐỘIĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05842767664304357377/creative/CR16388370354172592129?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_30",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11300653676884382104"
+        }
+      ]
+    },
+    {
+      "id": "AR05384029079366270977",
+      "name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "legal_name": "HỘ KINH DOANH NGUYỄN NGỌC HIỂNĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05384029079366270977/creative/CR12047417332960591873?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_31",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3391263251969157398"
+        }
+      ]
+    },
+    {
+      "id": "AR14735645747303153665",
+      "name": "Phan Lệ HằngĐã xác minh",
+      "legal_name": "Phan Lệ HằngĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14735645747303153665/creative/CR10307571573644591105?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_32",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9390627107936951650"
+        }
+      ]
+    },
+    {
+      "id": "AR04949333016976556033",
+      "name": "Trần Tuấn AnhĐã xác minh",
+      "legal_name": "Trần Tuấn AnhĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04949333016976556033/creative/CR10420773579988664321?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_33",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3580781744093185359"
+        }
+      ]
+    },
+    {
+      "id": "AR10661399947380785153",
+      "name": "AFFI PLUSĐã xác minh",
+      "legal_name": "AFFI PLUSĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10661399947380785153/creative/CR02686095207165853697?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_34",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: frizzlife.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho frizzlife.com",
+          "landing_page": "https://www.frizzlife.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3426709421878450997"
+        }
+      ]
+    }
+  ]
+}

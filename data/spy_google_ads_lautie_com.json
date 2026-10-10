@@ -1,0 +1,43 @@
+{
+  "domain": "lautie.com",
+  "updated_at": "2026-10-10T14:36:06.221409",
+  "total_advertisers": 1,
+  "total_ads": 34,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR13651456587154325505",
+      "name": "云南汇玩国际贸易有限公司Đã xác minh",
+      "legal_name": "云南汇玩国际贸易有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13651456587154325505/creative/CR17549718060628180993?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 34,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 34,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: lautie.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho lautie.com",
+          "landing_page": "https://www.lautie.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 34,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4062994489486959327"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "domain": "tinyurl.com",
+  "updated_at": "2026-10-10T13:50:30.723613",
+  "total_advertisers": 5,
+  "total_ads": 26,
+  "super_scale_count": 0,
+  "win_ads_count": 5,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR17825457984688357377",
+      "name": "Максим БілобородовĐã xác minh",
+      "legal_name": "Максим БілобородовĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17825457984688357377/creative/CR03602625216494174209?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: tinyurl.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho tinyurl.com",
+          "landing_page": "https://www.tinyurl.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9887330983015954382"
+        }
+      ]
+    },
+    {
+      "id": "AR02172106463579734017",
+      "name": "陳 宥螢Đã xác minh",
+      "legal_name": "陳 宥螢Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02172106463579734017/creative/CR05658429686594666497?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 4,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 4,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: tinyurl.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho tinyurl.com",
+          "landing_page": "https://www.tinyurl.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 4,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5056116410984869169"
+        }
+      ]
+    },
+    {
+      "id": "AR13034846557877305345",
+      "name": "Richard GaleĐã xác minh",
+      "legal_name": "Richard GaleĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13034846557877305345/creative/CR16188002570671751169?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 8,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 8,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: tinyurl.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho tinyurl.com",
+          "landing_page": "https://www.tinyurl.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 8,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11876021422743462752"
+        }
+      ]
+    },
+    {
+      "id": "AR08131149363717079041",
+      "name": "Chan Wen Bin KennethĐã xác minh",
+      "legal_name": "Chan Wen Bin KennethĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08131149363717079041/creative/CR04411003302154600449?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 8,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 8,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: tinyurl.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho tinyurl.com",
+          "landing_page": "https://www.tinyurl.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 8,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17977638530703416800"
+        }
+      ]
+    },
+    {
+      "id": "AR10399501964181241857",
+      "name": "Smart Expos &Fairs (India) Private LimitedĐã xác minh",
+      "legal_name": "Smart Expos &Fairs (India) Private LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10399501964181241857/creative/CR15826396603867987969?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: tinyurl.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho tinyurl.com",
+          "landing_page": "https://www.tinyurl.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13079992929371589316"
+        }
+      ]
+    }
+  ]
+}

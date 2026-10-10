@@ -1,0 +1,1640 @@
+{
+  "domain": "mecool.com",
+  "updated_at": "2026-10-10T14:40:09.198931",
+  "total_advertisers": 51,
+  "total_ads": 102,
+  "super_scale_count": 1,
+  "win_ads_count": 30,
+  "test_ads_count": 20,
+  "advertisers": [
+    {
+      "id": "AR06752056650829398017",
+      "name": "Lagoja - Marketing GmbHĐã xác minh",
+      "legal_name": "Lagoja - Marketing GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06752056650829398017/creative/CR03504199959232643073?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17390729493230665380"
+        }
+      ]
+    },
+    {
+      "id": "AR16775543883332321281",
+      "name": "深圳市视壮科技有限公司Đã xác minh",
+      "legal_name": "深圳市视壮科技有限公司Đã xác minh",
+      "country": "Trung Quốc",
+      "country_flag": "🇨🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16775543883332321281/creative/CR02896878715856224257?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 22,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 22,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 22,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2514871408346563001"
+        }
+      ]
+    },
+    {
+      "id": "AR15328596734481793025",
+      "name": "Bizsoft Pte. Ltd.Đã xác minh",
+      "legal_name": "Bizsoft Pte. Ltd.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15328596734481793025/creative/CR03981483594479566849?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7615905200524475446"
+        }
+      ]
+    },
+    {
+      "id": "AR15863532213959131137",
+      "name": "Adcore East LimitedĐã xác minh",
+      "legal_name": "Adcore East LimitedĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15863532213959131137/creative/CR04159250220686770177?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR11262975254659596289",
+      "name": "NGUYỄN THỊ THẮMĐã xác minh",
+      "legal_name": "NGUYỄN THỊ THẮMĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11262975254659596289/creative/CR14739669092277420033?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6802885322346760215"
+        }
+      ]
+    },
+    {
+      "id": "AR14567350391567024129",
+      "name": "HongKong AdTiger Media Co., LimitedĐã xác minh",
+      "legal_name": "HongKong AdTiger Media Co., LimitedĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14567350391567024129/creative/CR02375385272834588673?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4165930293848287835"
+        }
+      ]
+    },
+    {
+      "id": "AR04058363371639013377",
+      "name": "AGENCY 92 LIMITEDĐã xác minh",
+      "legal_name": "AGENCY 92 LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04058363371639013377/creative/CR16926378642232049665?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3275049195380555595"
+        }
+      ]
+    },
+    {
+      "id": "AR05311986217066168321",
+      "name": "miz durrab for project management services co.Đã xác minh",
+      "legal_name": "miz durrab for project management services co.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05311986217066168321/creative/CR17232050021579358209?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1061717161850685378"
+        }
+      ]
+    },
+    {
+      "id": "AR07035579407817244673",
+      "name": "2107 CLAY LLCĐã xác minh",
+      "legal_name": "2107 CLAY LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07035579407817244673/creative/CR17265575230621876225?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14898575888609961460"
+        }
+      ]
+    },
+    {
+      "id": "AR16919103311230009345",
+      "name": "Jonathan Jermaine, Jr BoydĐã xác minh",
+      "legal_name": "Jonathan Jermaine, Jr BoydĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16919103311230009345/creative/CR03619800301084606465?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/475011906159945957"
+        }
+      ]
+    },
+    {
+      "id": "AR13554739567235432449",
+      "name": "CALIF, LLCĐã xác minh",
+      "legal_name": "CALIF, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13554739567235432449/creative/CR03671603379110412289?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_10",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR16092172229571248129",
+      "name": "ROBINSON REALTY INVESTMENTS, LLCĐã xác minh",
+      "legal_name": "ROBINSON REALTY INVESTMENTS, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16092172229571248129/creative/CR06389211706219823105?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_11",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11855151268830378582"
+        }
+      ]
+    },
+    {
+      "id": "AR03693565170392498177",
+      "name": "Agile Seo LTDĐã xác minh",
+      "legal_name": "Agile Seo LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03693565170392498177/creative/CR11953911660088918017?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_12",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR02372783828323270657",
+      "name": "HÜSEYİN BASMACI HB YALI İNŞAAT TAAHHÜT EMLAK TİCARETĐã xác minh",
+      "legal_name": "HÜSEYİN BASMACI HB YALI İNŞAAT TAAHHÜT EMLAK TİCARETĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02372783828323270657/creative/CR17903214046845337601?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_13",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/8109733254771417410"
+        }
+      ]
+    },
+    {
+      "id": "AR14503521001385492481",
+      "name": "Xun Meng International Limited",
+      "legal_name": "Xun Meng International Limited",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14503521001385492481/creative/CR11096683191929405441?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_14",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6786876318649297871"
+        }
+      ]
+    },
+    {
+      "id": "AR07966575348034830337",
+      "name": "D.Underwood Construction LLCĐã xác minh",
+      "legal_name": "D.Underwood Construction LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07966575348034830337/creative/CR05602234471932755969?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_15",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15066961596820687883"
+        }
+      ]
+    },
+    {
+      "id": "AR05967352390544785409",
+      "name": "MUCH AIR LLCĐã xác minh",
+      "legal_name": "MUCH AIR LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05967352390544785409/creative/CR03758661885163995137?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_16",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5051220029841053528"
+        }
+      ]
+    },
+    {
+      "id": "AR11140862462486642689",
+      "name": "MUCH AIR LLCĐã xác minh",
+      "legal_name": "MUCH AIR LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR11140862462486642689/creative/CR06116264404255244289?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_17",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1420063253362050819"
+        }
+      ]
+    },
+    {
+      "id": "AR16185626869641510913",
+      "name": "BRANCHOUT FOOD INC.Đã xác minh",
+      "legal_name": "BRANCHOUT FOOD INC.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16185626869641510913/creative/CR14208944656435118081?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_18",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5389906618380486720"
+        }
+      ]
+    },
+    {
+      "id": "AR06339350709326053377",
+      "name": "BRANCHOUT FOOD INC.Đã xác minh",
+      "legal_name": "BRANCHOUT FOOD INC.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06339350709326053377/creative/CR04507830419265159169?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_19",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9161741818105071827"
+        }
+      ]
+    },
+    {
+      "id": "AR14857064979567214593",
+      "name": "BRANCHOUT FOOD INC.Đã xác minh",
+      "legal_name": "BRANCHOUT FOOD INC.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14857064979567214593/creative/CR07682364580235837441?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_20",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7640025801563552629"
+        }
+      ]
+    },
+    {
+      "id": "AR15345584592857858049",
+      "name": "Intervest-Pwh LtdĐã xác minh",
+      "legal_name": "Intervest-Pwh LtdĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15345584592857858049/creative/CR01724535686964445185?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_21",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9611867654331136364"
+        }
+      ]
+    },
+    {
+      "id": "AR12219925922765078529",
+      "name": "CELANESE CORPORATIONĐã xác minh",
+      "legal_name": "CELANESE CORPORATIONĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12219925922765078529/creative/CR17945648323729817601?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_22",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15798618638278126193"
+        }
+      ]
+    },
+    {
+      "id": "AR08584940481337622529",
+      "name": "CELANESE CORPORATIONĐã xác minh",
+      "legal_name": "CELANESE CORPORATIONĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08584940481337622529/creative/CR07704119517303013377?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_23",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11882161212531150017"
+        }
+      ]
+    },
+    {
+      "id": "AR00657166975956418561",
+      "name": "BRANCHOUT FOOD INC.",
+      "legal_name": "BRANCHOUT FOOD INC.",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00657166975956418561/creative/CR01003220668612870145?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_24",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9462733181763860968"
+        }
+      ]
+    },
+    {
+      "id": "AR13075891326942183425",
+      "name": "BRANCHOUT FOOD INC.Đã xác minh",
+      "legal_name": "BRANCHOUT FOOD INC.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13075891326942183425/creative/CR13857984942895529985?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_25",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/14811688451192836112"
+        }
+      ]
+    },
+    {
+      "id": "AR06561386087439138817",
+      "name": "BRANCHOUT FOOD INC.",
+      "legal_name": "BRANCHOUT FOOD INC.",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06561386087439138817/creative/CR13191592935533051905?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_26",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7137561400554496053"
+        }
+      ]
+    },
+    {
+      "id": "AR07853967559006093313",
+      "name": "CELANESE CORPORATIONĐã xác minh",
+      "legal_name": "CELANESE CORPORATIONĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07853967559006093313/creative/CR08987764158359404545?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_27",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10988140513095042098"
+        }
+      ]
+    },
+    {
+      "id": "AR15838217882874937345",
+      "name": "Phong Y. KhangĐã xác minh",
+      "legal_name": "Phong Y. KhangĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR10515191735842242561?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_28",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/15615723698936580758"
+        }
+      ]
+    },
+    {
+      "id": "AR01823531015235174401",
+      "name": "IBILAL.COM FOR INTERNET CONSULTANCY CO. L.L.CĐã xác minh",
+      "legal_name": "IBILAL.COM FOR INTERNET CONSULTANCY CO. L.L.CĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01823531015235174401/creative/CR10415729046410231809?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_29",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17229400918877672513"
+        }
+      ]
+    },
+    {
+      "id": "AR06320575998525964289",
+      "name": "MUCH AIR LLCĐã xác minh",
+      "legal_name": "MUCH AIR LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06320575998525964289/creative/CR11718653623859675137?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_30",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16009605921904211527"
+        }
+      ]
+    },
+    {
+      "id": "AR07943932349169795073",
+      "name": "HUYCORRET LLCĐã xác minh",
+      "legal_name": "HUYCORRET LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07943932349169795073/creative/CR17840049371572338689?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_31",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11394634936594178303"
+        }
+      ]
+    },
+    {
+      "id": "AR01947777847808491521",
+      "name": "21312 Providencia LLCĐã xác minh",
+      "legal_name": "21312 Providencia LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01947777847808491521/creative/CR02353702972254322689?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_32",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/3628593035949139780"
+        }
+      ]
+    },
+    {
+      "id": "AR16025691770826260481",
+      "name": "T & T IncĐã xác minh",
+      "legal_name": "T & T IncĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16025691770826260481/creative/CR17211352196222812161?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_33",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9707189069392102160"
+        }
+      ]
+    },
+    {
+      "id": "AR16869674010089095169",
+      "name": "Banh Mi Minh NhatĐã xác minh",
+      "legal_name": "Banh Mi Minh NhatĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16869674010089095169/creative/CR06724333435797635073?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_34",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/18176254483203867093"
+        }
+      ]
+    },
+    {
+      "id": "AR15667989139020578817",
+      "name": "Tô Văn VụĐã xác minh",
+      "legal_name": "Tô Văn VụĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15667989139020578817/creative/CR05682791909328683009?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_35",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/1693713205085648518"
+        }
+      ]
+    },
+    {
+      "id": "AR17794256224103956481",
+      "name": "J & J, LLCĐã xác minh",
+      "legal_name": "J & J, LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17794256224103956481/creative/CR05693600108629721089?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_36",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13796904273243162372"
+        }
+      ]
+    },
+    {
+      "id": "AR07291191190983016449",
+      "name": "SERP CORP TV DIGITAL ASSESSORIA EM MARKETING LTDAĐã xác minh",
+      "legal_name": "SERP CORP TV DIGITAL ASSESSORIA EM MARKETING LTDAĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07291191190983016449/creative/CR16778002228123271169?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_37",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/2814056956285573799"
+        }
+      ]
+    },
+    {
+      "id": "AR01385099886076100609",
+      "name": "Khuất Gia QuyếtĐã xác minh",
+      "legal_name": "Khuất Gia QuyếtĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01385099886076100609/creative/CR00711863143952809985?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_38",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6322781678233727632"
+        }
+      ]
+    },
+    {
+      "id": "AR04620921649812733953",
+      "name": "THE LIGHT CO ENTERPRISES PTY LTDĐã xác minh",
+      "legal_name": "THE LIGHT CO ENTERPRISES PTY LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04620921649812733953/creative/CR04094431914285334529?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_39",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/404547325292660986"
+        }
+      ]
+    },
+    {
+      "id": "AR05793537056940490753",
+      "name": "M&Y ONLINE HUB LTDĐã xác minh",
+      "legal_name": "M&Y ONLINE HUB LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05793537056940490753/creative/CR05529157836774309889?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_40",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6168035345288135357"
+        }
+      ]
+    },
+    {
+      "id": "AR01414869343786762241",
+      "name": "FATIMA TECHNOLOGIES (PRIVATE) LIMITEDĐã xác minh",
+      "legal_name": "FATIMA TECHNOLOGIES (PRIVATE) LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01414869343786762241/creative/CR17315878506067918849?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_41",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10230154328007948182"
+        }
+      ]
+    },
+    {
+      "id": "AR06439072058868498433",
+      "name": "AL NEJOUD A/C UNITES FIX CONT.Đã xác minh",
+      "legal_name": "AL NEJOUD A/C UNITES FIX CONT.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06439072058868498433/creative/CR09130786294438297601?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_42",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17370080745985106377"
+        }
+      ]
+    },
+    {
+      "id": "AR05000254810662895617",
+      "name": "MAILINH TRAVEL TOURIST AND SERVICES COMPANY LIMITED - TRAVEL BRANCH IN DA NANGĐã xác minh",
+      "legal_name": "MAILINH TRAVEL TOURIST AND SERVICES COMPANY LIMITED - TRAVEL BRANCH IN DA NANGĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR05000254810662895617/creative/CR13335942182146670593?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_43",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12833814786236975970"
+        }
+      ]
+    },
+    {
+      "id": "AR12435662894547337217",
+      "name": "Vũ Văn PhúcĐã xác minh",
+      "legal_name": "Vũ Văn PhúcĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR12435662894547337217/creative/CR05319839959903895553?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_44",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4762917427043070322"
+        }
+      ]
+    },
+    {
+      "id": "AR09492138042127810561",
+      "name": "PHUONG LLCĐã xác minh",
+      "legal_name": "PHUONG LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09492138042127810561/creative/CR02569628226812903425?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_45",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4837469519764993679"
+        }
+      ]
+    },
+    {
+      "id": "AR13161921927062749185",
+      "name": "INTERAMERICA GROUP",
+      "legal_name": "INTERAMERICA GROUP",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR13161921927062749185/creative/CR04046140401520738305?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_46",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12983423868501132385"
+        }
+      ]
+    },
+    {
+      "id": "AR14451554001637867521",
+      "name": "CÔNG TY TNHH ADSDIGIĐã xác minh",
+      "legal_name": "CÔNG TY TNHH ADSDIGIĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14451554001637867521/creative/CR12051799187444989953?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_47",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12651173936123676710"
+        }
+      ]
+    },
+    {
+      "id": "AR16914288575581782017",
+      "name": "CÔNG TY CỔ PHẦN PHÁT HÀNH SÁCH THÀNH PHỐ HỒ CHÍ MINH - FAHASAĐã xác minh",
+      "legal_name": "CÔNG TY CỔ PHẦN PHÁT HÀNH SÁCH THÀNH PHỐ HỒ CHÍ MINH - FAHASAĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16914288575581782017/creative/CR12154854187523375105?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_48",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/5277063252756348549"
+        }
+      ]
+    },
+    {
+      "id": "AR16874404444119236609",
+      "name": "安柏鸿睿（北京）科技发展有限公司Đã xác minh",
+      "legal_name": "安柏鸿睿（北京）科技发展有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR16874404444119236609/creative/CR04903876543404572673?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_49",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9116443679052576961"
+        }
+      ]
+    },
+    {
+      "id": "AR01781161042601050113",
+      "name": "SUPERADS INTERNATIONAL TECHNOLOGY LIMITEDĐã xác minh",
+      "legal_name": "SUPERADS INTERNATIONAL TECHNOLOGY LIMITEDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01781161042601050113/creative/CR02994215748664033281?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_50",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: mecool.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho mecool.com",
+          "landing_page": "https://www.mecool.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/11230489423604534514"
+        }
+      ]
+    }
+  ]
+}

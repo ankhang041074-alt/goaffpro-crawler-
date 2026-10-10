@@ -1,0 +1,43 @@
+{
+  "domain": "loveyagutsbox.com",
+  "updated_at": "2026-10-10T14:42:31.473168",
+  "total_advertisers": 1,
+  "total_ads": 2,
+  "super_scale_count": 0,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR10970744348399894529",
+      "name": "Love Ya Guts Box LLCĐã xác minh",
+      "legal_name": "Love Ya Guts Box LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10970744348399894529/creative/CR12672247251037323265?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: loveyagutsbox.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho loveyagutsbox.com",
+          "landing_page": "https://www.loveyagutsbox.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/945794836577189116"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "domain": "hoffmann-germany.de",
+  "updated_at": "2026-10-10T14:05:17.648318",
+  "total_advertisers": 3,
+  "total_ads": 200,
+  "super_scale_count": 2,
+  "win_ads_count": 1,
+  "test_ads_count": 0,
+  "advertisers": [
+    {
+      "id": "AR02723822079634833409",
+      "name": "Hoffmann Germany GmbHĐã xác minh",
+      "legal_name": "Hoffmann Germany GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR02723822079634833409/creative/CR08529436215244488705?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 177,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 177,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hoffmann-germany.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hoffmann-germany.de",
+          "landing_page": "https://www.hoffmann-germany.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 177,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/10901287142662804962"
+        }
+      ]
+    },
+    {
+      "id": "AR15587614890569760769",
+      "name": "advanced store GmbHĐã xác minh",
+      "legal_name": "advanced store GmbHĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15587614890569760769/creative/CR08298660870741819393?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 20,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 20,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: hoffmann-germany.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hoffmann-germany.de",
+          "landing_page": "https://www.hoffmann-germany.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 20,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6979143428983781411"
+        }
+      ]
+    },
+    {
+      "id": "AR15511961721710313473",
+      "name": "ShopForward B.V.Đã xác minh",
+      "legal_name": "ShopForward B.V.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15511961721710313473/creative/CR09891748422187220993?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 3,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: hoffmann-germany.de",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho hoffmann-germany.de",
+          "landing_page": "https://www.hoffmann-germany.de",
+          "last_shown": "2026-10-10",
+          "duration_days": 3,
+          "image_url": null
+        }
+      ]
+    }
+  ]
+}

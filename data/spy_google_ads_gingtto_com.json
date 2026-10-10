@@ -1,0 +1,331 @@
+{
+  "domain": "gingtto.com",
+  "updated_at": "2026-10-10T14:50:35.220694",
+  "total_advertisers": 10,
+  "total_ads": 115,
+  "super_scale_count": 1,
+  "win_ads_count": 4,
+  "test_ads_count": 5,
+  "advertisers": [
+    {
+      "id": "AR01559044068699275265",
+      "name": "泉州宸晟贸易有限公司Đã xác minh",
+      "legal_name": "泉州宸晟贸易有限公司Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR01559044068699275265/creative/CR10367881530184826881?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 102,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 102,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: gingtto.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gingtto.com",
+          "landing_page": "https://www.gingtto.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 102,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7208805281751827383"
+        }
+      ]
+    },
+    {
+      "id": "AR00305120120294866945",
+      "name": "Orba Luna Bnd SlĐã xác minh",
+      "legal_name": "Orba Luna Bnd SlĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR00305120120294866945/creative/CR17836664525026230273?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: gingtto.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gingtto.com",
+          "landing_page": "https://www.gingtto.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6365669496654281933"
+        }
+      ]
+    },
+    {
+      "id": "AR04058375225748750337",
+      "name": "HỘ KINH DOANH SHOP ĐÊMĐã xác minh",
+      "legal_name": "HỘ KINH DOANH SHOP ĐÊMĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR04058375225748750337/creative/CR01673542991957983233?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: gingtto.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gingtto.com",
+          "landing_page": "https://www.gingtto.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/6388978860886076653"
+        }
+      ]
+    },
+    {
+      "id": "AR08747724552219394049",
+      "name": "ĐẶNG THÚY ANĐã xác minh",
+      "legal_name": "ĐẶNG THÚY ANĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR08747724552219394049/creative/CR02594810135465426945?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: gingtto.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gingtto.com",
+          "landing_page": "https://www.gingtto.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/12872879877931447645"
+        }
+      ]
+    },
+    {
+      "id": "AR15406941945892700161",
+      "name": "BARBARA MARTIREĐã xác minh",
+      "legal_name": "BARBARA MARTIREĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR15406941945892700161/creative/CR07807004462446280705?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 2,
+      "longevity_badge": "win_ads",
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 2,
+      "creatives": [
+        {
+          "id": "CR_SCR_4",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: gingtto.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gingtto.com",
+          "landing_page": "https://www.gingtto.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 2,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/17400930123522186356"
+        }
+      ]
+    },
+    {
+      "id": "AR14714308195157803009",
+      "name": "K&K ADVERTISING LTDĐã xác minh",
+      "legal_name": "K&K ADVERTISING LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR14714308195157803009/creative/CR16864523528257404929?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_5",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: gingtto.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gingtto.com",
+          "landing_page": "https://www.gingtto.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/7241454294661692746"
+        }
+      ]
+    },
+    {
+      "id": "AR10206529023442419713",
+      "name": "ASM ENTERPRISES LLCĐã xác minh",
+      "legal_name": "ASM ENTERPRISES LLCĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10206529023442419713/creative/CR18151715494472712193?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_6",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: gingtto.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gingtto.com",
+          "landing_page": "https://www.gingtto.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9353426481082499693"
+        }
+      ]
+    },
+    {
+      "id": "AR06136845062903955457",
+      "name": "NORTH HUNTINGDON MEDICAL, INC.Đã xác minh",
+      "legal_name": "NORTH HUNTINGDON MEDICAL, INC.Đã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06136845062903955457/creative/CR13787971340973637633?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_7",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: gingtto.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gingtto.com",
+          "landing_page": "https://www.gingtto.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13974101307996561445"
+        }
+      ]
+    },
+    {
+      "id": "AR09491074376297086977",
+      "name": "Nguyễn Thị TâmĐã xác minh",
+      "legal_name": "Nguyễn Thị TâmĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR09491074376297086977/creative/CR14414950915951820801?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_8",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: gingtto.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gingtto.com",
+          "landing_page": "https://www.gingtto.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/16272484165038980772"
+        }
+      ]
+    },
+    {
+      "id": "AR07204433341230088193",
+      "name": "CÔNG TY CỔ PHẦN AMECC GTĐã xác minh",
+      "legal_name": "CÔNG TY CỔ PHẦN AMECC GTĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR07204433341230088193/creative/CR04492160566093152257?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_9",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: gingtto.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho gingtto.com",
+          "landing_page": "https://www.gingtto.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/4521253070751764329"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "domain": "ebanel.com",
+  "updated_at": "2026-10-10T12:44:46.918268",
+  "total_advertisers": 1,
+  "total_ads": 3,
+  "win_ads_count": 1,
+  "super_scale_count": 0,
+  "evergreen_percent": 0,
+  "advertisers": [
+    {
+      "id": "AR06407937222464503809",
+      "name": "NGUYỄN XUÂN VŨ",
+      "legal_name": "NGUYỄN XUÂN VŨ",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR06407937222464503809/creative/CR17229585844222820353?region=anywhere",
+      "first_seen": "2026-04-01",
+      "last_shown": "2026-10-10",
+      "duration_days": 35,
+      "longevity_badge": "win_ads",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 3,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "search",
+          "format_label": "Google Search Ads",
+          "headline": "Ebanel.com Official Offers & Deals",
+          "description": "Shop online at ebanel.com. Worldwide shipping and customer warranty.",
+          "landing_page": "https://www.ebanel.com/?ref=aff_ar0640",
+          "last_shown": "2026-10-10",
+          "duration_days": 35,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/13712737865725242092"
+        }
+      ],
+      "scale_label": "🟢 Đang chạy đều (2 - 9 ads)"
+    }
+  ],
+  "test_ads_count": 0
+}

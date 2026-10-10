@@ -1,0 +1,137 @@
+{
+  "domain": "namokimods.com",
+  "updated_at": "2026-10-10T14:02:29.260585",
+  "total_advertisers": 4,
+  "total_ads": 37,
+  "super_scale_count": 1,
+  "win_ads_count": 0,
+  "test_ads_count": 3,
+  "advertisers": [
+    {
+      "id": "AR03857494228015775745",
+      "name": "NAMOKI PTE LTDĐã xác minh",
+      "legal_name": "NAMOKI PTE LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR03857494228015775745/creative/CR15803949781929164801?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 34,
+      "longevity_badge": "super_scale",
+      "scale_label": "🔥 Quy mô lớn (≥10 mẫu ads)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 34,
+      "creatives": [
+        {
+          "id": "CR_SCR_0",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: namokimods.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho namokimods.com",
+          "landing_page": "https://www.namokimods.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 34,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/187440986959149919"
+        }
+      ]
+    },
+    {
+      "id": "AR17834688590961967105",
+      "name": "DAVID JOHN SCHWARTZ JRĐã xác minh",
+      "legal_name": "DAVID JOHN SCHWARTZ JRĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17834688590961967105/creative/CR13265660093229170689?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_1",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: namokimods.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho namokimods.com",
+          "landing_page": "https://www.namokimods.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR10103687929915244545",
+      "name": "NGUYỄN THỊ ANH THƠĐã xác minh",
+      "legal_name": "NGUYỄN THỊ ANH THƠĐã xác minh",
+      "country": "Việt Nam",
+      "country_flag": "🇻🇳",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR10103687929915244545/creative/CR14642853391189934081?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_2",
+          "format": "search",
+          "format_label": "Google Text Ads",
+          "headline": "Quảng cáo Google: namokimods.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho namokimods.com",
+          "landing_page": "https://www.namokimods.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "id": "AR17139445346947039233",
+      "name": "TF AGENCY LTDĐã xác minh",
+      "legal_name": "TF AGENCY LTDĐã xác minh",
+      "country": "Quốc tế",
+      "country_flag": "🌐",
+      "is_verified": true,
+      "advertiser_url": "https://adstransparency.google.com/advertiser/AR17139445346947039233/creative/CR12060549659324579841?region=anywhere",
+      "first_seen": "2026-10-10",
+      "last_shown": "2026-10-10",
+      "duration_days": 1,
+      "longevity_badge": "test",
+      "scale_label": "🟡 Mới thử nghiệm (1 ad)",
+      "formats": [
+        "search",
+        "image"
+      ],
+      "ad_count": 1,
+      "creatives": [
+        {
+          "id": "CR_SCR_3",
+          "format": "image",
+          "format_label": "Google Display Ads",
+          "headline": "Quảng cáo Google: namokimods.com",
+          "description": "Mẫu quảng cáo hiển thị trên Google Ads cho namokimods.com",
+          "landing_page": "https://www.namokimods.com",
+          "last_shown": "2026-10-10",
+          "duration_days": 1,
+          "image_url": "https://tpc.googlesyndication.com/archive/simgad/9418950537927319265"
+        }
+      ]
+    }
+  ]
+}
